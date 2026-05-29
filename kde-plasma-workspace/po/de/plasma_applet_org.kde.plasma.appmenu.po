@@ -1,0 +1,76 @@
+# Copyright (C) 2025 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2017, 2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2022 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2023 Jannick Kuhr <opensource@kuhr.org>
+# SPDX-FileCopyrightText: 2025-2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.appmenu\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 22:45+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "Suchen"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "Suchen …"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "Einzelnen Knopf für Anwendungsmenü verwenden"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "Vollständiges Anwendungsmenü anzeigen"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr "Zeigt Menüs für Anwendungen auf unterschiedlichen Bildschirmen an"
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "Ein Menü öffnen"
+
+#~ msgid "Search..."
+#~ msgstr "Suchen ..."
+
+#~ msgid "application-menu"
+#~ msgstr "application-menu"
+
+#~ msgid "Application Menu Widget is disabled"
+#~ msgstr "Das Anwendungsmenü-Miniprogramm ist deaktiviert"
+
+#~ msgctxt "it being the 'Application Menu Widget'"
+#~ msgid ""
+#~ "Go to System Settings > Application Style > Fine Tuning (tab) to enable "
+#~ "it."
+#~ msgstr ""
+#~ "Aktivieren Sie es in den Systemeinstellungen -> Anwendungs-Stil auf der "
+#~ "Karteikarte Feineinstellungen"
+
+#~ msgid "emblem-warning"
+#~ msgstr "emblem-warning"

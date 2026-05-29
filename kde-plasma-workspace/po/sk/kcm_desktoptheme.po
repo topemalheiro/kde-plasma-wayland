@@ -1,0 +1,463 @@
+# translation of kcm_desktopthemedetails.po to Slovak
+# sparc3 <sparc3@azet.sk>, 2008.
+# Michal Sulek <misurel@gmail.com>, 2010.
+# Roman Paholík <wizzardsk@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2018, 2019, 2020, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-27 00:47+0000\n"
+"PO-Revision-Date: 2023-08-06 11:25+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#. i18n: ectx: label, entry (name), group (Theme)
+#: desktopthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current Plasma Style"
+msgstr "Názov aktuálneho Plasma štýlu"
+
+#: kcm.cpp:111
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Nepodarilo sa vytvoriť dočasný súbor."
+
+#: kcm.cpp:122
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "Nepodarilo sa stiahnuť tému: %1"
+
+#: kcm.cpp:147
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Téma nainštalovaná úspešne."
+
+#: kcm.cpp:150 kcm.cpp:156
+#, kde-format
+msgid "Theme installation failed."
+msgstr "Inštalácia témy zlyhala."
+
+#: kcm.cpp:250
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "Odstraňovanie témy zlyhalo: %1"
+
+#: plasma-apply-desktoptheme.cpp:33
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+"Tento nástroj umožňuje nastaviť tému aktuálneho Plasma sedenia bez toho, aby "
+"ste ju omylom nastavili na tému, ktorá buď nie je k dispozícii, alebo ktorá "
+"je už nastavená."
+
+#: plasma-apply-desktoptheme.cpp:37
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+"Názov témy, ktorú chcete nastaviť pre svoju aktuálne sedenie Plasmy (pri "
+"prechode úplnou cestou sa použije iba posledná časť cesty)"
+
+#: plasma-apply-desktoptheme.cpp:38
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr "Zobraziť všetky témy dostupné v systéme (a ktorá je aktuálna téma)"
+
+#: plasma-apply-desktoptheme.cpp:55
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+"Požadovaná téma „%1“ je už nastavená ako téma pre aktuálne sedenie Plasmy."
+
+#: plasma-apply-desktoptheme.cpp:76
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr "Téma aktuálneho Plasma sedenia bola nastavená na %1"
+
+#: plasma-apply-desktoptheme.cpp:78
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+"Nepodarilo sa nájsť tému „%1“. Téma by mala byť jednou z nasledujúcich "
+"možností: %2"
+
+#: plasma-apply-desktoptheme.cpp:86
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
+msgstr "Vo vašom systéme máte nasledujúce Plasma témy:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "Všetky štýly"
+
+#: ui/main.qml:102
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "Svetlé štýly"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr "Tmavé štýly"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr "Kompatibilné z farebnou schémou"
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Install from File…"
+msgstr "Nainštalovať zo súboru..."
+
+#: ui/main.qml:119
+#, kde-format
+msgid "Get New…"
+msgstr "Získať nové..."
+
+#: ui/main.qml:132
+#, kde-format
+msgid "Follows color scheme"
+msgstr "Nasleduje farebnú schému"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Edit Theme…"
+msgstr "Upraviť tému..."
+
+#: ui/main.qml:158
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr "Štýl Plasma"
+
+#: ui/main.qml:160
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr "Tento modul vám umožní vybrať Plasma štýl."
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr "Nie je možné delete system-installed Plasma styles"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr "Neodstraňovať tento štýl Plasma"
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Open Theme"
+msgstr "Otvoriť tému"
+
+#: ui/main.qml:191
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "Súbory tém (*.zip *.tar.gz *.tar.bz2)"
+
+#~ msgid "Remove Theme"
+#~ msgstr "Odstrániť tému"
+
+#~ msgid "Restore Theme"
+#~ msgstr "Obnoviť tému"
+
+#~ msgid "Get New Plasma Styles…"
+#~ msgstr "Získať nové štýly Plasma..."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "sparc3,Michal Šulek"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sparc3@azet.sk,misurel@gmail.com"
+
+#~ msgid "David Rosca"
+#~ msgstr "David Rosca"
+
+#~ msgid "Search..."
+#~ msgstr "Hľadať..."
+
+#, fuzzy
+#~ msgid "Plasma Styles"
+#~ msgstr "Štýl Plasma"
+
+#~ msgid "Download New Plasma Styles"
+#~ msgstr "Stiahnuť nové štýly Plasma"
+
+#~ msgid "Choose the Plasma theme"
+#~ msgstr "Vybrať Plasma tému"
+
+#~ msgid "Configure Desktop Theme"
+#~ msgstr "Nastaviť tému plochy"
+
+#~ msgid "Theme removal failed."
+#~ msgstr "Odstránenie témy zlyhalo."
+
+#~ msgid ""
+#~ "<h1>Desktop Theme</h1>This module allows you to modify the visual "
+#~ "appearance of the desktop."
+#~ msgstr "<h1>Téma plochy</h1>Tento modul umožňuje upraviť vzhľad plochy."
+
+#~ msgid "KDE Desktop Theme Module"
+#~ msgstr "Modul témy plochy KDE"
+
+#~ msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+#~ msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#~ msgid "Theme installation failed. (%1)"
+#~ msgstr "Inštalácia témy zlyhala. (%1)"
+
+#~ msgid "Details"
+#~ msgstr "Detaily"
+
+#~ msgctxt "plasma name"
+#~ msgid "Panel Background"
+#~ msgstr "Pozadie panelu"
+
+#~ msgctxt "plasma name"
+#~ msgid "Kickoff"
+#~ msgstr "Kickoff"
+
+#~ msgctxt "plasma name"
+#~ msgid "Task Items"
+#~ msgstr "Položky úloh"
+
+#~ msgctxt "plasma name"
+#~ msgid "Widget Background"
+#~ msgstr "Pozadie widgetu"
+
+#~ msgctxt "plasma name"
+#~ msgid "Translucent Background"
+#~ msgstr "Priesvitné pozadie"
+
+#~ msgctxt "plasma name"
+#~ msgid "Dialog Background"
+#~ msgstr "Pozadie dialógu"
+
+#~ msgctxt "plasma name"
+#~ msgid "Analog Clock"
+#~ msgstr "Analógové hodiny"
+
+#~ msgctxt "plasma name"
+#~ msgid "Notes"
+#~ msgstr "Poznámky"
+
+#~ msgctxt "plasma name"
+#~ msgid "Tooltip"
+#~ msgstr "Rady"
+
+#~ msgctxt "plasma name"
+#~ msgid "Pager"
+#~ msgstr "Prepínač plôch"
+
+#~ msgctxt "plasma name"
+#~ msgid "Run Command Dialog"
+#~ msgstr "Dialóg pre spúšťanie príkazov"
+
+#~ msgctxt "plasma name"
+#~ msgid "Shutdown Dialog"
+#~ msgstr "Dialóg vypnutia"
+
+#~ msgctxt "plasma name"
+#~ msgid "Icons"
+#~ msgstr "Ikony"
+
+#~ msgid "(Customized)"
+#~ msgstr "(Prispôsobené)"
+
+#~ msgid "User customized theme"
+#~ msgstr "Užívateľom prispôsobená téma"
+
+#~ msgid ""
+#~ "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
+#~ msgstr "Položky témy boli zmenené. Naozaj chcete odstrániť tému \"%1\"?"
+
+#~ msgid "Removal of the default desktop theme is not allowed."
+#~ msgstr "Odstránenie štandardnej témy nie je povolené."
+
+#~ msgid "Are you sure you wish remove the \"%1\" theme?"
+#~ msgstr "Naozaj chcete odstrániť tému \"%1\"?"
+
+#~ msgid ""
+#~ "Please apply theme item changes (with a new theme name) before attempting "
+#~ "to export theme."
+#~ msgstr "Použite zmeny témy (s novým názvom témy) pred exportom."
+
+#~ msgid "Export Desktop Theme"
+#~ msgstr "Exportovať tému plochy"
+
+#~ msgid "Export theme to file"
+#~ msgstr "Exportovať tému do súboru"
+
+#~ msgid "Archive (*.zip)"
+#~ msgstr "Archív (*.zip)"
+
+#~ msgid "Theme Item"
+#~ msgstr "Položka témy"
+
+#~ msgid "Source"
+#~ msgstr "Zdroj"
+
+#~ msgctxt ""
+#~ "%1 is the name of the theme, %2 is the type of the element (background, "
+#~ "icon, note, etc)"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "File..."
+#~ msgstr "Súbor..."
+
+#~ msgid "Select File to Use for %1"
+#~ msgstr "Vyberte súbor na použitie pre %1"
+
+#~ msgid " Author: %1"
+#~ msgstr " Autor: %1"
+
+#~ msgid "Version: %1"
+#~ msgstr "Verzia:  %1"
+
+#~ msgid "Desktop Theme Details"
+#~ msgstr "Detaily témy plochy"
+
+#~ msgid "Choose an item and customize it by assigning it a theme"
+#~ msgstr "Vyberte položku a upravte ju pomocou pridelenia témy"
+
+#~ msgid ""
+#~ "You can set any theme to any item. The available themes for the item are "
+#~ "in the dropdown box on the right."
+#~ msgstr ""
+#~ "Pre akúkoľvek položku môžete nastaviť akúkoľvek tému. Dostupné témy pre "
+#~ "položku sa nachádzajú vpravo v rozbaľovacom zozname."
+
+#~ msgid "Enable more options"
+#~ msgstr "Povoliť viac možností"
+
+#~ msgid ""
+#~ "This will expand the dialog and give you options to export your custom "
+#~ "theme as well as to remove a theme."
+#~ msgstr ""
+#~ "Týmto rozšírite dialóg, čím získate možnosť exportovať svoju vlastnú tému "
+#~ "prípadne odstrániť určitú tému."
+
+#~ msgid "More"
+#~ msgstr "Viac"
+
+#~ msgid "Remove the selected theme"
+#~ msgstr "Odstrániť vybranú tému"
+
+#~ msgid ""
+#~ "Clicking this button will remove the selected theme. You will be asked "
+#~ "for confirmation."
+#~ msgstr ""
+#~ "Kliknutím na toto tlačidlo odstránite vybranú tému. Bude vyžadované "
+#~ "potvrdenie."
+
+#~ msgid "Save your theme in a zip archive"
+#~ msgstr "Uložiť vašu tému do archívu zip"
+
+#~ msgid ""
+#~ "You can save your theme in a zip archive in order to share it with the "
+#~ "community."
+#~ msgstr ""
+#~ "Svoju tému môžete uložiť do archívu zip, aby ste ju mohli zdielať s "
+#~ "komunitou."
+
+#~ msgid "Export Theme to File..."
+#~ msgstr "Exportovať tému do súboru..."
+
+#~ msgid "New theme name:"
+#~ msgstr "Nový názov témy:"
+
+#~ msgid "Custom theme name"
+#~ msgstr "Názov vlastnej témy"
+
+#~ msgid "Give a name to your custom theme."
+#~ msgstr "Zadajte názov svojej vlastnej témy."
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Custom theme author "
+#~ msgstr "Autor vlastnej témy "
+
+#~ msgid "Enter the author name of your custom theme."
+#~ msgstr "Zadajte meno autora svojej vlastnej témy."
+
+#~ msgid "Version:"
+#~ msgstr "Verzia:"
+
+#~ msgid "Custom theme version number"
+#~ msgstr "Číslo verzie vlastnej témy"
+
+#~ msgid "Enter the version number of your custom theme."
+#~ msgstr "Zadajte číslo verzie svojej vlastnej témy."
+
+#~ msgid "Description:"
+#~ msgstr "Popis:"
+
+#~ msgid "Custom theme description"
+#~ msgstr "Popis vlastnej témy"
+
+#~ msgid "Enter a description which will explain your custom theme."
+#~ msgstr "Zadajte popis svojej vlastnej témy."
+
+#~ msgid "Select theme from above to customize"
+#~ msgstr "Vyberte tému, ktorú chcete prispôsobiť"
+
+#~ msgid "Theme Author"
+#~ msgstr "Autor témy"
+
+#~ msgid "Theme Name"
+#~ msgstr "Názov témy"
+
+#~ msgid "Theme Version"
+#~ msgstr "Verzia témy"
+
+#~ msgid "The theme description goes here..."
+#~ msgstr "Sem pôjde popis témy..."
+
+#~ msgid ""
+#~ "Choose a start theme in this list then customize some items below. All "
+#~ "less important items not listed below will use this start theme."
+#~ msgstr ""
+#~ "Vyberte si počiatočnú tému z tohto zoznamu a potom upravte niektoré "
+#~ "položky nižšie. Všetky menej dôležité položky, ktoré sa nižšie "
+#~ "nenachádzajú sa použijú z počiatočnej témy."
+
+#~ msgid "Karol Szwed"
+#~ msgstr "Karol Szwed"
+
+#~ msgid "Daniel Molkentin"
+#~ msgstr "Daniel Molkentin"
+
+#~ msgid "Ralf Nolden"
+#~ msgstr "Ralf Nolden"
+
+#~ msgid "KCMDesktopTheme"
+#~ msgstr "KCMDesktopTheme"

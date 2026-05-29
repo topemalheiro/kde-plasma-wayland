@@ -1,0 +1,121 @@
+# translation of plasma_applet_trash.po to galician
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# mvillarino <mvillarino@users.sourceforge.net>, 2008.
+# marce villarino <mvillarino@users.sourceforge.net>, 2009.
+# Marce Villarino <mvillarino@kde-espana.es>, 2012, 2013.
+# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016.
+# SPDX-FileCopyrightText: 2025 Adrián Chaves (Gallaecio)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_trash\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-05-17 13:04+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.1\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "Lixo"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "Baleirando…"
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Un elemento."
+msgstr[1] "%1 elementos."
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "Baleiro."
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "Abrir"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "Baleirar"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "Configuración do lixo…"
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "Baleiro"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr ""
+#~ "Lixo\n"
+#~ "Baleiro"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "Lixo\n"
+#~ "Un elemento"
+#~ msgstr[1] ""
+#~ "Lixo\n"
+#~ "%1 elementos"
+
+#~ msgid ""
+#~ "Trash \n"
+#~ " Empty"
+#~ msgstr ""
+#~ "Lixo \n"
+#~ " Baleiro"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Baleirar o lixo "
+
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr "Desexa realmente baleirar o lixo? Hanse borrar todos os elementos."
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "&Empty Trashcan"
+#~ msgstr "&Baleirar o lixo"
+
+#~ msgid "&Menu"
+#~ msgstr "&Menú"
+
+#~ msgctxt "@title:window"
+#~ msgid "Empty Trash"
+#~ msgstr "Baleirar o lixo "
+
+#~ msgid "Emptying Trashcan..."
+#~ msgstr "Estáse a baleirar o lixo..."

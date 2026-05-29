@@ -1,0 +1,463 @@
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+# Fuminobu Takeyama <ftake@geeko.jp>, 2016.
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2020.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2016, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmashell\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"PO-Revision-Date: 2025-02-21 22:17+0900\n"
+"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Fuminobu TAKEYAMA, Ryuichi Yamada"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ftake@geeko.jp, ryuichi_ya220@outlook.jp"
+
+#: currentcontainmentactionsmodel.cpp:201
+#, kde-format
+msgid "Configure Mouse Actions Plugin"
+msgstr "マウスアクションプラグインを設定"
+
+#: desktopview.cpp:213
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Dev"
+msgstr "KDE Plasma 6.0 Dev"
+
+#: desktopview.cpp:216
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Alpha"
+msgstr "KDE Plasma 6.0 Alpha"
+
+#: desktopview.cpp:219
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 1"
+msgstr "KDE Plasma 6.0 Beta 1"
+
+#: desktopview.cpp:222
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 2"
+msgstr "KDE Plasma 6.0 Beta 2"
+
+#: desktopview.cpp:225
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC1"
+msgstr "KDE Plasma 6.0 RC1"
+
+#: desktopview.cpp:228
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC2"
+msgstr "KDE Plasma 6.0 RC2"
+
+#: desktopview.cpp:254
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Dev"
+msgstr "KDE Plasma %1 Dev"
+
+#: desktopview.cpp:258
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Beta"
+msgstr "KDE Plasma %1 Beta"
+
+#: desktopview.cpp:261
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "KDE Plasma %1 Beta %2"
+msgstr "KDE Plasma %1 Beta %2"
+
+#: desktopview.cpp:265
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1"
+msgstr "KDE Plasma %1"
+
+#: desktopview.cpp:271
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Visit bugs.kde.org to report issues"
+msgstr "bugs.kde.org で問題を報告してください"
+
+#: desktopview.cpp:279
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Plasma Version"
+msgstr "Plasma バージョンをコピー"
+
+#: desktopview.cpp:285
+#, kde-format
+msgctxt "@action:button"
+msgid "Report a Bug…"
+msgstr "バグを報告…"
+
+#: desktopview.cpp:295
+#, kde-format
+msgctxt "@title:menu"
+msgid "Hide Preview Banner"
+msgstr "プレビューバナーを隠す"
+
+#: desktopview.cpp:297
+#, kde-format
+msgctxt "@action:button Hide the preview banner until the system is restarted"
+msgid "Hide Until Restart"
+msgstr "再起動するまで隠す"
+
+#: desktopview.cpp:304
+#, kde-format
+msgctxt "@action:button Hide the preview banner permanently"
+msgid "Hide Permanently…"
+msgstr "完全に隠す..."
+
+#: desktopview.cpp:310
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Are you sure you want to permanently hide the preview banner?<nl/><nl/>This "
+"action can only be undone by removing the line beginning with "
+"<icode>ShowDesktopPreviewBanner</icode> in the <filename>kdeglobals</"
+"filename> config file."
+msgstr ""
+"本当にプレビューバナーを完全に隠しますか？<nl/><nl/>このアクションは "
+"<filename>kdeglobals</filename> 設定ファイルの "
+"<icode>ShowDesktopPreviewBanner</icode> で始まる行を削除することによってのみ"
+"取り消せます。"
+
+#: desktopview.cpp:312
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide Preview Banner?"
+msgstr "プレビューバナーを隠しますか？"
+
+#: desktopview.cpp:543 desktopview.cpp:559
+#, kde-format
+msgid "Enter Edit Mode"
+msgstr "編集モードを開始"
+
+#: desktopview.cpp:557
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "編集モードを終了"
+
+#: main.cpp:108
+#, kde-format
+msgid "Plasma Shell"
+msgstr "Plasma シェル"
+
+#: main.cpp:121
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "QML JavaScript デバッガを有効にする "
+
+#: main.cpp:124
+#, kde-format
+msgid "Do not restart plasma-shell automatically after a crash"
+msgstr "クラッシュ後に plasma-shell を自動的に再起動しない"
+
+#: main.cpp:127
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "与えられたシェルプラグインの読み込みを強制する"
+
+#: main.cpp:131
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "既存のインスタンスを置換"
+
+#: main.cpp:134
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr "ユーザフィードバックのために利用可能なオプションをリストします"
+
+#: main.cpp:190
+#, kde-format
+msgid "Plasma Failed To Start"
+msgstr "Plasma の起動に失敗"
+
+#: main.cpp:191
+#, kde-format
+msgid ""
+"Plasma is unable to start as it could not correctly use OpenGL 2 or software "
+"fallback\n"
+"Please check that your graphic drivers are set up correctly."
+msgstr ""
+"OpenGL 2 とソフトウェアによるフォールバックのいずれも使用できないため、"
+"Plasma を起動できません。\n"
+"グラフィックドライバが正しく設定されているか確認してください。"
+
+#: osd.cpp:67
+#, kde-format
+msgctxt "Brightness OSD: display name and brightness percentage"
+msgid "%1: %2%"
+msgstr "%1: %2%"
+
+#: osd.cpp:95
+#, kde-format
+msgctxt "OSD informing that the system is muted, keep short"
+msgid "Audio Muted"
+msgstr "オーディオミュート"
+
+#: osd.cpp:118
+#, kde-format
+msgctxt "OSD informing that the microphone is muted, keep short"
+msgid "Microphone Muted"
+msgstr "マイクミュート"
+
+#: osd.cpp:134
+#, kde-format
+msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
+msgid "%1 Muted"
+msgstr "%1 がミュートされました"
+
+#: osd.cpp:156
+#, kde-format
+msgctxt "touchpad was enabled, keep short"
+msgid "Touchpad On"
+msgstr "タッチパッドオン"
+
+#: osd.cpp:158
+#, kde-format
+msgctxt "touchpad was disabled, keep short"
+msgid "Touchpad Off"
+msgstr "タッチパッドオフ"
+
+#: osd.cpp:165
+#, kde-format
+msgctxt "wireless lan was enabled, keep short"
+msgid "Wifi On"
+msgstr "Wifi オン"
+
+#: osd.cpp:167
+#, kde-format
+msgctxt "wireless lan was disabled, keep short"
+msgid "Wifi Off"
+msgstr "Wifi オフ"
+
+#: osd.cpp:174
+#, kde-format
+msgctxt "Bluetooth was enabled, keep short"
+msgid "Bluetooth On"
+msgstr "Bluetooth オン"
+
+#: osd.cpp:176
+#, kde-format
+msgctxt "Bluetooth was disabled, keep short"
+msgid "Bluetooth Off"
+msgstr "Bluetooth オフ"
+
+#: osd.cpp:183
+#, kde-format
+msgctxt "mobile internet was enabled, keep short"
+msgid "Mobile Internet On"
+msgstr "モバイルインターネットオン"
+
+#: osd.cpp:185
+#, kde-format
+msgctxt "mobile internet was disabled, keep short"
+msgid "Mobile Internet Off"
+msgstr "モバイルインターネットオフ"
+
+#: osd.cpp:193
+#, kde-format
+msgctxt ""
+"on screen keyboard was enabled because physical keyboard got unplugged, keep "
+"short"
+msgid "On-Screen Keyboard Activated"
+msgstr "オンスクリーンキーボードがアクティブ化されました"
+
+#: osd.cpp:196
+#, kde-format
+msgctxt ""
+"on screen keyboard was disabled because physical keyboard was plugged in, "
+"keep short"
+msgid "On-Screen Keyboard Deactivated"
+msgstr "オンスクリーンキーボードが非アクティブ化されました"
+
+#: osd.cpp:203
+#, kde-format
+msgctxt "power management was inhibited, keep short"
+msgid "Sleep and Screen Locking Blocked"
+msgstr "自動的なスリープと画面ロックが無効化されました"
+
+#: osd.cpp:205
+#, kde-format
+msgctxt "power management was uninhibited, keep short"
+msgid "Sleep and Screen Locking Unblocked"
+msgstr "自動的なスリープと画面ロックが有効化されました"
+
+#: osd.cpp:215
+#, kde-format
+msgctxt "Power profile was changed to power save mode, keep short"
+msgid "Power Save Mode"
+msgstr "省電力モード"
+
+#: osd.cpp:218
+#, kde-format
+msgctxt "Power profile was changed to balanced mode, keep short"
+msgid "Balanced Power Mode"
+msgstr "バランスモード"
+
+#: osd.cpp:221
+#, kde-format
+msgctxt "Power profile was changed to performance mode, keep short"
+msgid "Performance Mode"
+msgstr "パフォーマンスモード"
+
+#: panelview.cpp:458
+#, kde-format
+msgid ""
+"With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are "
+"known to cause poor window drag and resize performance. Consider using other "
+"settings."
+msgstr ""
+"X11 環境で NVIDIA GPU が使用されている場合、フローティングスタイルと「自動調"
+"整」透明化モードがウィンドウのドラッグもしくはリサイズ操作時にパフォーマンス"
+"の問題を起こすことが知られています。別の設定を使用することを検討してくださ"
+"い。"
+
+#: panelview.cpp:1144
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Panel Configuration"
+msgstr "パネル設定を隠す"
+
+#: panelview.cpp:1146
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Panel Configuration"
+msgstr "パネル設定を表示"
+
+#: qml/OsdItem.qml:34
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr ""
+
+#: shellcontainmentconfig.cpp:107
+#, kde-format
+msgid "Internal Screen on %1"
+msgstr "%1 の内部スクリーン"
+
+#: shellcontainmentconfig.cpp:111
+#, kde-format
+msgctxt "Screen manufacturer and model on connector"
+msgid "%1 %2 on %3"
+msgstr "%3 の %1 %2"
+
+#: shellcontainmentconfig.cpp:134
+#, kde-format
+msgid "Disconnected Screen %1"
+msgstr "切断されたスクリーン %1"
+
+#: shellcorona.cpp:174 shellcorona.cpp:176
+#, kde-format
+msgid "Show Desktop"
+msgstr "デスクトップを表示"
+
+#: shellcorona.cpp:176
+#, kde-format
+msgid "Hide Desktop"
+msgstr "デスクトップを隠す"
+
+#: shellcorona.cpp:192
+#, kde-format
+msgid "Activate Application Launcher"
+msgstr "アプリケーションランチャーをアクティブ化"
+
+#: shellcorona.cpp:200
+#, kde-format
+msgid "Show Activity Switcher"
+msgstr "アクティビティスイッチャーを表示"
+
+#: shellcorona.cpp:209
+#, kde-format
+msgid "Switch to Previous Activity"
+msgstr "前のアクティビティに切り替え"
+
+#: shellcorona.cpp:217
+#, kde-format
+msgid "Switch to Next Activity"
+msgstr "次のアクティビティに切り替え"
+
+#: shellcorona.cpp:232
+#, kde-format
+msgid "Activate Task Manager Entry %1"
+msgstr "タスクマネージャのエントリ %1 をアクティベート"
+
+#: shellcorona.cpp:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage Desktops and Panels…"
+msgstr "デスクトップとパネルを管理..."
+
+#: shellcorona.cpp:289
+#, kde-format
+msgid "Move keyboard focus between panels"
+msgstr "キーボードフォーカスをパネル間で移動"
+
+#: shellcorona.cpp:2302
+#, kde-format
+msgid "Add Panel"
+msgstr "パネルを追加"
+
+#: shellcorona.cpp:2385
+#, kde-format
+msgctxt "Creates an empty containment (%1 is the containment name)"
+msgid "Empty %1"
+msgstr "空の%1"
+
+#: softwarerendernotifier.cpp:34
+#, kde-format
+msgid "Software Renderer In Use"
+msgstr "ソフトウェアレンダラを使用中"
+
+#: softwarerendernotifier.cpp:35
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Software Renderer In Use"
+msgstr "ソフトウェアレンダラを使用中"
+
+#: softwarerendernotifier.cpp:36
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Rendering may be degraded"
+msgstr "レンダリングの質が低下する可能性があります"
+
+#: softwarerendernotifier.cpp:46
+#, kde-format
+msgid "Never show again"
+msgstr "再度表示しない"
+
+#: userfeedback.cpp:36
+#, kde-format
+msgid "Panel Count"
+msgstr "パネルの数"
+
+#: userfeedback.cpp:40
+#, kde-format
+msgid "Counts the panels"
+msgstr "パネルの数を数えます"
+
+#~ msgid "Stop Current Activity"
+#~ msgstr "現在のアクティビティを停止"

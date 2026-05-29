@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Brazilian-Portuguese "INCLUDE"
+> <!-- change language only here -->
+]>
+
+<article id="mouse" lang="&language;">
+<articleinfo>
+<title
+>Mouse</title>
+<authorgroup>
+<author
+>&Mike.McBride; &Mike.McBride.mail;</author>
+<author
+>&Brad.Hards; &Brad.Hards.mail;</author>
+<othercredit role="translator"
+><firstname
+>Lisiane</firstname
+> <surname
+>Sztoltz</surname
+><affiliation
+><address
+> <email
+>lisiane@conectiva.com.br</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>Marcus</firstname
+> <surname
+>Gama</surname
+><affiliation
+><address
+> <email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>06/04/2021</date>
+<releaseinfo
+>Plasma 5.21</releaseinfo>
+
+<abstract>
+<para
+>Esta é a documentação para o módulo das &systemsettings; que configura o mouse e outros dispositivos de apontamento. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Configurações do sistema</keyword>
+<keyword
+>mouse</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>Este módulo permite configurar o "dispositivo de apontamento", sendo que este dispositivo pode ser um mouse, um trackball, um mouse de toque (touchpad), ou qualquer outro hardware que executa uma função similar.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Geral</guilabel
+></term>
+<listitem>
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Modo canhoto</guilabel
+></term>
+<listitem
+><para
+>Se você é canhoto, é possível trocar as funções dos botões <mousebutton
+>esquerdo</mousebutton
+> e <mousebutton
+>direito</mousebutton
+> do seu dispositivo, escolhendo esta opção. Se o seu dispositivo tem mais de dois botões, somente as funções dos botões <mousebutton
+>esquerdo</mousebutton
+> e <mousebutton
+>direito</mousebutton
+> serão afetadas. Em um mouse com três botões, por exemplo, o botão do <mousebutton
+>meio</mousebutton
+> não será afetado.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Emular botão do meio pressionando os botões esquerdo e direito</guilabel
+></term>
+<listitem
+><para
+>Selecione este item se você não tiver um &MMB;. Você pode pressionar os botões esquerdo e direito do mouse ao mesmo tempo para simular o clique do meio. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term id="peripherals-mouse-acceleration">
+<guilabel
+>Velocidade do ponteiro</guilabel
+></term>
+<listitem
+><para
+>Esta opção permite-lhe alterar o relacionamento entre a distância que o ponteiro do mouse percorre sobre a tela e o movimento relativo do dispositivo físico em si (que pode ser um mouse, trackball ou qualquer outro dispositivo de apontamento.)</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Aceleração do ponteiro</guilabel
+></term>
+<listitem
+><para
+>O modo <guilabel
+>Padrão</guilabel
+> ajusta a quantidade de aceleração do ponteiro de acordo com a velocidade com que você move o mouse. Se você o definir como <guilabel
+>Nenhum</guilabel
+>, a aceleração permanecerá constante, independentemente da velocidade. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Rolagem: Inverter a direção da rolagem</guilabel
+></term>
+<listitem
+><para
+>Com esta opção selecionada, a roda de rolagem (se existir) funcionará na direção oposta, ou seja, se rolar para cima irá descer a barra de rolagem e se rolar para baixo irá subir a barra). </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<note
+><para
+>No &plasma; 5.13 você encontra a configuração para usar cliques de mouse simples ou duplo para abrir arquivos e pastas no módulo <ulink url="help:/kcontrol/workspaceoptions/index.html"
+>Comportamento do espaço de trabalho</ulink
+>. </para
+></note>
+
+</article>

@@ -1,0 +1,1188 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2025, 2026 César <cesarapclaudio@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_shell_org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2026-02-11 00:00+0000\n"
+"Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-IgnoreConsistency: Switch\n"
+"X-POFile-SpellExtra: Ups\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgctxt "@info:status currently active activity"
+msgid "Currently being used"
+msgstr "Em utilização"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, kde-format
+msgctxt "@action shows when dragging file over item"
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+"Mover para\n"
+"esta atividade"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgctxt "@action shows when dragging file over item"
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+"Mostrar também\n"
+"nesta atividade"
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgctxt "@action:button tooltip only, opens kcm"
+msgid "Configure"
+msgstr "Configurar"
+
+#: contents/activitymanager/ActivityManager.qml:118
+#, kde-format
+msgctxt "@action:button opens Activity kcm"
+msgid "Create activity…"
+msgstr "Criar Atividade..."
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgctxt "@title:window"
+msgid "Activities"
+msgstr "Atividades"
+
+#: contents/applet/AppletError.qml:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Copiar para a área de transferência"
+
+#: contents/applet/AppletError.qml:188
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "View Error Details…"
+msgstr "Ver detalhes do erro..."
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for panel widget %1"
+msgid "Open %1"
+msgstr "Abrir %1"
+
+#: contents/configuration/AboutPlugin.qml:22
+#, kde-format
+msgctxt "@title:window About this widget"
+msgid "About"
+msgstr "Sobre"
+
+#: contents/configuration/AboutPlugin.qml:52
+#, kde-format
+msgctxt "plasma_shell_org.kde.plasma.desktop"
+msgid "Send an email to %1"
+msgstr "Enviar um e-mail para %1"
+
+#: contents/configuration/AboutPlugin.qml:66
+#, kde-format
+msgctxt "@action:button icononly for tooltip & accessible %1 is url"
+msgid "Open website %1"
+msgstr "Abrir página web %1"
+
+#: contents/configuration/AboutPlugin.qml:159
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr "Página web"
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgctxt "@title:group"
+msgid "Get Help"
+msgstr "Obter ajuda"
+
+#: contents/configuration/AboutPlugin.qml:178
+#, kde-format
+msgctxt "@action:button urlbutton"
+msgid "Report an issue"
+msgstr "Comunicar um problema"
+
+#: contents/configuration/AboutPlugin.qml:185
+#, kde-format
+msgctxt "@title license information"
+msgid "Copyright"
+msgstr "Direitos de autor"
+
+#: contents/configuration/AboutPlugin.qml:204
+#, kde-format
+msgctxt "@label %1 is the short SPDX text for the license"
+msgid "License: %1"
+msgstr "Licença: %1"
+
+#: contents/configuration/AboutPlugin.qml:210
+#, kde-format
+msgctxt "@action:button"
+msgid "Read License"
+msgstr "Ler licença"
+
+#: contents/configuration/AboutPlugin.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Authors"
+msgstr "Autores"
+
+#: contents/configuration/AboutPlugin.qml:236
+#, kde-format
+msgctxt "@title:group"
+msgid "Credits"
+msgstr "Créditos"
+
+#: contents/configuration/AboutPlugin.qml:249
+#, kde-format
+msgctxt "@title:group"
+msgid "Translators"
+msgstr "Tradutores"
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Keyboard Shortcuts"
+msgstr "Atalhos de teclado"
+
+#: contents/configuration/AppletConfiguration.qml:337
+#, kde-format
+msgctxt "@title:group for About dialog page"
+msgid "About"
+msgstr "Sobre"
+
+#: contents/configuration/AppletConfiguration.qml:385
+#, kde-format
+msgctxt "@title:window dialog title"
+msgid "Apply Settings"
+msgstr "Aplicar definições"
+
+#: contents/configuration/AppletConfiguration.qml:386
+#, kde-format
+msgctxt "@label dialog body"
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr ""
+"A página atual tem alterações não guardadas. Aplicar as alterações ou sair "
+"sem guardar?"
+
+#: contents/configuration/AppletConfiguration.qml:418
+#, kde-format
+msgctxt "@action:button"
+msgid "OK"
+msgstr "OK"
+
+#: contents/configuration/AppletConfiguration.qml:425
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: contents/configuration/AppletConfiguration.qml:431
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:26
+#, kde-format
+msgctxt ""
+"@info:whatsthis Accessible description for sidebar entries opening "
+"configuration page"
+msgid "Open configuration page"
+msgstr "Abrir página de configuração"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:19
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Left-Button"
+msgstr "Botão esquerdo"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Right-Button"
+msgstr "Botão direito"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Middle-Button"
+msgstr "Botão do meio"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Back-Button"
+msgstr "Botão de retroceder"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Forward-Button"
+msgstr "Botão de avançar"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:25
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Vertical-Scroll"
+msgstr "Deslocamento vertical"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Horizontal-Scroll"
+msgstr "Deslocamento horizontal"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:28
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:72
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Action"
+msgstr "Adicionar ação"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:76
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Layout changes have been restricted by the system administrator"
+msgstr ""
+"As alterações de esquema foram restringidas pelo administrador do sistema"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:91
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Layout:"
+msgstr "Disposição:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:114
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Wallpaper type:"
+msgstr "Tipo de papel de parede:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:153
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Plugins…"
+msgstr "Obter novos suplementos…"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:243
+#, kde-format
+msgctxt "@info"
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+"As alterações ao esquema devem ser aplicadas antes de serem feitas outras "
+"alterações"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:247
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Now"
+msgstr "Aplicar agora"
+
+#: contents/configuration/ConfigurationShortcuts.qml:16
+#, kde-format
+msgctxt "@title:window for configuration page"
+msgid "Shortcuts"
+msgstr "Atalhos"
+
+#: contents/configuration/ConfigurationShortcuts.qml:29
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr "Ativar widget como se tivesse sido clicado:"
+
+#: contents/configuration/ContainmentConfiguration.qml:26
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Wallpaper"
+msgstr "Papel de parede"
+
+#: contents/configuration/ContainmentConfiguration.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Mouse Actions"
+msgstr "Ações do rato"
+
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgctxt "@action:button inactive state for button recording mouse input"
+msgid "Add Action"
+msgstr "Adicionar ação"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgctxt "@action:button active state for button recording mouse input"
+msgid "Input Here"
+msgstr "Introduzir aqui"
+
+#: contents/configuration/PanelConfiguration.qml:99
+#, kde-format
+msgctxt "@title:window"
+msgid "Panel Settings"
+msgstr "Definições do painel"
+
+#: contents/configuration/PanelConfiguration.qml:108
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: contents/configuration/PanelConfiguration.qml:126
+#, kde-format
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "Espaçador"
+
+#: contents/configuration/PanelConfiguration.qml:133
+#, kde-format
+msgctxt "@action:menu add a margins separator"
+msgid "Margins Separator"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:140
+#, kde-format
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "Widgets…"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Position"
+msgstr "Posição"
+
+#: contents/configuration/PanelConfiguration.qml:174
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Top"
+msgstr "Superior"
+
+#: contents/configuration/PanelConfiguration.qml:175
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Right"
+msgstr "Direita"
+
+#: contents/configuration/PanelConfiguration.qml:176
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Left"
+msgstr "Esquerda"
+
+#: contents/configuration/PanelConfiguration.qml:177
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Bottom"
+msgstr "Inferior"
+
+#: contents/configuration/PanelConfiguration.qml:197
+#, kde-format
+msgctxt "action:button"
+msgid "Set Position…"
+msgstr "Definir posição…"
+
+#: contents/configuration/PanelConfiguration.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: contents/configuration/PanelConfiguration.qml:289
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Top"
+msgstr "Superior"
+
+#: contents/configuration/PanelConfiguration.qml:289
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Left"
+msgstr "Esquerda"
+
+#: contents/configuration/PanelConfiguration.qml:290
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Center"
+msgstr "Centro"
+
+#: contents/configuration/PanelConfiguration.qml:291
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Bottom"
+msgstr "Inferior"
+
+#: contents/configuration/PanelConfiguration.qml:291
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Right"
+msgstr "Direita"
+
+#: contents/configuration/PanelConfiguration.qml:321
+#, kde-format
+msgctxt "@title:group panel height"
+msgid "Height"
+msgstr "Altura"
+
+#: contents/configuration/PanelConfiguration.qml:322
+#, kde-format
+msgctxt "@title:group panel width"
+msgid "Width"
+msgstr "Largura"
+
+#: contents/configuration/PanelConfiguration.qml:341
+#, kde-format
+msgctxt "@item:inlistbox panel fills the full height of the display"
+msgid "Fill height"
+msgstr "Preencher em altura"
+
+#: contents/configuration/PanelConfiguration.qml:341
+#, kde-format
+msgctxt "@item:inlistbox panel fills the full width of the display"
+msgid "Fill width"
+msgstr "Preencher em largura"
+
+#: contents/configuration/PanelConfiguration.qml:342
+#, kde-format
+msgctxt "@item:inlistbox panel is just big enough to fit its content"
+msgid "Fit content"
+msgstr "Ajustar ao conteúdo"
+
+#: contents/configuration/PanelConfiguration.qml:343
+#, kde-format
+msgctxt "@item:inlistbox panel size"
+msgid "Custom"
+msgstr "Personalizado"
+
+#: contents/configuration/PanelConfiguration.qml:376
+#, kde-format
+msgctxt "@title:group"
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#: contents/configuration/PanelConfiguration.qml:393
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always visible"
+msgstr "Sempre visível"
+
+#: contents/configuration/PanelConfiguration.qml:394
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Auto hide"
+msgstr "Ocultar automaticamente"
+
+#: contents/configuration/PanelConfiguration.qml:395
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Dodge windows"
+msgstr "Evitar janelas"
+
+#: contents/configuration/PanelConfiguration.qml:396
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Windows go below"
+msgstr "As janelas ficam por baixo"
+
+#: contents/configuration/PanelConfiguration.qml:459
+#, kde-format
+msgctxt "@title:group"
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: contents/configuration/PanelConfiguration.qml:465
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The current Plasma style does not support opacity options."
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:487
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Adaptive"
+msgstr "Adaptativo"
+
+#: contents/configuration/PanelConfiguration.qml:488
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Opaque"
+msgstr "Opaco"
+
+#: contents/configuration/PanelConfiguration.qml:489
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Translucent"
+msgstr "Translúcido"
+
+#: contents/configuration/PanelConfiguration.qml:521
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "Flutuante"
+
+#: contents/configuration/PanelConfiguration.qml:537
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "Desativado"
+
+#: contents/configuration/PanelConfiguration.qml:538
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "Apenas miniaplicações"
+
+#: contents/configuration/PanelConfiguration.qml:539
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "Painel e miniaplicações"
+
+#: contents/configuration/PanelConfiguration.qml:582
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr "Corrigir"
+
+#: contents/configuration/PanelConfiguration.qml:668
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Panel Width:"
+msgstr "Largura do painel:"
+
+#: contents/configuration/PanelConfiguration.qml:669
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Panel Height:"
+msgstr "Altura do painel:"
+
+#: contents/configuration/PanelConfiguration.qml:692
+#, kde-format
+msgctxt "@title:group shortcut that moves focus to the panel"
+msgid "Focus shortcut:"
+msgstr "Atalho de foco:"
+
+#: contents/configuration/PanelConfiguration.qml:702
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "Prima este atalho de teclado para mover o foco para o painel"
+
+#: contents/configuration/PanelConfiguration.qml:709
+#, kde-format
+msgctxt "@action:button accessible name"
+msgid "Focus Shortcut Setter"
+msgstr "Configurador do atalho de foco"
+
+#: contents/configuration/PanelConfiguration.qml:710
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for button"
+msgid "Button to set the shortcut for the panel to gain focus"
+msgstr "Botão para definir o atalho para o painel obter foco"
+
+#: contents/configuration/PanelConfiguration.qml:737
+#, kde-format
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Eliminar painel"
+
+#: contents/configuration/PanelConfiguration.qml:740
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Remove this panel; this action can be undone"
+msgstr "Remover este painel; esta ação pode ser anulada"
+
+#: contents/configuration/PanelConfiguration.qml:749
+#, kde-format
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "Clonar painel"
+
+#: contents/configuration/PanelConfiguration.qml:753
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Create a new panel with the same settings and applets"
+msgstr "Criar um novo painel com as mesmas definições e miniaplicações"
+
+#: contents/configuration/PanelConfiguration.qml:762
+#, kde-format
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "Fechar"
+
+#: contents/configuration/PanelConfiguration.qml:762
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "Sair do Modo de Edição"
+
+#: contents/configuration/PanelConfiguration.qml:765
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "Fechar janela de Definições do Painel e sair do Modo de Edição"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:25
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr "Arraste para alterar a altura máxima."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:26
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr "Arraste para alterar a largura máxima."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:27
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr "Duplo clique para repor."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:30
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr "Arraste para alterar a altura mínima."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:31
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr "Arraste para alterar a largura mínima."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:80
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+"Arraste para alterar a posição neste extremo do ecrã.\n"
+"Duplo clique para repor."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Panels and Desktops"
+msgstr "Gerir painéis e ambientes de trabalho"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+"Pode arrastar painéis e ambientes de trabalho para os mover entre ecrãs "
+"diferentes."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgctxt "@action:button Close window"
+msgid "Close"
+msgstr "Fechar"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Swap with Desktop on Screen %1"
+msgstr "Trocar com o ambiente de trabalho no ecrã %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move to Screen %1"
+msgstr "Mover para o ecrã %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Desktop"
+msgstr "Remover ambiente de trabalho"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Panel"
+msgstr "Remover painel"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgctxt "@info % is screen name"
+msgid "%1 (primary)"
+msgstr "%1 (primário)"
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgctxt "@title:window for widget alternatives explorer"
+msgid "Alternative Widgets"
+msgstr "Widgets alternativos"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr "Adicionar %1"
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Unsupported Widget"
+msgstr "Widget não suportado"
+
+#: contents/explorer/AppletDelegate.qml:196
+#, fuzzy, kde-format
+#| msgctxt "Text displayed on top of newly installed widgets"
+#| msgid "New!"
+msgctxt "Text displayed on top of newly-installed widgets"
+msgid "New!"
+msgstr "Novo!"
+
+#: contents/explorer/AppletDelegate.qml:198
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] "%1 widget ativo"
+msgstr[1] "%1 widgets ativos"
+
+#: contents/explorer/AppletDelegate.qml:199
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr "Instalado recentemente"
+
+#: contents/explorer/AppletDelegate.qml:212
+#, kde-format
+msgctxt "@action:button tooltip and accessible cancel uninstall widget"
+msgid "Cancel Uninstallation"
+msgstr "Cancelar desinstalação"
+
+#: contents/explorer/AppletDelegate.qml:213
+#, kde-format
+msgctxt "@action:button tooltip and accessible uninstall widget"
+msgid "Mark for Uninstallation"
+msgstr "Marcar para desinstalação"
+
+#: contents/explorer/AppletDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr "Cancelar desinstalação pendente do widget %1"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr "Marcar widget %1 para desinstalação. Requer confirmação"
+
+#: contents/explorer/AppletDelegate.qml:260
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove all instances"
+msgstr "Remover todas as instâncias"
+
+#: contents/explorer/AppletDelegate.qml:264
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] "Remover instância em execução do widget %2"
+msgstr[1] "Remover todas as %1 instâncias em execução do widget %2"
+
+#: contents/explorer/WidgetExplorer.qml:146
+#: contents/explorer/WidgetExplorer.qml:229
+#, kde-format
+msgctxt "@action:button like listbox, switches category to all widgets"
+msgid "All Widgets"
+msgstr "Todos os widgets"
+
+#: contents/explorer/WidgetExplorer.qml:175
+#, kde-format
+msgctxt "@title:group for widget grid"
+msgid "Widgets"
+msgstr "Widgets"
+
+#: contents/explorer/WidgetExplorer.qml:184
+#, kde-format
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "Obter novos..."
+
+#: contents/explorer/WidgetExplorer.qml:185
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "Obter novos widgets..."
+
+#: contents/explorer/WidgetExplorer.qml:198
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr "Fechar explorador de widgets"
+
+#: contents/explorer/WidgetExplorer.qml:214
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "Pesquisar em widgets"
+
+#: contents/explorer/WidgetExplorer.qml:243
+#, kde-format
+msgctxt "@action:button tooltip only"
+msgid "Categories"
+msgstr "Categorias"
+
+#: contents/explorer/WidgetExplorer.qml:265
+#, kde-format
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "Desinstalar (%1 widget)"
+msgstr[1] "Desinstalar (%1 widgets)"
+
+#: contents/explorer/WidgetExplorer.qml:395
+#, kde-format
+msgctxt "@info placeholdermessage"
+msgid "No widgets matched the search terms"
+msgstr "Nenhum widget correspondeu aos termos de pesquisa"
+
+#: contents/explorer/WidgetExplorer.qml:395
+#, kde-format
+msgctxt "@info placeholdermessage"
+msgid "No widgets available"
+msgstr "Nenhum widget disponível"
+
+#: contents/lockscreen/config.qml:23
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr "Mostrar relógio:"
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "Sempre"
+
+#: contents/lockscreen/config.qml:25
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr "Mostrar sempre o relógio"
+
+#: contents/lockscreen/config.qml:40
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr "Na interface de desbloqueio de ecrã"
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr "Mostrar relógio apenas na interface de desbloqueio de ecrã"
+
+#: contents/lockscreen/config.qml:54
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr "Nunca"
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr "Nunca mostrar relógio"
+
+#: contents/lockscreen/config.qml:70
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr "Controlos multimédia:"
+
+#: contents/lockscreen/config.qml:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr "Mostrar por baixo da interface de desbloqueio de ecrã"
+
+#: contents/lockscreen/LockScreenUi.qml:51
+#, kde-format
+msgctxt "@info:status"
+msgid "Unlocking failed"
+msgstr "Não foi possível desbloquear"
+
+#: contents/lockscreen/LockScreenUi.qml:294
+#, kde-format
+msgctxt "@info:status"
+msgid "Caps Lock is on"
+msgstr "Caps Lock está ativo"
+
+#: contents/lockscreen/LockScreenUi.qml:297
+#, kde-format
+msgctxt "@info:status"
+msgid "Slow Keys are enabled"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:316
+#, kde-format
+msgctxt "@action:button"
+msgid "Slee&p"
+msgstr "Sus&pender"
+
+#: contents/lockscreen/LockScreenUi.qml:322
+#, kde-format
+msgctxt "@action:button"
+msgid "&Hibernate"
+msgstr "&Hibernar"
+
+#: contents/lockscreen/LockScreenUi.qml:328
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch &User"
+msgstr "Mudar de &utilizador"
+
+#: contents/lockscreen/LockScreenUi.qml:389
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "Teclado virtual"
+
+#: contents/lockscreen/LockScreenUi.qml:413
+#, kde-format
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "Mudar esquema"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgctxt "@info:placeholder in text field"
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: contents/lockscreen/MainBlock.qml:113
+#, kde-format
+msgctxt "@action:button accessible only"
+msgid "Unlock"
+msgstr "Desbloquear"
+
+#: contents/lockscreen/MainBlock.qml:162
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "(or scan your fingerprint on the reader)"
+msgstr "(ou utilize a sua impressão digital)"
+
+#: contents/lockscreen/MainBlock.qml:166
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "(or scan your smartcard)"
+msgstr "(ou utilize o seu 'smartcard')"
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgctxt "@info:status"
+msgid "No title"
+msgstr "Sem título"
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgctxt "@info:status"
+msgid "No media playing"
+msgstr "Nenhuma reprodução em curso"
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Previous track"
+msgstr "Faixa anterior"
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Play or Pause media"
+msgstr "Reproduzir ou pausar multimédia"
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Next track"
+msgstr "Faixa seguinte"
+
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgctxt "@action:button no-password unlock"
+msgid "Unlock"
+msgstr "Desbloquear"
+
+#: contents/views/DesktopEditMode.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr "Mais"
+
+#: contents/views/DesktopEditMode.qml:144
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Edit Mode"
+msgstr "Sair do Modo de Edição"
+
+#: contents/views/Panel.qml:325
+#, kde-format
+msgctxt "@info:whatsthis Accessible name"
+msgid "Panel Focus Indicator"
+msgstr "Indicador de foco do painel"
+
+#~ msgid "Configure activity"
+#~ msgstr "Configurar a atividade"
+
+#~ msgid "Delete"
+#~ msgstr "Apagar"
+
+#~ msgid "Stop activity"
+#~ msgstr "Parar a atividade"
+
+#~ msgid "Stopped activities:"
+#~ msgstr "Atividades paradas:"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "View license text"
+#~ msgstr "Ver o texto da licença"
+
+#~ msgid "Report a Bugâ€¦"
+#~ msgstr "Comunicar um Erro..."
+
+#~| msgid "Widgets"
+#~ msgctxt "@action:menu add a widget"
+#~ msgid "Widgetsâ€¦"
+#~ msgstr "Elementos..."
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Uninstall"
+#~ msgstr "Desinstalar"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr "Este atalho irÃ¡ activar o elemento como se tivesse carregado nele."
+
+#, fuzzy
+#~| msgid "Add Widgetsâ€¦"
+#~ msgid "Add or Manage Widgetsâ€¦"
+#~ msgstr "Adicionar Elementosâ€¦"
+
+#~ msgid "Undo uninstall"
+#~ msgstr "Desfazer a desinstalaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Uninstall"
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "Desinstalar"
+
+#~ msgctxt "@title"
+#~ msgid "About"
+#~ msgstr "Acerca"
+
+#, fuzzy
+#~| msgid "Open configuration page"
+#~ msgid "Display Configuration"
+#~ msgstr "Abrir a pÃ¡gina de configuraÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Height:"
+#~ msgstr "Direita"
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "Infelizmente, ocorreu um erro ao carregar o %1."
+
+#, fuzzy
+#~| msgid "Maximize Panel"
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "Maximizar o Painel"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "Apagar"
+
+#, fuzzy
+#~| msgid "Floating Panel"
+#~ msgid "Floating:"
+#~ msgstr "Painel Flutuante"
+
+#~ msgctxt "Minimize the length of this string as much as possible"
+#~ msgid "Drag to move"
+#~ msgstr "Arraste para mover"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Use arrow keys to move the panel"
+#~ msgstr "Usar as teclas de cursor para mover o painel"
+
+#, fuzzy
+#~| msgid "Windows Go Below"
+#~ msgid "Windows Above"
+#~ msgstr "As Janelas VÃ£o Para Baixo"
+
+#, fuzzy
+#~| msgid "Windows Can Cover"
+#~ msgid "Windows In Front"
+#~ msgstr "As Janelas Podem Cobrir"

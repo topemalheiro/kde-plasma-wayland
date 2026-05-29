@@ -1,0 +1,74 @@
+# Spanish translations for kded_devicenotifications.po package.
+# Copyright (C) 2023-2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2023.
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: kded_devicenotifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
+"PO-Revision-Date: 2025-11-06 01:55+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: devicenotifications.cpp:449
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Detected"
+msgstr "Pantalla detectada"
+
+#: devicenotifications.cpp:450
+#, kde-format
+msgid "A display has been connected."
+msgstr "Se ha conectado una pantalla."
+
+#: devicenotifications.cpp:470
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Removed"
+msgstr "Pantalla desconectada"
+
+#: devicenotifications.cpp:471
+#, kde-format
+msgid "A display has been disconnected."
+msgstr "Se ha desconectado una pantalla."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "%1 has been connected."
+msgstr "Se ha conectado %1."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "A USB device has been connected."
+msgstr "Se ha conectado un dispositivo USB."
+
+#: devicenotifications.cpp:522
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Detected"
+msgstr "Dispositivo USB detectado"
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "%1 has been disconnected."
+msgstr "Se ha desconectado %1."
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "A USB device has been disconnected."
+msgstr "Se ha desconectado un dispositivo USB."
+
+#: devicenotifications.cpp:565
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Removed"
+msgstr "Dispositivo USB extraído"

@@ -1,0 +1,255 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Luigi Toscano <luigi.toscano@tiscali.it>, 2014, 2017.
+# SPDX-FileCopyrightText: 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Paolo Zamponi <feus73@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-03-04 21:40+0100\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Pause Indexer"
+msgstr "Metti in pausa l'indicizzatore"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Resume Indexer"
+msgstr "Riprendi l'indicizzatore"
+
+#: ui/main.qml:61
+#, kde-format
+msgctxt "@info inlinemessage"
+msgid ""
+"This will disable file searching in KRunner and launcher menus, and remove "
+"extended metadata display from all KDE applications."
+msgstr ""
+"La ricerca dei file in KRunner e nei menu dei lanciatori verrà disabilitata, "
+"inoltre la visualizzazione dei metadati estesi verrà rimossa da tutte le "
+"applicazioni di KDE."
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@info:inlinemessage"
+msgid ""
+"Do you want to delete the saved index data? %1 of space will be freed, but "
+"if indexing is re-enabled later, the entire index will have to be re-created "
+"from scratch. This may take some time, depending on the number of files to "
+"index."
+msgstr ""
+"Vuoi eliminare i dati indice salvati? Verrebbero liberati %1 di spazio, ma "
+"se l'indicizzazione verrà riabilitata successivamente, l'intero indice dovrà "
+"essere ricreato da capo. Ci vorrà un po' di tempo, a seconda del numero di "
+"file da indicizzare."
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Index Data"
+msgstr "Elimina i dati indice"
+
+#: ui/main.qml:91
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"File Search helps you quickly locate your files. You can choose which "
+"folders and what types of file data are indexed."
+msgstr ""
+"La ricerca nei file ti aiuta a trovare velocemente i tuoi file. Puoi "
+"scegliere le cartelle e i tipi di dati dei file da indicizzare."
+
+#: ui/main.qml:108
+#, kde-format
+msgctxt "@title:group"
+msgid "Data to index:"
+msgstr "Dati da indicizzare:"
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "Nothing (disable indexing entirely)"
+msgstr "Nessuno (disabilita completamente l´indicizzazione)"
+
+#: ui/main.qml:121
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names only"
+msgstr "Solo i nomi dei file"
+
+#: ui/main.qml:136
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names and contents"
+msgstr "Nomi e contenuti dei file"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@option:check"
+msgid "Also index hidden files and folders"
+msgstr "Indicizza anche i file e le cartelle nascoste"
+
+#: ui/main.qml:183
+#, kde-format
+msgctxt "@title:table Locations to include or exclude from indexing"
+msgid "Locations"
+msgstr "Posizioni"
+
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Indexing a Folder…"
+msgstr "Inizia a indicizzare una cartella…"
+
+#: ui/main.qml:194
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Indexing a Folder…"
+msgstr "Interrompi l'indicizzazione di una cartella…"
+
+#: ui/main.qml:212
+#, kde-format
+msgctxt "State and a percentage of progress"
+msgid "%1, %2% complete"
+msgstr "%1, completa al %2%"
+
+#: ui/main.qml:219
+#, kde-kuit-format
+msgctxt "@info Currently Indexing"
+msgid "Currently indexing: <filename>%1</filename>"
+msgstr "Sto attualmente indicizzando: <filename>%1</filename>"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@info:status"
+msgid "Not indexed"
+msgstr "Non indicizzata"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@info:status"
+msgid "Indexed"
+msgstr "Indicizzata"
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "Remove the list item for this filesystem path"
+msgid "Remove entry"
+msgstr "Rimuovi voce"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to include"
+msgstr "Seleziona una cartella da includere"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to exclude"
+msgstr "Seleziona una cartella da escludere"
+
+#~ msgctxt "@title:group"
+#~ msgid "File indexing:"
+#~ msgstr "Indicizzazione dei file:"
+
+#~ msgctxt "@action:check"
+#~ msgid "Enabled"
+#~ msgstr "Abilitata"
+
+#~ msgctxt "@label indexing status"
+#~ msgid "Status:"
+#~ msgstr "Stato:"
+
+#~ msgctxt "@label file currently being indexed"
+#~ msgid "Currently indexing:"
+#~ msgstr "Sto attualmente indicizzando:"
+
+#~ msgid "The system must be restarted before these changes will take effect."
+#~ msgstr ""
+#~ "Il sistema deve essere riavviato affinché che queste modifiche abbiano "
+#~ "effetto."
+
+#~ msgctxt "@action:button"
+#~ msgid "Restart"
+#~ msgstr "Riavvia"
+
+#~ msgid "Enable File Search"
+#~ msgstr "Abilita la ricerca nei file"
+
+#~ msgid "Also index file content"
+#~ msgstr "Indicizza anche il contenuto dei file"
+
+#~ msgid "Folder specific configuration:"
+#~ msgstr "Configurazione specifica per la cartella:"
+
+#~ msgid ""
+#~ "This module lets you configure the file indexer and search functionality."
+#~ msgstr ""
+#~ "Questo modulo ti permette di configurare l'indicizzatore dei file e le "
+#~ "funzionalità di ricerca."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Luigi Toscano"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "luigi.toscano@tiscali.it"
+
+#~ msgid "File Search"
+#~ msgstr "Ricerca file"
+
+#~ msgid "Copyright 2007-2010 Sebastian Trüg"
+#~ msgstr "Copyright 2007-2010 di Sebastian Trüg"
+
+#~ msgid "Sebastian Trüg"
+#~ msgstr "Sebastian Trüg"
+
+#~ msgid "Vishesh Handa"
+#~ msgstr "Vishesh Handa"
+
+#~ msgid "Tomaz Canabrava"
+#~ msgstr "Tomaz Canabrava"
+
+#~ msgid "Add folder configuration…"
+#~ msgstr "Aggiungi configurazione cartella…"
+
+#, fuzzy
+#~| msgid "Folder %1 is already excluded"
+#~ msgid "%1 is excluded."
+#~ msgstr "La cartella %1 è già esclusa"
+
+#~ msgid "Do not search in these locations:"
+#~ msgstr "Non cercare in questi luoghi:"
+
+#~ msgid "Select the folder which should be excluded"
+#~ msgstr "Seleziona la cartella da escludere"
+
+#~ msgid ""
+#~ "Not allowed to exclude root folder, please disable File Search if you do "
+#~ "not want it"
+#~ msgstr ""
+#~ "Non è permesso escludere la cartella radice, disabilita la ricerca nei "
+#~ "file se non lo vuoi"
+
+#~ msgid "Folder's parent %1 is already excluded"
+#~ msgstr "La cartella genitore %1 è già esclusa"
+
+#~ msgid "Configure File Search"
+#~ msgstr "Configura ricerca nei file"
+
+#~ msgid "The root directory is always hidden"
+#~ msgstr "La cartella radice è sempre nascosta"

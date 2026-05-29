@@ -1,0 +1,221 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2021, 2022, 2024, 2025, 2026 Shinjo Park <kde@peremen.name>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-02-03 21:40+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "색 구성표 이름"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "한 번 클릭해서 파일 열기"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr "시간에 따라서 모습과 느낌 패키지 전환"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "전역 모습과 느낌 패키지"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "전역 모습과 느낌 패키지, 대체"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "애니메이션 속도"
+
+#: ui/LookAndFeelBox.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "전역 테마 바꾸기"
+
+#: ui/LookAndFeelBox.qml:178
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "전역 테마"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "테마:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "자동"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark "
+"global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "주간에는 \"%1\", 야간에는 \"%2\" 사용"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "더 많은 모양 설정:"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "애니메이션 속도:"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "느리게"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "즉시"
+
+#: ui/main.qml:220
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "파일이나 폴더를 클릭할 때:"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "선택"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "대신 두 번 클릭해서 열기"
+
+#: ui/main.qml:247
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "열기"
+
+#: ui/main.qml:252
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "항목의 선택 마커를 클릭해서 선택"
+
+#: ui/main.qml:264
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "더 많은 행동 설정:"
+
+#: ui/main.qml:275
+#, kde-format
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "자주 사용하는 페이지:"
+
+#, fuzzy
+#~| msgid "Change Wallpaper…"
+#~ msgctxt "@action:button as in, 'this will take you to the Wallpaper KCM'"
+#~ msgid "Wallpaper"
+#~ msgstr "배경 그림 바꾸기…"
+
+#, fuzzy
+#~| msgid "Color scheme name"
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the first KCM in the Colors "
+#~ "& Themes group'"
+#~ msgid "Colors & Themes"
+#~ msgstr "색 구성표 이름"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid ""
+#~ "You can help KDE improve Plasma by contributing information on how you "
+#~ "use it, so we can focus on things that matter to you.<br/><br/"
+#~ ">Contributing this information is optional and entirely anonymous. We "
+#~ "never collect your personal data, files you use, websites you visit, or "
+#~ "information that could identify you."
+#~ msgstr ""
+#~ "Plasma를 사용하는 방법에 대한 정보를 공유하여 KDE에서 여러분이 중요하게 생"
+#~ "각하는 기능에 더 집중할 수 있도록 도와 줄 수 있습니다.<br/><br/>정보 공유"
+#~ "는 선택 사항이며 완전한 익명으로 진행됩니다. 저희는 여러분의 개인 정보, 사"
+#~ "용하는 파일, 방문하는 웹사이트나 개인 식별 정보를 수집하지 않습니다."
+
+#~ msgid "No data will be sent."
+#~ msgstr "데이터를 보내지 않습니다."
+
+#~ msgid "The following information will be sent:"
+#~ msgstr "다음 정보를 보냅니다:"
+
+#~ msgid "Send User Feedback:"
+#~ msgstr "사용자 피드백 보내기:"
+
+#~ msgctxt "Adjective; as in, 'light theme'"
+#~ msgid "Light"
+#~ msgstr "밝은"
+
+#~ msgctxt "Adjective; as in, 'dark theme'"
+#~ msgid "Dark"
+#~ msgstr "어두운"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "박신조"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde@peremen.name"
+
+#~ msgid "Quick Settings"
+#~ msgstr "빠른 설정"
+
+#~ msgid "Landing page with some basic settings."
+#~ msgstr "일부 기본 설정이 있는 초기 페이지입니다."
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "Most used module number %1"
+#~ msgstr "가장 자주 사용되는 모듈 %1위"

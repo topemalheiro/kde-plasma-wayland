@@ -1,0 +1,223 @@
+# translation of ksmserver.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2007, 2008, 2009, 2010, 2012.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+# Auk Piseth <piseth_dv@khmeros.info>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2012-06-14 13:44+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ​​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "ការ​ចេញ​ត្រូវ​បាន​បោះបង់​ដោយ '%1'"
+
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr ""
+
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr ""
+
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr ""
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+
+#: main.cpp:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "The reliable KDE session manager that talks the standard X11R6 \n"
+#| "session management protocol (XSMP)."
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"កម្មវិធី​គ្រប់គ្រង​សម័យ KDE គួរ​ឲ្យ​ទុកចិត្ត ដែលប្រើ X11R6 \n"
+"ពិធីការ​គ្រប់គ្រង​សម័យ (XSMP) ខ្នាត​គំរូ ។"
+
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "ស្ដារ​សម័យ​របស់​អ្នក​ប្រើ​ដែល​បាន​រក្សា​ទុក ប្រសិន​បើ​មាន"
+
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "អនុញ្ញាត​ឲ្យ​មាន​ការ​តភ្ជាប់​ពី​ចម្ងាយ​ផង​ដែរ"
+
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr ""
+
+#: main.cpp:143
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr ""
+
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr ""
+
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+
+#, fuzzy
+#~| msgid "The KDE Session Manager"
+#~ msgid "Session Management"
+#~ msgstr "កម្មវិធី​គ្រប់គ្រង​សម័យ KDE"
+
+#~ msgid "Log Out"
+#~ msgstr "ចេញ​"
+
+#~ msgid "Log Out Without Confirmation"
+#~ msgstr "ចេញ​ដោយ​មិន​មានការ​បញ្ជាក់"
+
+#, fuzzy
+#~| msgid "Halt Without Confirmation"
+#~ msgid "Shut Down Without Confirmation"
+#~ msgstr "ផ្អាក​ដោយ​គ្មានការ​បញ្ជាក់"
+
+#~ msgid "Reboot Without Confirmation"
+#~ msgstr "ចាប់ផ្ដើម​ឡើង​វិញ​ដោយ​គ្មាន​ការ​បញ្ជាក់"
+
+#, fuzzy
+#~| msgid ""
+#~| "Starts 'wm' in case no other window manager is \n"
+#~| "participating in the session. Default is 'kwin'"
+#~ msgid ""
+#~ "Starts <wm> in case no other window manager is \n"
+#~ "participating in the session. Default is 'kwin'"
+#~ msgstr ""
+#~ "ចាប់ផ្ដើម 'wm' ក្នុង​ករណី​ដែល​គ្មាន​កម្មវិធី​គ្រប់គ្រង​បង្អួច​ផ្សេង​ទៀត​កំពុង \n"
+#~ "ចូលរួម​ក្នុង​សម័យ ។ លំនាំ​ដើម​គឺ 'kwin'"
+
+#, fuzzy
+#~| msgid "&Logout"
+#~ msgid "Logout"
+#~ msgstr "ចេញ​"
+
+#~ msgid "Sleeping in 1 second"
+#~ msgid_plural "Sleeping in %1 seconds"
+#~ msgstr[0] "ដេក​ក្នុង​រយៈពេល %1 វិនាទី"
+
+#~ msgid "Lock"
+#~ msgstr "ចាក់សោ"
+
+#~ msgid "Turn off"
+#~ msgstr "បិទ"
+
+#~ msgid "Sleep"
+#~ msgstr "ដេក"
+
+#~ msgid "Logging out in 1 second."
+#~ msgid_plural "Logging out in %1 seconds."
+#~ msgstr[0] "ចេញ​ក្នុង​រយៈពេល %1 វិនាទី ។"
+
+#~ msgid "Turning off computer in 1 second."
+#~ msgid_plural "Turning off computer in %1 seconds."
+#~ msgstr[0] "បិទ​កុំព្យូទ័រក្នុង​រយៈពេល %1 វិនាទី ។"
+
+#~ msgid "Restarting computer in 1 second."
+#~ msgid_plural "Restarting computer in %1 seconds."
+#~ msgstr[0] "ចាប់​ផ្ដើម​កុំព្យូទ័រ​ឡើងវិញ​ក្នុង​រយៈ %1 វិនាទី ។"
+
+#, fuzzy
+#~| msgid "&Turn Off Computer"
+#~ msgid "Turn Off Computer"
+#~ msgstr "បិទ​កុំព្យូទ័រ"
+
+#, fuzzy
+#~| msgid "&Restart Computer"
+#~ msgid "Restart Computer"
+#~ msgstr "ចាប់ផ្ដើម​កុំព្យូទ័រ​ឡើង​វិញ"
+
+#~ msgctxt "default option in boot loader"
+#~ msgid " (default)"
+#~ msgstr " (លំនាំដើម)"
+
+#, fuzzy
+#~| msgid "&Cancel"
+#~ msgid "Cancel"
+#~ msgstr "បោះបង់​"
+
+#~ msgid "&Standby"
+#~ msgstr "រង់ចាំ​"
+
+#~ msgid "Suspend to &RAM"
+#~ msgstr "ផ្អាក​ទៅ RAM"
+
+#~ msgid "Suspend to &Disk"
+#~ msgstr "ផ្អាក​ទៅ​ឌីស"
+
+#~ msgid "(C) 2000, The KDE Developers"
+#~ msgstr "រក្សា​សិទ្ធិ​ឆ្នាំ ២០០០ ដោយ​អ្នក​អភិវឌ្ឍន៍ KDE"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "Matthias Ettrich"
+
+#~ msgid "Luboš Luňák"
+#~ msgstr "Luboš Luňák"
+
+#~ msgid "Maintainer"
+#~ msgstr "អ្នក​ថែទាំ"

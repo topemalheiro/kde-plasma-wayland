@@ -1,0 +1,1278 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Balázs Úr <urbalazs@gmail.com>, 2013, 2014.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2014, 2019.
+# SPDX-FileCopyrightText: 2017, 2020, 2021, 2023 Kiszel Kristóf <kiszel.kristof@gmail.com>
+# SPDX-FileCopyrightText: 2021-2022, 2024-2026 Kristof Kiszel <ulysses@fsf.hu>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2026-05-17 21:18+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgctxt "@info:status currently active activity"
+msgid "Currently being used"
+msgstr "Jelenleg használt"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, kde-format
+msgctxt "@action shows when dragging file over item"
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+"Áthelyezés\n"
+"erre az aktivitásra"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgctxt "@action shows when dragging file over item"
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+"Megjelenítés\n"
+"ezen az aktivitáson is"
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgctxt "@action:button tooltip only, opens kcm"
+msgid "Configure"
+msgstr "Beállítások"
+
+#: contents/activitymanager/ActivityManager.qml:118
+#, kde-format
+msgctxt "@action:button opens Activity kcm"
+msgid "Create activity…"
+msgstr "Aktivitás létrehozása…"
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgctxt "@title:window"
+msgid "Activities"
+msgstr "Aktivitások"
+
+#: contents/applet/AppletError.qml:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Másolás a vágólapra"
+
+#: contents/applet/AppletError.qml:188
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "View Error Details…"
+msgstr "Hiba részleteinek megjelenítése…"
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for panel widget %1"
+msgid "Open %1"
+msgstr "%1 megnyitása"
+
+#: contents/configuration/AboutPlugin.qml:22
+#, kde-format
+msgctxt "@title:window About this widget"
+msgid "About"
+msgstr "Névjegy"
+
+#: contents/configuration/AboutPlugin.qml:52
+#, kde-format
+msgctxt "plasma_shell_org.kde.plasma.desktop"
+msgid "Send an email to %1"
+msgstr "E-mail küldése neki: %1"
+
+#: contents/configuration/AboutPlugin.qml:66
+#, kde-format
+msgctxt "@action:button icononly for tooltip & accessible %1 is url"
+msgid "Open website %1"
+msgstr "Weboldal megnyitása: %1"
+
+#: contents/configuration/AboutPlugin.qml:159
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr "Weboldal"
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgctxt "@title:group"
+msgid "Get Help"
+msgstr "Segítségkérés"
+
+#: contents/configuration/AboutPlugin.qml:178
+#, kde-format
+msgctxt "@action:button urlbutton"
+msgid "Report an issue"
+msgstr "Probléma jelentése"
+
+#: contents/configuration/AboutPlugin.qml:185
+#, kde-format
+msgctxt "@title license information"
+msgid "Copyright"
+msgstr "Copyright"
+
+#: contents/configuration/AboutPlugin.qml:204
+#, kde-format
+msgctxt "@label %1 is the short SPDX text for the license"
+msgid "License: %1"
+msgstr "Licenc: %1"
+
+#: contents/configuration/AboutPlugin.qml:210
+#, kde-format
+msgctxt "@action:button"
+msgid "Read License"
+msgstr "Licenc elolvasása"
+
+#: contents/configuration/AboutPlugin.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Authors"
+msgstr "Szerzők"
+
+#: contents/configuration/AboutPlugin.qml:236
+#, kde-format
+msgctxt "@title:group"
+msgid "Credits"
+msgstr "Köszönetnyilvánítás"
+
+#: contents/configuration/AboutPlugin.qml:249
+#, kde-format
+msgctxt "@title:group"
+msgid "Translators"
+msgstr "Fordítók"
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Keyboard Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: contents/configuration/AppletConfiguration.qml:337
+#, kde-format
+msgctxt "@title:group for About dialog page"
+msgid "About"
+msgstr "Névjegy"
+
+#: contents/configuration/AppletConfiguration.qml:385
+#, kde-format
+msgctxt "@title:window dialog title"
+msgid "Apply Settings"
+msgstr "Beállítások alkalmazása"
+
+#: contents/configuration/AppletConfiguration.qml:386
+#, kde-format
+msgctxt "@label dialog body"
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr ""
+"A jelenlegi oldal beállításai megváltoztak. Szeretné menteni a "
+"módosításokat, vagy elveti azokat?"
+
+#: contents/configuration/AppletConfiguration.qml:418
+#, kde-format
+msgctxt "@action:button"
+msgid "OK"
+msgstr "OK"
+
+#: contents/configuration/AppletConfiguration.qml:425
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: contents/configuration/AppletConfiguration.qml:431
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Mégse"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:26
+#, kde-format
+msgctxt ""
+"@info:whatsthis Accessible description for sidebar entries opening "
+"configuration page"
+msgid "Open configuration page"
+msgstr "Beállítóoldal megnyitása"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:19
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Left-Button"
+msgstr "Bal gomb"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Right-Button"
+msgstr "Jobb gomb"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Middle-Button"
+msgstr "Középső gomb"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Back-Button"
+msgstr "Visszaléptető gomb"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Forward-Button"
+msgstr "Előre léptető gomb"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:25
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Vertical-Scroll"
+msgstr "Függőleges görgetés"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Horizontal-Scroll"
+msgstr "Vízszintes görgetés"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:28
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgctxt "@label for shortcuts"
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:72
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Action"
+msgstr "Művelet hozzáadása"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:76
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Layout changes have been restricted by the system administrator"
+msgstr "Elrendezést csak a rendszeradminisztrátor módosíthat"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:91
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Layout:"
+msgstr "Elrendezés:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:114
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Wallpaper type:"
+msgstr "Háttérkép típus:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:153
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Plugins…"
+msgstr "Új kiegészítők letöltése…"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:243
+#, kde-format
+msgctxt "@info"
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "A felület változtatásait alkalmazni kell a további módosítások előtt"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:247
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Now"
+msgstr "Alkalmazás most"
+
+#: contents/configuration/ConfigurationShortcuts.qml:16
+#, kde-format
+msgctxt "@title:window for configuration page"
+msgid "Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: contents/configuration/ConfigurationShortcuts.qml:29
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr "Felületi elem aktiválása, mintha rákattintanának:"
+
+#: contents/configuration/ContainmentConfiguration.qml:26
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Wallpaper"
+msgstr "Háttérkép"
+
+#: contents/configuration/ContainmentConfiguration.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Mouse Actions"
+msgstr "Egérműveletek"
+
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgctxt "@action:button inactive state for button recording mouse input"
+msgid "Add Action"
+msgstr "Művelet hozzáadása"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgctxt "@action:button active state for button recording mouse input"
+msgid "Input Here"
+msgstr "Bevitel itt"
+
+#: contents/configuration/PanelConfiguration.qml:99
+#, kde-format
+msgctxt "@title:window"
+msgid "Panel Settings"
+msgstr "Panelbeállítások"
+
+#: contents/configuration/PanelConfiguration.qml:108
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: contents/configuration/PanelConfiguration.qml:126
+#, kde-format
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "Elválasztó"
+
+#: contents/configuration/PanelConfiguration.qml:133
+#, kde-format
+msgctxt "@action:menu add a margins separator"
+msgid "Margins Separator"
+msgstr "Margóelválasztó"
+
+#: contents/configuration/PanelConfiguration.qml:140
+#, kde-format
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "Felületi elemek…"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Position"
+msgstr "Pozíció"
+
+#: contents/configuration/PanelConfiguration.qml:174
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Top"
+msgstr "Fentre"
+
+#: contents/configuration/PanelConfiguration.qml:175
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Right"
+msgstr "Jobbra"
+
+#: contents/configuration/PanelConfiguration.qml:176
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Left"
+msgstr "Balra"
+
+#: contents/configuration/PanelConfiguration.qml:177
+#, kde-format
+msgctxt "@label panel screen edge"
+msgid "Bottom"
+msgstr "Lentre"
+
+#: contents/configuration/PanelConfiguration.qml:197
+#, kde-format
+msgctxt "action:button"
+msgid "Set Position…"
+msgstr "Pozíció beállítása…"
+
+#: contents/configuration/PanelConfiguration.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: contents/configuration/PanelConfiguration.qml:289
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Top"
+msgstr "Fentre"
+
+#: contents/configuration/PanelConfiguration.qml:289
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Left"
+msgstr "Balra"
+
+#: contents/configuration/PanelConfiguration.qml:290
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Center"
+msgstr "Középre"
+
+#: contents/configuration/PanelConfiguration.qml:291
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Bottom"
+msgstr "Lentre"
+
+#: contents/configuration/PanelConfiguration.qml:291
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Right"
+msgstr "Jobbra"
+
+#: contents/configuration/PanelConfiguration.qml:321
+#, kde-format
+msgctxt "@title:group panel height"
+msgid "Height"
+msgstr "Magasság"
+
+#: contents/configuration/PanelConfiguration.qml:322
+#, kde-format
+msgctxt "@title:group panel width"
+msgid "Width"
+msgstr "Szélesség"
+
+#: contents/configuration/PanelConfiguration.qml:341
+#, kde-format
+msgctxt "@item:inlistbox panel fills the full height of the display"
+msgid "Fill height"
+msgstr "Magasság kitöltése"
+
+#: contents/configuration/PanelConfiguration.qml:341
+#, kde-format
+msgctxt "@item:inlistbox panel fills the full width of the display"
+msgid "Fill width"
+msgstr "Szélesség kitöltése"
+
+#: contents/configuration/PanelConfiguration.qml:342
+#, kde-format
+msgctxt "@item:inlistbox panel is just big enough to fit its content"
+msgid "Fit content"
+msgstr "Tartalom kitöltése"
+
+#: contents/configuration/PanelConfiguration.qml:343
+#, kde-format
+msgctxt "@item:inlistbox panel size"
+msgid "Custom"
+msgstr "Egyéni"
+
+#: contents/configuration/PanelConfiguration.qml:376
+#, kde-format
+msgctxt "@title:group"
+msgid "Visibility"
+msgstr "Láthatóság"
+
+#: contents/configuration/PanelConfiguration.qml:393
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always visible"
+msgstr "Mindig látható"
+
+#: contents/configuration/PanelConfiguration.qml:394
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Auto hide"
+msgstr "Automatikus elrejtés"
+
+#: contents/configuration/PanelConfiguration.qml:395
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Dodge windows"
+msgstr "Ablakok kikerülése"
+
+#: contents/configuration/PanelConfiguration.qml:396
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Windows go below"
+msgstr "Az ablakok elé kerülhet"
+
+#: contents/configuration/PanelConfiguration.qml:459
+#, kde-format
+msgctxt "@title:group"
+msgid "Opacity"
+msgstr "Áttetszőség"
+
+#: contents/configuration/PanelConfiguration.qml:465
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The current Plasma style does not support opacity options."
+msgstr "A jelenlegi Plasma stílus nem támogat átlátszatlansági beállításokat."
+
+#: contents/configuration/PanelConfiguration.qml:487
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Adaptive"
+msgstr "Adaptív"
+
+#: contents/configuration/PanelConfiguration.qml:488
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Opaque"
+msgstr "Nem áttetsző"
+
+#: contents/configuration/PanelConfiguration.qml:489
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Translucent"
+msgstr "Átlátszó"
+
+#: contents/configuration/PanelConfiguration.qml:521
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "Lebegő"
+
+#: contents/configuration/PanelConfiguration.qml:537
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: contents/configuration/PanelConfiguration.qml:538
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "Csak kisalkalmazások"
+
+#: contents/configuration/PanelConfiguration.qml:539
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "Panel és kisalkalmazások"
+
+#: contents/configuration/PanelConfiguration.qml:582
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr "Javítás"
+
+#: contents/configuration/PanelConfiguration.qml:668
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Panel Width:"
+msgstr "Panelszélesség:"
+
+#: contents/configuration/PanelConfiguration.qml:669
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Panel Height:"
+msgstr "Panelmagasság:"
+
+#: contents/configuration/PanelConfiguration.qml:692
+#, kde-format
+msgctxt "@title:group shortcut that moves focus to the panel"
+msgid "Focus shortcut:"
+msgstr "Fókuszparancs:"
+
+#: contents/configuration/PanelConfiguration.qml:702
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "Nyomja meg ezt a billentyűparancsot a fókusz áthelyezéséhez a panelre"
+
+#: contents/configuration/PanelConfiguration.qml:709
+#, kde-format
+msgctxt "@action:button accessible name"
+msgid "Focus Shortcut Setter"
+msgstr "Fókuszparancs-beállító"
+
+#: contents/configuration/PanelConfiguration.qml:710
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for button"
+msgid "Button to set the shortcut for the panel to gain focus"
+msgstr "Gomb a panel fókuszának beállításához"
+
+#: contents/configuration/PanelConfiguration.qml:737
+#, kde-format
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Panel törlése"
+
+#: contents/configuration/PanelConfiguration.qml:740
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Remove this panel; this action can be undone"
+msgstr "Eltávolítja ezt a panelt; a művelet nem vonható vissza"
+
+#: contents/configuration/PanelConfiguration.qml:749
+#, kde-format
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "Panel klónozása"
+
+#: contents/configuration/PanelConfiguration.qml:753
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Create a new panel with the same settings and applets"
+msgstr ""
+"Létrehoz egy új panelt ugyanazokkal a beállításokkal és kisalkalmazásokkal"
+
+#: contents/configuration/PanelConfiguration.qml:762
+#, kde-format
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "Bezárás"
+
+#: contents/configuration/PanelConfiguration.qml:762
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "Kilépés a szerkesztőmódból"
+
+#: contents/configuration/PanelConfiguration.qml:765
+#, kde-format
+msgctxt "@info:tooltip for button"
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "Panelbeállítások ablak bezárása és kilépés a szerkesztőmódból"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:25
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr "Húzza a maximális magasság módosításához."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:26
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr "Húzza a maximális szélesség módosításához."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:27
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr "Kattintson duplán a visszaállításhoz."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:30
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr "Húzza a minimális magasság módosításához."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:31
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr "Húzza a minimális szélesség módosításához."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:80
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+"Húzzza a pozíció megváltoztatásához ezen a képernyőszélen.\n"
+"Kattintson duplán a visszaállításhoz."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Panels and Desktops"
+msgstr "Panel- és asztalkezelés"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+"A paneleket és asztalokat húzással mozgathatja a különböző képernyők között."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgctxt "@action:button Close window"
+msgid "Close"
+msgstr "Bezár"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Swap with Desktop on Screen %1"
+msgstr "Csere a(z) %1. képernyőn lévő asztallal"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move to Screen %1"
+msgstr "Áthelyezés a(z) %1. képernyőre"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Desktop"
+msgstr "Asztal eltávolítása"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Panel"
+msgstr "Panel eltávolítása"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgctxt "@info % is screen name"
+msgid "%1 (primary)"
+msgstr "%1 (elsődleges)"
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgctxt "@title:window for widget alternatives explorer"
+msgid "Alternative Widgets"
+msgstr "Alternatív widgetek"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr "%1 hozzáadása"
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Unsupported Widget"
+msgstr "Nem támogatott widget"
+
+#: contents/explorer/AppletDelegate.qml:196
+#, kde-format
+msgctxt "Text displayed on top of newly-installed widgets"
+msgid "New!"
+msgstr "Új!"
+
+#: contents/explorer/AppletDelegate.qml:198
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] "%1 felületi elem aktív"
+msgstr[1] "%1 felületi elem aktív"
+
+#: contents/explorer/AppletDelegate.qml:199
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr "Nemrég telepített"
+
+#: contents/explorer/AppletDelegate.qml:212
+#, kde-format
+msgctxt "@action:button tooltip and accessible cancel uninstall widget"
+msgid "Cancel Uninstallation"
+msgstr "Eltávolítás megszakítása"
+
+#: contents/explorer/AppletDelegate.qml:213
+#, kde-format
+msgctxt "@action:button tooltip and accessible uninstall widget"
+msgid "Mark for Uninstallation"
+msgstr "Megjelölés eltávolításra"
+
+#: contents/explorer/AppletDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr "%1 függőben lévő eltávolításának megszakítása"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr "%1 megjelölése eltávolításra. Megerősítés szükséges"
+
+#: contents/explorer/AppletDelegate.qml:260
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove all instances"
+msgstr "Minden példány eltávolítása"
+
+#: contents/explorer/AppletDelegate.qml:264
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] "%2 futó példányának eltávolítása"
+msgstr[1] "%2 %1 futó példányának eltávolítása"
+
+#: contents/explorer/WidgetExplorer.qml:146
+#: contents/explorer/WidgetExplorer.qml:229
+#, kde-format
+msgctxt "@action:button like listbox, switches category to all widgets"
+msgid "All Widgets"
+msgstr "Minden widget"
+
+#: contents/explorer/WidgetExplorer.qml:175
+#, kde-format
+msgctxt "@title:group for widget grid"
+msgid "Widgets"
+msgstr "Widgetek"
+
+#: contents/explorer/WidgetExplorer.qml:184
+#, kde-format
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "Új letöltése…"
+
+#: contents/explorer/WidgetExplorer.qml:185
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "Új elemek letöltése…"
+
+#: contents/explorer/WidgetExplorer.qml:198
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr "Felületielem-böngésző bezárása"
+
+#: contents/explorer/WidgetExplorer.qml:214
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "Keresés a felületi elemek között"
+
+#: contents/explorer/WidgetExplorer.qml:243
+#, kde-format
+msgctxt "@action:button tooltip only"
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: contents/explorer/WidgetExplorer.qml:265
+#, kde-format
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "Eltávolítás (%1 felületi elem)"
+msgstr[1] "Eltávolítás (%1 felületi elem)"
+
+#: contents/explorer/WidgetExplorer.qml:395
+#, kde-format
+msgctxt "@info placeholdermessage"
+msgid "No widgets matched the search terms"
+msgstr "Nincs a keresési kifejezésekre illő widget"
+
+#: contents/explorer/WidgetExplorer.qml:395
+#, kde-format
+msgctxt "@info placeholdermessage"
+msgid "No widgets available"
+msgstr "Nincsenek widgetek"
+
+#: contents/lockscreen/config.qml:23
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr "Óra megjelenítése:"
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "Mindig"
+
+#: contents/lockscreen/config.qml:25
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr "Mindig mutassa az órát"
+
+#: contents/lockscreen/config.qml:40
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr "Csak a feloldóképernyőn"
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr "Csak a feloldóképernyőn mutassa az órát"
+
+#: contents/lockscreen/config.qml:54
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr "Soha"
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr "Soha ne mutassa az órát"
+
+#: contents/lockscreen/config.qml:70
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr "Médiavezérlők:"
+
+#: contents/lockscreen/config.qml:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr "Megjelenítés a feloldóképernyőn"
+
+#: contents/lockscreen/LockScreenUi.qml:51
+#, kde-format
+msgctxt "@info:status"
+msgid "Unlocking failed"
+msgstr "Sikertelen feloldás"
+
+#: contents/lockscreen/LockScreenUi.qml:294
+#, kde-format
+msgctxt "@info:status"
+msgid "Caps Lock is on"
+msgstr "A Caps Lock be van kapcsolva"
+
+#: contents/lockscreen/LockScreenUi.qml:297
+#, kde-format
+msgctxt "@info:status"
+msgid "Slow Keys are enabled"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:316
+#, kde-format
+msgctxt "@action:button"
+msgid "Slee&p"
+msgstr "Alvó álla&pot"
+
+#: contents/lockscreen/LockScreenUi.qml:322
+#, kde-format
+msgctxt "@action:button"
+msgid "&Hibernate"
+msgstr "&Hibernálás"
+
+#: contents/lockscreen/LockScreenUi.qml:328
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch &User"
+msgstr "&Felhasználóváltás"
+
+#: contents/lockscreen/LockScreenUi.qml:389
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "Virtuális billentyűzet"
+
+#: contents/lockscreen/LockScreenUi.qml:413
+#, kde-format
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "Kiosztásváltás"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgctxt "@info:placeholder in text field"
+msgid "Password"
+msgstr "Jelszó"
+
+#: contents/lockscreen/MainBlock.qml:113
+#, kde-format
+msgctxt "@action:button accessible only"
+msgid "Unlock"
+msgstr "Feloldás"
+
+#: contents/lockscreen/MainBlock.qml:162
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "(or scan your fingerprint on the reader)"
+msgstr "(vagy használja az ujjlenyomatolvasót)"
+
+#: contents/lockscreen/MainBlock.qml:166
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "(or scan your smartcard)"
+msgstr "(vagy használja intelligens kártyáját)"
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgctxt "@info:status"
+msgid "No title"
+msgstr "Nincs cím"
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgctxt "@info:status"
+msgid "No media playing"
+msgstr "Nincs médialejátszás"
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Previous track"
+msgstr "Előző szám"
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Play or Pause media"
+msgstr "Média indítása/szüneteltetése"
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgctxt "@action:button Accessible only"
+msgid "Next track"
+msgstr "Következő szám"
+
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgctxt "@action:button no-password unlock"
+msgid "Unlock"
+msgstr "Feloldás"
+
+#: contents/views/DesktopEditMode.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr "Több"
+
+#: contents/views/DesktopEditMode.qml:144
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Edit Mode"
+msgstr "Kilépés a szerkesztőmódból"
+
+#: contents/views/Panel.qml:325
+#, kde-format
+msgctxt "@info:whatsthis Accessible name"
+msgid "Panel Focus Indicator"
+msgstr "Panelfókuszjelző"
+
+#~ msgid "Configure activity"
+#~ msgstr "Aktivitás beállítása"
+
+#~ msgid "Delete"
+#~ msgstr "Törlés"
+
+#~ msgid "Stopped activities:"
+#~ msgstr "Leállított aktivitások:"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "View license text"
+#~ msgstr "Licencszöveg megtekintése"
+
+#~ msgid "Stop activity"
+#~ msgstr "Aktivitás leállítása"
+
+#~ msgid "Author:"
+#~ msgstr "Szerző:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Uninstall"
+#~ msgstr "Eltávolítás"
+
+#~ msgctxt "Percentage value"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr ""
+#~ "Ez a gyorsbillentyű aktiválja a kisalkalmazást, mintha rákattintottak "
+#~ "volna."
+
+#~ msgid "Add spacer widget to the panel"
+#~ msgstr "Elválasztó elem hozzáadása a panelhez"
+
+#~ msgid "Add or Manage Widgets…"
+#~ msgstr "Elemek hozzáadása vagy kezelése…"
+
+#~ msgid "Open the widget selector to drag and drop widgets to the panel"
+#~ msgstr ""
+#~ "Nyissa meg a felületielem-választót a felületi elemek panelhez adásához"
+
+#~ msgctxt "@title: group"
+#~ msgid "Clock:"
+#~ msgstr "Óra:"
+
+#~ msgid "Undo uninstall"
+#~ msgstr "Eltávolítás visszavonása"
+
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "Eltávolítás"
+
+#~ msgctxt "@action:button uninstall widgets in widget explorer"
+#~ msgid "Confirm Removal of One Widget"
+#~ msgid_plural "Confirm Removal of %1 Widgets"
+#~ msgstr[0] "1 elem eltávolításának megerősítése"
+#~ msgstr[1] "%1 elem eltávolításának megerősítése"
+
+#~ msgid "Style"
+#~ msgstr "Stílus"
+
+#~ msgctxt "@title"
+#~ msgid "About"
+#~ msgstr "Névjegy"
+
+#~ msgid "Global Themes"
+#~ msgstr "Globális témák"
+
+#~ msgid "Display Configuration"
+#~ msgstr "Kijelzőbeállítás"
+
+#~ msgctxt "@action:button Done configuring the panel"
+#~ msgid "Done"
+#~ msgstr "Kész"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep visible when unlocking prompt disappears"
+#~ msgstr "Maradjon látható a feloldóképernyő eltűnésekor"
+
+#~ msgid "Height:"
+#~ msgstr "Magasság:"
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "Hiba történt a(z) %1 betöltésekor."
+
+#~ msgid "Length"
+#~ msgstr "Hossz"
+
+#, fuzzy
+#~| msgid "Maximize Panel"
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "Panel maximalizálása"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "Törlés"
+
+#~ msgid "More Options…"
+#~ msgstr "További beállítások…"
+
+#~ msgctxt "Minimize the length of this string as much as possible"
+#~ msgid "Drag to move"
+#~ msgstr "Húzza az áthelyezéshez"
+
+#, fuzzy
+#~| msgid "Windows Go Below"
+#~ msgid "Windows Above"
+#~ msgstr "Az ablakok elé kerülhet"
+
+#, fuzzy
+#~| msgid "Windows Can Cover"
+#~ msgid "Windows In Front"
+#~ msgstr "Az ablakok eltakarhatják"
+
+#~ msgid "Appearance"
+#~ msgstr "Megjelenés"
+
+#~ msgid "Search…"
+#~ msgstr "Keresés…"
+
+#~ msgid "Screen Edge"
+#~ msgstr "Képernyőszél"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr ""
+#~ "Kattintson a gombra és húzza a képernyő egyik szélére a panel "
+#~ "áthelyezéséhez."
+
+#~ msgid "Add Widgets..."
+#~ msgstr "Elemek hozzáadása…"
+
+#~ msgid "Click and drag the button to resize the panel."
+#~ msgstr "Kattintson a gombra és húzza a panel átméretezéséhez."
+
+#~ msgid "Layout cannot be changed while widgets are locked"
+#~ msgstr "A felület nem változtatható, amíg a widgetek zárolva vannak"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet: it will give the keyboard focus "
+#~ "to it, and if the applet has a popup (such as the start menu), the popup "
+#~ "will be open."
+#~ msgstr ""
+#~ "Ez a gyorsbillentyű aktiválja a kisalkalmazást: átadja neki a "
+#~ "billentyűzet fókuszát, és ha a kisalkalmazásnak van felugró eleme (mint "
+#~ "például az indítómenünek), a felugró elem megnyílik."
+
+#~ msgid "Activity name:"
+#~ msgstr "Aktivitásnév:"
+
+#~ msgid "Create"
+#~ msgstr "Létrehozás"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete the activity?"
+#~ msgid "Are you sure you want to delete this activity?"
+#~ msgstr "Biztosan törölni szeretné az aktivitást?"
+
+#, fuzzy
+#~| msgid "Ok"
+#~ msgctxt "org.kde.plasma.desktop"
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#, fuzzy
+#~| msgid "Apply"
+#~ msgctxt "org.kde.plasma.desktop"
+#~ msgid "Apply"
+#~ msgstr "Alkalmazás"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgctxt "org.kde.plasma.desktop"
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Enter search term..."
+#~ msgstr "Írjon be egy keresőkifejezést…"
+
+#~ msgid "Remove activity %1?"
+#~ msgstr "Eltávolítja a(z) %1 aktivitást?"
+
+#~ msgid "Remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "Templates"
+#~ msgstr "Sablonok"
+
+#~ msgid "None"
+#~ msgstr "Nincs"

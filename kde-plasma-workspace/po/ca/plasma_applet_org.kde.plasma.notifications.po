@@ -1,0 +1,482 @@
+# Translation of plasma_applet_org.kde.plasma.notifications.po to Catalan
+# Copyright (C) 2010-2026 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2017, 2019, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
+# SPDX-FileCopyrightText: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2026-03-05 11:04+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Respon"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Copia l'adreça de l'enllaç"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Copia"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Ara mateix"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "Fa %1 minut"
+msgstr[1] "Fa %1 minuts"
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "Resta %1 s"
+msgstr[1] "Resten %1 s"
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "Resta %1 min"
+msgstr[1] "Resten %1 min"
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "Resta %1 h"
+msgstr[1] "Resten %1 h"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "Configura"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "Restaura"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "Minimitza"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "Tanca"
+
+#: components/JobDetails.qml:37
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 de %1"
+
+#: components/JobDetails.qml:122
+#, kde-format
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%3 d'%2 fitxer"
+msgstr[1] "%3 de %2 fitxers"
+
+#: components/JobDetails.qml:125
+#, kde-format
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%3 d'%2 carpeta"
+msgstr[1] "%3 de %2 carpetes"
+
+#: components/JobDetails.qml:128
+#, kde-format
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%3 d'%2 element"
+msgstr[1] "%3 de %2 elements"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 fitxer"
+msgstr[1] "%1 fitxers"
+
+#: components/JobDetails.qml:139
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 carpeta"
+msgstr[1] "%1 carpetes"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elements"
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "Detalls"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Reprèn"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Pausa"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr "Més opcions…"
+
+#: components/JobItem.qml:153
+#, kde-format
+msgid "Open"
+msgstr "Obre"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Obre la carpeta contenidora"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "Teclegeu una resposta…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Envia"
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr "Velocitat"
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr "Velocitat mitjana"
+
+#: components/SpeedChart.qml:264
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1%"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (En pausa)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (Ha fallat)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "El treball ha fallat"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (Finalitzat)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "Treball finalitzat"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr "Obre amb %1"
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr "Obre amb…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "&Copia"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Copia la ubicació"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "Propietats"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "No destorbar"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "Durant 1 hora"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "Durant 4 hores"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "Fins aquest vespre"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "Fins demà al matí"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "Fins dilluns"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "Fins que es desactivi manualment"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Acaba automàticament: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Mentre %1 estigui actiu (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Mentre %1 estigui actiu"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Les pantalles estan emmirallades"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Una aplicació a pantalla completa té el focus"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Visualitza"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "Tanca el grup"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "Mostra'n menys"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Mostra'n %1 més"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "No hi ha notificacions sense llegir"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "El servei de notificació no està disponible"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Actualment, les notificacions són proporcionades per «%1 %2»"
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Commuta a no destorbar"
+
+#: globalshortcuts.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Neteja l'historial de notificacions"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Apaga les notificacions"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Engega les notificacions"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "S'ha netejat l'historial de notificacions"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 treball en execució"
+msgstr[1] "%1 treballs en execució"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 treball en execució (%2%)"
+msgstr[1] "%1 treballs en execució (%2%)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 notificació sense llegir"
+msgstr[1] "%1 notificacions sense llegir"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 notificació activa"
+msgstr[1] "%1 notificacions actives"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "No destorbar fins al %1; clic del mig per a sortir ara"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Mode no destorbar actiu; clic del mig per a sortir"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Clic del mig per a passar al mode no destorbar"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "Neteja totes les notificacions"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Configura les notificacions d'esdeveniments i accions…"

@@ -1,0 +1,175 @@
+# Translation of kcm_icons.po to Catalan
+# Copyright (C) 1998-2026 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# SPDX-FileCopyrightText: 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006 Sebastià Pla i Sanz <sps@sastia.com>
+# SPDX-FileCopyrightText: 2003, 2004 Albert Astals Cid <aacid@kde.org>
+# SPDX-FileCopyrightText: 2004 Ivan Lloro Boada <antispam@wanadoo.es>
+# SPDX-FileCopyrightText: 2007, 2008, 2009, 2010, 2012, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2012, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
+# SPDX-FileCopyrightText: 2019 Empar Montoro Martín <montoro_mde@gva.es>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-31 00:45+0000\n"
+"PO-Revision-Date: 2026-01-31 13:58+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.04.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr "Nom del tema actual d'icones"
+
+#: main.cpp:147
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "No s'ha pogut crear el fitxer temporal."
+
+#: main.cpp:158
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "No s'ha pogut baixar l'arxiu del tema d'icones: %1"
+
+#: main.cpp:172
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "El fitxer no és un arxiu vàlid de tema d'icones."
+
+#: main.cpp:177
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Hi ha hagut un problema durant el procés d'instal·lació. Malgrat això, s'han "
+"instal·lat la majoria dels temes de l'arxiu"
+
+#: main.cpp:181
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "El tema s'ha instal·lat correctament."
+
+#: main.cpp:225
+#, kde-format
+msgid "Installing icon themes…"
+msgstr "Instal·lació de temes d'icones…"
+
+#: main.cpp:235
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr "S'està instal·lant el tema %1…"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "Install from File…"
+msgstr "Instal·la des d'un fitxer…"
+
+#: ui/main.qml:72
+#, kde-format
+msgid "Get New…"
+msgstr "Obtén noves…"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove icon theme"
+msgstr "Elimina el tema d'icones"
+
+#: ui/main.qml:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active icon theme"
+msgstr "No es pot suprimir el tema d'icones actiu"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed icon themes"
+msgstr "No es poden suprimir els temes d'icones instal·lats al sistema"
+
+#: ui/main.qml:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this icon theme"
+msgstr "No suprimeixis aquest tema d'icones"
+
+#: ui/main.qml:250
+#, kde-format
+msgid "Open Theme"
+msgstr "Obre un tema"
+
+#: ui/main.qml:252
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "Fitxers de temes (*.tar.gz *.tar.bz2)"
+
+#~ msgid "Restore Icon Theme"
+#~ msgstr "Restaura el tema d'icones"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Barra d'eines principal"
+
+#~ msgid "Secondary Toolbars"
+#~ msgstr "Barres d'eines secundàries"
+
+#~ msgid "Small Icons"
+#~ msgstr "Icones petites"
+
+#~ msgid "Dialogs"
+#~ msgstr "Diàlegs"
+
+#~ msgid "Desktop icons size"
+#~ msgstr "Mida de les icones d'escriptori"
+
+#~ msgid "Toolbar icons size"
+#~ msgstr "Mida de les icones de les barres d'eines"
+
+#~ msgid "Main toolbar icons size"
+#~ msgstr "Mida de les icones de la barra d'eines principal"
+
+#~ msgid "Small icons size"
+#~ msgstr "Mida petita de les icones"
+
+#~ msgid "Panel icons size"
+#~ msgstr "Mida de les icones dels plafons"
+
+#~ msgid "Dialog icons size"
+#~ msgstr "Mida de les icones dels diàlegs"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Here you can configure the default sizes of various icon types at a "
+#~ "system-wide level. Note that not all apps will respect these settings.<nl/"
+#~ "><nl/>If you find that objects on screen are generally too small or too "
+#~ "large, consider adjusting the global scale instead."
+#~ msgstr ""
+#~ "Aquí podeu configurar les mides predeterminades de diversos tipus "
+#~ "d'icones a nivell de tot el sistema. Tingueu en compte que no totes les "
+#~ "aplicacions respectaran aquests paràmetres.<nl/><nl/>Si trobeu que els "
+#~ "objectes a la pantalla generalment són massa petits o massa grans, "
+#~ "considereu ajustar l'escala global."
+
+#~ msgid "Adjust Global Scale…"
+#~ msgstr "Ajusta l'escala global…"
+
+#~ msgctxt "@label:slider"
+#~ msgid "Size:"
+#~ msgstr "Mida:"
+
+#~ msgid "Configure Icon Sizes"
+#~ msgstr "Configura la mida de les icones"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure Icon Sizes"
+#~ msgstr "Configuració de la mida de les icones"

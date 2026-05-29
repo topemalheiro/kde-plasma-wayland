@@ -1,0 +1,514 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2015.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-21 00:47+0000\n"
+"PO-Revision-Date: 2026-03-23 22:18+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "صفا الفليج,زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "safa1996alfulaij@gmail.com,zayed.alsaidi@gmail.com"
+
+#: filedialognamefilters.cpp:28
+#, kde-format
+msgctxt "Name filter for file dialogs: File type (file extension wildcards)"
+msgid "Image Files (%1)"
+msgstr "ملفّات الصّور (%1)"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "الشكل والمظهر الشامل"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:13 lookandfeelsettings.kcfg:17
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "حزمة الشكل والمظهر العامة البديلة"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:21
+#, kde-format
+msgid "Switch between dark and light global themes depending on time of day"
+msgstr "بدّل بين السمات العامة المظلمة والفاتحة حسب الوقت من اليوم"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelOnIdle), group (KDE)
+#: lookandfeelsettings.kcfg:25
+#, kde-format
+msgid "Switch between dark and light global themes when the computer is idle"
+msgstr ""
+"بدّل بين السمات العامة الداكنة والفاتحة عندما يكون الحاسوب في وضع الخمول"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelIdleInterval), group (KDE)
+#: lookandfeelsettings.kcfg:29
+#, kde-format
+msgid ""
+"How long the computer should be idle in order to switch between dark and "
+"light global themes, in seconds"
+msgstr ""
+"المدة التي يجب أن يظل فيها الحاسوب في وضع الخمول للتبديل بين السمات العامة "
+"الداكنة والفاتحة، بالثواني"
+
+#: tool/lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "أداة السمة الشاملة"
+
+#: tool/lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr "أداة سطر الأوامر لتطبيق حزم السمات الشاملة لتغيير الشكل والمظهر."
+
+#: tool/lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "حقوق الطبع 2017، ماركو مارتن"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "ماركو مارتن"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "الصائن"
+
+#: tool/lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "تسرد جميع حزم السمات الشاملة المتوفرة"
+
+#: tool/lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"تطبق حزمة السمة الشاملة. يمكن أن يكون هذا اسم الحزمة، أو المسار الكامل لحزمة "
+"مثبتة، وعند هذه النقطة ستضمن هذه الأداة أنها حزمة سمة شاملة ثم تحاول تطبيقها"
+
+#: tool/lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "اسم الحزمة"
+
+#: tool/lnftool.cpp:52
+#, kde-format
+msgid "Prevent --apply from disabling the automatic mode"
+msgstr "امنع --apply من تعطيل الوضع الآليّ"
+
+#: tool/lnftool.cpp:53
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "صفّر تخطيط سطح مكتب بلازما"
+
+#: ui/ConfirmDeletionDialog.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Permanently"
+msgstr "احذف نهائياً"
+
+#: ui/ConfirmDeletionDialog.qml:17
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to permanently delete this theme?"
+msgstr "أمتأكد من حذف هذه السمة بشكل نهائي؟"
+
+#: ui/ConfirmDeletionDialog.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Permanently"
+msgstr "احذف نهائياً"
+
+#: ui/ConfirmDeletionDialog.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: ui/DayNightLookAndFeel.qml:46
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The chosen light Global Theme will be used during the day, and the dark one "
+"will be used at night."
+msgstr ""
+"ستُستخدم السمة العامّة المختارة ذات الألوان الفاتحة في النهار، بينما ستُستخدم "
+"السمة ذات الألوان المظلمة في الليل."
+
+#: ui/DayNightLookAndFeel.qml:55
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure Day/Night Cycle…"
+msgstr "اضبط دورات الليل والنهار…"
+
+#: ui/DayNightLookAndFeel.qml:68
+#, kde-format
+msgctxt "@option:radio Light global theme"
+msgid "Light"
+msgstr "فاتح"
+
+#: ui/DayNightLookAndFeel.qml:80
+#, kde-format
+msgctxt "@option:radio Dark global theme"
+msgid "Dark"
+msgstr "مظلم"
+
+#: ui/DayNightLookAndFeel.qml:97
+#, kde-format
+msgctxt "@option:check"
+msgid "Wait until idleness before switching:"
+msgstr "انتظر حتى وقت الخمول قبل التبديل:"
+
+#: ui/DayNightLookAndFeel.qml:110
+#, kde-format
+msgctxt "@item:valuesuffix idle interval"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "0 ثانية"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتين"
+msgstr[3] "%1 ثواني"
+msgstr[4] "%1 ثانيةً"
+msgstr[5] "%1 ثانية"
+
+#: ui/DayNightLookAndFeel.qml:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Minimizes interruptions when actively using the computer."
+msgstr "يقلل من الانقطاعات أثناء استخدام الحاسوب بشكل نشط."
+
+#: ui/LookAndFeelSelector.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Light Global Theme"
+msgstr "اختر سمة فاتحة عامة"
+
+#: ui/LookAndFeelSelector.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Dark Global Theme"
+msgstr "اختر سمة مظلمة عامة"
+
+#: ui/LookAndFeelSelector.qml:49 ui/StaticLookAndFeel.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview Theme"
+msgstr "عاين السمة"
+
+#: ui/LookAndFeelSelector.qml:57 ui/StaticLookAndFeel.qml:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove theme"
+msgstr "أزل السّمة"
+
+#: ui/LookAndFeelSelector.qml:59 ui/StaticLookAndFeel.qml:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active theme"
+msgstr "لا يمكن حذف السمة النشطة"
+
+#: ui/LookAndFeelSelector.qml:61 ui/StaticLookAndFeel.qml:79
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed themes"
+msgstr "لا يمكن حذف السمات المثبتة على النظام"
+
+#: ui/LookAndFeelSnapshot.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Current Theme"
+msgstr "احفظ السمة الحالية"
+
+#: ui/LookAndFeelSnapshot.qml:25
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Plasma’s current appearance and theme settings will be saved in a new global "
+"theme."
+msgstr "سيُحفظ المظهر الحالي لبلازما وإعدادات السمة في سمة عامة جديدة."
+
+#: ui/LookAndFeelSnapshot.qml:69
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a preview image…"
+msgstr "أضف صورة معاينة…"
+
+#: ui/LookAndFeelSnapshot.qml:79
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Take a screenshot…"
+msgstr "خُذ لقطة…"
+
+#: ui/LookAndFeelSnapshot.qml:86
+#, kde-format
+msgctxt "@label:textbox Name of new global theme that will be created"
+msgid "Name:"
+msgstr "الاسم:"
+
+#: ui/LookAndFeelSnapshot.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type in name…"
+msgstr "اكتب اسم…"
+
+#: ui/LookAndFeelSnapshot.qml:101
+#, kde-format
+msgctxt ""
+"@action:button Confirm creating new global theme from the user's current "
+"appearance settings"
+msgid "Confirm"
+msgstr "أكد"
+
+#: ui/LookAndFeelSnapshot.qml:113
+#, kde-format
+msgctxt "@info"
+msgid "A global theme with this name or id already exists."
+msgstr "سمة عامة موجود فعلًا بهذا الاسم أو بهذا المعرف."
+
+#: ui/LookAndFeelSnapshot.qml:127
+#, kde-format
+msgctxt "@title:title"
+msgid "Choose a Preview Image"
+msgstr "اختر صورة المعاينة"
+
+#: ui/main.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch to Dark Mode at Night"
+msgstr "بدّل إلى وضع المظلم في الليل"
+
+#: ui/main.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Current Theme…"
+msgstr "احفظ السمة الحالية…"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Get New…"
+msgstr "احصل على جديد…"
+
+#: ui/MoreOptions.qml:24
+#, kde-format
+msgid "Layout settings:"
+msgstr "إعدادات التخطيط:"
+
+#: ui/MoreOptions.qml:27
+#, kde-format
+msgid "Desktop layout"
+msgstr "تخطيط سطح مكتب"
+
+#: ui/MoreOptions.qml:33
+#, kde-format
+msgid "Titlebar Buttons layout"
+msgstr "تخطيط أزرار شريط العنوان"
+
+#: ui/MoreOptions.qml:56 ui/SimpleOptions.qml:64
+#, kde-format
+msgid ""
+"Applying a Desktop layout will delete the current set of desktops, panels, "
+"docks, and widgets, replacing them with what the theme specifies."
+msgstr ""
+"سيؤدي تطبيق تخطيط سطح المكتب إلى حذف المجموعة الحالية من أسطح المكتب "
+"واللوحات ووحدات الإرساء وعناصر واجهة المستخدم، واستبدالها بما تحددها السمة."
+
+#: ui/MoreOptions.qml:67
+#, kde-format
+msgid "Appearance settings:"
+msgstr "إعدادات المظهر:"
+
+#: ui/MoreOptions.qml:70
+#, kde-format
+msgid "Colors"
+msgstr "الألوان"
+
+#: ui/MoreOptions.qml:71
+#, kde-format
+msgid "Application Style"
+msgstr "نمط التطبيق"
+
+#: ui/MoreOptions.qml:72
+#, kde-format
+msgid "Window Decoration Style"
+msgstr "نمط زخارف النوافذ"
+
+#: ui/MoreOptions.qml:73
+#, kde-format
+msgid "Window Decoration Size"
+msgstr "حجم زخارف النوافذ"
+
+#: ui/MoreOptions.qml:74
+#, kde-format
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: ui/MoreOptions.qml:75
+#, kde-format
+msgid "Plasma Style"
+msgstr "نمط بلازما"
+
+#: ui/MoreOptions.qml:76
+#, kde-format
+msgid "Pointers"
+msgstr "المؤشرات"
+
+#: ui/MoreOptions.qml:77
+#, kde-format
+msgid "Fonts"
+msgstr "الخطوط"
+
+#: ui/MoreOptions.qml:78
+#, kde-format
+msgid "Task Switcher"
+msgstr "مبدّل المهام"
+
+#: ui/MoreOptions.qml:79
+#, kde-format
+msgid "Splash Screen"
+msgstr "شاشة البدء"
+
+#: ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "ستطبق الأشياء التالية بواسطة السمة الشاملة:"
+
+#: ui/SimpleOptions.qml:33
+#, kde-format
+msgid "Appearance settings"
+msgstr "إعدادات المظهر"
+
+#: ui/SimpleOptions.qml:40
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• إعدادات المظهر"
+
+#: ui/SimpleOptions.qml:48
+#, kde-format
+msgid "Desktop and window layout"
+msgstr "تخطيط سطح مكتب والنوافذ"
+
+#: ui/SimpleOptions.qml:55
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop and window layout"
+msgstr "• تخطيط سطح مكتب والنوافذ"
+
+#: ui/SimpleOptions.qml:71
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"لا تقدم السمة الشاملة أي إعدادات. الرجاء التواصل مع مؤلف هذه السمة لأنها قد "
+"تكون معطوبة."
+
+#: ui/StaticLookAndFeel.qml:53
+#, kde-format
+msgctxt "@label"
+msgid "Contains Desktop layout"
+msgstr "تحوي تخطيط سطح مكتب"
+
+#: ui/StaticLookAndFeel.qml:112
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "طبّق %1؟"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "اختر ماذا تريد أن تطبق..."
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Show fewer options…"
+msgstr "اعرض خيارات أقل…"
+
+#~ msgid "Cursors"
+#~ msgstr "المؤشرات"
+
+#~ msgid ""
+#~ "You have to restart the Plasma session for these changes to take effect."
+#~ msgstr "عليك إعادة تشغيل جلسة بلازما  لتأخذ التغييرات تأثيرها."
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "تغيّرت إعدادات المؤشّر"
+
+#~ msgid "Apply"
+#~ msgstr "طبّق"
+
+#~ msgid "Cancel"
+#~ msgstr "ألغِ"
+
+#~ msgid "Lock Screen"
+#~ msgstr "قفل الشّاشة"
+
+#~ msgid "Get New Global Themes…"
+#~ msgstr "احصل على سمات شاملة جديدة..."
+
+#~ msgid "This module lets you choose the global look and feel."
+#~ msgstr "هذه الوحدة تجعلك تختار المظهر والشكل الشامل لسطح المكتب."
+
+#~ msgid ""
+#~ "Your current layout and configuration of panels, desktop widgets, and "
+#~ "wallpapers will be lost and reset to the default layout provided by the "
+#~ "selected theme."
+#~ msgstr ""
+#~ "سيتم فقد التخطيط والتكوين الحالي للوحات وعناصر واجهة مستخدم سطح المكتب "
+#~ "والخلفيات وإعادة تعيينها إلى التخطيط المبدئي الذي توفره السمة المحددة."
+
+#~ msgid "Use desktop layout from theme"
+#~ msgstr "استخدم تخطيط سطح المكتب من السمة"
+
+#, fuzzy
+#~| msgid "Configure Splash screen details"
+#~ msgid "Look and feel tool"
+#~ msgstr "اضبط تفاصيل شاشة البداية"
+
+#, fuzzy
+#~| msgid "Configure Splash screen details"
+#~ msgid "Choose the Look and Feel theme"
+#~ msgstr "اضبط تفاصيل شاشة البداية"
+
+#, fuzzy
+#~| msgid ""
+#~| "Select an overall look and feel theme for your workspace (including "
+#~| "splash screen, lock screen etc.) and applications"
+#~ msgid ""
+#~ "Select an overall theme for your workspace (including plasma theme, color "
+#~ "scheme, mouse cursor, window and desktop switcher, splash screen, lock "
+#~ "screen etc.)"
+#~ msgstr ""
+#~ "اختر سمة مظهر وسلوك عامّة لمساحة عملك (متضمّنة شاشة البداية، قفل الشّاشة، "
+#~ "إلخ) والتّطبيقات"

@@ -1,0 +1,280 @@
+# Bosnian translation for kdebase-workspace
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the kdebase-workspace package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2015-02-04 15:17+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-02-05 06:28+0000\n"
+"X-Generator: Launchpad (build 17331)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgid "Desktop path:"
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Putanja radne površi:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr ""
+
+#: ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "Documents"
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Dokumenti"
+
+#: ui/main.qml:73
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr "Ovaj direktorij će biti default za učitavanje i snimanje dokumenata."
+
+#: ui/main.qml:81
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Preuzimanja"
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "This folder will be used by default to save your downloaded items."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevani za upisivanje preuzetih "
+"stavki."
+
+#: ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "Movies path:"
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Putanja filmova:"
+
+#: ui/main.qml:101
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save movies from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevani za učitavanje ili upisivanje "
+"filmova."
+
+#: ui/main.qml:109
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Putanja slika:"
+
+#: ui/main.qml:115
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save movies from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevani za učitavanje ili upisivanje "
+"filmova."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr ""
+
+#: ui/main.qml:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save music from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevani za učitavanje ili upisivanje "
+"muzike."
+
+#: ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Music path:"
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Putanja muzike:"
+
+#: ui/main.qml:143
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save pictures from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevanij za učitavanje ili upisivanje "
+"slika."
+
+#: ui/main.qml:151
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Putanja slika:"
+
+#: ui/main.qml:157
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save pictures from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"Ovaj direktorij se koristi kao podrazumijevanij za učitavanje ili upisivanje "
+"slika."
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Putanja slika:"
+
+#: ui/main.qml:171
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr "Ovaj direktorij će biti default za učitavanje i snimanje dokumenata."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr ""
+
+#~ msgid ""
+#~ "This folder contains all the files which you see on your desktop. You can "
+#~ "change the location of this folder if you want to, and the contents will "
+#~ "move automatically to the new location as well."
+#~ msgstr ""
+#~ "Ovaj direktorij sadrži sve datoteke koje vidite na desktopu. Možete "
+#~ "promijeniti mjesto gdje se on nalazi, a njegov sadržaj će biti automatski "
+#~ "premješten na novo mjesto."
+
+#~ msgid "Documents path:"
+#~ msgstr "Putanja dokumenata:"
+
+#~ msgid "Downloads path:"
+#~ msgstr "Putanja preuzimanja:"
+
+#~ msgid ""
+#~ "This folder will be used by default to load or save pictures from or to."
+#~ msgstr ""
+#~ "Ovaj direktorij se koristi kao podrazumijevanij za učitavanje ili "
+#~ "upisivanje slika."
+
+#~ msgid "Music path:"
+#~ msgstr "Putanja muzike:"
+
+#~ msgid "Desktop"
+#~ msgstr "Radna površina"
+
+#~ msgid "Music"
+#~ msgstr "Muzika"
+
+#~ msgid "Pictures"
+#~ msgstr "Slike"
+
+#, fuzzy
+#~| msgid "Movies path:"
+#~ msgid "Videos"
+#~ msgstr "Putanja filmova:"
+
+#~ msgid ""
+#~ "<h1>Paths</h1>\n"
+#~ "This module allows you to choose where in the filesystem the files on "
+#~ "your desktop should be stored.\n"
+#~ "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+#~ msgstr ""
+#~ "<html><h1>Putanje</h1><p>Ovim modulom se određuje gdje se u datotečnom "
+#~ "sistemu smiještaju datoteke na površi.</p><p>Koristite „Šta je "
+#~ "ovo?“ (<shortcut>Shift+F1</shortcut>) za objašnjenja pojedinih opcija.</"
+#~ "p></html>."
+
+#~ msgid "Autostart path:"
+#~ msgstr "Putanja samopokretanja:"
+
+#, fuzzy
+#~| msgid ""
+#~| "This folder contains applications or links to applications (shortcuts) "
+#~| "that you want to have started automatically whenever KDE starts. You can "
+#~| "change the location of this folder if you want to, and the contents will "
+#~| "move automatically to the new location as well."
+#~ msgid ""
+#~ "This folder contains applications or links to applications (shortcuts) "
+#~ "that you want to have started automatically whenever the session starts. "
+#~ "You can change the location of this folder if you want to, and the "
+#~ "contents will move automatically to the new location as well."
+#~ msgstr ""
+#~ "Ovaj direktorij sadrži sve programe (ili linkove na njih) koje želite "
+#~ "automatski pokrenuti zajedno sa KDE-om. Također, možete mijenjati "
+#~ "smještaj ovog direktorija, a njegov sadržaj će biti automatski premješten "
+#~ "na novo mjesto."
+
+#~ msgid "Autostart"
+#~ msgstr "Automatsko pokretanje"
+
+#~ msgid "Movies"
+#~ msgstr "Filmovi"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want the files to be moved from '%2' to '%3'?"
+#~ msgstr ""
+#~ "Putanja za „%1“ je promienjena.\n"
+#~ "Želite li da premestite datoteke iz %2 u %3?"
+
+#~ msgctxt "Move files from old to new place"
+#~ msgid "Move"
+#~ msgstr "Premjesti"
+
+#~ msgctxt "Use the new directory but do not move files"
+#~ msgid "Do not Move"
+#~ msgstr "Ne premiještaj"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want to move the directory '%2' to '%3'?"
+#~ msgstr ""
+#~ "Putanja za „%1“ je promijenjena.\n"
+#~ "Želite li da premestite direktorij %2 u %3?"
+
+#~ msgctxt "Move the directory"
+#~ msgid "Move"
+#~ msgstr "Premjesti"
+
+#~ msgctxt "Use the new directory but do not move anything"
+#~ msgid "Do not Move"
+#~ msgstr "Ne premještaj"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "Potrebna je potvrda"

@@ -1,0 +1,200 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Thomas Vergnaud <thomas.vergnaud@gmx.fr>, 2014, 2016.
+# Vincent Pinon <vpinon@kde.org>, 2016, 2017.
+# Simon Depiets <sdepiets@gmail.com>, 2018.
+# SPDX-FileCopyrightText: 2020, 2022, 2023, 2025 Xavier Besnard <xavier.besnard@kde.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 00:44+0000\n"
+"PO-Revision-Date: 2025-03-30 11:13+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Accelerator-Marker: &\n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 24.12.3\n"
+"X-Text-Markup: kde4\n"
+
+#: AlbumArtStackView.qml:211
+#, kde-format
+msgid "No title"
+msgstr "Aucun titre"
+
+#: AlbumArtStackView.qml:211 main.qml:57
+#, kde-format
+msgid "No media playing"
+msgstr "Aucun média en lecture"
+
+#: ExpandedRepresentation.qml:414 ExpandedRepresentation.qml:570
+#, kde-format
+msgctxt "Remaining time for song e.g -5:42"
+msgid "-%1"
+msgstr "-%1"
+
+#: ExpandedRepresentation.qml:591
+#, kde-format
+msgid "Playback rate %1"
+msgstr "Vitesse de lecture %1"
+
+#: ExpandedRepresentation.qml:594
+#, kde-format
+msgctxt "Playback rate"
+msgid "%1x"
+msgstr "%1 x"
+
+#: ExpandedRepresentation.qml:598
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Playback rate"
+msgstr "Vitesse de lecture "
+
+#: ExpandedRepresentation.qml:644
+#, kde-format
+msgctxt "@action:inmenu Playback speed (Normal)"
+msgid "%1 (Normal)"
+msgstr "%1 (Normal)"
+
+#: ExpandedRepresentation.qml:683
+#, kde-format
+msgctxt "@action:button"
+msgid "Shuffle"
+msgstr "Mélanger"
+
+#: ExpandedRepresentation.qml:707 main.qml:114
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Piste précédente"
+
+#: ExpandedRepresentation.qml:729 main.qml:122
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Pause"
+
+#: ExpandedRepresentation.qml:729 main.qml:130
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Lecture"
+
+#: ExpandedRepresentation.qml:747 main.qml:138
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Piste suivante"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat Track"
+msgstr "Répéter la piste"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat"
+msgstr "Répéter"
+
+#: ExpandedRepresentation.qml:841
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose player automatically"
+msgstr "Sélectionner un lecteur automatiquement"
+
+#: main.qml:60
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (%2)\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"par %1 (%2)\n"
+"Faites un clic central pour mettre en pause\n"
+"Faites défiler pour ajuster le volume"
+
+#: main.qml:61
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"%1\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1\n"
+"Faites un clic central pour mettre en pause\n"
+"Faites défiler pour ajuster le volume"
+
+# Faut-il écrire « par » ou « de » ?
+#: main.qml:63
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (paused, %2)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"par %1 (mis en pause, %2)\n"
+"Faites un clic central pour lire Faites défiler pour ajuster le volume"
+
+#: main.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"Paused (%1)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"Mis en pause (%1)\n"
+"Faites un clic central pour lire\n"
+"Faites défiler pour ajuster le volume"
+
+#: main.qml:107
+#, kde-format
+msgctxt "Open player window or bring it to the front if already open"
+msgid "Open"
+msgstr "Ouvrir"
+
+#: main.qml:146
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Arrêter"
+
+#: main.qml:159
+#, kde-format
+msgctxt "Quit player"
+msgid "Quit"
+msgstr "Quitter"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Volume step:"
+#~ msgstr "Palier de volume :"
+
+#~ msgctxt "by Artist (player name)"
+#~ msgid "by %1 (%2)"
+#~ msgstr "de %1 (%2)"
+
+#~ msgctxt "Paused (player name)"
+#~ msgid "Paused (%1)"
+#~ msgstr "En pause (%1)"
+
+#~ msgctxt "artist – track"
+#~ msgid "%1 – %2"
+#~ msgstr "%1 – %2"
+
+#~ msgctxt "Artist of the song"
+#~ msgid "by %1"
+#~ msgstr "de %1"
+
+#~ msgid "Pause playback when screen is locked"
+#~ msgstr "Mettre la lecture en pause quand l'écran est verrouillé"

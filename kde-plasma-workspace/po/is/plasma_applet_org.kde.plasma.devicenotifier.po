@@ -1,0 +1,317 @@
+# translation of plasma_applet_devicenotifier.po to Icelandic
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2008, 2009, 2022, 2026 Sveinn í Felli <sveinki@nett.is>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2026-03-10 12:59+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Leita að villum"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Tengja í skráakerfið"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Opna í skráastjóra"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Reyna að lagfæra"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Tengja og opna"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Henda út"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Fjarlæga á öruggan máta"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Það eru skráakerfisvillur á þessu tæki."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Engar villur eru á þessu tæki."
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Tókst að lagfæra!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Staða tækis"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Nú er óhætt að fjarlægja tæki"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Nú er óhætt að fjarlægja þetta tæki."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Þú hefur ekki heimild til að tengjast þessu tæki."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Þú hefur ekki heimild til að ýta þessum diski úr."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Þú hefur ekki heimild til að fjarlægja þetta tæki."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Þú hefur ekki heimild til að lagfæra þetta tæki."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Óþekkt tegund villu"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Gat ekki tengt þetta tæki því það er upptekið."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Ein eða fleiri skrár á þessu tæki eru opnar í forriti."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] "Ein eða fleiri skrár á þessu tæki eru opnar í forritinu \"%2\"."
+msgstr[1] ""
+"Ein eða fleiri skrár á þessu tæki eru opnar í eftirtöldum forritum: %2."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Gat ekki tengt þetta tæki."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Gat ekki ýtt þessum diski úr."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Gat ekki fjarlægt þetta tæki."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Gat ekki lagfært þetta tæki: %1"
+
+#: qml/DeviceItem.qml:98
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Athuga…"
+
+#: qml/DeviceItem.qml:100
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Lagfæri…"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 laust af %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Fæ aðgang…"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Fjarlægi..."
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Ekki taka strax úr sambandi! Það er enn verið að flytja skrár..."
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Fjarlægja allt"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Smelltu til að fjarlæga öll tæki á öruggan máta"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Engin útskiptanleg tæki tengd"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Engir diskar tiltækir"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Nýlegasta tæki"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Engin tæki tiltæk"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Grunnstilla útskiptanleg tæki…"
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Útskiptanleg tæki"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Óútskiptanleg tæki"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Öll tæki"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Birta sprettiglugga þegar ný tæki eru tengd"
+
+#~ msgctxt "@action:button Mount a disk without verifying for errors"
+#~ msgid "Mount without verifying"
+#~ msgstr "Tengja án staðfestingar"
+
+#~ msgid "Filesystem is not responding"
+#~ msgstr "Skráakerfi svarar ekki"
+
+#~ msgid "Filesystem mounted at '%1' is not responding"
+#~ msgstr "Skráakerfið sem tengt er á '%1' svarar ekki"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "General"
+#~ msgstr "Almennt"
+
+#, fuzzy
+#~| msgid "1 action for this device"
+#~| msgid_plural "%1 actions for this device"
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 aðgerð fyrir þetta tæki"
+#~ msgstr[1] "%1 aðgerð fyrir þetta tæki"
+
+#, fuzzy
+#~| msgid "1 action for this device"
+#~| msgid_plural "%1 actions for this device"
+#~ msgid "Click to safely remove this device."
+#~ msgstr "1 aðgerð fyrir þetta tæki"
+
+#, fuzzy
+#~| msgid "Hide "
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "Fela "
+
+#~ msgid "Cannot mount the disc."
+#~ msgstr "Get ekki tengt diskinn."
+
+#, fuzzy
+#~| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "<font color=\"%1\">Nýlega tengd tæki:</font>"
+
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " sekúnda"
+#~ msgstr[1] " sekúndur"
+
+#~ msgid "Show all the items"
+#~ msgstr "Sýna alla hluti"
+
+#~ msgid "never"
+#~ msgstr "aldrei"
+
+#~ msgid "Form"
+#~ msgstr "Form"

@@ -1,0 +1,86 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2024 Wantoyèk <wantoyek@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-02 00:46+0000\n"
+"PO-Revision-Date: 2024-10-02 18:26+0700\n"
+"Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: qml/FullRepresentation.qml:44
+#, kde-format
+msgctxt "@info:status %1 camera name"
+msgid "%1 is in use"
+msgstr "%1 sedang digunakan"
+
+#: qml/FullRepresentation.qml:78
+#, kde-format
+msgctxt "@title"
+msgid "Camera"
+msgstr "Kamera"
+
+#: qml/FullRepresentation.qml:81
+#, kde-format
+msgctxt "@info:status"
+msgid "Active"
+msgstr "Aktif"
+
+#: qml/FullRepresentation.qml:83
+#, kde-format
+msgctxt "@info:status"
+msgid "Idle"
+msgstr "Idle"
+
+#: qml/FullRepresentation.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "Galat"
+
+#: qml/FullRepresentation.qml:87
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating"
+msgstr "Pembuatan"
+
+#: qml/FullRepresentation.qml:89
+#, kde-format
+msgctxt "@info:status"
+msgid "Suspended"
+msgstr "Disuspensi"
+
+#: qml/FullRepresentation.qml:91
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown"
+msgstr "Tak diketahui"
+
+#: qml/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Camera indicator is unavailable"
+msgstr "Indikator kamera tidak tersedia"
+
+#: qml/main.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A camera is in use"
+msgid_plural "%1 cameras are in use"
+msgstr[0] "Kamera sedang digunakan"
+msgstr[1] "%1 kamera sedang digunakan"
+
+#: qml/main.qml:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No camera is in use"
+msgstr "Tidak ada kamera yang sedang digunakan"

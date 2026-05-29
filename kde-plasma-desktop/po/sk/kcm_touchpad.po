@@ -1,0 +1,1193 @@
+# translation of kcm_touchpad.po Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2015, 2017.
+# Mthw <jari_45@hotmail.com>, 2018, 2019.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2023, 2024 Matej Mrenica <matejm98mthw@gmail.com>
+# SPDX-FileCopyrightText: 2025 Lucia Mrenica <lucia.mrenica@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_touchpad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2025-05-30 20:35+0200\n"
+"Last-Translator: Lucia Mrenica <lucia.mrenica@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.04.1\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr ""
+"Kritická chyba pri čítaní základných informácií zariadenia pre touchpad %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Nemôžem sa pripojiť k X serveru"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Nenašiel sa touchpad"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Nemôžem použiť nastavenie touchpadu"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Nemôžem čítať nastavenie touchpadu"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Nemôžem čítať predvolené nastavenia touchpadu"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "Nie je možné vybrať vhodný backend"
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Chyba počas načítavania zmien. Pozrite si záznamy pre viac informácií. "
+"Prosím, reštartujte konfiguračný modul."
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr "Nenájdené žiadne ukazovacie zariadenie. Pripojte ho teraz."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Nepodarilo sa uložiť všetky zmeny. Pozrite si záznamy pre viac informácií. "
+"Prosím, reštartujte konfiguračný modul."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Chyba počas načítavania predvolených hodnôt. Nie všetky alebo žiadne voľby "
+"boli možné nastaviť na predvolené hodnoty."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Chyba počas pridávania novo pripojeného zariadenia. Prosím, znovu ho "
+"pripojte a reštartujte konfiguračný modul."
+
+#: kcm.cpp:185
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Ukazovacie zariadenie odpojené. Zatvorte tento dialóg nastavení."
+
+#: kcm.cpp:187
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Ukazovacie zariadenie odpojené. Žiadne iné zariadenie nebolo nájdené."
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Nenašiel sa touchpad"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Pripojiť externý touchpad"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Zariadenie:"
+
+#: ui/main.qml:110
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Všeobecné:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Povoliť zariadenie"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Zakázať, keď je myš pripojená"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Zakázať touchpad pri písaní"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "To môže zasahovať do videohier."
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Ľavé a pravé tlačidlá:"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Vymeniť (režim pre ľavákov)"
+
+#: ui/main.qml:185
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Stlačte obe súčasne pre stredné kliknutie"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Aktivácia tohto nastavenia zvyšuje oneskorenie kliknutia myšou o 50 ms. "
+"Dodatočné oneskorenie je potrebné na správne rozpoznanie súčasných kliknutí "
+"ľavým a pravým tlačidlom myši."
+
+#: ui/main.qml:207
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Rýchlosť ukazovateľa:"
+
+#: ui/main.qml:287
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Povoliť zrýchlenie ukazovateľa"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+"Keď je táto funkcia zapnutá, vzdialenosť pohybu ukazovateľa sa zvyšuje s "
+"vyššou rýchlosťou pohybu."
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Rýchlosť rolovania:"
+
+#: ui/main.qml:360
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Pomalšie"
+
+#: ui/main.qml:367
+#, kde-format
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Rýchlejšie"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Rolovanie:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr "Pohybom dvoch prstov kdekoľvek"
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr "Pohybom jedným prstom na okraji"
+
+#: ui/main.qml:404
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Otočiť smer rolovania (Prirodzené rolovanie)"
+
+#: ui/main.qml:421
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Zakázať horizontálne rolovanie"
+
+#: ui/main.qml:439
+#, kde-format
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Pravé kliknutie:"
+
+#: ui/main.qml:443
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Stlačením pravého dolného rohu"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Stlačenie oboch spodných rohov spôsobí stredné kliknutie."
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Stlačenie spodného stredu spôsobí stredné kliknutie."
+
+#: ui/main.qml:471
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Stlačením kdekoľvek dvoma prstami"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Stlačte hocikde s troma prstami na kliknutie stredného tlačidla."
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Stredný klik:"
+
+#: ui/main.qml:487
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Stlačením na spodu v strede"
+
+#: ui/main.qml:507
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Stlačením naraz dolného ľavého a dolného pravého rohu"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Stlačením hocikde troma prstami"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Ťukanie:"
+
+#: ui/main.qml:533
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Ťuknite na kliknutie"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr "Povoliť ťahanie po ťuknutí"
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+"Ťuknite na položku, potom ťuknite na položku a ihneď ťahajte prstom po "
+"dotykovej ploche. Zdvihnutím prsta pustíte."
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr "Povolenie krátkeho zdvihnutia prsta počas ťuknutia a potiahnutia"
+
+#: ui/main.qml:580
+#, kde-format
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Ťuknutie dvoma prstami:"
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Pravý klik (troj-klik na stredný klik)"
+
+#: ui/main.qml:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Pravý klik"
+
+#: ui/main.qml:608
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Stredný klik (troj-klik na pravý klik)"
+
+#: ui/main.qml:609
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Stredný klik"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Dopytovanie vstupných zariadení zlyhalo. Prosím, znovu otvorte tento "
+#~ "modul nastavení."
+
+#~ msgid "Device enabled"
+#~ msgstr "Zariadenie povolené"
+
+#~ msgid "Two fingers"
+#~ msgstr "Dva prsty"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Okraje touchpadu"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Ťuknite na kliknutie"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Gesto Tap-and-Drag"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Pravý klik:"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Stredný klik:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Prijímať vstup cez toto zariadenie."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr "Zakázať touchpad pri písaní na zabránenie nechcených vstupov."
+
+#, fuzzy
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Kliknutie ľavým a oravým tlačidlom naraz pošle kliknutie stredným "
+#~ "tlačidlom."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Kĺzanie dvoma prstami roluje."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Kĺzanie na okraji touchpadu roluje."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Rolovanie ako na dotykovej obrazovke."
+
+#, fuzzy
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Zakázať horizontálne rolovanie"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Jedno ťuknutie je kliknutie ľavým tlačidlom."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Posúvajte sa po touchpade hneď po presúvaní."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Zámok gest Tap-and-Drag"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Presúvanie pokračuje po krátkom zdvihu prsta."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Ťuknite dvoma prstami na pravý klik, ťuknite troma prstami na stredný "
+#~ "klik."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Ťuknite dvoma prstami na pravý klik."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Ťuknite dvoma prstami na stredný klik, ťuknite troma prstami na pravý "
+#~ "klik."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Ťuknite dvoma prstami na stredný klik."
+
+#, fuzzy
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr "Ťuknite dvoma prstami na pravý klik."
+
+#, fuzzy
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr "Stlačte naraz dolný ľavý a dolný pravý roh"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr "Ťuknite dvoma prstami na pravý klik."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Povoliť touchpad"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Zakázať touchpad"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Prepnúť touchpad"
+
+#~ msgid "None"
+#~ msgstr "Žiadne"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Kurzor sa pohne o rovnakú vzdialenosť ako prst."
+
+#~ msgid "Standard"
+#~ msgstr "Štandardné"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr "Kurzor sa pohne o vzdialenosť závislú od rýchlosti pohybu prstu."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Žiadna akcia"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Ľavé tlačidlo"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Stredné tlačidlo"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Pravé tlačidlo"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Všetky okraje"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Horná hrana"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Pravý horný roh"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Pravý okraj"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Pravý dolný roh"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Dolná hrana"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Ľavý dolný roh"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Ľavý okraj"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Ľavý horný roh"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Touchpad bol zakázaný, lebo bola pripojená myš"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Touchpad bol povolený, pretože myš bola odpojená"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr "Pridá virtuálne tlačidlá na spodok vášho touchpadu."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Ťuknite dvoma prstami na pravý klik."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr "Pridá virtuálne stredné tlačidlo na spodok vášho touchpadu."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Roman Paholík"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "wizzardsk@gmail.com"
+
+#~ msgid "Drag me"
+#~ msgstr "Potiahni ma"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Ľavé tlačidlo"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Pravé tlačidlo"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Stredné tlačidlo"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Aktívne nastavenia sa nezhodujú s uloženými nastaveniami.\n"
+#~ "Práve vidíte uložené nastavenia."
+
+#~ msgid "Show active settings"
+#~ msgstr "Zobraziť aktívne nastavenia"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Tieto nastavenia nemajú efekt v testovacej oblasti"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Povoliť/zakázať touchpad"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Povoliť/zakázať touchpad"
+
+#~ msgid "Configure…"
+#~ msgstr "Nastaviť..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Klávesové skratky:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Zakázať touchpad pri písaní"
+
+#~ msgid "Timeout:"
+#~ msgstr "Čas vypršania:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Ak nie je žiadna aktivita klávesnice za viac ako daný počet\n"
+#~ "milisekúnd, touchpad bude zase povolený"
+
+#~ msgid " ms"
+#~ msgstr " ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Zakázať emuláciu kliknutia a rolovanie.\n"
+#~ "Stále budete môcť pohybovať ukazovateľom a vykonávať kliknutia s "
+#~ "hardvérovými tlačidlami."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Zakázať iba ťuknutia a rolovania"
+
+#~ msgid "Notifications:"
+#~ msgstr "Upozornenia:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Ignorované zariadenia:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Niektoré zariadenia sa môžu nesprávne prejavovať ako myš.\n"
+#~ "Môžete ich pridať do tohto zoznamu, aby boli ignorované pri ich pripojení."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Pohyb kurzora"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Rýchlosť"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Minimum:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Minimálna rýchlosť ukazovateľa"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maximum:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Maximálna rýchlosť ukazovateľa"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Zrýchlenie:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Akceleračný násobič pre normálne pohyby ukazovateľa"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Pohyb závislý na tlaku"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimálny tlak:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Minimálny činiteľ:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Maximálny tlak:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Maximálny činiteľ:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr "Tlak prsta, pri ktorom sa použije faktor minimálneho tlaku pohybu"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "Tlak prsta, pri ktorom sa použije faktor maximálneho tlaku pohybu"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Najnižšie nastavenie pre tlak faktoru pohybu"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Najvyššie nastavenie pre tlak faktoru pohybu"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Rušenie šumu"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Vertikálna:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Horizontálna:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Minimálna zvislá hardvérová vzdialenosť potrebná na generovanie udalostí "
+#~ "pohybu"
+
+#~ msgid " units"
+#~ msgstr " jednotky"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Minimálna vodorovná hardvérová vzdialenosť potrebná na generovanie "
+#~ "udalostí pohybu"
+
+#~ msgid "Scrolling"
+#~ msgstr "Rolovanie"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Rolovanie okraja:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Povoliť zvislé rolovanie pri posunutí pri pravom okraji"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Vertikálne"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Povoliť vodorovné rolovanie pri posunutí pri spodnom okraji"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Horizontálne"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Povoliť zvislé rolovanie pri posunutí s dvoma prstami kdekoľvek na "
+#~ "touchpade"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Povoliť vodorovné rolovanie pri posunutí s dvoma prstami kdekoľvek na "
+#~ "touchpade"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Reverzné zvislé rolovanie"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Reverzné vodorovné rolovanie"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Dvojprstové rolovanie:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Reverzné rolovanie:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Vzdialenosť rolovania"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Vertikálna:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Vzdialenosť pohybu prsta pre udalosť rolovania"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Horizontálna:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr "Pokračovať v rolovaní po uvoľnení prsta z okraja touchpadu"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Coasting"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Minimálna rýchlosť:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Váš prst musí urobiť toľkoto rolovaní za sekundu na spustenie coastingu"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " rolovaní/sek"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Decelerácia:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Počet rolovaní/sekunda² na zníženie rýchlosti coastingu"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " rolovaní/sek²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Coasting rohov:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Povoliť pokračovanie rolovania rohov počas toho, ako prst ostane v rohu"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Rolovanie sa spustí pri začatí posunu v danom regióne spustenia.\n"
+#~ "Posun prsta v smere pohybu hodinových ručičiek okolo stredu touchpadu\n"
+#~ "bude rolovať dolu a v opačnom smere bude rolovať hore"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Cirkulárne rolovanie"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Oblasť spustenia:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Oblasť spustenia na touchpade na začatie cirkulárneho rolovania"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Uhol:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Uhol posunu (radiány) prsta na generovanie udalosti rolovania"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Pri použití so zvislým rolovaním, zásah horného alebo dolného pravého "
+#~ "rohu plynulo prepne zo zvislého na vodorovné rolovanie"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Citlivosť"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Citlivosť"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Tlak na detekciu dotyku:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Tlak na detekciu uvoľnenia:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr "Keď tlak prsta presiahne túto hodnotu, ovládač to počíta ako dotyk"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Keď tlak prsta sa zníži pod túto hodnotu, ovládač to počíta ako uvoľnenie"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Či má byť povolená detekcia dlane. Toto vyžaduje aj podporu hardvéru/"
+#~ "firmvéru pre touchpad"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Detekcia dlane"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Minimálna šírka:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimálny tlak:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Minimálna šírka prsta, pri ktorej sa dotyk považuje za dlaň"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Minimálny tlak prsta, pri ktorom sa dotyk považuje za dlaň"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Ťuknutia"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Jeden prst:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri nerohovom jednoprstovom ťuknutí"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Dva prsty:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri nerohovom dvojprstovom ťuknutí"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Tri prsty:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri nerohovom trojprstovom ťuknutí"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Rohy"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Vľavo hore:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri ľavom hornom rohovom ťuknutí"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Vľavo dole:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Vpravo hore:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri ľavom dolnom rohovom ťuknutí"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri pravom hornom rohovom ťuknutí"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Ktoré tlačidlo myši sa oznáme pri pravom dolnom rohovom ťuknutí"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Vpravo dole:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Toto gesto je alternatíva pre posun. Vykonáva sa ťuknutím (dotykom a "
+#~ "uvoľnením prsta), potom ďalším dotykom a posunom prsta na touchpade"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Gesto Tap-and-Drag"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Ak je vypnuté, gesto tap-and-drag končí pri uvoľnení prsta. Ak je "
+#~ "zapnuté, gesto je aktívne kým neťuknete druhýkrát alebo ak vyprší čas"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Zamknuté posuny"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Čas vypršania:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Ako dlho to trvá (v milisekundách) pre režim \"Zamknuté posuny\", aby sa "
+#~ "automaticky vypli po uvoľnení prsta z touchpadu"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Detekcia ťuknutia"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maximálny čas:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Maximálny pohyb prsta:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Maximálny čas pre dvojité ťuknutie:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Čas pre jednoduché ťuknutie:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Maximálny čas (v milisekundách) pre detekciu ťuknutia"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Maximálny pohyb prsta na detekciu ťuknutia"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Maximálny čas (v milisekundách) na detekciu dvojitého ťuknutia"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "Čas vypršania po ťuknutí na vyhodnotenie ako jednoduché ťuknutie"
+
+#~ msgid "Testing area"
+#~ msgstr "Testovacia oblasť"
+
+#~ msgid "Click me"
+#~ msgstr "Klikni sem"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Profil zrýchlenia:"
+
+#~ msgid "Flat"
+#~ msgstr "Rovnomerný"
+
+#~ msgid "Adaptive"
+#~ msgstr "Adaptívny"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Touchpad KCM"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Modul Systémových nastavení na správu vášho touchpadu"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Copyright © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Vývojár"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Modul Systémových nastavení, démon a Plasma applet na správu vášho "
+#~ "touchpadu"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Copyright © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Tento program zahŕňa prácu chránenú autorským právom:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Použiteľnosť, testovanie"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Trochu pomohol"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Vývojár synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Testovanie"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Emulácia kliknutia myši"
+
+#~ msgctxt "Synaptics touchpad driver"
+#~ msgid "Synaptics backend not found"
+#~ msgstr "Backend Synaptics nenájdený"
+
+#~ msgid "Cannot read any of touchpad's properties"
+#~ msgstr "Nemôžem čítať žiadne vlastnosti touchpadu"
+
+#~ msgid "Cannot read touchpad's capabilities"
+#~ msgstr "Nemôžem čítať funkcie touchpadu"
+
+#~ msgctxt "Libinput touchpad driver"
+#~ msgid "Libinput backend not found"
+#~ msgstr "Backend Libinput nenájdený"
+
+#~ msgid "Synaptics driver is not installed (or is not used)"
+#~ msgstr "Nie je nainštalovaný Synaptics ovládač (alebo sa nepoužíva)"

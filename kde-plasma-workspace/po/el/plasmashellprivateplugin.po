@@ -1,0 +1,530 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2016.
+# Antonis Geralis <capoiosct@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-24 00:46+0000\n"
+"PO-Revision-Date: 2024-08-24 18:43+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Δημήτρης μηλιάτης"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "demetresmeliates+i18n@gmail.com"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:45
+#, kde-format
+msgctxt "Placeholder is the battery number"
+msgid "Battery %1"
+msgstr "Μπαταρία %1"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:47
+#, kde-format
+msgid "Battery"
+msgstr "Μπαταρία"
+
+#: calendar/eventdatadecorator.cpp:50
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Holidays"
+msgstr "Διακοπές"
+
+#: calendar/eventdatadecorator.cpp:52
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Events"
+msgstr "Γεγονότα"
+
+#: calendar/eventdatadecorator.cpp:54
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Todo"
+msgstr "Εργασίες"
+
+#: calendar/eventdatadecorator.cpp:56
+#, kde-format
+msgctxt "Means 'Other calendar items'"
+msgid "Other"
+msgstr "Άλλα"
+
+#: calendar/qml/DayDelegate.qml:97
+#, kde-format
+msgid "%1 event"
+msgid_plural "%1 events"
+msgstr[0] "Γεγονός %1"
+msgstr[1] "%1 γεγονότα"
+
+#: calendar/qml/DayDelegate.qml:98
+#, kde-format
+msgid "No events"
+msgstr "Κανένα γεγονός"
+
+#: calendar/qml/MonthViewHeader.qml:74
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: calendar/qml/MonthViewHeader.qml:131
+#, kde-format
+msgid "Days"
+msgstr "Ημέρες"
+
+#: calendar/qml/MonthViewHeader.qml:139
+#, kde-format
+msgid "Months"
+msgstr "Μήνες"
+
+#: calendar/qml/MonthViewHeader.qml:147
+#, kde-format
+msgid "Years"
+msgstr "Χρόνια"
+
+#: calendar/qml/MonthViewHeader.qml:184
+#, kde-format
+msgid "Previous Month"
+msgstr "Προηγούμενος μήνας"
+
+#: calendar/qml/MonthViewHeader.qml:186
+#, kde-format
+msgid "Previous Year"
+msgstr "Προηγούμενο έτος"
+
+#: calendar/qml/MonthViewHeader.qml:188
+#, kde-format
+msgid "Previous Decade"
+msgstr "Προηγούμενη δεκαετία"
+
+#: calendar/qml/MonthViewHeader.qml:206
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "Σήμερα"
+
+#: calendar/qml/MonthViewHeader.qml:207
+#, kde-format
+msgid "Reset calendar to today"
+msgstr "Επαναφορά ημερολογίου στο σήμερα"
+
+#: calendar/qml/MonthViewHeader.qml:220
+#, kde-format
+msgid "Next Month"
+msgstr "Επόμενος μήνας"
+
+#: calendar/qml/MonthViewHeader.qml:222
+#, kde-format
+msgid "Next Year"
+msgstr "Επόμενο έτος"
+
+#: calendar/qml/MonthViewHeader.qml:224
+#, kde-format
+msgid "Next Decade"
+msgstr "Επόμενη δεκαετία"
+
+#: calendar/qml/MonthViewHeader.qml:283
+#, fuzzy, kde-format
+#| msgid "Keep Open"
+msgctxt "@info:tooltip"
+msgid "Keep Open"
+msgstr "Διατήρηση ανοικτό"
+
+#: containmentlayoutmanager/qml/BasicAppletContainer.qml:287
+#, kde-format
+msgid "Configure…"
+msgstr "Διαμόρφωση…"
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "Κλείδωμα οθόνης ενεργό"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "Ορίζει εάν η οθόνη θα κλειδώνει μετά τον καθορισμένο χρόνο."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "Χρονικό όριο οθόνης προφύλαξης"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "Ορίζει μετά από πόσα λεπτά θα κλειδωθεί η οθόνη."
+
+#: sessionsprivate/sessionsmodel.cpp:255 sessionsprivate/sessionsmodel.cpp:259
+#, kde-format
+msgid "New Session"
+msgstr "Νέα συνεδρία"
+
+#: shellprivate/kcategorizeditemsviewmodels.cpp:66
+#, kde-format
+msgid "Filters"
+msgstr "Φίλτρα"
+
+#: shellprivate/plasmaappletitemmodel.cpp:199
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for an unknown older version of Plasma and is not "
+#| "compatible with Plasma %1. Please contact the widget's author for an "
+#| "updated version."
+msgid ""
+"This widget was written for an unknown older version of Plasma and is not "
+"compatible with Plasma %1. Please contact the widget's author for an updated "
+"version."
+msgstr ""
+"Αυτό το συστατικό γράφτηκε για μια άγνωστη παλαιότερη έκδοση του Plasma και "
+"δεν είναι συμβατό με το Plasma %1. Παρακαλούμε επικοινωνήστε με τον "
+"συγγραφέα του συστατικού για μια ενημερωμένη έκδοση."
+
+#: shellprivate/plasmaappletitemmodel.cpp:203
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with Plasma "
+#| "%2. Please contact the widget's author for an updated version."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please contact the widget's author for an updated version."
+msgstr ""
+"Αυτό το συστατικό γράφτηκε για το Plasma %1 και δεν είναι συμβατό με το "
+"Plasma %2. Παρακαλούμε επικοινωνήστε με τον δημιουργό του συστατικού για μια "
+"ενημερωμένη έκδοση."
+
+#: shellprivate/plasmaappletitemmodel.cpp:207
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with Plasma "
+#| "%2. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please update Plasma in order to use the widget."
+msgstr ""
+"Αυτό το συστατικό γράφτηκε για το Plasma %1 και δεν είναι συμβατό με το "
+"Plasma %2. Παρακαλούμε ενημερώστε το Plasma για να χρησιμοποιήσετε το "
+"συστατικό."
+
+#: shellprivate/plasmaappletitemmodel.cpp:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with the older "
+"version of Plasma installed on this system. Please update Plasma in order to "
+"use the widget."
+msgstr ""
+"Αυτό το συστατικό γράφτηκε για το Plasma %1 και δεν είναι συμβατό με την "
+"τελευταία έκδοση του Plasma. Παρακαλούμε ενημερώστε το Plasma για να "
+"χρησιμοποιήσετε το συστατικό."
+
+#: shellprivate/widgetexplorer.cpp:110
+msgctxt "applet category"
+msgid "Accessibility"
+msgstr "Προσβασιμότητα"
+
+#: shellprivate/widgetexplorer.cpp:111
+msgctxt "applet category"
+msgid "Application Launchers"
+msgstr "Εκκινητές εφαρμογών"
+
+#: shellprivate/widgetexplorer.cpp:112
+msgctxt "applet category"
+msgid "Astronomy"
+msgstr "Αστρονομία"
+
+#: shellprivate/widgetexplorer.cpp:113
+msgctxt "applet category"
+msgid "Date and Time"
+msgstr "Ημερομηνία και ώρα"
+
+#: shellprivate/widgetexplorer.cpp:114
+msgctxt "applet category"
+msgid "Development Tools"
+msgstr "Εργαλεία ανάπτυξης"
+
+#: shellprivate/widgetexplorer.cpp:115
+msgctxt "applet category"
+msgid "Education"
+msgstr "Εκπαίδευση"
+
+#: shellprivate/widgetexplorer.cpp:116
+msgctxt "applet category"
+msgid "Environment and Weather"
+msgstr "Περιβάλλον και καιρός"
+
+#: shellprivate/widgetexplorer.cpp:117
+msgctxt "applet category"
+msgid "Examples"
+msgstr "Παραδείγματα"
+
+#: shellprivate/widgetexplorer.cpp:118
+msgctxt "applet category"
+msgid "File System"
+msgstr "Σύστημα αρχείων"
+
+#: shellprivate/widgetexplorer.cpp:119
+msgctxt "applet category"
+msgid "Fun and Games"
+msgstr "Διασκέδαση και παιχνίδια"
+
+#: shellprivate/widgetexplorer.cpp:120
+msgctxt "applet category"
+msgid "Graphics"
+msgstr "Γραφικά"
+
+#: shellprivate/widgetexplorer.cpp:121
+msgctxt "applet category"
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: shellprivate/widgetexplorer.cpp:122
+msgctxt "applet category"
+msgid "Mapping"
+msgstr "Χαρτογράφηση"
+
+#: shellprivate/widgetexplorer.cpp:123
+msgctxt "applet category"
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: shellprivate/widgetexplorer.cpp:124
+msgctxt "applet category"
+msgid "Multimedia"
+msgstr "Πολυμέσα"
+
+#: shellprivate/widgetexplorer.cpp:125
+msgctxt "applet category"
+msgid "Online Services"
+msgstr "Ηλεκτρονικές υπηρεσίες"
+
+#: shellprivate/widgetexplorer.cpp:126
+#, fuzzy
+#| msgctxt "applet category"
+#| msgid "System Information"
+msgctxt "applet category"
+msgid "Personal Information"
+msgstr "Πληροφορίες συστήματος"
+
+#: shellprivate/widgetexplorer.cpp:127
+msgctxt "applet category"
+msgid "Productivity"
+msgstr "Παραγωγικότητα"
+
+#: shellprivate/widgetexplorer.cpp:128
+msgctxt "applet category"
+msgid "System Information"
+msgstr "Πληροφορίες συστήματος"
+
+#: shellprivate/widgetexplorer.cpp:129
+msgctxt "applet category"
+msgid "Utilities"
+msgstr "Βοηθητικά προγράμματα"
+
+#: shellprivate/widgetexplorer.cpp:130
+msgctxt "applet category"
+msgid "Windows and Tasks"
+msgstr "Παράθυρα και εργασίες"
+
+#: shellprivate/widgetexplorer.cpp:131
+msgctxt "applet category"
+msgid "Clipboard"
+msgstr "Πρόχειρο"
+
+#: shellprivate/widgetexplorer.cpp:132
+msgctxt "applet category"
+msgid "Tasks"
+msgstr "Εργασίες"
+
+#: shellprivate/widgetexplorer.cpp:148
+#, kde-format
+msgid "All Widgets"
+msgstr "Όλα τα συστατικά"
+
+#: shellprivate/widgetexplorer.cpp:152
+#, kde-format
+msgid "Running"
+msgstr "Εκτελείται"
+
+#: shellprivate/widgetexplorer.cpp:158
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@item:inmenu used in the widget filter. Filter widgets that can be un-"
+#| "installed from the system, which are usually installed by the user to a "
+#| "local place."
+#| msgid "Uninstallable"
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can be un-"
+"installed from the system, which are usually installed by the user to a "
+"local place."
+msgid "User-installed"
+msgstr "Απεγκαταστήσιμο"
+
+#: shellprivate/widgetexplorer.cpp:162
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can were "
+"recently installed."
+msgid "Recently installed"
+msgstr "Πρόσφατα εγκατεστημένο"
+
+#: shellprivate/widgetexplorer.cpp:166
+#, kde-format
+msgid "Categories:"
+msgstr "Κατηγορίες:"
+
+#: shellprivate/widgetexplorer.cpp:236
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "Λήψη νέων συστατικού Plasma"
+
+#: shellprivate/widgetexplorer.cpp:245
+#, kde-format
+msgid "Install Widget From Local File…"
+msgstr "Εγκατάσταση συστατικού από τοπικό αρχείο…"
+
+#: shellprivate/widgetexplorer.cpp:484
+#, kde-format
+msgctxt "@title:window"
+msgid "Get New Widgets"
+msgstr "Λήψη νέων γραφικών στοιχειών"
+
+#: shellprivate/widgetexplorer.cpp:503
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "Επιλέξτε αρχείο πλασμοειδούς"
+
+#: shellprivate/widgetexplorer.cpp:519
+#, kde-format
+msgctxt "%1 is the name of an applet, %2 is an error message"
+msgid "Installing the package %1 failed: %2."
+msgstr "Η εγκατάσταση του πακέτου %1 απέτυχε: %2"
+
+#: shellprivate/widgetexplorer.cpp:520
+#, kde-format
+msgid "Installation Failure"
+msgstr "Αποτυχία εγκατάστασης"
+
+#: timezoneselector/TimezoneSelector.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The currently selected time zone is not available for visualization on this "
+"map"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:122
+#: timezoneselector/TimezoneSelector.qml:301
+#, kde-format
+msgctxt "Placeholder for empty time zone combobox selector"
+msgid "Choose…"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:124
+#: timezoneselector/TimezoneSelector.qml:293
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Region:"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:146
+#: timezoneselector/TimezoneSelector.qml:326
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Time zone:"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:248
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom in"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom out"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:305
+#, kde-format
+msgid "Timezone region selector"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:337
+#, kde-format
+msgid "Timezone location selector"
+msgstr ""
+
+#~ msgid "&Execute"
+#~ msgstr "&Εκτέλεση"
+
+#~ msgctxt "Toolbar Button to switch to Plasma Scripting Mode"
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgctxt "Toolbar Button to switch to KWin Scripting Mode"
+#~ msgid "KWin"
+#~ msgstr "KWin"
+
+#~ msgid "Templates"
+#~ msgstr "Πρότυπα"
+
+#~ msgid "Desktop Shell Scripting Console"
+#~ msgstr "Κονσόλα σεναρίων κελύφους επιφάνειας εργασίας"
+
+#~ msgid "Editor"
+#~ msgstr "Επεξεργαστής"
+
+#~ msgid "Load"
+#~ msgstr "Φόρτωση"
+
+#~ msgid "Use"
+#~ msgstr "Χρήση"
+
+#~ msgid "Output"
+#~ msgstr "Έξοδος"
+
+#~ msgid "Unable to load script file <b>%1</b>"
+#~ msgstr "Αδυναμία φόρτωσης αρχείου σεναρίου <b>%1</b>"
+
+#~ msgid "Open Script File"
+#~ msgstr "Άνοιγμα αρχείου σεναρίου"
+
+#~ msgid "Save Script File"
+#~ msgstr "Αποθήκευση αρχείου σεναρίου"
+
+#~ msgid "Executing script at %1"
+#~ msgstr "Εκτέλεση σεναρίου στις %1"
+
+#~ msgid "Runtime: %1ms"
+#~ msgstr "Εκτέλεση: %1ms"
+
+#~ msgid "Containments"
+#~ msgstr "Υποδοχείς"
+
+#~ msgctxt ""
+#~ "%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-"
+#~ "*.desktop files"
+#~ msgid "Download New %1"
+#~ msgstr "Λήψη νέου %1"

@@ -1,0 +1,454 @@
+# Translation of plasma_wallpaper_org.kde.image.po to Brazilian Portuguese
+# Copyright (C) 2014-2020 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2015, 2019, 2020.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018, 2019, 2020, 2021, 2022.
+# Thiago Masato Costa Sueto <herzenschein@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2024, 2025 Geraldo Simiao <geraldosimiao@fedoraproject.org>
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-06 00:47+0000\n"
+"PO-Revision-Date: 2025-11-08 21:10-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Luiz Fernando Ranghetti, Geraldo Simião"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "elchevive@opensuse.org, geraldosimiao@fedoraproject.org"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Abrir imagem"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Pasta com o papel de parede a mostrar como slide"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Positioning:"
+msgstr "Posicionamento:"
+
+#: imagepackage/contents/ui/config.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr "Escalonado e recortado"
+
+#: imagepackage/contents/ui/config.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled"
+msgstr "Escalonado"
+
+#: imagepackage/contents/ui/config.qml:167
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr "Escalonado, manter proporções"
+
+#: imagepackage/contents/ui/config.qml:171
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr "Centralizado"
+
+#: imagepackage/contents/ui/config.qml:199
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
+msgid "Switch dynamic wallpapers:"
+msgstr "Alternar papéis de parede dinâmicos:"
+
+#: imagepackage/contents/ui/config.qml:207
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on whether the Plasma style is light or dark "
+msgstr "Com base em se o estilo do Plasma é escuro ou claro "
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
+msgstr "Baseado no ciclo dia-noite"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr "Sempre usar a variante clara"
+
+#: imagepackage/contents/ui/config.qml:217
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use dark variant"
+msgstr "Sempre usar a variante escura"
+
+#: imagepackage/contents/ui/config.qml:231
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "Configurar…"
+
+#: imagepackage/contents/ui/config.qml:242
+#, kde-format
+msgid "Background:"
+msgstr "Plano de fundo:"
+
+#: imagepackage/contents/ui/config.qml:243
+#, kde-format
+msgid "Blur"
+msgstr "Borrado"
+
+#: imagepackage/contents/ui/config.qml:252
+#, kde-format
+msgid "Solid color"
+msgstr "Cor sólida"
+
+#: imagepackage/contents/ui/config.qml:263
+#, kde-format
+msgid "Select Background Color"
+msgstr "Selecionar cor de fundo"
+
+#: imagepackage/contents/ui/main.qml:37
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Abrir imagem do papel de parede"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
+#, kde-format
+msgid "Images"
+msgstr "Imagens"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
+#, kde-format
+msgctxt "@action:button the thing being added is an image file"
+msgid "Add…"
+msgstr "Adicionar…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Wallpaper Image…"
+msgstr "Adicionar imagem de papel de parede…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
+#, kde-format
+msgctxt "@action:button the new things being gotten are wallpapers"
+msgid "Get New…"
+msgstr "Baixar novos…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Wallpaper Images…"
+msgstr "Obter novas imagens de papel de parede…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
+#, kde-format
+msgctxt "@action:button the things being selected are wallpapers"
+msgid "Select All"
+msgstr "Selecionar tudo"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All Slides"
+msgstr "Selecionar todos os slides"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
+#, kde-format
+msgctxt "@action:button the things being unselected are wallpapers"
+msgid "Select None"
+msgstr "Selecionar nenhum"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All Slides"
+msgstr "Desmarcar todos os slides"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Abrir pasta que contém"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Restaurar papel de parede"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Remover papel de parede"
+
+#: plasma-apply-wallpaperimage.cpp:28
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+"Esta ferramenta permite que você defina uma imagem como o papel de parede da "
+"sessão do Plasma."
+
+#: plasma-apply-wallpaperimage.cpp:30
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"Um arquivo de imagem ou um kpackage de papel de parede instalado que você "
+"deseja definir como o papel de parede da sua sessão do Plasma"
+
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr ""
+"Especifique o modo de preenchimento (ex.: esticar, preservar aspecto de "
+"corte, etc.)"
+
+#: plasma-apply-wallpaperimage.cpp:58
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"O nome de arquivo deste papel de parede inclui uma unidade de aspas simples "
+"('), contate o autor do papel de parede para consertar isso ou renomeie o "
+"arquivo você mesmo: %1"
+
+#: plasma-apply-wallpaperimage.cpp:96
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr "Modo de preenchimento inválido especificado: %1"
+
+#: plasma-apply-wallpaperimage.cpp:112
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "Um erro ocorreu ao tentar definir o papel de parede do Plasma:\n"
+
+#: plasma-apply-wallpaperimage.cpp:116
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"A definição de um papel de parede para todas as áreas de trabalho do %1 "
+"baseado no KPackage foi realizada com sucesso."
+
+#: plasma-apply-wallpaperimage.cpp:118
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr ""
+"A definição de um papel de parede para todas as áreas de trabalho da imagem "
+"%1 foi realizada com sucesso."
+
+#: plasma-apply-wallpaperimage.cpp:125
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"O arquivo passado para ser definido como papel de parede não existe ou não "
+"pôde ser identificado como papel de parede: %1"
+
+#: plugin/imagebackend.cpp:42
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Próxima imagem de papel de parede"
+
+#. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
+#: plugin/imagebackend.cpp:384
+#, kde-format
+msgid "Media Files"
+msgstr "Arquivos de mídia"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
+#, kde-format
+msgid "Order:"
+msgstr "Ordem:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
+#, kde-format
+msgid "Random"
+msgstr "Aleatório"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
+#, kde-format
+msgid "A to Z"
+msgstr "De A para Z"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
+#, kde-format
+msgid "Z to A"
+msgstr "De Z para A"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Data de modificação (recentes primeiro)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Data de modificação (antigos primeiro)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
+#, kde-format
+msgid "Group by folders"
+msgstr "Agrupar por pastas"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
+#, kde-format
+msgid "Change every:"
+msgstr "Alterar a cada:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 hora"
+msgstr[1] "%1 horas"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minuto"
+msgstr[1] "%1 minutos"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 segundo"
+msgstr[1] "%1 segundos"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
+#, kde-format
+msgid "Folders"
+msgstr "Pastas"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
+#, kde-format
+msgctxt "@action button the thing being added is a folder"
+msgid "Add…"
+msgstr "Adicionar…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "Adicionar pasta…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
+#, kde-format
+msgid "Remove Folder"
+msgstr "Remover pasta"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
+#, kde-format
+msgid "Open Folder…"
+msgstr "Abrir pasta…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "Nenhum local de papel de parede está configurado"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set as Wallpaper"
+msgstr "Definir como papel de parede"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Set as Desktop Wallpaper"
+msgid "Desktop"
+msgstr "Área de trabalho"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Set as Lockscreen Wallpaper"
+msgid "Lockscreen"
+msgstr "Tela de bloqueio"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Set as both lockscreen and Desktop Wallpaper"
+msgid "Both"
+msgstr "Ambos"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:95
+#, kde-kuit-format
+msgctxt "@info %1 is the dbus error message"
+msgid "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+msgstr "Um erro ocorreu ao tentar definir o papel de parede do Plasma:<nl/>%1"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:108
+#, kde-format
+msgid "An error occurred while attempting to open kscreenlockerrc config file."
+msgstr ""
+"Um erro ocorreu ao tentar abrir o arquivo de configuração kscreenlockerrc"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "Ladrilhado"
+
+#~ msgctxt "part of a sentence: 'Switch dynamic wallpapers'"
+#~ msgid "At sunrise and sunset"
+#~ msgstr "Ao nascer e ao pôr do sol"
+
+#~ msgctxt ""
+#~ "@label:checkbox Use geolocation services for more accurate sunset and "
+#~ "sunrise times"
+#~ msgid "Use device's current location for more accurate timings"
+#~ msgstr ""
+#~ "Usar a localização atual do dispositivo para obter horários mais precisos"
+
+#, fuzzy
+#~| msgid "Open Image"
+#~ msgctxt "@title:window"
+#~ msgid "Open Media"
+#~ msgstr "Abrir imagem"
+
+#~ msgid "Add Image…"
+#~ msgstr "Adicionar imagem..."
+
+#~ msgid "Recommended wallpaper file"
+#~ msgstr "Arquivo de papel de parede recomendado"
+
+#~ msgid "There are no wallpapers in this slideshow"
+#~ msgstr "Não há nenhum papel de parede nesta apresentação"
+
+#~ msgid "Add Custom Wallpaper"
+#~ msgstr "Adicionar papel de parede personalizado"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "Remover papel de parede"
+
+#~ msgid "%1 by %2"
+#~ msgstr "%1 por %2"

@@ -1,0 +1,157 @@
+# Translation of kcm_desktoppaths.po to Catalan (Valencian)
+# Copyright (C) 1999-2026 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# SPDX-FileCopyrightText: 1999, 2000, 2001, 2002, 2004, 2005, 2006 Sebastià Pla i Sanz <sps@sastia.com>
+# SPDX-FileCopyrightText: 2003, 2017, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
+# SPDX-FileCopyrightText: 2005 Albert Astals Cid <aacid@kde.org>
+# SPDX-FileCopyrightText: 2007, 2008, 2009, 2017, 2018, 2020, 2021, 2022, 2023, 2024, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2019 Empar Montoro Martín <montoro_mde@gva.es>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2026-04-30 09:12+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.04.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Carpeta d'escriptori:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr "Esta carpeta conté tots els fitxers que veeu en l'escriptori."
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Carpeta de documents:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar els "
+"documents."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Carpeta de baixades:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a guardar els "
+"elements baixats."
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Carpeta de vídeos:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar "
+"fitxers de vídeo."
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Carpeta d'imatges:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar "
+"imatges."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "Carpeta de música:"
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar "
+"fitxers de música."
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Carpeta pública:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per als fitxers "
+"compartits públicament quan estiga activada la compartició de xarxa."
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Carpeta de plantilles:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar "
+"plantilles de fitxers."
+
+#: ui/main.qml:165
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Carpeta dels projectes:"
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+"Esta carpeta s'utilitzarà de manera predeterminada per a obrir o guardar els "
+"projectes."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "Trieu una ubicació nova"

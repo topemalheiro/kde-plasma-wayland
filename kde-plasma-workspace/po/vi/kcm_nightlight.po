@@ -1,0 +1,284 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2022-10-01 17:38+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 22.04.1\n"
+
+#: ui/DayNightView.qml:154
+#, kde-format
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr ""
+"Nhiệt độ màu bắt đầu thay đổi sang buổi tối lúc %1 và thay đổi hoàn toàn lúc "
+"%2"
+
+#: ui/DayNightView.qml:157
+#, kde-format
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr ""
+"Nhiệt độ màu bắt đầu thay đổi sang ban ngày lúc %1 và thay đổi hoàn toàn lúc "
+"%2"
+
+#: ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid "The blue light filter makes the colors on the screen warmer."
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr "Bộ lọc ánh sáng lam khiến màu trên màn hình ấm hơn."
+
+#: ui/main.qml:49
+#, fuzzy, kde-format
+#| msgid "Switching times:"
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "Thời điểm chuyển:"
+
+#: ui/main.qml:58
+#, fuzzy, kde-format
+#| msgid "Always off"
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr "Luôn tắt"
+
+#: ui/main.qml:59
+#, fuzzy, kde-format
+#| msgid "Always off"
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "Luôn tắt"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr ""
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr ""
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr ""
+
+#: ui/main.qml:123
+#, fuzzy, kde-format
+#| msgid "Day color temperature:"
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "Nhiệt độ màu ban ngày:"
+
+#: ui/main.qml:173 ui/main.qml:237
+#, fuzzy, kde-format
+#| msgctxt "No blue light filter activated"
+#| msgid "Cool (no filter)"
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr "Mát (không lọc)"
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Ấm"
+
+#: ui/main.qml:187
+#, fuzzy, kde-format
+#| msgid "Night color temperature:"
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "Nhiệt độ màu buổi tối:"
+
+#, fuzzy
+#~| msgid "Always on night color"
+#~ msgctxt "@item:inlistbox switching times"
+#~ msgid "Always on night light"
+#~ msgstr "Luôn dùng màu buổi tối"
+
+#~ msgctxt "Color temperature in Kelvin"
+#~ msgid "%1K"
+#~ msgstr "%1K"
+
+#~ msgctxt ""
+#~ "@label:chooser Tap should be translated to mean touching using a "
+#~ "touchscreen"
+#~ msgid "Tap to choose your location on the map."
+#~ msgstr "Vỗ để chọn địa điểm của bạn trên bản đồ."
+
+#~ msgctxt ""
+#~ "@label:chooser Click should be translated to mean clicking using a mouse"
+#~ msgid "Click to choose your location on the map."
+#~ msgstr "Bấm để chọn địa điểm của bạn trên bản đồ."
+
+#~ msgid "Zoom in"
+#~ msgstr "Phóng to"
+
+#, fuzzy
+#~| msgid "Zoom in"
+#~ msgid "Zoom out"
+#~ msgstr "Phóng to"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Modified from <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>World location map</link> "
+#~ "by TUBS / Wikimedia Commons / <link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+#~ msgstr ""
+#~ "Chỉnh sửa từ <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>Bản đồ địa điểm thế giới</"
+#~ "link> của TUBS / Wikimedia Commons / <link url='https://creativecommons."
+#~ "org/licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Latitude:"
+#~ msgstr "Vĩ độ:"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Longitude:"
+#~ msgstr "Kinh độ:"
+
+#~ msgid "Sunset and sunrise at current location"
+#~ msgstr "Hoàng hôn và bình minh ở địa điểm hiện tại"
+
+#~ msgid "Sunset and sunrise at manual location"
+#~ msgstr "Hoàng hôn và bình minh ở địa điểm tự chọn"
+
+#~ msgid "Custom times"
+#~ msgstr "Thời điểm tự chọn"
+
+#, fuzzy
+#~| msgid "Detect Location"
+#~ msgctxt "@label The coordinates for the current location"
+#~ msgid "Current location:"
+#~ msgstr "Phát hiện địa điểm"
+
+#~ msgid "Latitude: %1°   Longitude: %2°"
+#~ msgstr "Vĩ độ: %1°   Kinh độ: %2°"
+
+#, fuzzy
+#~| msgid "Begin night color at:"
+#~ msgid "Begin night light at:"
+#~ msgstr "Bắt đầu màu buổi tối vào:"
+
+#, fuzzy
+#~| msgid "Begin day color at:"
+#~ msgid "Begin day light at:"
+#~ msgstr "Bắt đầu màu ban ngày vào:"
+
+#~ msgid "Transition duration:"
+#~ msgstr "Thời gian chuyển tiếp:"
+
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 phút"
+
+#~ msgid "Input minutes - min. 1, max. 600"
+#~ msgstr "Nhập số phút - tối thiểu 1, tối đa 600"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Locating…"
+#~ msgstr "Đang định vị…"
+
+#, fuzzy
+#~| msgid "%1 minute"
+#~| msgid_plural "%1 minutes"
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "minute"
+#~ msgstr "%1 phút"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The device's location will be periodically updated using GPS (if "
+#~ "available), or by sending network information to <link url='https://"
+#~ "location.services.mozilla.com'>Mozilla Location Service</link>."
+#~ msgstr ""
+#~ "Vị trí của thiết bị sẽ được cập nhật định kì bằng GPS (nếu có), hoặc bằng "
+#~ "cách gửi thông tin mạng đến <link url=\"https://location.services.mozilla."
+#~ "com\">Dịch vụ Vị trí Mozilla</link>."
+
+#~ msgid "Error: Transition time overlaps."
+#~ msgstr "Lỗi: Thời gian chuyển tiếp chồng chéo."
+
+#~ msgid "Input format: HH:MM"
+#~ msgstr "Định dạng nhập: GG:PP"
+
+#~ msgctxt "Night colour blue-ish"
+#~ msgid "Cool"
+#~ msgstr "Mát"
+
+#~ msgid "This is what day color temperature will look like when active."
+#~ msgstr "Nhiệt độ màu ban ngày sẽ trông như thế này khi hoạt động."
+
+#~ msgid "This is what night color temperature will look like when active."
+#~ msgstr "Nhiệt độ màu buổi tối sẽ trông như thế này khi hoạt động."
+
+#~ msgid "Activate blue light filter"
+#~ msgstr "Kích hoạt bộ lọc ánh sáng lam"
+
+#~ msgid "Turn on at:"
+#~ msgstr "Bật vào lúc:"
+
+#~ msgid "Turn off at:"
+#~ msgstr "Tắt vào lúc:"
+
+#~ msgid "Night Color begins changing back at %1 and ends at %2"
+#~ msgstr "Màu buổi tối bắt đầu thay đổi trở lại lúc %1 và kết thúc lúc %2"
+
+#~ msgid "Error: Morning is before evening."
+#~ msgstr "Lỗi: Buổi sáng trước buổi tối."
+
+#~ msgid ""
+#~ "The device's location will be detected using GPS (if available), or by "
+#~ "sending network information to <a href=\"https://location.services."
+#~ "mozilla.com\">Mozilla Location Service</a>."
+#~ msgstr ""
+#~ "Vị trí của thiết bị sẽ được xác định bằng GPS (nếu có), hoặc bằng cách "
+#~ "gửi thông tin mạng đến <a href=\"https://location.services.mozilla.com"
+#~ "\">Dịch vụ Vị trí Mozilla</a>."
+
+#~ msgid "Night Color begins at %1"
+#~ msgstr "Màu buổi tối bắt đầu lúc %1"
+
+#~ msgid "Color fully changed at %1"
+#~ msgstr "Màu thay đổi hoàn toàn lúc %1"
+
+#~ msgid "Normal coloration restored by %1"
+#~ msgstr "Màu bình thường được khôi phục trước %1"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Nguyễn Hùng Phú"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "phu.nguyen@kdemail.net"
+
+#~ msgid "Night Color"
+#~ msgstr "Màu buổi tối"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid " K"
+#~ msgstr " K"

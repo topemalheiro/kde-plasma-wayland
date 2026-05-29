@@ -1,0 +1,91 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-04-05 11:10+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: interactiveconsole.cpp:65
+#, kde-format
+msgid "&Execute"
+msgstr "&Izpildīt"
+
+#: interactiveconsole.cpp:66
+#, kde-format
+msgctxt "Toolbar Button to switch to Plasma Scripting Mode"
+msgid "Plasma"
+msgstr "Plasma"
+
+#: interactiveconsole.cpp:67
+#, kde-format
+msgctxt "Toolbar Button to switch to KWin Scripting Mode"
+msgid "KWin"
+msgstr "KWin"
+
+#: interactiveconsole.cpp:68
+#, kde-format
+msgid "Templates"
+msgstr "Veidnes"
+
+#: interactiveconsole.cpp:77
+#, kde-format
+msgid "Desktop Shell Scripting Console"
+msgstr "Darbvirsmas čaulas skriptēšanas konsole"
+
+#: interactiveconsole.cpp:84
+#, kde-format
+msgid "Editor"
+msgstr "Redaktors"
+
+#: interactiveconsole.cpp:95
+#, kde-format
+msgid "Load"
+msgstr "Ielādēt"
+
+#: interactiveconsole.cpp:101
+#, kde-format
+msgid "Use"
+msgstr "Lietot"
+
+#: interactiveconsole.cpp:161
+#, kde-format
+msgid "Output"
+msgstr "Izvade"
+
+#: interactiveconsole.cpp:274
+#, kde-format
+msgid "Unable to load script file <b>%1</b>"
+msgstr "Neizdodas ielādēt skripta datni <b>%1</b>"
+
+#: interactiveconsole.cpp:323
+#, kde-format
+msgid "Open Script File"
+msgstr "Atvērt skripta datni"
+
+#: interactiveconsole.cpp:438
+#, kde-format
+msgid "Save Script File"
+msgstr "Saglabāt skripta datni"
+
+#: interactiveconsole.cpp:527
+#, kde-format
+msgid "Executing script at %1"
+msgstr "Izpildīt skriptu %1"
+
+#: interactiveconsole.cpp:579
+#, no-c-format, kde-format
+msgid "Runtime: %1ms"
+msgstr "Izpildlaiks: %1 ms"

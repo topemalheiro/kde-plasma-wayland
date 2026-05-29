@@ -1,0 +1,149 @@
+# Translation of kcmkonq into Japanese.
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+# This file is distributed under the same license as the kdebase package.
+# Taiki Komoda <kom@kde.gr.jp>, 2003.
+# Shinsaku Nakagawa <shinsaku@users.sourceforge.jp>, 2004.
+# Kenshi Muto <kmuto@debian.org>, 2004.
+# Shinichi Tsunoda <tsuno@ngy.1st.ne.jp>, 2005.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2006, 2007, 2008, 2009, 2010.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2005, 2006, 2022.
+# SPDX-FileCopyrightText: 2026 Mint <5602mint@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2026-05-10 18:16+0900\n"
+"Last-Translator: Mint <5602mint@gmail.com>\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "デスクトップフォルダ:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr "このフォルダにはデスクトップ上のすべてのファイルが格納されます。"
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "ドキュメントフォルダ:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr "このフォルダは文書のデフォルトの読み込み/保存先として使われます。"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "ダウンロードフォルダ:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"このフォルダはダウンロードしたアイテムのデフォルトの保存先として使われます。"
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "ビデオフォルダ:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr "このフォルダは動画のデフォルトの読み込み/保存先として使われます。"
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "画像フォルダ:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr "このフォルダは画像のデフォルトの読み込み/保存先として使われます。"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "音楽フォルダ:"
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr "このフォルダは音楽のデフォルトの読み込み/保存先として使われます。"
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "公開フォルダ:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"このフォルダはネットワーク共有が有効なとき、共有されたファイル用にデフォルト"
+"で使われます。"
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "テンプレートフォルダ:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"このフォルダはファイルテンプレートのデフォルトの読み込み/保存先として使われま"
+"す。"
+
+#: ui/main.qml:165
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "プロジェクトフォルダ:"
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+"このフォルダはプロジェクトのデフォルトの読み込み/保存先として使われます。"
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "新しい場所を選択"

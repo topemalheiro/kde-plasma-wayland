@@ -1,0 +1,211 @@
+/*
+    SPDX-FileCopyrightText: 2015 Marco Martin <mart@kde.org>
+
+    SPDX-License-Identifier: LGPL-2.0-only
+*/
+
+import QtCore
+import QtQuick
+import QtQuick.Window // for Screen
+import QtQuick.Layouts
+import QtQuick.Controls as QtControls
+import QtQuick.Dialogs as QtDialogs
+import org.kde.kirigami as Kirigami
+import org.kde.kwindowsystem // for isPlatformWayland
+import org.kde.newstuff as NewStuff
+import org.kde.kcmutils as KCM
+
+import org.kde.private.kcm_cursortheme
+
+KCM.GridViewKCM {
+    id: root
+
+    readonly property int previewCursorsPerRow: 4
+    readonly property int previewCursorRows: 2
+    readonly property int previewPadding: kcm.cursorThemeSettings.cursorSize / 2
+    // Especially at smaller sizes, the theme might not provide cursors that small,
+    // enforce a minimum spacing so they don't overlap.
+    readonly property int previewSpacing: Math.max(16, kcm.cursorThemeSettings.cursorSize / 2)
+
+    property LaunchFeedbackDialog launchFeedbackDialog: null as LaunchFeedbackDialog
+
+    view.model: kcm.cursorsModel
+    view.delegate: Delegate {
+        previewPadding: root.previewPadding
+        previewSpacing: root.previewSpacing
+        maximumPreviewCount: root.previewCursorRows * root.previewCursorsPerRow
+    }
+    view.currentIndex: kcm.cursorThemeIndex(kcm.cursorThemeSettings.cursorTheme);
+
+    view.onCurrentIndexChanged: {
+        kcm.cursorThemeSettings.cursorTheme = kcm.cursorThemeFromIndex(view.currentIndex)
+        view.positionViewAtIndex(view.currentIndex, view.GridView.Beginning);
+    }
+
+    view.implicitCellWidth: kcm.cursorThemeSettings.cursorSize * root.previewCursorsPerRow
+                            + root.previewSpacing * (root.previewCursorsPerRow - 1)
+                            + 2 * root.previewPadding + Kirigami.Units.gridUnit
+    view.implicitCellHeight: kcm.cursorThemeSettings.cursorSize * root.previewCursorRows
+                             + root.previewSpacing * (root.previewCursorRows - 1)
+                             + 2 * root.previewPadding + 4 * Kirigami.Units.gridUnit
+
+    Component.onCompleted: {
+        view.positionViewAtIndex(view.currentIndex, GridView.Beginning);
+    }
+
+    KCM.SettingStateBinding {
+        configObject: kcm.cursorThemeSettings
+        settingName: "cursorTheme"
+        extraEnabledConditions: !kcm.downloadingFile
+    }
+
+    headerPaddingEnabled: false // Let the InlineMessage touch the edges
+    header: Kirigami.InlineMessage {
+        id: infoLabel
+
+        position: Kirigami.InlineMessage.Position.Header
+        showCloseButton: true
+
+        Connections {
+            target: kcm
+            function onShowSuccessMessage(message) {
+                infoLabel.type = Kirigami.MessageType.Positive;
+                infoLabel.text = message;
+                infoLabel.visible = true;
+            }
+            function onShowInfoMessage(message) {
+                infoLabel.type = Kirigami.MessageType.Information;
+                infoLabel.text = message;
+                infoLabel.visible = true;
+            }
+            function onShowErrorMessage(message) {
+                infoLabel.type = Kirigami.MessageType.Error;
+                infoLabel.text = message;
+                infoLabel.visible = true;
+            }
+        }
+    }
+
+    DropArea {
+        anchors.fill: parent
+        onEntered: drag => {
+            if (!drag.hasUrls) {
+                drag.accepted = false;
+            }
+        }
+        onDropped: drop => kcm.installThemeFromFile(drop.urls[0])
+    }
+
+    actions: [
+        Kirigami.Action {
+            displayComponent: QtControls.ComboBox {
+                id: sizeCombo
+
+                property int maxContentWidth: implicitContentWidth
+                popup.width: Math.max(availableWidth, maxContentWidth)
+
+                model: kcm.sizesModel
+                textRole: "display"
+                displayText: i18n("Size: %1", currentText)
+                currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize);
+                onActivated: {
+                    kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
+                    kcm.preferredSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
+                }
+                flat: true
+
+                KCM.SettingStateBinding {
+                configObject: kcm.cursorThemeSettings
+                    settingName: "cursorSize"
+                    extraEnabledConditions: kcm.canResize
+                }
+
+                delegate: QtControls.ItemDelegate {
+                    id: sizeComboDelegate
+
+                    readonly property int size: parseInt(model.display)
+
+                    width: parent.width
+                    highlighted: ListView.isCurrentItem
+
+                    contentItem: RowLayout {
+                        Kirigami.Icon {
+                            source: model.decoration
+                            smooth: true
+                            // On wayland the cursor size is logical pixels, and on X11 it's physical pixels.
+                            property real devicePixelRatio: KWindowSystem.isPlatformWayland ? 1 : Screen.devicePixelRatio
+                            property size iconSize: kcm.iconSizeFromIndex(index)
+                            Layout.preferredWidth: iconSize.width / devicePixelRatio
+                            Layout.preferredHeight: iconSize.height / devicePixelRatio
+                            visible: valid && sizeComboDelegate.size > 0
+                            roundToIconSize: false
+                        }
+
+                        QtControls.Label {
+                            Layout.alignment: Qt.AlignRight
+                            color: sizeComboDelegate.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
+                            text: i18n("Size: %1", model[sizeCombo.textRole])
+                            textFormat: Text.PlainText
+                            elide: Text.ElideRight
+                        }
+                    }
+                    Binding {
+                        target: sizeCombo
+                        property: "maxContentWidth"
+                        value: implicitWidth
+                        when: index == sizeCombo.count - 1
+                    }
+                }
+            }
+        },
+        Kirigami.Action {
+            text: i18nc("@action:button", "&Configure Launch Feedback…")
+            Accessible.name: text // https://bugreports.qt.io/browse/QTBUG-130360
+            icon.name: "preferences-desktop-launch-feedback"
+            onTriggered: {
+                if (root.launchFeedbackDialog === null) {
+                    const component = Qt.createComponent("LaunchFeedbackDialog.qml");
+                    root.launchFeedbackDialog = component.createObject(root, {
+                        "parent": root,
+                    });
+                    component.destroy();
+                }
+                root.launchFeedbackDialog.open();
+            }
+        },
+        Kirigami.Action {
+            text: i18n("&Install from File…")
+            icon.name: "document-import"
+            onTriggered: fileDialogLoader.active = true
+            enabled: kcm.canInstall
+        },
+        NewStuff.Action {
+            text: i18n("&Get New…")
+            configFile: "xcursor.knsrc"
+            onEntryEvent: function (entry, event) {
+                if (event == NewStuff.Entry.StatusChangedEvent) {
+                    kcm.ghnsEntryChanged(entry);
+                }
+            }
+        }
+    ]
+
+    Loader {
+        id: fileDialogLoader
+        active: false
+        sourceComponent: QtDialogs.FileDialog {
+            title: i18n("Open Theme")
+            currentFolder: StandardPaths.standardLocations(StandardPaths.HomeLocation)[0]
+            nameFilters: [ i18n("Pointer Theme Files (*.tar.gz *.tar.bz2)") ]
+            Component.onCompleted: open()
+            onAccepted: {
+                kcm.installThemeFromFile(selectedFile)
+                fileDialogLoader.active = false
+            }
+            onRejected: {
+                fileDialogLoader.active = false
+            }
+        }
+    }
+}
+

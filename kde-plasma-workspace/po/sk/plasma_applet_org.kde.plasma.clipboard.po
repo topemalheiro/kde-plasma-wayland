@@ -1,0 +1,116 @@
+# translation of plasma_applet_org.kde.plasma.clipboard.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015.
+# Mthw <jari_45@hotmail.com>, 2018, 2019.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Matej Mrenica <matejm98mthw@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.clipboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2023-11-11 15:16+0100\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 23.08.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Obsah schránky"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Schránka je prázdna"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Vyčistiť históriu"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Nastaviť schránku…"
+
+#~ msgid "QR Code"
+#~ msgstr "QR kód"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Dátová matica"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Code 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Code 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Code 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Návrat do schránky"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Zmeňte typ QR kódu"
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr ""
+#~ "Na zobrazenie kódu QR nie je dostatok miesta. Skúste zmeniť veľkosť tohto "
+#~ "appletu."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Vytvorenie QR kódu zlyhalo"
+
+#~ msgid "Invoke action"
+#~ msgstr "Vyvolať akciu"
+
+#~ msgid "Show QR code"
+#~ msgstr "Zobraziť QR kód"
+
+#~ msgid "Edit contents"
+#~ msgstr "Upraviť obsah"
+
+#~ msgid "Remove from history"
+#~ msgstr "Odstrániť z knižnice"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Zrušiť"
+
+#~ msgid "No matches"
+#~ msgstr "Žiadne zhody"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "QR kód je príliš veľký na zobrazenie"
+
+#~ msgid "Clear history"
+#~ msgstr "Vyčistiť históriu"
+
+#~ msgid "Search…"
+#~ msgstr "Hľadať…"
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "História schránky je prázdna."
+
+#~ msgid "Configure"
+#~ msgstr "Nastaviť"

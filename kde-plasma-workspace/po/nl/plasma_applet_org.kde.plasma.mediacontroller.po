@@ -1,0 +1,193 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2016, 2017, 2018, 2020, 2022, 2023, 2025 Freek de Kruijf <freekdekruijf@kde.nl>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 00:44+0000\n"
+"PO-Revision-Date: 2025-03-29 13:29+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.3\n"
+
+#: AlbumArtStackView.qml:211
+#, kde-format
+msgid "No title"
+msgstr "Geen titel"
+
+#: AlbumArtStackView.qml:211 main.qml:57
+#, kde-format
+msgid "No media playing"
+msgstr "Er speelt geen medium"
+
+#: ExpandedRepresentation.qml:414 ExpandedRepresentation.qml:570
+#, kde-format
+msgctxt "Remaining time for song e.g -5:42"
+msgid "-%1"
+msgstr "-%1"
+
+#: ExpandedRepresentation.qml:591
+#, kde-format
+msgid "Playback rate %1"
+msgstr "Afspeelsnelheid %1"
+
+#: ExpandedRepresentation.qml:594
+#, kde-format
+msgctxt "Playback rate"
+msgid "%1x"
+msgstr "%1x"
+
+#: ExpandedRepresentation.qml:598
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Playback rate"
+msgstr "Afspeelsnelheid"
+
+#: ExpandedRepresentation.qml:644
+#, kde-format
+msgctxt "@action:inmenu Playback speed (Normal)"
+msgid "%1 (Normal)"
+msgstr "%1 (Normaal)"
+
+#: ExpandedRepresentation.qml:683
+#, kde-format
+msgctxt "@action:button"
+msgid "Shuffle"
+msgstr "Willekeurig afspelen"
+
+#: ExpandedRepresentation.qml:707 main.qml:114
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Vorige track"
+
+#: ExpandedRepresentation.qml:729 main.qml:122
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: ExpandedRepresentation.qml:729 main.qml:130
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Afspelen"
+
+#: ExpandedRepresentation.qml:747 main.qml:138
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Volgende track"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat Track"
+msgstr "Track herhalen"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat"
+msgstr "Herhalen"
+
+#: ExpandedRepresentation.qml:841
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose player automatically"
+msgstr "Speler automatisch kiezen"
+
+#: main.qml:60
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (%2)\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"door %1 (%2)\n"
+"Midden-klik om te pauzeren\n"
+"Schuiven om volume aan te passen"
+
+#: main.qml:61
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"%1\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1\n"
+"Midden-klik om te pauzeren\n"
+"Schuiven om volume aan te passen"
+
+#: main.qml:63
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (paused, %2)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"door %1 (gepauzeerd, %2)\n"
+"Midden-klik om af te spelen\n"
+"Schuiven om volume aan te passen"
+
+#: main.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"Paused (%1)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"Gepauzeerd (%1)\n"
+"Midden-klik om af te spelen Schuiven om volume aan te passen"
+
+#: main.qml:107
+#, kde-format
+msgctxt "Open player window or bring it to the front if already open"
+msgid "Open"
+msgstr "Openen"
+
+#: main.qml:146
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Stoppen"
+
+#: main.qml:159
+#, kde-format
+msgctxt "Quit player"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "Volume step:"
+#~ msgstr "Volumestap:"
+
+#~ msgctxt "by Artist (player name)"
+#~ msgid "by %1 (%2)"
+#~ msgstr "door %1 (%2)"
+
+#~ msgctxt "Paused (player name)"
+#~ msgid "Paused (%1)"
+#~ msgstr "Gepauzeerd (%1)"
+
+#~ msgctxt "artist – track"
+#~ msgid "%1 – %2"
+#~ msgstr "%1 – %2"
+
+#~ msgctxt "Artist of the song"
+#~ msgid "by %1"
+#~ msgstr "door %1"
+
+#~ msgid "Pause playback when screen is locked"
+#~ msgstr "Afspelen pauzeren wanneer scherm is vergrendeld"

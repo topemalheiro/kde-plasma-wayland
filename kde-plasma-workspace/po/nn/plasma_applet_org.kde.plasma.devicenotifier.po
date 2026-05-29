@@ -1,0 +1,266 @@
+# Translation of plasma_applet_org.kde.plasma.devicenotifier to Norwegian Nynorsk
+#
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2010, 2011.
+# Øystein Steffensen-Alværvik <oysteins.omsetting@protonmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2025-10-26 12:59+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.08.2\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Kontroller for feil"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Monter"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Opna i filhandsamar"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Prøv å reparera"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Monter og opna"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Løys ut"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Fjern trygt"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Einiga har feil i filsystemet."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Einiga har ingen feil"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Filsystemet er no reparert."
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Einingsstatus"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Ei eining kan no trygt fjernast"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Eininga kan no trygt fjernast."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Du har ikkje løyve til å montera denne eininga."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Du har ikkje løyve til løysa ut denne disken."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Du har ikkje løyve til fjerna denne eininga."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Du har ikkje løyve til å reparera eininga."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Ukjend type feil"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Klarte ikkje montera eininga, då ho er oppteken."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Éi eller fleire filer på eininga er i bruk av eit program."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] "Éi eller fleire filer på eininga er i bruk av programmet «%2»."
+msgstr[1] "Éi eller fleire filer på eininga er i bruk av desse programma: %2"
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Klarte ikkje montera eininga."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Klarte ikkje løysa ut plata."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Klarte ikkje fjerna eininga."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Klarte ikkje reparera eininga: %1"
+
+#: qml/DeviceItem.qml:98
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Accessing is a less technical word for Mounting; translation should be "
+#| "short and mean 'Currently mounting this device'"
+#| msgid "Checking…"
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Kontrollerer …"
+
+#: qml/DeviceItem.qml:100
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Accessing is a less technical word for Mounting; translation should be "
+#| "short and mean 'Currently mounting this device'"
+#| msgid "Repairing…"
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Reparerer …"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 ledig av %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Tek i bruk …"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Fjernar …"
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Kopla ikkje frå enno! Filoverføring pågår framleis …"
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Fjern alle"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Trykk for å fjerna alle einingane trygt"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Inga flyttbar eining er kopla til"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Ingen disk er tilgjengeleg"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Sist tilkopla eining"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Ingen einingar er tilgjengelege"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Set opp flyttbare einingar …"
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Flyttbare einingar"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Ikkje-flyttbare einingar"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Alle einingar"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Vis sprettopp ved tilkopling av einingar"

@@ -1,0 +1,571 @@
+# Uyghur translation for plasma_applet_org.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2026-02-09 18:15-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "ئاچقۇز:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "خاسلىق"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "ئۈستەلئۈستىگە قوش"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "ۋەزىپە باشقۇرغۇچقا مىخلا"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "كۆزنەكچىگە قوش (ئەپچە)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "يېقىنقى ھۆججەت"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "يېقىنقى ھۆججەتنى ئۇنتۇ"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "پىروگرامما تەھرىرلە…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "قوشۇلما سۆك ياكى باشقۇر…"
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "ئەپنى يوشۇر"
+
+#: appentry.cpp:462
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "پىروگرامما"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "بۇ تىزىملىكتىكى پىروگراممىنى يوشۇرمايدۇ"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "«%1» دىكى پىروگراممىنى يوشۇرمايدۇ"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "KRunner نى كۆرسەت"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "ئىزدەپ، ھېسابلاپ ياكى بۇيرۇق ئىجرا قىلىدۇ"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "كومپيۇتېر"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "يىغقۇچ"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "يېقىندا ئىشلەتكەن"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "ھۆججەت"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "پىروگراممىنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr "قىسقۇچ"
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "ئىچىدىكى قىسقۇچنى ئاچ"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "ھۆججەتنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "ھۆججەتنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "ھەممىنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "ھەممە پىروگراممىنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "ھەممە ھۆججەتنى ئۇنتۇ"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "ھەممە ھۆججەتنى ئۇنتۇ"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "بارلىق پىروگرامما"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 نى يوشۇر"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "بۇنى كۆرۈنمەسلىكى كېرەك! KICKER_FAVORITES_MODEL نى ئىشلىتىڭ"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "يېقىنقى ھۆججەت"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "دائىم ئىشلىتىدىغان ھۆججەت"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "دائىم ئىشلىتىدىغان ھۆججەت"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "يېقىنقى پىروگرامما"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "دائىم ئىشلىتىدىغان پىروگرامما"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "توك مەنبە / جەريانچاق"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "ئىزدەش نەتىجىسى"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "قۇلۇپلا"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "تىزىمدىن چىق"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "جەريانچاقنى ساقلا"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "ئىشلەتكۈچى ئالماشتۇر"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "ئۇخلات"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "ئۈچەك"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "قايتا قوزغات"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "تاقا"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "جەريانچاق"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "سىستېما"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "ئېكراننى قۇلۇپلا"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "جەريانچاقنى ئاخىرلاشتۇر"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "باشقا ئىشلەتكۈچى سۈپىتىدە پاراللېل جەريانچاق باشلايدۇ"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "ئەسلەككە توڭلات"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "دىسكىغا توڭلات"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "كومپيۇتېرنى قايتا قوزغات"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "كومپيۇتېرنى تاقا"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "سىستېما مەشغۇلاتى"
+
+#~ msgid "Contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~ msgid "Documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~ msgid "General"
+#~ msgstr "ئادەتتىكى"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "يىغقۇچتىن چىقىرىۋەت"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "يىغقۇچقا قوش"
+
+#~| msgid "Add to Favorites"
+#~ msgid "Show In Favorites"
+#~ msgstr "يىغقۇچقا قوش"
+
+#~| msgid "Icon:"
+#~ msgid "Icon:"
+#~ msgstr "سىنبەلگە:"
+
+#~| msgid "Applications"
+#~ msgid "Show applications as:"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Applications"
+#~ msgid "Sort applications alphabetically"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Add to Favorites"
+#~ msgid "Show categories:"
+#~ msgstr "يىغقۇچقا قوش"
+
+#~| msgid "Applications"
+#~ msgid "Recent applications"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Applications"
+#~ msgid "Often used applications"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Recent Documents"
+#~ msgid "Recent documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgid "Often used documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgid "Recent contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgid "Often used contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+#~ msgid "Recently used"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#~ msgid "Often used"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Applications"
+#~ msgid "Edit Applications..."
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "&Safely Remove '%1'"
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "'%1' نى بىخەتەر چىقىرىۋەت(&S)"
+
+#~| msgid "Applications"
+#~ msgid "Show recent applications"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Applications"
+#~ msgid "Show often used applications"
+#~ msgstr "پروگراممىلار"
+
+#~| msgid "Recent Documents"
+#~ msgid "Show recent documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgid "Show often used documents"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgid "Recent Documents"
+#~ msgid "Show recent contacts"
+#~ msgstr "يېقىنقى پۈتۈكلەر"
+
+#~| msgctxt "an action"
+#~| msgid "Logout"
+#~ msgid "Logout"
+#~ msgstr "تىزىمدىن چىقىش"
+
+#~| msgctxt "an action"
+#~| msgid "Suspend"
+#~ msgid "Suspend"
+#~ msgstr "توڭلات"
+
+#~| msgctxt "an action"
+#~| msgid "New Session"
+#~ msgid "New Session"
+#~ msgstr "يېڭى ئەڭگىمە"
+
+#~ msgid "(Empty)"
+#~ msgstr "(بوش)"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+
+#~ msgid "Power Management"
+#~ msgstr "توك مەنبەسىنى باشقۇرۇش"
+
+#~ msgid "Title:"
+#~ msgstr "ماۋزۇ:"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Home"
+#~ msgstr "ماكان"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Network"
+#~ msgstr "تور"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Root"
+#~ msgstr "غول مۇندەرىجە"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Trash"
+#~ msgstr "ئەخلەتخانا"
+
+#~ msgid "&Release '%1'"
+#~ msgstr "تارقاتقۇچى '%1' (&R)"
+
+#~ msgid "&Unmount '%1'"
+#~ msgstr "'%1' نى ئېگەرسىزلە(&U)"
+
+#~ msgid "&Eject '%1'"
+#~ msgstr "'%1' نى قاڭقىت(&E)"
+
+#~ msgid "The device '%1' is not a disk and cannot be ejected."
+#~ msgstr "ئۈسكۈنە '%1' دىسكا ئەمەس، قاڭقىتالمايدۇ."
+
+#~ msgid "An error occurred while accessing '%1', the system responded: %2"
+#~ msgstr "'%1' ئېلىپ بېرىۋاتقاندا خاتالىق كۆرۈلدى، سىستېما ئىنكاسى: %2"
+
+#~ msgid "An error occurred while accessing '%1'"
+#~ msgstr "'%1' نى زىيارەت قىلىۋاتقاندا خاتالىق كۆرۈلدى"
+
+#~| msgid "Remove from Favorites"
+#~ msgid "Remove from Sidebar"
+#~ msgstr "يىغقۇچتىن چىقىرىۋەت"
+
+#~| msgid "Add to Panel"
+#~ msgid "Add to Sidebar"
+#~ msgstr "تاختىغا قوش"
+
+#~ msgid "Power"
+#~ msgstr "توك مەنبە"
+
+#~ msgid "Hello"
+#~ msgstr "ئەسسالامۇئەلەيكۇم"
+
+#~ msgid "World"
+#~ msgstr "دۇنيا"
+
+#~ msgid "Hello World"
+#~ msgstr "سالام دۇنيا"
+
+#~ msgid "Text Color:"
+#~ msgstr "تېكىست رەڭگى:"
+
+#~ msgid "None"
+#~ msgstr "يوق"
+
+#~ msgid "Automatic"
+#~ msgstr "ئاپتوماتىك"
+
+#~ msgid "Custom:"
+#~ msgstr "ئىختىيارى:"
+
+#~ msgid "Go back"
+#~ msgstr "كەينىگە"
+
+#~ msgid "Go forward"
+#~ msgstr "ئالدىغا"
+
+#~ msgid "Go up"
+#~ msgstr "يۇقىرىغا يۆتكەل"
+
+#~ msgctxt "Button to leave configure mode"
+#~ msgid "Done"
+#~ msgstr "تامام"
+
+#~ msgid "Configure Shortcuts..."
+#~ msgstr "تېزلەتمە سەپلەش"
+
+#~ msgid "About %1"
+#~ msgstr "%1 ھەققىدە"
+
+#~ msgid "Shaun Reich"
+#~ msgstr "Shaun Reich"
+
+#~ msgid "Developer"
+#~ msgstr "ئىجادىيەتچى"
+
+#~ msgid "Aurélien Gâteau"
+#~ msgstr "Aurélien Gâteau"
+
+#~ msgctxt "Tab title"
+#~ msgid "Home"
+#~ msgstr "ماكان"
+
+#~ msgctxt "Tab title"
+#~ msgid "Power"
+#~ msgstr "توك مەنبە"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Empty Trash"
+#~ msgstr "ئەخلەتخانىنى تازىلاش"

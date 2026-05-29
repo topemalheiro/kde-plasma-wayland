@@ -1,0 +1,308 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2012, 2013, 2020, 2021, 2022, 2024, 2025, 2026 Sergiu Bivol <sergiu@cip.md>
+#
+# Tatiana Țurcanu <turcanu DOT tatiana91 AT gmail DOT com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-05-17 15:23+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Elimină din favorite"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Adaugă la favorite"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Pe toate activitățile"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Pe activitatea curentă"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Arată în favorite"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Generale"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Pictogramă:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Alege…"
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Reinițializează la pictograma implicită"
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Arată aplicațiile ca:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Doar denumirea"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Doar descrierea"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Denumire (descriere)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Descriere (denumire)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Comportament:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Sortează aplicațiile alfabetic"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Aplatizează submeniurile la un singur nivel"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Arată pictogramele la nivelul-rădăcină al meniului"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Evidențiază aplicațiile instalate recent"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Arată categorii:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Aplicații recente"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Aplicații folosite des"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Fișiere recente"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Fișiere folosite des"
+
+#: ConfigGeneral.qml:227
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Locuri recente"
+
+#: ConfigGeneral.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Locuri des folosite"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Sortează elementele în categorii după:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Folosite recent"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Folosite des"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Caută:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Extinde căutarea asupra semnelor de carte, fișierelor și scrisorilor"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Aliniază rezultatele căutării în partea de jos"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Aspect:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Preferă regimul întunecat când e disponibil"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Această caracteristică folosește culorile complementare din schema de culori "
+"care, de obicei, au un fundal întunecat."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Favorite"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nouă!"
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr "În această categorie este o aplicație instalată recent"
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nouă!"
+
+#: ItemGridDelegate.qml:83
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Aplicație instalată recent"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Deschide categoria"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Lansează"
+
+#: ItemListDelegate.qml:99
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Aplicație instalată recent"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Modifică aplicațiile…"
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Favorite"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nicio potrivire"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Șterge pictograma"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Se caută „%1”"
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Tastați pentru a căuta…"

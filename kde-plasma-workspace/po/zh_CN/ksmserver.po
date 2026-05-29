@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-04-22 15:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-workspace/ksmserver.pot\n"
+"X-Crowdin-File-ID: 43305\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Guo Yunhe, Tyson Tan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "i@guoyunhe.me, tds00@qq.com"
+
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "“%1”取消了注销"
+
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr "会话正在退出"
+
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "没有“%1”的写入权限。"
+
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "没有“%1”的读取权限。"
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+"尝试启动 Plasma 时检测到\n"
+"下列安装问题："
+
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"Plasma无法启动。\n"
+
+#: main.cpp:129
+#, kde-format
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"遵循标准 X11R6 会话管理协议(XSMP)的\n"
+"可靠的Plasma会话管理器。"
+
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "如果可以则恢复上次会话"
+
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "允许远程连接"
+
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr "在锁定模式下启动会话"
+
+#: main.cpp:143
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr "在没有锁屏支持的情况下启动。仅在其他组件提供了锁屏时需要。"
+
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr "[未知]"
+
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+"无法管理某些应用，因为系统的会话管理资源已经耗尽。以下是会话资源消耗量最大的"
+"程序：\n"
+"%1"
+
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+"无法恢复 <application>%1</application>，因为它已经损坏，而且还耗尽了系统会话"
+"恢复资源。请将此情况报告给该应用程序的开发人员。"

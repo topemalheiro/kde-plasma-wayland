@@ -1,0 +1,363 @@
+# translation of plasma_applet_devicenotifier.po to Dutch
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rinse de Vries <rinsedevries@kde.nl>, 2007, 2008.
+# SPDX-FileCopyrightText: 2009, 2010, 2011, 2012, 2014, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2026-02-20 13:54+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Controleer op fouten"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Aankoppelen"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "In bestandsbeheerder openen"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Proberen te repareren"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Aankoppelen en openen"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Uitwerpen"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Veilig verwijderen"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Dit apparaat heeft fouten in het bestandssysteem."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Dit apparaat heeft geen fouten"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Met succes gerepareerd!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Apparaatstatus"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Een apparaat kan nu veilig worden verwijderd"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Dit apparaat kan nu veilig worden verwijderd."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "U bent niet geautoriseerd om dit apparaat aan te koppelen."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "U bent niet geautoriseerd om deze schijf uit te werpen."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "U bent niet geautoriseerd om dit apparaat te verwijderen."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "U bent niet geautoriseerd om dit apparaat te repareren."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Onbekende type fout"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Kon dit apparaat niet aankoppelen omdat het bezig is."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Een of meer bestanden op dit apparaat zijn in een toepassing geopend"
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"Een of meer bestanden op dit apparaat zijn geopend in programma \"%2\"."
+msgstr[1] ""
+"Een of meer bestanden op dit apparaat zijn in een programma geopend \"%2\"."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Kon dit apparaat niet aankoppelen."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Kon deze schijf miet uitwerpen."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Kon dit apparaat niet verwijderen."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Kon dit apparaat niet repareren: %1"
+
+#: qml/DeviceItem.qml:98
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Bezig met controleren…"
+
+#: qml/DeviceItem.qml:100
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Bezig met repareren…"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 van %2 vrij"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Gebruiken…"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Verwijderen…"
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Nog niet uitnemen! Er worden nog steeds bestanden overgezet…"
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Alles verwijderen"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Klik om alle apparaten veilig te verwijderen."
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Geen verwijderbare apparaten aangekoppeld"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Geen schijven beschikbaar"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Meest recente apparaat"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Geen apparaten beschikbaar"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Verwijderbare apparaten configureren…"
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Verwijderbare apparaten"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Niet-verwijderbare apparaten"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Alle apparaten"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Pop-up tonen wanneer een nieuw apparaat is aangesloten"
+
+#~ msgctxt "@action:button Mount a disk without verifying for errors"
+#~ msgid "Mount without verifying"
+#~ msgstr "Aankoppelen zonder verificatie"
+
+#~ msgid "Filesystem is not responding"
+#~ msgstr "Bestandssysteem geeft geen respons"
+
+#~ msgid "Filesystem mounted at '%1' is not responding"
+#~ msgstr "Bestandssysteem aangekoppeld op '%1' geeft geen respons"
+
+#~ msgid "Show:"
+#~ msgstr "Tonen:"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Het is nu <b>niet veilig</b> om dit apparaat te verwijderen: applicaties "
+#~ "kunnen het gebruiken. Klik op de uitwerpknop om dit apparaat te "
+#~ "verwijderen."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "Dit apparaat is nu toegankelijk."
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Het is nu <b>niet veilig</b> om dit apparaat te verwijderen: applicaties "
+#~ "kunnen andere volumes op dit apparaat gebruiken. Klik op de uitwerpknop "
+#~ "van deze volumes om dit apparaat veilig te verwijderen."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "Dit apparaat is nu niet toegankelijk."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 actie voor dit apparaat"
+#~ msgstr[1] "%1 acties voor dit apparaat"
+
+#~ msgid "Click to access this device from other applications."
+#~ msgstr ""
+#~ "Klik om toegang te geven tot dit apparaat vanuit andere programma's."
+
+#~ msgid "Click to safely remove this device."
+#~ msgstr "Klik om dit apparaat veilig te verwijderen."
+
+#~ msgid "Available Devices"
+#~ msgstr "Beschikbare apparaten"
+
+#~ msgid "This device is currently not accessible."
+#~ msgstr "Dit apparaat is nu niet toegankelijk."
+
+#~ msgid "Display"
+#~ msgstr "Beeldscherm"
+
+#~ msgid "Automounting"
+#~ msgstr "Automatisch aankoppelen"
+
+#~ msgid "Show hidden devices"
+#~ msgstr "Verborgen apparaten tonen"
+
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "%1 verbergen"
+
+#~| msgid "Device is plugged in and can be accessed by applications."
+#~ msgid ""
+#~ "Device is plugged in and the volume can be accessed by applications. It "
+#~ "is not safe to remove this device."
+#~ msgstr ""
+#~ "Apparaat is ingeplugd en het volume kan worden gebruikt door programma's. "
+#~ "Het is niet veilig om het apparaat te verwijderen"
+
+#~| msgid "Device is plugged in, but not mounted for access yet."
+#~ msgid ""
+#~ "Device is plugged in and the volume is not mounted for access yet. The "
+#~ "device can be safely removed."
+#~ msgstr ""
+#~ "Apparaat is ingeplugd, maar het volume is nog niet aangekoppeld vooer "
+#~ "toegang. Het apparaat kan veilig worden verwijderd."
+
+#~ msgid ""
+#~ "Device is plugged in and the volume is not mounted for access yet. "
+#~ "Another volume is accessible on the same device, which cannot be safely "
+#~ "removed."
+#~ msgstr ""
+#~ "Apparaat is ingeplugd, maar het volume is nog niet aangekoppeld voor "
+#~ "toegang. Een ander volume is toegankelijk op hetzelfde apparaat, wat niet "
+#~ "veilig kan worden verwijderd."
+
+#~ msgid "Cannot mount the disc."
+#~ msgstr "Kan de schijf niet aankoppelen."
+
+#~ msgid "No devices plugged in."
+#~ msgstr "Geen apparaten ingeplugd."
+
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "Recent ingeplugde apparaten:"

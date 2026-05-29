@@ -1,0 +1,390 @@
+# Indonesian translations for kcmsmserver package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmsmserver package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010.
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2022, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-17 00:47+0000\n"
+"PO-Revision-Date: 2025-03-15 06:01+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. i18n: ectx: label, entry (confirmLogout), group (General)
+#: smserversettings.kcfg:9
+#, kde-format
+msgid "Confirm logout"
+msgstr "Konfirmasi keluar log"
+
+#. i18n: ectx: label, entry (shutdownType), group (General)
+#: smserversettings.kcfg:13
+#, kde-format
+msgid "Default leave option"
+msgstr "Opsi baku meninggalkan"
+
+#. i18n: ectx: label, entry (loginMode), group (General)
+#: smserversettings.kcfg:22
+#, kde-format
+msgid "On login"
+msgstr "Saat masuk log"
+
+#. i18n: ectx: label, entry (excludeApps), group (General)
+#: smserversettings.kcfg:26
+#, kde-format
+msgid "Applications to be excluded from session"
+msgstr "Aplikasi yang dekecualikan dari sesi:"
+
+#: ui/main.qml:30
+#, fuzzy, kde-format
+#| msgid "Failed to request restart to firmware setup: %1"
+msgctxt "@info:status inlinemessage"
+msgid "Failed to request restart to firmware setup: %1"
+msgstr "Gagal meminta penyalaan ulang untuk pengesetan firmware: %1"
+
+#: ui/main.qml:31
+#, fuzzy, kde-format
+#| msgid ""
+#| "Next time the computer is restarted, it will enter the firmware setup "
+#| "screen."
+msgctxt "@info:status inlinemessage"
+msgid ""
+"Next time the computer is restarted, it will enter UEFI firmware settings."
+msgstr ""
+"Di kemudian nanti komputer dinyalakan ulang, itu akan memasuki layar "
+"pengesetan firmware."
+
+#: ui/main.qml:32
+#, fuzzy, kde-format
+#| msgid ""
+#| "Next time the computer is restarted, it will enter the firmware setup "
+#| "screen."
+msgctxt "@info:status inlinemessage"
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+"Di kemudian nanti komputer dinyalakan ulang, itu akan memasuki layar "
+"pengesetan firmware."
+
+#: ui/main.qml:37
+#, fuzzy, kde-format
+#| msgid "Restart Now"
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr "Nyalakan Ulang Sekarang"
+
+#: ui/main.qml:46
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "Umum"
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt ""
+"@label beginning of the logical sentence 'Ask for confirmation on shutdown, "
+"restart, and logout.'"
+msgid "Ask for confirmation:"
+msgstr "Tanya untuk konfirmasi:"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt ""
+"@option:check end of the logical sentence 'Ask for confirmation on shutdown, "
+"restart, and logout.'"
+msgid "On shutdown, restart, and logout"
+msgstr "Saat mematikan, menyalakan ulang, dan keluar log"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@title:group"
+msgid "Session Restore"
+msgstr "Pulihkan Sesi"
+
+#: ui/main.qml:71
+#, fuzzy, kde-format
+#| msgid "On login, launch apps that were open:"
+msgctxt "@title:group prefix for radiobuttons"
+msgid "On login, launch apps that were open:"
+msgstr "Saat masuk log, luncurkan aplikasi yang kebuka:"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@option:radio Automatic style of session restoration"
+msgid "On last logout"
+msgstr "Saat keluar log terakhir"
+
+#: ui/main.qml:85
+#, kde-format
+msgctxt "@option:radio Manual style of session restoration"
+msgid "When session was manually saved"
+msgstr "Ketika sesi yang disimpan secara manual"
+
+#: ui/main.qml:94
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A <interface>Save Session</interface> button will appear in the "
+"<interface>Application Launcher</interface> menu. When you click it, Plasma "
+"will remember the apps that are open and restore them on the next login. "
+"Click it again to replace the set of remembered apps."
+msgstr ""
+"Sebuah tombol <interface>Simpan Sesi</interface> akan muncul di menu "
+"<interface>Peluncur Aplikasi</interface>. Ketika Anda mengekliknya, Plasma "
+"akan mengingat aplikasi yang dibuka dan memulihkannya pada saat masuk log "
+"dikemudian nanti. Mengekliknya kembali untuk mengganti set aplikasi diingat."
+
+#: ui/main.qml:99
+#, kde-format
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
+msgid "Start with an empty session"
+msgstr "Mulai dengan sesi kosong"
+
+#: ui/main.qml:113
+#, fuzzy, kde-format
+#| msgid "Ignored applications:"
+msgctxt "@label:textbox"
+msgid "Ignored applications:"
+msgstr "Aplikasi yang diabaikan:"
+
+#: ui/main.qml:132
+#, fuzzy, kde-format
+#| msgid ""
+#| "Write apps' desktop file identifier or, on X11, executable names here "
+#| "(separated by commas or colons, for example 'xterm:org.kde.konsole."
+#| "desktop' or 'xterm,org.kde.konsole.desktop') to prevent them from "
+#| "autostarting along with other session-restored apps."
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
+msgid ""
+"Write apps' desktop file identifier or, on X11, executable names here "
+"(separated by commas or colons, for example 'xterm:org.kde.konsole.desktop' "
+"or 'xterm,org.kde.konsole.desktop') to prevent them from autostarting along "
+"with other session-restored apps."
+msgstr ""
+"Tulis pengenal file desktop app atau, pada X11, nama-nama yang dapat "
+"dieksekusi di sini (dipisahkan dengan koma atau titik dua, contohnya 'xterm:"
+"org.kde.konsole.desktop' atau 'xterm,org.kde.konsole.desktop') untuk "
+"mencegahnya dari pemulaian otomatis bersama dengan aplikasi lain yang "
+"dipulihkan sesi."
+
+#: ui/main.qml:138
+#, kde-format
+msgctxt "@title:group"
+msgid "Firmware"
+msgstr "Firmware"
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt ""
+"@label:check part of a sentence: After next restart enter UEFI/Firmware "
+"setup screen"
+msgid "After next restart:"
+msgstr "Sesudah penyalaan ulang selanjutnya:"
+
+#: ui/main.qml:145
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Enter firmware setup screen"
+msgctxt "@option:check"
+msgid "Enter UEFI firmware settings"
+msgstr "Masuk layar pengesetan firmware"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "@option:check"
+msgid "Enter firmware setup screen"
+msgstr "Masuk layar pengesetan firmware"
+
+#, fuzzy
+#~| msgid ""
+#~| "Next time the computer is restarted, it will enter the UEFI setup screen."
+#~ msgctxt "@info:status inlinemessage"
+#~ msgid ""
+#~ "Next time the computer is restarted, it will enter the UEFI setup screen."
+#~ msgstr ""
+#~ "Di kemudian nanti komputer dinyalakan ulang, itu akan memasuki layar "
+#~ "pengesetan UEFI."
+
+#~ msgctxt "@option:check"
+#~ msgid "Enter UEFI setup screen"
+#~ msgstr "Masuk layar pengesetan UEFI"
+
+#~ msgid ""
+#~ "The system must be restarted before manual session saving becomes active."
+#~ msgstr ""
+#~ "Sistem harus dinyalakan ulang sebelum penyimpanan sesi manual menjadi "
+#~ "aktif."
+
+#~ msgid "Restart"
+#~ msgstr "Nyalakan ulang"
+
+#~ msgid ""
+#~ "<h1>Session Manager</h1> You can configure the session manager here. This "
+#~ "includes options such as whether or not the session exit (logout) should "
+#~ "be confirmed, whether the session should be restored again when logging "
+#~ "in and whether the computer should be automatically shut down after "
+#~ "session exit by default."
+#~ msgstr ""
+#~ "<h1>Pengelola Sesi</h1> Kamu bisa mengkonfigurasi pengelola sesi di sini. "
+#~ "Ini termasuk opsi seperti apakah perlu atau tidak keluar (logout) sesi "
+#~ "harus dikonfirmasi, apakah sesi harus dikembalikan lagi ketika pe-login-"
+#~ "an dan apakah komputer harus secara otomatis dimatikan setelah keluar "
+#~ "sesi secara baku."
+
+#, fuzzy
+#~| msgid "Default leave option:"
+#~ msgid "Default option:"
+#~ msgstr "Opsi default tinggalkan:"
+
+#, fuzzy
+#~| msgid "Restart Now"
+#~ msgctxt "@option:radio"
+#~ msgid "Restart"
+#~ msgstr "Nyalakan Ulang Sekarang"
+
+#~ msgctxt "@option:check"
+#~ msgid "Confirm logout"
+#~ msgstr "Konfirmasi logout"
+
+#~ msgctxt ""
+#~ "@option:radio Here 'session' refers to the technical concept of session "
+#~ "restoration, whereby the windows that were open on logout are re-opened "
+#~ "on the next login"
+#~ msgid "End current session"
+#~ msgstr "Akhiri sesi saat ini"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Restart computer"
+#~ msgstr "Nyalakan ulang komputer"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Turn off computer"
+#~ msgstr "Mematikan komputer"
+
+#~ msgid "When logging in:"
+#~ msgstr "Ketika memasuki log di:"
+
+#~ msgctxt ""
+#~ "@option:radio Here 'session' refers to the technical concept of session "
+#~ "restoration, whereby the windows that were open on logout are re-opened "
+#~ "on the next login"
+#~ msgid "Restore last session"
+#~ msgstr "Kembalikan sesi terakhir"
+
+#~ msgid ""
+#~ "Here you can enter a colon or comma separated list of applications that "
+#~ "should not be saved in sessions, and therefore will not be started when "
+#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+#~ msgstr ""
+#~ "Di sini kamu bisa memasukkan daftar aplikasi yang dipisahkan oleh titik "
+#~ "dua atau koma yang tidak disimpan dalam sesi, sehingga tidak akan "
+#~ "dijalankan ketika memulihkan sesi. Misalnya 'xterm:konsole' atau 'xterm,"
+#~ "konsole'."
+
+#~ msgctxt "@option:check"
+#~ msgid "Offer shutdown options"
+#~ msgstr "Menawarkan opsi matikan"
+
+#~ msgid "Offer shutdown options"
+#~ msgstr "Menawarkan opsi matikan"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Wantoyèk"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "wantoyek@gmail.com"
+
+#~ msgid "Desktop Session"
+#~ msgstr "Sesi Desktop"
+
+#~ msgid "Desktop Session Login and Logout"
+#~ msgstr "Login dan Logout Sesi desktop"
+
+#~ msgid "Copyright © 2000–2020 Desktop Session team"
+#~ msgstr "Hak cipta  © 2000–2020 tim Sesi Desktop"
+
+#~ msgid "Oswald Buddenhagen"
+#~ msgstr "Oswald Buddenhagen"
+
+#~ msgid "Carl Schwan"
+#~ msgstr "Carl Schwan"
+
+#, fuzzy
+#~| msgid "Restore &manually saved session"
+#~ msgid "Restore previous saved session"
+#~ msgstr "Kembalikan sesi yang disimpan secara &manual"
+
+#~ msgid "UEFI Setup"
+#~ msgstr "Pengesetan UEFI"
+
+#~ msgid ""
+#~ "Check this option if you want the session manager to display a logout "
+#~ "confirmation dialog box."
+#~ msgstr ""
+#~ "Centang opsi ini jika kamu ingin pengelola sesi untuk menampilkan kotak "
+#~ "dialog konfirmasi logout."
+
+#~ msgid "Conf&irm logout"
+#~ msgstr "Konf&irmasi logout"
+
+#~ msgid "O&ffer shutdown options"
+#~ msgstr "Ta&warkan opsi matikan"
+
+#~ msgid ""
+#~ "Here you can choose what should happen by default when you log out. This "
+#~ "only has meaning, if you logged in through KDM."
+#~ msgstr ""
+#~ "Di sini kamu bisa memilih secara baku apa yang akan terjadi ketika kamu "
+#~ "logout. Ini hanya berarti, jika kamu ter-login melalui KDM."
+
+#~ msgid "Default Leave Option"
+#~ msgstr "Opsi Baku Tinggalkan"
+
+#~ msgid ""
+#~ "<ul>\n"
+#~ "<li><b>Restore previous session:</b> Will save all applications running "
+#~ "on exit and restore them when they next start up</li>\n"
+#~ "<li><b>Restore manually saved session: </b> Allows the session to be "
+#~ "saved at any time via \"Save Session\" in the K-Menu. This means the "
+#~ "currently started applications will reappear when they next start up.</"
+#~ "li>\n"
+#~ "<li><b>Start with an empty session:</b> Do not save anything. Will come "
+#~ "up with an empty desktop on next start.</li>\n"
+#~ "</ul>"
+#~ msgstr ""
+#~ "<ul>\n"
+#~ "<li><b>Kembalikan sesi sebelumnya:</b> Akan menyimpan semua aplikasi yang "
+#~ "berjalan saat keluar dan mengembalikannya saat hidupkan selanjutnya</li>\n"
+#~ "<li><b>Kembalikan sesi disimpan secara manual: </b> Memungkinkan sesi "
+#~ "untuk disimpan kapanpun via \"Simpan Sesi\" di K-Menu. Ini berarti "
+#~ "aplikasi yang dijalankan saat ini akan muncul kembali saat hidupkan "
+#~ "selanjutnya.</li>\n"
+#~ "<li><b>Jalankan dengan sesi kosong:</b> Jangan simpan apapun. Akan muncul "
+#~ "dengan desktop kosong saat hidupkan selanjutnya.</li>\n"
+#~ "</ul>"
+
+#~ msgid "On Login"
+#~ msgstr "Saat Login"
+
+#~ msgid "Applications to be e&xcluded from sessions:"
+#~ msgstr "Aplikasi yang tidak &disertakan dari sesi:"
+
+#~ msgid ""
+#~ "When the computer is restarted the next time, enter firmware setup screen "
+#~ "(e.g. UEFI or BIOS setup)"
+#~ msgstr ""
+#~ "Ketika komputer dinyalakan-ulang di kemudian nanti, memasuki layar "
+#~ "pengesetan firmware (misalnya pengesetan BIOS atau UEFI)"

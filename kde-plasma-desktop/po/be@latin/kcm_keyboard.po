@@ -1,0 +1,834 @@
+# translation of kcmkeyboard.po to Belarusian Latin
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2008-11-04 12:41+0200\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"Language: be@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ihar Hračyška"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: bindings.cpp:24
+#, fuzzy, kde-format
+#| msgid "KDE Keyboard Layout Switcher"
+msgid "Keyboard Layout Switcher"
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#: bindings.cpp:26
+#, kde-format
+msgid "Switch to Next Keyboard Layout"
+msgstr "Uklučy nastupny vykład"
+
+#: bindings.cpp:30
+#, fuzzy, kde-format
+#| msgid "Switch to Next Keyboard Layout"
+msgid "Switch to Last-Used Keyboard Layout"
+msgstr "Uklučy nastupny vykład"
+
+#: bindings.cpp:60
+#, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
+msgid "Switch keyboard layout to %1"
+msgstr "Pamyłka źmieny klavijaturnaha vykładu na „%1”."
+
+#: keyboardmodel.cpp:35
+#, kde-format
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr ""
+
+#: keyboardmodel.cpp:39
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr ""
+
+#: tastenbrett/main.cpp:52
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "app display name"
+msgid "Keyboard Preview"
+msgstr "Paŭtor klavišaŭ"
+
+#: tastenbrett/main.cpp:54
+#, fuzzy, kde-format
+#| msgid "KDE Keyboard Layout Switcher"
+msgctxt "app description"
+msgid "Keyboard layout visualization"
+msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#: tastenbrett/main.cpp:139
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant.\n"
+"Previewing layouts that are defined outside your systems xkb directory is "
+"not supported and  will also trigger this message. These might still work "
+"fine if applied"
+msgstr ""
+
+#: ui/KeyBindings.qml:18
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@title"
+msgid "Configure Key Bindings…"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/KeyBindings.qml:62
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@label:checkbox"
+msgid "Configure keyboard options"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/KeyBindings.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset"
+msgstr ""
+
+#: ui/KeyBindings.qml:138
+#, kde-format
+msgctxt "@info accessible"
+msgid "Reset selected options for this group"
+msgstr ""
+
+#: ui/KeyBindings.qml:139
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reset selected options for this group"
+msgstr ""
+
+#: ui/LayoutDialog.qml:22
+#, fuzzy, kde-format
+#| msgid "Layout"
+msgctxt "@title:window"
+msgid "Set Layout"
+msgstr "Vykład"
+
+#: ui/LayoutDialog.qml:22
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@title:window"
+msgid "Add Layout"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/LayoutDialog.qml:121
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Short layout name"
+msgstr ""
+
+#: ui/LayoutDialog.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The abbreviated name of the selected layout, which will be displayed in the "
+"system tray. You can change this setting yourself."
+msgstr ""
+
+#: ui/LayoutDialog.qml:139
+#, fuzzy, kde-format
+#| msgid "Main shortcuts:"
+msgctxt "@option:textbox"
+msgid "Shortcut:"
+msgstr "Hałoŭnyja skaroty:"
+
+#: ui/LayoutDialog.qml:150 ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Switching…"
+msgstr ""
+
+#: ui/main.qml:38
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@action:button accessible"
+msgid "Configure Switching"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Key Bindings"
+msgstr ""
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Key Bindings"
+msgstr ""
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt "@action:button Layout"
+msgid "Add…"
+msgstr ""
+
+#: ui/main.qml:52
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@action:button accessible"
+msgid "Add layout"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@label:checkbox configure layouts option"
+msgid "Enable"
+msgstr ""
+
+#: ui/main.qml:60
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@label:checkbox accessible"
+msgid "Configure Layouts"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@label:listbox Keyboard model"
+msgid "Model:"
+msgstr ""
+
+#: ui/main.qml:104
+#, fuzzy, kde-format
+#| msgid "NumLock on KDE Startup"
+msgctxt "@label:listbox"
+msgid "NumLock on startup:"
+msgstr "Klaviša „NumLock” pry ŭklučeńni „KDE”"
+
+#: ui/main.qml:112
+#, fuzzy, kde-format
+#| msgid "T&urn on"
+msgctxt "@item:inlistbox Turn on \"NumLock\" on startup"
+msgid "Turn on"
+msgstr "&Uklučaj"
+
+#: ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Turn o&ff"
+msgctxt "@item:inlistbox Turn off \"NumLock\" on startup"
+msgid "Turn off"
+msgstr "&Vyklučaj"
+
+#: ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid "Leave unchan&ged"
+msgctxt ""
+"@item:inlistbox Leave \"NumLock\" at whatever it was set to before Plasma "
+"started up"
+msgid "Leave unchanged"
+msgstr "&Nie źmianiaj"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@label:checkbox"
+msgid "Key repeat:"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main.qml:155 ui/main_phone.qml:115
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@label:checkbox accessible"
+msgid "Key repeat"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main.qml:166 ui/main_phone.qml:131
+#, fuzzy, kde-format
+#| msgid "&Delay:"
+msgctxt "@label:textbox Key repeat delay"
+msgid "Delay:"
+msgstr "&Intervał:"
+
+#: ui/main.qml:180 ui/main_phone.qml:135
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat delay %1"
+msgstr ""
+
+#: ui/main.qml:188 ui/main_phone.qml:143
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "%1 ms"
+msgstr ""
+
+#: ui/main.qml:192 ui/main_phone.qml:147
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "ms"
+msgstr ""
+
+#: ui/main.qml:205 ui/main_phone.qml:162
+#, fuzzy, kde-format
+#| msgid "&Rate:"
+msgctxt "@label:textbox Key repeat rate"
+msgid "Rate:"
+msgstr "&Čaścinia:"
+
+#: ui/main.qml:219 ui/main_phone.qml:169
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat rate %1"
+msgstr ""
+
+#: ui/main.qml:227 ui/main_phone.qml:177
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "%1 repeats/s"
+msgstr ""
+
+#: ui/main.qml:231 ui/main_phone.qml:181
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "repeats/s"
+msgstr ""
+
+#: ui/main.qml:243
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Test area:"
+msgstr ""
+
+#: ui/main.qml:245
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to test settings"
+msgstr ""
+
+#: ui/main.qml:256
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@title:view"
+msgid "Layouts"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr ""
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout up"
+msgstr ""
+
+#: ui/main.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr ""
+
+#: ui/main.qml:278
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout Down"
+msgstr ""
+
+#: ui/main.qml:288
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@action:button accessible"
+msgid "Preview"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Remove layout %1"
+msgstr ""
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@label:checkbox"
+msgid "Spare layouts:"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main.qml:346
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of spared main layouts"
+msgstr ""
+
+#: ui/main.qml:378
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@label:textbox completes spinbox, x main layouts"
+msgid "main layouts"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main.qml:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can have up to 4 main layouts, all other layouts are spare. Spare "
+"layouts are not included when cycling through the layouts, but can be "
+"accessed through the keyboard indicator applet or by setting a custom "
+"shortcut."
+msgstr ""
+
+#: ui/main.qml:387
+#, fuzzy, kde-format
+#| msgid "Alternative shortcut:"
+msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
+msgid "Change layout shortcut:"
+msgstr "Dadatkovy skarot:"
+
+#: ui/main.qml:410
+#, kde-format
+msgctxt "@label Change layout shortcut or \"Configure Switching\""
+msgid "or"
+msgstr ""
+
+#: ui/main_phone.qml:36
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@title form header"
+msgid "Model & Layout"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main_phone.qml:43
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@label:listbox"
+msgid "Keyboard Model"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main_phone.qml:72
+#, fuzzy, kde-format
+#| msgid "Layout"
+msgctxt "@option:check"
+msgid "Custom Layout"
+msgstr "Vykład"
+
+#: ui/main_phone.qml:96
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@action:button"
+msgid "Change Layout..."
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/main_phone.qml:103
+#, fuzzy, kde-format
+#| msgid "Keyboard Repeat"
+msgctxt "@title:group"
+msgid "Key Repeat"
+msgstr "Paŭtor klavišaŭ"
+
+#: ui/main_phone.qml:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Customize Repeat"
+msgstr ""
+
+#: ui/Switching.qml:17
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@title"
+msgid "Configure Switching"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/Switching.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr ""
+
+#: ui/Switching.qml:28
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Switching layout affects:"
+msgstr ""
+
+#: ui/Switching.qml:35
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows"
+msgstr ""
+
+#: ui/Switching.qml:39
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows on current desktop"
+msgstr ""
+
+#: ui/Switching.qml:43
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows of current application"
+msgstr ""
+
+#: ui/Switching.qml:47
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Current window only"
+msgstr ""
+
+#: ui/Switching.qml:74
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Show OSD popup on layout change"
+msgstr ""
+
+#: ui/Switching.qml:86
+#, fuzzy, kde-format
+#| msgid "Main shortcuts:"
+msgctxt "@title:group"
+msgid "Shortcuts"
+msgstr "Hałoŭnyja skaroty:"
+
+#: ui/Switching.qml:91 ui/Switching.qml:151
+#, fuzzy, kde-format
+#| msgid "&Enable keyboard repeat"
+msgctxt "@option:textbox"
+msgid "Change layout:"
+msgstr "&Uklučy paŭtor klavišaŭ"
+
+#: ui/Switching.qml:111
+#, fuzzy, kde-format
+#| msgid "Switch to Next Keyboard Layout"
+msgctxt "@option:textbox"
+msgid "Switch to last used layout:"
+msgstr "Uklučy nastupny vykład"
+
+#: ui/Switching.qml:131
+#, fuzzy, kde-format
+#| msgid "Main shortcuts:"
+msgctxt "@title:group"
+msgid "Legacy Shortcuts"
+msgstr "Hałoŭnyja skaroty:"
+
+#: ui/Switching.qml:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Legacy X11 shortcuts allow finer control of modifier-only shortcuts and have "
+"slightly better support on X11 in edge cases. They can also be used on "
+"Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings "
+"page."
+msgstr ""
+
+#: ui/Switching.qml:180
+#, fuzzy, kde-format
+#| msgid "Alternative shortcut:"
+msgctxt "@option:textbox"
+msgid "Alternative symbols:"
+msgstr "Dadatkovy skarot:"
+
+#: ui/Switching.qml:206
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Modifier keys can be used to type additional characters, symbols, and "
+"diacritical marks."
+msgstr ""
+
+#: xkboptionsmodel.cpp:165
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: xkboptionsmodel.cpp:168
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "Niama"
+
+#, fuzzy
+#~| msgid "Turn o&ff"
+#~ msgctxt "@option:radio"
+#~ msgid "Turn Off"
+#~ msgstr "&Vyklučaj"
+
+#, fuzzy
+#~| msgid "&Enable keyboard repeat"
+#~ msgctxt "@title:group"
+#~ msgid "Shortcuts for Switching Layout"
+#~ msgstr "&Uklučy paŭtor klavišaŭ"
+
+#, fuzzy
+#~| msgid "3rd level shortcuts:"
+#~ msgctxt "@option:textbox"
+#~ msgid "3rd level shortcuts:"
+#~ msgstr "Skaroty treciaha roŭniu:"
+
+#, fuzzy
+#~| msgid "Alternative shortcut:"
+#~ msgctxt "@option:textbox"
+#~ msgid "Last used shortcuts:"
+#~ msgstr "Dadatkovy skarot:"
+
+#, fuzzy
+#~| msgid "Switching Policy"
+#~ msgctxt "@title:group"
+#~ msgid "Switching Policy"
+#~ msgstr "Praviły pieraklučeńnia"
+
+#, fuzzy
+#~| msgid "&Global"
+#~ msgctxt "@option:radio"
+#~ msgid "Global"
+#~ msgstr "&Paŭsiudnaje"
+
+#, fuzzy
+#~| msgid "&Desktop"
+#~ msgctxt "@option:radio"
+#~ msgid "Desktop"
+#~ msgstr "Dla &stała"
+
+#, fuzzy
+#~| msgid "&Application"
+#~ msgctxt "@option:radio"
+#~ msgid "Application"
+#~ msgstr "Dla &aplikacyi"
+
+#, fuzzy
+#~| msgid "&Window"
+#~ msgctxt "@option:radio"
+#~ msgid "Window"
+#~ msgstr "Dla a&kna"
+
+#, fuzzy
+#~| msgid "Map"
+#~ msgctxt "@title:column"
+#~ msgid "Map"
+#~ msgstr "Mapa"
+
+#, fuzzy
+#~| msgid "Label"
+#~ msgctxt "@title:column"
+#~ msgid "Label"
+#~ msgstr "Nazva"
+
+#, fuzzy
+#~| msgid "Variant"
+#~ msgctxt "@title:column"
+#~ msgid "Variant"
+#~ msgstr "Admiena"
+
+#, fuzzy
+#~| msgid "Alternative shortcut:"
+#~ msgctxt "@action:button"
+#~ msgid "Reassign shortcut"
+#~ msgstr "Dadatkovy skarot:"
+
+#~ msgid "Label:"
+#~ msgstr "Nazva:"
+
+#~ msgid ""
+#~ "Here you can choose a keyboard model. This setting is independent of your "
+#~ "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
+#~ "keyboard is manufactured. Modern keyboards that come with your computer "
+#~ "usually have two extra keys and are referred to as \"104-key\" models, "
+#~ "which is probably what you want if you do not know what kind of keyboard "
+#~ "you have.\n"
+#~ msgstr ""
+#~ "Tut možna vybrać madel klavijatury. Hetaja nałada nie zaležyć ad vykładaŭ "
+#~ "klavišaŭ i adpaviadaje typu klavijatury, jakaja lažyć pierad taboj. "
+#~ "Sučasnyja klavijatury zvyčajna majuć dźvie dadatkovyja klavišy. Ich jašče "
+#~ "nazyvajuć „104-klavišnymi”. Kali ty nia viedaješ, što abrać, vybiery "
+#~ "hetuju madel.\n"
+
+#~ msgid ""
+#~ "If you select \"Application\" or \"Window\" switching policy, changing "
+#~ "the keyboard layout will only affect the current application or window."
+#~ msgstr ""
+#~ "Kali ty vybiareš opcyi „Dla aplikacyi” ci „Dla akna”, tady pieraklučeńnie "
+#~ "vykładaŭ budzie dziejničać tolki dla dziejnaj aplikacyi ci akna "
+#~ "adpaviedna."
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts which is handled by X.org. It "
+#~ "allows modifier-only shortcuts."
+#~ msgstr ""
+#~ "Klavijaturny skarot dla pieraklučeńnia vykładaŭ u systemie „X.org”. Tut "
+#~ "možna padać tolki skaroty z madyfikacyjnymi klavišami."
+
+#~ msgid ""
+#~ "This is a shortcut for switching to a third level of the active layout "
+#~ "(if it has one) which is handled by X.org. It allows modifier-only "
+#~ "shortcuts."
+#~ msgstr ""
+#~ "Klavijaturny skarot dla pieraklučeńnia na treci rovień dziejnaha vykładu "
+#~ "(kali jon isnuje) u systemie „X.org”. Tut možna padać tolki skaroty z "
+#~ "madyfikacyjnymi klavišami."
+
+#, fuzzy
+#~| msgid ""
+#~| "This is a shortcut for switching layouts which is handled by KDE. It "
+#~| "does not support modifier-only shortcuts and also may not work in some "
+#~| "situations (e.g. if popup is active or from screensaver)."
+#~ msgid ""
+#~ "This is a shortcut for switching layouts. It does not support modifier-"
+#~ "only shortcuts and also may not work in some situations (e.g. if popup is "
+#~ "active or from screensaver)."
+#~ msgstr ""
+#~ "Klavijaturny skarot dla pieraklučeńnia vykładaŭ u KDE. Tut nielha padać "
+#~ "skaroty, jakija spałučajuć tolki madyfikacyjnyja klavišy. Hety skarot u "
+#~ "niekatorych vypadkach moža nia dziejničać (naprykład, dla vypłyŭnych akon "
+#~ "ci achoŭnika ekrana)."
+
+#~ msgid "Advanced"
+#~ msgstr "Admysłovaje"
+
+#, fuzzy
+#~| msgctxt "Default variant"
+#~| msgid "Default"
+#~ msgctxt "variant"
+#~ msgid "Default"
+#~ msgstr "Zmoŭčanaja"
+
+#, fuzzy
+#~| msgid ""
+#~| "If supported, this option allows you to setup the state of NumLock after "
+#~| "KDE startup.<p>You can configure NumLock to be turned on or off, or "
+#~| "configure KDE not to set NumLock state."
+#~ msgid ""
+#~ "If supported, this option allows you to setup the state of NumLock after "
+#~ "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+#~ "configure Plasma not to set NumLock state."
+#~ msgstr ""
+#~ "Kali hetaja mahčymaść absłuhoŭvajecca, tady tut možna naładzić pačatkovy "
+#~ "stan klavišy „NumLock” pa ŭklučeńni systemy „KDE”.<p>Ty možaš vybrać, ci "
+#~ "ŭklučać albo vyklučać hetuju klavišu, a taksama možna zahadać, kab system "
+#~ "nie źmianiała stanu klavišy."
+
+#~ msgid "Leave unchan&ged"
+#~ msgstr "&Nie źmianiaj"
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the delay after which a "
+#~ "pressed key will start generating keycodes. The 'Repeat rate' option "
+#~ "controls the frequency of these keycodes."
+#~ msgstr ""
+#~ "Kali hetaja mahčymaść absłuhoŭvajecca, tady tut možna naładzić termin "
+#~ "času, pa jakim pačnuć uźnikać novyja znaki. Opcyja „Čaścinia paŭtoraŭ” "
+#~ "aznačaje čaściniu hetych znakaŭ."
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the rate at which keycodes "
+#~ "are generated while a key is pressed."
+#~ msgstr ""
+#~ "Kali hetaja mahčymaść absłuhoŭvajecca, tady tut možna naładzić čaściniu "
+#~ "ŭźniknieńnia novych znakaŭ, kali klaviša prycisnutaja."
+
+#, fuzzy
+#~| msgid "KDE Keyboard Layout Switcher"
+#~ msgid "KDE Keyboard Control Module"
+#~ msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#, fuzzy
+#~| msgid "Copyright (C) 2006-2007 Andriy Rysin"
+#~ msgid "(c) 2010 Andriy Rysin"
+#~ msgstr "Copyright © 2006-2007 Andriy Rysin"
+
+#, fuzzy
+#~| msgid "KDE Keyboard Layout Switcher"
+#~ msgid "KDE Keyboard Layout Switcher"
+#~ msgstr "Pieraklučnik klavijaturnych vykładaŭ KDE"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#, fuzzy
+#~| msgid "&Enable keyboard repeat"
+#~ msgid "Show for single layout"
+#~ msgstr "&Uklučy paŭtor klavišaŭ"
+
+#, fuzzy
+#~| msgid "Keyboard Repeat"
+#~ msgctxt "tooltip title"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Paŭtor klavišaŭ"
+
+#, fuzzy
+#~| msgid "&Enable keyboard repeat"
+#~ msgid "Configure Layouts..."
+#~ msgstr "&Uklučy paŭtor klavišaŭ"
+
+#, fuzzy
+#~| msgid "&Enable keyboard repeat"
+#~ msgid "Configure..."
+#~ msgstr "&Uklučy paŭtor klavišaŭ"
+
+#~ msgid ""
+#~ "If supported, this option allows you to hear audible clicks from your "
+#~ "computer's speakers when you press the keys on your keyboard. This might "
+#~ "be useful if your keyboard does not have mechanical keys, or if the sound "
+#~ "that the keys make is very soft.<p>You can change the loudness of the key "
+#~ "click feedback by dragging the slider button or by clicking the up/down "
+#~ "arrows on the spin box. Setting the volume to 0% turns off the key click."
+#~ msgstr ""
+#~ "Kali hetaja mahčymaść absłuhoŭvajecca, tady tut možna naładzić systemu "
+#~ "tak, kab čuć pa nacisku klavišaŭ admysłovyja huki z kalonak svajho "
+#~ "kamputara. Hetaja mahčymaść zručnaja, kali ŭ ciabie niama mechaničnych "
+#~ "klavišaŭ, albo kali naciskaŭ nie čuvać.<p>Ty možaš źmianiać hučnaść "
+#~ "takich hukaŭ, ciahajučy hety rehulatar ci klikajučy ŭ adpaviednyja "
+#~ "knopki. Kali ty vybieraš hučnaść „0%”, tady hetyja huki buduć vyklučanyja."
+
+#, fuzzy
+#~| msgid "Key click &volume:"
+#~ msgid "&Key click volume:"
+#~ msgstr "&Hučnaść nacisku klavišaŭ:"
+
+#~ msgid ""
+#~ "If you check this option, pressing and holding down a key emits the same "
+#~ "character over and over again. For example, pressing and holding down the "
+#~ "Tab key will have the same effect as that of pressing that key several "
+#~ "times in succession: Tab characters continue to be emitted until you "
+#~ "release the key."
+#~ msgstr ""
+#~ "Kali ŭklučanaja hetaja opcyja, tady doŭhaje pryciskańnie klavišy budzie "
+#~ "vyklikać upisvańnie paśladoŭnaści znakaŭ. Naprykład, kali ty pryciśnieš "
+#~ "klavišu „Tab”, dyk heta budzie tym samym, jak kali b ty niekalki razoŭ "
+#~ "nacisnuŭ hetuju klavišu. Novyja znaki ŭźnikajuć, pakul ty nie adciśnieš "
+#~ "klavišu."
+
+#~ msgid "&Enable keyboard repeat"
+#~ msgstr "&Uklučy paŭtor klavišaŭ"

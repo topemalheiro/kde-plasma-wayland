@@ -1,0 +1,245 @@
+# translation of plasma_applet_pager.po to Icelandic
+# Copyright (C) 2008, 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2008, 2009, 2022, 2026 Sveinn í Felli <sveinki@nett.is>
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2026-02-16 11:16+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Almennt"
+
+#: qml/configGeneral.qml:39
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Almennt:"
+
+#: qml/configGeneral.qml:41
+#, kde-format
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "Sýna útlínur glugga"
+
+#: qml/configGeneral.qml:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "Sýna forritatákn á útlínum glugga"
+
+#: qml/configGeneral.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "Sýna aðeins núverandi skjá"
+
+#: qml/configGeneral.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "Fletting í gegn fer hringinn"
+
+#: qml/configGeneral.qml:69
+#, kde-format
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "Framsetning:"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "Sjálfgefið"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "Lárétt"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "Lóðrétt"
+
+#: qml/configGeneral.qml:85
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "Birting texta:"
+
+#: qml/configGeneral.qml:88
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "Enginn texti"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "Númer athafnar"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "Númer skjáborðs"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "Heiti athafnar"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "Heiti skjáborðs"
+
+#: qml/configGeneral.qml:119
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Núverandi athöfn valin:"
+
+#: qml/configGeneral.qml:120
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Núverandi sýndarskjáborð valið:"
+
+#: qml/configGeneral.qml:123
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "gerir ekkert"
+
+#: qml/configGeneral.qml:131
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "sýnir skjáborðið"
+
+#: qml/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "…og %1 gluggi í viðbót"
+msgstr[1] "…og %1 gluggar í viðbót"
+
+#: qml/main.qml:352
+#, kde-format
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 gluggi:"
+msgstr[1] "%1 gluggar:"
+
+#: qml/main.qml:364
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 falinn gluggi:"
+msgstr[1] "%1 faldir gluggar:"
+
+#: qml/main.qml:440
+#, kde-format
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "Skjáborð %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "Skipta yfir í %1"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "Sýna athafnastjóra"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "Bæta við sýndarskjáborði"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Fjarlægja sýndarskjáborð"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "Grunnstilla at&hafnir..."
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Grunnstilla sýndarskjáborð…"
+
+#, fuzzy
+#~| msgid "Configure Desktops..."
+#~ msgid "Configure Desktops..."
+#~ msgstr "Stilla skjáborð..."
+
+#~ msgid "Shows the dashboard"
+#~ msgstr "Sýnir stjórnborðið"
+
+#~ msgid "Display icons:"
+#~ msgstr "Sýna táknmyndir:"
+
+#~ msgid "&Add Virtual Desktop"
+#~ msgstr "Bæt&a við sýndarskjáborði"
+
+#~ msgid "&Remove Last Virtual Desktop"
+#~ msgstr "Fja&rlægja fyrra sýndarskjáborð"
+
+#~ msgid "Configure Pager"
+#~ msgstr "Stilla skjáborðsfletti"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Fjöldi dálka:"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Fjöldi raða:"
+
+#~ msgid "Change the number of rows"
+#~ msgstr "Breyta fjölda raða"

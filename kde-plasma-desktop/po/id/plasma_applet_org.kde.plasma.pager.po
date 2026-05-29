@@ -1,0 +1,275 @@
+# Indonesian translations for plasma_applet_pager package.
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_pager package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2009-2014.
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2022, 2024 Wantoyo <wantoyek@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2024-10-29 20:58+0700\n"
+"Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: qml/config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Umum"
+
+#: qml/configGeneral.qml:39
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Umum:"
+
+#: qml/configGeneral.qml:41
+#, fuzzy, kde-format
+#| msgid "Show window outlines"
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "Tampilkan garis luar jendela"
+
+#: qml/configGeneral.qml:46
+#, fuzzy, kde-format
+#| msgid "Show application icons on window outlines"
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "Tampilkan ikon aplikasi pada garisluar jendela"
+
+#: qml/configGeneral.qml:52
+#, fuzzy, kde-format
+#| msgid "Show only current screen"
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "Tampilkan layar saat ini saja"
+
+#: qml/configGeneral.qml:57
+#, fuzzy, kde-format
+#| msgid "Navigation wraps around"
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "Navigasi sekitar kemasan"
+
+#: qml/configGeneral.qml:69
+#, fuzzy, kde-format
+#| msgid "Layout:"
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "Tata letak:"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgctxt "The pager layout"
+#| msgid "Default"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "Default"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgid "Horizontal"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgid "Vertical"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: qml/configGeneral.qml:85
+#, fuzzy, kde-format
+#| msgid "Text display:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "Tampilan teks:"
+
+#: qml/configGeneral.qml:88
+#, fuzzy, kde-format
+#| msgid "No text"
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "Tanpa teks"
+
+#: qml/configGeneral.qml:96
+#, fuzzy, kde-format
+#| msgid "Activity number"
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "Jumlah aktivitas"
+
+#: qml/configGeneral.qml:96
+#, fuzzy, kde-format
+#| msgid "Desktop number"
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "Jumlah desktop"
+
+#: qml/configGeneral.qml:104
+#, fuzzy, kde-format
+#| msgid "Activity name"
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "Nama aktivitas"
+
+#: qml/configGeneral.qml:104
+#, fuzzy, kde-format
+#| msgid "Desktop name"
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "Nama desktop"
+
+#: qml/configGeneral.qml:119
+#, fuzzy, kde-format
+#| msgid "Selecting current Activity:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Memilih Aktivitas saat ini:"
+
+#: qml/configGeneral.qml:120
+#, fuzzy, kde-format
+#| msgid "Selecting current virtual desktop:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Memilih virtual desktop saat ini:"
+
+#: qml/configGeneral.qml:123
+#, fuzzy, kde-format
+#| msgid "Does nothing"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "Jangan lakukan apa-apa"
+
+#: qml/configGeneral.qml:131
+#, fuzzy, kde-format
+#| msgid "Shows the desktop"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "Tampilkan desktop"
+
+#: qml/main.qml:87
+#, fuzzy, kde-format
+#| msgid "…and %1 other window"
+#| msgid_plural "…and %1 other windows"
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "...dan %1 jendela lain"
+msgstr[1] "...dan %1 jendela lainnya"
+
+#: qml/main.qml:352
+#, fuzzy, kde-format
+#| msgid "%1 Window:"
+#| msgid_plural "%1 Windows:"
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 Jendela:"
+msgstr[1] "%1 Jendela:"
+
+#: qml/main.qml:364
+#, fuzzy, kde-format
+#| msgid "%1 Minimized Window:"
+#| msgid_plural "%1 Minimized Windows:"
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 Jendela Dimimalkan:"
+msgstr[1] "%1 Jendela Dimimalkan:"
+
+#: qml/main.qml:440
+#, fuzzy, kde-format
+#| msgid "Desktop %1"
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "Desktop %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "Ganti ke %1"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "Tampilkan Pengelola Aktivitas"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "Tambahkan Virtual Desktop"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Singkirkan Virtual Desktop"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&Konfigurasi Aktivitas..."
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Konfigurasi Virtual Desktop..."
+
+#~ msgid "Activate %1"
+#~ msgstr "Aktifkan %1"
+
+#~ msgid "Icons"
+#~ msgstr "Ikon"
+
+#~ msgid "Configure Desktops..."
+#~ msgstr "Konfigurasikan Desktop..."
+
+#~ msgid "Shows the dashboard"
+#~ msgstr "Tampilkan dasbor"
+
+#~ msgid "Display icons:"
+#~ msgstr "Tampilkan ikon:"
+
+#~ msgid "&Add Virtual Desktop"
+#~ msgstr "&Tambah Desktop Virtual"
+
+#~ msgid "&Remove Last Virtual Desktop"
+#~ msgstr "&Hapus Desktop Virtual Terakhir"
+
+#~ msgid "Configure Pager"
+#~ msgstr "Atur Pemisah"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Jumlah kolom:"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Jumlah baris:"
+
+#~ msgid "Change the number of rows"
+#~ msgstr "Ubah nomor baris"

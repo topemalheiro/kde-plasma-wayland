@@ -1,0 +1,1179 @@
+# translation of kcmkwinrules.po to Turkish
+# Görkem Çetin <gorkem@kde.org>, 2004.
+# Adil Yıldız <adil@linux-sevenler.org>, 2004.
+# Serdar Soytetir <tulliana@gmail.com>, 2008, 2012.
+# Onur Küçük <onur@pardus.org.tr>, 2010.
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2010, 2011.
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2015, 2017, 2021.
+# SPDX-FileCopyrightText: 2022-2026 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwinrules\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-22 00:45+0000\n"
+"PO-Revision-Date: 2026-05-14 13:06+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: kcmrules.cpp:228
+#, kde-format
+msgid "Copy of %1"
+msgstr "%1 kopyası"
+
+#: kcmrules.cpp:426
+#, kde-format
+msgid "Application settings for %1"
+msgstr "%1 uygulama ayarları"
+
+#: kcmrules.cpp:448 rulesmodel.cpp:222 rulesmodel.cpp:225
+#, kde-format
+msgid "Window settings for %1"
+msgstr "%1 pencere ayarları"
+
+#: optionsmodel.cpp:199 optionsmodel.cpp:204
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Unimportant"
+msgstr "Önemsiz"
+
+#: optionsmodel.cpp:200
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Exact match"
+msgstr "Tam eşleşme"
+
+#: optionsmodel.cpp:201
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Substring match"
+msgstr "Altdizi eşleşmesi"
+
+#: optionsmodel.cpp:202
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Regular expression"
+msgstr "Düzenli ifade"
+
+#: optionsmodel.cpp:205
+#, kde-format
+msgctxt "@item:inlistbox This is a noun"
+msgid "Match"
+msgstr "Eşleşme"
+
+#: optionsmodel.cpp:210
+#, kde-format
+msgid "Apply initially"
+msgstr "Başlangıçta uygula"
+
+#: optionsmodel.cpp:211
+#, kde-format
+msgid ""
+"The window property will be only set to the given value after the window is "
+"created.\n"
+"No further changes will be affected."
+msgstr ""
+"Pencere özelliği, verilen değere yalnızca pencere oluşturulduğunda "
+"ayarlanacak.\n"
+"Başka bir değişiklik bundan etkilenmeyecek."
+
+#: optionsmodel.cpp:214
+#, kde-format
+msgid "Apply now"
+msgstr "Şimdi uygula"
+
+#: optionsmodel.cpp:215
+#, kde-format
+msgid ""
+"The window property will be set to the given value immediately and will not "
+"be affected later\n"
+"(this action will be deleted afterwards)."
+msgstr ""
+"Pencere özelliği, verilen değere anında değiştirilecek ve daha sonra bundan "
+"etkilenmeyecek\n"
+"(bu eylem daha sonra silinecektir)."
+
+#: optionsmodel.cpp:218
+#, kde-format
+msgid "Remember"
+msgstr "Anımsa"
+
+#: optionsmodel.cpp:219
+#, kde-format
+msgid ""
+"The value of the window property will be remembered and, every time the "
+"window is created, the last remembered value will be applied."
+msgstr ""
+"Pencere özelliğinin değeri anımsanacak ve her pencere oluşturulduğunda son "
+"anımsanan değer uygulanacaktır."
+
+#: optionsmodel.cpp:222
+#, kde-format
+msgid "Do not affect"
+msgstr "Etkileme"
+
+#: optionsmodel.cpp:223
+#, kde-format
+msgid ""
+"The window property will not be affected and therefore the default handling "
+"for it will be used.\n"
+"Specifying this will block more generic window settings from taking effect."
+msgstr ""
+"Pencere özelliği etkilenmeyecek ve onun öntanımlı işlemesi kullanılacak.\n"
+"Bunu belirtmek, birçok genel pencere ayarının değişmesini engelleyecektir."
+
+#: optionsmodel.cpp:226
+#, kde-format
+msgid "Force"
+msgstr "Zorla"
+
+#: optionsmodel.cpp:227
+#, kde-format
+msgid "The window property will be always forced to the given value."
+msgstr "Pencere özelliği her zaman verilen değere zorlanacak."
+
+#: optionsmodel.cpp:229
+#, kde-format
+msgid "Force temporarily"
+msgstr "Geçici olarak zorla"
+
+#: optionsmodel.cpp:230
+#, kde-format
+msgid ""
+"The window property will be forced to the given value until it is hidden\n"
+"(this action will be deleted after the window is hidden)."
+msgstr ""
+"Pencere özelliği, gizlenene dek verilen değere zorlanacak\n"
+"(bu eylem, pencere gizlendikten sonra silinecektir)."
+
+#: rulesmodel.cpp:228
+#, kde-format
+msgid "Settings for %1"
+msgstr "%1 ayarları"
+
+#: rulesmodel.cpp:231
+#, kde-format
+msgid "New window settings"
+msgstr "Yeni pencere ayarları"
+
+#: rulesmodel.cpp:247
+#, kde-format
+msgid ""
+"You have specified the window class as unimportant.\n"
+"This means the settings will possibly apply to windows from all "
+"applications. If you really want to create a generic setting, it is "
+"recommended you at least limit the window types to avoid special window "
+"types."
+msgstr ""
+"Pencere sınıfını önemsiz olarak tanımladınız.\n"
+"Bu ayarlarınızın tüm uygulamalara uygulanacağı anlamına gelir. Genel bir "
+"ayar oluşturmayı gerçekten istiyorsanız en azından pencere türünü belirterek "
+"özel pencereleri korumanızı öneririz."
+
+#: rulesmodel.cpp:254
+#, kde-format
+msgid ""
+"Some applications set their own geometry after starting, overriding your "
+"initial settings for size and position. To enforce these settings, also "
+"force the property \"%1\" to \"Yes\"."
+msgstr ""
+"Bazı uygulamalar başlatıldıktan sonra kendi geometrilerini ayarlarlar ve "
+"boyut ve konum ayarlarınızı geçersiz kılarlar. Bu ayarları zorlamak için "
+"ayrıca “%1” özelliğini “Evet” olarak zorlayın."
+
+#: rulesmodel.cpp:261
+#, kde-format
+msgid ""
+"Readability may be impaired with extremely low opacity values. At 0%, the "
+"window becomes invisible."
+msgstr ""
+"Son derece düşük matlık değerlerinde okunabilirlik bozulabilir. %​0 olduğunda "
+"pencere görünmez hale gelir."
+
+#: rulesmodel.cpp:388
+#, kde-format
+msgid "Description"
+msgstr "Açıklama"
+
+#: rulesmodel.cpp:388 rulesmodel.cpp:396 rulesmodel.cpp:404 rulesmodel.cpp:411
+#: rulesmodel.cpp:417 rulesmodel.cpp:425 rulesmodel.cpp:430 rulesmodel.cpp:436
+#: rulesmodel.cpp:441 rulesmodel.cpp:447
+#, kde-format
+msgid "Window matching"
+msgstr "Pencere eşleştirme"
+
+#: rulesmodel.cpp:396
+#, kde-format
+msgid "Window class (application)"
+msgstr "Pencere sınıfı (uygulama)"
+
+#: rulesmodel.cpp:404
+#, kde-format
+msgid "Match whole window class"
+msgstr "Tam pencere sınıfını eşleştir"
+
+#: rulesmodel.cpp:411
+#, kde-format
+msgid "Whole window class"
+msgstr "Tam pencere sınıfını eşleştir"
+
+#: rulesmodel.cpp:417
+#, kde-format
+msgid "Window types"
+msgstr "Pencere türleri"
+
+#: rulesmodel.cpp:425
+#, kde-format
+msgid "Window role"
+msgstr "Pencere rolü"
+
+#: rulesmodel.cpp:430
+#, kde-format
+msgid "Window title"
+msgstr "Pencere başlığı"
+
+#: rulesmodel.cpp:436
+#, kde-format
+msgid "Machine (hostname)"
+msgstr "Makine (makine adı)"
+
+#: rulesmodel.cpp:441
+#, kde-format
+msgid "Window tag"
+msgstr "Pencere künyesi"
+
+#: rulesmodel.cpp:447
+#, kde-format
+msgid "Has parent window"
+msgstr "Üst penceresi var"
+
+#: rulesmodel.cpp:453
+#, kde-format
+msgid "Position"
+msgstr "Konum"
+
+#: rulesmodel.cpp:453 rulesmodel.cpp:459 rulesmodel.cpp:465 rulesmodel.cpp:470
+#: rulesmodel.cpp:478 rulesmodel.cpp:484 rulesmodel.cpp:503 rulesmodel.cpp:519
+#: rulesmodel.cpp:524 rulesmodel.cpp:529 rulesmodel.cpp:534 rulesmodel.cpp:541
+#: rulesmodel.cpp:555 rulesmodel.cpp:560 rulesmodel.cpp:565
+#, kde-format
+msgid "Size & Position"
+msgstr "Boyut ve Konum"
+
+#: rulesmodel.cpp:459
+#, kde-format
+msgid "Size"
+msgstr "Boyut"
+
+#: rulesmodel.cpp:465
+#, kde-format
+msgid "Maximized horizontally"
+msgstr "Ekranı yatay kaplamış"
+
+#: rulesmodel.cpp:470
+#, kde-format
+msgid "Maximized vertically"
+msgstr "Ekranı dikey kaplamış"
+
+#: rulesmodel.cpp:478
+#, kde-format
+msgid "Virtual desktop"
+msgstr "Sanal masaüstü"
+
+#: rulesmodel.cpp:484
+#, kde-format
+msgid "Virtual desktops"
+msgstr "Sanal masaüstleri"
+
+#: rulesmodel.cpp:503
+#, kde-format
+msgid "Activities"
+msgstr "Etkinlikler"
+
+#: rulesmodel.cpp:519
+#, kde-format
+msgid "Screen"
+msgstr "Ekran"
+
+#: rulesmodel.cpp:524 rulesmodel.cpp:940
+#, kde-format
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: rulesmodel.cpp:529
+#, kde-format
+msgid "Minimized"
+msgstr "Simge durumuna küçültülmüş"
+
+#: rulesmodel.cpp:534
+#, kde-format
+msgid "Initial placement"
+msgstr "Başlangıç yerleşimi"
+
+#: rulesmodel.cpp:541
+#, kde-format
+msgid "Ignore requested geometry"
+msgstr "İstenen geometriyi yok say"
+
+#: rulesmodel.cpp:544
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some applications can set their own geometry, overriding the window manager "
+"preferences. Setting this property overrides their placement requests.<nl/"
+"><nl/>This affects <interface>Size</interface> and <interface>Position</"
+"interface> but not <interface>Maximized</interface> or "
+"<interface>Fullscreen</interface> states.<nl/><nl/>Note that the position "
+"can also be used to map to a different <interface>Screen</interface>"
+msgstr ""
+"Bazı uygulamalar, pencere yöneticisinin tercihlerini geçersiz kılıp kendi "
+"geometrilerini ayarlayabilirler. Bu özelliği ayarlamak, onların yerleştirme "
+"isteklerini geçersiz kılar.<nl/><nl/>Bu, <interface>Boyut</interface> ve "
+"<interface>Konum</interface> özelliklerini etkiler; ancak <interface>Ekranı "
+"Kaplamış</interface> veya <interface>Tam Ekran</interface> durumlarını "
+"etkilemez.<nl/><nl/>Konumun, başka bir <interface>Ekran</interface>’ı "
+"eşlemlemek için kullanılabileceğini aklınızda bulundurun."
+
+#: rulesmodel.cpp:555
+#, kde-format
+msgid "Minimum Size"
+msgstr "En küçük boyut"
+
+#: rulesmodel.cpp:560
+#, kde-format
+msgid "Maximum Size"
+msgstr "En büyük boyut"
+
+#: rulesmodel.cpp:565
+#, kde-format
+msgid "Obey geometry restrictions"
+msgstr "Geometri kısıtlamalarına uy"
+
+#: rulesmodel.cpp:567
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some apps like video players or terminals can ask KWin to constrain them to "
+"certain aspect ratios or only grow by values larger than the dimensions of "
+"one character. Use this property to ignore such restrictions and allow those "
+"windows to be resized to arbitrary sizes.<nl/><nl/>This can be helpful for "
+"windows that can't quite fit the full screen area when maximized."
+msgstr ""
+"Video oynatıcılar veya uçbirimler gibi bazı uygulamalar, KWin’den bunları "
+"belirli en–boy oranlarıyla sınırlamasını veya yalnızca bir karakterin "
+"boyutlarından daha büyük değerlerle büyümesini isteyebilir. Bu tür "
+"kısıtlamaları yok saymak ve bu pencerelerin rastgele boyutlara getirilmesine "
+"izin vermek için bu özelliği kullanın.<nl/><nl/>Bu, ekranı kapladığında tam "
+"ekran alanına tam olarak sığamayan pencereler için yararlı olabilir."
+
+#: rulesmodel.cpp:578
+#, kde-format
+msgid "Keep above other windows"
+msgstr "Diğer pencerelerin üzerinde tut"
+
+#: rulesmodel.cpp:578 rulesmodel.cpp:583 rulesmodel.cpp:588 rulesmodel.cpp:594
+#: rulesmodel.cpp:600 rulesmodel.cpp:606
+#, kde-format
+msgid "Arrangement & Access"
+msgstr "Düzenleme ve Erişim"
+
+#: rulesmodel.cpp:583
+#, kde-format
+msgid "Keep below other windows"
+msgstr "Diğer pencerelerin altında tut"
+
+#: rulesmodel.cpp:588
+#, kde-format
+msgid "Skip taskbar"
+msgstr "Görev çubuğunu atla"
+
+#: rulesmodel.cpp:590
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the Task Manager."
+msgstr "Pencerenin Görev Yöneticisi’nde görünüp görünmeyeceğini denetler."
+
+#: rulesmodel.cpp:594
+#, kde-format
+msgid "Skip pager"
+msgstr "Sayfalayıcıyı atla"
+
+#: rulesmodel.cpp:596
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Controls whether or not the window appears in the Virtual Desktop manager."
+msgstr ""
+"Pencerenin Sanal Masaüstü yöneticisinde görünüp görünmeyeceğini denetler."
+
+#: rulesmodel.cpp:600
+#, kde-format
+msgid "Skip switcher"
+msgstr "Değiştiriciyi atla"
+
+#: rulesmodel.cpp:602
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Controls whether or not the window appears in the <shortcut>Alt+Tab</"
+"shortcut> window list."
+msgstr ""
+"Pencerenin <shortcut>Seçenek+Sekme</shortcut> pencere listesinde görünüp "
+"görünmeyeceğini denetler."
+
+#: rulesmodel.cpp:606
+#, kde-format
+msgid "Shortcut"
+msgstr "Kısayol"
+
+#: rulesmodel.cpp:612
+#, kde-format
+msgid "No titlebar and frame"
+msgstr "Başlık çubuğu ve çerçeve yok"
+
+#: rulesmodel.cpp:612 rulesmodel.cpp:617 rulesmodel.cpp:623 rulesmodel.cpp:628
+#: rulesmodel.cpp:634 rulesmodel.cpp:661 rulesmodel.cpp:689 rulesmodel.cpp:695
+#: rulesmodel.cpp:707 rulesmodel.cpp:712 rulesmodel.cpp:717 rulesmodel.cpp:722
+#: rulesmodel.cpp:728 rulesmodel.cpp:733 rulesmodel.cpp:738
+#, kde-format
+msgid "Appearance & Fixes"
+msgstr "Görünüş ve Düzeltmeler"
+
+#: rulesmodel.cpp:617
+#, kde-format
+msgid "Titlebar color scheme"
+msgstr "Başlık çubuğu renk şeması"
+
+#: rulesmodel.cpp:623
+#, kde-format
+msgid "Active opacity"
+msgstr "Etkin matlık"
+
+#: rulesmodel.cpp:628
+#, kde-format
+msgid "Inactive opacity"
+msgstr "Etkin olmayan matlık"
+
+#: rulesmodel.cpp:634
+#, kde-format
+msgid "Focus stealing prevention"
+msgstr "Odak çalmayı önleme"
+
+#: rulesmodel.cpp:636
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"KWin tries to prevent windows that were opened without direct user action "
+"from raising themselves and taking focus while you're currently interacting "
+"with another window. This property can be used to change the level of focus "
+"stealing prevention applied to individual windows and apps.<nl/><nl/>Here's "
+"what will happen to a window opened without your direct action at each level "
+"of focus stealing prevention:<nl/><list><item><emphasis strong='true'>None:</"
+"emphasis> The window will be raised and focused.</item><item><emphasis "
+"strong='true'>Low:</emphasis> Focus stealing prevention will be applied, but "
+"in the case of a situation KWin considers ambiguous, the window will be "
+"raised and focused.</item><item><emphasis strong='true'>Normal:</emphasis> "
+"Focus stealing prevention will be applied, but  in the case of a situation "
+"KWin considers ambiguous, the window will <emphasis>not</emphasis> be raised "
+"and focused.</item><item><emphasis strong='true'>High:</emphasis> The window "
+"will only be raised and focused if it belongs to the same app as the "
+"currently-focused window.</item><item><emphasis strong='true'>Extreme:</"
+"emphasis> The window will never be raised and focused.</item></list>"
+msgstr ""
+"KWin, doğrudan bir kullanıcı eylemi olmaksızın açılan pencerelerin "
+"kendilerini yükseltmesini ve siz başka bir pencereyle etkileşirken odağı "
+"almalarını önlemeye çalışır. Bireysel pencere ve uygulamalara uygulanan odak "
+"çalma korumasının düzeyini bu özelliği kullanarak değiştirebilirsiniz.<nl/"
+"><nl/>Odak çalmayı önlemenin değişik düzeylerinde, doğrudan bir eyleminiz "
+"olmaksızın açılan pencerelere ne olacağını burada görebilirsiniz:<nl/"
+"><list><item><emphasis strong='true'>Yok:</emphasis> Pencere yükseltilir ve "
+"odaklanılır.</item><item><emphasis strong='true'>Düşük:</emphasis> Odak "
+"çalmayı önleme uygulanır; ancak KWin’in belirsiz addettiği durumlarda "
+"pencere yükseltilir ve odaklanılır.</item><item><emphasis "
+"strong='true'>Normal:</emphasis> Odak çalmayı önleme uygulanır; ancak "
+"KWin’in belirsiz addettiği durumlarda pencere <emphasis>yükseltilmez ve "
+"odaklanılmaz</emphasis>.</item><item><emphasis strong='true'>Yüksek:</"
+"emphasis> Pencere yalnızca geçerli odaklı uygulamayla aynı uygulamaya aitse "
+"yükseltilir ve odaklanılır.</item><item><emphasis strong='true'>Çok Yüksek:</"
+"emphasis> Pencere hiçbir zaman yükseltilmez ve odaklanılmaz.</item></list>"
+
+#: rulesmodel.cpp:661
+#, kde-format
+msgid "Focus protection"
+msgstr "Odak koruması"
+
+#: rulesmodel.cpp:663
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This property controls the focus protection level of the currently active "
+"window. It is used to override the focus stealing prevention applied to new "
+"windows that are opened without your direct action.<nl/><nl/>Here's what "
+"happens to new windows that are opened without your direct action at each "
+"level of focus protection while the window with this property applied to it "
+"has focus:<nl/><list><item><emphasis strong='true'>None</emphasis>: Newly-"
+"opened windows always raise themselves and take focus.</item><item><emphasis "
+"strong='true'>Low:</emphasis> Focus stealing prevention will be applied to "
+"the newly-opened window, but in the case of a situation KWin considers "
+"ambiguous, the window will be raised and focused.</item><item><emphasis "
+"strong='true'>Normal:</emphasis> Focus stealing prevention will be applied "
+"to the newly-opened window, but in the case of a situation KWin considers "
+"ambiguous, the window will <emphasis>not</emphasis> be raised and focused.</"
+"item><item><emphasis strong='true'>High:</emphasis> Newly-opened windows "
+"will only raise themselves and take focus if they belongs to the same app as "
+"the currently-focused window.</item><item><emphasis strong='true'>Extreme:</"
+"emphasis> Newly-opened windows never raise themselves and take focus.</"
+"item></list>"
+msgstr ""
+"Bu özellik, geçerli etkin pencerenin odak koruması düzeyini denetler. Sizin "
+"doğrudan eyleminiz olmadan açılan yeni pencerelere uygulanan odak çalmayı "
+"önlemeyi geçersiz kılmak için kullanılır.<nl/><nl/>Odak korumanın her bir "
+"düzeyinde, bu özelliğin uygulandığı pencere odaktayken doğrudan eyleminiz "
+"olmadan açılan yeni pencerelere şunlar olur:<nl/><list><item><emphasis "
+"strong='true'>Yok</emphasis>: Yeni açılan pencereler her zaman kendilerini "
+"yükseltirler ve odağı alırlar.</item><item><emphasis strong='true'>Düşük:</"
+"emphasis> Yeni açılan pencereye odak korumayı önleme uygulanır; ancak "
+"KWin’in belirsiz addettiği bir durumda pencere yükseltilir ve odaklanılır.</"
+"item><item><emphasis strong='true'>Normal:</emphasis> Odak çalmayı önleme "
+"yeni açılan pencereye uygulanır; ancak KWin’in belirsiz addettiği durumlarda "
+"pencere <emphasis>yükseltilmez ve odaklanılmaz</emphasis>.</"
+"item><item><emphasis strong='true'>Yüksek:</emphasis> Yeni açılan pencere "
+"yalnızca geçerli odaklı uygulamayla aynı uygulamaya aitse yükseltilir ve "
+"odaklanılır.</item><item><emphasis strong='true'>Çok Yüksek:</emphasis> Yeni "
+"açılan pencere hiçbir zaman yükseltilmez ve odaklanılmaz.</item></list>"
+
+#: rulesmodel.cpp:689
+#, kde-format
+msgid "Accept focus"
+msgstr "Odağı kabul et"
+
+#: rulesmodel.cpp:691
+#, kde-format
+msgid "Controls whether or not the window becomes focused when clicked."
+msgstr "Pencerenin tıklandığında odağı alıp almayacağını denetler."
+
+#: rulesmodel.cpp:695
+#, kde-format
+msgid "Ignore global shortcuts"
+msgstr "Global kısayolları yok say"
+
+#: rulesmodel.cpp:697
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this property to prevent global keyboard shortcuts from working while "
+"the window is focused. This can be useful for apps like emulators or virtual "
+"machines that handle some of the same shortcuts themselves.<nl/><nl/>Note "
+"that you won't be able to <shortcut>Alt+Tab</shortcut> out of the window or "
+"use any other global shortcuts such as <shortcut>Alt+Space</shortcut> to "
+"activate KRunner."
+msgstr ""
+"Pencere odaklıyken global klavye kısayollarının çalışmasını önlemek için bu "
+"özelliği kullanın. Bu, öykünücüler ve sanal makineler gibi, aynı kısayolları "
+"kendileri de kullanan bazı uygulamalamar için yararlıdır.<nl/><nl/"
+"><shortcut>Seçenek+Sekme</shortcut> gibi pencere değiştirme kısayolunu veya "
+"<shortcut>Seçenek+Boşluk</shortcut> gibi K Çalıştır kısayollarını "
+"kullanamayacağınızı aklınızda bulundurun."
+
+#: rulesmodel.cpp:707
+#, kde-format
+msgid "Closeable"
+msgstr "Kapatılabilir"
+
+#: rulesmodel.cpp:712
+#, kde-format
+msgid "Desktop file name"
+msgstr "Masaüstü dosya adı"
+
+#: rulesmodel.cpp:717
+#, kde-format
+msgid "Block compositing"
+msgstr "Bileşikleştirmeyi engelle"
+
+#: rulesmodel.cpp:722
+#, kde-format
+msgid "Layer"
+msgstr "Katman"
+
+#: rulesmodel.cpp:728
+#, kde-format
+msgid "Adaptive sync"
+msgstr "Uyarlanır eşzamanlama"
+
+#: rulesmodel.cpp:733
+#, kde-format
+msgid "Allow tearing"
+msgstr "Yırtılmaya izin ver"
+
+#: rulesmodel.cpp:738
+#, kde-format
+msgid "Hide from screenshots and screen recordings"
+msgstr "Ekran görüntülerinden ve kayıtlarından gizle"
+
+#: rulesmodel.cpp:791
+#, kde-format
+msgid "Window class not available"
+msgstr "Pencere sınıfı kullanılabilir değil"
+
+#: rulesmodel.cpp:792
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not providing a class for the window, so KWin cannot use "
+"it to match and apply any rules. If you still want to apply some rules to "
+"it, try to match other properties like the window title instead.<nl/><nl/"
+">Please consider reporting this bug to the application's developers."
+msgstr ""
+"Bu uygulama, pencere için bir sınıf sağlamıyor, dolayısıyla KWin onu "
+"herhangi bir kuralı eşleştirmek ve uygulamak için kullanamaz. Hâlâ ona bazı "
+"kurallar uygulamak istiyorsanız, bunun yerine pencere başlığı gibi diğer "
+"özellikleri eşleştirmeyi deneyin.<nl/><nl/>Lütfen bu hatayı uygulamanın "
+"geliştiricilerine bildirmeyi düşünün."
+
+#: rulesmodel.cpp:826
+#, kde-format
+msgid "All window types"
+msgstr "Tüm pencere türleri"
+
+#: rulesmodel.cpp:827
+#, kde-format
+msgid "Normal window"
+msgstr "Normal pencere"
+
+#: rulesmodel.cpp:828
+#, kde-format
+msgid "Dialog window"
+msgstr "İletişim kutusu"
+
+#: rulesmodel.cpp:829
+#, kde-format
+msgid "Utility window"
+msgstr "İzlence penceresi"
+
+#: rulesmodel.cpp:830
+#, kde-format
+msgid "Dock (panel)"
+msgstr "Panel"
+
+#: rulesmodel.cpp:831
+#, kde-format
+msgid "Toolbar"
+msgstr "Araç Çubuğu"
+
+#: rulesmodel.cpp:832
+#, kde-format
+msgid "Torn-off menu"
+msgstr "Ayrılmış menü"
+
+#: rulesmodel.cpp:833
+#, kde-format
+msgid "Splash screen"
+msgstr "Açılış ekranı"
+
+#: rulesmodel.cpp:834 rulesmodel.cpp:935
+#, kde-format
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#. i18n("Unmanaged Window")},  deprecated
+#: rulesmodel.cpp:836
+#, kde-format
+msgid "Standalone menubar"
+msgstr "Bağımsız menü çubuğu"
+
+#: rulesmodel.cpp:837 rulesmodel.cpp:943
+#, kde-format
+msgid "On-screen display"
+msgstr "Ekran üzeri görüntü"
+
+#: rulesmodel.cpp:847
+#, kde-format
+msgid "All desktops"
+msgstr "Tüm masaüstleri"
+
+#: rulesmodel.cpp:849
+#, kde-format
+msgctxt "@info:tooltip in the virtual desktop list"
+msgid "Make the window available on all desktops"
+msgstr "Pencereyi tüm masaüstlerinde kullanılabilir yap"
+
+#: rulesmodel.cpp:868
+#, kde-format
+msgid "All activities"
+msgstr "Tüm etkinlikler"
+
+#: rulesmodel.cpp:870
+#, kde-format
+msgctxt "@info:tooltip in the activity list"
+msgid "Make the window available on all activities"
+msgstr "Pencereyi tüm etkinliklerde kullanılabilir yap"
+
+#: rulesmodel.cpp:891
+#, kde-format
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: rulesmodel.cpp:892
+#, kde-format
+msgid "No placement"
+msgstr "Yerleştirme yok"
+
+#: rulesmodel.cpp:893
+#, kde-format
+msgid "Minimal overlapping"
+msgstr "En az çakışan"
+
+#: rulesmodel.cpp:894
+#, kde-format
+msgid "Maximized"
+msgstr "Ekranı kaplamış"
+
+#: rulesmodel.cpp:895
+#, kde-format
+msgid "Centered"
+msgstr "Ortalanmış"
+
+#: rulesmodel.cpp:896
+#, kde-format
+msgid "Random"
+msgstr "Rastgele"
+
+#: rulesmodel.cpp:897
+#, kde-format
+msgid "In top-left corner"
+msgstr "Sol üst köşede"
+
+#: rulesmodel.cpp:898
+#, kde-format
+msgid "Under mouse"
+msgstr "Farenin altında"
+
+#: rulesmodel.cpp:899
+#, kde-format
+msgid "On main window"
+msgstr "Ana pencerede"
+
+#: rulesmodel.cpp:906
+#, kde-format
+msgid "None"
+msgstr "Yok"
+
+#: rulesmodel.cpp:907
+#, kde-format
+msgid "Low"
+msgstr "Düşük"
+
+#: rulesmodel.cpp:908 rulesmodel.cpp:937
+#, kde-format
+msgid "Normal"
+msgstr "Normal"
+
+#: rulesmodel.cpp:909
+#, kde-format
+msgid "High"
+msgstr "Yüksek"
+
+#: rulesmodel.cpp:910
+#, kde-format
+msgid "Extreme"
+msgstr "Çok Yüksek"
+
+#: rulesmodel.cpp:936
+#, kde-format
+msgid "Below"
+msgstr "Altında"
+
+#: rulesmodel.cpp:938
+#, kde-format
+msgid "Above"
+msgstr "Üstünde"
+
+#: rulesmodel.cpp:939
+#, kde-format
+msgid "Notification"
+msgstr "Bildirim"
+
+#: rulesmodel.cpp:941
+#, kde-format
+msgid "Popup"
+msgstr "Açılır Pencere"
+
+#: rulesmodel.cpp:942
+#, kde-format
+msgid "Critical notification"
+msgstr "Kritik bildirim"
+
+#: rulesmodel.cpp:944
+#, kde-format
+msgid "Overlay"
+msgstr "Kaplama"
+
+#: rulesmodel.cpp:969
+#, kde-format
+msgid "Unmanaged window"
+msgstr "Yönetilmeyen pencere"
+
+#: rulesmodel.cpp:970
+#, kde-format
+msgid "Could not detect window properties. The window is not managed by KWin."
+msgstr ""
+"Pencere özellikleri algılanamadı. Bu pencere KWin tarafından yönetilmiyor."
+
+#: ui/FileDialogLoader.qml:15
+#, kde-format
+msgid "Select File"
+msgstr "Dosya Seç"
+
+#: ui/FileDialogLoader.qml:27
+#, kde-format
+msgid "KWin Rules (*.kwinrule)"
+msgstr "KWin kuralları (*.kwinrule)"
+
+#: ui/main.qml:28
+#, kde-format
+msgid "Add New…"
+msgstr "Yeni Ekle…"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Import…"
+msgstr "İçe Aktar…"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Cancel Export"
+msgstr "Dışa Aktarmayı İptal Et"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Export…"
+msgstr "Dışa Aktar…"
+
+#: ui/main.qml:88
+#, kde-format
+msgid "No rules for specific windows are currently set"
+msgstr "Şu anda belirli pencereler için hiçbir kural ayarlanmadı"
+
+#: ui/main.qml:89
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click <interface>Add New…</interface> to add some"
+msgstr ""
+"Birkaç tane eklemek için aşağıdaki <interface>Yeni Ekle…</interface> "
+"düğmesine tıklayın"
+
+#: ui/main.qml:97
+#, kde-format
+msgid "Select the rules to export"
+msgstr "Dışa aktarılacak kuralları seçin"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Unselect All"
+msgstr "Tümünün Seçimini Kaldır"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: ui/main.qml:115
+#, kde-format
+msgid "Save Rules"
+msgstr "Kuralları Kaydet"
+
+#: ui/main.qml:202
+#, kde-format
+msgid "Edit"
+msgstr "Düzenle"
+
+#: ui/main.qml:208
+#, kde-format
+msgid "Duplicate"
+msgstr "Çoğalt"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Delete"
+msgstr "Sil"
+
+#: ui/main.qml:246
+#, kde-format
+msgid "Import Rules"
+msgstr "Kurallar İçe Aktar"
+
+#: ui/main.qml:258
+#, kde-format
+msgid "Export Rules"
+msgstr "Kuralları Dışa Aktar"
+
+#: ui/OptionsComboBox.qml:35
+#, kde-format
+msgid "None selected"
+msgstr "Seçili yok"
+
+#: ui/OptionsComboBox.qml:41
+#, kde-format
+msgid "All selected"
+msgstr "Tümü seçildi"
+
+#: ui/OptionsComboBox.qml:43
+#, kde-format
+msgid "%1 selected"
+msgid_plural "%1 selected"
+msgstr[0] "%1 seçili"
+msgstr[1] "%1 seçili"
+
+#: ui/RulesEditor.qml:66
+#, kde-format
+msgid "No window properties changed"
+msgstr "Pencere özellikleri değiştirilmedi"
+
+#: ui/RulesEditor.qml:67
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Click the <interface>Add Property...</interface> button below to add some "
+"window properties that will be affected by the rule"
+msgstr ""
+"Kuraldan etkilenecek pencere özellikleri eklemek için aşağıda "
+"<interface>Özellik Ekle…</interface> düğmesine tıklayın"
+
+#: ui/RulesEditor.qml:88
+#, kde-format
+msgid "Add Property..."
+msgstr "Özellik Ekle…"
+
+#: ui/RulesEditor.qml:99
+#, kde-format
+msgid "Detect Window Properties"
+msgstr "Pencere Özelliklerini Algıla"
+
+#: ui/RulesEditor.qml:115 ui/RulesEditor.qml:126
+#, kde-format
+msgid "Instantly"
+msgstr "Anında"
+
+#: ui/RulesEditor.qml:116 ui/RulesEditor.qml:131
+#, kde-format
+msgid "After %1 second"
+msgid_plural "After %1 seconds"
+msgstr[0] "%1 saniye sonra"
+msgstr[1] "%1 saniye sonra"
+
+#: ui/RulesEditor.qml:178
+#, kde-format
+msgid "Add property to the rule"
+msgstr "Kurala özellik ekle"
+
+#: ui/RulesEditor.qml:271
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No properties left to add"
+msgstr "Eklenecek özellik kalmadı"
+
+#: ui/RulesEditor.qml:273
+#, kde-format
+msgctxt "@info:placeholder %1 is a filter text introduced by the user"
+msgid "No properties match \"%1\""
+msgstr "“%1” ile eşleşen özellik yok"
+
+#: ui/RulesEditor.qml:294 ui/ValueEditor.qml:54
+#, kde-format
+msgid "Yes"
+msgstr "Evet"
+
+#: ui/RulesEditor.qml:294 ui/ValueEditor.qml:60
+#, kde-format
+msgid "No"
+msgstr "Hayır"
+
+#: ui/RulesEditor.qml:296 ui/ValueEditor.qml:168 ui/ValueEditor.qml:175
+#, kde-format
+msgid "%1 %"
+msgstr "%​%1"
+
+#: ui/RulesEditor.qml:298
+#, kde-format
+msgctxt "Coordinates (x, y)"
+msgid "(%1, %2)"
+msgstr "(%1, %2)"
+
+#: ui/RulesEditor.qml:300
+#, kde-format
+msgctxt "Size (width, height)"
+msgid "(%1, %2)"
+msgstr "(%1, %2)"
+
+#: ui/ValueEditor.qml:203
+#, kde-format
+msgctxt "(x, y) coordinates separator in size/position"
+msgid "x"
+msgstr "x"
+
+#~ msgid "Hide from Screencast"
+#~ msgstr "Ekran Yayınından Gizle"
+
+#~ msgid "Shaded"
+#~ msgstr "Panjuru kapatılmış"
+
+#~ msgid "OSD"
+#~ msgstr "Ekran Üzeri Görüntü"
+
+#~ msgid "Close"
+#~ msgstr "Kapat"
+
+#~ msgid "Set window type"
+#~ msgstr "Pencere türünü ayarla"
+
+#~ msgid "Window shall (not) appear in the taskbar."
+#~ msgstr "Pencereler sanal masaüstleri için görev çubuğunda görül(me)meli."
+
+#~ msgid "Window shall (not) appear in the manager for virtual desktops"
+#~ msgstr "Pencereler sanal masaüstleri için yönetici içerisinde görül(me)meli"
+
+#~ msgid "Window shall (not) appear in the Alt+Tab list"
+#~ msgstr ""
+#~ "Pencereler sanal masaüstleri için Seçenek+Sekme listesinde görül(me)meli"
+
+#~| msgid ""
+#~| "KWin tries to prevent windows from taking the focus\n"
+#~| "(\"activate\") while you're working in another window,\n"
+#~| "but this may sometimes fail or superact.\n"
+#~| "\"None\" will unconditionally allow this window to get the focus while\n"
+#~| "\"Extreme\" will completely prevent it from taking the focus."
+#~ msgid ""
+#~ "KWin tries to prevent windows from taking the focus (\"activate\") while "
+#~ "you're working in another window, but this may sometimes fail or "
+#~ "superact. \"None\" will unconditionally allow this window to get the "
+#~ "focus while \"Extreme\" will completely prevent it from taking the focus."
+#~ msgstr ""
+#~ "KWin, siz başka bir pencerede çalışırken pencerelerin odağı almasını "
+#~ "(etkinleştirilmesini) önler; ancak bu bazı durumlarda başarısız olabilir "
+#~ "veya aşırı tepki gösterebilir. \"Yok\" şartsız olarak bu pencerenin odağı "
+#~ "almasına izin verirken \"Çok Yüksek\" tamamen odağı almasını önleyecektir."
+
+#~| msgid ""
+#~| "This controls the focus protection of the currently active window.\n"
+#~| "None will always give the focus away,\n"
+#~| "Extreme will keep it.\n"
+#~| "Otherwise it's interleaved with the stealing prevention\n"
+#~| "assigned to the window that wants the focus."
+#~ msgid ""
+#~ "This controls the focus protection of the currently active window. None "
+#~ "will always give the focus away, Extreme will keep it. Otherwise it's "
+#~ "interleaved with the stealing prevention assigned to the window that "
+#~ "wants the focus."
+#~ msgstr ""
+#~ "Bu, şu anda etkin olan pencerenin odak korumasını denetler. Yok, odağı "
+#~ "hep bırakır, Çok Yüksek korur. Aksi halde, odağı isteyen pencereye "
+#~ "atandığında çalınmasını önler."
+
+#~| msgid ""
+#~| "Windows may prevent to get the focus (activate) when being clicked.\n"
+#~| "On the other hand you might wish to prevent a window\n"
+#~| "from getting focused on a mouse click."
+#~ msgid ""
+#~ "Windows may prevent to get the focus (activate) when being clicked. On "
+#~ "the other hand you might wish to prevent a window from getting focused on "
+#~ "a mouse click."
+#~ msgstr ""
+#~ "Pencereler tıklandığında odağı almayı (etkinleştirilmeyi) önleyebilir. "
+#~ "Diğer bir yandan bir pencereye fare tıklaması ile odaklanılmasını önlemek "
+#~ "isteyebilirsiniz."
+
+#~| msgid ""
+#~| "When used, a window will receive\n"
+#~| "all keyboard inputs while it is active, including Alt+Tab etc.\n"
+#~| "This is especially interesting for emulators or virtual machines.\n"
+#~| "\n"
+#~| "Be warned:\n"
+#~| "you won't be able to Alt+Tab out of the window\n"
+#~| "nor use any other global shortcut (such as Alt+F2 to show KRunner)\n"
+#~| "while it's active!"
+#~ msgid ""
+#~ "When used, a window will receive all keyboard inputs while it is active, "
+#~ "including Alt+Tab etc. This is especially interesting for emulators or "
+#~ "virtual machines. \n"
+#~ "Be warned: you won't be able to Alt+Tab out of the window nor use any "
+#~ "other global shortcut (such as Alt+F2 to show KRunner) while it's active!"
+#~ msgstr ""
+#~ "Kullanıldığında, bir pencere etkin olduğunda tüm klavye girişlerini "
+#~ "(Seçenek+Sekme vb. de dahil) alacaktır. Bu özellikle öykünücü ve sanal "
+#~ "makineler için ilginçtir.\n"
+#~ "Uyarı: Bir pencere etkinken dışına çıkmak için Seçenek+Sekme ve herhangi "
+#~ "bir evrensel kısayolu (K Çalıştır'ı göstermek için Seçenek+F2 gibi) "
+#~ "kullanamayacaksınız!"
+
+#~ msgid ""
+#~ "Windows can ask to appear in a certain position.\n"
+#~ "By default this overrides the placement strategy\n"
+#~ "what might be nasty if the client abuses the feature\n"
+#~ "to unconditionally popup in the middle of your screen."
+#~ msgstr ""
+#~ "Pencereler özel bir konumda görünmek isteyebilirler.\n"
+#~ "Öntanımlı olarak bu yerleştirme stratejisini yok sayar\n"
+#~ "ve bu durumda bir istemci özelliği istismar ederek ekranın\n"
+#~ "ortasında koşulsuz olarak çıkması kötü olabilir."
+
+#~ msgid "KWinRules KCM launcher"
+#~ msgstr "KWinRules KCM çalıştırıcısı"
+
+#~ msgid "KWin id of the window for special window settings."
+#~ msgstr "Özel pencere ayarları için KWin pencere kimliği.."
+
+#~ msgid "Whether the settings should affect all windows of the application."
+#~ msgstr ""
+#~ "Uygulamanın tüm pencerelerinin pencere ayarları tarafından etkilenip "
+#~ "etkilenmeyeceği."
+
+#~ msgid "This helper utility is not supposed to be called directly."
+#~ msgstr "Bu yardım uygulaması doğrudan çağrılamaz."
+
+#~ msgctxt "Window caption for the application wide rules dialog"
+#~ msgid "Edit Application-Specific Settings"
+#~ msgstr "Uygulamaya Özel Ayarları Yapılandır"
+
+#~ msgid "Edit Window-Specific Settings"
+#~ msgstr "Pencereye Özel Ayarlarını Yapılandır"
+
+#~ msgid ""
+#~ "<p><h1>Window-specific Settings</h1> Here you can customize window "
+#~ "settings specifically only for some windows.</p> <p>Please note that this "
+#~ "configuration will not take effect if you do not use KWin as your window "
+#~ "manager. If you do use a different window manager, please refer to its "
+#~ "documentation for how to customize window behavior.</p>"
+#~ msgstr ""
+#~ "<p><h1>Pencere Özel Ayarları</h1> Buradan yalnızca bazı pencereler için "
+#~ "özel pencere ayarları belirtebilirsiniz.</p> <p>Pencere yönetici olarak "
+#~ "KWin'i kullanmıyorsanız bu yapılandırmalar işe yaramayacaktır. Başka bir "
+#~ "pencere yöneticisi kullanıyorsanız pencere davranışlarını değiştirmek "
+#~ "için lütfen yardım belgelerine bakın.</p>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Adil Yıldız, Volkan Gezer, Emir SARI"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "adil@kde.org.tr, volkangezer@gmail.com, emir_sari@icloud.com"
+
+#~ msgid "Window Rules"
+#~ msgstr "Pencere Kuralları"
+
+#~ msgid "Ismael Asensio"
+#~ msgstr "Ismael Asensio"
+
+#~ msgid "Author"
+#~ msgstr "Yazar"
+
+#~ msgid "Error"
+#~ msgstr "Hata"
+
+#~ msgid "Cascaded"
+#~ msgstr "Basamaklanmış"

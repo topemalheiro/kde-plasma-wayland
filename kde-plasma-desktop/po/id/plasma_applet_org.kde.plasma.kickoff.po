@@ -1,0 +1,567 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Lorenz Adam Damara <lorenzrenz@gmail.com>, 2018.
+# SPDX-FileCopyrightText: 2018, 2019, 2021, 2022, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+# Linerly <linerly@protonmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2025-03-15 06:51+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Hapus dari Favorit"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Tambahkan ke Favorit"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Di Semua Activities"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Di Aktivitas Saat Ini"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Tampilkan di Favorit"
+
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Umum"
+
+#: ConfigGeneral.qml:47
+#, fuzzy, kde-format
+#| msgid "Icon:"
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Ubah ikon Peluncur Aplikasi"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Ikon saat ini adalah %1. Klik untuk membuka menu untuk mengubah ikon saat "
+"ini atau mengatur ulang ke ikon bawaan."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Nama ikon adalah \"%1\""
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Pilih..."
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Pilih ikon untuk Peluncur Aplikasi"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Atur ulang ke ikon bawaan"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Hapus ikon"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Label teks:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Ketik di sini untuk menambahkan sebuah label teks"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Atur ulang label menu"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "Teks tidak dapat ditetapkan ketika Panel berada di posisi vertikal."
+
+#: ConfigGeneral.qml:157
+#, fuzzy, kde-format
+#| msgid "Show applications as:"
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Tampilkan aplikasi sebagai:"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name only"
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Hanya nama"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description only"
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Hanya deskripsi"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name (Description)"
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Nama (deskripsi)"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Deskripsi (nama)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Umum:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Urutkan aplikasi secara alfabet"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Ini tidak memengaruhi cara aplikasi diurutkan dalam hasil pencarian atau "
+"halaman favorit."
+
+#: ConfigGeneral.qml:181
+#, fuzzy, kde-format
+#| msgid "Use compact list item style"
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "Gunakan gaya item daftar kecil"
+
+#: ConfigGeneral.qml:187
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Tampilkan aplikasi lainnya:"
+
+#: ConfigGeneral.qml:192
+#, fuzzy, kde-format
+#| msgid "Switch sidebar categories when hovering over them"
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Alihkan kategori bilah sisi ketika melintasi di atasnya"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Konfigurasi Plugin Pencarian..."
+
+#: ConfigGeneral.qml:208
+#, fuzzy, kde-format
+#| msgid "Sidebar position:"
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Posisi bilah sisi:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Right"
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Kanan"
+
+#: ConfigGeneral.qml:209
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Kiri"
+
+#: ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Kiri"
+
+#: ConfigGeneral.qml:225
+#, fuzzy, kde-format
+#| msgid "Show favorites:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Tampilkan favorit:"
+
+#: ConfigGeneral.qml:226
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "Dalam sebuah kisi"
+
+#: ConfigGeneral.qml:234
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "Dalam sebuah daftar"
+
+#: ConfigGeneral.qml:242
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Tampilkan aplikasi lainnya:"
+
+#: ConfigGeneral.qml:243
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "Dalam sebuah kisi"
+
+#: ConfigGeneral.qml:251
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "Dalam sebuah daftar"
+
+#: ConfigGeneral.qml:263
+#, fuzzy, kde-format
+#| msgid "Show buttons for:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Tampilkan tombol untuk:"
+
+#: ConfigGeneral.qml:264
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Daya"
+
+#: ConfigGeneral.qml:273
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Sesi"
+
+#: ConfigGeneral.qml:282
+#, fuzzy, kde-format
+#| msgid "Power and session"
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Daya dan sesi"
+
+#: ConfigGeneral.qml:291
+#, fuzzy, kde-format
+#| msgid "Show action button captions"
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "Tampilkan bab tombol aksi"
+
+#: Footer.qml:101
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: Footer.qml:117
+#, fuzzy, kde-format
+#| msgid "Places"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Tempat"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Tidak ada yang cocok"
+
+#: Header.qml:86
+#, fuzzy, kde-format
+#| msgid "Open user settings"
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "Buka pengaturan pengguna"
+
+#: Header.qml:276
+#, fuzzy, kde-format
+#| msgid "Keep Open"
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Tetap Buka"
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffGridDelegate.qml:61
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Tampilkan aplikasi lainnya:"
+
+#: KickoffGridView.qml:105
+#, fuzzy, kde-format
+#| msgid "Grid with %1 rows, %2 columns"
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Kisikan dengan %1 baris, %2 kolom"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffListDelegate.qml:125
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgid "There is a newly-installed application in this category"
+msgstr "Tampilkan aplikasi lainnya:"
+
+#: KickoffListDelegate.qml:126
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgid "Newly-installed application"
+msgstr "Tampilkan aplikasi lainnya:"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Sesi"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Daya"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "More"
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Selebihnya"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr ""
+
+#: main.qml:358
+#, fuzzy, kde-format
+#| msgid "Edit Applications…"
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Edit Aplikasi..."
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Komputer"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Histori"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Sering Digunakan"
+
+#, fuzzy
+#~| msgid "Show other applications:"
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Tampilkan aplikasi lainnya:"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "Otomatis dinonaktifkan ketika di Mode Sentuh"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a grid'"
+#~ msgid "In a grid"
+#~ msgstr "Dalam sebuah kisi"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a list'"
+#~ msgid "In a list"
+#~ msgstr "Dalam sebuah daftar"
+
+#~ msgid "Leave"
+#~ msgstr "Tinggalkan"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Bersihkan Ikon"
+
+#, fuzzy
+#~| msgid "Search..."
+#~ msgid "Search…"
+#~ msgstr "Cari..."
+
+#~ msgid "Primary actions:"
+#~ msgstr "Aksi primer:"
+
+#, fuzzy
+#~| msgid "Leave"
+#~ msgid "Leave…"
+#~ msgstr "Tinggalkan"
+
+#, fuzzy
+#~| msgid "Power"
+#~ msgid "Power…"
+#~ msgstr "Daya"
+
+#, fuzzy
+#~| msgid "More"
+#~ msgid "More…"
+#~ msgstr "Selebihnya"
+
+#, fuzzy
+#~| msgid "Edit Applications..."
+#~ msgid "Updating applications…"
+#~ msgstr "Ubah Aplikasi..."
+
+#~ msgid "Allow labels to have two lines"
+#~ msgstr "Izinkan label untuk memiliki dua baris"
+
+#~ msgid "%2@%3 (%1)"
+#~ msgstr "%2@%3 (%1)"
+
+#~ msgid "%1@%2"
+#~ msgstr "%1@%2"
+
+#~ msgid "List with 1 item"
+#~ msgid_plural "List with %1 items"
+#~ msgstr[0] "Daftarkan dengan 1 item"
+#~ msgstr[1] "Daftarkan dengan %1 item"
+
+#~ msgid "%1 submenu"
+#~ msgstr "%1 submenu"
+
+#~ msgid "Leave..."
+#~ msgstr "Tinggalkan..."
+
+#~ msgid "Power..."
+#~ msgstr "Daya..."
+
+#~ msgid "More..."
+#~ msgstr "Selebihnya..."
+
+#~ msgid "Applications updated."
+#~ msgstr "Aplikasi diperbarui."
+
+#~ msgid "Switch tabs on hover"
+#~ msgstr "Beralih tab pada saat kursor melayang diatasnya"
+
+#~ msgid "All Applications"
+#~ msgstr "Semua Aplikasi"
+
+#~ msgid "Favorites"
+#~ msgstr "Favorit"
+
+#~ msgid "Often Used"
+#~ msgstr "Sering Digunakan"
+
+#~ msgid "Active Tabs"
+#~ msgstr "Tab-tab Aktif"
+
+#~ msgid "Inactive Tabs"
+#~ msgstr "Tab-tab Takaktif"
+
+#~ msgid ""
+#~ "Drag tabs between the boxes to show/hide them, or reorder the visible "
+#~ "tabs by dragging."
+#~ msgstr ""
+#~ "Seret tab diantara kotak untuk menampilkan/menyembunyikan nya, atau "
+#~ "urutkan kembali tab yang terlihat dengan menyeretnya."
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Perluas pencarian untuk markah, berkas dan surel"
+
+#~ msgid "Appearance"
+#~ msgstr "Tampilan"
+
+#~ msgid "Menu Buttons"
+#~ msgstr "Tombol Menu"
+
+#~ msgid "Visible Tabs"
+#~ msgstr "Tab yang Terlihat"

@@ -1,0 +1,558 @@
+# Uyghur translation for plasma_applet_notifications.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_notifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2026-02-09 18:16-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "جاۋاب قايتۇر"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "ئۇلانما ئادرېسىنى كۆچۈر"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "كۆچۈر"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "ھەممىنى تاللا"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "ھازىر"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "‏%1‎‏ مىنۇت ئىلگىرى"
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 سېكۇنت قالدى"
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 مىنۇت قالدى"
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 سائەت قالدى"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "سەپلە"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "ئەسلىگە كەلتۈر"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "كىچىكلەت"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "ياپ"
+
+#: components/JobDetails.qml:37
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 / %1"
+
+#: components/JobDetails.qml:122
+#, fuzzy, kde-format
+#| msgctxt "How many files have been copied"
+#| msgid "%2 of %1 file"
+#| msgid_plural "%2 of %1 files"
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%2 / %1 ھۆججەت"
+
+#: components/JobDetails.qml:125
+#, fuzzy, kde-format
+#| msgctxt "How many dirs have been copied"
+#| msgid "%2 of %1 folder"
+#| msgid_plural "%2 of %1 folders"
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%2 / %1 قىسقۇچ"
+
+#: components/JobDetails.qml:128
+#, fuzzy, kde-format
+#| msgctxt "How many items (that includes files and dirs) have been copied"
+#| msgid "%2 of %1 item"
+#| msgid_plural "%2 of %1 items"
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%2 / %1 تۈر"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 ھۆججەت"
+
+#: components/JobDetails.qml:139
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 قىسقۇچ"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 تۈر"
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "تەپسىلاتى"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "داۋاملاشتۇر"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "ۋاقىتلىق توختا"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "ۋاز كەچ"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr "تېخىمۇ كۆپ تاللانما…"
+
+#: components/JobItem.qml:153
+#, kde-format
+msgid "Open"
+msgstr "ئاچ"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "ئىچىدىكى قىسقۇچنى ئاچ"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "جاۋاب كىرگۈزۈلىدۇ…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "يوللا"
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr "سۈرئىتى"
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr "ئوتتۇرىچە سۈرئىتى"
+
+#: components/SpeedChart.qml:264
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1%"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (ۋاقىتلىق توختىدى)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (مەغلۇپ بولدى)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "ۋەزىپە مەغلۇپ بولدى"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (تاماملاندى)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "ۋەزىپە تاماملاندى"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr "%1 غا ئاچقۇز"
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr "ئاچقۇز…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "كۆچۈر(&C)"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "ئورنىنى كۆچۈر"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "خاسلىق"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "دەخلى قىلماڭ"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "1 سائەت"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "4 سائەت"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "بۈگۈن كېچىگىچە"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "ئەتە ئەتىگەنگىچە"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "دۈشەنبىگىچە"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "قولدا چەكلىگۈچە"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "ئۆزلۈكىدىن ئاخىرلاشتۇرىدۇ: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "%1 ئاكتىپ ھالەتتە (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "%1 ئاكتىپ ھالەتتە"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "ئېكران تەتۈر"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "پۈتۈن ئېكران ئەپ فوكۇسلاندى"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "كۆرسەت"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "گۇرۇپپا ياپ"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "ئازراق كۆرسەت"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "يەنە %1 نى كۆرسەت"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "ئوقۇلمىغان ئۇقتۇرۇش يوق"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "ئۇقتۇرۇش مۇلازىمىتىنى ئىشلەتكىلى بولمايدۇ"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "ئۇقتۇرۇشنى تەمىنلىگۈچى «%1 %2»"
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "دەخلى قىلماڭ ھالىتىنى ئالماشتۇر"
+
+#: globalshortcuts.cpp:33
+#, fuzzy, kde-format
+#| msgid "Clear All Notifications"
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "بارلىق ئۇقتۇرۇشنى تازىلا"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "ئۇقتۇرۇش تاقاق"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "ئۇقتۇرۇش ئوچۇق"
+
+#: globalshortcuts.cpp:68
+#, fuzzy, kde-format
+#| msgctxt "OSD popup, keep short"
+#| msgid "Notifications On"
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "ئۇقتۇرۇش ئوچۇق"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 ئىجرا بولۇۋاتقان ۋەزىپە"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 ئىجرا بولۇۋاتقان ۋەزىپە (%2%)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 ئوقۇلمىغان ئۇقتۇرۇش"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 ئاكتىپ ئۇقتۇرۇش"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "%1 غىچە دەخلى قىلماڭ؛ دەرھال چېكىنىشتە ئوتتۇرا توپچە چېكىلىدۇ"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "دەخلى قىلماڭ ھالىتى ئاكتىپ؛ چېكىنىشتە ئوتتۇرا توپچە چېكىلىدۇ"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr "دەخلى قىلماڭ ھالىتىگە كىرىشتە ئوتتۇرا توپچە چېكىلىدۇ"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "بارلىق ئۇقتۇرۇشنى تازىلا"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "پائالىيەت ئۇقتۇرۇشى ۋە مەشغۇلاتىنى سەپلە(&C)"
+
+#~| msgid "Select All"
+#~ msgctxt "Clear all notifications"
+#~ msgid "Clear All"
+#~ msgstr "ھەممىنى تاللا"
+
+#~| msgid "Notifications"
+#~ msgid "No unread notifications."
+#~ msgstr "ئۇقتۇرۇشلار"
+
+#~ msgid "Information"
+#~ msgstr "ئۇچۇر"
+
+#~| msgid "Notifications"
+#~ msgid "Show application and system notifications"
+#~ msgstr "ئۇقتۇرۇشلار"
+
+#~| msgid "No active jobs or notifications"
+#~ msgid "Show a history of notifications"
+#~ msgstr "ئاكتىپ ۋەزىپە ياكى ئۇقتۇرۇش يوق"
+
+#~| msgid "%1:"
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the notification than previews shown"
+#~ msgid "+%1"
+#~ msgstr "%1:"
+
+#~| msgid "Notifications"
+#~ msgid "&Application notifications:"
+#~ msgstr "ئۇقتۇرۇشلار"
+
+#~ msgid "Choose which information to show"
+#~ msgstr "قايسى ئۇچۇرنى كۆرسىتىدىغانلىقىنى تاللاڭ"
+
+#~ msgid "Transfers"
+#~ msgstr "ئۇزاتقانلىرى"
+
+#~ msgid "All"
+#~ msgstr "ھەممىسى"
+
+#~ msgid "KiB/s"
+#~ msgstr "كىلوبايت‏/s"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 ھۆججەت، غىچە: %2"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 توڭلىتىلغان ۋەزىپە"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 تاماملانغان خىزمەت"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "ۋەزىپىلەر"
+
+#~ msgid "More"
+#~ msgstr "تېخىمۇ كۆپ"
+
+#~ msgid "Pause job"
+#~ msgstr "ۋەزىپىنى ۋاقىتلىق توختات"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1 [تاماملاندى]"
+
+#~ msgid "Less"
+#~ msgstr "كىچىك"
+
+#~ msgid "Notification from %1"
+#~ msgstr "%1 دىن كەلگەن ئۇقتۇرۇش"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "قاڭقىش ئۇقتۇرۇشى"
+
+#~ msgid "Popup"
+#~ msgstr "سەكرىمە"

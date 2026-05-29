@@ -1,0 +1,694 @@
+# Sanskrit translations for plasma-workspace package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2024-12-20 21:54+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: src/fingerprintmodel.cpp:144 src/fingerprintmodel.cpp:228
+#, kde-format
+msgid "No fingerprint device found."
+msgstr "अङ्गुलिचिह्नयन्त्रं न लब्धम्।"
+
+#: src/fingerprintmodel.cpp:301
+#, kde-format
+msgid "Retry scanning your finger."
+msgstr "पुनः अङ्गुलीं स्कैन् कर्तुं प्रयतस्व।"
+
+#: src/fingerprintmodel.cpp:303
+#, kde-format
+msgid "Swipe too short. Try again."
+msgstr "अति लघु स्वाइप् कुर्वन्तु। पुनः प्रयासं कुरुत।"
+
+#: src/fingerprintmodel.cpp:305
+#, kde-format
+msgid "Finger not centered on the reader. Try again."
+msgstr "अङ्गुली पाठकं न केन्द्रीकृता। पुनः प्रयासं कुर्वन्तु।"
+
+#: src/fingerprintmodel.cpp:307
+#, kde-format
+msgid "Remove your finger from the reader, and try again."
+msgstr "पाठकात् अङ्गुलीं निष्कास्य पुनः प्रयासं कुर्वन्तु ।"
+
+#: src/fingerprintmodel.cpp:315
+#, kde-format
+msgid "Fingerprint enrollment has failed."
+msgstr "अङ्गुलिचिह्ननामाङ्कनं विफलम् अभवत्।"
+
+#: src/fingerprintmodel.cpp:318
+#, kde-format
+msgid ""
+"There is no space left for this device, delete other fingerprints to "
+"continue."
+msgstr "अस्य यन्त्रस्य कृते स्थानं नास्ति, अग्रे गन्तुं अन्ये अङ्गुलिचिह्नानि विलोपयन्तु।"
+
+#: src/fingerprintmodel.cpp:321
+#, kde-format
+msgid "The device was disconnected."
+msgstr "यन्त्रस्य सम्बन्धः विच्छिन्नः आसीत् ।"
+
+#: src/fingerprintmodel.cpp:326
+#, kde-format
+msgid "An unknown error has occurred."
+msgstr "अज्ञातदोषः अभवत् ।"
+
+#: src/ui/ChangePassword.qml:29 src/ui/UserDetailsPage.qml:228
+#, kde-format
+msgid "Change Password"
+msgstr "गुप्तशब्दं परिवर्तयन्तु"
+
+#: src/ui/ChangePassword.qml:35
+#, kde-format
+msgid "Set Password"
+msgstr "गुप्तशब्दं सेट् कुर्वन्तु"
+
+#: src/ui/ChangePassword.qml:56
+#, kde-format
+msgid "Password"
+msgstr "समाभाष्"
+
+#: src/ui/ChangePassword.qml:71
+#, kde-format
+msgid "Confirm password"
+msgstr "गुप्तशब्दस्य पुष्टिं कुर्वन्तु"
+
+#: src/ui/ChangePassword.qml:90 src/ui/CreateUser.qml:73
+#, kde-format
+msgid "Passwords must match"
+msgstr "गुप्तशब्दाः अवश्यमेव मेलनं कुर्वन्ति"
+
+#: src/ui/ChangeWalletPassword.qml:18
+#, kde-format
+msgid "Change Wallet Password?"
+msgstr "बटुआ गुप्तशब्दं परिवर्तयन्तु?"
+
+#: src/ui/ChangeWalletPassword.qml:29
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Now that you have changed your login password, you may also want to "
+#| "change the password on your default KWallet to match it."
+msgctxt "@info"
+msgid ""
+"Now that you have changed your login password, consider changing the "
+"password on your default KWallet to match it."
+msgstr ""
+"इदानीं भवान् स्वस्य प्रवेशगुप्तशब्दं परिवर्तयति, तदा भवान् स्वस्य पूर्वनिर्धारित-KWallet "
+"इत्यत्र गुप्तशब्दं अपि परिवर्तयितुम् इच्छति यत् तस्य सङ्गतिं कर्तुं शक्नोति ।"
+
+#: src/ui/ChangeWalletPassword.qml:35
+#, kde-format
+msgid "What is KWallet?"
+msgstr "KWallet इति किम् ?"
+
+#: src/ui/ChangeWalletPassword.qml:45
+#, kde-format
+msgid ""
+"KWallet is a password manager that stores your passwords for wireless "
+"networks and other encrypted resources. It is locked with its own password "
+"which differs from your login password. If the two passwords match, it can "
+"be unlocked at login automatically so you don't have to enter the KWallet "
+"password yourself."
+msgstr ""
+"KWallet एकः गुप्तशब्दप्रबन्धकः अस्ति यः भवतः गुप्तशब्दान् वायरलेस् नेटवर्क् अन्येषां च "
+"एन्क्रिप्टेड् संसाधनानाम् कृते संगृह्णाति । इदं स्वस्य गुप्तशब्देन ताडितम् अस्ति यत् भवतः "
+"प्रवेशगुप्तशब्दात् भिन्नम् अस्ति । यदि द्वयोः गुप्तशब्दयोः मेलनं भवति तर्हि प्रवेशसमये स्वयमेव "
+"अनलॉक् कर्तुं शक्यते अतः भवद्भिः स्वयमेव KWallet गुप्तशब्दं प्रविष्टुं न प्रयोजनम् ।"
+
+#: src/ui/ChangeWalletPassword.qml:60
+#, kde-format
+msgid "Change Wallet Password"
+msgstr "बटुआ गुप्तशब्दं परिवर्तयन्तु"
+
+#: src/ui/ChangeWalletPassword.qml:69
+#, kde-format
+msgid "Leave Unchanged"
+msgstr "अपरिवर्तितं त्यजतु"
+
+#: src/ui/CreateUser.qml:15
+#, kde-format
+msgid "Create User"
+msgstr "उपयोक्तारं रचयन्तु"
+
+#: src/ui/CreateUser.qml:38 src/ui/UserDetailsPage.qml:165
+#, kde-format
+msgid "Name:"
+msgstr "नामः:"
+
+#: src/ui/CreateUser.qml:42 src/ui/UserDetailsPage.qml:171
+#, kde-format
+msgid "Username:"
+msgstr "उपयोक्तृनाम :"
+
+#: src/ui/CreateUser.qml:52 src/ui/UserDetailsPage.qml:203
+#, kde-format
+msgid "Standard"
+msgstr "स्तरीय"
+
+#: src/ui/CreateUser.qml:53 src/ui/UserDetailsPage.qml:204
+#, kde-format
+msgid "Administrator"
+msgstr "प्रशासकः"
+
+#: src/ui/CreateUser.qml:56 src/ui/UserDetailsPage.qml:193
+#, kde-format
+msgid "Account type:"
+msgstr "खाताप्रकारः :"
+
+#: src/ui/CreateUser.qml:61
+#, kde-format
+msgid "Password:"
+msgstr "समाभाष्:"
+
+#: src/ui/CreateUser.qml:66
+#, kde-format
+msgid "Confirm password:"
+msgstr "गुप्तशब्दस्य पुष्टिः कुर्वन्तु :"
+
+#: src/ui/CreateUser.qml:88
+#, fuzzy, kde-format
+#| msgid "Create"
+msgctxt "@action:button Create a new user"
+msgid "Create"
+msgstr "निर्मियताम्"
+
+#: src/ui/CreateUser.qml:111
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button Cancel creating new user"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: src/ui/CropSheet.qml:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Picture Area"
+msgstr "चित्रक्षेत्रं चिनोतु"
+
+#: src/ui/EnrolledConfirmation.qml:20
+#, kde-format
+msgctxt "@info:status"
+msgid "Finger enrolled"
+msgstr "अङ्गुली नामाङ्किता"
+
+#: src/ui/EnrollFeedback.qml:28
+#, kde-format
+msgid ""
+"Please repeatedly press your right index finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणतर्जनीं पुनः पुनः नुदन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:30
+#, kde-format
+msgid ""
+"Please repeatedly press your right middle finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणमध्याङ्गुलीं पुनः पुनः दबावन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:32
+#, kde-format
+msgid ""
+"Please repeatedly press your right ring finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य दक्षिणवलयाङ्गुलीं पुनः पुनः दबावन्तु।"
+
+#: src/ui/EnrollFeedback.qml:34
+#, kde-format
+msgid ""
+"Please repeatedly press your right little finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणं लघु अङ्गुलीं पुनः पुनः दबावन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:36
+#, kde-format
+msgid "Please repeatedly press your right thumb on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणाङ्गुष्ठं बहुवारं नुदन्तु।"
+
+#: src/ui/EnrollFeedback.qml:38
+#, kde-format
+msgid ""
+"Please repeatedly press your left index finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य वामतर्जनीं पुनः पुनः नुदन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:40
+#, kde-format
+msgid ""
+"Please repeatedly press your left middle finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वाममध्याङ्गुलीं पुनः पुनः दबावन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:42
+#, kde-format
+msgid ""
+"Please repeatedly press your left ring finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य वामवलयाङ्गुलीं पुनः पुनः दबावन्तु।"
+
+#: src/ui/EnrollFeedback.qml:44
+#, kde-format
+msgid ""
+"Please repeatedly press your left little finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वामलघुं अङ्गुलीं पुनः पुनः दबावन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:46
+#, kde-format
+msgid "Please repeatedly press your left thumb on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वाम-अङ्गुष्ठं बहुवारं नुदन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:50
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right index finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य दक्षिणतर्जनीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:52
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right middle finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणमध्याङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:54
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right ring finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य दक्षिणवलय-अङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:56
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right little finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य दक्षिणं लघु अङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:58
+#, kde-format
+msgid "Please repeatedly swipe your right thumb on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके दक्षिणाङ्गुष्ठं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:60
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left index finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वामतर्जनीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:62
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left middle finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वाममध्याङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:64
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left ring finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य वामवलयाङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:66
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left little finger on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके स्वस्य वामलघुं अङ्गुलीं पुनः पुनः स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/EnrollFeedback.qml:68
+#, kde-format
+msgid "Please repeatedly swipe your left thumb on the fingerprint sensor."
+msgstr "कृपया अङ्गुलिचिह्नसंवेदके वाम-अङ्गुष्ठं बहुवारं स्वाइप् कुर्वन्तु ।"
+
+#: src/ui/FingerprintDialog.qml:28
+#, kde-format
+msgid "Configure Fingerprints"
+msgstr "अङ्गुलिचिह्नानि विन्यस्यताम्"
+
+#: src/ui/FingerprintDialog.qml:39
+#, kde-format
+msgid "Add"
+msgstr "संयोजयति"
+
+#: src/ui/FingerprintDialog.qml:51
+#, kde-format
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: src/ui/FingerprintDialog.qml:59
+#, kde-format
+msgid "Done"
+msgstr "कृतम्‌"
+
+#: src/ui/FingerprintList.qml:47
+#, kde-format
+msgid "Re-enroll finger"
+msgstr "अङ्गुलीं पुनः नामाङ्कनं कुर्वन्तु"
+
+#: src/ui/FingerprintList.qml:59
+#, kde-format
+msgid "Delete fingerprint"
+msgstr "अङ्गुलिचिह्नं विलोपयन्तु"
+
+#: src/ui/FingerprintList.qml:75
+#, kde-format
+msgid "No fingerprints added"
+msgstr "अङ्गुलिचिह्नं न योजितम्"
+
+#: src/ui/main.qml:20
+#, kde-format
+msgid "Users"
+msgstr "उपयोक्तारः"
+
+#: src/ui/main.qml:31
+#, kde-format
+msgctxt "@action:button As in, 'add new user'"
+msgid "Add New…"
+msgstr "Add New..."
+
+#: src/ui/main.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Add New User…"
+msgstr "नूतनं उपयोक्तारं योजयतु..."
+
+#: src/ui/main.qml:137
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Press Space to edit the user profile"
+msgstr "उपयोक्तृप्रोफाइलं सम्पादयितुं Space नुदन्तु"
+
+#: src/ui/PickFinger.qml:28
+#, kde-format
+msgid "Pick a finger to enroll"
+msgstr "नामाङ्कनार्थं अङ्गुलीं चिनोतु"
+
+#: src/ui/PicturesSheet.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Change Avatar"
+msgstr "अवतार परिवर्तयतु"
+
+#: src/ui/PicturesSheet.qml:28
+#, kde-format
+msgctxt "@item:intable"
+msgid "It's Nothing"
+msgstr "इदं किमपि नास्ति"
+
+#: src/ui/PicturesSheet.qml:29
+#, kde-format
+msgctxt "@item:intable"
+msgid "Feisty Flamingo"
+msgstr "Feisty फ्लेमिंगो"
+
+#: src/ui/PicturesSheet.qml:30
+#, kde-format
+msgctxt "@item:intable"
+msgid "Dragon's Fruit"
+msgstr "अजगरस्य फलम्"
+
+#: src/ui/PicturesSheet.qml:31
+#, kde-format
+msgctxt "@item:intable"
+msgid "Sweet Potato"
+msgstr "मधुर आलू"
+
+#: src/ui/PicturesSheet.qml:32
+#, kde-format
+msgctxt "@item:intable"
+msgid "Ambient Amber"
+msgstr "परिवेश अम्बर"
+
+#: src/ui/PicturesSheet.qml:33
+#, kde-format
+msgctxt "@item:intable"
+msgid "Sparkle Sunbeam"
+msgstr "स्पार्कल सूर्यकिरण"
+
+#: src/ui/PicturesSheet.qml:34
+#, kde-format
+msgctxt "@item:intable"
+msgid "Lemon-Lime"
+msgstr "निम्बू-चूना"
+
+#: src/ui/PicturesSheet.qml:35
+#, kde-format
+msgctxt "@item:intable"
+msgid "Verdant Charm"
+msgstr "हरित आकर्षण"
+
+#: src/ui/PicturesSheet.qml:36
+#, kde-format
+msgctxt "@item:intable"
+msgid "Mellow Meadow"
+msgstr "मधुर घासपातः"
+
+#: src/ui/PicturesSheet.qml:37
+#, kde-format
+msgctxt "@item:intable"
+msgid "Tepid Teal"
+msgstr "तेपिड टील"
+
+#: src/ui/PicturesSheet.qml:38
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Blue"
+msgstr "प्लाज्मा ब्लू"
+
+#: src/ui/PicturesSheet.qml:39
+#, kde-format
+msgctxt "@item:intable"
+msgid "Pon Purple"
+msgstr "पोन् बैंगनी"
+
+#: src/ui/PicturesSheet.qml:40
+#, kde-format
+msgctxt "@item:intable"
+msgid "Bajo Purple"
+msgstr "बैंगनीवर्णस्य अधः"
+
+#: src/ui/PicturesSheet.qml:41
+#, kde-format
+msgctxt "@item:intable"
+msgid "Burnt Charcoal"
+msgstr "दग्धः अङ्गारः"
+
+#: src/ui/PicturesSheet.qml:42
+#, kde-format
+msgctxt "@item:intable"
+msgid "Paper Perfection"
+msgstr "कागज सिद्धि"
+
+#: src/ui/PicturesSheet.qml:43
+#, kde-format
+msgctxt "@item:intable"
+msgid "Cafétera Brown"
+msgstr "कैफेटेरा ब्राउन"
+
+#: src/ui/PicturesSheet.qml:44
+#, kde-format
+msgctxt "@item:intable"
+msgid "Rich Hardwood"
+msgstr "समृद्ध कठोरकाष्ठ"
+
+#: src/ui/PicturesSheet.qml:63
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Go Back इति"
+
+#: src/ui/PicturesSheet.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Initials"
+msgstr "आद्याक्षराणि"
+
+#: src/ui/PicturesSheet.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose File…"
+msgstr "सञ्चिकां चिनोतु..."
+
+#: src/ui/PicturesSheet.qml:140
+#, kde-format
+msgctxt "@title"
+msgid "Choose a picture"
+msgstr "चित्रं चिनुत"
+
+#: src/ui/PicturesSheet.qml:144
+#, kde-format
+msgctxt ""
+"@option file type (mime type) for avif, bmp, gif, jp2, jpeg, jpg, pbm, pgm, "
+"png, ppm, tiff, wbmp, webp, xbm, xpm image file formats; do not translate *."
+"avif, *.bmp, *.gif, *.jp2, *.jpeg, *.jpg, *.pbm, *.pgm, *.png, *.ppm, *."
+"tiff, *.wbmp, *.webp, *.xbm, *.xpm"
+msgid ""
+"Image files (All major file types) (*.avif *.bmp *.gif *.jp2 *.jpeg *.jpg *."
+"pbm *.pgm *.png *.ppm *.tiff *.wbmp *.webp *.xbm *.xpm)"
+msgstr ""
+"चित्रसञ्चिकाः (सर्वाः प्रमुखाः सञ्चिकाप्रकाराः) (*.avif *.bmp *.gif *.jp2 *.jpeg *."
+"jpg *.pbm *.pgm *.png *.ppm *.tiff *.wbmp *.webp *. xbm *.xpm)"
+
+#: src/ui/PicturesSheet.qml:201
+#, kde-format
+msgctxt "@action:button"
+msgid "Placeholder Icon"
+msgstr "स्थानधारक चिह्न"
+
+#: src/ui/PicturesSheet.qml:290
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "User avatar placeholder icon"
+msgstr "उपयोक्ता अवतार स्थानधारक चिह्न"
+
+#: src/ui/UserDetailsPage.qml:114
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Logged-In User Without Deleting Files?"
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:115
+#, fuzzy, kde-format
+#| msgid "Delete User…"
+msgctxt "@title:window"
+msgid "Delete Logged-In User?"
+msgstr "उपयोक्तारं विलोपयन्तु..."
+
+#: src/ui/UserDetailsPage.qml:117
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"%1 is currently logged in, so their files cannot be deleted. Delete just the "
+"account instead?<nl/><nl/>This will make %1 unable to log in again, and they "
+"may experience strange behaviors until they log out."
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:118
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"%1 is currently logged in. Deleting the account will make them unable to log "
+"in again, and they may experience strange behaviors until they log out."
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:125
+#, fuzzy, kde-format
+#| msgid "Delete files"
+msgctxt "@action: button"
+msgid "Delete %1"
+msgstr "सञ्चिकाः विलोपयन्तु"
+
+#: src/ui/UserDetailsPage.qml:144
+#, kde-format
+msgid "Change avatar"
+msgstr "अवतार परिवर्तयतु"
+
+#: src/ui/UserDetailsPage.qml:185
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot change your own username while logged in; log out and then log in as "
+"another user to change this account’s username."
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:186
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot change the username of a logged-in user; wait until this user logs "
+"out first."
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:214
+#, kde-format
+msgid ""
+"Cannot change the account type to Standard unless there is at least one "
+"other Administrator account on the system. Without one, authentication would "
+"become impossible or require the insecure use of the root password."
+msgstr ""
+"यावत् प्रणाल्यां न्यूनातिन्यूनम् अन्यत् एकं Administrator खातं नास्ति तावत् खाताप्रकारं "
+"Standard इति परिवर्तयितुं न शक्यते । एकं विना प्रमाणीकरणं असम्भवं भविष्यति अथवा "
+"मूलगुप्तशब्दस्य असुरक्षितप्रयोगस्य आवश्यकता स्यात् ।"
+
+#: src/ui/UserDetailsPage.qml:222
+#, kde-format
+msgid "Email address:"
+msgstr "ईमेल-सङ्केतः :"
+
+#: src/ui/UserDetailsPage.qml:254
+#, kde-format
+msgid "Delete files"
+msgstr "सञ्चिकाः विलोपयन्तु"
+
+#: src/ui/UserDetailsPage.qml:261
+#, kde-format
+msgid "Keep files"
+msgstr "सञ्चिकाः स्थापयन्तु"
+
+#: src/ui/UserDetailsPage.qml:268
+#, kde-format
+msgid "Delete User…"
+msgstr "उपयोक्तारं विलोपयन्तु..."
+
+#: src/ui/UserDetailsPage.qml:274
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot delete yourself! Log out and then log in as another user to delete "
+"this user account."
+msgstr ""
+
+#: src/ui/UserDetailsPage.qml:286
+#, kde-format
+msgid "Configure Fingerprint Authentication…"
+msgstr "अङ्गुलिचिह्नप्रमाणीकरणं विन्यस्तं कुर्वन्तु..."
+
+#: src/ui/UserDetailsPage.qml:318
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Fingerprints can be used in place of a password when unlocking the screen "
+"and providing administrator permissions to applications and command-line "
+"programs that request them.<nl/><nl/>Logging into the system with your "
+"fingerprint is not yet supported."
+msgstr ""
+"स्क्रीनस्य तालान् अनलॉक् करणसमये गुप्तशब्दस्य स्थाने अङ्गुलिचिह्नानां उपयोगः कर्तुं शक्यते तथा च "
+"तान् अनुरोधयन्तः अनुप्रयोगाः आदेशपङ्क्तिकार्यक्रमाः च प्रशासकस्य अनुमतिः प्रदातुं शक्यते।<nl/"
+"><nl/>भवतः अङ्गुलिचिह्नेन सह प्रणाल्यां प्रवेशः अद्यापि समर्थितः नास्ति।"
+
+#: src/user.cpp:141
+#, kde-format
+msgctxt "@info"
+msgid "Failed to crop image: %1"
+msgstr "चित्रं क्रॉप् कर्तुं असफलम्: %1"
+
+#: src/user.cpp:337
+#, kde-format
+msgid "Could not get permission to save user %1"
+msgstr "उपयोक्तारं %1 रक्षितुं अनुमतिं प्राप्तुं न शक्तम्"
+
+#: src/user.cpp:342
+#, kde-format
+msgid "There was an error while saving changes"
+msgstr "परिवर्तनं रक्षन् त्रुटिः अभवत्"
+
+#: src/user.cpp:474
+#, kde-format
+msgid "Failed to resize image: opening temp file failed"
+msgstr "चित्रस्य आकारं परिवर्तयितुं असफलम्: temp सञ्चिकां उद्घाटयितुं विफलम्"
+
+#: src/user.cpp:482
+#, kde-format
+msgid "Failed to resize image: writing to temp file failed"
+msgstr "चित्रस्य आकारं परिवर्तयितुं असफलम्: temp सञ्चिकायां लेखनं विफलम्"
+
+#: src/usermodel.cpp:170
+#, kde-format
+msgid "Your Account"
+msgstr "भवतः खाता"
+
+#: src/usermodel.cpp:170
+#, kde-format
+msgid "Other Accounts"
+msgstr "अन्ये लेखा"

@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-01-08 05:41+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: qml/ActionMenu.qml:92
+#, kde-format
+msgctxt "@label placeholder for empty menu"
+msgid "(Empty)"
+msgstr "(ცარიელი)"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr "გარეგნობა"
+
+#: qml/ConfigAppearance.qml:31
+#, kde-format
+msgctxt "@title:group for radiobuttons"
+msgid "Input method list:"
+msgstr "შეტანის მეთოდების სია:"
+
+#: qml/ConfigAppearance.qml:32
+#, kde-format
+msgctxt "@option:radio IM list orientation"
+msgid "Vertical"
+msgstr "ვერტიკალური"
+
+#: qml/ConfigAppearance.qml:38
+#, kde-format
+msgctxt "@option:radio IM list orientation"
+msgid "Horizontal"
+msgstr "ჰორიზონტალური"
+
+#: qml/ConfigAppearance.qml:45
+#, kde-format
+msgctxt "@title group font selection"
+msgid "Font:"
+msgstr "ფონტი:"
+
+#: qml/ConfigAppearance.qml:51
+#, kde-format
+msgctxt "@option:check use custom font"
+msgid "Use custom:"
+msgstr "მორგებულის გამოყენება:"
+
+#: qml/ConfigAppearance.qml:57
+#, kde-format
+msgctxt "@info The selected font family (%1) and font size (%2)"
+msgid "%1 %2 pt"
+msgstr "%1 %2 წრტ"
+
+#: qml/ConfigAppearance.qml:65
+#, kde-format
+msgctxt "@action:button opens font dialog"
+msgid "Choose Font…"
+msgstr "ფონტის არჩევა…"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@title:group The arrangement of icons in the Panel"
+msgid "Panel icon size:"
+msgstr "პანელის ხატულების ზომა:"
+
+#: qml/ConfigAppearance.qml:79
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Small"
+msgstr "პატარა"
+
+#: qml/ConfigAppearance.qml:87
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel height"
+msgstr "გადიდება პანელის სიმაღლესთან ერთად"
+
+#: qml/ConfigAppearance.qml:88
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel width"
+msgstr "გადიდება პანელის სიგანესთან ერთად"
+
+#: qml/ConfigAppearance.qml:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Font"
+msgstr "აირჩიეთ ფონტი"
+
+#: qml/ContextMenu.qml:96
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show"
+msgstr "ჩვენება"
+
+#: qml/ContextMenu.qml:111
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide %1"
+msgstr "%1-ის დამალვა"
+
+#: qml/ContextMenu.qml:120
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Input Method"
+msgstr "შეტანის მეთოდის მორგება"
+
+#: qml/ContextMenu.qml:128
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Config"
+msgstr "კონფიგურაციის თავიდან ჩატვირთვა"
+
+#: qml/ContextMenu.qml:136
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Input Method"
+msgstr "გამოსვლის შეყვანის მეთოდი"
+
+#: qml/main.qml:254
+#, kde-format
+msgctxt "@label placeholder for missing label"
+msgid "Input Method Panel"
+msgstr "შეტანის მეთოდის პანელი"
+
+#~ msgctxt "The selected font family and font size"
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Search"
+#~ msgstr "ძებნა"
+
+#~ msgid "Clear History"
+#~ msgstr "ისტორიის გაწმენდა"
+
+#~ msgid "No recent Emojis"
+#~ msgstr "ემოჯიების გარეშე"
+
+#~ msgid "%1 copied to the clipboard"
+#~ msgstr "დაკოპირდა გაცვლის ბაფერში: %1"
+
+#~ msgid "Recent"
+#~ msgstr "Ბოლო"
+
+#~ msgid "All"
+#~ msgstr "ყველა"
+
+#~ msgid "Categories"
+#~ msgstr "კატეგორიები"

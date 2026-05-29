@@ -1,0 +1,468 @@
+# Sanskrit translations for plasma-workspace package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-21 00:47+0000\n"
+"PO-Revision-Date: 2024-12-24 20:39+0530\n"
+"Last-Translator: kali <shreekantkalwar@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्रीकान्त् कलवार्"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "skkalwar999@gmail.com"
+
+#: filedialognamefilters.cpp:28
+#, kde-format
+msgctxt "Name filter for file dialogs: File type (file extension wildcards)"
+msgid "Image Files (%1)"
+msgstr ""
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "वैश्विकरूपं भावः च"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:13 lookandfeelsettings.kcfg:17
+#, fuzzy, kde-format
+#| msgid "Global look and feel"
+msgid "Global Look and Feel package, alternate"
+msgstr "वैश्विकरूपं भावः च"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:21
+#, kde-format
+msgid "Switch between dark and light global themes depending on time of day"
+msgstr ""
+
+#. i18n: ectx: label, entry (automaticLookAndFeelOnIdle), group (KDE)
+#: lookandfeelsettings.kcfg:25
+#, kde-format
+msgid "Switch between dark and light global themes when the computer is idle"
+msgstr ""
+
+#. i18n: ectx: label, entry (automaticLookAndFeelIdleInterval), group (KDE)
+#: lookandfeelsettings.kcfg:29
+#, kde-format
+msgid ""
+"How long the computer should be idle in order to switch between dark and "
+"light global themes, in seconds"
+msgstr ""
+
+#: tool/lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "वैश्विक विषयसाधनम्"
+
+#: tool/lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr "रूपं परिवर्तयितुं वैश्विकविषयसङ्कुलं प्रयोक्तुं आदेशपङ्क्तिसाधनम् ।"
+
+#: tool/lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "प्रतिलिपि अधिकार २०१७, मार्को मार्टिन्"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "मार्को मार्टिन्"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "परिपालकः"
+
+#: tool/lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "उपलब्धवैश्विकविषयसङ्कुलानाम् सूचीं कुर्वन्तु"
+
+#: tool/lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"वैश्विकविषयसङ्कुलं प्रयोजयन्तु। एतत् संकुलस्य नाम, अथवा संस्थापितस्य संकुलस्य पूर्णमार्गः भवितुम् "
+"अर्हति, यस्मिन् समये एतत् साधनं वैश्विकविषयसङ्कुलं इति सुनिश्चितं करिष्यति ततः तत् प्रयोक्तुं "
+"प्रयतते"
+
+#: tool/lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "संकुलनाम"
+
+#: tool/lnftool.cpp:52
+#, kde-format
+msgid "Prevent --apply from disabling the automatic mode"
+msgstr ""
+
+#: tool/lnftool.cpp:53
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Plasma Desktop लेआउट् पुनः सेट् कुर्वन्तु"
+
+#: ui/ConfirmDeletionDialog.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Permanently"
+msgstr "स्थायिरूपेण विलोपयन्तु"
+
+#: ui/ConfirmDeletionDialog.qml:17
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to permanently delete this theme?"
+msgstr "किं भवन्तः वास्तवमेव एतत् विषयं स्थायिरूपेण विलोपयितुम् इच्छन्ति?"
+
+#: ui/ConfirmDeletionDialog.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Permanently"
+msgstr "स्थायिरूपेण विलोपयन्तु"
+
+#: ui/ConfirmDeletionDialog.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: ui/DayNightLookAndFeel.qml:46
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The chosen light Global Theme will be used during the day, and the dark one "
+"will be used at night."
+msgstr ""
+
+#: ui/DayNightLookAndFeel.qml:55
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure Day/Night Cycle…"
+msgstr ""
+
+#: ui/DayNightLookAndFeel.qml:68
+#, kde-format
+msgctxt "@option:radio Light global theme"
+msgid "Light"
+msgstr ""
+
+#: ui/DayNightLookAndFeel.qml:80
+#, kde-format
+msgctxt "@option:radio Dark global theme"
+msgid "Dark"
+msgstr ""
+
+#: ui/DayNightLookAndFeel.qml:97
+#, kde-format
+msgctxt "@option:check"
+msgid "Wait until idleness before switching:"
+msgstr ""
+
+#: ui/DayNightLookAndFeel.qml:110
+#, kde-format
+msgctxt "@item:valuesuffix idle interval"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/DayNightLookAndFeel.qml:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Minimizes interruptions when actively using the computer."
+msgstr ""
+
+#: ui/LookAndFeelSelector.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Light Global Theme"
+msgstr ""
+
+#: ui/LookAndFeelSelector.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Dark Global Theme"
+msgstr ""
+
+#: ui/LookAndFeelSelector.qml:49 ui/StaticLookAndFeel.qml:67
+#, fuzzy, kde-format
+#| msgid "Preview Theme"
+msgctxt "@info:tooltip"
+msgid "Preview Theme"
+msgstr "पूर्वावलोकन विषयः"
+
+#: ui/LookAndFeelSelector.qml:57 ui/StaticLookAndFeel.qml:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove theme"
+msgstr "विषयं निष्कासयन्तु"
+
+#: ui/LookAndFeelSelector.qml:59 ui/StaticLookAndFeel.qml:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active theme"
+msgstr "सक्रियविषयं विलोपयितुं न शक्यते"
+
+#: ui/LookAndFeelSelector.qml:61 ui/StaticLookAndFeel.qml:79
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed themes"
+msgstr "प्रणाली-स्थापितानि विषयाणि विलोपयितुं न शक्यते"
+
+#: ui/LookAndFeelSnapshot.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Current Theme"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:25
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Plasma’s current appearance and theme settings will be saved in a new global "
+"theme."
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:69
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a preview image…"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:79
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Take a screenshot…"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:86
+#, kde-format
+msgctxt "@label:textbox Name of new global theme that will be created"
+msgid "Name:"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type in name…"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:101
+#, kde-format
+msgctxt ""
+"@action:button Confirm creating new global theme from the user's current "
+"appearance settings"
+msgid "Confirm"
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:113
+#, kde-format
+msgctxt "@info"
+msgid "A global theme with this name or id already exists."
+msgstr ""
+
+#: ui/LookAndFeelSnapshot.qml:127
+#, kde-format
+msgctxt "@title:title"
+msgid "Choose a Preview Image"
+msgstr ""
+
+#: ui/main.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch to Dark Mode at Night"
+msgstr ""
+
+#: ui/main.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Current Theme…"
+msgstr ""
+
+#: ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "Get New…"
+msgctxt "@action:intoolbar"
+msgid "Get New…"
+msgstr "Get New..."
+
+#: ui/MoreOptions.qml:24
+#, kde-format
+msgid "Layout settings:"
+msgstr "विन्याससेटिंग्स् :"
+
+#: ui/MoreOptions.qml:27
+#, kde-format
+msgid "Desktop layout"
+msgstr "डेस्कटॉप विन्यासः"
+
+#: ui/MoreOptions.qml:33
+#, kde-format
+msgid "Titlebar Buttons layout"
+msgstr "शीर्षकपट्टिका बटनविन्यासः"
+
+#: ui/MoreOptions.qml:56 ui/SimpleOptions.qml:64
+#, kde-format
+msgid ""
+"Applying a Desktop layout will delete the current set of desktops, panels, "
+"docks, and widgets, replacing them with what the theme specifies."
+msgstr ""
+"Desktop विन्यासं प्रयोक्तुं वर्तमानं desktop, panels, docks, widgets इत्येतयोः समुच्चयं "
+"विलोपयिष्यति, तेषां स्थाने विषयः यत् निर्दिशति तत् स्थापयति ।"
+
+#: ui/MoreOptions.qml:67
+#, kde-format
+msgid "Appearance settings:"
+msgstr "रूपसेटिंग्स् :"
+
+#: ui/MoreOptions.qml:70
+#, kde-format
+msgid "Colors"
+msgstr "वर्णाः"
+
+#: ui/MoreOptions.qml:71
+#, kde-format
+msgid "Application Style"
+msgstr "अनुप्रयोगशैली"
+
+#: ui/MoreOptions.qml:72
+#, kde-format
+msgid "Window Decoration Style"
+msgstr "खिडकी अलङ्कार शैली"
+
+#: ui/MoreOptions.qml:73
+#, kde-format
+msgid "Window Decoration Size"
+msgstr "खिडकी सजावट आकार"
+
+#: ui/MoreOptions.qml:74
+#, kde-format
+msgid "Icons"
+msgstr "चिह्नानि"
+
+#: ui/MoreOptions.qml:75
+#, kde-format
+msgid "Plasma Style"
+msgstr "प्लाज्मा शैली"
+
+#: ui/MoreOptions.qml:76
+#, kde-format
+msgid "Pointers"
+msgstr ""
+
+#: ui/MoreOptions.qml:77
+#, kde-format
+msgid "Fonts"
+msgstr "फॉन्ट्"
+
+#: ui/MoreOptions.qml:78
+#, kde-format
+msgid "Task Switcher"
+msgstr "कार्य स्विचर"
+
+#: ui/MoreOptions.qml:79
+#, kde-format
+msgid "Splash Screen"
+msgstr "स्पलैश स्क्रीन"
+
+#: ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "अस्मिन् वैश्विकविषयेण निम्नलिखितम् प्रयुक्तं भविष्यति:"
+
+#: ui/SimpleOptions.qml:33
+#, kde-format
+msgid "Appearance settings"
+msgstr "रूपसेटिंग्स्"
+
+#: ui/SimpleOptions.qml:40
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• रूपसेटिंग्स्"
+
+#: ui/SimpleOptions.qml:48
+#, kde-format
+msgid "Desktop and window layout"
+msgstr "डेस्कटॉप् तथा विण्डो लेआउट्"
+
+#: ui/SimpleOptions.qml:55
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop and window layout"
+msgstr "• डेस्कटॉप् तथा विण्डो लेआउट्"
+
+#: ui/SimpleOptions.qml:71
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"अयं वैश्विकविषयः किमपि प्रयोज्यसेटिंग्स् न ददाति । कृपया अस्य वैश्विकविषयस्य परिपालकेन सह "
+"सम्पर्कं कुर्वन्तु यतः एतत् भग्नं भवितुम् अर्हति।"
+
+#: ui/StaticLookAndFeel.qml:53
+#, fuzzy, kde-format
+#| msgid "Contains Desktop layout"
+msgctxt "@label"
+msgid "Contains Desktop layout"
+msgstr "Desktop लेआउट् समाविष्टम् अस्ति"
+
+#: ui/StaticLookAndFeel.qml:112
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "%1 प्रयोजयन्तु?"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "किं प्रयोक्तव्यम् इति चिनोतु..."
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Show fewer options…"
+msgstr "न्यूनानि विकल्पानि दर्शयतु..."
+
+#~ msgid "Cursors"
+#~ msgstr "कर्सराः"
+
+#~ msgid ""
+#~ "You have to restart the Plasma session for these changes to take effect."
+#~ msgstr "एतेषां परिवर्तनानां प्रभावाय भवद्भिः Plasma सत्रं पुनः आरभणीयम् ।"
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "कर्सर सेटिंग्स् परिवर्तिताः"
+
+#~ msgid "Apply"
+#~ msgstr "आचरतु"
+
+#~ msgid "Cancel"
+#~ msgstr "निरसयतु"

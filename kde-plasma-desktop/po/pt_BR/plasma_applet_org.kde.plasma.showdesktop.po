@@ -1,0 +1,82 @@
+# Translation of plasma_applet_org.kde.plasma.showdesktop.po to Brazilian Portuguese
+# Copyright (C) 2015-2016 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2015, 2016.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2024, 2025 Geraldo Simiao <geraldosimiao@fedoraproject.org>
+# SPDX-FileCopyrightText: 2026 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.showdesktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-01-08 07:55-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#: main.qml:118
+#, kde-format
+msgctxt "@label Accessible name"
+msgid "Minimize All Applet Active Indicator"
+msgstr "Minimizar todos os indicadores ativos do miniaplicativo"
+
+#: MinimizeAllController.qml:17
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Restore Windows"
+msgstr "Restaurar as janelas"
+
+#: MinimizeAllController.qml:18
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Minimize All Windows"
+msgstr "Minimizar todas as janelas"
+
+#: MinimizeAllController.qml:20
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Restores the previously minimized windows"
+msgstr "Restaura as janelas anteriormente minimizadas"
+
+#: MinimizeAllController.qml:21
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "Mostra a área de trabalho ao minimizar todas as janelas"
+
+#: PeekController.qml:14
+#, kde-format
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr "Espiar área de trabalho"
+
+#: PeekController.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr "Parar de espiar a área de trabalho"
+
+#: PeekController.qml:17
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr "Move de volta a posição original todas as janelas"
+
+#: PeekController.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr "Mostra temporariamente a área de trabalho afastando as janelas"
+
+#~ msgid "Show Desktop"
+#~ msgstr "Mostrar a área de trabalho"
+
+#~ msgid "Show the Plasma desktop"
+#~ msgstr "Mostra a área de trabalho do Plasma"

@@ -1,0 +1,71 @@
+# translation of libkworkspace.po to Greek
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2007.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2008.
+# Antonis Geralis <capoiosct@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkworkspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-08-20 11:24+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: kdisplaymanager.cpp:767
+#, kde-format
+msgctxt "user: …"
+msgid "%1: TTY login"
+msgstr "%1: Σύνδεση σε TTY"
+
+#: kdisplaymanager.cpp:772
+#, kde-format
+msgctxt "… location (TTY or X display)"
+msgid "Unused"
+msgstr "Αχρησιμοποίητο"
+
+#: kdisplaymanager.cpp:773
+#, kde-format
+msgid "X login on remote host"
+msgstr "Σύνδεση X σε απομακρυσμένο υπολογιστή"
+
+#: kdisplaymanager.cpp:773
+#, kde-format
+msgctxt "… host"
+msgid "X login on %1"
+msgstr "Σύνδεση X στο %1"
+
+#: kdisplaymanager.cpp:775
+#, kde-format
+msgctxt "user: session type"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: kdisplaymanager.cpp:786
+#, kde-format
+msgctxt "session (location)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#~ msgctxt ""
+#~ "Action that reorganizes the windows to try to have them less cluttered"
+#~ msgid "Unclutter Windows"
+#~ msgstr "Ξεχώρισμα παραθύρων"
+
+#~ msgctxt "Action that reorganizes the windows so that they are in cascade"
+#~ msgid "Cascade Windows"
+#~ msgstr "Διαδοχική επικάλυψη παραθύρων"
+
+#~ msgid "On All Desktops"
+#~ msgstr "Σε όλες τις επιφάνειες εργασίας"
+
+#~ msgid "No Windows"
+#~ msgstr "Χωρίς παράθυρα"

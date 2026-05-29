@@ -1,0 +1,532 @@
+# Translation for kcm_lookandfeel.po to Euskara/Basque (eu).
+# Copyright (C) 2017-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-21 00:47+0000\n"
+"PO-Revision-Date: 2026-01-05 08:45+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: filedialognamefilters.cpp:28
+#, kde-format
+msgctxt "Name filter for file dialogs: File type (file extension wildcards)"
+msgid "Image Files (%1)"
+msgstr "Irudi fitxategiak (%1)"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "Itxura eta izaera globala"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:13 lookandfeelsettings.kcfg:17
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "Itxura eta izaera globala paketea, ordezkoa"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:21
+#, kde-format
+msgid "Switch between dark and light global themes depending on time of day"
+msgstr ""
+"Eguneko orduaren arabera, aldatu gai global ilunaren eta argiaren artean"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelOnIdle), group (KDE)
+#: lookandfeelsettings.kcfg:25
+#, kde-format
+msgid "Switch between dark and light global themes when the computer is idle"
+msgstr ""
+"Ordenagailua jardunik gabe dagoenean, aldatu gai global ilunaren eta "
+"argiaren artean"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelIdleInterval), group (KDE)
+#: lookandfeelsettings.kcfg:29
+#, kde-format
+msgid ""
+"How long the computer should be idle in order to switch between dark and "
+"light global themes, in seconds"
+msgstr ""
+"Ordenagailua jardunik gabe zenbat denbora egon behar duen, segundotan, gai "
+"global ilunaren eta argiaren artean aldatzeko"
+
+#: tool/lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "Gai orokorren tresnak"
+
+#: tool/lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Itxura eta izaera aldatzeko gai orokorreko paketeak ezartzeko komando-"
+"lerroko tresna."
+
+#: tool/lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "Arduraduna"
+
+#: tool/lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "Zerrendatu gai orokorreko pakete erabilgarriak"
+
+#: tool/lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"Ezarri gai orokorreko pakete bat. Hau, pakete baten izena izan daiteke, edo "
+"instalatuta dagoen pakete baterako bide-izen oso bat; orduan, tresna honek, "
+"gai pakete orokor bat dela ziurtatuko du, eta, ondoren, aplikatzen saiatuko "
+"da"
+
+#: tool/lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "pakete-izena"
+
+#: tool/lnftool.cpp:52
+#, kde-format
+msgid "Prevent --apply from disabling the automatic mode"
+msgstr "Eragotzi --apply aukerak modu automatikoa ezgaitzea"
+
+#: tool/lnftool.cpp:53
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Berrezarri Plasma mahaigainaren antolamendua"
+
+#: ui/ConfirmDeletionDialog.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Permanently"
+msgstr "Ezabatu behin-betiko"
+
+#: ui/ConfirmDeletionDialog.qml:17
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to permanently delete this theme?"
+msgstr "Gai hau benetan betirako ezabatu nahi duzu?"
+
+#: ui/ConfirmDeletionDialog.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Permanently"
+msgstr "Ezabatu betirako"
+
+#: ui/ConfirmDeletionDialog.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Utzi"
+
+#: ui/DayNightLookAndFeel.qml:46
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The chosen light Global Theme will be used during the day, and the dark one "
+"will be used at night."
+msgstr ""
+"Aukeratutako Gai Global argia egunean zehar erabiliko da, eta iluna gauean "
+"erabiliko da."
+
+#: ui/DayNightLookAndFeel.qml:55
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure Day/Night Cycle…"
+msgstr "Konfiguratu Eguna/Gaua zikloa…"
+
+#: ui/DayNightLookAndFeel.qml:68
+#, kde-format
+msgctxt "@option:radio Light global theme"
+msgid "Light"
+msgstr "Argia"
+
+#: ui/DayNightLookAndFeel.qml:80
+#, kde-format
+msgctxt "@option:radio Dark global theme"
+msgid "Dark"
+msgstr "Iluna"
+
+#: ui/DayNightLookAndFeel.qml:97
+#, kde-format
+msgctxt "@option:check"
+msgid "Wait until idleness before switching:"
+msgstr "Aldatu aurretik, itxoin jardunik gabe egon arte:"
+
+#: ui/DayNightLookAndFeel.qml:110
+#, kde-format
+msgctxt "@item:valuesuffix idle interval"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "segundo %1"
+msgstr[1] "%1 segundo"
+
+#: ui/DayNightLookAndFeel.qml:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Minimizes interruptions when actively using the computer."
+msgstr "Ordenagailua aktiboki erabiltzean etenaldiak minimizatzen ditu."
+
+#: ui/LookAndFeelSelector.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Light Global Theme"
+msgstr "Hautatu Gai Global Argia"
+
+#: ui/LookAndFeelSelector.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Dark Global Theme"
+msgstr "Hautatu Gai Global Iluna"
+
+#: ui/LookAndFeelSelector.qml:49 ui/StaticLookAndFeel.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview Theme"
+msgstr "Gaia aurreikusi"
+
+#: ui/LookAndFeelSelector.qml:57 ui/StaticLookAndFeel.qml:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove theme"
+msgstr "Kendu gaia"
+
+#: ui/LookAndFeelSelector.qml:59 ui/StaticLookAndFeel.qml:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active theme"
+msgstr "Gai aktiboa ezin da ezabatu"
+
+#: ui/LookAndFeelSelector.qml:61 ui/StaticLookAndFeel.qml:79
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed themes"
+msgstr "Sistemarekin instalatutako gaiak ezin dira ezabatu"
+
+#: ui/LookAndFeelSnapshot.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Current Theme"
+msgstr "Gorde uneko gaia"
+
+#: ui/LookAndFeelSnapshot.qml:25
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Plasma’s current appearance and theme settings will be saved in a new global "
+"theme."
+msgstr ""
+"Plasmaren uneko itxura- eta gai-ezarpenak gai global berri batean gordeko "
+"dira."
+
+#: ui/LookAndFeelSnapshot.qml:69
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a preview image…"
+msgstr "Gehitu aurreikuspegi irudi bat…"
+
+#: ui/LookAndFeelSnapshot.qml:79
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Take a screenshot…"
+msgstr "Hartu pantaila-argazki bat…"
+
+#: ui/LookAndFeelSnapshot.qml:86
+#, kde-format
+msgctxt "@label:textbox Name of new global theme that will be created"
+msgid "Name:"
+msgstr "Izena:"
+
+#: ui/LookAndFeelSnapshot.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type in name…"
+msgstr "Tekleatu izena…"
+
+#: ui/LookAndFeelSnapshot.qml:101
+#, kde-format
+msgctxt ""
+"@action:button Confirm creating new global theme from the user's current "
+"appearance settings"
+msgid "Confirm"
+msgstr "Baieztatu"
+
+#: ui/LookAndFeelSnapshot.qml:113
+#, kde-format
+msgctxt "@info"
+msgid "A global theme with this name or id already exists."
+msgstr "Lehendik badago izen hori edo ID hori duen gai global bat."
+
+#: ui/LookAndFeelSnapshot.qml:127
+#, kde-format
+msgctxt "@title:title"
+msgid "Choose a Preview Image"
+msgstr "Hautatu aurreikuspegi irudi bat"
+
+#: ui/main.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch to Dark Mode at Night"
+msgstr "Gauean aldatu modu ilunera"
+
+#: ui/main.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Current Theme…"
+msgstr "Gorde uneko gaia…"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Get New…"
+msgstr "Lortu … berria"
+
+#: ui/MoreOptions.qml:24
+#, kde-format
+msgid "Layout settings:"
+msgstr "Antolaera-ezarpenak:"
+
+#: ui/MoreOptions.qml:27
+#, kde-format
+msgid "Desktop layout"
+msgstr "Mahaigaineko antolaera"
+
+#: ui/MoreOptions.qml:33
+#, kde-format
+msgid "Titlebar Buttons layout"
+msgstr "Titulu-barrako botoien antolaera"
+
+#: ui/MoreOptions.qml:56 ui/SimpleOptions.qml:64
+#, kde-format
+msgid ""
+"Applying a Desktop layout will delete the current set of desktops, panels, "
+"docks, and widgets, replacing them with what the theme specifies."
+msgstr ""
+"Mahaigain-antolaera bat ezartzean uneko mahaigain-multzoa, panelak, kaiak, "
+"eta trepetak ezabatuko dira, gaiak zehazten duenarekin ordezkatzeko."
+
+#: ui/MoreOptions.qml:67
+#, kde-format
+msgid "Appearance settings:"
+msgstr "Itxura-ezarpenak:"
+
+#: ui/MoreOptions.qml:70
+#, kde-format
+msgid "Colors"
+msgstr "Koloreak"
+
+#: ui/MoreOptions.qml:71
+#, kde-format
+msgid "Application Style"
+msgstr "Aplikazioen estiloa"
+
+#: ui/MoreOptions.qml:72
+#, kde-format
+msgid "Window Decoration Style"
+msgstr "Leiho-apaindura estiloa"
+
+#: ui/MoreOptions.qml:73
+#, kde-format
+msgid "Window Decoration Size"
+msgstr "Leiho-apaindura neurria"
+
+#: ui/MoreOptions.qml:74
+#, kde-format
+msgid "Icons"
+msgstr "Ikonoak"
+
+#: ui/MoreOptions.qml:75
+#, kde-format
+msgid "Plasma Style"
+msgstr "Plasmaren estiloa"
+
+#: ui/MoreOptions.qml:76
+#, kde-format
+msgid "Pointers"
+msgstr ""
+
+#: ui/MoreOptions.qml:77
+#, kde-format
+msgid "Fonts"
+msgstr "Letra-tipoak"
+
+#: ui/MoreOptions.qml:78
+#, kde-format
+msgid "Task Switcher"
+msgstr "Ataza-aldarazlea"
+
+#: ui/MoreOptions.qml:79
+#, kde-format
+msgid "Splash Screen"
+msgstr "Plasta pantaila"
+
+#: ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "Gai orokor honekin ondokoa ezarriko da:"
+
+#: ui/SimpleOptions.qml:33
+#, kde-format
+msgid "Appearance settings"
+msgstr "Itxura-ezarpenak"
+
+#: ui/SimpleOptions.qml:40
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• Itxura-ezarpenak"
+
+#: ui/SimpleOptions.qml:48
+#, kde-format
+msgid "Desktop and window layout"
+msgstr "Mahaigain eta leiho antolaera"
+
+#: ui/SimpleOptions.qml:55
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop and window layout"
+msgstr "• Mahaigain eta leiho antolaera"
+
+#: ui/SimpleOptions.qml:71
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"Gai orokor honek ez du hornitzen ezar daitekeen ezarpenik. Mesedez, jar "
+"zaitez gai orokor honen mantentzailearekin harremanean hondatua egon bai "
+"daiteke."
+
+#: ui/StaticLookAndFeel.qml:53
+#, kde-format
+msgctxt "@label"
+msgid "Contains Desktop layout"
+msgstr "Mahaigaineko antolaera du"
+
+#: ui/StaticLookAndFeel.qml:112
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "%1 ezarri?"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "Aukeratu zer ezarri…"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Show fewer options…"
+msgstr "Erakutsi aukera gutxiago…"
+
+#~ msgid "Cursors"
+#~ msgstr "Kurtsoreak"
+
+#~ msgid ""
+#~ "You have to restart the Plasma session for these changes to take effect."
+#~ msgstr ""
+#~ "Plasma saioa berrabiarazi behar duzu aldaketa hauek indarrean jartzeko."
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "Kurtsore-ezarpenak aldatuta"
+
+#~ msgid "Apply"
+#~ msgstr "Ezarri"
+
+#~ msgid "Cancel"
+#~ msgstr "Utzi"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Giltzatze pantaila"
+
+#~ msgid "Get New Global Themes…"
+#~ msgstr "Lortu gai orokor berriak..."
+
+#~ msgid "This module lets you choose the global look and feel."
+#~ msgstr "Modulu honek Itxura eta izaera orokorra aukeratzen uzten dizu."
+
+#~ msgid ""
+#~ "Your current layout and configuration of panels, desktop widgets, and "
+#~ "wallpapers will be lost and reset to the default layout provided by the "
+#~ "selected theme."
+#~ msgstr ""
+#~ "Uneko zure antolamendua eta panelen konfigurazioa, mahaigaineko trepetak, "
+#~ "eta horma-paperak galdu egingo dira eta hautatutako gaiak dakartzanetara "
+#~ "berrezarriko da."
+
+#~ msgid "Use desktop layout from theme"
+#~ msgstr "Erabili gaiko mahaigain-antolamendua"
+
+#~ msgid "Apply a global theme package"
+#~ msgstr "Ezarri gai orokorreko pakete berri bat"
+
+#~ msgid "Global Themes"
+#~ msgstr "Gai orokorrak"
+
+#~ msgid "Download New Global Themes"
+#~ msgstr "Zama-jaitsi gai orokora berriak"
+
+#~ msgid "Look and feel tool"
+#~ msgstr "Itxura eta izaera tresna"
+
+#, fuzzy
+#~| msgid "Get New Looks..."
+#~ msgid "Choose the Look and Feel theme"
+#~ msgstr "Eskuratu itxura berriak..."
+
+#~ msgid "Configure Look and Feel details"
+#~ msgstr "Konfiguratu itxura eta izaeraren xehetasunak"
+
+#~ msgid ""
+#~ "Select an overall theme for your workspace (including plasma theme, color "
+#~ "scheme, mouse cursor, window and desktop switcher, splash screen, lock "
+#~ "screen etc.)"
+#~ msgstr ""
+#~ "Hautatu zure laneko eremuarentzako gai orokor bat (plasma gaia, kolore "
+#~ "eskema, sagu kurtsore, leiho eta mahaigain aldatzaile, plast pantaila, "
+#~ "giltzatze pantaila eta abar barne hartuko dituena)"
+
+#~ msgid "Show Preview"
+#~ msgstr "Erakutsi aurreikuspegi bat"

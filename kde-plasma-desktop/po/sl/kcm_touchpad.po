@@ -1,0 +1,1243 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2014, 2015, 2017, 2018.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 06:41+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"X-Generator: Poedit 3.9\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "Kritična napaka med branjem bistvenih podatkov o sledilni ploščici %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Ni se bilo mogoče povezati s strežnikom X"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Najdene ni bilo nobene sledilne ploščice"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Ni mogoče uveljaviti nastavitev sledilne ploščice"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Ni mogoče prebrati nastavitev sledilne ploščice"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Ni mogoče prebrati privzetih nastavitev sledilne ploščice"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "Ni mogoče izbrati ustreznega zaledja"
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Napaka med nalaganjem vrednosti. Za več podrobnosti si oglejte dnevnike. "
+"Znova zaženite ta nastavitveni modul."
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr "Ni najdene nobene kazalne naprave. Povežite se zdaj."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Vseh sprememb ni bilo mogoče shraniti. Za več podrobnosti si oglejte "
+"dnevnike. Znova zaženite ta nastavitveni modul in poskusite znova."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Napaka med nalaganjem privzetih vrednosti. Nekaterih možnosti ni bilo mogoče "
+"ponastaviti na privzete."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Napaka med dodajanjem novo povezane naprave. Povežite jo znova in znova "
+"zaženite ta nastavitveni modul."
+
+#: kcm.cpp:185
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr ""
+"Kazalna naprava je odklopljena. Zaprto je bilo pogovorno okno z nastavitvami."
+
+#: kcm.cpp:187
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Kazalna naprava odklopljena. Nobene druge naprave ni najdene."
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Ni najdene nobene sledilne ploščice"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Priklopi zunanjo drsno ploščico"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Naprava:"
+
+#: ui/main.qml:110
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Splošno:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Omogoči napravo"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Onemogoči, ko je miška priklopljena"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Onemogoči jo med tipkanjem"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "To lahko moti video igre."
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Levi in desni gumbi:"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Zamenjava (način za levičarje)"
+
+#: ui/main.qml:185
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Hkrati pritisnite oba za srednji klik"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Aktiviranje te nastavitve poveča zakasnitev klika miške za 50 ms. Dodatna "
+"zakasnitev je potrebna za pravilno zaznavanje istočasnih levih in desnih "
+"klikov miške."
+
+#: ui/main.qml:207
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Hitrost kazalca:"
+
+#: ui/main.qml:287
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Omogoči pospešek kazalca"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+"Ko je omogočeno, se razdalja poti kazalca povečuje z večjo hitrostjo "
+"premikanja."
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Hitrost drsenja:"
+
+#: ui/main.qml:360
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Počasneje"
+
+#: ui/main.qml:367
+#, kde-format
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Hitreje"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Drsenje z:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr "S premikanjem dveh prstov kamor koli"
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr "S premikanjem enega prsta po robu"
+
+#: ui/main.qml:404
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Obrni smer drsenja (naravno drsenje zaslona)"
+
+#: ui/main.qml:421
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Onemogoči vodoravno drsenje"
+
+#: ui/main.qml:439
+#, kde-format
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Desni klik s:"
+
+#: ui/main.qml:443
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Pritiskom spodnjega desnega kota"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Srednji klik s pritiskom na oba spodnja vogala."
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Srednji klik s pritiskom spodnjega središča."
+
+#: ui/main.qml:471
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "S pritiskom kjer koli z dvema prstoma"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Srednji klik s pritiskom kjer koli s tremi prsti."
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Srednji klik:"
+
+#: ui/main.qml:487
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "S pritiskom na spodnji srednji rob"
+
+#: ui/main.qml:507
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "S pritiskom na spodnji levi in ​​spodnji desni kot"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "S pritiskom kjerkoli s tremi prsti"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Trepljanje:"
+
+#: ui/main.qml:533
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Potrepljaj za klik"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr "Dovoli vlečenje po dotiku"
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+"Dotaknite se, nato se dotaknite in takoj za vlečenje s prstom podrsnite po "
+"sledilni ploščici. Dvignite prst za spuščanje."
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr "Dovoli kratek dvig prsta med dotikom in vlečenjem"
+
+#: ui/main.qml:580
+#, kde-format
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Trepljanje z dvema prstoma:"
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Desni klik (trepljanje s tremi prsti je srednji klik)"
+
+#: ui/main.qml:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Desni klik"
+
+#: ui/main.qml:608
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Srednji klik (trepljanje s tremi prsti je desni klik)"
+
+#: ui/main.qml:609
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Srednji klik"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Poizvedovanje za vhodnimi napravami ni uspelo. Znova odprite ta "
+#~ "nastavitveni modul."
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, begins the sentence 'middle-click by "
+#~ "pressing bottom-middle edge/'"
+#~ msgid "Middle-click by middle-click:"
+#~ msgstr "Srednji klik s srednjim klikom:"
+
+#~ msgid "Device enabled"
+#~ msgstr "Naprava omogočena"
+
+#~ msgid "Two fingers"
+#~ msgstr "Dva prsta"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Robovi sledilne ploščice"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Trepljanje za klikanje"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Potrepljaj in povleci"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Integrirani desni klik:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Integrirani srednji klik:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Sprejemanje vnosov prek te naprave."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Onemogoči sledilno ploščico med tipkanjem, da bi preprečili nenamerne "
+#~ "vhode."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr "Hkratni klik levega in desnega gumba pomeni sredinski klik."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Drsenje z dvema prstoma drsi zaslon."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Drsenje po robovih sledilne ploščice drsi zaslon."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Drsi kot da je zaslon z dotikom."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Onemogoči vodoravno drsenje."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Eno trepljanje za levi klik."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Drsenje čez sledilno ploščico neposredno trepljanju je vlečenje."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Zaklep trepljanja in vlečenja"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Vlečenje se nadaljuje po kratkem dvigu prsta."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Trepljanje z dvema prstoma je desni klik, trepljanje s tremi prsti je "
+#~ "srednji klik."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Trepljaj z dvema prstoma za desni klik."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Trepljanje z dvema prstoma za srednji klik, trepljanje s tremi prsti za "
+#~ "desni klik."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Trepljaj z dvema prstoma za srednji klik."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "Pritisk spodnjega desnega kota sledilne ploščice deluje kot desni klik. "
+#~ "Za srednji klik istočasno pritisnete spodnji levi in ​​spodnji desni kot."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "Pritisk spodnjega desnega kota sledilne ploščice deluje kot desni klik. "
+#~ "Srednji klik je pritisk na spodnje osrednje območje."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr ""
+#~ "Pritisk sledilne ploščice kjer koli z dvema prstoma deluje kot desni klik."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr ""
+#~ "Pritisk spodnjega desnega kota sledilne ploščice deluje kot desni klik."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "Sočasni pritisk spodnjega levega in spodnjega desnega kota deluje kot "
+#~ "srednji klik."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr ""
+#~ "Pritisk sledilne ploščice kjer koli s tremi prsti deluje kot srednji klik."
+
+#~ msgid "Touchpad"
+#~ msgstr "Sledilna ploščica"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Omogoči sledilno ploščico"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Onemogoči sledilno ploščico"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Preklopi sledilno ploščico"
+
+#~ msgid "None"
+#~ msgstr "Noben"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Kazalka se pomika enako daleč kot prst."
+
+#~ msgid "Standard"
+#~ msgstr "Standardno"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr "Dolžina poti kazalke je odvisna od hitrosti pomikanja prsta."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Brez dejanja"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Levi klik"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Srednji klik"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Desni klik"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Vsi robovi"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Zgornji rob"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Zgornji desni kot"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Desni rob"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Spodnji desni kot"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Spodnji rob"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Spodnji levi kot"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Levi rob"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Zgornji levi kot"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Sledilna ploščica je bila onemogočena, ker je bila vklopljena miška"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Sledilna ploščica je bila omogočena, ker je bila miška odklopljena"
+
+#~ msgid "@info:tooltip for radiobutton"
+#~ msgstr "@info:tooltip za radiobutton"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr ""
+#~ "Programsko omogočeni gumbi bodo dodano na spodnji del sledilne ploščice."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Trepljaj z dvema prstoma za omogočanje desnega klika."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Programsko omogočen srednji gumb bo dodan na spodnji del vaše sledilne "
+#~ "ploščice."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Andrej Mernik,Matjaž Jeran"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "andrejm@ubuntu.si,matjaz.jeran@amis.net"
+
+#~ msgid "Drag me"
+#~ msgstr "Povleci me"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Levi klik"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Desni klik"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Srednji klik"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Dejavne nastavitve se ne ujemajo s shranjenimi.\n"
+#~ "Trenutno vidite shranjene nastavitve."
+
+#~ msgid "Show active settings"
+#~ msgstr "Pokaži dejavne nastavitve"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Te nastavitve ne bodo dejavne v preizkusnem območju"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Omogoči/onemogoči sledilno ploščico"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Omogoči/onemogoči sledilno ploščico"
+
+#~ msgid "Configure…"
+#~ msgstr "Sestavi…"
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Tipkovne bližnjice:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Onemogoči sledilno ploščico med tipkanjem"
+
+#~ msgid "Timeout:"
+#~ msgstr "Časovna omejitev:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Če ni dejavnosti na tipkovnici za več kot določeno število\n"
+#~ "milisekund, bo sledilna ploščica znova omogočena"
+
+#~ msgid " ms"
+#~ msgstr " ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Onemogoči posnemanje klika in drsenje.\n"
+#~ "Še vedno boste lahko premikali kazalko s pomočjo sledilne ploščice in "
+#~ "klikali s strojnimi gumbi."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Onemogoči samo trepljaje in drsenje"
+
+#~ msgid "Notifications:"
+#~ msgstr "Obvestila:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Prezrte naprave:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Nekatere naprave so lahko napačno prepoznane kot miška.\n"
+#~ "Dodate jih lahko na ta seznam, da bodo prezrte, ko bodo priklopljene."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Gibanje kazalke"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Hitrost"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Najmanjša:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Najmanjša hitrost kazalke"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Največja:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Največja hitrost kazalke"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Pospešek:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Faktor pospeška za običajne premike kazalke"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Gibanje glede na pritisk"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Najmanjši pritisk:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Najmanjši faktor:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Največji pritisk:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Največji faktor:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Pritisk s prstom, ki bo povzročil uveljavitev faktorja gibanja ob "
+#~ "najmanjšem pritisku"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Pritisk s prstom, ki bo povzročil uveljavitev faktorja gibanja ob "
+#~ "največjem pritisku"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Najnižja nastavitev za faktor gibanja ob pritisku"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Najvišja nastavitev za faktor gibanja ob pritisku"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Odstranjevanje šuma"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Navpično:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Vodoravno:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Najmanjša navpična strojna razdalja zahtevana za ustvaritev dogodkov "
+#~ "gibanja"
+
+#~ msgid " units"
+#~ msgstr " enote"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Najmanjša vodoravna strojna razdalja zahtevana za ustvaritev dogodkov "
+#~ "gibanja"
+
+#~ msgid "Scrolling"
+#~ msgstr "Drsenje"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Drsenje na robu:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Omogoči navpično drsenje pri vlečenju ob desnem robu"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Navpično"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Omogoči vodoravno drsenje pri vlečenju ob spodnjem robu"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Vodoravno"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Omogoči navpično drsenje pri vlečenju z dvema prstoma kjerkoli po "
+#~ "sledilni ploščici"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Omogoči vodoravno drsenje pri vlečenju z dvema prstoma kjerkoli po "
+#~ "sledilni ploščici"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Obrni navpično drsenje"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Obrni vodoravno drsenje"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Drsenje z dvema prstoma:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Obrnjeno drsenje:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Drsna razdalja"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Navpično:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Razdalja premika prsta, ki bo povzročila dogodek drsenja"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Vodoravno:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr "Nadaljuj z drsenjem, ko je prst umaknjen z roba sledilne ploščice"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Samodejno drsenje"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Najmanjša hitrost:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Vaš prst mora povzročiti naslednje število drsenj na sekundo, da bo "
+#~ "vklopljeno samodejno drsenje"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " drsenj/s"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Pojemek:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Število drsenj/sekundo² za zmanjšanje hitrosti samodejnega drsenja"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " drsenj/sek.²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Kotno samodejno drsenje:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Omogoči drsenje na robu, za nadaljevanje drsenja, medtem ko je prst v kotu"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Drsenje se vklopi, ko povlečete v podanem območju za sprožitev.\n"
+#~ "Krožno premikanje prsta v smeri urinega kazalca okrog središča sledilne \n"
+#~ "ploščice bo povzročilo drsenje navzdol, krožno premikanje v nasprotni\n"
+#~ "smeri urinega kazalca pa bo povzročilo drsenje navzgor"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Krožno drsenje"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Območje sprožitve:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Območje sprožitve na sledilni ploščici za začetek krožnega drsenja"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Kot:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Kot premika (stopinje) prsta, ki bo povzročil dogodek drsenja"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Pri uporabi skupaj z navpičnim drsenjem, bo pritisk v zgornji ali spodnji "
+#~ "desni kot preklopil iz navpičnega v krožno drsenje"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Občutljivost"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Občutljivost"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Pritisk za zaznavo dotika:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Pritisk za zaznavo umika prsta:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Ko se pritisk prsta poveča nad to vrednost, bo gonilnik to zaznal kot "
+#~ "dotik"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Ko se pritisk prsta spusti pod to vrednost, bo gonilnik to zaznal kot "
+#~ "umik prsta"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Ali naj bo omogočena zaznava dlani. Zapomnite si, da to zahteva tudi "
+#~ "strojno podporo oz. podporo strojne programske opreme sledilne ploščice"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Zaznava dlani"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Najmanjša širina:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Najmanjši pritisk:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Najmanjša širina prsta, pri kateri bo dotik upoštevan kot dlan"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Najmanjši pritisk prsta, pri katerem bo dotik upoštevan kot dlan"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Trepljaji"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "En prst:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "Kateri miškin gumb je zaznan ob trepljaju z enim prstom v območju, ki ni "
+#~ "kot ploščice"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Dva prsta:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "Kateri miškin gumb je zabeležen ob trepljaju z dvema prstoma v območju, "
+#~ "ki ni kot ploščice"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Trije prsti:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "Kateri miškin gumb je zabeležen ob trepljaju s tremi prsti v območju, ki "
+#~ "ni kot ploščice"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Koti"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Zgoraj levo:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Kateri miškin gumb je zabeležen ob trepljaju v zgornji levi kot"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Spodaj levo:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Zgoraj desno:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Kateri miškin gumb je zabeležen ob trepljaju v spodnji levi kot"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Kateri miškin gumb je zabeležen ob trepljaju v zgornji desni kot"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Kateri miškin gumb je zabeležen ob trepljaju v spodnji desni kot"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Spodaj desno:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Ta kretnja je nadomestni način za vlečenje. Izvedete jo s trepljajem "
+#~ "(kratek dotik s prstom) in nato vlečenjem s prstom po sledilni ploščici"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Kretnja potrepljaj in povleci"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Če je izklopljeno, se kretnja potrepljaj in povleci konča, ko umaknete "
+#~ "prst. Če je vklopljeno, je kretnja dejavna dokler ne potrepljate še "
+#~ "enkrat ali dokler dejanje časovno ne preteče"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Zaklenjeno vlečenje"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Časovna omejitev:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Kako dolgo traja (v milisekundah), da se način »Zaklenjeno vlečenje« "
+#~ "samodejno izklopi, potem ko je bil prst umaknjen s sledilne ploščice"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Zaznava trepljaja"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Najdaljši čas:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Največji premik prsta:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Najdaljši čas za dvojni trepljaj:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Časovna omejitev enojnega trepljaja:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Najdaljši čas (v milisekundah) za zaznavo trepljaja"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Največji premik prsta za zaznavo trepljaja"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Najdaljši čas (v milisekundah) za zaznavo dvojnega trepljaja"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "Čas, po katerem bo trepljaj prepoznan kot enojni"
+
+#~ msgid "Testing area"
+#~ msgstr "Preizkusno območje"
+
+#~ msgid "Click me"
+#~ msgstr "Klikni me"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Profil pospeška:"
+
+#~ msgid "Flat"
+#~ msgstr "Ravno"
+
+#~ msgid "Adaptive"
+#~ msgstr "Prilagojeno"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Modul KCM za sledilno ploščico"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Modul Sistemskih nastavitev za upravljanje vaše sledilne ploščice"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Copyright © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Razvijalec"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Modul za Sistemske nastavitve, ozadnji program in aplet za Plasmo za "
+#~ "upravljanje vaše sledilne ploščice"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Avtorske pravice © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Ta program vključuje delo, ki ga pokriva naslednje obvestilo o avtorskih "
+#~ "pravicah:\n"
+#~ "Avtorske pravice © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Uporabnost, preizkušanje"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Je priskočil na pomoč"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Razvijalec synclient-a"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Preizkušanje"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Posnemanje miškinega klika"
+
+#~ msgctxt "Synaptics touchpad driver"
+#~ msgid "Synaptics backend not found"
+#~ msgstr "Zaledje Synaptics ni bilo najdeno"
+
+#~ msgid "Cannot read any of touchpad's properties"
+#~ msgstr "Ni mogoče prebrati nobene izmed lastnosti sledilne ploščice"
+
+#~ msgid "Cannot read touchpad's capabilities"
+#~ msgstr "Ni mogoče prebrati zmožnosti sledilne ploščice"
+
+#~ msgctxt "Libinput touchpad driver"
+#~ msgid "Libinput backend not found"
+#~ msgstr "Zaledje Libinput ni bilo najdeno"
+
+#~ msgid "Synaptics driver is not installed (or is not used)"
+#~ msgstr "Gonilnik synaptics ni nameščen (ali ni v uporabi)"

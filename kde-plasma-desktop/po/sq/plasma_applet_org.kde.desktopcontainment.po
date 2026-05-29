@@ -1,0 +1,967 @@
+# Albanian translation for kdebase
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdebase package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+# SPDX-FileCopyrightText: 2024 Agron Selimaj <as9902613@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2024-07-25 01:52-0400\n"
+"Last-Translator: Agron Selimaj <as9902613@gmail.com>\n"
+"Language-Team: sq\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2011-04-22 14:37+0000\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: package/contents/config/config.qml:17
+#, fuzzy, kde-format
+#| msgid "Location"
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "Vendndodhja"
+
+#: package/contents/config/config.qml:24
+#, fuzzy, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "Ikonat"
+
+#: package/contents/config/config.qml:31
+#, fuzzy, kde-format
+#| msgid "Filter"
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "Filtri"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, fuzzy, kde-format
+#| msgid "Back"
+msgctxt "@action:button"
+msgid "Back"
+msgstr "Mbrapa"
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "Files:"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "Skedat:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show all"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "Shfaq të gjitha"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "Shfaq të përputhurat"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Hide matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "Fsheh të përputhurat"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name pattern:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "Mostra e emrit të skedës"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "Llojet e skedave:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, fuzzy, kde-format
+#| msgid "Show hidden files:"
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "Shfaq skedat e fshehura:"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, fuzzy, kde-format
+#| msgid "File Type"
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "Lloji i Skedës"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, fuzzy, kde-format
+#| msgid "Description"
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "Zgjidhi të Gjitha"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, fuzzy, kde-format
+#| msgid "Deselect All"
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "Lësho Gjithçka"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, fuzzy, kde-format
+#| msgid "Switch Sort Order"
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr "Ndërro rradhitjen"
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, fuzzy, kde-format
+#| msgid "Panel button:"
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr "Pulla e panelit:"
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, fuzzy, kde-format
+#| msgctxt "@title:menu in Copy To or Move To submenu"
+#| msgid "Browse..."
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Zgjidhni…"
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Kthe ikonën origjinale"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "Rradhitja:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu arrangement of icons"
+#| msgid "Left to Right"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "Nga e majta në të djatht"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu arrangement of icons"
+#| msgid "Right to Left"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "Nga e djathta në të majt"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, fuzzy, kde-format
+#| msgctxt "Icons on the desktop"
+#| msgid "Lock in Place"
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "Blloko në Vend"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, fuzzy, kde-format
+#| msgid "Sort By"
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "Rradhit sipas"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr "Sipas dorës"
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "Sipas emrit"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "Sipas madhësisë"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "Sipas Llojit"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "Sipas datës"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "Kartelat së pari"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr "Listë"
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr "Matricë"
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "Madhësia e ikonës:"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, fuzzy, kde-format
+#| msgctxt "@label:slider smallest icon size"
+#| msgid "Small"
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "E vogël"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, fuzzy, kde-format
+#| msgctxt "@label:slider largest icon size"
+#| msgid "Large"
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "E Madhe"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, fuzzy, kde-format
+#| msgid "Label width:"
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "Gjerësia e etiketës:"
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr "E gjerë"
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, fuzzy, kde-format
+#| msgid "Text lines:"
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr "Rreshtat e tekstit:"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "Zgjidhi të Gjitha"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "Shiko në"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "Zgjidhi të Gjitha"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, fuzzy, kde-format
+#| msgid "&Rename"
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "&Riemërto"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "Shiko në"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "Shiko në"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, fuzzy, kde-format
+#| msgid "Show all"
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "Shfaq të gjitha"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "Zgjidhi të Gjitha"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "Vendndodhja"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, fuzzy, kde-format
+#| msgid "Full path"
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr "Shtegu i plotë"
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "Shiko në"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "Kartelat së pari"
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, fuzzy, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "Ikonat"
+
+#: package/contents/ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "Set as &Wallpaper"
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "Përdor si &sfond"
+
+#: plugins/folder/directorypicker.cpp:32
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "Zgjidhi të Gjitha"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1812
+#, kde-format
+msgid "&Empty Trash"
+msgstr "&Zbraze Shportën"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "&Hap"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, fuzzy, kde-format
+#| msgid "Show all"
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "Shfaq të gjitha"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "&Hidhe tek Koshi i Mbeturinave"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "&Ngjit"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "&Tiparet"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr "Rradhit sipas"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "E pa radhitur"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "Sipas emrit"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "Sipas madhësisë"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "Sipas Llojit"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "Sipas datës"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr "Radhitje zbritëse"
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "Skedarët së pari"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr "Madhësia e ikonës"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "Shumë e vogël"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "E vogël"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr "E vogël-Mesatare"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr "Mesatare"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "E Madhe"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr "Shumë e Madhe"
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu arrangement of icons"
+#| msgid "Left to Right"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "Nga e majta në të djatht"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu arrangement of icons"
+#| msgid "Right to Left"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "Nga e djathta në të majt"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgid "Show Previews"
+msgstr "Shiko në"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align left"
+#~ msgstr "Vëri në Rresht"
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align right"
+#~ msgstr "Vëri në Rresht"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "Nga lart poshtë"
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgid "Align"
+#~ msgstr "Vëri në Rresht"
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Left"
+#~ msgstr "Majtas"
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Right"
+#~ msgstr "Djathtas"
+
+#, fuzzy
+#~| msgid "&Restore"
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "&Kthe"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "Krijo &Kartelë"
+
+#, fuzzy
+#~| msgctxt "Sort icons"
+#~| msgid "By Size"
+#~ msgid "Size:"
+#~ msgstr "Nga Përmasa"
+
+#~ msgid "&Reload"
+#~ msgstr "&Ringarko"
+
+#~ msgid "&Delete"
+#~ msgstr "&Fshije"
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgid "Align:"
+#~ msgstr "Vëri në Rresht"
+
+#~ msgid "Show Original Directory"
+#~ msgstr "Shfaq Direktorinë origjinale"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Zbraze Shportën"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "&Shëno Këtë Faqe"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "&Shëno Këtë Lokacion"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "&Shëno Këtë Kartelë"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "&Shëno Këtë Link"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "&Shëno Këtë Skedë"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Kopjo në"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Lëviz në"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Kartela e Shtëpisë"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Follderi Bazë"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Shfleto..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Kopjo Këtu"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Lëviz Këtu"
+
+#~ msgid "Share"
+#~ msgstr "Ndaje"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Icon:"
+#~ msgstr "Ikonat"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "Ju nuk mund ta vendosni një skedë në vetëvete"
+
+#~ msgid "File name for dropped contents:"
+#~ msgstr "Emri për përmbajtjet që po vendosen:"
+
+#~ msgid "&Move Here"
+#~ msgstr "Lëvize &këtu"
+
+#~ msgid "&Copy Here"
+#~ msgstr "Kopjo kë&tu"
+
+#~ msgid "&Link Here"
+#~ msgstr "&Ndërlidh këtu"
+
+#~ msgid "C&ancel"
+#~ msgstr "Anulo"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Ngjit Një Dosje"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "Ngjit Një Skedar"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "Ngjit Përmbajtjen e Kujtesës..."
+
+#, fuzzy
+#~| msgid "&Paste"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "&Ngjit"
+
+#~ msgid ""
+#~ "Restores this file or directory, back to the location where it was "
+#~ "deleted from initially"
+#~ msgstr ""
+#~ "Rikthen skedarin apo direktorinë në vendin nga ku ai ishte fshirë më parë"
+
+#~ msgid ""
+#~ "Opens a new file manager window showing the target of this link, in its "
+#~ "parent directory."
+#~ msgstr ""
+#~ "Hap një dritare të re të menaxhuesit të skedarëve e cila tregon "
+#~ "shënjestrën e kësaj lidhjeje, në direktorinë e saj prind."
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Icons"
+#~ msgstr "Ikonat"
+
+#~ msgid "Align to Grid"
+#~ msgstr "Vëri në Rresht"
+
+#~ msgctxt "Icons on the desktop"
+#~ msgid "Lock in Place"
+#~ msgstr "Blloko në Vend"
+
+#~ msgctxt "%1 and %2 are the messages translated above."
+#~ msgid "%1, %2."
+#~ msgstr "%1, %2."
+
+#, fuzzy
+#~| msgid "Align to Grid"
+#~ msgid "Align to grid:"
+#~ msgstr "Vëri në Rresht"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Display"
+#~ msgstr "Ekrani"

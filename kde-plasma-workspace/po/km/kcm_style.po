@@ -1,0 +1,448 @@
+# translation of kcmstyle.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2005, 2007, 2008, 2009, 2010.
+# Auk Piseth <piseth_dv@khmeros.info>, 2007, 2008.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2010-11-12 09:11+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#: gtkpage.cpp:58
+#, kde-format
+msgid "%1 is not a valid GTK Theme archive."
+msgstr ""
+
+#: kcmstyle.cpp:163 kcmstyle.cpp:170
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "មាន​កំហុស​ក្នុង​ការ​ផ្ទុក​ប្រអប់​ការ​កំណត់​រចនា​សម្ព័ន្ធ​សម្រាប់​រចនាប័ទ្ម​នេះ ។"
+
+#: kcmstyle.cpp:276
+#, kde-format
+msgid "Failed to apply selected style '%1'."
+msgstr ""
+
+#: styleconfdialog.cpp:21
+#, kde-format
+msgid "Configure %1"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ %1"
+
+#  i18n: file stylepreview.ui line 59
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: stylepreview.ui:33
+#, kde-format
+msgid "Tab 1"
+msgstr "ផ្ទាំង ១"
+
+#  i18n: file stylepreview.ui line 240
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: stylepreview.ui:65
+#, fuzzy, kde-format
+#| msgid "Button"
+msgid "Push Button"
+msgstr "ប៊ូតុង"
+
+#  i18n: file stylepreview.ui line 139
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: stylepreview.ui:86
+#, fuzzy, kde-format
+#| msgid "Combobox"
+msgid "Combo box"
+msgstr "ប្រអប់​បន្សំ"
+
+#  i18n: file stylepreview.ui line 114
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: stylepreview.ui:96
+#, kde-format
+msgid "Checkbox"
+msgstr "ប្រអប់​ធីក"
+
+#  i18n: file stylepreview.ui line 81
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
+#: stylepreview.ui:106 stylepreview.ui:116
+#, kde-format
+msgid "Radio button"
+msgstr "ប៊ូតុង​មូល"
+
+#. i18n: ectx: property (format), widget (QProgressBar, progressBar)
+#: stylepreview.ui:128
+#, no-c-format, kde-format
+msgid "%p%"
+msgstr ""
+
+#  i18n: file stylepreview.ui line 269
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: stylepreview.ui:136
+#, kde-format
+msgid "Tab 2"
+msgstr "ផ្ទាំង ២"
+
+#. i18n: ectx: label, entry (widgetStyle), group (KDE)
+#: stylesettings.kcfg:9
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Application style"
+msgstr "កម្មវិធី "
+
+#. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
+#: stylesettings.kcfg:13
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons on buttons"
+msgstr "បង្ហាញ​រូបតំណាង​នៅ​លើប៊ូតុង"
+
+#. i18n: ectx: label, entry (iconsInMenus), group (KDE)
+#: stylesettings.kcfg:17
+#, fuzzy, kde-format
+#| msgid "Show icons on buttons:"
+msgid "Show icons in menus"
+msgstr "បង្ហាញ​រូបតំណាង​នៅ​លើប៊ូតុង"
+
+#. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
+#: stylesettings.kcfg:23
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main toolbar label"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​មេ ៖"
+
+#. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
+#: stylesettings.kcfg:27
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar label"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​រងSecondary toolbar text:"
+
+#: ui/EffectSettingsPopup.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Icons and Toolbars"
+msgstr ""
+
+#: ui/EffectSettingsPopup.qml:36
+#, fuzzy, kde-format
+#| msgid "Show icons in menus:"
+msgid "Show icons:"
+msgstr "បង្ហាញ​រូបតំណាង​នៅ​ក្នុង​ម៉ឺនុយ ៖"
+
+#  i18n: file stylepreview.ui line 81
+#: ui/EffectSettingsPopup.qml:37
+#, fuzzy, kde-format
+#| msgid "Radio button"
+msgid "On buttons"
+msgstr "ប៊ូតុង​មូល"
+
+#: ui/EffectSettingsPopup.qml:48
+#, kde-format
+msgid "In menus"
+msgstr ""
+
+#: ui/EffectSettingsPopup.qml:60
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main toolbar label:"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​មេ ៖"
+
+#: ui/EffectSettingsPopup.qml:62
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ui/EffectSettingsPopup.qml:63
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgid "Text only"
+msgstr "បាន​តែ​អត្ថបទ​"
+
+#: ui/EffectSettingsPopup.qml:64
+#, fuzzy, kde-format
+#| msgid "Text Beside Icons"
+msgid "Beside icons"
+msgstr "អត្ថបទអែប​ជិត​រូប​តំណាង"
+
+#: ui/EffectSettingsPopup.qml:65
+#, fuzzy, kde-format
+#| msgid "Text Below Icons"
+msgid "Below icon"
+msgstr "អត្ថបទ​ក្រោម​រូប​តំណាង"
+
+#: ui/EffectSettingsPopup.qml:80
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar label:"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​រងSecondary toolbar text:"
+
+#: ui/GtkStylePage.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "GNOME/GTK Application Style"
+msgstr "កម្មវិធី "
+
+#: ui/GtkStylePage.qml:43
+#, kde-format
+msgid "GTK theme:"
+msgstr ""
+
+#: ui/GtkStylePage.qml:68
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview…"
+msgstr "មើល​ជាមុន"
+
+#: ui/GtkStylePage.qml:87
+#, kde-format
+msgid "Install from File…"
+msgstr ""
+
+#: ui/GtkStylePage.qml:92
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Get New GNOME/GTK Application Styles…"
+msgstr "កម្មវិធី "
+
+#: ui/GtkStylePage.qml:108
+#, kde-format
+msgid "Select GTK Theme Archive"
+msgstr ""
+
+#: ui/GtkStylePage.qml:110
+#, kde-format
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: ui/main.qml:55
+#, kde-format
+msgid "Configure Icons and Toolbars…"
+msgstr ""
+
+#: ui/main.qml:73
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Configure GNOME/GTK Application Style…"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ..."
+
+#: ui/main.qml:106
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Configure Style…"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ..."
+
+#, fuzzy
+#~| msgid ""
+#~| "<h1>Style</h1>This module allows you to modify the visual appearance of "
+#~| "user interface elements, such as the widget style and effects."
+#~ msgid ""
+#~ "This module allows you to modify the visual appearance of applications' "
+#~ "user interface elements."
+#~ msgstr ""
+#~ "<h1>រចនាប័ទ្ម</h1>ម៉ូឌុល​នេះ​អនុញ្ញាត​ឲ្យ​អ្នក​កែប្រែ​រូបរាង​ដែល​មើល​ឃើញ​នៃ​ធាតុ​ចំណុច​ប្រទាក់​អ្នកប្រើ​ដូច​"
+#~ "ជា រចនាប័ទ្ម​វត្ថុ​មើល​ឃើញ និង​បែប​ផែន ។"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ​​"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "Application Style"
+#~ msgstr "កម្មវិធី "
+
+#, fuzzy
+#~| msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+#~ msgid "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik "
+#~ msgstr "រក្សា​សិទ្ធិ​ឆ្នាំ ២០០២ ដោយ Karol Szwed និង​ Daniel Molkentin"
+
+#~ msgid "Karol Szwed"
+#~ msgstr "Karol Szwed"
+
+#~ msgid "Daniel Molkentin"
+#~ msgstr "Daniel Molkentin"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "Download New GNOME/GTK2 Application Styles..."
+#~ msgstr "កម្មវិធី "
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "GNOME/GTK2 Application Styles"
+#~ msgstr "កម្មវិធី "
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "Download New GNOME/GTK3 Application Styles..."
+#~ msgstr "កម្មវិធី "
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "GNOME/GTK3 Application Styles"
+#~ msgstr "កម្មវិធី "
+
+#~ msgid "Unable to Load Dialog"
+#~ msgstr "មិន​អាច​ផ្ទុក​ប្រអប់"
+
+#~ msgid "No description available."
+#~ msgstr "មិន​មាន​​ការ​ពិពណ៌នា ។"
+
+#~ msgid ""
+#~ "This area shows a preview of the currently selected style without having "
+#~ "to apply it to the whole desktop."
+#~ msgstr ""
+#~ "តំបន់​នេះ​​បង្ហាញ​ទិដ្ឋភាព​ជា​មុន​នៃ​រចនាប័ទ្ម​ដែល​បាន​ជ្រើស​បច្ចុប្បន្ន ដោយ​មិន​អនុវត្ត​វា​​ទៅ​ផ្ទៃ​តុ​ទាំង​មូល​"
+#~ "ឡើយ ។"
+
+#~ msgid ""
+#~ "Here you can choose from a list of predefined widget styles (e.g. the way "
+#~ "buttons are drawn) which may or may not be combined with a theme "
+#~ "(additional information like a marble texture or a gradient)."
+#~ msgstr ""
+#~ "នៅ​ទីនេះ អ្នក​អាច​ជ្រើស​ពី​បញ្ជី​របស់​រចនាប័ទ្ម​ធាតុ​ក្រាហ្វិក​​​ដែល​បាន​កំណត់​ជាមុន (ឧ. របៀប​គូរ​ប៊ូតុង) ​ត្រូវ​"
+#~ "បាន ឬ​មិន​ត្រូវ​បាន​ផ្សំ​ជាមួយ​ស្បែក  (ព័ត៌មាន​បន្ថែម​ដូចជា វាយនភាព​ថ្ម​ម៉ាប ឬ​ជម្រាល) ។"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you enable this option, KDE Applications will show small icons "
+#~| "alongside some important buttons."
+#~ msgid ""
+#~ "If you enable this option, applications will show small icons alongside "
+#~ "some important buttons."
+#~ msgstr "បើ​អ្នក​អនុញ្ញាត​ជម្រើស​នេះ កម្មវិធី KDE នឹង​បង្ហាញ​រូប​តំណាង​តូចៗ​ ជាមួយ​ប៊ូតុង​សំខាន់​ៗ​មួយ​ចំនួន ។"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you enable this option, KDE Applications will show small icons "
+#~| "alongside most menu items."
+#~ msgid ""
+#~ "If you enable this option, applications will show small icons alongside "
+#~ "most menu items."
+#~ msgstr "បើ​អ្នក​បើក​​ជម្រើស​នេះ កម្មវិធី KDE នឹង​បង្ហាញ​រូប​តំណាង​តូចៗ​ ជាមួយ​ប៊ូតុង​សំខាន់​ៗ​មួយ​ចំនួន ។"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
+#~| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
+#~| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on "
+#~| "toolbar buttons. Text is aligned beside the icon.</p><b>Text Below "
+#~| "Icons: </b> Shows icons and text on toolbar buttons. Text is aligned "
+#~| "below the icon."
+#~ msgid ""
+#~ "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for "
+#~ "low resolutions.</p><p><b>Text only: </b>Shows only text on toolbar "
+#~ "buttons.</p><p><b>Text beside icons: </b> Shows icons and text on toolbar "
+#~ "buttons. Text is aligned beside the icon.</p><b>Text below icons: </b> "
+#~ "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#~ msgstr ""
+#~ "<p><b>គ្មាន​អត្ថបទ ៖</b> បង្ហាញ​បាន​តែ​រូប​តំណាង​លើ​​ប៊ូតុង​របារ​ឧបករណ៍ ។ ជម្រើស​ល្អ​បំផុត​សម្រាប់​"
+#~ "គុណភាព​បង្ហាញ​ទាប ។</p><p><b>បាន​តែ​អត្ថបទ ៖ </b>បង្ហាញ​តែ​អត្ថបទ​នៅ​លើ​ប៊ូតុង​របារ​ឧបករណ៍ ។</"
+#~ "p><p><b>អត្ថបទ​ជាមួយ​រូបតំណាង ៖ </b> បង្ហាញ​រូបតំណាង និង អត្ថបទនៅ​លើ ​ប៊ូតុង​របារ​ឧបករណ៍ ។ "
+#~ "អត្ថបទ​ត្រូវ​បាន​តម្រឹម​ជាមួយ​រូប​តំណាង ។</p><b>អត្ថបទ ​ក្រោម​រូប​តំណាង ៖ </b> បង្ហាញ​រូប​តំណាង និង​​"
+#~ "អត្ថបទ​លើ​ប៊ូតុង​របារ​ឧបករណ៍ ។ អត្ថបទ​​ត្រូវ​បាន​តម្រឹម​រូប​តំណាង​ដូច​ខាងក្រោម​នេះ ។"
+
+#~ msgid "Toolbars"
+#~ msgstr "របារ​ឧបករណ៍"
+
+#~ msgid "No Text"
+#~ msgstr "គ្មាន​អត្ថបទ"
+
+#, fuzzy
+#~| msgid "Widget style:"
+#~ msgid "Widget Style"
+#~ msgstr "រចនាប័ទ្ម​ធាតុក្រាហ្វិក ៖"
+
+#~ msgid "Widget style:"
+#~ msgstr "រចនាប័ទ្ម​ធាតុក្រាហ្វិក ៖"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Fine Tuning"
+#~ msgstr "Fine Tuning"
+
+#~ msgid "Description: %1"
+#~ msgstr "ការ​ពិពណ៌នា ៖ %1"
+
+#~ msgid ""
+#~ "This page allows you to choose details about the widget style options"
+#~ msgstr "ទំព័រ​នេះ​អនុញ្ញាត​ឲ្យ​អ្នកជ្រើស​សេចក្ដីលម្អិត​អំពី​ជម្រើស​រចនាប័ទ្ម​ធាតុក្រាហ្វិក"
+
+#~ msgid "Group Box"
+#~ msgstr "ប្រអប់​ក្រុម​"
+
+#~ msgid "KDE Style Module"
+#~ msgstr "ម៉ូឌុល​រចនាប័ទ្ម​របស់ KDE"
+
+#~ msgid "Ralf Nolden"
+#~ msgstr "Ralf Nolden"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "In application"
+#~ msgstr "កម្មវិធី "
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "&Applications"
+#~ msgid "Global Menu widget"
+#~ msgstr "កម្មវិធី "
+
+#~ msgid ""
+#~ "<p>Changes to the visibility of menu icons will only affect newly started "
+#~ "applications.</p>"
+#~ msgstr ""
+#~ "<p>ផ្លាស់ប្ដូរ​ទៅ​​​ដើម្បីមើល​រូបតំណាង​ម៉ឺនុយ​នឹង​មាន​ប្រសិទ្ធភាព​តែ​លើ​កម្មវិធី​ដែល​ចាប់ផ្ដើម​ថ្មីៗ​តែ​ប៉ុណ្ណោះ ។</"
+#~ "p>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Menu Icons Changed"
+#~ msgstr "បាន​ផ្លាស់ប្ដូរ​រូបតំណាង​ម៉ឺនុយ"
+
+#~ msgid "Graphical effects:"
+#~ msgstr "បែបផែន​ក្រាហ្វិក ៖"
+
+#~ msgid "Low display resolution and Low CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ទាប និង​ស៊ីភីយូ​ទាប"
+
+#~ msgid "High display resolution and Low CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ខ្ពស់ និង​ស៊ីភីយូទាប"
+
+#~ msgid "Low display resolution and High CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ទាប និង​ស៊ីភីយូ​ខ្ពស់"
+
+#~ msgid "High display resolution and High CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ខ្ពស់ និង​ស៊ីភីយូ​ខ្ពស់"
+
+#~ msgid "Low display resolution and Very High CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ទាប និង​ស៊ីភីយូ​ខ្ពស់​បំផុត"
+
+#~ msgid "High display resolution and Very High CPU"
+#~ msgstr "គុណភាព​បង្ហាញ​ខ្ពស់ និង​ស៊ីភីយូ​ខ្ពស់​បំផុត"
+
+#~ msgid ""
+#~ "If you enable this option, KDE Applications will run internal animations."
+#~ msgstr "ប្រសិន​បើ​អ្នក​បើក​ជម្រើស កម្មវិធី​របស់ KDE នឹង​រត់​ខាង​​ចលនា​ខាង​ក្នុង ។"
+
+#~ msgid "kcmstyle"
+#~ msgstr "kcmstyle"

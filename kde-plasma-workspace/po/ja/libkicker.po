@@ -1,0 +1,327 @@
+# Fuminobu TAKEYAMA <ftake@geeko.jp>, 2015.
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+# Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2022.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2015, 2017, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2022-06-17 23:47-0700\n"
+"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "以下のアプリケーションで開く:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "プロパティ"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "デスクトップに追加"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "タスクマネージャにピン留め"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "パネル (ウィジェット) に追加"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "最近使用したファイル"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "最近使用したファイルの履歴を消去"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "アプリケーションを編集…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "アドオンをアンインストールまたは管理する..."
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "アプリケーションを隠す"
+
+#: appentry.cpp:462
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "このサブメニューのアプリケーションを再表示"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1' のアプリケーションを再表示"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "KRunner を表示"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "検索や計算もしくはコマンドを実行"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "コンピュータ"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "最近使用"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "ファイル"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "アプリケーションを忘れる"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "保存フォルダを開く"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "ファイルを忘れる"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "ファイルを忘れる"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "すべて忘れる"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "すべてのアプリケーションを忘れる"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "すべてのファイルを忘れる"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "すべてのファイルを忘れる"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "すべてのアプリケーション"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 を隠す"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr ""
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "最近使用したファイル"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "よく使用するファイル"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "よく使用するファイル"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "最近使用したアプリケーション"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "よく使用するアプリケーション"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "電源/セッション"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "検索結果"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "ロック"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "セッションを保存"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "ユーザの切り替え"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "スリープ"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "ハイバネート"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "再起動"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "シャットダウン"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "セッション"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "システム"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "画面をロックする"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "セッションを終了する"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "別のユーザとして並行するセッションを開始する"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "状態をメモリに保持して待機する"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "状態をディスクに退避して待機する"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "コンピュータを再起動する"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "コンピュータを停止する"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "システムのアクション"

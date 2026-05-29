@@ -1,0 +1,455 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2014, 2017, 2018.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-01-13 11:50+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Pause Indexer"
+msgstr "Začasno ustavi indekser"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Resume Indexer"
+msgstr "Spet poženi indekser"
+
+#: ui/main.qml:61
+#, kde-format
+msgctxt "@info inlinemessage"
+msgid ""
+"This will disable file searching in KRunner and launcher menus, and remove "
+"extended metadata display from all KDE applications."
+msgstr ""
+"To bo onemogočilo iskanje datotek v menijih KRunnerja in zaganjalnika ter "
+"odstranilo prikaz razširjenih metapodatkov iz vseh aplikacij KDE."
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@info:inlinemessage"
+msgid ""
+"Do you want to delete the saved index data? %1 of space will be freed, but "
+"if indexing is re-enabled later, the entire index will have to be re-created "
+"from scratch. This may take some time, depending on the number of files to "
+"index."
+msgstr ""
+"Ali želite izbrisati shranjene podatke indeksa? Sprostilo se bo %1 prostora, "
+"če pa indeksiranje pozneje ponovno omogočite, bo treba celoten indeks znova "
+"ustvariti od začetka. To lahko traja nekaj časa, odvisno od števila datotek "
+"za indeksiranje."
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Index Data"
+msgstr "Izbriši podatke indeksa"
+
+#: ui/main.qml:91
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"File Search helps you quickly locate your files. You can choose which "
+"folders and what types of file data are indexed."
+msgstr ""
+"Iskanje datotek vam pomaga hitro najti datoteke. Izberete lahko, katere mape "
+"in katere vrste podatkov datotek bodo indeksirane."
+
+#: ui/main.qml:108
+#, kde-format
+msgctxt "@title:group"
+msgid "Data to index:"
+msgstr "Podatki za indeksiranje:"
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "Nothing (disable indexing entirely)"
+msgstr "Nič (popolnoma onemogoči indeksiranje)"
+
+#: ui/main.qml:121
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names only"
+msgstr "Samo imena datotek"
+
+#: ui/main.qml:136
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names and contents"
+msgstr "Imena datotek in vsebine"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@option:check"
+msgid "Also index hidden files and folders"
+msgstr "Indeksiraj tudi skrite datoteke in mape"
+
+#: ui/main.qml:183
+#, kde-format
+msgctxt "@title:table Locations to include or exclude from indexing"
+msgid "Locations"
+msgstr "Lokacije"
+
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Indexing a Folder…"
+msgstr "Začni indeksirati mapo…"
+
+#: ui/main.qml:194
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Indexing a Folder…"
+msgstr "Zaustavi indeksiranje mape…"
+
+#: ui/main.qml:212
+#, kde-format
+msgctxt "State and a percentage of progress"
+msgid "%1, %2% complete"
+msgstr "%1, %2% končano"
+
+#: ui/main.qml:219
+#, kde-kuit-format
+msgctxt "@info Currently Indexing"
+msgid "Currently indexing: <filename>%1</filename>"
+msgstr "Trenutno v indeksiranju: <filename>%1</filename>"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@info:status"
+msgid "Not indexed"
+msgstr "Ni indeksirano"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@info:status"
+msgid "Indexed"
+msgstr "Indeksirano"
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "Remove the list item for this filesystem path"
+msgid "Remove entry"
+msgstr "Odstrani vnos"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to include"
+msgstr "Izberite mapo za vključitev"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to exclude"
+msgstr "Izberite mapo za izključitev"
+
+#~ msgctxt "@title:group"
+#~ msgid "File indexing:"
+#~ msgstr "Indeksiranje datotek:"
+
+#~ msgctxt "@action:check"
+#~ msgid "Enabled"
+#~ msgstr "Omogočeno"
+
+#~ msgctxt "@label indexing status"
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgctxt "@label file currently being indexed"
+#~ msgid "Currently indexing:"
+#~ msgstr "Trenutno indeksiranje:"
+
+#~ msgid "The system must be restarted before these changes will take effect."
+#~ msgstr "Sistem potrebuje ponovni zagon, da bi se spremembe uveljavile."
+
+#~ msgctxt "@action:button"
+#~ msgid "Restart"
+#~ msgstr "Ponovni zagon"
+
+#~ msgid "Enable File Search"
+#~ msgstr "Omogoči Iskanje datotek"
+
+#~ msgid "Also index file content"
+#~ msgstr "V kazalo vključi tudi vsebino datotek"
+
+#~ msgid "Folder specific configuration:"
+#~ msgstr "Posebna nastavitev za mapo:"
+
+#~ msgid ""
+#~ "This module lets you configure the file indexer and search functionality."
+#~ msgstr ""
+#~ "Ta modul omogoča nastavitev kazala datotek in funkcionalnosti iskanja."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Andrej Mernik,Matjaž Jeran"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "andrejm@ubuntu.si,matjaz.jeran@amis.net"
+
+#~ msgid "File Search"
+#~ msgstr "Iskanje datotek"
+
+#~ msgid "Copyright 2007-2010 Sebastian Trüg"
+#~ msgstr "Copyright 2007-2010 Sebastian Trüg"
+
+#~ msgid "Sebastian Trüg"
+#~ msgstr "Sebastian Trüg"
+
+#~ msgid "Vishesh Handa"
+#~ msgstr "Vishesh Handa"
+
+#~ msgid "Tomaz Canabrava"
+#~ msgstr "Tomaz Canabrava"
+
+#~ msgid "Add folder configuration…"
+#~ msgstr "Dodaj nastavitev mape…"
+
+#, fuzzy
+#~| msgid "Folder %1 is already excluded"
+#~ msgid "%1 is excluded."
+#~ msgstr "Mapa %1 je vedno izločena"
+
+#~ msgid "Do not search in these locations:"
+#~ msgstr "Ne išči na teh mestih:"
+
+#~ msgid "Select the folder which should be excluded"
+#~ msgstr "Izberite mapo, ki naj bi bila izločena"
+
+#~ msgid ""
+#~ "Not allowed to exclude root folder, please disable File Search if you do "
+#~ "not want it"
+#~ msgstr ""
+#~ "Korenske mape ni dovoljeno izločiti. Če je nočete, onemogočite Iskanje "
+#~ "datotek."
+
+#~ msgid "Folder's parent %1 is already excluded"
+#~ msgstr "Nadrejena mapa mape %1 je že izločena"
+
+#~ msgid "Configure File Search"
+#~ msgstr "Nastavi Iskanje datotek"
+
+#~ msgid "The root directory is always hidden"
+#~ msgstr "Korenska mapa je vedno skrita"
+
+#~ msgid "Enable Developer Mode"
+#~ msgstr "Omogoči način razvijalca"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavitve"
+
+#~ msgid "Enable Tags and Ratings"
+#~ msgstr "Omogoči oznake in ocene"
+
+#~ msgid "Suspend"
+#~ msgstr "V pripravljenost"
+
+#~ msgid "Customize the files and folders to be indexed"
+#~ msgstr "Prilagodite datoteke in mape, ki bodo dodane v kazalo"
+
+#~ msgid "Index Documents"
+#~ msgstr "Izgradi kazalo dokumentov"
+
+#~ msgid "Index Audio"
+#~ msgstr "Izgradi kazalo zvočnih posnetkov"
+
+#~ msgid "Index Images"
+#~ msgstr "Izgradi kazalo slik"
+
+#~ msgid "Index Videos"
+#~ msgstr "Izgradi kazalo videov"
+
+#~ msgid "Index Source Code"
+#~ msgstr "Izgradi kazalo izvorne kode"
+
+#~ msgid "Advanced"
+#~ msgstr "Napredno"
+
+#~ msgid "Customize Folders"
+#~ msgstr "Prilagodi mape"
+
+#~ msgctxt ""
+#~ "@title:window Referring to the folders which will be searched for files "
+#~ "to index for desktop search"
+#~ msgid "Advanced File Filtering"
+#~ msgstr "Napredno filtriranje datotek"
+
+#~ msgid "Exclude Mime Type"
+#~ msgstr "Izloči vrste MIME"
+
+#~ msgid "Index Exclude Filters"
+#~ msgstr "Filtri za izločitev iz kazala"
+
+#~ msgid ""
+#~ "Select expressions to exclude files from indexing by matching their "
+#~ "filenames"
+#~ msgstr ""
+#~ "Določite vzorce za izločitev datotek iz izgradnje kazala glede na njihova "
+#~ "imena"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid ""
+#~ "<filename>%1</filename><nl/> (symbolic links are <emphasis>not</emphasis> "
+#~ "indexed for desktop search)"
+#~ msgstr ""
+#~ "<filename>%1</filename><nl/>(simbolne povezave <emphasis>niso</emphasis> "
+#~ "dodane v kazalo za namizno iskanje)"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
+#~ msgstr "<filename>%1</filename><nl/>(bo dodana v kazalo za namizno iskanje)"
+
+#~ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#~ msgid ""
+#~ "<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed "
+#~ "for desktop search)"
+#~ msgstr ""
+#~ "<filename>%1</filename><nl/>(<emphasis>ne</emphasis> bo dodana v kazalo "
+#~ "za namizno iskanje)"
+
+#~ msgctxt ""
+#~ "@title:window Referring to the folders which will be searched for files "
+#~ "to index for desktop search"
+#~ msgid "Customizing Index Folders"
+#~ msgstr "Prilagajanje map za kazalo"
+
+#~ msgid ""
+#~ "Select the local folders that contain files to be indexed for fast "
+#~ "desktop searches"
+#~ msgstr ""
+#~ "Izberite krajevne mape z datotekami, ki bodo v kazalu za hitro namizno "
+#~ "iskanje"
+
+#~ msgid "Check to be able to select hidden folders"
+#~ msgstr "Omogočite, da lahko izberete skrite mape"
+
+#~ msgctxt "@info:status"
+#~ msgid "File indexing service not running."
+#~ msgstr "Storitev izgrajevanja kazala datotek ne teče."
+
+#~ msgctxt "@info:status %1 is an error message returned by a dbus interface."
+#~ msgid "Failed to contact File Indexer service (%1)"
+#~ msgstr ""
+#~ "Ni bilo mogoče vzpostaviti stika s storitvijo izgrajevalnika kazala "
+#~ "datotek (%1)"
+
+#~ msgctxt "Resumes the File indexing service."
+#~ msgid "Resume"
+#~ msgstr "Nadaljuj"
+
+#~ msgctxt "Suspends the File indexing service."
+#~ msgid "Suspend"
+#~ msgstr "V pripravljenost"
+
+#~ msgid "File Metadata"
+#~ msgstr "Metapodatki datotek"
+
+#~ msgid ""
+#~ "File metadata enables tagging and rating of files integrated with the "
+#~ "Desktop Search."
+#~ msgstr ""
+#~ "Metapodatki datotek omogočajo označevanje in ocenjevanje datotek, ki so "
+#~ "vključene v namizno iskanje."
+
+#~ msgid "Enable File metadata"
+#~ msgstr "Omogoči metapodatke datotek"
+
+#~ msgid "Details..."
+#~ msgstr "Podrobnosti ..."
+
+#~ msgid ""
+#~ "Desktop search allows searching for files by content instead of just by "
+#~ "name."
+#~ msgstr ""
+#~ "Namizno iskanje omogoča iskanje po vsebini datotek in ne samo po imenu."
+
+#~ msgid "Indexing"
+#~ msgstr "Izgradnja kazala"
+
+#~ msgid "Removable media handling:"
+#~ msgstr "Rokovanje z odstranljivimi nosilci:"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Indexing of files on removable media"
+#~ msgstr "Izgradnja kazala za datoteke na odstranljivih nosilcih"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Nepomuk can index files on removable devices like USB keys or "
+#~ "external hard-disks for fast desktop searches.</para>\n"
+#~ "<para>By default no files are indexed. Here this behaviour can be changed "
+#~ "to one of two options:</para>\n"
+#~ "<para><list><item><interface>Index files on all removable devices</"
+#~ "interface> - Files on removable media are indexed as soon as the medium "
+#~ "is mounted. Caution: this does not include media which have been rejected "
+#~ "via the second option.</item>\n"
+#~ "<item><interface>Ask individually when newly mounted</interface> - The "
+#~ "user will be asked to decide if files on the newly mounted medium should "
+#~ "be indexed or not. Once decided Nepomuk will not ask again.</item></"
+#~ "list></para>"
+#~ msgstr ""
+#~ "<para>Nepomuk lahko zgradi kazalo za datoteke na odstranljivih nosilcih, "
+#~ "kot so ključki USB ali zunanji trdi diski, in tako omogoči hitro iskanje."
+#~ "</para>\n"
+#~ "<para>Privzeto datoteke niso v kazalu. Tu lahko to spremenite na eno "
+#~ "izmed dveh možnosti:</para>\n"
+#~ "<para><list><item><interface>Kazalo za datoteke na vseh odstranljivih "
+#~ "nosilcih</interface> – Datoteke na odstranljivem nosilcu se dodane v "
+#~ "kazalo takoj, ko je nosilec priklopljen. Pozor: to ne vključuje nosilcev, "
+#~ "ki so bili izvzeti zaradi druge možnosti.</item>\n"
+#~ "<item><interface>Vprašaj ob priklopu vsake nove naprave</interface> – Ob "
+#~ "priklopu novega nosilca se uporabnika vpraša, ali naj se datoteke na njem "
+#~ "doda v kazalo. Kasneje Nepomuk za ta nosilec ne bo več vprašal.</item></"
+#~ "list></para>"
+
+#~ msgid "Ignore all removable media"
+#~ msgstr "Prezri vse odstranljive nosilce"
+
+#~ msgid "Index files on all removable devices"
+#~ msgstr "Kazalo za datoteke na vseh odstranljivih nosilcih"
+
+#~ msgid "Ask individually when newly mounted"
+#~ msgstr "Vprašaj ob priklopu vsake nove naprave"
+
+#~ msgid "Refresh"
+#~ msgstr "Osveži"
+
+#~ msgid "Files"
+#~ msgstr "Datoteke"
+
+#~ msgid "Emails"
+#~ msgstr "E-pošta"
+
+#~ msgid "Calculating"
+#~ msgstr "Preračunavanje"
+
+#~ msgid "Desktop Search Configuration Module"
+#~ msgstr "Nastavitveni modul za namizno iskanje"
+
+#~ msgctxt "@info:status"
+#~ msgid "File Metadata services are active"
+#~ msgstr "Storitve metapodatkov datotek so dejavne"
+
+#~ msgctxt "@info:status"
+#~ msgid "File Metadata services are disabled"
+#~ msgstr "Storitve metapodatkov datotek so onemogočene"

@@ -1,0 +1,1244 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2016, 2020, 2021, 2023, 2024, 2025, 2026 Giovanni Sora <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 10:16+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr ""
+"Error critic in le leger informationes de dispositivo fundamental per "
+"pannello tactile %1"
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Non pote connecter a servitor X"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Necun pannello tactile (touchpad) trovate"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Nn pote applicar configuration de touchpad"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Non pote leger configuration de touchpad"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Non pote leger configuration predefinite de touchpad"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "Incapace a seliger retro-administration appropriate"
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Error durante que il incarga valores. Tu vide registros (logs) per ulterior "
+"information. Pro favor reinitia iste modulo de configuration."
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr "Necun dispositico de punctar esseva trovate. Nunc connecte."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Incapace a salveguardar omne modificationes. Vide registros per ulterior "
+"information. Pro favor tu restarta iste modulo de configuration e essaya de "
+"novo."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Error quando il cargava valores predefinite. Il falleva a fixar alcun "
+"optiones a lor valor predefinite."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Error durante que il adde dispositivos connectite recentemente. Pro favor "
+"reconnecte lo e restarta iste modulo de configuration."
+
+#: kcm.cpp:185
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr ""
+"Dispositivo de punctar disconnectite. Claudite su dialogo de preferentias."
+
+#: kcm.cpp:187
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr ""
+"Dispositivo de punctar disconnectite. Necun altere dispositivos trovate.."
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Necun pannello tactile (touchpad) trovate"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Connecte un touchpad (pannello tactile) externe"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Dispositivo:"
+
+#: ui/main.qml:110
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "General:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Habilita dispositivo"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Disactiva quando le mus es connectite"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Dishabilita quando typa"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "Isto pote interfere con video-jocos."
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Buttones de sinistra e dextera:"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Intercambio (modo de mano sinistre)"
+
+#: ui/main.qml:185
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Pressa  ambes simultaneemente per pulsar in le medio"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Activar iste preferentia augmenta le latentia de cliccar per 50ms. Le "
+"retardo extra es necessitate per relevar correctemente le clicks simultanee "
+"sinistre e dextere."
+
+#: ui/main.qml:207
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Velocitate de punctator:"
+
+#: ui/main.qml:287
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Habilita Acceleration de punctator"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+"Quando habilitate, distantia de viage de puncator augmenta con velocitate de "
+"movivento plus veloce."
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Velocitate de Rolar:"
+
+#: ui/main.qml:360
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Lisie (plus lente)"
+
+#: ui/main.qml:367
+#, kde-format
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Plus rapide"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Rolar per:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr "Mover duo digitos ubique"
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr "Mover un digito sur margine"
+
+#: ui/main.qml:404
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Inverte direction de rolar (Rolar Natural)"
+
+#: ui/main.qml:421
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Dishabilita rolar horizontal"
+
+#: ui/main.qml:439
+#, kde-format
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Pulsae a dextera per:"
+
+#: ui/main.qml:443
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Pressar button-angolo dextere"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Cliccar in le medio per pressar ambes le angulos a basso."
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Cliccar in le medio per pressar le centro a basso."
+
+#: ui/main.qml:471
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Pressar ubique con duo digitos"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Cliccar in le medio per pressar ubique con tres digitos."
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Pulsar in medio per:"
+
+#: ui/main.qml:487
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Pressar bordo medie a basso"
+
+#: ui/main.qml:507
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Pressar angulos sinistre e dextere a basso"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Pressar ubique con tres digitos"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Toccar:"
+
+#: ui/main.qml:533
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Colpa per pulsar"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr "Permitte traher post toccar"
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+"Tocca, post tocca e immediatemente glissa le digito sur le pannello tactile "
+"(touchpad) per traher. Leva le digito per lassar."
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+"Permitte levar brevemente le digito durante  tocca-e-trahe (tap-and-drag)"
+
+#: ui/main.qml:580
+#, kde-format
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Tocco de duo digito:"
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Clicca a dextera (tocco de tres-digito a click de medio)"
+
+#: ui/main.qml:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Pulsa a dextera:"
+
+#: ui/main.qml:608
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Click de medio (colpos de tres digitos per cliccar a dextera)"
+
+#: ui/main.qml:609
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Click in medio"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "La requesta de dispositivos de entrata falleva. Pro favor reaperi iste "
+#~ "modulo de preferentias."
+
+#~ msgid "Device enabled"
+#~ msgstr "Dispositivo habilitate"
+
+#~ msgid "Two fingers"
+#~ msgstr "Duo digitos"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Culmines de touchpad"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Colpa per pulsar"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Tocca-e-trahe"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Cliccar a dextera integrate:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Cliccar in medio integrate: "
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Accepta ingresso per iste dispositivo"
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Dishabilita touchpad quando tu typa per impedir ingressos accidental."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Pulsar buttones de sinistra e dextera simultaneemente age como cliccar in "
+#~ "le medio."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Glissa con le rolar de duo digitos."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Glissa sur rolos de bordos de pannello tactile (touchpad)"
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Schermo tactile como rolar."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Dishabilita rolar horizontal."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Singule tocco per cliccar a sinistra"
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "file:///home/giovanni/Lavoro/DocLeone/PerFirma2"
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Blocca Tocca-e-Trahe"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Traher continua post un breve altiar de digito."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Tocco con duo digito per click dextere, tocco con tres digitos per click "
+#~ "in le medie."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Tocco con duo digitos per click a dextera"
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Tocco con duo digitos per click de medio, tocco con tres digitos per "
+#~ "click a dextera."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Tocco con duo digitos per click in le medie."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "Pressar le angulo dextere a basso de tu pannello tactile (touchpad) age "
+#~ "como cliccar a dextera. Le cliccar in le medio es per pressar "
+#~ "simultaneemente le angulos dextere e sinistre a basso."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "Pressar le angulo dextere a basso de tu pannello tactile (touchpad) age "
+#~ "como cliccar a dextera. Le cliccar in le medio es per pressar le area "
+#~ "central a basso."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr ""
+#~ "Pressar le pannello digital (touchpad) ubique con duo digitos age comor "
+#~ "click a dextera."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr ""
+#~ "Pressar le angulo dextere a basso de tu pannello tactile (touchpad) age "
+#~ "como cliccar a dextera."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "Pressar angulos sinistre e dextere a basso simultaneemente age como un "
+#~ "cliccar in le medio."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr ""
+#~ "Tocco  le pannello digital (touchpad) ubique con tres digitos age como "
+#~ "cliccar in le medio."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Touchpad activate"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Touchpad disactivate"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Commuta pannello tactile (TouchPad)"
+
+#~ msgid "None"
+#~ msgstr "Necun"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Cursor moves le mesme distantia que le digito."
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr ""
+#~ "Distantia de viage de cursor depende del velocitate de movimento del "
+#~ "digito."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Nulle action"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "button sinistre"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "button de centro"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "button dextere"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Omne margines"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Bordo culmine"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Angulo culmine dextere"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Bordo dextere"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Angulo in basso a dextera:"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Bordo a basso"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Angulo culmine sinistre"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Bordo sinistre"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Angulo culmine sinistre"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr ""
+#~ "Pannello tactile esseva dishabilitate proque un mus esseva conectite"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr ""
+#~ "Touchpad (pannello tactile) esseva activate proque le mus esseva "
+#~ "disconnectite"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr ""
+#~ "Buttones habilitate per software essera addite al portion a basso de tu "
+#~ "pannello tactile"
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Tocca con duo digitos per habilitar click dextere."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Button de medie habilitate per software essera addite al portion a bsso "
+#~ "de tu pannello tactile."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Giovanni Sora"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "g.sora@tiscali.it"
+
+#~ msgid "Drag me"
+#~ msgstr "Trahe me"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "button sinistre"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "button dextere"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "button de centro"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Preferentias active non coincide con preferentias salveguardate.\n"
+#~ "Tu currentemente vide preferentias salveguardate."
+
+#~ msgid "Show active settings"
+#~ msgstr "Monstra preferentias active"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Iste preferentias non habera effecto in le area de essayar"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Activa/Deactiva Pannello Tactile (Touchpad)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Activa/Deactiva Pannello Tactile (Touchpad)"
+
+#~ msgid "Configure…"
+#~ msgstr "Configura..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Vias breve de claviero:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Disactiva le pannellao tactile (touchpad) quando typa"
+
+#~ msgid "Timeout:"
+#~ msgstr "Tempore Expirate:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Si il non habeva activitate de claviero per plus que le numero\n"
+#~ "specificate de millisecundas, le pannello tactile essera habilitate de "
+#~ "novo"
+
+#~ msgid " ms"
+#~ msgstr "ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Dishabilita emulation de click e rolar.\n"
+#~ "Tu ancora potera mover punctator usante le pannello tactile e executar "
+#~ "clicks con buttones  hardware."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Dishablita solmente toccos e rolar"
+
+#~ msgid "Notifications:"
+#~ msgstr "Notificationes:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Dispositivs ignorate:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Alcun dispositivos pote esser tractate incorrectemente como un mus.\n"
+#~ "Tu pote adder los a iste lista asii que illos essera ignorate quando "
+#~ "essera connectite"
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Movimento de Punctator"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Velocitate"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Minime"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Velocitate minime de punctator"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maxime"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Velocitate maxime  de punctator"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Acceleration:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Factor de acceleration per movimentos de punctator normal"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Movimento dependente de pression"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minime pression:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Minime factor:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Maxime pression:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Maxime factor:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Pression de digito al qual le factor de movimento de pression minime es "
+#~ "applicate"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Pression de digito al qual le factor de movimento de pression maxime es "
+#~ "applicate"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Preferentia inferior per factor de movimento de pression"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Preferentia superior per factor de movimento de pression"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Cancellation de ruito"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Vertical:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Horizontal:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Le minime distantia hardware vertical requirite per generar eventos de "
+#~ "movimento"
+
+#~ msgid " units"
+#~ msgstr "unitates"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Le minime distantia hardware horizontal requirite per generar eventos de "
+#~ "movimento"
+
+#~ msgid "Scrolling"
+#~ msgstr "Rolar"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Rolar culmine:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Habilita rolar vertical quando traher preter le bordo dextere"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Habilita rolar horizontal quando traher preter le bordo a basso"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Habilita rolar vertical quando traher con duo digitos ubique sur le "
+#~ "pannello tactile"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Habilita rolar horizontal quando traher con duo digitos ubique sur le "
+#~ "pannello tactile"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Rolar vertical invertite"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Rolar horizontal invertite"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Rolar a duo digitos:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Rolar invertite:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Distantia de Rolar"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Vertical:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Move distantia del digito per un evento de rolar"
+
+#~ msgid " mm"
+#~ msgstr "mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Horizontal:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Continua rolar postea que le digito es liberate ab le bordo del pannllo "
+#~ "tactile"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Costeante"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Minime velocitate:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Tu digito necessita producer multe rolamentos per secundas pro initiar "
+#~ "cabotage"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " rolos/sec"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Deceleration:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Numero de rolos/second² a diminuer le velocitate de coasting "
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " rolos/sec²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Coasting de angulo:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Habilita rolar de bordo per continuar quando le le digito es in un angulo "
+#~ "de bordo"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Rolar es ingagiate quando un operation de traher initia in le date region "
+#~ "de discatenamento.\n"
+#~ "Mover tu digitos in circulos de senso horario circa le centro del "
+#~ "pannello tactile\n"
+#~ "rolara a basso e si de senso anti-horario rolara in alto"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Rolar circular"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Disbloca region:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr ""
+#~ "Region de discatenar sur le pannello tactile a initiar rolar circular"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Angulo:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Move angulo (grados) de digito per generar un evento de rolar"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Quando usate con rolar vertical,  colpar le angulo dextere superior o "
+#~ "inferior fluentemente commutara inter rolar vertical e circular"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Sensibilitate"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Sensibilitate"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Pression per relevar un tocco:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Pression per relevar un liberation:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Quando le pression de digito va super iste valor, le driver conta illo "
+#~ "como un tocco"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Quando le pression de digito cade sub iste valor, le driver conta illo "
+#~ "como liberation"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Si discoperta de palma deberea esser habilitate. Nota que isto anque "
+#~ "require supporte de hardware/firmware ab le pannello tactil"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Discoperta de palma"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Largessa minime:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minime pression:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr ""
+#~ "Minime largessa de digito per le qual un tocco es considerate un palma"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr ""
+#~ "Minime pression de digito per le qual un tocco es considerate un palma"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Toccos"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Un digito:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco de un sol digito non "
+#~ "angular   "
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Duo digitos:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco de duo digitos non angular   "
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Tres digitos:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco de tres digitos non "
+#~ "angular   "
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Angulos"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "In alto a sinistra:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco  angular sinistre in alto"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "In basso a sinistra:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "In alto a dextera:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco  angular sinistre in basso"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco  angular dextere in alto"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr ""
+#~ "Qual button de mus es reportate sur un tocco  angular dextere in basso"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "In basso a dextera:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "iste gesticular es un modo alternative de traher: Illo es executate per "
+#~ "colpar (tap), i.e. toccar e liberar le digito, e depois tocarr de novo e "
+#~ "mover le digito sur le pannello tactile"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Gesticular de Colpar e traher (Tap-and_Drag)"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Si off (deactivate9, un gesto de colpar-e-traher termina quando tu libera "
+#~ "le digito. Si on (activate), le gesto es activate usque tu colpa un "
+#~ "tempore de un secunda, o usque le tempore limite expira"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Locked Drags (Traher blocate)"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Tempore Expirate:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Quante tempore il necessita (in millisecundas) per facer que le modo de "
+#~ "\"Locked Drags\" es deactivate de modo automatic postea que un digito es "
+#~ "liberate ab le pannello tactile"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Discoperta de tocco"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maxime tempore:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Maxime movimento de digito:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Maxime tempore per un duple colpo:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Tempore limite de un singule colpo:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Maxime tempore (in millisecundas) per discoperir un colpo"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Maxime movimento de digito per discoperir un colpo"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Maxime tempore (in millisecundas) per discoperir un duple colpo"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr ""
+#~ "Tempore limite post que un colpo es recognoscite como un singule colpo"
+
+#~ msgid "Testing area"
+#~ msgstr "Area de Essayar "
+
+#~ msgid "Click me"
+#~ msgstr "Pulsa Me"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Profilo de acceleration:"
+
+#~ msgid "Flat"
+#~ msgstr "Plan"
+
+#~ msgid "Adaptive"
+#~ msgstr "Adaptative"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Touchpad (Pannello Tactile) KCM"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr ""
+#~ "Modulo de preferentias de systema per gerer tu pannello tactile (touchpad)"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Copyright © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Disveloppator"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Modulo de preferentias de systema, demone e applet de Plasma per gerer tu "
+#~ "pannello tactile"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Copyright © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Iste programma incorpora travalio coperite per iste notification de "
+#~ "copyright:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Usabilitate, essayar"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Adjutate un pauc"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Disveloppator de synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Essayante "
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"

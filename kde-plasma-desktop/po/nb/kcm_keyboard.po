@@ -1,0 +1,558 @@
+# Translation of kcm_keyboard to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2007, 2010, 2011, 2012, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2026-03-07 23:48+0100\n"
+"Last-Translator: Kjetil Sorlund <translate@sorlund.no>\n"
+"Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Bjørn Steensrud,Martin Hansen,Kjetil Sorlund"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bjornst@skogkatt.homelinux.org,mh306602@gmail.com,translate@sorlund.no"
+
+#: bindings.cpp:24
+#, kde-format
+msgid "Keyboard Layout Switcher"
+msgstr "Tastaturoppsett-bytter"
+
+#: bindings.cpp:26
+#, kde-format
+msgid "Switch to Next Keyboard Layout"
+msgstr "Bytt til neste tastaturoppsett"
+
+#: bindings.cpp:30
+#, kde-format
+msgid "Switch to Last-Used Keyboard Layout"
+msgstr "Bytt til sist brukte tastaturoppsett"
+
+#: bindings.cpp:60
+#, kde-format
+msgid "Switch keyboard layout to %1"
+msgstr "Bytt tastaturoppsett til %1"
+
+#: keyboardmodel.cpp:35
+#, kde-format
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: keyboardmodel.cpp:39
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr "%1 | %2"
+
+#: tastenbrett/main.cpp:52
+#, kde-format
+msgctxt "app display name"
+msgid "Keyboard Preview"
+msgstr "Forhåndsvisning av tastatur"
+
+#: tastenbrett/main.cpp:54
+#, kde-format
+msgctxt "app description"
+msgid "Keyboard layout visualization"
+msgstr "Visualisering av tastaturoppsett"
+
+#: tastenbrett/main.cpp:139
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant.\n"
+"Previewing layouts that are defined outside your systems xkb directory is "
+"not supported and  will also trigger this message. These might still work "
+"fine if applied"
+msgstr ""
+"Klarte ikke laste tastaturgeometrien. Dette tyder vanligvis at den valgte "
+"modellen ikke støtter et viss oppsett eller en viss oppsettsvariant. Dette "
+"problemet vil trolig og oppstå når du prøver å bruke denne kombinasjonen av "
+"modell, oppsett og oppsettsvariant.\n"
+"Forhåndsvisning av oppsett som er definerte utenfor xkb-mappa, er ikke "
+"støttet, og vil og utløse denne feilmeldinga. Men det kan være oppsettene "
+"likevel vil fungere."
+
+#: ui/KeyBindings.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Configure Key Bindings…"
+msgstr "Sette opp tastebindinger …"
+
+#: ui/KeyBindings.qml:62
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Configure keyboard options"
+msgstr "Sett opp tastaturinnstillinger"
+
+#: ui/KeyBindings.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: ui/KeyBindings.qml:138
+#, kde-format
+msgctxt "@info accessible"
+msgid "Reset selected options for this group"
+msgstr "Tilbakestill valgte innstillinger for denne gruppa"
+
+#: ui/KeyBindings.qml:139
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reset selected options for this group"
+msgstr "Tilbakestill valgte innstillinger for denne gruppa"
+
+#: ui/LayoutDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Layout"
+msgstr "Still inn utforming"
+
+#: ui/LayoutDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Layout"
+msgstr "Legg til tastaturoppsett"
+
+#: ui/LayoutDialog.qml:121
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Short layout name"
+msgstr "Kort oppsettnavn"
+
+#: ui/LayoutDialog.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The abbreviated name of the selected layout, which will be displayed in the "
+"system tray. You can change this setting yourself."
+msgstr ""
+"Forkortet navn på det valgte tastaturoppsettet, som vises i systemkurven. Du "
+"kan endre dette selv."
+
+#: ui/LayoutDialog.qml:139
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Shortcut:"
+msgstr "Hurtigtast:"
+
+#: ui/LayoutDialog.qml:150 ui/main.qml:287
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Switching…"
+msgstr "Sett opp bytting …"
+
+#: ui/main.qml:38
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Configure Switching"
+msgstr "Sett opp bytting"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Key Bindings"
+msgstr "Tastebindinger"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Key Bindings"
+msgstr "Tastebindinger"
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt "@action:button Layout"
+msgid "Add…"
+msgstr "Legg til …"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add layout"
+msgstr "Legg til tastaturoppsett"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@label:checkbox configure layouts option"
+msgid "Enable"
+msgstr "Ta i bruk"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Configure Layouts"
+msgstr "Sett opp tastaturoppsett"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@label:listbox Keyboard model"
+msgid "Model:"
+msgstr "Modell:"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@label:listbox"
+msgid "NumLock on startup:"
+msgstr "«Num Lock» ved oppstart:"
+
+#: ui/main.qml:112
+#, kde-format
+msgctxt "@item:inlistbox Turn on \"NumLock\" on startup"
+msgid "Turn on"
+msgstr "Slå på"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt "@item:inlistbox Turn off \"NumLock\" on startup"
+msgid "Turn off"
+msgstr "Slå av"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt ""
+"@item:inlistbox Leave \"NumLock\" at whatever it was set to before Plasma "
+"started up"
+msgid "Leave unchanged"
+msgstr "La være uendret"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Key repeat:"
+msgstr "Tastegjentaking:"
+
+#: ui/main.qml:155 ui/main_phone.qml:115
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Key repeat"
+msgstr "Tastegjentaking"
+
+#: ui/main.qml:166 ui/main_phone.qml:131
+#, kde-format
+msgctxt "@label:textbox Key repeat delay"
+msgid "Delay:"
+msgstr "Forsinkelse:"
+
+#: ui/main.qml:180 ui/main_phone.qml:135
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat delay %1"
+msgstr "Forsinkelse for tastegjentakelse %1v"
+
+#: ui/main.qml:188 ui/main_phone.qml:143
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "%1 ms"
+msgstr "%1 ms"
+
+#: ui/main.qml:192 ui/main_phone.qml:147
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "ms"
+msgstr "ms"
+
+#: ui/main.qml:205 ui/main_phone.qml:162
+#, kde-format
+msgctxt "@label:textbox Key repeat rate"
+msgid "Rate:"
+msgstr "Hyppighet:"
+
+#: ui/main.qml:219 ui/main_phone.qml:169
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat rate %1"
+msgstr "Hyppighet ved tastegjentakelse %1"
+
+#: ui/main.qml:227 ui/main_phone.qml:177
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "%1 repeats/s"
+msgstr "%1 gjentakelser/sekund"
+
+#: ui/main.qml:231 ui/main_phone.qml:181
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "repeats/s"
+msgstr "gjentakelser/sekund"
+
+#: ui/main.qml:243
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Test area:"
+msgstr "Testområde:"
+
+#: ui/main.qml:245
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to test settings"
+msgstr "Skriv her for å prøve innstillingene"
+
+#: ui/main.qml:256
+#, kde-format
+msgctxt "@title:view"
+msgid "Layouts"
+msgstr "Oppsett"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "Flytt opp"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout up"
+msgstr "Flytt %1 oppsett opp"
+
+#: ui/main.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr "Flytt ned"
+
+#: ui/main.qml:278
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout Down"
+msgstr "Flytt %1 oppsett ned"
+
+#: ui/main.qml:288
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: ui/main.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Fjern"
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Remove layout %1"
+msgstr "Fjern oppsett %1"
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Spare layouts:"
+msgstr "Reserveoppsett:"
+
+#: ui/main.qml:346
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of spared main layouts"
+msgstr "Antall på reserveoppsett"
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@label:textbox completes spinbox, x main layouts"
+msgid "main layouts"
+msgstr "Hovedoppsett"
+
+#: ui/main.qml:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can have up to 4 main layouts, all other layouts are spare. Spare "
+"layouts are not included when cycling through the layouts, but can be "
+"accessed through the keyboard indicator applet or by setting a custom "
+"shortcut."
+msgstr ""
+"Du kan ha fire hovedoppsett, og resten blir reserveoppsett. Reserve­"
+"oppsettene tas ikke med når du blar gjennom tastaturoppsettene, men du får "
+"tilgang til de via tastaturoppsett-ikonet eller via en tilpasset hurtigtast."
+
+#: ui/main.qml:387
+#, kde-format
+msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
+msgid "Change layout shortcut:"
+msgstr "Bytt oppsettsnarvei:"
+
+#: ui/main.qml:410
+#, kde-format
+msgctxt "@label Change layout shortcut or \"Configure Switching\""
+msgid "or"
+msgstr "eller"
+
+#: ui/main_phone.qml:36
+#, kde-format
+msgctxt "@title form header"
+msgid "Model & Layout"
+msgstr "Modell og oppsett"
+
+#: ui/main_phone.qml:43
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Keyboard Model"
+msgstr "Tastaturmodell"
+
+#: ui/main_phone.qml:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Custom Layout"
+msgstr "Tilpasset utforming"
+
+#: ui/main_phone.qml:96
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Layout..."
+msgstr "Endre utforming …"
+
+#: ui/main_phone.qml:103
+#, kde-format
+msgctxt "@title:group"
+msgid "Key Repeat"
+msgstr "Tastegjentaking"
+
+#: ui/main_phone.qml:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Customize Repeat"
+msgstr "Tilpass gjentaking"
+
+#: ui/Switching.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Configure Switching"
+msgstr "Sett opp bytting"
+
+#: ui/Switching.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr "Atferd"
+
+#: ui/Switching.qml:28
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Switching layout affects:"
+msgstr "Bytting av oppsett påvirker:"
+
+#: ui/Switching.qml:35
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows"
+msgstr "Alle vinduer"
+
+#: ui/Switching.qml:39
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows on current desktop"
+msgstr "Alle vinduer på gjeldende skrivebord"
+
+#: ui/Switching.qml:43
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows of current application"
+msgstr "Alle vinduene til gjeldende program"
+
+#: ui/Switching.qml:47
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Current window only"
+msgstr "Bare det gjeldende vinduet"
+
+#: ui/Switching.qml:74
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Show OSD popup on layout change"
+msgstr "Vis skjermmelding-sprettopp ved bytte av tastaturoppsett"
+
+#: ui/Switching.qml:86
+#, kde-format
+msgctxt "@title:group"
+msgid "Shortcuts"
+msgstr "Hurtigtaster"
+
+#: ui/Switching.qml:91 ui/Switching.qml:151
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Change layout:"
+msgstr "Bytt oppsett:"
+
+#: ui/Switching.qml:111
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Switch to last used layout:"
+msgstr "Bytt til sist brukte oppsett:"
+
+#: ui/Switching.qml:131
+#, kde-format
+msgctxt "@title:group"
+msgid "Legacy Shortcuts"
+msgstr "Historiske hurtigtaster"
+
+#: ui/Switching.qml:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Legacy X11 shortcuts allow finer control of modifier-only shortcuts and have "
+"slightly better support on X11 in edge cases. They can also be used on "
+"Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings "
+"page."
+msgstr ""
+"Historiske X11-hurtigtaster tillater finjustering av hurtigtaster som kun er "
+"valgtaster, og har litt bedre støtte for visse tilfeller i X11. De kan og "
+"brukes i Wayland.<nl/> <nl/> Oppsett av disse hurtigtastene vil ta deg "
+"tilbake til «Tastebindinger»-siden."
+
+#: ui/Switching.qml:180
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Alternative symbols:"
+msgstr "Alternative symboler:"
+
+#: ui/Switching.qml:206
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Modifier keys can be used to type additional characters, symbols, and "
+"diacritical marks."
+msgstr ""
+"Valgtaster kan brukes til å skrive ytterligere tegn, symboler og diaktriske "
+"tegn."
+
+#: xkboptionsmodel.cpp:165
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] "%1 snarvei"
+msgstr[1] "%1 snarveier"
+
+#: xkboptionsmodel.cpp:168
+#, kde-format
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "Ingen"

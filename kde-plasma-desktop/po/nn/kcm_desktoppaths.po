@@ -1,0 +1,149 @@
+# Translation of kcm_desktoppaths to Norwegian Nynorsk
+#
+# Gaute Hvoslef Kvalnes <gaute@verdsveven.com>, 1999, 2000, 2002, 2003, 2004, 2005.
+# Håvard Korsvoll <korsvoll@skulelinux.no>, 2003.
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2025-10-26 12:23+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.08.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Skrivebordsmappe:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr "Dette er mappa som inneheld alle filene du ser på skrivebordet."
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Dokumentmappe:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr "Dette er mappa som dokument vanlegvis vert lagra til eller lesne frå."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Nedlastingsmappe:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "Dette er mappa som nedlasta filer vanlegvis vert lagra i."
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Videomappe:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Dette er mappa som filmar og videoklipp vanlegvis vert lagra til eller lesne "
+"frå."
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Biletmappe:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Dette er mappa som filmar og videoklipp vanlegvis vert lagra til eller lesne "
+"frå."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "Musikkmappe:"
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Dette er mappa som musikkfiler vanlegvis vert lagra til eller lesne frå."
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Offentleg mappe:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Dette er mappa som offentleggjorde filer vanlegvis vert henta frå når "
+"fildeling over nettverket er slått på."
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Malmappe:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr "Dette er mappa som malar vanlegvis vert lagra til eller lesne frå."
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Pictures folder:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Biletmappe:"
+
+#: ui/main.qml:171
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip and accessible description"
+#| msgid "This folder will be used by default to open or save documents."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr "Dette er mappa som dokument vanlegvis vert lagra til eller lesne frå."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "Vel ny mappe"

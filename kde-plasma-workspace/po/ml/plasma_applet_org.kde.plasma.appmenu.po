@@ -1,0 +1,56 @@
+# Malayalam translations for plasma-workspace package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2021-08-12 11:59+0000\n"
+"Last-Translator: Vivek K J <vivekkj2004@gmail.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
+"org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.7.2\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "തിരയുക"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "തിരയുക…"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "ബാഹ്യരൂപം"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "പ്രയോഗ വിഭവസൂചികയ്ക്കായി ഒറ്റ ബട്ടൺ ഉപയോഗിക്കുക"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "മുഴുവൻ പ്രയോഗ വിഭവസൂചികയും പ്രദർശിപ്പിയ്ക്കുക"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr ""
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr ""

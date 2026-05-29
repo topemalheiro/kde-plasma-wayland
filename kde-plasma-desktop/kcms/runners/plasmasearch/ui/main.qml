@@ -1,0 +1,102 @@
+/*
+    SPDX-FileCopyrightText: 2022 Alexander Lohnau <alexander.lohnau@gmx.de>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+
+import org.kde.config
+import org.kde.kirigami as Kirigami
+import org.kde.kcmutils as KCMUtils
+import org.kde.newstuff as NewStuff
+
+KCMUtils.ScrollViewKCM {
+    id: root
+
+    implicitWidth: Kirigami.Units.gridUnit * 32
+    implicitHeight: Kirigami.Units.gridUnit * 18
+
+    actions: [
+        Kirigami.Action {
+            icon.name: "configure"
+            text: i18nc("@action:button in toolbar", "Configure KRunner…")
+            Accessible.name: text // https://bugreports.qt.io/browse/QTBUG-130360
+            onTriggered: kcm.showKRunnerKCM()
+        },
+        NewStuff.Action {
+            text: i18nc("@action:button in toolbar", "Get New Plugins…")
+            visible: KAuthorized.authorize(KAuthorized.GHNS)
+            configFile: "krunner.knsrc"
+            onEntryEvent: (entry, event) => {
+                if (event === NewStuff.Engine.StatusChangedEvent) {
+                    kcm.reloadPlugins()
+                }
+            }
+        }
+    ]
+
+    header: ColumnLayout {
+        spacing: Kirigami.Units.smallSpacing
+
+        QQC2.Label {
+            text: i18nc("@info:usagetip", "Enable or disable plugins (used in KRunner, Application Launcher, and the Overview effect). Mark plugins as favorites and arrange them in order you want to prioritize them.")
+            textFormat: Text.PlainText
+            wrapMode: Text.WordWrap
+            Layout.fillWidth: true
+        }
+
+        Kirigami.SearchField {
+            id: searchField
+            Layout.fillWidth: true
+        }
+    }
+
+    view: KCMUtils.PluginSelector {
+        id: pluginSelector
+        sourceModel: kcm.model
+        query: searchField.text
+        reuseItems: true // delegates are fairly expensive to construct due to their use of ActionToolBar
+        delegate: Item { // Needed to avoid visual glitches in ListItemDragHandle
+            id: delegateItem
+            width: pluginSelector.width
+            implicitHeight: pluginDelegate.implicitHeight
+            // PluginDelegate must either be a direct delegate, or have a model explicitly set
+            // "model: model" would just be a binding loop, so we store the model in a property of the
+            // direct delegate Item and access it from PluginDelegate
+            property var modelObject: model
+            property bool isFavorite: model.category === kcm.favoriteCategory
+            KCMUtils.PluginDelegate {
+                id: pluginDelegate
+                model: delegateItem.modelObject
+                width: pluginSelector.width
+                property var drag: Kirigami.ListItemDragHandle {
+                    property int dropNewIndex
+                    listItem: pluginDelegate
+                    listView: pluginSelector
+                        // Moving the rows now would cause a model reset and we could not drag an entry multiple rows up/down
+                    onMoveRequested: (oldIndex, newIndex) => (dropNewIndex = newIndex)
+                    onDropped: () => kcm.movePlugin(model.metaData, dropNewIndex)
+                }
+                Component.onCompleted: {
+                    if (isFavorite) {
+                        leading = drag
+                    }
+                }
+                additionalActions: [
+                    Kirigami.Action {
+                        displayHint: Kirigami.DisplayHint.IconOnly
+                        text: isFavorite ? i18nc("@action:button, icononly", "Remove from favorites") : i18nc("@action:button, icononly", "Add to favorites")
+                        Accessible.name: text // https://bugreports.qt.io/browse/QTBUG-130360
+                        icon.name: isFavorite ? "starred-symbolic": "non-starred-symbolic"
+                        onTriggered: isFavorite ? kcm.removeFromFavorites(model.metaData) : kcm.addToFavorites(model.metaData)
+                    }
+                ]
+                onConfigTriggered: kcm.showKCM(model.config, [], model.metaData)
+                highlighted: false
+            }
+        }
+    }
+}

@@ -1,0 +1,490 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024, 2025 Kheyyam Godjayev <xxmn77@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"PO-Revision-Date: 2025-10-21 19:50+0400\n"
+"Last-Translator: linux <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xəyyam Qocayev"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xxmn77@gmail.com"
+
+#: currentcontainmentactionsmodel.cpp:201
+#, kde-format
+msgid "Configure Mouse Actions Plugin"
+msgstr "Siçan fəaliyyəti modulunun tənzimlənməsi"
+
+#: desktopview.cpp:213
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Dev"
+msgstr "KDE Plasma 6.0 Dev"
+
+#: desktopview.cpp:216
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Alpha"
+msgstr "KDE Plasma 6.0 Alpha"
+
+#: desktopview.cpp:219
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 1"
+msgstr "KDE Plasma 6.0 Beta 1"
+
+#: desktopview.cpp:222
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 2"
+msgstr "KDE Plasma 6.0 Beta 2"
+
+#: desktopview.cpp:225
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC1"
+msgstr "KDE Plasma 6.0 RC1"
+
+#: desktopview.cpp:228
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC2"
+msgstr "KDE Plasma 6.0 RC2"
+
+#: desktopview.cpp:254
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Dev"
+msgstr "KDE Plasma %1 Dev"
+
+#: desktopview.cpp:258
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Beta"
+msgstr "KDE Plasma %1 Beta"
+
+#: desktopview.cpp:261
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "KDE Plasma %1 Beta %2"
+msgstr "KDE Plasma %1 Beta %2"
+
+#: desktopview.cpp:265
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1"
+msgstr "KDE Plasma %1"
+
+#: desktopview.cpp:271
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Visit bugs.kde.org to report issues"
+msgstr "Xətalar haqqında bugs.kde.org saytında bildirin"
+
+#: desktopview.cpp:279
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Plasma Version"
+msgstr "Plasma versiyasını kopyalamaq"
+
+#: desktopview.cpp:285
+#, kde-format
+msgctxt "@action:button"
+msgid "Report a Bug…"
+msgstr "Xətaları bildirin..."
+
+#: desktopview.cpp:295
+#, kde-format
+msgctxt "@title:menu"
+msgid "Hide Preview Banner"
+msgstr "Öncədən baxış bannerlərini gizlətmək"
+
+#: desktopview.cpp:297
+#, kde-format
+msgctxt "@action:button Hide the preview banner until the system is restarted"
+msgid "Hide Until Restart"
+msgstr "Yenidən başladanadək gizlətmək"
+
+#: desktopview.cpp:304
+#, kde-format
+msgctxt "@action:button Hide the preview banner permanently"
+msgid "Hide Permanently…"
+msgstr "Həmişəlik gizlətmək..."
+
+#: desktopview.cpp:310
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Are you sure you want to permanently hide the preview banner?<nl/><nl/>This "
+"action can only be undone by removing the line beginning with "
+"<icode>ShowDesktopPreviewBanner</icode> in the <filename>kdeglobals</"
+"filename> config file."
+msgstr ""
+"Öncədən baxıç bannerlərini həmişəlik gizlətmək istədiyinizə əminsiniz?.<nl/"
+"><nl/>Bu yalnız <filename>kdeglobals</filename> tənzimləmə faylında "
+"<icode>ShowDesktopPreviewBanner</icode> ilə başlanan sətri silməklə ləğv "
+"edilə bilər."
+
+#: desktopview.cpp:312
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide Preview Banner?"
+msgstr "Öncədən baxış bannerlərini gizlədək?"
+
+#: desktopview.cpp:543 desktopview.cpp:559
+#, kde-format
+msgid "Enter Edit Mode"
+msgstr "Düzəliş rejiminə giriş"
+
+#: desktopview.cpp:557
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "Düzəliş rejimindən çıxış"
+
+#: main.cpp:108
+#, kde-format
+msgid "Plasma Shell"
+msgstr "Plasma örtüyü"
+
+#: main.cpp:121
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "QML Javascript sazlayıcısını aktiv etmək"
+
+#: main.cpp:124
+#, kde-format
+msgid "Do not restart plasma-shell automatically after a crash"
+msgstr "Çökdükdən sonra plasma üz qabığını avtomatik başlatmamaq"
+
+#: main.cpp:127
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "Göstərilən modulun məcburi başladılması"
+
+#: main.cpp:131
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "Cari başladılan əməliyyatı əvəz etmək"
+
+#: main.cpp:134
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr "İstifadəçi rəyi üçün mövcud seçimlərin siyahısı"
+
+#: main.cpp:190
+#, kde-format
+msgid "Plasma Failed To Start"
+msgstr "Plasma başladıla bilmədi"
+
+#: main.cpp:191
+#, kde-format
+msgid ""
+"Plasma is unable to start as it could not correctly use OpenGL 2 or software "
+"fallback\n"
+"Please check that your graphic drivers are set up correctly."
+msgstr ""
+"Plazma, OpenGL 2 və ya proqram geriləməsini düzgün istifadə edə bilmədiyi "
+"üçün başladıla bilmir\n"
+"Lütfən, qrafik sürücünün düzgün quraşdırılıb, quraşdırılmadığını yoxlayın."
+
+#: osd.cpp:67
+#, kde-format
+msgctxt "Brightness OSD: display name and brightness percentage"
+msgid "%1: %2%"
+msgstr "%1: %2%"
+
+#: osd.cpp:95
+#, kde-format
+msgctxt "OSD informing that the system is muted, keep short"
+msgid "Audio Muted"
+msgstr "Səs Söndürülüb"
+
+#: osd.cpp:118
+#, kde-format
+msgctxt "OSD informing that the microphone is muted, keep short"
+msgid "Microphone Muted"
+msgstr "Mikrofon Söndürülüb"
+
+#: osd.cpp:134
+#, kde-format
+msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
+msgid "%1 Muted"
+msgstr "%1 Söndürülüb"
+
+#: osd.cpp:156
+#, kde-format
+msgctxt "touchpad was enabled, keep short"
+msgid "Touchpad On"
+msgstr "Toxunma Paneli Aktivdir"
+
+#: osd.cpp:158
+#, kde-format
+msgctxt "touchpad was disabled, keep short"
+msgid "Touchpad Off"
+msgstr "Toxunma Paneli Söndürüldü"
+
+#: osd.cpp:165
+#, kde-format
+msgctxt "wireless lan was enabled, keep short"
+msgid "Wifi On"
+msgstr "Wifi Aktivdir"
+
+#: osd.cpp:167
+#, kde-format
+msgctxt "wireless lan was disabled, keep short"
+msgid "Wifi Off"
+msgstr "Wifi Söndürülüb"
+
+#: osd.cpp:174
+#, kde-format
+msgctxt "Bluetooth was enabled, keep short"
+msgid "Bluetooth On"
+msgstr "Bluetooth Aktivdir"
+
+#: osd.cpp:176
+#, kde-format
+msgctxt "Bluetooth was disabled, keep short"
+msgid "Bluetooth Off"
+msgstr "Bluetooth Söndürülüb"
+
+#: osd.cpp:183
+#, kde-format
+msgctxt "mobile internet was enabled, keep short"
+msgid "Mobile Internet On"
+msgstr "Mobil İnternet Aktivdir"
+
+#: osd.cpp:185
+#, kde-format
+msgctxt "mobile internet was disabled, keep short"
+msgid "Mobile Internet Off"
+msgstr "Mobil İnternet Söndürülüb"
+
+#: osd.cpp:193
+#, kde-format
+msgctxt ""
+"on screen keyboard was enabled because physical keyboard got unplugged, keep "
+"short"
+msgid "On-Screen Keyboard Activated"
+msgstr "Ekran Klaviaturası Aktivdir"
+
+#: osd.cpp:196
+#, kde-format
+msgctxt ""
+"on screen keyboard was disabled because physical keyboard was plugged in, "
+"keep short"
+msgid "On-Screen Keyboard Deactivated"
+msgstr "Ekran Klaviaturası Söndürülüb"
+
+#: osd.cpp:203
+#, kde-format
+msgctxt "power management was inhibited, keep short"
+msgid "Sleep and Screen Locking Blocked"
+msgstr "Yuxu və ekran kilidi əngəlləndi"
+
+#: osd.cpp:205
+#, kde-format
+msgctxt "power management was uninhibited, keep short"
+msgid "Sleep and Screen Locking Unblocked"
+msgstr "Yuxu və ekran kilidi aktivdir"
+
+#: osd.cpp:215
+#, kde-format
+msgctxt "Power profile was changed to power save mode, keep short"
+msgid "Power Save Mode"
+msgstr "Enerjiyə qənaət rejimi"
+
+#: osd.cpp:218
+#, kde-format
+msgctxt "Power profile was changed to balanced mode, keep short"
+msgid "Balanced Power Mode"
+msgstr "Tarazlaşdırılmış ejim"
+
+#: osd.cpp:221
+#, kde-format
+msgctxt "Power profile was changed to performance mode, keep short"
+msgid "Performance Mode"
+msgstr "Məhsuldar rejim"
+
+#: panelview.cpp:458
+#, kde-format
+msgid ""
+"With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are "
+"known to cause poor window drag and resize performance. Consider using other "
+"settings."
+msgstr ""
+"X11-də NVİDİA GPU ilə \"Üzən panel\" və \"Uyğunlaşdırılmış\" şəffaflıq "
+"rejimində pəncərələrin sürüşdürülməsində və ölçüsünün dəyişdirilməsində bəzi "
+"pozulmalar olması məlumdur. Başqa ayarlardan istifadə etməyə cəhd edin."
+
+#: panelview.cpp:1144
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Panel Configuration"
+msgstr "Panel tənzimləməsini gizlətmək"
+
+#: panelview.cpp:1146
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Panel Configuration"
+msgstr "Panel tənzimləməsini göstərmək"
+
+#: qml/OsdItem.qml:34
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr "%1%"
+
+#: shellcontainmentconfig.cpp:107
+#, kde-format
+msgid "Internal Screen on %1"
+msgstr "Daxili ekran (%1)"
+
+#: shellcontainmentconfig.cpp:111
+#, kde-format
+msgctxt "Screen manufacturer and model on connector"
+msgid "%1 %2 on %3"
+msgstr "%1 %2 (%3)"
+
+#: shellcontainmentconfig.cpp:134
+#, kde-format
+msgid "Disconnected Screen %1"
+msgstr "Ayrılmış ekran %1"
+
+#: shellcorona.cpp:174 shellcorona.cpp:176
+#, kde-format
+msgid "Show Desktop"
+msgstr "İş masasını Göstərmək"
+
+#: shellcorona.cpp:176
+#, kde-format
+msgid "Hide Desktop"
+msgstr "İş masasını Gizlətmək"
+
+#: shellcorona.cpp:192
+#, kde-format
+msgid "Activate Application Launcher"
+msgstr "Tətbiq başladıcını aktiv etmək"
+
+#: shellcorona.cpp:200
+#, kde-format
+msgid "Show Activity Switcher"
+msgstr "Otaq dəyişdiricisi"
+
+#: shellcorona.cpp:209
+#, kde-format
+msgid "Switch to Previous Activity"
+msgstr "Əvvəlki İş otağına Keçid"
+
+#: shellcorona.cpp:217
+#, kde-format
+msgid "Switch to Next Activity"
+msgstr "Növbəti İş otağına Keçid"
+
+#: shellcorona.cpp:232
+#, kde-format
+msgid "Activate Task Manager Entry %1"
+msgstr "Tapşırıq Panelində %1 açmaq"
+
+#: shellcorona.cpp:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage Desktops and Panels…"
+msgstr "İş masalarının və Panellərin idarə edilməsi..."
+
+#: shellcorona.cpp:289
+#, kde-format
+msgid "Move keyboard focus between panels"
+msgstr "Klaviatura fokusunu panellər arasında dəyişmək"
+
+#: shellcorona.cpp:2302
+#, kde-format
+msgid "Add Panel"
+msgstr "Panel əlavə edin"
+
+#: shellcorona.cpp:2385
+#, kde-format
+msgctxt "Creates an empty containment (%1 is the containment name)"
+msgid "Empty %1"
+msgstr "%1 boş"
+
+#: softwarerendernotifier.cpp:34
+#, kde-format
+msgid "Software Renderer In Use"
+msgstr "Proqram təminatı təsvirinin formalaşdırılması istifadə olunur"
+
+#: softwarerendernotifier.cpp:35
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Software Renderer In Use"
+msgstr "Proqram təminatı təsvirinin formalaşdırılması istifadə olunur"
+
+#: softwarerendernotifier.cpp:36
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Rendering may be degraded"
+msgstr "Təsvirin formalaşdırılması sürəti adi haldakından zəif ola bilər"
+
+#: softwarerendernotifier.cpp:46
+#, kde-format
+msgid "Never show again"
+msgstr "Bir daha göstərməmək"
+
+#: userfeedback.cpp:36
+#, kde-format
+msgid "Panel Count"
+msgstr "Panellərin sayı"
+
+#: userfeedback.cpp:40
+#, kde-format
+msgid "Counts the panels"
+msgstr "Panellərin sayını göstərir"
+
+#~ msgid "Stop Current Activity"
+#~ msgstr "Cari İş otağını dayandırmaq"
+
+#~ msgid "Panel and Desktop Management"
+#~ msgstr "Panel və iş masasının idarə edilməsi"
+
+#~ msgid ""
+#~ "Enables test mode and specifies the layout javascript file to set up the "
+#~ "testing environment"
+#~ msgstr ""
+#~ "Test rejimini aktiv edir və test mühitini qurmaq üçün layout javascript "
+#~ "faylını təyin edir"
+
+#~ msgid "file"
+#~ msgstr "fayl"
+
+#~ msgid ""
+#~ "Load plasmashell as a standalone application, needs the shell-plugin "
+#~ "option to be specified"
+#~ msgstr ""
+#~ "plasmashell-i müstəqil tətbiq kimi başlatmaq. \"--shell-pluqin\" ayarının "
+#~ "verilməsi tələb olunur"
+
+#~ msgid "Unknown %1"
+#~ msgstr "%1 naməlum"
+
+#~ msgid "Unable to load script file: %1"
+#~ msgstr "Bu əmr faylı başladıla bilmədi: %1"
+
+#~ msgid "Activities..."
+#~ msgstr "İş Otaqları..."

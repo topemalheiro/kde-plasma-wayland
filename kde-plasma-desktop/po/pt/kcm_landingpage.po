@@ -1,0 +1,216 @@
+# SPDX-FileCopyrightText: 2026 César A. P. Cláudio <cesarapclaudio@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-02-07 22:24+0000\n"
+"Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "Nome do esquema de cores"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "Clique único para abrir ficheiros"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr "Mudar o pacote de aspeto e comportamento consoante a hora do dia"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "Pacote de Aspeto e Comportamento global"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "Pacote de Aspeto e Comportamento global, alternativo"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "Velocidade da animação"
+
+#: ui/LookAndFeelBox.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "Alterar tema global"
+
+#: ui/LookAndFeelBox.qml:178
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "Tema global"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "Automático"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark "
+"global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "Utilizar “%1” durante o dia e “%2” à noite"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "Mais definições de aspeto:"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "Velocidade da animação:"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "Lenta"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "Instantânea"
+
+#: ui/main.qml:220
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "Clicar em ficheiros ou pastas:"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "Seleciona-os"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "Duplo clique para abrir"
+
+#: ui/main.qml:247
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "Abre-os"
+
+#: ui/main.qml:252
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "Para selecionar, clicar no marcador de seleção do item"
+
+#: ui/main.qml:264
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "Mais definições de comportamento:"
+
+#: ui/main.qml:275
+#, kde-format
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "Páginas mais utilizadas:"
+
+#, fuzzy
+#~| msgid "Change Wallpaper…"
+#~ msgctxt "@action:button as in, 'this will take you to the Wallpaper KCM'"
+#~ msgid "Wallpaper"
+#~ msgstr "Mudar de Papel de Parede…"
+
+#, fuzzy
+#~| msgid "Color scheme name"
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the first KCM in the Colors "
+#~ "& Themes group'"
+#~ msgid "Colors & Themes"
+#~ msgstr "Nome do esquema de cores"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid ""
+#~ "You can help KDE improve Plasma by contributing information on how you "
+#~ "use it, so we can focus on things that matter to you.<br/><br/"
+#~ ">Contributing this information is optional and entirely anonymous. We "
+#~ "never collect your personal data, files you use, websites you visit, or "
+#~ "information that could identify you."
+#~ msgstr ""
+#~ "Poderá ajudar o KDE a melhorar o Plasma, contribuindo com informações "
+#~ "sobre como o usa, para que nos possamos focar nas coisas importantes para "
+#~ "si.<br/><br/>Contribuir com esta informação é opcional e é totalmente "
+#~ "anónimo. Nunca recolhemos os seus dados pessoais, os ficheiros que usa, "
+#~ "as páginas Web que visita ou outras informações que o possam identificar."
+
+#~ msgid "No data will be sent."
+#~ msgstr "Não serão enviados dados."
+
+#~ msgid "The following information will be sent:"
+#~ msgstr "Será enviada a seguinte informação:"
+
+#~ msgid "Send User Feedback:"
+#~ msgstr "Enviar as Reacções do Utilizador:"
+
+#~ msgctxt "Adjective; as in, 'light theme'"
+#~ msgid "Light"
+#~ msgstr "Claro"
+
+#~ msgctxt "Adjective; as in, 'dark theme'"
+#~ msgid "Dark"
+#~ msgstr "Escuro"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "José Nuno Pires"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "zepires@gmail.com"
+
+#~ msgid "Quick Settings"
+#~ msgstr "Configurações Rápidas"
+
+#~ msgid "Landing page with some basic settings."
+#~ msgstr "Página inicial com algumas configurações rápidas."
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"

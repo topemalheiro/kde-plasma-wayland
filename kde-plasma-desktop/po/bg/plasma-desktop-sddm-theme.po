@@ -1,0 +1,98 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Mincho Kondarev <mkondarev@yahoo.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-01-19 21:52+0100\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.03.70\n"
+
+#: KeyboardButton.qml:19
+msgctxt "@action:button opens layout chooser %1 is current"
+msgid "Keyboard Layout: %1"
+msgstr "Клавиатурни подредби: %1"
+
+#: Login.qml:86
+msgctxt "@info:placeholder in textfield"
+msgid "Username"
+msgstr "Потребителско име"
+
+#: Login.qml:103
+msgctxt "@info:placeholder in textfield"
+msgid "Password"
+msgstr "Парола"
+
+#: Login.qml:145
+msgctxt "@action:button Accessible name"
+msgid "Log in"
+msgstr "Вход"
+
+#: Login.qml:151
+msgctxt "@action:button"
+msgid "Log In"
+msgstr "Влизане"
+
+#: Main.qml:200
+msgctxt "@info:status"
+msgid "Caps Lock is on"
+msgstr "Клавишът \"Caps Lock\" е натиснат"
+
+#: Main.qml:212
+msgctxt "Suspend to disk"
+msgid "Hibernate"
+msgstr "Хибернация"
+
+#: Main.qml:218 Main.qml:357
+msgctxt "@action:button Suspend to RAM"
+msgid "Sleep"
+msgstr "Приспиване"
+
+#: Main.qml:224 Main.qml:363
+msgctxt "@action:button"
+msgid "Restart"
+msgstr "Рестартиране"
+
+#: Main.qml:230 Main.qml:369
+msgctxt "@action:button"
+msgid "Shut Down"
+msgstr "Изключване"
+
+#: Main.qml:236
+msgctxt "@action:button For switching to a username and password prompt"
+msgid "Other…"
+msgstr "Други…"
+
+#: Main.qml:343
+msgctxt "@info:usagetip"
+msgid "Type in Username and Password"
+msgstr "Въведете потребителско име и парола"
+
+#: Main.qml:375
+msgctxt "@action:button"
+msgid "List Users"
+msgstr "Списък на потребителите"
+
+#: Main.qml:449
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "Виртуална клавиатура"
+
+#: Main.qml:516
+msgctxt "@info:status"
+msgid "Login Failed"
+msgstr "Неуспешно влизане"
+
+#: SessionButton.qml:18
+msgctxt "@action:button opens sessions menu %1 is current"
+msgid "Desktop Session: %1"
+msgstr "Сесия на работния плот: %1"

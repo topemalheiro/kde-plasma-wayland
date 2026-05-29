@@ -1,0 +1,73 @@
+# Translation of plasma_containmentactions_contextmenu into Japanese.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2009.
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_containmentactions_contextmenu\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-09-15 12:46+0900\n"
+"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 24.08.0\n"
+
+#: menu.cpp:107
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Show KRunner"
+msgstr "KRunner を表示"
+
+#: menu.cpp:112
+#, kde-format
+msgid "Open Terminal"
+msgstr "ターミナルを開く"
+
+#: menu.cpp:116
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Lock Screen"
+msgstr "スクリーンをロック"
+
+#: menu.cpp:125
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Show Logout Screen"
+msgstr "ログアウト画面を表示"
+
+#: menu.cpp:130
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Display Configuration"
+msgstr "ディスプレイ設定"
+
+#: menu.cpp:278
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Configure Contextual Menu Plugin"
+msgstr "コンテキストメニュープラグインの設定"
+
+#: menu.cpp:288
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "[Other Actions]"
+msgstr "[他のアクション]"
+
+#: menu.cpp:291
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Wallpaper Actions"
+msgstr "壁紙アクション"
+
+#: menu.cpp:295
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "[Separator]"
+msgstr "[セパレータ]"

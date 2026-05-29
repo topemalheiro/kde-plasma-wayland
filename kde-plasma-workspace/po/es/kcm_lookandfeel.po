@@ -1,0 +1,459 @@
+# Spanish translations for kcm_lookandfeel.po package.
+# Copyright (C) 2014-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2014.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_lookandfeel\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-21 00:47+0000\n"
+"PO-Revision-Date: 2026-03-21 16:50+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net"
+
+#: filedialognamefilters.cpp:28
+#, kde-format
+msgctxt "Name filter for file dialogs: File type (file extension wildcards)"
+msgid "Image Files (%1)"
+msgstr "Archivos de imagen (%1)"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "Aspecto visual global"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:13 lookandfeelsettings.kcfg:17
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "Paquete de aspecto visual global, alternativo"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: lookandfeelsettings.kcfg:21
+#, kde-format
+msgid "Switch between dark and light global themes depending on time of day"
+msgstr "Cambiar entre los temas globales claro y oscuro según la hora del día"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelOnIdle), group (KDE)
+#: lookandfeelsettings.kcfg:25
+#, kde-format
+msgid "Switch between dark and light global themes when the computer is idle"
+msgstr ""
+"Cambiar entre los temas globales claro y oscuro cuando el equipo esté "
+"inactivo"
+
+#. i18n: ectx: label, entry (automaticLookAndFeelIdleInterval), group (KDE)
+#: lookandfeelsettings.kcfg:29
+#, kde-format
+msgid ""
+"How long the computer should be idle in order to switch between dark and "
+"light global themes, in seconds"
+msgstr ""
+"Tiempo de inactividad del equipo en segundos para cambiar entre los temas "
+"globales claro y oscuro"
+
+#: tool/lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "Herramienta de temas globales"
+
+#: tool/lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Herramienta de consola para aplicar paquetes de tema global para cambiar el "
+"aspecto visual."
+
+#: tool/lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "Responsable"
+
+#: tool/lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "Listar los paquetes de temas globales disponibles"
+
+#: tool/lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"Aplicar un paquete de tema global. Puede ser el nombre de un paquete o la "
+"ruta completa de un paquete instalado, en cuyo caso esta herramienta se "
+"asegurará de que se trata de un paquete de tema global antes de intentar "
+"aplicarlo."
+
+#: tool/lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "nombredepaquete"
+
+#: tool/lnftool.cpp:52
+#, kde-format
+msgid "Prevent --apply from disabling the automatic mode"
+msgstr "Impedir que «--apply» desactive el modo automático"
+
+#: tool/lnftool.cpp:53
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Reiniciar la distribución del escritorio Plasma"
+
+#: ui/ConfirmDeletionDialog.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Permanently"
+msgstr "Borrar permanentemente"
+
+#: ui/ConfirmDeletionDialog.qml:17
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to permanently delete this theme?"
+msgstr "¿Realmente desea borrar este tema de forma permanente?"
+
+#: ui/ConfirmDeletionDialog.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Permanently"
+msgstr "Borrar permanentemente"
+
+#: ui/ConfirmDeletionDialog.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ui/DayNightLookAndFeel.qml:46
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The chosen light Global Theme will be used during the day, and the dark one "
+"will be used at night."
+msgstr ""
+"El tema global claro elegido se usará durante el día, mientras que el oscuro "
+"se usará durante la noche."
+
+#: ui/DayNightLookAndFeel.qml:55
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure Day/Night Cycle…"
+msgstr "Configurar el ciclo día/noche…"
+
+#: ui/DayNightLookAndFeel.qml:68
+#, kde-format
+msgctxt "@option:radio Light global theme"
+msgid "Light"
+msgstr "Claro"
+
+#: ui/DayNightLookAndFeel.qml:80
+#, kde-format
+msgctxt "@option:radio Dark global theme"
+msgid "Dark"
+msgstr "Oscuro"
+
+#: ui/DayNightLookAndFeel.qml:97
+#, kde-format
+msgctxt "@option:check"
+msgid "Wait until idleness before switching:"
+msgstr "Tiempo de inactividad antes de cambiar:"
+
+#: ui/DayNightLookAndFeel.qml:110
+#, kde-format
+msgctxt "@item:valuesuffix idle interval"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 segundo"
+msgstr[1] "%1 segundos"
+
+#: ui/DayNightLookAndFeel.qml:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Minimizes interruptions when actively using the computer."
+msgstr "Minimiza las interrupciones durante el uso activo del equipo."
+
+#: ui/LookAndFeelSelector.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Light Global Theme"
+msgstr "Escoger tema global claro"
+
+#: ui/LookAndFeelSelector.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Dark Global Theme"
+msgstr "Escoger tema global oscuro"
+
+#: ui/LookAndFeelSelector.qml:49 ui/StaticLookAndFeel.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview Theme"
+msgstr "Vista previa del tema"
+
+#: ui/LookAndFeelSelector.qml:57 ui/StaticLookAndFeel.qml:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove theme"
+msgstr "Eliminar tema"
+
+#: ui/LookAndFeelSelector.qml:59 ui/StaticLookAndFeel.qml:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active theme"
+msgstr "No se puede borrar el tema activo"
+
+#: ui/LookAndFeelSelector.qml:61 ui/StaticLookAndFeel.qml:79
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed themes"
+msgstr "No se pueden borrar temas instalados del sistema"
+
+#: ui/LookAndFeelSnapshot.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Current Theme"
+msgstr "Guardar el tema actual"
+
+#: ui/LookAndFeelSnapshot.qml:25
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Plasma’s current appearance and theme settings will be saved in a new global "
+"theme."
+msgstr ""
+"Los ajustes actuales de aspecto y tema de Plasma se guardarán en un nuevo "
+"tema global."
+
+#: ui/LookAndFeelSnapshot.qml:69
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a preview image…"
+msgstr "Añadir una imagen de vista previa…"
+
+#: ui/LookAndFeelSnapshot.qml:79
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Take a screenshot…"
+msgstr "Realizar una captura de pantalla…"
+
+#: ui/LookAndFeelSnapshot.qml:86
+#, kde-format
+msgctxt "@label:textbox Name of new global theme that will be created"
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ui/LookAndFeelSnapshot.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type in name…"
+msgstr "Escriba el nombre…"
+
+#: ui/LookAndFeelSnapshot.qml:101
+#, kde-format
+msgctxt ""
+"@action:button Confirm creating new global theme from the user's current "
+"appearance settings"
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ui/LookAndFeelSnapshot.qml:113
+#, kde-format
+msgctxt "@info"
+msgid "A global theme with this name or id already exists."
+msgstr "Ya existe un tema global con este nombre o ID."
+
+#: ui/LookAndFeelSnapshot.qml:127
+#, kde-format
+msgctxt "@title:title"
+msgid "Choose a Preview Image"
+msgstr "Escoger una imagen de vista previa"
+
+#: ui/main.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch to Dark Mode at Night"
+msgstr "Cambiar al modo oscuro durante la noche"
+
+#: ui/main.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Current Theme…"
+msgstr "Guardar el tema actual…"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Get New…"
+msgstr "Obtener novedades…"
+
+#: ui/MoreOptions.qml:24
+#, kde-format
+msgid "Layout settings:"
+msgstr "Preferencias del diseño:"
+
+#: ui/MoreOptions.qml:27
+#, kde-format
+msgid "Desktop layout"
+msgstr "Diseño del escritorio"
+
+#: ui/MoreOptions.qml:33
+#, kde-format
+msgid "Titlebar Buttons layout"
+msgstr "Diseño de botones de la barra de título"
+
+#: ui/MoreOptions.qml:56 ui/SimpleOptions.qml:64
+#, kde-format
+msgid ""
+"Applying a Desktop layout will delete the current set of desktops, panels, "
+"docks, and widgets, replacing them with what the theme specifies."
+msgstr ""
+"La aplicación de un diseño de escritorio borrará el conjunto actual de "
+"escritorios, paneles y widgets, sustituyéndolos con los que contiene el tema."
+
+#: ui/MoreOptions.qml:67
+#, kde-format
+msgid "Appearance settings:"
+msgstr "Preferencias del aspecto visual:"
+
+#: ui/MoreOptions.qml:70
+#, kde-format
+msgid "Colors"
+msgstr "Colores"
+
+#: ui/MoreOptions.qml:71
+#, kde-format
+msgid "Application Style"
+msgstr "Estilo de las aplicaciones"
+
+#: ui/MoreOptions.qml:72
+#, kde-format
+msgid "Window Decoration Style"
+msgstr "Estilo de las decoraciones de las ventanas"
+
+#: ui/MoreOptions.qml:73
+#, kde-format
+msgid "Window Decoration Size"
+msgstr "Tamaño de las decoraciones de las ventanas"
+
+#: ui/MoreOptions.qml:74
+#, kde-format
+msgid "Icons"
+msgstr "Iconos"
+
+#: ui/MoreOptions.qml:75
+#, kde-format
+msgid "Plasma Style"
+msgstr "Estilo de Plasma"
+
+#: ui/MoreOptions.qml:76
+#, kde-format
+msgid "Pointers"
+msgstr "Punteros"
+
+#: ui/MoreOptions.qml:77
+#, kde-format
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+#: ui/MoreOptions.qml:78
+#, kde-format
+msgid "Task Switcher"
+msgstr "Selector de tareas"
+
+#: ui/MoreOptions.qml:79
+#, kde-format
+msgid "Splash Screen"
+msgstr "Pantalla de bienvenida"
+
+#: ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "Se aplicará lo siguiente por este tema global:"
+
+#: ui/SimpleOptions.qml:33
+#, kde-format
+msgid "Appearance settings"
+msgstr "Preferencias del aspecto visual"
+
+#: ui/SimpleOptions.qml:40
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• Preferencias del aspecto visual"
+
+#: ui/SimpleOptions.qml:48
+#, kde-format
+msgid "Desktop and window layout"
+msgstr "Diseño del escritorio y de las ventanas"
+
+#: ui/SimpleOptions.qml:55
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop and window layout"
+msgstr "• Diseño del escritorio y de las ventanas"
+
+#: ui/SimpleOptions.qml:71
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"Este tema global no proporciona preferencias aplicables. Contacte con el "
+"encargado de mantener este tema global, ya que podría estar incompleto."
+
+#: ui/StaticLookAndFeel.qml:53
+#, kde-format
+msgctxt "@label"
+msgid "Contains Desktop layout"
+msgstr "Contiene la distribución del escritorio"
+
+#: ui/StaticLookAndFeel.qml:112
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "¿Aplicar %1?"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "Escoja qué aplicar…"
+
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Show fewer options…"
+msgstr "Mostrar menos opciones…"

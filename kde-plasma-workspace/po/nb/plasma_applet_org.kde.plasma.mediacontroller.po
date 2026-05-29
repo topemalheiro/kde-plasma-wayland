@@ -1,0 +1,171 @@
+# Translation of plasma_applet_org.kde.plasma.mediacontroller to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 00:44+0000\n"
+"PO-Revision-Date: 2025-05-31 21:09+0200\n"
+"Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: AlbumArtStackView.qml:211
+#, kde-format
+msgid "No title"
+msgstr "Ingen tittel"
+
+#: AlbumArtStackView.qml:211 main.qml:57
+#, kde-format
+msgid "No media playing"
+msgstr "Ingen media spilles av"
+
+#: ExpandedRepresentation.qml:414 ExpandedRepresentation.qml:570
+#, kde-format
+msgctxt "Remaining time for song e.g -5:42"
+msgid "-%1"
+msgstr "−%1"
+
+#: ExpandedRepresentation.qml:591
+#, kde-format
+msgid "Playback rate %1"
+msgstr "Avspillingshastighet %1"
+
+#: ExpandedRepresentation.qml:594
+#, kde-format
+msgctxt "Playback rate"
+msgid "%1x"
+msgstr "%1x"
+
+#: ExpandedRepresentation.qml:598
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Playback rate"
+msgstr "Avspillingshastighet"
+
+#: ExpandedRepresentation.qml:644
+#, kde-format
+msgctxt "@action:inmenu Playback speed (Normal)"
+msgid "%1 (Normal)"
+msgstr "%1 (Normal)"
+
+#: ExpandedRepresentation.qml:683
+#, kde-format
+msgctxt "@action:button"
+msgid "Shuffle"
+msgstr "Stokk om"
+
+#: ExpandedRepresentation.qml:707 main.qml:114
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Forrige spor"
+
+#: ExpandedRepresentation.qml:729 main.qml:122
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Pause"
+
+#: ExpandedRepresentation.qml:729 main.qml:130
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Spill av"
+
+#: ExpandedRepresentation.qml:747 main.qml:138
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Neste spor"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat Track"
+msgstr "Gjenta sporet"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat"
+msgstr "Gjenta"
+
+#: ExpandedRepresentation.qml:841
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose player automatically"
+msgstr "Velg spiller automatisk"
+
+#: main.qml:60
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (%2)\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"av %1 (%2)\n"
+"Midtklikk for å pause\n"
+"Rull for å endre lydstyrken"
+
+#: main.qml:61
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"%1\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1\n"
+"Midtklikk for å pause\n"
+"Rull for å endre lydstyrken"
+
+#: main.qml:63
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (paused, %2)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"av %1 (satt på pause, %2)\n"
+"Midtklikk for å spille\n"
+"Rull for å endre lydstyrken"
+
+#: main.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"Paused (%1)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"Satt på pause (%1)\n"
+"Midtklikk for å spille\n"
+"Rull for å endre lydstyrken"
+
+#: main.qml:107
+#, kde-format
+msgctxt "Open player window or bring it to the front if already open"
+msgid "Open"
+msgstr "Åpne"
+
+#: main.qml:146
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Stopp"
+
+#: main.qml:159
+#, kde-format
+msgctxt "Quit player"
+msgid "Quit"
+msgstr "Avslutt"

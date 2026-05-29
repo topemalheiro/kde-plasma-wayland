@@ -1,0 +1,501 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Federico Zenith <federico.zenith@member.fsf.org>, 2010, 2011.
+# SPDX-FileCopyrightText: 2017-2026 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2024 Vincenzo Reale <smart2128vr@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmworkspaceoptions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2026-04-23 16:38+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: ui/main.qml:25
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid ""
+"The system must be restarted before changes to the middle-click paste "
+"setting can take effect."
+msgstr ""
+"Il sistema deve essere riavviato affinché le modifiche alle incollature al "
+"clic centrale abbiano effetto."
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart"
+msgstr "Riavvia"
+
+#: ui/main.qml:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Plasma"
+msgstr "Plasma"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "Part of the sentence 'Allow Plasma to show panel and widget tooltips'"
+msgid "Allow Plasma to show:"
+msgstr "Permetti a Plasma di mostrare:"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt "Part of the sentence 'Allow Plasma to show panel and widget tooltips'"
+msgid "Panel and widget tooltips"
+msgstr "I suggerimenti dei pannelli e degli oggetti"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
+msgid ""
+"Allows all Plasma panel and desktop widgets to show descriptive tooltips "
+"when hovered with the pointer. This setting has no effect on the small "
+"tooltips displayed when hovering over individual buttons and other user "
+"interface elements."
+msgstr ""
+"Permette a tutti i pannelli di Plasma e agli oggetti desktop di mostrare dei "
+"suggerimenti descrittivi quando ci passi sopra col mouse. Questa "
+"impostazione non ha effetto sui quei piccoli suggerimenti che sono "
+"visualizzati, ad esempio, quando passi col mouse sopra ai pulsanti o agli "
+"altri elementi dell'interfaccia utente."
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt ""
+"Part of the sentence 'Allow Plasma to show OSD popups for status changes'"
+msgid "OSD popups for status changes"
+msgstr "Un OSD a comparsa per i cambiamenti di stato"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
+msgid ""
+"Allows all Plasma widgets to show on-screen display (OSD) popups for changes "
+"like volume and brightness level, or audio device switching."
+msgstr ""
+"Permette a tutti gli oggetti di Plasma di mostrare un on-screen display "
+"(OSD) a comparsa per le modifiche, ad esempio ai livelli di volume o di "
+"luminosità, oppure al cambio del dispositivo audio."
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Scrolling"
+msgstr "Scorrimento"
+
+#: ui/main.qml:94
+#, kde-format
+msgctxt "@title:group prefix radiobutton group"
+msgid "Clicking in scrollbar track:"
+msgstr "Facendo clic nella traccia della barra di scorrimento:"
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt ""
+"@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to "
+"the clicked location'"
+msgid "Scrolls to the clicked location"
+msgstr "Scorre alla posizione su cui hai fatto clic"
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Middle-click to scroll to clicked location"
+msgstr "Clic centrale per scorrere alla posizione su cui hai fatto clic"
+
+#: ui/main.qml:112
+#, kde-format
+msgctxt ""
+"@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one "
+"page up or down'"
+msgid "Scrolls one page up or down"
+msgstr "Scorre in su o in giù di una pagina"
+
+#: ui/main.qml:130
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer smooth scrolling"
+msgstr "Preferisci lo scorrimento fluido"
+
+#: ui/main.qml:141
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"This setting enables or disables animated transitions when scrolling with a "
+"mouse wheel or the keyboard. Some applications may not honor this setting "
+"because they either do not support smooth scrolling, or have their own "
+"setting for enabling and disabling it."
+msgstr ""
+"Questa impostazione abilita o disabilita le transizioni animate durante lo "
+"scorrimento con la rotella del mouse o la tastiera. Alcune applicazioni "
+"potrebbero non rispettare questa impostazione perché non supportano lo "
+"scorrimento fluido o dispongono di impostazioni proprie per abilitarlo e "
+"disabilitarlo."
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@title:group"
+msgid "Clicking"
+msgstr "Clic"
+
+#: ui/main.qml:150
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "Facendo clic su file o cartelle:"
+
+#: ui/main.qml:154
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "Si selezionano"
+
+#: ui/main.qml:155
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "Apri invece con un doppio clic"
+
+#: ui/main.qml:172
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "Si aprono"
+
+#: ui/main.qml:173
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "Seleziona facendo clic sul marcatore di selezione dell'elemento"
+
+#: ui/main.qml:190
+#, kde-format
+msgctxt ""
+"@label for checkbox, part of a complete sentence: 'Middle-click pastes "
+"selected text'"
+msgid "Middle-click:"
+msgstr "Clic centrale:"
+
+#: ui/main.qml:194
+#, kde-format
+msgctxt ""
+"@option:check part of a complete sentence: 'Middle click pastes selected "
+"text'"
+msgid "Pastes selected text"
+msgstr "Incolla il testo selezionato"
+
+#: ui/main.qml:212
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Double-click interval:"
+msgstr "Intervallo per il doppio clic:"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "short for millisecond(s)"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/main.qml:236
+#, kde-format
+msgctxt "short for millisecond(s)"
+msgid "ms"
+msgstr "ms"
+
+#: ui/main.qml:251
+#, kde-format
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
+msgid ""
+"Two clicks within this duration are considered a double-click. Some "
+"applications may not honor this setting."
+msgstr ""
+"Due clic in questo intervallo di tempo vengono considerati un doppio clic. "
+"Alcune applicazioni potrebbero non tener conto di questa impostazione."
+
+#: ui/main.qml:262
+#, kde-format
+msgctxt "Test double-click speed"
+msgid ""
+"Double-click the folder to test. If it does not change its appearance, "
+"increase double-click interval."
+msgstr ""
+"Fai un doppio clic sulla cartella per provare: se non cambia aspetto, "
+"incrementa l'intervallo per il doppio clic."
+
+#: ui/main.qml:306
+#, kde-format
+msgctxt "@title:group prefix radiobutton group"
+msgid "Drag and Drop"
+msgstr "Trascinamento"
+
+#: ui/main.qml:311
+#, kde-format
+msgctxt "@title:group prefix radiobutton group"
+msgid "When dragging files or folders:"
+msgstr "Al trascinamento di file o cartelle:"
+
+#: ui/main.qml:315
+#, kde-format
+msgctxt "@option:radio When dragging..."
+msgid "Always ask what to do"
+msgstr "Chiedi sempre cosa fare"
+
+#: ui/main.qml:316
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Hold <shortcut>Shift</shortcut> to move, <shortcut>Ctrl</shortcut> to copy, "
+"and <shortcut>Shift+Ctrl</shortcut> to create a symlink. Otherwise show a "
+"dialog."
+msgstr ""
+"Tieni premuto <shortcut>Maiusc</shortcut> per spostare, <shortcut>Ctrl</"
+"shortcut> per copiare, e <shortcut>Maiusc+Ctrl</shortcut> per creare un "
+"collegamento simbolico. Diversamente mostra una finestra."
+
+#: ui/main.qml:328
+#, kde-format
+msgctxt "@option:radio When dragging…"
+msgid "Move if on the same device"
+msgstr "Sposta se sono sullo stesso dispositivo"
+
+#: ui/main.qml:329
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Hold <shortcut>Shift</shortcut> when dropping to show other options."
+msgstr ""
+"Tieni premuto <shortcut>Maiusc</shortcut> al rilascio per mostrare le altre "
+"opzioni."
+
+#: ui/main.qml:339
+#, kde-format
+msgctxt "@title:group"
+msgid "Touch"
+msgstr "Tocco"
+
+#: ui/main.qml:344
+#, kde-format
+msgctxt "@title:group prefix radiobutton group"
+msgid "Enable Tablet Mode:"
+msgstr "Abilita la modalità tablet:"
+
+#: ui/main.qml:347
+#, kde-format
+msgctxt "As in: 'Tablet Mode is automatically enabled as needed'"
+msgid "Automatically enable as needed"
+msgstr "Abilita automaticamente se necessaria"
+
+#: ui/main.qml:347
+#, kde-format
+msgctxt "As in: 'Tablet Mode is never enabled'"
+msgid "Never enabled"
+msgstr "Non abilitare mai"
+
+#: ui/main.qml:365
+#, kde-format
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
+msgid ""
+"Tablet Mode will be automatically enabled whenever the system detects a "
+"touchscreen but no mouse or touchpad. For example: when a transformable "
+"laptop's keyboard is flipped around or detached."
+msgstr ""
+"La modalità tablet verrà abilitata automaticamente se il sistema rileva uno "
+"schermo tattile, ma non un mouse o una tastiera. Ad esempio, quando la "
+"tastiera di un computer portatile convertibile viene capovolta, oppure "
+"staccata."
+
+#: ui/main.qml:371
+#, kde-format
+msgctxt "As in: 'Tablet Mode is always enabled'"
+msgid "Always enabled"
+msgstr "Sempre abilitata"
+
+#: ui/main.qml:393
+#, kde-format
+msgctxt "As in: 'Tablet Mode is never enabled'"
+msgid "Disabled"
+msgstr "Disabilitata"
+
+#: ui/main.qml:394
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "In Tablet Mode, the virtual keyboard will appear when needed."
+msgstr "In modalità tablet, la tastiera virtuale apparirà quando serve."
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: workspaceoptions_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Single click to open files"
+msgstr "Clic singolo per aprire i file"
+
+#. i18n: ectx: label, entry (dndBehavior), group (KDE)
+#: workspaceoptions_kdeglobalssettings.kcfg:13
+#, kde-format
+msgid ""
+"For local files on the same device, whether dragging and dropping will "
+"perform a move operation instead of showing the options menu"
+msgstr ""
+"Per i file locali sullo stesso dispositivo, se il trascinamento eseguirà un "
+"operazione di spostamento invece di mostrare il menu delle opzioni"
+
+#. i18n: ectx: label, entry (smoothScroll), group (KDE)
+#: workspaceoptions_kdeglobalssettings.kcfg:21
+#, kde-format
+msgid "Smooth scrolling"
+msgstr "Scorrimento fluido"
+
+#. i18n: ectx: label, entry (scrollbarLeftClickNavigatesByPage), group (KDE)
+#: workspaceoptions_kdeglobalssettings.kcfg:25
+#, kde-format
+msgid "Left-click in scrollbar track moves scrollbar by one page"
+msgstr ""
+"Un clic sinistro sulla traccia della barra di scorrimento sposta la barra di "
+"scorrimento di una pagina"
+
+#. i18n: ectx: label, entry (doubleClickInterval), group (KDE)
+#: workspaceoptions_kdeglobalssettings.kcfg:29
+#, kde-format
+msgid "Double click interval"
+msgstr "Intervallo per il doppio clic"
+
+#. i18n: ectx: label, entry (tabletMode), group (Input)
+#: workspaceoptions_kwinsettings.kcfg:9
+#, kde-format
+msgid "Automatically switch to touch-optimized mode"
+msgstr "Passa automaticamente nella modalità ottimizzata per il tocco"
+
+#. i18n: ectx: label, entry (primarySelection), group (Wayland)
+#: workspaceoptions_kwinsettings.kcfg:15
+#, kde-format
+msgid "Enable middle click selection pasting"
+msgstr "Abilita l'incollaggio della selezione col tasto centrale"
+
+#. i18n: ectx: label, entry (delay), group (PlasmaToolTips)
+#: workspaceoptions_plasmasettings.kcfg:9
+#, kde-format
+msgid "Display large panel and widget tooltips"
+msgstr "Visualizza dei suggerimenti grandi per i pannelli e gli oggetti"
+
+#. i18n: ectx: tooltip, entry (delay), group (PlasmaToolTips)
+#: workspaceoptions_plasmasettings.kcfg:10
+#, kde-format
+msgid ""
+"Allow Plasma widgets to display large panel and widget tooltips on hover"
+msgstr ""
+"Permetti agli oggetti di Plasma di visualizzare al passaggio del mouse dei "
+"suggerimenti grandi per i pannelli e gli oggetti"
+
+#. i18n: ectx: label, entry (osdEnabled), group (OSD)
+#: workspaceoptions_plasmasettings.kcfg:16
+#, kde-format
+msgid "Display small popups for status changes"
+msgstr ""
+"Visualizza delle finestre a comparsa piccole per i cambiamenti di stato"
+
+#. i18n: ectx: tooltip, entry (osdEnabled), group (OSD)
+#: workspaceoptions_plasmasettings.kcfg:17
+#, kde-format
+msgid ""
+"Allow Plasma widgets to display small popups for status changes such as "
+"brightness or volume"
+msgstr ""
+"Permetti agli oggetti di Plasma di visualizzare delle piccole finestre a "
+"comparsa per i cambiamenti di stato, quali la luminosità o il volume"
+
+#. i18n: ectx: label, entry (osdKbdLayoutChangedEnabled), group (OSD)
+#: workspaceoptions_plasmasettings.kcfg:21
+#, kde-format
+msgid "OSD on layout change"
+msgstr "OSD alla modifica della mappatura"
+
+#. i18n: ectx: tooltip, entry (osdKbdLayoutChangedEnabled), group (OSD)
+#: workspaceoptions_plasmasettings.kcfg:22
+#, kde-format
+msgid "Show a popup on layout changes"
+msgstr "Mostra una finestra a comparsa alla modifica della mappatura"
+
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "In Touch Mode, many elements of the user interface will become larger to "
+#~ "more easily accommodate touch interaction."
+#~ msgstr ""
+#~ "Per adattarsi più facilmente all'interazione al tocco, nella modalità "
+#~ "tattile molti elementi dell'interfaccia utente diventeranno più grandi."
+
+#~ msgid "Animation speed:"
+#~ msgstr "Velocità animazione:"
+
+#~ msgctxt "Animation speed"
+#~ msgid "Slow"
+#~ msgstr "Lenta"
+
+#~ msgctxt "Animation speed"
+#~ msgid "Instant"
+#~ msgstr "Istantanea"
+
+#~ msgid "Animation speed"
+#~ msgstr "Velocità di animazione"
+
+#~ msgid "Visual behavior:"
+#~ msgstr "Comportamento visivo:"
+
+#~ msgid "Display informational tooltips on mouse hover"
+#~ msgstr "Visualizza i suggerimenti informativi al passaggio del mouse"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Paolo Zamponi,Federico Zenith"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "zapaolo@email.it,"
+
+#~ msgid "General Behavior"
+#~ msgstr "Comportamento generale"
+
+#~ msgid "System Settings module for configuring general workspace behavior."
+#~ msgstr ""
+#~ "Modulo di Impostazioni di sistema per la configurazione generale del "
+#~ "comportamento dello spazio di lavoro."
+
+#~ msgid "Furkan Tokac"
+#~ msgstr "Furkan Tokac"
+
+#~ msgid "Click behavior:"
+#~ msgstr "Comportamento al clic:"
+
+#~ msgid "Double-click to open files and folders"
+#~ msgstr "Doppio clic per aprire file e cartelle"
+
+#~ msgid "Select by single-clicking"
+#~ msgstr "Seleziona con un clic singolo"
+
+#~ msgid "Double-click to open files and folders (single click to select)"
+#~ msgstr ""
+#~ "Doppio clic per aprire file e cartelle (clic singolo per selezionare)"
+
+#~ msgid "Plasma Workspace global options"
+#~ msgstr "Opzioni globali per lo spazio di lavoro di Plasma"
+
+#~ msgid "(c) 2009 Marco Martin"
+#~ msgstr "© 2009 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "Maintainer"
+#~ msgstr "Responsabile"
+
+#~ msgid "Show Informational Tips"
+#~ msgstr "Mostra i suggerimenti informativi"

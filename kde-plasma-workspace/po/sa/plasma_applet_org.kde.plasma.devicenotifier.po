@@ -1,0 +1,271 @@
+# Sanskrit translations for plasma-workspace package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr ""
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "माउण्ट्"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "सञ्चिकाप्रबन्धके उद्घाटयन्तु"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "माउण्ट् तथा ओपन"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "निष्कासनम्"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "सुरक्षितरूपेण निष्कासयन्तु"
+
+#: messageinfo.cpp:108
+#, fuzzy, kde-format
+#| msgid "This device can now be safely removed."
+msgid "This device has file system errors."
+msgstr "इदानीं एतत् यन्त्रं सुरक्षिततया निष्कासयितुं शक्यते ।"
+
+#: messageinfo.cpp:110
+#, fuzzy, kde-format
+#| msgid "This device can now be safely removed."
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "इदानीं एतत् यन्त्रं सुरक्षिततया निष्कासयितुं शक्यते ।"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr ""
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "यन्त्रस्य स्थितिः"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "इदानीं एकं यन्त्रं सुरक्षिततया निष्कासयितुं शक्यते"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "इदानीं एतत् यन्त्रं सुरक्षिततया निष्कासयितुं शक्यते ।"
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "एतत् यन्त्रं माउण्ट् कर्तुं भवान् अधिकृतः नास्ति ।"
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "भवन्तः एतत् चक्रं निष्कासयितुं अधिकृताः न सन्ति ।"
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "भवन्तः एतत् यन्त्रं निष्कासयितुं अधिकृताः न सन्ति।"
+
+#: messageinfo.cpp:139
+#, fuzzy, kde-format
+#| msgctxt "Remove is less technical for unmount"
+#| msgid "You are not authorized to remove this device."
+msgid "You are not authorized to repair this device."
+msgstr "भवन्तः एतत् यन्त्रं निष्कासयितुं अधिकृताः न सन्ति।"
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr ""
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "व्यस्तत्वात् एतत् यन्त्रं माउण्ट् कर्तुं न शक्तवान् ।"
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः अनुप्रयोगस्य अन्तः उद्घाटिताः सन्ति ।"
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः \"%2\" इति अनुप्रयोगे उद्घाटिताः भवन्ति ।"
+msgstr[1] ""
+"अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः निम्नलिखित-अनुप्रयोगेषु उद्घाटिताः भवन्ति: %2."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", ९. "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "एतत् यन्त्रं माउण्ट् कर्तुं न शक्तवान्।"
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "एतत् चक्रं निष्कासयितुं न शक्तवान् ।"
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "एतत् यन्त्रं निष्कासयितुं न शक्तवान्।"
+
+#: messageinfo.cpp:206
+#, fuzzy, kde-format
+#| msgctxt "Remove is less technical for unmount"
+#| msgid "Could not remove this device."
+msgid "Could not repair this device: %1"
+msgstr "एतत् यन्त्रं निष्कासयितुं न शक्तवान्।"
+
+#: qml/DeviceItem.qml:98
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation should be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing…"
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "निष्कासयन्..."
+
+#: qml/DeviceItem.qml:100
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation should be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing…"
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "निष्कासयन्..."
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 %2 तः मुक्तम्"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "अभिगम्य..."
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "निष्कासयन्..."
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "अद्यापि प्लगं न विच्छेदयन्तु! अद्यापि सञ्चिकाः स्थानान्तरिताः सन्ति..."
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "सर्वं निष्कासयतु"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "सर्वाणि उपकरणानि सुरक्षितरूपेण निष्कासयितुं क्लिक् कुर्वन्तु"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "न हटनीयानि यन्त्राणि संलग्नम्"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "डिस्काः उपलब्धाः न सन्ति"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "अद्यतनतमं यन्त्रम्"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "कोऽपि उपकरणः उपलब्धः नास्ति"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "हटनीयानि उपकरणानि विन्यस्यताम्..."
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "हटनीयानि उपकरणानि"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "अहटनीयानि उपकरणानि"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "सर्वाणि यन्त्राणि"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "यदा नूतनं यन्त्रं प्लग्-इन् भवति तदा popup दर्शयतु"

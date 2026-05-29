@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2024-04-22 15:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-desktop/kcm_desktoppaths.pot\n"
+"X-Crowdin-File-ID: 42453\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "桌面文件夹："
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr "此文件夹包含您在桌面上看到的所有文件。"
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "文档文件夹："
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr "该文件夹将被默认用来打开或者保存文档。"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "下载文件夹："
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "该文件夹将被默认用来保存下载到本机的内容。"
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "视频文件夹："
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr "该文件夹将被默认用来打开或者保存视频。"
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "图片文件夹："
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr "该文件夹将被默认用来打开或者保存图片。"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "音乐文件夹："
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr "该文件夹将被默认用来打开或者保存音乐。"
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "公共文件夹："
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr "启用网络共享时，此文件夹将默认用于公开共享的文件。"
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "模板文件夹："
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr "该文件夹将被默认用来打开或者保存文件模板。"
+
+#: ui/main.qml:165
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "项目文件夹："
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr "该文件夹将被默认用来打开或者保存项目。"
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "选择新位置"

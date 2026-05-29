@@ -1,0 +1,113 @@
+# translation of plasma_applet_trash.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# aminesay <aminesay@yahoo.fr>, 2007.
+# Sébastien Renard <Sebastien.Renard@digitalfox.org>, 2007, 2008.
+# Amine Say <aminesay@yahoo.fr>, 2008, 2013.
+# Nicolas Ternisien <nicolas.ternisien@gmail.com>, 2008.
+# SPDX-FileCopyrightText: 2011, 2013, 2021, 2023, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# Thomas Vergnaud <thomas.vergnaud@gmx.fr>, 2015, 2016.
+# Maxime Corteel <mcorteel@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_trash\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-05-17 09:47+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.04.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "Corbeille"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "Vidage en cours..."
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Un élément"
+msgstr[1] "%1 éléments"
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "Vider"
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "Ouvrir"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "Vider"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "Configuration de la corbeille..."
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "Vider"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr ""
+#~ "Corbeille \n"
+#~ "vide"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "Corbeille \n"
+#~ "Un élément"
+#~ msgstr[1] "%1 éléments"
+
+#~ msgid ""
+#~ "Trash \n"
+#~ " Empty"
+#~ msgstr ""
+#~ "Corbeille \n"
+#~ " vide"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vider la corbeille"
+
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr ""
+#~ "Voulez-vous vraiment vider la corbeille ? Tous les éléments seront "
+#~ "supprimés."
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"

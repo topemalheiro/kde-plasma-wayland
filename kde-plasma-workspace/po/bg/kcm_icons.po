@@ -1,0 +1,112 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2007, 2008.
+# Yasen Pramatarov <yasen@lindeas.com>, 2009.
+# SPDX-FileCopyrightText: 2022, 2023, 2026 Mincho Kondarev <mkondarev@yahoo.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-31 00:45+0000\n"
+"PO-Revision-Date: 2026-02-06 07:05+0100\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.03.70\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr "Име на текущата тема на икони"
+
+#: main.cpp:147
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Не може да се създаде временен файл."
+
+#: main.cpp:158
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Не може да се изтегли архивът с теми на иконите: %1"
+
+#: main.cpp:172
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Файлът не е валиден архив на тема с икони."
+
+#: main.cpp:177
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Появи се проблем по време на инсталацията, но повечето от темите в архива са "
+"инсталирани."
+
+#: main.cpp:181
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Темата е инсталирана успешно."
+
+#: main.cpp:225
+#, kde-format
+msgid "Installing icon themes…"
+msgstr "Инсталиране на теми на икони…"
+
+#: main.cpp:235
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr "Инсталиране на %1тема…"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "Install from File…"
+msgstr "Инсталиране от файл…"
+
+#: ui/main.qml:72
+#, kde-format
+msgid "Get New…"
+msgstr "Изтегляне на нови…"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove icon theme"
+msgstr "Премахване на темата на икони"
+
+#: ui/main.qml:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active icon theme"
+msgstr "Не може да се изтрие активната тема на икони"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed icon themes"
+msgstr "Не може да се изтрие системна тема на икони"
+
+#: ui/main.qml:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this icon theme"
+msgstr "Да не се изтрива тази тема на икони"
+
+#: ui/main.qml:250
+#, kde-format
+msgid "Open Theme"
+msgstr "Отваряне на тема"
+
+#: ui/main.qml:252
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "Файлове на тема (*.tar.gz *.tar.bz2)"
+
+#~ msgid "Restore Icon Theme"
+#~ msgstr "Възстановяване на темата на икони"

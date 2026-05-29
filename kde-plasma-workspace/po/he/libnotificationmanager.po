@@ -1,0 +1,144 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-26 00:47+0000\n"
+"PO-Revision-Date: 2025-11-09 17:00+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: abstractnotificationsmodel.cpp:370
+#, kde-format
+msgctxt "@info %1 notification body %2 application name"
+msgid "%1 from %2"
+msgstr "%1 מ־%2"
+
+#: job_p.cpp:190
+#, kde-format
+msgctxt "Copying n of m files to locaton"
+msgid "%2 of %1 file to %3"
+msgid_plural "%2 of %1 files to %3"
+msgstr[0] "%2 מתוך קובץ אחד אל %3"
+msgstr[1] "%2 מתוך %1 קבצים אל %3"
+msgstr[2] "%2 מתוך %1 קבצים אל %3"
+msgstr[3] "%2 מתוך %1 קבצים אל %3"
+
+#: job_p.cpp:193 job_p.cpp:223 job_p.cpp:239
+#, kde-format
+msgctxt "Copying n files to location"
+msgid "%1 file to %2"
+msgid_plural "%1 files to %2"
+msgstr[0] "קובץ אחד אל %2"
+msgstr[1] "%1 קבצים אל %2"
+msgstr[2] "%1 קבצים אל %2"
+msgstr[3] "%1 קבצים אל %2"
+
+#: job_p.cpp:200
+#, kde-format
+msgctxt "Copying n of m files"
+msgid "%2 of %1 file"
+msgid_plural "%2 of %1 files"
+msgstr[0] "%2 מתוך קובץ"
+msgstr[1] "%2 מתוך %1 קבצים"
+msgstr[2] "%2 מתוך %1 קבצים"
+msgstr[3] "%2 מתוך %1 קבצים"
+
+#: job_p.cpp:203 job_p.cpp:233 job_p.cpp:243
+#, kde-format
+msgctxt "Copying n files"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "קובץ"
+msgstr[1] "%1 קבצים"
+msgstr[2] "%1 קבצים"
+msgstr[3] "%1 קבצים"
+
+#: job_p.cpp:208
+#, kde-format
+msgctxt "Copying n of m items"
+msgid "%2 of %1 item"
+msgid_plural "%2 of %1 items"
+msgstr[0] "%2 מתוך פריט"
+msgstr[1] "%2 מתוך %1 פריטים"
+msgstr[2] "%2 מתוך %1 פריטים"
+msgstr[3] "%2 מתוך %1 פריטים"
+
+#: job_p.cpp:211 job_p.cpp:231
+#, kde-format
+msgctxt "Copying n items"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "פריט"
+msgstr[1] "%1 פריטים"
+msgstr[2] "%1 פריטים"
+msgstr[3] "%1 פריטים"
+
+#: job_p.cpp:218
+#, kde-format
+msgctxt "Copying file to location"
+msgid "%1 to %2"
+msgstr "%1 אל %2"
+
+#: job_p.cpp:221
+#, kde-format
+msgctxt "Copying n items to location"
+msgid "%1 file to %2"
+msgid_plural "%1 items to %2"
+msgstr[0] "פריט אל %2"
+msgstr[1] "%1 פריטים אל %2"
+msgstr[2] "%1 פריטים אל %2"
+msgstr[3] "%1 פריטים אל %2"
+
+#: job_p.cpp:241
+#, kde-format
+msgctxt "Copying unknown amount of files to location"
+msgid "to %1"
+msgstr "אל %1"
+
+#: jobsmodel.cpp:105
+#, kde-format
+msgctxt "@info %1 notification body %2 job name"
+msgid "%1 from %2"
+msgstr "%1 מתוך %2"
+
+#: jobsmodel_p.cpp:487
+#, kde-format
+msgid "Application closed unexpectedly."
+msgstr "יישום נסגר במפתיע."
+
+#: notifications.cpp:985
+#, kde-format
+msgctxt "@title"
+msgid "Unread Notification"
+msgid_plural "Unread Notifications"
+msgstr[0] "התראה שלא נקראה"
+msgstr[1] "התראות שלא נקראו"
+msgstr[2] "התראות שלא נקראו"
+msgstr[3] "התראות שלא נקראו"
+
+#: notifications.cpp:987
+#, kde-format
+msgctxt "@info"
+msgid "%1 notification was received while Do Not Disturb was active."
+msgid_plural "%1 notifications were received while Do Not Disturb was active."
+msgstr[0] "התקבלה התראה בזמן שמצב „לא להפריע” היה פעיל."
+msgstr[1] "התקבלו שתי התראות בזמן שמצב „לא להפריע” היה פעיל."
+msgstr[2] "התקבלו %1 התראות בזמן שמצב „לא להפריע” היה פעיל."
+msgstr[3] "התקבלו %1 התראות בזמן שמצב „לא להפריע” היה פעיל."
+
+#: notifications.cpp:995
+#, kde-format
+msgctxt "@action:button Show the notifications popup"
+msgid "Show Notifications"
+msgstr "הצגת התראות"

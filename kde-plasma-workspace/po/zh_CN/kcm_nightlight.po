@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2024-04-22 15:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-workspace/kcm_nightlight.pot\n"
+"X-Crowdin-File-ID: 53220\n"
+
+#: ui/DayNightView.qml:154
+#, kde-format
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr "%1 开始逐渐过渡到夜间色温，%2 切换完成"
+
+#: ui/DayNightView.qml:157
+#, kde-format
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr "%1 开始过渡到日间色温，%2 切换完成"
+
+#: ui/main.qml:39
+#, kde-format
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr "夜间颜色功能可以滤除蓝光，使屏幕以偏暖的颜色显示内容。"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "切换时间："
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr "总是关闭"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "始终开启"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr "日出和日落时"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "配置…"
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "日间色温："
+
+#: ui/main.qml:173 ui/main.qml:237
+#, kde-format
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr "冷 (不滤除蓝光)"
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "暖"
+
+#: ui/main.qml:187
+#, kde-format
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "夜间色温："

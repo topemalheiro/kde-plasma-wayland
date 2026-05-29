@@ -1,0 +1,615 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2020, 2022.
+# SPDX-FileCopyrightText: 2024, 2025 rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-19 00:46+0000\n"
+"PO-Revision-Date: 2025-10-31 22:45+0100\n"
+"Last-Translator: Rasmus Rosendahl-Kaa <rasmus@rosendahl-kaa.name>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Schlander"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mschlander@opensuse.org"
+
+#: basemodel.cpp:158
+#, kde-format
+msgctxt "@title:group Launch app"
+msgid "Launch"
+msgstr "Start"
+
+#: basemodel.cpp:191
+#, kde-format
+msgctxt "@item:intable"
+msgid "Window Management"
+msgstr "Vindueshåndtering"
+
+#: basemodel.cpp:194
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Workspace"
+msgstr "Plasma Arbejdsområde"
+
+#: globalaccelmodel.cpp:281
+#, kde-format
+msgctxt ""
+"%1 is the name of the component, %2 is the action for which saving failed"
+msgid "Error while saving shortcut %1: %2"
+msgstr "Fejl under gemning af genvejen %1: %2"
+
+#: globalaccelmodel.cpp:395
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr ""
+"Fejl under tilføjelse af %1, det lader til ikke at have nogen handlinger."
+
+#: globalaccelmodel.cpp:469
+#, kde-format
+msgid "Error while communicating with the global shortcuts service"
+msgstr "Fejl under kommunikation med tjenesten for globale genveje"
+
+#: kcm_keys.cpp:56
+#, kde-format
+msgid "Failed to communicate with global shortcuts daemon"
+msgstr "Kunne ikke kommunikere med dæmonen for globale genveje"
+
+#: kcm_keys.cpp:380
+#, kde-kuit-format
+msgctxt ""
+"@info %2 is the name of a category inside the 'Common Actions' section"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action "
+"<interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
+msgstr ""
+"Genvejen <shortcut>%1</shortcut> er allerede tildelt til den almindelige %2-"
+"handling <interface>%3</interface>.<nl/><nl/>Omtildel den til %4?"
+
+#: kcm_keys.cpp:386
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to action <interface>"
+"%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to "
+"action <interface>%4</interface> of <application>%5</application>?"
+msgstr ""
+"Genvejen <shortcut>%1</shortcut> er allerede tildelt til handlingen "
+"<interface>%2</interface> af <application>%3</application>.<nl/><nl/"
+">Omtildel den til handlingen <interface>%4</interface> af <application>%5</"
+"application>?"
+
+#: kcm_keys.cpp:396
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve Shortcut Conflict"
+msgstr "Løs genvejskonflikt"
+
+#: kcm_keys.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "Omtildel"
+
+#: standardshortcutsmodel.cpp:34
+#, kde-format
+msgid "File"
+msgstr "Fil"
+
+#: standardshortcutsmodel.cpp:35
+#, kde-format
+msgid "Edit"
+msgstr "Redigér"
+
+#: standardshortcutsmodel.cpp:37
+#, kde-format
+msgid "Navigation"
+msgstr "Navigation"
+
+#: standardshortcutsmodel.cpp:38
+#, kde-format
+msgid "View"
+msgstr "Vis"
+
+#: standardshortcutsmodel.cpp:39
+#, kde-format
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: standardshortcutsmodel.cpp:40
+#, kde-format
+msgid "Help"
+msgstr "Hjælp"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr "Programmer"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Commands"
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr "Kommandoer"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "System Services"
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr "Systemtjenester"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Common Actions"
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr "Almindelige handlinger"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@action:button Import shortcut scheme"
+msgid "Import…"
+msgstr "Importér…"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Import shortcut scheme"
+msgstr "Importér genvejsskema"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Export"
+msgstr "Annullér eksport"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export…"
+msgstr "Eksportér..."
+
+#: ui/main.qml:53 ui/main.qml:128
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Export shortcut scheme"
+msgstr "Eksportér genvejsskema"
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@action:button Add new shortcut"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Application…'"
+msgid "Application…"
+msgstr "Program..."
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new application"
+msgstr "Tilføj nyt program"
+
+#: ui/main.qml:82
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
+msgid "Command or Script…"
+msgstr "Kommando eller script..."
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new command or script"
+msgstr "Tilføj ny kommando eller script"
+
+#: ui/main.qml:107
+#, fuzzy, kde-format
+#| msgid "Cannot export scheme while there are unsaved changes"
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr "Kan ikke eksportere skemaet mens der er ikke-gemte ændringer"
+
+#: ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid ""
+#| "Select the components below that should be included in the exported scheme"
+msgctxt "@info:usagetip"
+msgid ""
+"Select the components below that should be included in the exported scheme"
+msgstr ""
+"Vælg de komponenter der skal medtages i det eksporterede skema nedenfor"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export"
+msgstr "Eksportér"
+
+#: ui/main.qml:229
+#, kde-format
+msgctxt ""
+"@option:check accessible export shortcuts %1 is application/group name"
+msgid "Export %1"
+msgstr "Eksportér %1"
+
+#: ui/main.qml:239
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible %1 is the name of a custom command"
+#| msgid "Edit command for %1"
+msgctxt "@action:button %1 is the name of a custom command"
+msgid "Edit command for %1"
+msgstr "Redigér kommando for %1"
+
+#: ui/main.qml:268
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible %1 is the name of a shortcut category"
+#| msgid "Remove all shortcuts for %1"
+msgctxt "@action:button %1 is the name of a shortcut category"
+msgid "Remove all shortcuts for %1"
+msgstr "Fjern alle genveje for %1"
+
+#: ui/main.qml:290
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible"
+#| msgid "Undo deletion"
+msgctxt "@action:button"
+msgid "Undo deletion"
+msgstr "Fortryd sletning"
+
+#: ui/main.qml:357
+#, fuzzy, kde-format
+#| msgid "No items matched the search terms"
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr "Ingen elementer matchede søgeordene"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt "@info"
+msgid "These shortcuts will be deleted when changes are applied."
+msgstr ""
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr ""
+
+#: ui/main.qml:379
+#, fuzzy, kde-format
+#| msgid "No default shortcuts"
+msgctxt "@action:button"
+msgid "Undo deleting shortcuts"
+msgstr "Ingen standard genveje"
+
+#: ui/main.qml:420
+#, fuzzy, kde-format
+#| msgid "Select an item from the list to view its shortcuts here"
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr "Vælg et element fra listen for at se dets genveje her"
+
+#: ui/main.qml:433
+#, fuzzy, kde-format
+#| msgid "Export Shortcut Scheme"
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr "Eksportér genvejsskema"
+
+#: ui/main.qml:433 ui/main.qml:565
+#, fuzzy, kde-format
+#| msgid "Import Shortcut Scheme"
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr "Importér genvejsskema"
+
+#: ui/main.qml:435
+#, kde-format
+msgctxt "Template for file dialog"
+msgid "Shortcut Scheme (*.kksrc)"
+msgstr "Genvejsskema (*.kksrc)"
+
+#: ui/main.qml:462
+#, fuzzy, kde-format
+#| msgid "Edit Command"
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr "Redigér kommando"
+
+#: ui/main.qml:462
+#, fuzzy, kde-format
+#| msgid "Add Command"
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr "Tilføj kommando"
+
+#: ui/main.qml:479
+#, fuzzy, kde-format
+#| msgid "Save"
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr "Gem"
+
+#: ui/main.qml:479
+#, fuzzy, kde-format
+#| msgid "Add"
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr "Tilføj"
+
+#: ui/main.qml:481
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Save command"
+msgstr "Gem kommando"
+
+#: ui/main.qml:482
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr "Tilføj kommando"
+
+#: ui/main.qml:504
+#, fuzzy, kde-format
+#| msgid "Enter a command or choose a script file:"
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr "Indtast en kommando eller vælg en scriptfil:"
+
+#: ui/main.qml:513
+#, kde-format
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "Kommando:"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Command"
+msgstr "Kommando"
+
+#: ui/main.qml:526
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose…"
+msgstr "Vælg..."
+
+#: ui/main.qml:527
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Choose script file"
+msgstr "Vælg scriptfil"
+
+#: ui/main.qml:535
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "Navn:"
+
+#: ui/main.qml:536
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "Indtast navn her"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Script File"
+msgstr "Vælg scriptfil"
+
+#: ui/main.qml:550
+#, kde-format
+msgctxt ""
+"Filename filters for file dialog. Do not translate any of the filename "
+"extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "Scriptfiler (.sh, .bash, .zsh, osv.) (*.*sh)"
+
+#: ui/main.qml:573
+#, fuzzy, kde-format
+#| msgid "Select the scheme to import:"
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr "Vælg skema der skal importeres:"
+
+#: ui/main.qml:592
+#, fuzzy, kde-format
+#| msgid "Custom Scheme"
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr "Brugerdefineret skema"
+
+#: ui/main.qml:600
+#, fuzzy, kde-format
+#| msgid "Select File…"
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr "Vælg fil..."
+
+#: ui/main.qml:600
+#, fuzzy, kde-format
+#| msgid "Import"
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr "Importér"
+
+#: ui/main.qml:602
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Select shortcut scheme file"
+msgstr "Vælg genvejsskemafil"
+
+#: ui/main.qml:603
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add shortcut scheme"
+msgstr "Tilføj genvejsskema"
+
+#: ui/ShortcutActionDelegate.qml:31
+#, kde-format
+msgctxt "@action:button Collapse shortcuts view"
+msgid "Collapse"
+msgstr ""
+
+#: ui/ShortcutActionDelegate.qml:32
+#, fuzzy, kde-format
+#| msgid "No active shortcuts"
+msgctxt "@action:button"
+msgid "Expand to configure shortcuts"
+msgstr "Ingen aktive genveje"
+
+#: ui/ShortcutActionDelegate.qml:38
+#, fuzzy, kde-format
+#| msgid "Editing shortcut: %1"
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr "Redigering af genvej: %1"
+
+#: ui/ShortcutActionDelegate.qml:63
+#, kde-format
+msgctxt ""
+"%1 is the name action that is triggered by the key sequences following "
+"after :"
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/ShortcutActionDelegate.qml:85
+#, fuzzy, kde-format
+#| msgid "No active shortcuts"
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr "Ingen aktive genveje"
+
+#: ui/ShortcutActionDelegate.qml:135
+#, fuzzy, kde-format
+#| msgctxt "%1 decides if singular or plural will be used"
+#| msgid "Default shortcut"
+#| msgid_plural "Default shortcuts"
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] "Standard genvej"
+msgstr[1] "Standard genveje"
+
+#: ui/ShortcutActionDelegate.qml:137
+#, fuzzy, kde-format
+#| msgid "No default shortcuts"
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr "Ingen standard genveje"
+
+#: ui/ShortcutActionDelegate.qml:146
+#, fuzzy, kde-format
+#| msgid "Default shortcut %1 is enabled."
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr "Standardgenvej %1 er aktiveret."
+
+#: ui/ShortcutActionDelegate.qml:146
+#, fuzzy, kde-format
+#| msgid "Default shortcut %1 is disabled."
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr "Standardgenvej %1 er deaktiveret."
+
+#: ui/ShortcutActionDelegate.qml:169
+#, fuzzy, kde-format
+#| msgid "Custom shortcuts"
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr "Brugervalgte genveje"
+
+#: ui/ShortcutActionDelegate.qml:205
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Delete shortcut"
+msgstr "Slet genvej"
+
+#: ui/ShortcutActionDelegate.qml:216
+#, kde-format
+msgctxt "@action:button Add custom shortcut"
+msgid "Add…"
+msgstr "Tilføj…"
+
+#: ui/ShortcutActionDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add custom shortcut"
+msgstr "Tilføje brugerdefineret genvej"
+
+#: ui/ShortcutActionDelegate.qml:253
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Cancel capturing shortcut"
+msgstr "Annullér indfangning af genvej"
+
+#~ msgctxt "@info:tooltip %1 is the text of a custom command"
+#~ msgid "Edit command for %1"
+#~ msgstr "Redigér kommando for %1"
+
+#~ msgctxt "@info:tooltip %1 is the text of a shortcut category"
+#~ msgid "Remove all shortcuts for %1"
+#~ msgstr "Fjern alle genveje for %1"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Undo deletion"
+#~ msgstr "Fortryd sletning"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete this shortcut"
+#~ msgstr "Slet denne genvej"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Cancel capturing of new shortcut"
+#~ msgstr "Annullér indfangning af nye genvej"
+
+#~ msgctxt "Template for file dialog"
+#~ msgid "Script file (*.*sh)"
+#~ msgstr "Scriptfil (*.*sh"
+
+#~ msgctxt "@action:button Save shortcut scheme"
+#~ msgid "Save Scheme"
+#~ msgstr "Gem skema"
+
+#~ msgid ""
+#~ "Shortcut %1 is already assigned to action '%2' of %3.\n"
+#~ "Do you want to reassign it?"
+#~ msgstr ""
+#~ "Genvejen %1 er allerede tildelt til handlingen \"%2\" af %3.\n"
+#~ "Vil du omtildele den?"
+
+#~ msgctxt "@title:window"
+#~ msgid "Found conflict"
+#~ msgstr "Fandt konflikt"
+
+#~ msgid "Import Scheme…"
+#~ msgstr "Importér skema..."
+
+#~ msgid "Shortcuts"
+#~ msgstr "Genveje"
+
+#~ msgid "David Redondo"
+#~ msgstr "David Redondo"

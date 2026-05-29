@@ -1,0 +1,125 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2026 giovanni <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-03-11 18:28+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: kcm_soundtheme.cpp:156
+#, kde-format
+msgctxt "Name of the fallback \"freedesktop\" sound theme"
+msgid "FreeDesktop"
+msgstr "FreeDesktop"
+
+#: kcm_soundtheme.cpp:157
+#, kde-format
+msgid "Fallback sound theme from freedesktop.org"
+msgstr "Thema de  sono d eresponsa ex freedesktop.org"
+
+#: kcm_soundtheme.cpp:249
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create a temporary file."
+msgstr "Incapace a crear un file temporanee."
+
+#: kcm_soundtheme.cpp:259
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to download the sound theme archive: %1"
+msgstr "Incapace a discargar le archivo de thema de sono: %1"
+
+#: kcm_soundtheme.cpp:270
+#, kde-format
+msgctxt "@info:status"
+msgid "The archive could not be opened."
+msgstr "Le archivo poterea non esser aperite."
+
+#: kcm_soundtheme.cpp:275
+#, kde-format
+msgctxt "@info:status"
+msgid "Theme installed successfully."
+msgid_plural "Themes installed successfully."
+msgstr[0] "Thema installate con successo."
+msgstr[1] "Themas installate con successo."
+
+#: kcm_soundtheme.cpp:278
+#, kde-format
+msgctxt "@info:status"
+msgid "The archive does not contain a valid sound theme."
+msgstr "Le archivo non contine un valide thema de sono."
+
+#: ui/main.qml:35
+#, kde-format
+msgctxt "@action:button Install sound theme from file"
+msgid "Install from File…"
+msgstr "Installa ex file ..."
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable notification sounds"
+msgstr "Habilita sonos de notificationes"
+
+#: ui/main.qml:134
+#, kde-format
+msgctxt ""
+"%2 is a theme name or a list of theme names that the current theme inherits "
+"from"
+msgid "Based on: %2"
+msgid_plural "Based on: %2"
+msgstr[0] "Basate sur: %2"
+msgstr[1] "Basate sur: %2"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt ""
+"@label Precedes a list of buttons which can be clicked to preview the "
+"theme's sounds. Keep it very short"
+msgid "Preview:"
+msgstr "Vista preliminar:"
+
+#: ui/main.qml:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview sound \"%1\""
+msgstr "Previsualisa sono \"%1!"
+
+#: ui/main.qml:188
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview the demo sound for the theme \"%1\""
+msgstr "Previsualisa le sono de demo per le thema \"%1\""
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "%1 is a sound theme name. %2 is a sound name"
+msgid "The %1 theme doesn't include the sound '%2'"
+msgstr "Le thema %1 non include le sono '%2'"
+
+#: ui/main.qml:230
+#, kde-format
+msgid "Failed to preview sound: %1"
+msgstr "Falleva a previsualisar sono: %1"
+
+#: ui/main.qml:246
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Sound Theme"
+msgstr "Selige Thema de Sono"
+
+#: ui/main.qml:248
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2 *.tar.xz *.tar.lz *.zip)"
+msgstr "Files de Thema (*.tar.gz *.tar.bz2 *.tar.xz *.tar.lz *.zip)"

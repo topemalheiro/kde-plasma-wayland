@@ -1,0 +1,125 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024, 2026 Sveinn í Felli <sv1@fellsnet.is>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-03-17 11:19+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: kcm_soundtheme.cpp:156
+#, kde-format
+msgctxt "Name of the fallback \"freedesktop\" sound theme"
+msgid "FreeDesktop"
+msgstr "FreeDesktop"
+
+#: kcm_soundtheme.cpp:157
+#, kde-format
+msgid "Fallback sound theme from freedesktop.org"
+msgstr "Hljóðþema til vara frá freedesktop.org"
+
+#: kcm_soundtheme.cpp:249
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create a temporary file."
+msgstr "Mistókst að búa til bráðabirgðaskrá."
+
+#: kcm_soundtheme.cpp:259
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to download the sound theme archive: %1"
+msgstr "Ekki tókst að sækja hljóðþemusafnið: %1."
+
+#: kcm_soundtheme.cpp:270
+#, kde-format
+msgctxt "@info:status"
+msgid "The archive could not be opened."
+msgstr "Tókst ekki að opna safnskrána."
+
+#: kcm_soundtheme.cpp:275
+#, kde-format
+msgctxt "@info:status"
+msgid "Theme installed successfully."
+msgid_plural "Themes installed successfully."
+msgstr[0] "Uppsetningu á þema er lokið."
+msgstr[1] "Uppsetningu á þemum er lokið."
+
+#: kcm_soundtheme.cpp:278
+#, kde-format
+msgctxt "@info:status"
+msgid "The archive does not contain a valid sound theme."
+msgstr "Safnskráin inniheldur ekki gilt hljóðþema."
+
+#: ui/main.qml:35
+#, kde-format
+msgctxt "@action:button Install sound theme from file"
+msgid "Install from File…"
+msgstr "Setja upp úr skrá…"
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable notification sounds"
+msgstr "Virkja tilkynningahljóð"
+
+#: ui/main.qml:134
+#, kde-format
+msgctxt ""
+"%2 is a theme name or a list of theme names that the current theme inherits "
+"from"
+msgid "Based on: %2"
+msgid_plural "Based on: %2"
+msgstr[0] "Byggt á: %2"
+msgstr[1] "Byggt á: %2"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt ""
+"@label Precedes a list of buttons which can be clicked to preview the "
+"theme's sounds. Keep it very short"
+msgid "Preview:"
+msgstr "Forskoðun:"
+
+#: ui/main.qml:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview sound \"%1\""
+msgstr "Forskoða hljóðið \"%1\""
+
+#: ui/main.qml:188
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview the demo sound for the theme \"%1\""
+msgstr "Prófa tóndæmið fyrir þemað \"%1\""
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "%1 is a sound theme name. %2 is a sound name"
+msgid "The %1 theme doesn't include the sound '%2'"
+msgstr "%1 þema inniheldur ekki hljóðið '%2'"
+
+#: ui/main.qml:230
+#, kde-format
+msgid "Failed to preview sound: %1"
+msgstr "Tókst ekki að forskoða hljóð: %1"
+
+#: ui/main.qml:246
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Sound Theme"
+msgstr "Veldu hljóðþema"
+
+#: ui/main.qml:248
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2 *.tar.xz *.tar.lz *.zip)"
+msgstr "Þemaskrár (*.tar.gz *.tar.bz2 *.tar.xz *.tar.lz *.zip)"

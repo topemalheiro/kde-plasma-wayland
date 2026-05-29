@@ -1,0 +1,475 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2014, 2015, 2018.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2025 Matjaž Jeran <matjaz.jeran@amis.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-06 00:47+0000\n"
+"PO-Revision-Date: 2025-10-28 06:50+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"X-Generator: Poedit 3.8\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Matjaž Jeran"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "matjaz.jeran@amis.net"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Odpri sliko"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Imenik z ozadjem za prikaz predstavitev"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Positioning:"
+msgstr "Položaj:"
+
+#: imagepackage/contents/ui/config.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr "Umerjeno in obrezano"
+
+#: imagepackage/contents/ui/config.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled"
+msgstr "Umerjeno"
+
+#: imagepackage/contents/ui/config.qml:167
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr "Umerjeno, ohrani proporce"
+
+#: imagepackage/contents/ui/config.qml:171
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr "Usredinjeno"
+
+#: imagepackage/contents/ui/config.qml:199
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
+msgid "Switch dynamic wallpapers:"
+msgstr "Preklapljaj dinamična ozadja:"
+
+#: imagepackage/contents/ui/config.qml:207
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on whether the Plasma style is light or dark "
+msgstr "Glede na to ali je barvna shema temna ali svetla "
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
+msgstr "Glede na cikel dan-noč"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr "Vedno uporabi svetlo"
+
+#: imagepackage/contents/ui/config.qml:217
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use dark variant"
+msgstr "Vedno uporabi temno"
+
+#: imagepackage/contents/ui/config.qml:231
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "Konfiguriraj…"
+
+#: imagepackage/contents/ui/config.qml:242
+#, kde-format
+msgid "Background:"
+msgstr "Ozadje:"
+
+#: imagepackage/contents/ui/config.qml:243
+#, kde-format
+msgid "Blur"
+msgstr "Zabrisanost"
+
+#: imagepackage/contents/ui/config.qml:252
+#, kde-format
+msgid "Solid color"
+msgstr "Polna barva"
+
+#: imagepackage/contents/ui/config.qml:263
+#, kde-format
+msgid "Select Background Color"
+msgstr "Izberite barvo ozadja"
+
+#: imagepackage/contents/ui/main.qml:37
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Odpri sliko ozadja"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
+#, kde-format
+msgid "Images"
+msgstr "Slike"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
+#, kde-format
+msgctxt "@action:button the thing being added is an image file"
+msgid "Add…"
+msgstr "Dodaj…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Wallpaper Image…"
+msgstr "Dodaj sliko ozadja…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
+#, kde-format
+msgctxt "@action:button the new things being gotten are wallpapers"
+msgid "Get New…"
+msgstr "Dobi novo…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Wallpaper Images…"
+msgstr "Dobi nove slike ozadja…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
+#, kde-format
+msgctxt "@action:button the things being selected are wallpapers"
+msgid "Select All"
+msgstr "Izberi vse"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All Slides"
+msgstr "Izberi vse prosojnice"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
+#, kde-format
+msgctxt "@action:button the things being unselected are wallpapers"
+msgid "Select None"
+msgstr "Ne izberi nič"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All Slides"
+msgstr "Odizberi vse prosojnice"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Odpri vsebovano mapo"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Obnovi sliko ozadja"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Odstrani sliko ozadja"
+
+#: plasma-apply-wallpaperimage.cpp:28
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr "To orodje omogoča nastavitev slike ozadja za sejo Plasme."
+
+#: plasma-apply-wallpaperimage.cpp:30
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"Slikovna datoteka ali nameščen paket za ozadje, ki ga želite nastaviti kot "
+"ozadje za vašo sejo Plasme"
+
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr "Določite način polnjenja (npr. razteg, preserveAspectCrop itd.)"
+
+#: plasma-apply-wallpaperimage.cpp:58
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"V imenu tega ozadja je enojni narekovaj - prosim obrnite se na avtorja "
+"ozadja, da to odpravite, ali sami preimenujte datoteko: %1"
+
+#: plasma-apply-wallpaperimage.cpp:96
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr "Določen neveljaven način polnjenja: %1"
+
+#: plasma-apply-wallpaperimage.cpp:112
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "Pri poskusu nastavitve ozadja Plasme je prišlo do napake:\n"
+
+#: plasma-apply-wallpaperimage.cpp:116
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"Ozadje za vsa namizja je bilo uspešno nastavljeno na osnovi KPackage %1"
+
+#: plasma-apply-wallpaperimage.cpp:118
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr "Ozadje za vsa namizja je bilo uspešno nastavljeno na sliko %1"
+
+#: plasma-apply-wallpaperimage.cpp:125
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"Datoteka, ki naj bi bila nastavljena za ozadje ali ne obstaja ali pa je ni "
+"mogoče prepoznati kot ozadje: %1"
+
+#: plugin/imagebackend.cpp:42
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Naslednja slika ozadja"
+
+#. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
+#: plugin/imagebackend.cpp:384
+#, kde-format
+msgid "Media Files"
+msgstr "Medijske datoteke"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
+#, kde-format
+msgid "Order:"
+msgstr "Vrstni red:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
+#, kde-format
+msgid "Random"
+msgstr "Slučajno"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
+#, kde-format
+msgid "A to Z"
+msgstr "od A do Ž"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
+#, kde-format
+msgid "Z to A"
+msgstr "Od Ž do A"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Datum spremembe (najnovejše so prve)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Datum spremembe (najstarejše so prve)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
+#, kde-format
+msgid "Group by folders"
+msgstr "Grupiraj po mapah"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
+#, kde-format
+msgid "Change every:"
+msgstr "Spremeni vsakih:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 ura"
+msgstr[1] "%1 uri"
+msgstr[2] "%1 ure"
+msgstr[3] "%1 ur"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minuti"
+msgstr[2] "%1 minute"
+msgstr[3] "%1 minut"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekunda"
+msgstr[1] "%1 sekundi"
+msgstr[2] "%1 sekunde"
+msgstr[3] "%1 sekund"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
+#, kde-format
+msgid "Folders"
+msgstr "Mape"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
+#, kde-format
+msgctxt "@action button the thing being added is a folder"
+msgid "Add…"
+msgstr "Dodaj…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "Dodaj mapo…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
+#, kde-format
+msgid "Remove Folder"
+msgstr "Odstrani mapo"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
+#, kde-format
+msgid "Open Folder…"
+msgstr "Odpri mapo…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "Ni nastavljenega mesta za slike ozadja"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set as Wallpaper"
+msgstr "Nastavi kot ozadje"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Set as Desktop Wallpaper"
+msgid "Desktop"
+msgstr "Namizje"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Set as Lockscreen Wallpaper"
+msgid "Lockscreen"
+msgstr "Zaklep zaslona"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Set as both lockscreen and Desktop Wallpaper"
+msgid "Both"
+msgstr "Oboje"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:95
+#, kde-kuit-format
+msgctxt "@info %1 is the dbus error message"
+msgid "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+msgstr "Prišlo je do napake pri poskusu nastavitve ozadja Plasme:<nl/>%1"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:108
+#, kde-format
+msgid "An error occurred while attempting to open kscreenlockerrc config file."
+msgstr ""
+"Prišlo je do napake pri poskusu odpiranja datoteke kscreenlockerrc config."
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "Razpostavljeno"
+
+#~ msgctxt "part of a sentence: 'Switch dynamic wallpapers'"
+#~ msgid "At sunrise and sunset"
+#~ msgstr "Ob sončnem vzhodu in zahodu"
+
+#~ msgctxt ""
+#~ "@label:checkbox Use geolocation services for more accurate sunset and "
+#~ "sunrise times"
+#~ msgid "Use device's current location for more accurate timings"
+#~ msgstr "Uporabi trenutno lokacijo naprave za bolj natančno določanje časa"
+
+#~ msgctxt "@title:window"
+#~ msgid "Open Media"
+#~ msgstr "Odpri medij"
+
+#~ msgid "Add Image…"
+#~ msgstr "Dodaj sliko…"
+
+#~ msgid "Recommended wallpaper file"
+#~ msgstr "Priporočena datoteka za ozadje"
+
+#~ msgid "There are no wallpapers in this slideshow"
+#~ msgstr "Ni slik ozadja v tej predstavi"
+
+#~ msgid "Add Custom Wallpaper"
+#~ msgstr "Dodaj ozadje po meri"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "Odstrani sliko ozadja"
+
+#~ msgid "%1 by %2"
+#~ msgstr "%1 od %2"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Slike ozadja"
+
+#~ msgctxt "<image> by <author>"
+#~ msgid "By %1"
+#~ msgstr "Od %1"
+
+#~ msgid "Download Wallpapers"
+#~ msgstr "Prejmi ozadja"
+
+#~ msgid "Hours"
+#~ msgstr "ur"
+
+#~ msgid "Open..."
+#~ msgstr "Odpri ..."
+
+#~ msgctxt "Unknown Author"
+#~ msgid "Unknown"
+#~ msgstr "Neznano"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
+#~ msgstr "Datoteke s sliko (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
+
+#~ msgid "Screenshot"
+#~ msgstr "Zaslonska slika"
+
+#~ msgid "Preview"
+#~ msgstr "Predogled"

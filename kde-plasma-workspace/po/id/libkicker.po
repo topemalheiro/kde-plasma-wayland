@@ -1,0 +1,503 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Lorenz Adam Damara <lorenzrenz@gmail.com>, 2018.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+# Linerly <linerly@protonmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2025-02-13 22:10+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Buka dengan:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Properti"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Tambahkan ke Desktop"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Semat ke Pengelola Tugas"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Tambahkan ke Panel (Widget)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "File-file Baru-baru Ini"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Lupakan File-file Baru-baru Ini"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "Edit Aplikasi..."
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Uninstal atau Kelola Pernak-pernik..."
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "Sembunyikan Aplikasi"
+
+#: appentry.cpp:462
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Tampakkan Aplikasi di Submenu ini"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Tampakkan Aplikasi di '%1'"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "Tampilkan KRunner"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Cari, hitung, atau jalankan perintah"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "Komputer"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Favorit"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "Barusan Digunakan"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr "Tempat"
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "File-file"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "Lupakan Aplikasi"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr "Folder"
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Buka Folder Konten"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "Lupakan File"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "Lupakan File"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "Lupakan Semua"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Lupakan Semua Aplikasi"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "Lupakan Semua File"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "Lupakan Semua File"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Semua Aplikasi"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "Sembunyikan %1"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "Ini seharusnya tidak terlihat! Gunakanlah KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "File-file Baru-baru Ini"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "File-file Yang Sering Digunakan"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "File-file Yang Sering Digunakan"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "Aplikasi Baru-baru ini"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Aplikasi Sering Digunakan"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "Daya / Sesi"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "Hasil pencarian"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "Kunci"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "Keluar Log"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "Simpan Sesi"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "Beralih Pengguna"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Tidur"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernasi"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "Nyalakan Ulang"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "Matikan"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "Sesi"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "Sistem"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "Layar kunci"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "Akhiri sesi"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Mulai sesi parallel sebagai pengguna yang berbeda"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspensikan ke RAM"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Suspensikan ke disk"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "Menyalakan-ulang komputer"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "Mematikan komputer"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Aksi sistem"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "Tampilkan Informasi Kontak..."
+
+#~ msgid "Contacts"
+#~ msgstr "Kontak"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Lupakan Kontak"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Lupakan Semua Kontak"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Kontak Baru-baru ini"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumen"
+
+#~ msgid "Forget Document"
+#~ msgstr "Lupakan Dokumen"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Lupakan Semua Dokumen"
+
+#~ msgid "General"
+#~ msgstr "Umum"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Hapus dari Favorit"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Tambahkan ke Favorit"
+
+#~ msgid "On All Activities"
+#~ msgstr "Pada Semua Activities"
+
+#~ msgid "On The Current Activity"
+#~ msgstr "Pada Aktivitas Saat Ini"
+
+#~ msgid "Show In Favorites"
+#~ msgstr "Tampilkan Pada Favorit"
+
+#~ msgid "Icon:"
+#~ msgstr "Ikon:"
+
+#~ msgctxt "@item:inmenu Open icon chooser dialog"
+#~ msgid "Choose..."
+#~ msgstr "Pilih..."
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Bersihkan Ikon"
+
+#~ msgid "Show applications as:"
+#~ msgstr "Tampilkan aplikasi sebagai:"
+
+#~ msgid "Name only"
+#~ msgstr "Hanya nama"
+
+#~ msgid "Description only"
+#~ msgstr "Hanya deskripsi"
+
+#~ msgid "Name (Description)"
+#~ msgstr "Nama (deskripsi)"
+
+#~ msgid "Description (Name)"
+#~ msgstr "Deskripsi (nama)"
+
+#~ msgid "Behavior:"
+#~ msgstr "Perilaku:"
+
+#~ msgid "Sort applications alphabetically"
+#~ msgstr "Urutkan aplikasi secara alfabet"
+
+#~ msgid "Flatten sub-menus to a single level"
+#~ msgstr "Ratakan sub-menu ke satu level"
+
+#~ msgid "Show categories:"
+#~ msgstr "Tampilkan kategori:"
+
+#~ msgid "Recent applications"
+#~ msgstr "Aplikasi Baru-baru ini"
+
+#~ msgid "Often used applications"
+#~ msgstr "Aplikasi yang sering digunakan"
+
+#~ msgid "Recent documents"
+#~ msgstr "Dokumen Baru-baru ini"
+
+#~ msgid "Often used documents"
+#~ msgstr "Dokumen yang sering digunakan"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Kontak baru-baru ini"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Kontak yang sering digunakan"
+
+#~ msgid "Sort items in categories by:"
+#~ msgstr "Urutkan item-item dalam kategori berdasarkan:"
+
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+#~ msgid "Recently used"
+#~ msgstr "Barusan digunakan"
+
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#~ msgid "Often used"
+#~ msgstr "Sering  digunakan"
+
+#~ msgid "Search:"
+#~ msgstr "Cari:"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Perluas pencarian untuk markah, berkas, dan surel"
+
+#~ msgid "Align search results to bottom"
+#~ msgstr "Sejajarkan hasil pencarian ke bagian bawah"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Mencari '%1'"
+
+#~ msgid "Type to search..."
+#~ msgstr "Ketik untuk mencari..."
+
+#~ msgid "Widgets"
+#~ msgstr "Widget"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Aplikasi & Dokumen"
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Ubah Aplikasi..."
+
+#~ msgid "Search..."
+#~ msgstr "Cari..."
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Atur '%1'..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Janlankan Perintah..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Jalankan perintah atau kata kunci pencarian"
+
+#~ msgid "Show:"
+#~ msgstr "Tampilkan:"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Tampilkan aplikasi baru-baru ini"
+
+#~ msgid "Show often used applications"
+#~ msgstr "Tampilkan aplikasi yang sering digunakan"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Tampilkan dokumen baru-baru ini"
+
+#~ msgid "Show often used documents"
+#~ msgstr "Tampilkan dokumen yang sering digunakan"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Tampilkan kontak baru-baru ini"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Penyimpanan Dapat Dilepas"
+
+#~ msgid "Logout"
+#~ msgstr "Keluar"
+
+#~ msgid "Suspend"
+#~ msgstr "Suspensi"
+
+#~ msgid "Reboot"
+#~ msgstr "Nyalakan-ulang"

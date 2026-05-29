@@ -1,0 +1,225 @@
+# translation of plasma_applet_pager.po to Lithuanian
+# This file is distributed under the same license as the plasma_applet_pager package.
+# Gintautas Miselis <gintautas@miselis.lt>, 2008.
+# Donatas G. <dgvirtual@akl.lt>, 2010.
+# liudas@aksioma.lt <liudas@aksioma.lt>, 2014.
+# Liudas Ališauskas <liudas@akmc.lt>, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2026-01-12 23:59+0200\n"
+"Last-Translator: Moo <<>>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Bendra"
+
+#: qml/configGeneral.qml:39
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Bendra:"
+
+#: qml/configGeneral.qml:41
+#, kde-format
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "Rodyti langų kontūrus"
+
+#: qml/configGeneral.qml:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "Langų kontūruose rodyti programų piktogramas"
+
+#: qml/configGeneral.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "Rodyti tik dabartinį ekraną"
+
+#: qml/configGeneral.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "Cikliškai perjunginėti"
+
+#: qml/configGeneral.qml:69
+#, kde-format
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "Išdėstymas:"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "Numatytasis"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "Horizontaliai"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "Vertikaliai"
+
+#: qml/configGeneral.qml:85
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "Teksto rodymas:"
+
+#: qml/configGeneral.qml:88
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "Jokio teksto"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "Veiklos numeris"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "Darbalaukio numeris"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "Veiklos pavadinimas"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "Darbalaukio pavadinimas"
+
+#: qml/configGeneral.qml:119
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Pasirinkus dabartinę veiklą:"
+
+#: qml/configGeneral.qml:120
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Pasirinkus dabartinį virtualų darbalaukį:"
+
+#: qml/configGeneral.qml:123
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "Nieko nedaroma"
+
+#: qml/configGeneral.qml:131
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "Parodomas darbalaukis"
+
+#: qml/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "…ir dar %1 langas"
+msgstr[1] "…ir dar %1 langai"
+msgstr[2] "…ir dar %1 langų"
+msgstr[3] "…ir dar %1 langas"
+
+#: qml/main.qml:352
+#, kde-format
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 langas:"
+msgstr[1] "%1 langai:"
+msgstr[2] "%1 langų:"
+msgstr[3] "%1 langas:"
+
+#: qml/main.qml:364
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 suskleistas langas:"
+msgstr[1] "%1 suskleisti langai:"
+msgstr[2] "%1 suskleistų langų:"
+msgstr[3] "%1 suskleistas langas:"
+
+#: qml/main.qml:440
+#, kde-format
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "Darbalaukis %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "Perjungti į %1"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "Rodyti veiklų tvarkytuvę"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "Pridėti virtualų darbalaukį"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Šalinti virtualų darbalaukį"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&Konfigūruoti veiklas…"
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Konfigūruoti virtualius darbalaukius…"
+
+#~ msgid "Icons"
+#~ msgstr "Ženkliukus"

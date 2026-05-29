@@ -1,0 +1,76 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2017.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2026-03-14 07:43+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "Išči"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "Poišči…"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Videz"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "Uporabi en gumb za meni programa"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "Pokaži polni meni programa"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr "Prikaz menijev za aplikacije na različnih zaslonih"
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "Odpri meni"
+
+#~ msgid "Search..."
+#~ msgstr "Išči..."
+
+#~ msgid "application-menu"
+#~ msgstr "meni-programa"
+
+#~ msgid "Application Menu Widget is disabled"
+#~ msgstr "Gradnik menija programa je onemogočen"
+
+#~ msgctxt "it being the 'Application Menu Widget'"
+#~ msgid ""
+#~ "Go to System Settings > Application Style > Fine Tuning (tab) to enable "
+#~ "it."
+#~ msgstr ""
+#~ "Obiščite Sistemske nastavitve > Slog programov > Podrobno nastavljanje "
+#~ "(zavihek), da ga omogočite."
+
+#~ msgid "emblem-warning"
+#~ msgstr "znacka-opozorila"

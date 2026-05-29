@@ -1,0 +1,305 @@
+# Spanish translations for kcm_notifications.po package.
+# Copyright (C) 2019-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2019.
+#
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_notifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-19 00:47+0000\n"
+"PO-Revision-Date: 2026-01-14 12:15+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Conmutar no molestar"
+
+#: sourcesmodel.cpp:404
+#, kde-format
+msgid "Other Applications"
+msgstr "Otras aplicaciones"
+
+#: ui/ApplicationConfiguration.qml:105
+#, kde-format
+msgid "Show popups"
+msgstr "Mostrar ventanas emergentes"
+
+#: ui/ApplicationConfiguration.qml:119
+#, kde-format
+msgid "Show in do not disturb mode"
+msgstr "Mostrar en el modo «No molestar»"
+
+#: ui/ApplicationConfiguration.qml:132 ui/main.qml:208
+#, kde-format
+msgid "Show in history"
+msgstr "Mostrar en el historial"
+
+#: ui/ApplicationConfiguration.qml:143
+#, kde-format
+msgid "Show notification badges"
+msgstr "Mostrar placas de notificaciones"
+
+#: ui/ApplicationConfiguration.qml:180
+#, kde-format
+msgctxt "@title:table Configure individual notification events in an app"
+msgid "Configure Events"
+msgstr "Configurar eventos"
+
+#: ui/ApplicationConfiguration.qml:188
+#, kde-format
+msgid ""
+"This application does not support configuring notifications on a per-event "
+"basis"
+msgstr ""
+"Esta aplicación no permite configurar notificaciones para eventos "
+"individuales"
+
+#: ui/ApplicationConfiguration.qml:282
+#, kde-format
+msgid "Show a message in a pop-up"
+msgstr "Mostrar un mensaje en una ventana emergente"
+
+#: ui/ApplicationConfiguration.qml:291
+#, kde-format
+msgid "Play a sound"
+msgstr "Reproducir un sonido"
+
+#: ui/ApplicationConfiguration.qml:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview sound"
+msgstr "Probar el sonido"
+
+#: ui/ApplicationConfiguration.qml:328
+#, kde-format
+msgctxt "Reset the notification sound to a default one"
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ui/ApplicationConfiguration.qml:340
+#, kde-format
+msgid "Choose sound file"
+msgstr "Escoger archivo de sonido"
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt "@action:button Plasma-specific notifications"
+msgid "Configure for System…"
+msgstr "Configurar para el sistema…"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@action:button Application-specific notifications"
+msgid "Configure for Applications…"
+msgstr "Configurar para las aplicaciones…"
+
+#: ui/main.qml:96
+#, kde-format
+msgid ""
+"Could not find a 'Notifications' widget, which is required for displaying "
+"notifications. Make sure that it is enabled either in your System Tray or as "
+"a standalone widget."
+msgstr ""
+"No se ha podido encontrar un widget de «Notificaciones», que es necesario "
+"para mostrar notificaciones. Asegúrese de que está activado en la bandeja "
+"del sistema o como widget independiente."
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2' instead of Plasma."
+msgstr ""
+"Las notificaciones se están proporcionando en la actualidad por «%1 %2» en "
+"lugar de Plasma."
+
+#: ui/main.qml:111
+#, kde-format
+msgid "Notifications are currently not provided by Plasma."
+msgstr "Las notificaciones no se están proporcionando actualmente por Plasma."
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group"
+msgid "Do Not Disturb mode"
+msgstr "Modo no molestar"
+
+#: ui/main.qml:131
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "Enable automatically:"
+msgstr "Activar automáticamente:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Cuando las pantallas están duplicadas"
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode during screen sharing"
+msgid "During screen sharing"
+msgstr "Mientras se comparte la pantalla"
+
+#: ui/main.qml:158
+#, kde-format
+msgctxt ""
+"Automatically enable Do Not Disturb mode while a fullscreen application is "
+"focused"
+msgid "While a fullscreen application is focused"
+msgstr "Mientras una aplicación a pantalla completa tiene el foco"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
+msgid "Manually toggle with shortcut:"
+msgstr "Conmutar manualmente con el atajo de teclado:"
+
+#: ui/main.qml:177
+#, kde-format
+msgctxt "@title:group"
+msgid "Visibility conditions"
+msgstr "Condiciones de visibilidad"
+
+#: ui/main.qml:182
+#, kde-format
+msgid "Critical notifications:"
+msgstr "Notificaciones críticas:"
+
+#: ui/main.qml:183
+#, kde-format
+msgid "Show in Do Not Disturb mode"
+msgstr "Mostrar en el modo «No molestar»"
+
+#: ui/main.qml:195
+#, kde-format
+msgid "Low priority notifications:"
+msgstr "Notificaciones de baja prioridad:"
+
+#: ui/main.qml:196
+#, kde-format
+msgid "Show popup"
+msgstr "Mostrar ventana emergente"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "@title:group As in: 'notification popups'"
+msgid "Popups"
+msgstr "Ventanas emergentes"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "Ubicación:"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "Popup position near notification plasmoid"
+msgid "Near notification icon"
+msgstr "Junto al icono de notificaciones"
+
+#: ui/main.qml:269
+#, kde-format
+msgctxt "@action:button choose custom notification position"
+msgid "Choose…"
+msgstr "Escoger…"
+
+#: ui/main.qml:278 ui/main.qml:294
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 segundo"
+msgstr[1] "%1 segundos"
+
+#: ui/main.qml:283
+#, kde-format
+msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
+msgid "Hide after:"
+msgstr "Ocultar tras:"
+
+#: ui/main.qml:306
+#, kde-format
+msgctxt ""
+"@option:check Show progress bar on notifications indicating when it will hide"
+msgid "Show timeout indicator"
+msgstr "Mostrar el indicador de tiempo de espera"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:group"
+msgid "Additional feedback"
+msgstr "Información adicional"
+
+#: ui/main.qml:324
+#, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr "Mostrar en notificaciones"
+
+#: ui/main.qml:325
+#, kde-format
+msgid "Application progress:"
+msgstr "Avance de la aplicación:"
+
+#: ui/main.qml:339
+#, kde-format
+msgctxt "Keep application job popup open for entire duration of job"
+msgid "Keep popup open during progress"
+msgstr "Mantener la ventana emergente abierta durante el avance"
+
+#: ui/main.qml:352
+#, kde-format
+msgid "Notification badges:"
+msgstr "Placas de notificaciones:"
+
+#: ui/main.qml:353
+#, kde-format
+msgid "Show in task manager"
+msgstr "Mostrar en el gestor de tareas"
+
+#: ui/PopupPositionDialog.qml:15
+#, kde-format
+msgid "Popup Position"
+msgstr "Posición de la ventana emergente"
+
+#: ui/SourcesPage.qml:20
+#, kde-format
+msgctxt ""
+"@title:window kcm page title, configure app-specific notification settings"
+msgid "Application Notifications"
+msgstr "Notificaciones de aplicaciones"
+
+#: ui/SourcesPage.qml:108
+#, kde-format
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: ui/SourcesPage.qml:109
+#, kde-format
+msgid "System Services"
+msgstr "Servicios del sistema"
+
+#: ui/SourcesPage.qml:157
+#, kde-format
+msgid "No application or event matches your search term"
+msgstr "Ninguna aplicación ni evento coincide con la búsqueda"
+
+#: ui/SourcesPage.qml:181
+#, kde-format
+msgid ""
+"Select an application from the list to configure its notification settings "
+"and behavior"
+msgstr ""
+"Seleccione una aplicación en la lista para configurar las preferencias y el "
+"comportamiento de sus notificaciones"

@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Aindriú Mac Giolla Eoin <aindriu80@yahoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2026-01-21 11:04+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@yahoo.com>\n"
+"Language-Team: Irish <http://weblate.amgelocalnet.duckdns.org/projects/kde-"
+"plasma-translations/plasma_applet_org-kde-plasma-kickoff/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Bain de na Ceanáin"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Cuir le Ceanáin"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Ar Gach Gníomhaíocht"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Ar an nGníomhaíocht Reatha"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Taispeáin i gCeanáin"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Ginearálta"
+
+#: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Deilbhín:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Athraigh deilbhín an Lainseálaí Feidhmchláir"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Is é %1 an deilbhín reatha. Cliceáil chun an roghchlár a oscailt chun an "
+"deilbhín reatha a athrú nó chun an deilbhín réamhshocraithe a athshocrú."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Is é \"%1\" ainm an deilbhín"
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Roghnaigh…"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Roghnaigh deilbhín don Tosaitheoir Feidhmchláir"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Athshocraigh go dtí an deilbhín réamhshocraithe"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Bain deilbhín"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Lipéad téacs:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Clóscríobh anseo chun lipéad téacs a chur leis"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Athshocraigh lipéad an roghchláir"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "Ní féidir lipéad téacs a shocrú nuair atá an Painéal ingearach."
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Taispeáin feidhmchláir mar:"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Ainm amháin"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Cur síos amháin"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Ainm (Cur Síos)"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Cur Síos (Ainm)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Ginearálta:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Sórtáil feidhmchláir in ord aibítre"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Ní dhéanann sé seo difear don chaoi a ndéantar feidhmchláir a shórtáil i "
+"dtorthaí cuardaigh ná ar an leathanach ceanáin."
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "Úsáid stíl mhír liosta dlúth"
+
+#: ConfigGeneral.qml:187
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Highlight newly installed applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Aibhsigh feidhmchláir nua-shuiteáilte"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Athraigh catagóirí an bharra taoibh agus tú ag luamhán os a gcionn"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Cumraigh Breiseáin Chuardaigh…"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Suíomh an bharra taoibh:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Deas"
+
+#: ConfigGeneral.qml:209
+#, kde-format
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Clé"
+
+#: ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Clé"
+
+#: ConfigGeneral.qml:225
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Taispeáin na Ceanáin:"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "I ngreille"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "I liosta"
+
+#: ConfigGeneral.qml:242
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Taispeáin feidhmchláir eile:"
+
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "I ngreille"
+
+#: ConfigGeneral.qml:251
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "I liosta"
+
+#: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Taispeáin cnaipí le haghaidh:"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Cumhacht"
+
+#: ConfigGeneral.qml:273
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Seisiún"
+
+#: ConfigGeneral.qml:282
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Cumhacht agus seisiún"
+
+#: ConfigGeneral.qml:291
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "Taispeáin fotheidil na gcnaipí gníomhaíochta"
+
+#: Footer.qml:101
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Feidhmchláir"
+
+#: Footer.qml:117
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Áiteanna"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Gan aon mheaitseálacha"
+
+#: Header.qml:86
+#, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "Oscail socruithe úsáideora"
+
+#: Header.qml:276
+#, kde-format
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Coinnigh Oscailte"
+
+#: KickoffGridDelegate.qml:59
+#, fuzzy, kde-format
+#| msgctxt "@label Newly installed app, badge, keep short"
+#| msgid "New!"
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nua!"
+
+#: KickoffGridDelegate.qml:61
+#, fuzzy, kde-format
+#| msgctxt "@label Accessible name for badge"
+#| msgid "Newly installed application"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Feidhmchlár nua-shuiteáilte"
+
+#: KickoffGridView.qml:105
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Eangach le %1 sraitheanna, %2 colún"
+
+#: KickoffListDelegate.qml:120
+#, fuzzy, kde-format
+#| msgctxt "@label Newly installed app, badge, keep short"
+#| msgid "New!"
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nua!"
+
+#: KickoffListDelegate.qml:125
+#, fuzzy, kde-format
+#| msgctxt "@info:whatsthis Accessible description for badge"
+#| msgid "There is a newly installed application in this category"
+msgid "There is a newly-installed application in this category"
+msgstr "Tá feidhmchlár nua-shuiteáilte sa chatagóir seo"
+
+#: KickoffListDelegate.qml:126
+#, fuzzy, kde-format
+#| msgctxt "@label Accessible name for badge"
+#| msgid "Newly installed application"
+msgid "Newly-installed application"
+msgstr "Feidhmchlár nua-shuiteáilte"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Seisiún"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Cumhacht"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Tuilleadh"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Seisiún agus Cumhacht"
+
+#: main.qml:358
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Cuir Feidhmchláir in Eagar…"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Ríomhaire"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Stair"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Úsáidte go Minic"
+
+#~ msgctxt "Newly installed app, badge, keep short"
+#~ msgid "New!"
+#~ msgstr "Nua!"
+
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Feidhmchlár nua-shuiteáilte"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "Díchumasaithe go huathoibríoch nuair atá tú i Mód Tadhaill"

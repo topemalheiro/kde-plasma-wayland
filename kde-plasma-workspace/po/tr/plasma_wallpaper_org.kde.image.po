@@ -1,0 +1,426 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Serdar Soytetir <tulliana@gmail.com>, 2008, 2009, 2010, 2011, 2012.
+# H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2011.
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2021, 2022.
+# Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_image\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-06 00:47+0000\n"
+"PO-Revision-Date: 2026-05-02 19:41+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Emir SARI"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "emir_sari@icloud.com"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Görsel Aç"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Slayt için Klasör Aç"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Positioning:"
+msgstr "Konumlandırma:"
+
+#: imagepackage/contents/ui/config.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr "Ölçeklendirilmiş ve kırpılmış"
+
+#: imagepackage/contents/ui/config.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled"
+msgstr "Ölçeklendirilmiş"
+
+#: imagepackage/contents/ui/config.qml:167
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr "Ölçeklendirilmiş, oranları koru"
+
+#: imagepackage/contents/ui/config.qml:171
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr "Ortalanmış"
+
+#: imagepackage/contents/ui/config.qml:199
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
+msgid "Switch dynamic wallpapers:"
+msgstr "Devingen duvar kâğıtları arasında geçiş yap:"
+
+#: imagepackage/contents/ui/config.qml:207
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on whether the Plasma style is light or dark "
+msgstr "Plasma biçeminin açık veya koyu olmasına bağlı olarak"
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
+msgstr "Gece–gündüz döngüsüne bağlı olarak"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr "Her zaman açık varyantı kullan"
+
+#: imagepackage/contents/ui/config.qml:217
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use dark variant"
+msgstr "Her zaman koyu varyantı kullan"
+
+#: imagepackage/contents/ui/config.qml:231
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "Yapılandır…"
+
+#: imagepackage/contents/ui/config.qml:242
+#, kde-format
+msgid "Background:"
+msgstr "Arka plan:"
+
+#: imagepackage/contents/ui/config.qml:243
+#, kde-format
+msgid "Blur"
+msgstr "Bulanık"
+
+#: imagepackage/contents/ui/config.qml:252
+#, kde-format
+msgid "Solid color"
+msgstr "Katı renk"
+
+#: imagepackage/contents/ui/config.qml:263
+#, kde-format
+msgid "Select Background Color"
+msgstr "Arka Plan Rengini Seç"
+
+#: imagepackage/contents/ui/main.qml:37
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Duvar Kâğıdı Görselini Aç"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
+#, kde-format
+msgid "Images"
+msgstr "Görseller"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
+#, kde-format
+msgctxt "@action:button the thing being added is an image file"
+msgid "Add…"
+msgstr "Ekle…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Wallpaper Image…"
+msgstr "Duvar Kâğıdı Görseli Ekle…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
+#, kde-format
+msgctxt "@action:button the new things being gotten are wallpapers"
+msgid "Get New…"
+msgstr "Yeni Al…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Wallpaper Images…"
+msgstr "Yeni Duvar Kâğıdı Görselleri Al…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
+#, kde-format
+msgctxt "@action:button the things being selected are wallpapers"
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All Slides"
+msgstr "Tüm Slaytları Seç"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
+#, kde-format
+msgctxt "@action:button the things being unselected are wallpapers"
+msgid "Select None"
+msgstr "Hiçbirini Seçme"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All Slides"
+msgstr "Tüm Slaytların Seçimini Kaldır"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "İçeren Klasörü Aç"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Duvar kâğıdını geri yükle"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Duvar Kâğıdını Kaldır"
+
+#: plasma-apply-wallpaperimage.cpp:28
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+"Bu araç, Plasma oturumu için bir görseli duvar kâğıdı olarak ayarlamanıza "
+"izin verir."
+
+#: plasma-apply-wallpaperimage.cpp:30
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"Bir görseli dosyası veya kurulu bir duvar kâğıdı kpackage’ını Plasma duvar "
+"kâğıdı olarak ayarlayabilirsiniz"
+
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr "Dolgu kipini belirtin (örneğin ger, en–boy oranını koru vb.)"
+
+#: plasma-apply-wallpaperimage.cpp:58
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"Bu duvar kâğıdının dosya adında başıboş bir tek tırnak (') var, lütfen duvar "
+"kâğıdının sanatçısı ile iletişime geçin veya dosyayı kendiniz yeniden "
+"adlandırın: %1"
+
+#: plasma-apply-wallpaperimage.cpp:96
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr "Geçersiz dolgu kipi belirtildi: %1"
+
+#: plasma-apply-wallpaperimage.cpp:112
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "Plasma duvar kâğıdı ayarlamaya çalışırken bir hata oluştu:\n"
+
+#: plasma-apply-wallpaperimage.cpp:116
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"Tüm masaüstleri için KPackage tabanlı %1 duvar kâğıdı başarıyla ayarlandı"
+
+#: plasma-apply-wallpaperimage.cpp:118
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr "Tüm masaüstleri için duvar kâğıdı %1 görseli olarak ayarlandı"
+
+#: plasma-apply-wallpaperimage.cpp:125
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"Duvar kâğıdı olarak ayarlanmak istenen dosya yok veya onu duvar kâğıdı "
+"olarak tanımlayamıyoruz: %1"
+
+#: plugin/imagebackend.cpp:42
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Sonraki Duvar Kâğıdına Geç"
+
+#. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
+#: plugin/imagebackend.cpp:384
+#, kde-format
+msgid "Media Files"
+msgstr "Ortam Dosyaları"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
+#, kde-format
+msgid "Order:"
+msgstr "Sıralama:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
+#, kde-format
+msgid "Random"
+msgstr "Rastgele"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
+#, kde-format
+msgid "A to Z"
+msgstr "A’dan Z’ye"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
+#, kde-format
+msgid "Z to A"
+msgstr "Z’den A’ya"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Değiştirilme tarihi (en yeni en önce)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Değiştirilme tarihi (en eski en önce)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
+#, kde-format
+msgid "Group by folders"
+msgstr "Klasörlerle grupla"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
+#, kde-format
+msgid "Change every:"
+msgstr "Değişim sıklığı:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 saat"
+msgstr[1] "%1 saat"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 dakika"
+msgstr[1] "%1 dakika"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 saniye"
+msgstr[1] "%1 saniye"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
+#, kde-format
+msgid "Folders"
+msgstr "Klasörler"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
+#, kde-format
+msgctxt "@action button the thing being added is a folder"
+msgid "Add…"
+msgstr "Ekle…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "Klasör Ekle…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
+#, kde-format
+msgid "Remove Folder"
+msgstr "Klasörü Kaldır"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
+#, kde-format
+msgid "Open Folder…"
+msgstr "Klasör Aç…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "Yapılandırılmış duvar kâğıdı konumu yok"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set as Wallpaper"
+msgstr "Duvar Kâğıdı Olarak Ayarla"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Set as Desktop Wallpaper"
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Set as Lockscreen Wallpaper"
+msgid "Lockscreen"
+msgstr "Kilit Ekranı"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Set as both lockscreen and Desktop Wallpaper"
+msgid "Both"
+msgstr "Her İkisi"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:95
+#, kde-kuit-format
+msgctxt "@info %1 is the dbus error message"
+msgid "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+msgstr "Plasma duvar kâğıdını ayarlamaya çalışırken bir hata oluştu:<nl/>%1"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:108
+#, kde-format
+msgid "An error occurred while attempting to open kscreenlockerrc config file."
+msgstr ""
+"kscreenlockerrc yapılandırma dosyasını açmaya çalışırken bir hata oluştu."
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "Döşenmiş"
+
+#~ msgctxt "part of a sentence: 'Switch dynamic wallpapers'"
+#~ msgid "At sunrise and sunset"
+#~ msgstr "Gündoğumunda ve günbatımında"
+
+#~ msgctxt ""
+#~ "@label:checkbox Use geolocation services for more accurate sunset and "
+#~ "sunrise times"
+#~ msgid "Use device's current location for more accurate timings"
+#~ msgstr "Daha doğru zamanlama için aygıtın geçerli konumunu kullan"
+
+#~ msgctxt "@title:window"
+#~ msgid "Open Media"
+#~ msgstr "Ortam Aç"

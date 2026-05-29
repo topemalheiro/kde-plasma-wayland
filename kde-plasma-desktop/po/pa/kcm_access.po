@@ -1,0 +1,1477 @@
+# translation of kcmaccess.po to Punjabi
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
+# Amanpreet Singh Brar <amanpreetalam@yahoo.com>, 2005.
+# Amanpreet Singh Brar <aalam@redhat.com>, 2005.
+# SPDX-FileCopyrightText: 2007, 2008, 2021, 2024, 2025, 2026 A S Alam <aalam@users.sf.net>
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"PO-Revision-Date: 2026-01-24 08:26-0600\n"
+"Last-Translator: A S Alam <aman@punlinux.org>\n"
+"Language-Team: pa\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+#: kcmaccess.cpp:127 kcmaccess.cpp:155
+#, kde-format
+msgid "KWin"
+msgstr "ਕੇ-ਵਿਨ"
+
+#: kcmaccess.cpp:130
+#, kde-format
+msgid "Toggle Invert Effect"
+msgstr ""
+
+#: kcmaccess.cpp:136
+#, kde-format
+msgid "Toggle Invert Effect on Window"
+msgstr ""
+
+#: kcmaccess.cpp:178
+#, kde-format
+msgid "Move Left"
+msgstr "ਖੱਬੇ ਭੇਜੋ"
+
+#: kcmaccess.cpp:185
+#, kde-format
+msgid "Move Right"
+msgstr "ਸੱਜੇ ਭੇਜੋ"
+
+#: kcmaccess.cpp:192
+#, kde-format
+msgid "Move Up"
+msgstr "ਉੱਤੇ ਭੇਜੋ"
+
+#: kcmaccess.cpp:199
+#, kde-format
+msgid "Move Down"
+msgstr "ਹੇਠਾਂ ਭੇਜੋ"
+
+#: kcmaccess.cpp:206
+#, kde-format
+msgid "Move Mouse to Focus"
+msgstr "ਫੋਕਸ ਲਈ ਮਾਊਸ ਨੂੰ ਹਿਲਾਓ"
+
+#: kcmaccess.cpp:213
+#, kde-format
+msgid "Move Mouse to Center"
+msgstr "ਸੈੰਟਰ ਲਈ ਮਾਊਸ ਨੂੰ ਹਿਲਾਓ"
+
+#: kcmaccess.cpp:256
+#, kde-format
+msgid "Could not set gsettings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:263
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr ""
+
+#. i18n: ectx: label, entry (Gestures), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:9
+#, kde-format
+msgid "Use Gestures"
+msgstr "ਜੈਸਚਰ ਵਰਤੋ"
+
+#. i18n: ectx: label, entry (GestureConfirmation), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:13
+#, kde-format
+msgid "Ask for Confirmation for a gesture"
+msgstr "ਜੈਸਚਰ ਲਈ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਪੁੱਛੋ"
+
+#. i18n: ectx: label, entry (KeyboardNotifyAccess), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:17
+#, kde-format
+msgid "Confirm access to the Keyboard"
+msgstr "ਕੀਬੋਰਡ ਲਈ ਪਹੁੰਚ ਵਾਸਤੇ ਤਸਦੀਕ"
+
+#. i18n: ectx: label, entry (AccessXTimeout), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:21
+#, kde-format
+msgid "Use a timeout delay"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessXTimeoutDelay), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:25
+#, kde-format
+msgid "Delay for timeout"
+msgstr "ਟਾਈਮ-ਆਉਟ ਲਈ ਦੇਰੀ"
+
+#. i18n: ectx: label, entry (AccessXBeep), group (Keyboard)
+#: kcmaccessibilityactivationgestures.kcfg:29
+#, kde-format
+msgid "Use a beep for access"
+msgstr ""
+
+#. i18n: ectx: label, entry (SystemBell), group (Bell)
+#: kcmaccessibilitybell.kcfg:9
+#, kde-format
+msgid "Use System Bell"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ ਵਰਤੋ"
+
+#. i18n: ectx: label, entry (CustomBell), group (Bell)
+#: kcmaccessibilitybell.kcfg:13
+#, kde-format
+msgid "Customize system bell"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ ਕਸਟਮਾਈਜ਼ ਕਰੋ"
+
+#. i18n: ectx: label, entry (CustomBellFile), group (Bell)
+#: kcmaccessibilitybell.kcfg:17
+#, kde-format
+msgid "Sound file for the Bell"
+msgstr "ਘੰਟੀ ਲਈ ਆਵਾਜ਼ ਫਾਇਲ"
+
+#. i18n: ectx: label, entry (VisibleBell), group (Bell)
+#: kcmaccessibilitybell.kcfg:20
+#, kde-format
+msgid "Use a visual bell instead of a sound"
+msgstr "ਆਵਾਜ਼ ਦੀ ਬਜਾਏ ਦਿੱਖ ਘੰਟੀ ਵਰਤੋਂ"
+
+#. i18n: ectx: label, entry (InvertScreen), group (Bell)
+#: kcmaccessibilitybell.kcfg:24
+#, kde-format
+msgid "Invert the system colors on the bell"
+msgstr "ਘੰਟੀ ਵੱਜਣ ਸਮੇਂ ਸਿਸਟਮ ਰੰਗਾਂ ਨੂੰ ਉਲਟਾ ਕਰੋ"
+
+#. i18n: ectx: label, entry (VisibleBellColor), group (Bell)
+#: kcmaccessibilitybell.kcfg:28
+#, kde-format
+msgid "Color of the Visual Bell"
+msgstr "ਦਿੱਖ ਘੰਟੀ ਦੇ ਰੰਗ"
+
+#. i18n: ectx: label, entry (VisibleBellPause), group (Bell)
+#: kcmaccessibilitybell.kcfg:32
+#, kde-format
+msgid "Duration of the Visual Bell"
+msgstr "ਦਿੱਖ ਘੰਟੀ ਦਾ ਅੰਤਰਾਲ"
+
+#. i18n: ectx: label, entry (ColorblindnessCorrection), group (Plugins)
+#: kcmaccessibilitycolorblindnesscorrection.kcfg:13
+#, kde-format
+msgid "Whether Colorblindness Correction is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (Invert), group (Plugins)
+#: kcmaccessibilityinvert.kcfg:9
+#, kde-format
+msgid "Whether the Invert effect is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (StickyKeys), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:9
+#, kde-format
+msgid "Use sticky Keys"
+msgstr "ਸਟਿੱਕੀ ਸਵਿੱਚਾਂ ਵਰਤੋ"
+
+#. i18n: ectx: label, entry (StickyKeysLatch), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:13
+#, kde-format
+msgid "Lock the sticky keys"
+msgstr "ਸਟਿੱਕੀ ਸਵਿੱਚਾਂ ਨੂੰ ਲਾਕ ਕਰੋ"
+
+#. i18n: ectx: label, entry (StickyKeysAutoOff), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:17
+#, kde-format
+msgid "Turn sticky keys off when two keys are pressed simultaneously"
+msgstr ""
+
+#. i18n: ectx: label, entry (StickyKeysBeep), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:21
+#, kde-format
+msgid "Beep on a sticky key press"
+msgstr "ਸਟਿੱਕੀ ਸਵਿੱਚਾਂ ਦਬਾਉਣ ਉੱਤੇ ਬੀਪ"
+
+#. i18n: ectx: label, entry (ToggleKeysBeep), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:25
+#, kde-format
+msgid "Toggle keys beep"
+msgstr ""
+
+#. i18n: ectx: label, entry (KeyboardNotifyModifiers), group (Keyboard)
+#: kcmaccessibilitykeyboard.kcfg:29
+#, kde-format
+msgid "Notify when a keyboard modifier is pressed"
+msgstr ""
+
+#. i18n: ectx: label, entry (SlowKeys), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:9
+#, kde-format
+msgid "Use slow keypresses"
+msgstr "ਸਲੋਅ ਸਵਿੱਚ-ਦਬਾਓ ਨੂੰ ਵਰਤੋ"
+
+#. i18n: ectx: label, entry (SlowKeysDelay), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:13
+#, kde-format
+msgid "Delay for the key press"
+msgstr ""
+
+#. i18n: ectx: label, entry (SlowKeysPressBeep), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:17
+#, kde-format
+msgid "Beep on a slow keypress"
+msgstr ""
+
+#. i18n: ectx: label, entry (SlowKeysAcceptBeep), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:21
+#, kde-format
+msgid "Beep on an accepted keypress"
+msgstr ""
+
+#. i18n: ectx: label, entry (SlowKeysRejectBeep), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:25
+#, kde-format
+msgid "Beep on a rejected keypress"
+msgstr ""
+
+#. i18n: ectx: label, entry (BounceKeys), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:29
+#, kde-format
+msgid "Bounce Keys"
+msgstr "ਬਾਊਸ ਸਵਿੱਚਾਂ"
+
+#. i18n: ectx: label, entry (BounceKeysDelay), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:33
+#, kde-format
+msgid "Use a delay for bouncing"
+msgstr ""
+
+#. i18n: ectx: label, entry (BounceKeysRejectBeep), group (Keyboard)
+#: kcmaccessibilitykeyboardfilters.kcfg:37
+#, kde-format
+msgid "Beep if a bounce key event is rejected"
+msgstr ""
+
+#. i18n: ectx: label, entry (MouseKeys), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:9
+#, kde-format
+msgid "Use keys to control the mouse"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccelerationDelay), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:13
+#, kde-format
+msgid "Delay for the mouse movement"
+msgstr ""
+
+#. i18n: ectx: label, entry (RepetitionInterval), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:17
+#, kde-format
+msgid "Repetition interval for the mouse movement"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccelerationTime), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:21
+#, kde-format
+msgid "Time to hit maximum velocity"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxSpeed), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:25
+#, kde-format
+msgid "Maximum Velocity"
+msgstr ""
+
+#. i18n: ectx: label, entry (ProfileCurve), group (Mouse)
+#: kcmaccessibilitymouse.kcfg:29
+#, kde-format
+msgid "Mouse Key Curve"
+msgstr ""
+
+#. i18n: ectx: label, entry (Enabled), group (ScreenReader)
+#: kcmaccessibilityscreenreader.kcfg:9
+#, kde-format
+msgid "Enable Screen Reader"
+msgstr "ਸਕਰੀਨ ਰੀਡਰ ਸਮਰੱਥ ਕਰੋ"
+
+#. i18n: ectx: label, entry (ShakeCursor), group (Plugins)
+#: kcmaccessibilityshakecursor.kcfg:9
+#, kde-format
+msgid "Whether Shake Pointer is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShakeCursorMagnification), group (Effect-shakecursor)
+#: kcmaccessibilityshakecursor.kcfg:15
+#, kde-format
+msgid "Magnification"
+msgstr "ਵੱਡਦਰਸ਼ਨ"
+
+#. i18n: ectx: label, entry (Zoom), group (Plugins)
+#: kcmaccessibilityzoommagnifier.kcfg:9
+#, kde-format
+msgid "Whether the Zoom effect is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (Magnifier), group (Plugins)
+#: kcmaccessibilityzoommagnifier.kcfg:13
+#, kde-format
+msgid "Whether the Magnifier effect is enabled"
+msgstr ""
+
+#: ui/ActivationShortcuts.qml:18
+#, kde-format
+msgctxt "@option:check"
+msgid "Activation shortcuts:"
+msgstr "ਐਕਟੀਵੇਸ਼ਨ ਸ਼ਾਰਟਕੱਟ:"
+
+#: ui/ActivationShortcuts.qml:19
+#, kde-format
+msgctxt "Enable activation shortcuts"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/ActivationShortcuts.qml:31
+#, kde-format
+msgctxt "@label"
+msgid "Press Shift 5 times to enable Sticky Keys"
+msgstr ""
+
+#: ui/ActivationShortcuts.qml:38
+#, kde-format
+msgctxt "@label"
+msgid "Hold Shift for 8 seconds to enable Slow Keys"
+msgstr ""
+
+#: ui/ActivationShortcuts.qml:47
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable sticky and slow keys after:"
+msgstr ""
+
+#: ui/ActivationShortcuts.qml:71
+#, fuzzy, kde-format
+#| msgid "%1 min"
+#| msgid_plural "%1 min"
+msgctxt "@label:valuesuffix in spinbox %1 is timeout delay"
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] "%1 ਮਿੰਟ"
+msgstr[1] "%1 ਮਿੰਟ"
+
+#: ui/ActivationShortcuts.qml:80
+#, kde-format
+msgctxt "short for minute(s)"
+msgid "min"
+msgid_plural "min"
+msgstr[0] "ਮਿੰਟ"
+msgstr[1] "ਮਿੰਟ"
+
+#: ui/ActivationShortcuts.qml:89
+#, fuzzy, kde-format
+#| msgid "When a shortcut is used:"
+msgctxt "@title:group for checkbox group"
+msgid "When a shortcut is used:"
+msgstr "ਜਦੋਂ ਸ਼ਾਰਟਕੱਟ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ:"
+
+#: ui/ActivationShortcuts.qml:90
+#, fuzzy, kde-format
+#| msgid "Display a confirmation dialog"
+msgctxt "@option:check when shortcut used"
+msgid "Display a confirmation dialog"
+msgstr "ਤਸਦੀਕ ਡਾਈਲਾਗ ਵੇਖਾਓ"
+
+#: ui/ActivationShortcuts.qml:101
+#, fuzzy, kde-format
+#| msgid "Ring the system bell"
+msgctxt "@option:check when shortcut used"
+msgid "Ring the system bell"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ"
+
+#: ui/ActivationShortcuts.qml:112
+#, fuzzy, kde-format
+#| msgid "Show a notification"
+msgctxt "@option:check when shortcut used"
+msgid "Show a notification"
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਓ"
+
+#: ui/ActivationShortcuts.qml:123
+#, fuzzy, kde-format
+#| msgid "Configure Notifications…"
+msgctxt "@action:button opens Notifications kcm"
+msgid "Configure Notifications…"
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਸੰਰਚਨਾ…"
+
+#: ui/Bell.qml:19
+#, fuzzy, kde-format
+#| msgid "Please choose an audio file"
+msgctxt "@title:window dialog"
+msgid "Please choose an audio file"
+msgstr "ਆਡੀਓ ਫਾਇਲ ਚੁਣੋ"
+
+#: ui/Bell.qml:21
+#, kde-format
+msgctxt "Name filters in a file dialog. Do not translate `(*.ogg *.oga *.wav)`"
+msgid "ogg, oga, and wav audio files (*.ogg *.oga *.wav)"
+msgstr "ogg, oga, ਅਤੇ ਵੇਵ ਆਡੀਓ ਫਾਇਲਾਂ (*.ogg *.oga *.wav)"
+
+#: ui/Bell.qml:30
+#, fuzzy, kde-format
+#| msgid "Audible bell:"
+msgctxt "@label prefix for checkbox"
+msgid "Audible bell:"
+msgstr "ਸੁਣਨਯੋਗ ਘੰਟੀ:"
+
+#: ui/Bell.qml:31
+#, kde-format
+msgctxt "Enable the system bell"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/Bell.qml:42
+#, kde-format
+msgctxt "Defines if the system will use a sound system bell"
+msgid "Custom sound:"
+msgstr "ਪਸੰਦੀਦਾ ਆਵਾਜ਼:"
+
+#: ui/Bell.qml:75
+#, fuzzy, kde-format
+#| msgid "Search audio file for the system bell"
+msgctxt "@action:button icononly tooltip"
+msgid "Choose audio file for the system bell"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ ਲਈ ਆਡੀਓ ਫਾਇਲ ਲੱਭੋ"
+
+#: ui/Bell.qml:76
+#, fuzzy, kde-format
+#| msgid "Please choose an audio file"
+msgctxt "@action button accessible only"
+msgid "Choose audio file"
+msgstr "ਆਡੀਓ ਫਾਇਲ ਚੁਣੋ"
+
+#: ui/Bell.qml:77
+#, kde-format
+msgctxt "@info:usagetip accessible description for button"
+msgid "Opens dialog"
+msgstr ""
+
+#: ui/Bell.qml:93
+#, fuzzy, kde-format
+#| msgid "Visual bell:"
+msgctxt "@label prefix for checkbox"
+msgid "Visual bell:"
+msgstr "ਦਿੱਖ ਘੰਟੀ:"
+
+#: ui/Bell.qml:94
+#, fuzzy, kde-format
+#| msgctxt "Enable activation shortcuts"
+#| msgid "Enable"
+msgctxt "@option:check Enable visual bell"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/Bell.qml:108
+#, fuzzy, kde-format
+#| msgctxt "Invert screen on a system bell"
+#| msgid "Invert Screen"
+msgctxt "@option:radio Invert screen colors when a system bell is rung"
+msgid "Invert screen colors"
+msgstr "ਉਲਟ ਸਕਰੀਨ"
+
+#: ui/Bell.qml:126
+#, kde-format
+msgctxt "@option:radio Flash screen when a system bell is rung"
+msgid "Flash screen"
+msgstr "ਫਲੈਸ਼ ਸਕਰੀਨ"
+
+#: ui/Bell.qml:137
+#, kde-format
+msgctxt "Color of the system bell"
+msgid "Color"
+msgstr "ਰੰਗ"
+
+#: ui/Bell.qml:151
+#, kde-format
+msgctxt "Duration of the system bell"
+msgid "Duration:"
+msgstr "ਅੰਤਰਾਲ:"
+
+#: ui/Bell.qml:166
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix %1 is visible bell duration"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/Bell.qml:170 ui/KeyboardFilters.qml:65 ui/KeyboardFilters.qml:164
+#, fuzzy, kde-format
+#| msgctxt "short for millisecond(s)"
+#| msgid "ms"
+#| msgid_plural "ms"
+msgctxt "@label:valuesuffix short for millisecond(s)"
+msgid "ms"
+msgid_plural "ms"
+msgstr[0] "ms"
+msgstr[1] "ms"
+
+#: ui/ColorblindnessCorrection.qml:21
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you have trouble with certain colors on the screen, these filters can "
+"change them into other colors."
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:31
+#, kde-format
+msgctxt "@option check, Enable color blindness correction effect"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/ColorblindnessCorrection.qml:44
+#, kde-format
+msgctxt ""
+"@label:listbox Difficulty seeing any of the following colors on the screen"
+msgid "Problematic colors:"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:49
+#, kde-format
+msgctxt "@option"
+msgid "Red & purple (Protanopia)"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:50
+#, kde-format
+msgctxt "@option"
+msgid "Green & purple (Deuteranopia)"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:51
+#, kde-format
+msgctxt "@option"
+msgid "Yellow, green & purple (Tritanopia)"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:52
+#, kde-format
+msgctxt "@option"
+msgid "All (grayscale mode)"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:67
+#, kde-format
+msgctxt "@label"
+msgid "Intensity:"
+msgstr "ਇਟੈਨਸਟੀ:"
+
+#: ui/ColorblindnessCorrection.qml:90
+#, kde-format
+msgctxt "@label Mild color blindness correction intensity"
+msgid "Mild"
+msgstr "ਠੀਕ-ਠਾਕ"
+
+#: ui/ColorblindnessCorrection.qml:97
+#, kde-format
+msgctxt "@label Intense color blindness correction intensity"
+msgid "Intense"
+msgstr "ਤੇਜ਼"
+
+#: ui/ColorblindnessCorrection.qml:115
+#, kde-format
+msgctxt "@info"
+msgid "Adjusted colors:"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:132
+#, kde-format
+msgctxt "@title:group for color rectangles"
+msgid "Reds:"
+msgstr ""
+
+#: ui/ColorblindnessCorrection.qml:133
+#, fuzzy, kde-format
+#| msgid "Green"
+msgctxt "@title:group for color rectangles"
+msgid "Greens:"
+msgstr "ਹਰਾ"
+
+#: ui/ColorblindnessCorrection.qml:134
+#, fuzzy, kde-format
+#| msgid "Blue"
+msgctxt "@title:group for color rectangles"
+msgid "Blues:"
+msgstr "ਨੀਲਾ"
+
+#: ui/ColorblindnessCorrection.qml:135
+#, fuzzy, kde-format
+#| msgid "Purple"
+msgctxt "@title:group for color rectangles"
+msgid "Purples:"
+msgstr "ਪਰਪਲ"
+
+#: ui/Invert.qml:22
+#, kde-format
+msgctxt "@label"
+msgid "Invert:"
+msgstr ""
+
+#: ui/Invert.qml:23
+#, fuzzy, kde-format
+#| msgctxt "Enable activation shortcuts"
+#| msgid "Enable"
+msgctxt "@option check, Enable invert effect"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/Invert.qml:38
+#, kde-format
+msgctxt "@label Hint for invert effect enable button"
+msgid "Use shortcuts to toggle inverting display and window colors"
+msgstr ""
+
+#: ui/Invert.qml:49 ui/ZoomMagnifier.qml:372
+#, fuzzy, kde-format
+#| msgid "Configure Notifications…"
+msgctxt "@action:button"
+msgid "Configure Shortcuts…"
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਸੰਰਚਨਾ…"
+
+#: ui/KeyboardFilters.qml:18
+#, fuzzy, kde-format
+#| msgid "Slow keys:"
+msgctxt "@title:group prefix"
+msgid "Slow keys:"
+msgstr "ਸਲੋਅ ਸਵਿੱਚਾਂ:"
+
+#: ui/KeyboardFilters.qml:23
+#, fuzzy, kde-format
+#| msgctxt "Enable activation shortcuts"
+#| msgid "Enable"
+msgctxt "@option:check Enable slow keys"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/KeyboardFilters.qml:34
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"For a key to be accepted, it has to be held until the set amount of time. "
+"Useful if you accidentally type more than one key at a time or have "
+"difficulty pressing the key you want the first time."
+msgstr ""
+
+#: ui/KeyboardFilters.qml:41
+#, fuzzy, kde-format
+#| msgctxt "Slow keys Delay"
+#| msgid "Delay:"
+msgctxt "@label:spinbox Slow keys Delay"
+msgid "Delay:"
+msgstr "ਦੇਰੀ:"
+
+#: ui/KeyboardFilters.qml:56
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix %1 is slow keys delay"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/KeyboardFilters.qml:74
+#, fuzzy, kde-format
+#| msgid "Ring system bell:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "Ring system bell:"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ:"
+
+#: ui/KeyboardFilters.qml:75
+#, fuzzy, kde-format
+#| msgctxt "Use system bell when a key is pressed"
+#| msgid "when any key is &pressed"
+msgctxt "@option:check Use system bell when a key is pressed"
+msgid "when any key is &pressed"
+msgstr "ਜਦੋਂ ਵੀ ਸਵਿੱਚ ਦਬਾਈ ਜਾਵੇ(&p)"
+
+#: ui/KeyboardFilters.qml:89
+#, fuzzy, kde-format
+#| msgctxt "Use system bell when a key is accepted"
+#| msgid "when any key is &accepted"
+msgctxt "@option:check Use system bell when a key is accepted"
+msgid "when any key is &accepted"
+msgstr "ਜਦੋਂ ਵੀ ਸਵਿੱਚ ਮਨਜ਼ੂਰ ਕੀਤੀ ਜਾਵੇ(&a)"
+
+#: ui/KeyboardFilters.qml:103
+#, fuzzy, kde-format
+#| msgctxt "Use system bell when a key is rejected"
+#| msgid "when any key is &rejected"
+msgctxt "@option:check Use system bell when a key is rejected"
+msgid "when any key is &rejected"
+msgstr "ਜਦੋਂ ਸਵਿੱਚ ਨਾ-ਮਨਜ਼ੂਰ ਕੀਤੀ ਜਾਵੇ(&r)"
+
+#: ui/KeyboardFilters.qml:119
+#, fuzzy, kde-format
+#| msgid "Bounce keys:"
+msgctxt "@title:group prefix"
+msgid "Bounce keys:"
+msgstr "ਬਾਊਸ ਸਵਿੱਚਾਂ:"
+
+#: ui/KeyboardFilters.qml:124
+#, fuzzy, kde-format
+#| msgctxt "Enable activation shortcuts"
+#| msgid "Enable"
+msgctxt "@option:check Bounce keys enable"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/KeyboardFilters.qml:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Ignore rapid, repeated keypresses of the same key. Useful if you have hand "
+"tremors that cause you to press a key multiple times when you only intend to "
+"press once."
+msgstr ""
+
+#: ui/KeyboardFilters.qml:142
+#, fuzzy, kde-format
+#| msgctxt "Slow keys Delay"
+#| msgid "Delay:"
+msgctxt "@label:spinbox Bounce keys delay"
+msgid "Delay:"
+msgstr "ਦੇਰੀ:"
+
+#: ui/KeyboardFilters.qml:157
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix %1 is bounce keys delay"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/KeyboardFilters.qml:171
+#, fuzzy, kde-format
+#| msgid "Ring system bell when rejected"
+msgctxt "@option:check for bounce keys"
+msgid "Ring system bell when rejected"
+msgstr "ਜਦੋਂ ਨਾ-ਮਨਜ਼ੂਰ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ"
+
+#: ui/main.qml:28
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "Zoom & Magnifier"
+msgstr ""
+
+#: ui/main.qml:33
+#, kde-format
+msgctxt "@title Category name in sidebar"
+msgid "System Bell"
+msgstr "ਸਿਸਟਮ ਘੰਟੀ"
+
+#: ui/main.qml:38
+#, fuzzy, kde-format
+#| msgctxt "System Modifier Keys"
+#| msgid "Modifier Keys"
+msgctxt "@title Category name in sidebar"
+msgid "Modifier Keys"
+msgstr "ਸੋਧਕ ਸਵਿੱਚਾਂ"
+
+#: ui/main.qml:43
+#, fuzzy, kde-format
+#| msgctxt "System keyboard filters"
+#| msgid "Keyboard Filters"
+msgctxt "@title Category name in sidebar"
+msgid "Keyboard Filters"
+msgstr "ਕੀ-ਬੋਰਡ ਫਿਲਟਰ"
+
+#: ui/main.qml:48
+#, fuzzy, kde-format
+#| msgctxt "System mouse navigation"
+#| msgid "Mouse Navigation"
+msgctxt "@title Category name in sidebar"
+msgid "Mouse Navigation"
+msgstr "ਮਾਊਸ ਨੇਵੀਗੇਸ਼ਨ"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgid "Activation Shortcuts"
+msgctxt "@title Category name in sidebar"
+msgid "Activation Shortcuts"
+msgstr "ਐਕਟੀਵੇਸ਼ਨ ਸ਼ਾਰਟਕੱਟ"
+
+#: ui/main.qml:58
+#, fuzzy, kde-format
+#| msgctxt "System mouse navigation"
+#| msgid "Screen Reader"
+msgctxt "@title Category name in sidebar"
+msgid "Screen Reader"
+msgstr "ਸਕਰੀਨ ਰੀਡਰ"
+
+#: ui/main.qml:63
+#, fuzzy, kde-format
+#| msgctxt "Correction for color blindness"
+#| msgid "Color Blindness Correction"
+msgctxt "@title Category name in sidebar"
+msgid "Color Blindness Correction"
+msgstr "ਰੰਗ ਅੰਧਰਾਤਾ ਸੋਧ"
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@title Category name in sidebar, for inverting screen colors"
+msgid "Invert"
+msgstr ""
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@title Category name in sidebar, shake pointer to find it"
+msgid "Shake Pointer"
+msgstr ""
+
+#: ui/ModifierKeys.qml:17
+#, kde-format
+msgctxt "@option:check"
+msgid "Sticky keys:"
+msgstr "ਸਟਿੱਕੀ ਸਵਿੱਚਾਂ"
+
+#: ui/ModifierKeys.qml:22
+#, kde-format
+msgctxt "@option:check Enable sticky keys"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/ModifierKeys.qml:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Modifier keys like Ctrl, Shift, Alt, and the Meta/Super/Windows key act as "
+"though they “stick in place” and no longer need to be held down when typing "
+"a keyboard shortcut."
+msgstr ""
+
+#: ui/ModifierKeys.qml:39
+#, kde-format
+msgctxt "@option:check"
+msgid "Lock sticky keys"
+msgstr "ਸਟਿੱਕੀ ਸਵਿੱਚਾਂ ਨੂੰ ਲਾਕ ਕਰੋ"
+
+#: ui/ModifierKeys.qml:51
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Pressing a modifier key twice will keep it in active state until pressed "
+"again."
+msgstr ""
+
+#: ui/ModifierKeys.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable when two keys are held down"
+msgstr ""
+
+#: ui/ModifierKeys.qml:70
+#, fuzzy, kde-format
+#| msgid "Ring system bell when modifier keys are used"
+msgctxt "@option:check"
+msgid "Ring system bell when modifier keys are used"
+msgstr "ਜਦੋਂ ਸੋਧਕ ਸਵਿੱਚਾਂ ਦਬਾਈਆਂ ਜਾਣ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ"
+
+#: ui/ModifierKeys.qml:88
+#, kde-format
+msgctxt "@option:check Feedback options:"
+msgid "Feedback:"
+msgstr "ਫੀਡਬੈਕ:"
+
+#: ui/ModifierKeys.qml:93
+#, fuzzy, kde-format
+#| msgid "Ring system bell when locking keys are toggled"
+msgctxt "@option:check"
+msgid "Ring system bell when locking keys are used"
+msgstr "ਜਦੋਂ ਲਾਕਿੰਗ ਸਵਿੱਚਾਂ ਦਬਾਈਆਂ ਜਾਣ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ"
+
+#: ui/ModifierKeys.qml:104
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The locking keys are Caps Lock, Num Lock, and Scroll Lock."
+msgstr ""
+
+#: ui/ModifierKeys.qml:108
+#, fuzzy, kde-format
+#| msgid "Show notification when modifier or locking keys are used"
+msgctxt "@option:check"
+msgid "Show notification when modifier or locking keys are used"
+msgstr "ਜਦੋਂ ਵੀ ਸੋਧ ਜਾਂ ਲਾਕ ਕਰਨ ਵਾਲੀਆਂ ਸਵਿੱਚਾਂ ਵਰਤੀਆਂ ਜਾਣ ਤੋਂ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵੇਖਾਓ"
+
+#: ui/ModifierKeys.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Notifications…"
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦੀ ਸੰਰਚਨਾ…"
+
+#: ui/MouseNavigation.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Use number pad to move cursor:"
+msgctxt "@option:check"
+msgid "Use number pad to move pointer:"
+msgstr "ਕਰਸਰ ਹਿਲਾਉਣ ਲਈ ਅੰਕ ਪੈਡ ਵਰਤੋਂ:"
+
+#: ui/MouseNavigation.qml:22
+#, kde-format
+msgctxt "@option:check Enable mouse navigation"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/MouseNavigation.qml:33
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"The numpad key <shortcut>5</shortcut> functions as a mouse click, toggled by "
+"<shortcut>/</shortcut> for middle click, <shortcut>*</shortcut> for right "
+"click and <shortcut>NumLock</shortcut> for left click. The keys <shortcut>2</"
+"shortcut>, <shortcut>4</shortcut>, <shortcut>6</shortcut>, and <shortcut>8</"
+"shortcut> allow for cardinal movement (down, left, right, and up). The keys "
+"<shortcut>1</shortcut>, <shortcut>3</shortcut>, <shortcut>7</shortcut>, and "
+"<shortcut>9</shortcut> allow for diagonal movement."
+msgstr ""
+
+#: ui/MouseNavigation.qml:39
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Acceleration delay:"
+msgstr "ਐਕਸਰਲੇਸ਼ਨ ਦੇਰੀ:"
+
+#: ui/MouseNavigation.qml:53
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix acceleration delay spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/MouseNavigation.qml:61 ui/MouseNavigation.qml:88
+#: ui/MouseNavigation.qml:114
+#, kde-format
+msgctxt "short for millisecond(s)"
+msgid "ms"
+msgid_plural "ms"
+msgstr[0] "ms"
+msgstr[1] "ms"
+
+#: ui/MouseNavigation.qml:66
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Repeat interval:"
+msgstr "ਦੁਹਰਾਉਣ ਅੰਤਰਾਲ:"
+
+#: ui/MouseNavigation.qml:84
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix repeat interval spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/MouseNavigation.qml:93
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Acceleration time:"
+msgstr "ਐਕਸਰਲੇਸ਼ਨ ਸਮਾਂ:"
+
+#: ui/MouseNavigation.qml:110
+#, fuzzy, kde-format
+#| msgid "%1 ms"
+#| msgid_plural "%1 ms"
+msgctxt "@label:valuesuffix acceleration time spinbox %1 is value"
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] "%1 ms"
+msgstr[1] "%1 ms"
+
+#: ui/MouseNavigation.qml:118
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum speed:"
+msgstr "ਵੱਧੋ-ਵੱਧ ਗਤੀ:"
+
+#: ui/MouseNavigation.qml:132
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Pointer acceleration:"
+msgstr "ਪੁਆਇੰਟਰ ਐਕਸਰਲੇਸ਼ਨ:"
+
+#: ui/ScreenReader.qml:20
+#, kde-format
+msgctxt "@info Placeholder message title"
+msgid "The Orca Screen Reader is not installed"
+msgstr "ਓਰਕਾ ਸਕਰੀਨ ਰੀਡਰ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
+
+#: ui/ScreenReader.qml:21
+#, kde-format
+msgctxt "@info Placeholder message explanation"
+msgid "Please install it, then close and reopen this window"
+msgstr ""
+
+#: ui/ScreenReader.qml:27
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Screen Reader"
+msgstr "ਸਕਰੀਨ ਰੀਡਰ ਸਮਰੱਥ ਕਰੋ"
+
+#: ui/ScreenReader.qml:39
+#, fuzzy, kde-format
+#| msgid "Launch Orca Screen Reader Configuration…"
+msgctxt "@action:button"
+msgid "Launch Orca Screen Reader Configuration…"
+msgstr "ਓਰਕਾ ਸਕਰੀਨ ਰੀਡਰ ਸੰਰਚਨਾ ਚਲਾਓ…"
+
+#: ui/ShakeCursor.qml:15
+#, kde-format
+msgctxt "@label"
+msgid "Shake pointer to find it:"
+msgstr ""
+
+#: ui/ShakeCursor.qml:16
+#, fuzzy, kde-format
+#| msgctxt "Enable activation shortcuts"
+#| msgid "Enable"
+msgctxt "@option check, Enable shake pointer effect"
+msgid "Enable"
+msgstr "ਸਮਰੱਥ"
+
+#: ui/ShakeCursor.qml:28
+#, fuzzy, kde-format
+#| msgctxt "@label Cursor magnification level"
+#| msgid "Magnification:"
+msgctxt "@label Pointer magnification level"
+msgid "Magnification:"
+msgstr "ਵੱਡਦਰਸ਼ਨ:"
+
+#: ui/ShakeCursor.qml:56
+#, fuzzy, kde-format
+#| msgctxt "@label Normal cursor size"
+#| msgid "Normal"
+msgctxt "@label Normal pointer size"
+msgid "Normal"
+msgstr "ਸਧਾਰਨ"
+
+#: ui/ShakeCursor.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@label Large cursor size"
+#| msgid "Large"
+msgctxt "@label Large pointer size"
+msgid "Large"
+msgstr "ਵੱਡਾ"
+
+#: ui/ZoomMagnifier.qml:22
+#, kde-format
+msgctxt "@label, followed by 'full screen' or 'magnify region'"
+msgid "Zoom:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:24
+#, fuzzy, kde-format
+#| msgctxt "@option:radio Flash screen when a system bell is rung"
+#| msgid "Flash screen"
+msgctxt "@option:check, enable zoom effect, following 'Zoom:'"
+msgid "Full screen"
+msgstr "ਫਲੈਸ਼ ਸਕਰੀਨ"
+
+#: ui/ZoomMagnifier.qml:53
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Show pixel grid at zoom level:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:108
+#, fuzzy, kde-format
+#| msgctxt "@label:spinbox"
+#| msgid "Pointer acceleration:"
+msgctxt "@label:listbox"
+msgid "Pointer tracking:"
+msgstr "ਪੁਆਇੰਟਰ ਐਕਸਰਲੇਸ਼ਨ:"
+
+#: ui/ZoomMagnifier.qml:113
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Proportional"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:114
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Zoom area moves in sync with pointer"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:118
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:119
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pointer stays centered on-screen, except near screen edges"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:123
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered (Strict)"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:124
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pointer stays centered on-screen, even near screen edges"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:128
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Push"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:129
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pointer pushes zoom area at screen edges"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:133
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Disabled"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:134
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Zoom area doesn't follow pointer"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:151
+#, kde-format
+msgctxt "@option:check"
+msgid "Sharpen screen content while zoomed in"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:162
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable focus tracking"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:174
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable text caret tracking"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:190
+#, fuzzy, kde-format
+#| msgid "Magnification"
+msgctxt "@option:check, enable magnify effect, following 'Zoom:'"
+msgid "Magnify region"
+msgstr "ਵੱਡਦਰਸ਼ਨ"
+
+#: ui/ZoomMagnifier.qml:217
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Width:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:228 ui/ZoomMagnifier.qml:253
+#, kde-format
+msgctxt "short for pixel(s)"
+msgid "%1 px"
+msgid_plural "%1 px"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/ZoomMagnifier.qml:229 ui/ZoomMagnifier.qml:254
+#, kde-format
+msgctxt "short for pixel(s)"
+msgid "px"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:242
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Height:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:271
+#, kde-format
+msgctxt "@option:check, disable zoom/magnify effect"
+msgid "Disabled"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Zoom factor:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:317
+#, kde-format
+msgctxt "@label"
+msgid "Scroll gesture modifier keys:"
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:355
+#, kde-format
+msgctxt "@info:tooltip, indicates feature unavailable on X11"
+msgid "Zoom scroll gestures are only available on Wayland."
+msgstr ""
+
+#: ui/ZoomMagnifier.qml:361
+#, fuzzy, kde-format
+#| msgid "Ring system bell when modifier keys are used"
+msgctxt "@label Hint for scroll gestures"
+msgid "Scroll while modifier keys are pressed to zoom"
+msgstr "ਜਦੋਂ ਸੋਧਕ ਸਵਿੱਚਾਂ ਦਬਾਈਆਂ ਜਾਣ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਜਾਓ"
+
+#: ui/ZoomMagnifier.qml:382
+#, kde-format
+msgctxt "@label Hint for zoom/magnify effect usage"
+msgid "Use shortcuts to control zoom"
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "@label:spinbox"
+#~| msgid "Pointer acceleration:"
+#~ msgctxt "@label:listbox"
+#~ msgid "Pointer appearance:"
+#~ msgstr "ਪੁਆਇੰਟਰ ਐਕਸਰਲੇਸ਼ਨ:"
+
+#~ msgctxt "Enable visual bell"
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ"
+
+#~ msgctxt "Enable slow keys"
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ ਕਰੋ"
+
+#~ msgctxt "Bounce keys enable"
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ"
+
+#~ msgctxt "Bounce keys delay"
+#~ msgid "Delay:"
+#~ msgstr "ਦੇਰੀ:"
+
+#~ msgctxt "@option check, Enable shake cursor effect"
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ"
+
+#~ msgctxt "@label"
+#~ msgid "Mode:"
+#~ msgstr "ਢੰਗ:"
+
+#~ msgid "Red"
+#~ msgstr "ਲਾਲ"
+
+#~ msgid "AltGraph"
+#~ msgstr "AltGraph"
+
+#~ msgid "Hyper"
+#~ msgstr "ਹਾਇਪਰ"
+
+#~ msgid "Super"
+#~ msgstr "ਸੁਪਰ"
+
+#~ msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+#~ msgstr "ਜਦੋਂ ਨਮ-ਲਾਕ, ਕੈਪਸ-ਲਾਕ ਅਤੇ ਸਕਰੋਲ-ਲਾਕ ਐਕਟਿਵ ਹੋਣ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while CapsLock and ScrollLock are active"
+#~ msgstr "ਜਦੋਂ ਕੈਪਸ-ਲਾਕ ਅਤੇ ਸਕਰੋਲ-ਲਾਕ ਐਕਟਿਵ ਹੋਣ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while NumLock and ScrollLock are active"
+#~ msgstr "ਜਦੋਂ ਨਮ-ਲਾਕ ਅਤੇ ਸਕਰੋਲ-ਲਾਕ ਐਕਟਿਵ ਹੋਣ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while ScrollLock is active"
+#~ msgstr "ਜਦੋਂ ਸਕਰੋਲ-ਲਾਕ ਐਕਟਿਵ ਹੋਵੇ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while NumLock and CapsLock are active"
+#~ msgstr "ਜਦੋਂ ਨਮ-ਲਾਕ ਅਤੇ ਕੈਪਸ-ਲਾਕ ਐਕਟਿਵ ਹੋਣ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while CapsLock is active"
+#~ msgstr "ਜਦੋਂ ਕੈਪਸ-ਲਾਕ ਐਕਟਿਵ ਹੋਵੇ ਤਾਂ %1 ਦੱਬੋ।"
+
+#~ msgid "Press %1 while NumLock is active"
+#~ msgstr "NumLock ਐਕਟਿਵ ਹੋਣ ਤੇ %1 ਦਬਾਉ"
+
+#~ msgid "Press %1"
+#~ msgstr "%1 ਦੱਬੋ"
+
+#, fuzzy
+#~| msgid "Use the system bell whenever a key is rejected"
+#~ msgctxt "@label"
+#~ msgid "Flashes the screen whenever certain keys are pressed"
+#~ msgstr "ਜਦੋਂ ਵੀ ਸਵਿੱਚ ਰੱਦ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਸਿਸਟਮ ਬਿੱਲ ਵਰਤੋਂ।"
+
+#, fuzzy
+#~| msgid "Activation Gestures"
+#~ msgid "Activation:"
+#~ msgstr "ਐਕਟੀਵੇਸ਼ਨ ਜੈੱਸਚਰ"
+
+#~ msgctxt "Flash screen on a system bell"
+#~ msgid "Flash"
+#~ msgstr "ਝਪਕੋ"
+
+#~ msgctxt "System Bell"
+#~ msgid "Bell"
+#~ msgstr "ਘੰਟੀ"
+
+#~ msgctxt "Enable sticky keys"
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ"
+
+#~ msgctxt "Lock sticky keys"
+#~ msgid "Lock"
+#~ msgstr "ਲਾਕ"
+
+#~ msgid ""
+#~ "Please note that you may have to log out or reboot once to allow the "
+#~ "screen reader to work properly."
+#~ msgstr ""
+#~ "ਯਾਦ ਰੱਖੋ ਕਿ ਸਕਰੀਨ ਰੀਡਰ ਦੇ ਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਇੱਕ ਵਾਰ ਲਾਗ ਆਉਟ ਜਾਂ ਮੁੜ-ਚਾਲੂ "
+#~ "ਕਰਨਾ ਪੈ ਸਕਦਾ ਹੈ।"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "ਐਕਸਰਲੇਸ਼ਨ ਪਰੋਫਾਈਲ:"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ ੨੦੨੧"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "alam.yellow@gmail.com"
+
+#~ msgid "Accessibility"
+#~ msgstr "ਅਸੈਸਬਿਲਟੀ"
+
+#~ msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+#~ msgstr "(c) ੨੦੦੦ ਲਈ ਮਾਥਹੀਸ ਹੋਈਲਜ਼ਰ-ਕਲੂਪਫੀਲ"
+
+#~ msgid "Matthias Hoelzer-Kluepfel"
+#~ msgstr "ਮਾਥਹੀਸ ਹੋਈਲਜ਼ਰ-ਕਲੂਪਫੀਲ"
+
+#~ msgid "Author"
+#~ msgstr "ਲੇਖਕ"
+
+#, fuzzy
+#~| msgid ""
+#~| "If this option is checked, the default system bell will be used. See the "
+#~| "\"System Bell\" control module for how to customize the system bell. "
+#~| "Normally, this is just a \"beep\"."
+#~ msgid ""
+#~ "If this option is checked, the default system bell will be used. Usually, "
+#~ "this is just a \"beep\"."
+#~ msgstr ""
+#~ "ਜੇ ਇਹ ਚੋਣ ਕੀਤੀ ਤਾਂ ਮੂਲ ਸਿਸਟਮ ਘੰਟੀ ਵਰਤੀ ਜਾਵੇਗੀ। ਸਿਸਟਮ ਘੰਟੀ ਸੋਧਣ ਲਈ \"ਸਿਸਟਮ ਘੰਟੀ\" "
+#~ "ਕੰਟਰੋਲ ਮੋਡੀਊਲ ਵਰਤੋਂ। ਆਮ ਤੌਰ ਉੱਤੇ ਇੱਕ \"ਬੀਪ\" ਹੈ।"
+
+#~ msgid "Us&e customized bell"
+#~ msgstr "ਸੋਧ ਘੰਟੀ ਵਰਤੋਂ(&e)"
+
+#~ msgid "Sound &to play:"
+#~ msgstr "ਚਲਾਉਣ ਲਈ ਸਾਊਂਡ(&t):"
+
+#~ msgid "Browse..."
+#~ msgstr "ਝਲਕ..."
+
+#, fuzzy
+#~| msgid "&Use visible bell"
+#~ msgid "&Use visual bell"
+#~ msgstr "ਦਿੱਖ ਘੰਟੀ ਵਰਤੋਂ(&U)"
+
+#~ msgid ""
+#~ "The screen will turn to a custom color for the amount of time specified "
+#~ "below."
+#~ msgstr "ਸਕਰੀਨ ਦਾ ਪਸੰਦੀਦਾ ਰੰਗ ਦੇਣ ਸਮੇਂ ਲਈ ਵੇਖਾਇਆ ਜਾਵੇਗਾ।"
+
+#~ msgid ""
+#~ "All screen colors will be inverted for the amount of time specified below."
+#~ msgstr "ਦਿੱਤੇ ਸਮੇਂ ਲਈ ਸਕਰੀਨ ਦੇ ਸਭ ਰੰਗ ਉਲਟ ਹੋ ਜਾਣਗੇ।"
+
+#~ msgid ""
+#~ "Click here to choose the color used for the \"flash screen\" visible bell."
+#~ msgstr "\"ਫਲੈਸ਼ ਸਕਰੀਨ\" ਦਿੱਖ ਘੰਟੀ ਲਈ ਰੰਗ ਚੁਣਨ ਲਈ ਰੰਗ ਚੁਣੋ"
+
+#~ msgid " msec"
+#~ msgstr " ਮਿਸਕਿੰਟ"
+
+#, fuzzy
+#~| msgid "&Use system bell whenever a key is accepted"
+#~ msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
+#~ msgstr "ਜਦੋਂ ਵੀ ਸਵਿੱਚ ਸਵੀਕਾਰ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਰਤੋਂ(&U)"
+
+#~ msgid "Locking Keys"
+#~ msgstr "ਲਾਕਿੰਗ ਸਵਿੱਚਾਂ"
+
+#, fuzzy
+#~| msgid "&Use system bell whenever a key is accepted"
+#~ msgid "Use system bell whenever a locking key gets activated or deactivated"
+#~ msgstr "ਜਦੋਂ ਵੀ ਸਵਿੱਚ ਸਵੀਕਾਰ ਕੀਤੀ ਜਾਵੇ ਤਾਂ ਸਿਸਟਮ ਘੰਟੀ ਵਰਤੋਂ(&U)"
+
+#~ msgid "Slo&w Keys"
+#~ msgstr "ਸਲੋਅ ਸਵਿੱਚਾਂ(&w)"
+
+#~ msgid "Use bou&nce keys"
+#~ msgstr "ਬਾਊਸ ਸਵਿੱਚਾਂ ਵਰਤੋਂ(&n)"
+
+#, fuzzy
+#~| msgid "Activation Gestures"
+#~ msgid "Activation &Gestures"
+#~ msgstr "ਐਕਟੀਵੇਸ਼ਨ ਜੈੱਸਚਰ"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use KDE's system notification mechanism whenever a keyboard "
+#~| "accessibility feature is turned on or off"
+#~ msgid ""
+#~ "Use the system bell whenever a gesture is used to toggle an accessibility "
+#~ "feature"
+#~ msgstr ""
+#~ "ਜਦੋਂ ਵੀ ਕੋਈ ਕੀਬੋਰਡ ਅਸੈੱਸਬਿਲਟੀ ਫੀਚਰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕੀਤਾ ਜਾਵੇ ਤਾਂ KDE ਸਿਸਟਮ ਨੋਟੀਫਿਕੇਸ਼ਨ ਢੰਗ "
+#~ "ਵਰਤੋਂ"
+
+#, fuzzy
+#~| msgid ""
+#~| "Show a confirmation dialog whenever a keyboard accessibility feature is "
+#~| "turned on or off"
+#~ msgid ""
+#~ "Show a confirmation dialog whenever a keyboard accessibility feature is "
+#~ "toggled"
+#~ msgstr "ਜਦੋਂ ਵੀ ਕੀਬੋਰਡ ਅਸੈੱਸਬਿਲਟੀ ਫੀਚਰ ਨੂੰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕੀਤਾ ਜਾਵੇ ਤਾਂ ਪੁਸ਼ਟੀ ਡਾਈਲਾਗ ਵੇਖੋ"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use KDE's system notification mechanism whenever a keyboard "
+#~| "accessibility feature is turned on or off"
+#~ msgid ""
+#~ "Use Plasma's notification mechanism whenever a keyboard accessibility "
+#~ "feature is toggled"
+#~ msgstr ""
+#~ "ਜਦੋਂ ਵੀ ਕੋਈ ਕੀਬੋਰਡ ਅਸੈੱਸਬਿਲਟੀ ਫੀਚਰ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕੀਤਾ ਜਾਵੇ ਤਾਂ KDE ਸਿਸਟਮ ਨੋਟੀਫਿਕੇਸ਼ਨ ਢੰਗ "
+#~ "ਵਰਤੋਂ"
+
+#~ msgid "D&ebounce time:"
+#~ msgstr "ਡੀ-ਬਾਊਂਸ ਸਮਾਂ(&e):"
+
+#~ msgid "Timeout:"
+#~ msgstr "ਟਾਈਮ-ਆਉਟ:"
+
+#~ msgid "kaccess"
+#~ msgstr "ਕੇਅਸੇਸ"
+
+#~ msgid "*.wav|WAV Files"
+#~ msgstr "*.wav|WAV ਫਾਈਲਾਂ"

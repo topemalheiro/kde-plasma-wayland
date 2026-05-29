@@ -1,0 +1,83 @@
+# Translation of kcm_splashscreen to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-03 00:48+0000\n"
+"PO-Revision-Date: 2026-03-07 13:29+0100\n"
+"Last-Translator: Kjetil Sorlund <translate@sorlund.no>\n"
+"Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.2\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: kcm.cpp:162
+#, kde-format
+msgid "None"
+msgstr "Ingen"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Velkomstbilde vises ikke"
+
+#: kcm.cpp:183
+#, kde-format
+msgid "You cannot delete the currently selected splash screen"
+msgstr "Du kan ikke fjerne det gjeldende velkomstbildet"
+
+#. i18n: ectx: label, entry (engine), group (KSplash)
+#: splashscreensettings.kcfg:12
+#, kde-format
+msgid "For future use"
+msgstr "For fremtidig bruk"
+
+#. i18n: ectx: label, entry (theme), group (KSplash)
+#: splashscreensettings.kcfg:16
+#, kde-format
+msgid "Name of the current splash theme"
+msgstr "Navn på gjeldende tema for velkomstbilde"
+
+#: ui/main.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&Get New…"
+msgstr "&Hent nye …"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to show the splash screen preview."
+msgstr "Klarte ikke vise forhåndsvisning av velkomstbildet."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview splash screen"
+msgstr "Forhåndsvisning av velkomstbilde"
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove splash screen"
+msgstr "Fjern velkomstbilde"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active splash screen"
+msgstr "Kan ikke slette det gjeldende velkomstbilde"
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed splash screens"
+msgstr "Kan ikke slette systeminstallerte velkomstbilder"

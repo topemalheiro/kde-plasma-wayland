@@ -1,0 +1,63 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2026 César A. P. Cláudio <cesarapclaudio@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"PO-Revision-Date: 2026-02-09 23:06+0000\n"
+"Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: ConfigOverlay.qml:368
+#, kde-format
+msgctxt "@action:inmenu removes widget"
+msgid "Remove"
+msgstr "Remover"
+
+#: ConfigOverlay.qml:378
+#, kde-format
+msgctxt "@action:inmenu opens widget config dialog"
+msgid "Configure…"
+msgstr "Configurar…"
+
+#: ConfigOverlay.qml:389
+#, kde-format
+msgctxt "@action:inmenu opens widget alternatives explorer"
+msgid "Show Alternatives…"
+msgstr "Mostrar alternativas…"
+
+#: ConfigOverlay.qml:408
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Spacer width"
+msgstr "Largura do espaçador"
+
+#: ConfigOverlay.qml:431
+#, kde-format
+msgctxt ""
+"@option:check Whether to allow a spacer widget to fill available space"
+msgid "Flexible size"
+msgstr "Tamanho flexível"
+
+#: main.qml:462
+#, kde-format
+msgctxt ""
+"@info:whatsthis Accessible description for entering Panel edit mode click "
+"area"
+msgid "Open Panel configuration ui"
+msgstr "Abrir interface de configuração do Painel"
+
+#: main.qml:469
+#, kde-format
+msgctxt "@action:button opens widget explorer"
+msgid "Add Widgets…"
+msgstr "Adicionar widgets..."

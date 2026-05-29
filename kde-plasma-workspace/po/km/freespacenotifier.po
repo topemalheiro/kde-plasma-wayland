@@ -1,0 +1,140 @@
+# translation of freespacenotifier.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2009, 2010.
+# Seng Sutha, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: freespacenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2010-05-12 08:53+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: freespacenotifier.cpp:121
+#, kde-format
+msgid "Open in Filelight"
+msgstr ""
+
+#: freespacenotifier.cpp:127
+#, fuzzy, kde-format
+#| msgctxt "Opens a file manager like dolphin"
+#| msgid "Open File Manager"
+msgid "Open in File Manager"
+msgstr "បើក​កម្មវិធី​គ្រប់គ្រង​ឯកសារ"
+
+#: freespacenotifier.cpp:134
+#, fuzzy, kde-format
+#| msgctxt "Allows the user to configure the warning notification being shown"
+#| msgid "Configure Warning"
+msgid "Configure Warning…"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ​ការ​ព្រមាន"
+
+#. i18n: ectx: label, entry (minimumSpace), group (General)
+#: freespacenotifier.kcfg:9
+#, kde-format
+msgid "Minimum free space before user starts being notified."
+msgstr "ទំហំ​ទំនេរ​អប្បបរមា​មុន​អ្នក​ប្រើ​ចាប់ផ្ដើម​ជូន​ដំណឹង ។"
+
+#. i18n: ectx: label, entry (minimumSpacePercentage), group (General)
+#: freespacenotifier.kcfg:15
+#, fuzzy, kde-format
+#| msgid "Minimum free space before user starts being notified."
+msgid "Minimum percentage free space before user starts being notified."
+msgstr "ទំហំ​ទំនេរ​អប្បបរមា​មុន​អ្នក​ប្រើ​ចាប់ផ្ដើម​ជូន​ដំណឹង ។"
+
+#. i18n: ectx: label, entry (enableNotification), group (General)
+#: freespacenotifier.kcfg:21
+#, kde-format
+msgid "Is the free space notification enabled."
+msgstr "ការ​ជូន​ដំណឹង​ទំហំ​ទំនេរ​ត្រូវ​បានបើក ។"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableNotification)
+#: freespacenotifier_prefs_base.ui:17
+#, kde-format
+msgid "Enable low disk space warning"
+msgstr "អនុញ្ញាត​ការ​ព្រមាន​ទំហំ​ថាស​ទាប"
+
+#. i18n: ectx: property (text), widget (QLabel, label_minimumSpace)
+#: freespacenotifier_prefs_base.ui:27
+#, kde-format
+msgid "Warn when free space is below:"
+msgstr "ព្រមាន​នៅ​ពេល​ដែល​ទំហំ​ទំនេរ​នៅ​​​ក្រោម ៖"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minimumSpace)
+#: freespacenotifier_prefs_base.ui:37
+#, kde-format
+msgid " MiB"
+msgstr " មេកាបៃ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_minimumSpacePercentage)
+#: freespacenotifier_prefs_base.ui:44
+#, fuzzy, kde-format
+#| msgid "Warn when free space is below:"
+msgid "And when free space is under:"
+msgstr "ព្រមាន​នៅ​ពេល​ដែល​ទំហំ​ទំនេរ​នៅ​​​ក្រោម ៖"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minimumSpacePercentage)
+#: freespacenotifier_prefs_base.ui:54
+#, no-c-format, kde-format
+msgid "%"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_info)
+#: freespacenotifier_prefs_base.ui:67
+#, kde-format
+msgid ""
+"The system will notify you if the free space drops below the specified MiB "
+"and the specified percentage of available space."
+msgstr ""
+
+#: module.cpp:121
+#, kde-format
+msgid ""
+"Your %1 partition is running out of disk space; %2 MiB of space remaining "
+"(%3%)."
+msgstr ""
+
+#: module.cpp:123
+#, kde-format
+msgid ""
+"Your Root partition is running out of disk space; %1 MiB of space remaining "
+"(%2%)."
+msgstr ""
+
+#: module.cpp:125
+#, kde-format
+msgid ""
+"Your Home folder is running out of disk space; %1 MiB of space remaining "
+"(%2%)."
+msgstr ""
+
+#: module.cpp:150
+#, kde-format
+msgctxt "The settings dialog main page name, as in 'general settings'"
+msgid "General"
+msgstr "ទូទៅ"
+
+#~ msgctxt ""
+#~ "Warns the user that the system is running low on space on his home "
+#~ "folder, indicating the percentage and absolute MiB size remaining, and "
+#~ "asks if the user wants to do something about it"
+#~ msgid ""
+#~ "You are running low on disk space on your home folder (currently %2%, %1 "
+#~ "MiB free).\n"
+#~ "Would you like to run a file manager to free some disk space?"
+#~ msgstr ""
+#~ "អ្នក​កំពុង​ដំណើរការ​ទាប​លើ​ទំហំថាស​នៅ​ក្នុង​ថត​ផ្ទះ​របស់​អ្នក (បច្ចុប្បន្ន​ទំនេរ %2%, %1 មេកាបៃ) ។\n"
+#~ "តើ​អ្នក​ចង់​រត់​កម្មវិធី​គ្រប់គ្រង​ឯកសារ​​ដើម្បី​ធ្វើ​ឲ្យ​ទំហំ​ថាស​ទំនេរ​ដែរឬទេ ?"
+
+#~ msgctxt "Closes the notification"
+#~ msgid "Do Nothing"
+#~ msgstr "មិន​ធ្វើ​អ្វី​ទាំង​អស់"

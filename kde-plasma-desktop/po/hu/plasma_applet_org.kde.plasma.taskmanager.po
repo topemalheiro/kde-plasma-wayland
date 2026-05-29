@@ -1,0 +1,1073 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2007.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2019, 2020, 2021, 2022.
+# Balázs Úr <urbalazs@gmail.com>, 2013.
+# SPDX-FileCopyrightText: 2021-2026 Kristof Kiszel <kiszel.kristof@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.2\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2026-05-13 06:58+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: backend.cpp:288
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "%1 további hely…"
+msgstr[1] "%1 további hely…"
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Downloads"
+msgstr "Legutóbbi letöltések"
+
+#: backend.cpp:374
+#, kde-format
+msgid "Recent Connections"
+msgstr "Legutóbbi kapcsolatok"
+
+#: backend.cpp:376
+#, kde-format
+msgid "Recent Places"
+msgstr "Legutóbbi helyek"
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "Legutóbbi letöltések elfelejtése"
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "Legutóbbi kapcsolatok elfelejtése"
+
+#: backend.cpp:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "Legutóbbi helyek elfelejtése"
+
+#: backend.cpp:391
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Legutóbbi fájlok elfelejtése"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Visszahangosítás"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Némítás"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "%1 visszahangosítása"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "%1 némítása"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: qml/config.qml:18
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Behavior"
+msgstr "Működés"
+
+#: qml/ConfigAppearance.qml:49
+#, kde-format
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "Általános:"
+
+#: qml/ConfigAppearance.qml:50
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr "Ablakok előnézetének megjelenítése az ikonokra rámutatáskor"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr "Egyéb ablakok elrejtése az előnézetekre mutatáskor"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over tooltips"
+msgstr "Egyéb ablakok elrejtése a buboréksúgókra mutatáskor"
+
+#: qml/ConfigAppearance.qml:60
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr "Jelző megjelenítése, amikor egy feladat hangot játszik le"
+
+#: qml/ConfigAppearance.qml:70
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr "Feladat némítása a jelzőre kattintáskor"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr "Média- és hangvezérlők megjelenítése a buboréksúgóban"
+
+#: qml/ConfigAppearance.qml:86
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "Szabad hely kitöltése a panelen"
+
+#: qml/ConfigAppearance.qml:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "Maximális ikonszélesség:"
+
+#: qml/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr "Keskeny"
+
+#: qml/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr "Közepes"
+
+#: qml/ConfigAppearance.qml:103
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr "Széles"
+
+#: qml/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr "Többoszlopos nézet használata:"
+
+#: qml/ConfigAppearance.qml:115
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr "Többsoros nézet használata:"
+
+#: qml/ConfigAppearance.qml:121
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr "Soha"
+
+#: qml/ConfigAppearance.qml:131
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr "Ha a panelen kevés a hely, és elég vastag"
+
+#: qml/ConfigAppearance.qml:141
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "Mindig, ha a panel elég vastag"
+
+#: qml/ConfigAppearance.qml:148
+#, kde-format
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "Maximális oszlopszám:"
+
+#: qml/ConfigAppearance.qml:149
+#, kde-format
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "Maximális sorszám:"
+
+#: qml/ConfigAppearance.qml:159
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "Ikonok közötti térköz:"
+
+#: qml/ConfigAppearance.qml:163
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Kicsi"
+
+#: qml/ConfigAppearance.qml:167
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normál"
+
+#: qml/ConfigAppearance.qml:171
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Nagy"
+
+#: qml/ConfigBehavior.qml:50
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+"Ha ezt a beállítást egy olyan alkalmazás megkerülésére használja, amelyik "
+"túl gyakran igényel figyelmet, először keressen egy olyan beállítást az "
+"alkalmazásban, amellyel letilthatja azt a viselkedést. Ha nem talál ilyet, "
+"fontolja meg, hogy hibaként jelenti ezt az alkalmazás fejlesztőjének."
+
+#: qml/ConfigBehavior.qml:66
+#, kde-format
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "Csoportosítás:"
+
+#: qml/ConfigBehavior.qml:70
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "Ne csoportosítsa"
+
+#: qml/ConfigBehavior.qml:71
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "Programnév szerint"
+
+#: qml/ConfigBehavior.qml:77
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "Csoportosított alkalmazásra kattintáskor:"
+
+#: qml/ConfigBehavior.qml:84
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr "Váltás az alkalmazások között"
+
+#: qml/ConfigBehavior.qml:85
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr "Kis ablakelőnézetek megjelenítése"
+
+#: qml/ConfigBehavior.qml:86
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr "Nagy ablakelőnézetek megjelenítése"
+
+#: qml/ConfigBehavior.qml:87
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr "Szöveges lista megjelenítése"
+
+#: qml/ConfigBehavior.qml:98
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+"A kompozitor nem támogatja az ablakok egymás melletti megjelenítését, ezért "
+"egy szöveges lista jelenik meg helyette."
+
+#: qml/ConfigBehavior.qml:108
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "Összevonás egy gombba"
+
+#: qml/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "Csak akkor, ha a feladatkezelő tele van"
+
+#: qml/ConfigBehavior.qml:127
+#, kde-format
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "Rendezés:"
+
+#: qml/ConfigBehavior.qml:134
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "Ne rendezze"
+
+#: qml/ConfigBehavior.qml:138
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "Kézzel"
+
+#: qml/ConfigBehavior.qml:142
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "Betűrendben"
+
+#: qml/ConfigBehavior.qml:146
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "Asztal szerint"
+
+#: qml/ConfigBehavior.qml:150
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "Aktivitás szerint"
+
+#: qml/ConfigBehavior.qml:154
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr "Vízszintes ablakpozíció szerint"
+
+#: qml/ConfigBehavior.qml:165
+#, kde-format
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "Indítóikonok különválasztása"
+
+#: qml/ConfigBehavior.qml:172
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr "Indítóikonok elrejtése az alkalmazás indulása után"
+
+#: qml/ConfigBehavior.qml:182
+#, kde-format
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr "Aktív alkalmazásra kattintás:"
+
+#: qml/ConfigBehavior.qml:183
+#, kde-format
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "Alkalmazás minimalizálása"
+
+#: qml/ConfigBehavior.qml:188
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "Középső gombos kattintás alkalmazáson:"
+
+#: qml/ConfigBehavior.qml:192
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "Ne tegyen semmit"
+
+#: qml/ConfigBehavior.qml:193
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr "Ablak vagy csoport bezárása"
+
+#: qml/ConfigBehavior.qml:194
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr "új ablakot nyit meg"
+
+#: qml/ConfigBehavior.qml:195
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "Ablak vagy csoport minimalizálása/visszaállítása"
+
+#: qml/ConfigBehavior.qml:196
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr "Csoportosítás be/kikapcsolása"
+
+#: qml/ConfigBehavior.qml:197
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "A jelenlegi virtuális asztalra mozgatás"
+
+#: qml/ConfigBehavior.qml:207
+#, kde-format
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows/adjusts the hovered "
+"task’s volume''"
+msgid "Scrolling behavior:"
+msgstr "Görgetés működése:"
+
+#: qml/ConfigBehavior.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "Ne tegyen semmit"
+
+#: qml/ConfigBehavior.qml:212
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr "Váltás az összes feladat között"
+
+#: qml/ConfigBehavior.qml:213
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr "Váltás a rámutatott feladat ablakai között"
+
+#: qml/ConfigBehavior.qml:214
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered "
+"task’s volume'"
+msgid "Adjusts the hovered task’s volume"
+msgstr "A rámutatott alkalmazás hangerejének módosítása"
+
+#: qml/ConfigBehavior.qml:222
+#, kde-format
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "Minimalizált alkalmazások átugrása"
+
+#: qml/ConfigBehavior.qml:232
+#, kde-format
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "Megjelenítendő alkalmazások:"
+
+#: qml/ConfigBehavior.qml:233
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr "A jelenlegi asztalról"
+
+#: qml/ConfigBehavior.qml:238
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr "A jelenlegi aktivitásról"
+
+#: qml/ConfigBehavior.qml:243
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr "A jelenlegi képernyőről"
+
+#: qml/ConfigBehavior.qml:248
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "Csak a minimalizáltak"
+
+#: qml/ConfigBehavior.qml:257
+#, kde-format
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "Amikor a panel rejtett:"
+
+#: qml/ConfigBehavior.qml:258
+#, kde-format
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "Megjelenítés, ha az ablak beavatkozást igényel"
+
+#: qml/ConfigBehavior.qml:273
+#, kde-format
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "Új feladatok helye:"
+
+#: qml/ConfigBehavior.qml:277
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "Lent"
+
+#: qml/ConfigBehavior.qml:281 qml/ConfigBehavior.qml:300
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "Jobbra"
+
+#: qml/ConfigBehavior.qml:283 qml/ConfigBehavior.qml:298
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "Balra"
+
+#: qml/ConfigBehavior.qml:294
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "Fent"
+
+#: qml/ContextMenu.qml:100
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr "Helyek"
+
+#: qml/ContextMenu.qml:106
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr "Legutóbbi fájlok"
+
+#: qml/ContextMenu.qml:116
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr "Műveletek"
+
+#: qml/ContextMenu.qml:163
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Előző szám"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Szünet"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Lejátszás"
+
+#: qml/ContextMenu.qml:195
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Következő szám"
+
+#: qml/ContextMenu.qml:206
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Leállítás"
+
+#: qml/ContextMenu.qml:226
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Kilépés"
+
+#: qml/ContextMenu.qml:241
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: qml/ContextMenu.qml:266
+#, kde-format
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr "Némítás"
+
+#: qml/ContextMenu.qml:277
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Open New Window"
+msgstr "Új ablak megnyitása"
+
+#: qml/ContextMenu.qml:293
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr "Áthelyezés másik &asztalra"
+
+#: qml/ContextMenu.qml:323
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move &To Current Desktop"
+msgstr "Áthelyezés a &jelenlegi asztalra"
+
+#: qml/ContextMenu.qml:332
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&All Desktops"
+msgstr "Az összes &asztalra"
+
+#: qml/ContextMenu.qml:360
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&New Desktop"
+msgstr "Ú&j asztalra"
+
+#: qml/ContextMenu.qml:380
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr "Megjelenítés az &aktivitásokon"
+
+#: qml/ContextMenu.qml:404
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Add To Current Activity"
+msgstr "Hozzáadás a jelenlegi aktivitáshoz"
+
+#: qml/ContextMenu.qml:414
+#, kde-format
+msgctxt "action:inmenu"
+msgid "All Activities"
+msgstr "Összes aktivitásra"
+
+#: qml/ContextMenu.qml:470
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to %1"
+msgstr "Áthelyezés ide: %1"
+
+#: qml/ContextMenu.qml:496 qml/ContextMenu.qml:512
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Pin to Task Manager"
+msgstr "&Rögzítés a panelen"
+
+#: qml/ContextMenu.qml:564
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On All Activities"
+msgstr "Minden aktivitáson"
+
+#: qml/ContextMenu.qml:570
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On The Current Activity"
+msgstr "A jelenlegi aktivitáson"
+
+#: qml/ContextMenu.qml:594
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr "Levétel a panelről"
+
+#: qml/ContextMenu.qml:609
+#, kde-format
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr "Több"
+
+#: qml/ContextMenu.qml:618
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Move"
+msgstr "Á&thelyezés"
+
+#: qml/ContextMenu.qml:627
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Re&size"
+msgstr "Átméretezé&s"
+
+#: qml/ContextMenu.qml:641
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Ma&ximize"
+msgstr "Ma&ximalizálás"
+
+#: qml/ContextMenu.qml:655
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Mi&nimize"
+msgstr "Mi&nimalizálás"
+
+#: qml/ContextMenu.qml:665
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Above Others"
+msgstr "Az ablak a többi &fölé kerüljön"
+
+#: qml/ContextMenu.qml:675
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Below Others"
+msgstr "Az ablak a többi a&lá kerüljön"
+
+#: qml/ContextMenu.qml:687
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Fullscreen"
+msgstr "&Teljes képernyő"
+
+#: qml/ContextMenu.qml:700
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Shade"
+msgstr "&Felgördítés"
+
+#: qml/ContextMenu.qml:712
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr "&Nincs címsor és keret"
+
+#: qml/ContextMenu.qml:725
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Hide from Screencast"
+msgstr "Elre&jtés a képernyőátjátszásból"
+
+#: qml/ContextMenu.qml:741
+#, kde-format
+msgctxt "@option:check inmenu"
+msgid "Allow this program to be grouped"
+msgstr "A program legyen csoportosítható"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close All"
+msgstr "Össz&es bezárása"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close"
+msgstr "&Bezárás"
+
+#: qml/Task.qml:157
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "%1 indítása"
+
+#: qml/Task.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "%1 új üzenet érkezett."
+msgstr[1] "%1 új üzenet érkezett."
+
+#: qml/Task.qml:170
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "A(z) %1 buboréksúgójának megjelenítése"
+
+#: qml/Task.qml:174
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "A(z) %1 ablakainak megjelenítése egymás mellett"
+
+#: qml/Task.qml:179
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "A(z) %1 ablakai szöveges listájának megjelenítése"
+
+#: qml/Task.qml:183
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Activate %1"
+msgstr "%1 aktiválása"
+
+#: qml/TaskBadgeOverlay.qml:95
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: qml/ToolTipInstance.qml:201
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr "Ablak bezárása"
+
+#: qml/ToolTipInstance.qml:471
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "%1 visszahangosítása"
+
+#: qml/ToolTipInstance.qml:472
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "%1 némítása"
+
+#: qml/ToolTipInstance.qml:490
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "%1 hangerejének beállítása"
+
+#: qml/ToolTipInstance.qml:506
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: qml/ToolTipInstance.qml:510
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: qml/ToolTipInstance.qml:526
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "Ezen: %1"
+
+#: qml/ToolTipInstance.qml:529
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "Összes asztalra rögzítve"
+
+#: qml/ToolTipInstance.qml:535
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Elérhető az összes aktivitáson"
+
+#: qml/ToolTipInstance.qml:545
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "Szintén elérhető ezen: %1"
+
+#: qml/ToolTipInstance.qml:549
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Elérhető ezen: %1"
+
+#~ msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+#~ msgid "Automatically set to Large when in Touch mode"
+#~ msgstr "Automatikus nagyra állítás Érintés módban"
+
+#~ msgctxt "Invalid number of new messages, overlay, keep short"
+#~ msgid "—"
+#~ msgstr "—"
+
+#~| msgctxt ""
+#~| "@item:inlistbox Part of a sentence: 'Middle-clicking any task does "
+#~| "nothing'"
+#~| msgid "Does nothing"
+#~ msgctxt ""
+#~ "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
+#~ msgid "Does nothing"
+#~ msgstr "Ne tegyen semmit"
+
+#~ msgctxt ""
+#~ "@label for checkbox Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Mouse wheel:"
+#~ msgstr "Egérgörgő:"
+
+#~ msgctxt ""
+#~ "@option:check Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Váltás az alkalmazások között"
+
+#~ msgctxt "@option:check section General"
+#~ msgid "Use audio indicators to mute tasks"
+#~ msgstr "Hangjelzők használata a feladatok elnémításához"
+
+#~ msgctxt "@option:check section General"
+#~ msgid "Mark applications that play audio"
+#~ msgstr "Hangot lejátszó alkalmazások jelölése"
+
+#~ msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Váltás az alkalmazások között"
+
+#~ msgctxt "1 = number of desktop, 2 = desktop name"
+#~ msgid "&%1 %2"
+#~ msgstr "&%1. %2"
+
+#~ msgid "Always arrange tasks in rows of as many columns"
+#~ msgstr "Legfeljebb annyi sorba rendezés, ahány oszlop van"
+
+#~ msgid "Always arrange tasks in columns of as many rows"
+#~ msgstr "Legfeljebb annyi oszlopba rendezés, ahány sor van"
+
+#, fuzzy
+#~| msgid ""
+#~| "Tooltips are disabled, so the 'Present Windows' effect will be displayed "
+#~| "instead."
+#~ msgid ""
+#~ "Tooltips are disabled, so the windows will be displayed side by side "
+#~ "instead."
+#~ msgstr ""
+#~ "A tippek ki vannak kapcsolva, így az Ablakáttekintő effektus lesz "
+#~ "megjelenítve inkább."
+
+#, fuzzy
+#~| msgid ""
+#~| "Tooltips are disabled, and the 'Present Windows' effect is not enabled "
+#~| "or otherwise available right now, so a textual list will be displayed "
+#~| "instead"
+#~ msgid ""
+#~ "Tooltips are disabled, and the compositor does not support displaying "
+#~ "windows side by side, so a textual list will be displayed instead"
+#~ msgstr ""
+#~ "A tippek ki vannak kapcsolva, és az Ablakáttekintő sincs bekapcsolva, "
+#~ "vagy más okból nem érhető el, így a szöveges lista jelenik meg helyette"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Tippek megjelenítése"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows tooltip window "
+#~ "thumbnails' "
+#~ msgid "Shows tooltip window thumbnails"
+#~ msgstr "Előnézeti képek megjelenítése"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows 'Present Windows' "
+#~ "effect' "
+#~ msgid "Shows 'Present Windows' effect"
+#~ msgstr "Az Ablakáttekintő effektus alkalmazása"
+
+#~ msgid "Icon size:"
+#~ msgstr "Ikonméret:"
+
+#~ msgid "Start New Instance"
+#~ msgstr "Új példány indítása"
+
+#~ msgid "More Actions"
+#~ msgstr "További műveletek"
+
+#, fuzzy
+#~| msgid "Cycle through tasks with mouse wheel"
+#~ msgid "Cycle through tasks"
+#~ msgstr "Váltás az alkalmazások között az egérgörgővel"
+
+#~ msgid "On middle-click:"
+#~ msgstr "Középső gombos kattintásra:"
+
+#~ msgctxt "The click action"
+#~ msgid "None"
+#~ msgstr "Semmi"
+
+#~ msgctxt "When clicking it would toggle grouping windows of a specific app"
+#~ msgid "Group/Ungroup"
+#~ msgstr "Csoportosítás/Csoport felbontása"
+
+#~ msgid "Open groups in popups"
+#~ msgstr "Csoportok megnyitása felugróban"
+
+#~ msgid "Filter:"
+#~ msgstr "Szűrő:"
+
+#~ msgid "Show only tasks from the current desktop"
+#~ msgstr "Csak feladatok megjelenítése a jelenlegi asztalról"
+
+#~ msgid "Show only tasks from the current activity"
+#~ msgstr "Csak feladatok megjelenítése a jelenlegi aktivitásról"
+
+#, fuzzy
+#~| msgid "By Activity"
+#~ msgid "Move to &Activity"
+#~ msgstr "Aktivitásonként"
+
+#~ msgid "Highlight windows"
+#~ msgstr "Ablakok kiemelése"
+
+#~ msgid "Grouping and Sorting"
+#~ msgstr "Csoportosítás és rendezés"
+
+#~ msgid "Do Not Sort"
+#~ msgstr "Rendezés nélkül"
+
+#~ msgid "Force row settings"
+#~ msgstr "Sorbeállítások kényszerítése"
+
+#~ msgid "Collapse Group"
+#~ msgstr "Összecsukás"
+
+#~ msgid "Expand Group"
+#~ msgstr "Kibontás"
+
+#~ msgid "Edit Group"
+#~ msgstr "Csoport szerkesztése"
+
+#~ msgid "New Group Name: "
+#~ msgstr "Új csoport neve: "
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "A szülőcsoport összecsukása"

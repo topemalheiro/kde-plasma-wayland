@@ -1,0 +1,93 @@
+# Spanish translations for plasma_runner_baloosearch.po package.
+# Copyright (C) 2014-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2014.
+#
+# SPDX-FileCopyrightText: 2014, 2016, 2018, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_baloosearch\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-01-14 12:15+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net"
+
+#: baloosearchrunner.cpp:42
+#, kde-format
+msgid "File Search"
+msgstr "Búsqueda de archivos"
+
+#: baloosearchrunner.cpp:69
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Abrir la carpeta contenedora"
+
+#: baloosearchrunner.cpp:93
+#, kde-format
+msgctxt ""
+"Audio files; translate this as a plural noun in languages with a plural form "
+"of the word"
+msgid "Audio"
+msgstr "Sonidos"
+
+#: baloosearchrunner.cpp:95
+#, kde-format
+msgid "Images"
+msgstr "Imágenes"
+
+#: baloosearchrunner.cpp:96
+#, kde-format
+msgid "Videos"
+msgstr "Vídeos"
+
+#: baloosearchrunner.cpp:97
+#, kde-format
+msgid "Spreadsheets"
+msgstr "Hojas de cálculo"
+
+#: baloosearchrunner.cpp:98
+#, kde-format
+msgid "Presentations"
+msgstr "Presentaciones"
+
+#: baloosearchrunner.cpp:99
+#, kde-format
+msgid "Folders"
+msgstr "Carpetas"
+
+#: baloosearchrunner.cpp:100
+#, kde-format
+msgid "Documents"
+msgstr "Documentos"
+
+#: baloosearchrunner.cpp:101
+#, kde-format
+msgid "Archives"
+msgstr "Archivos comprimidos"
+
+#: baloosearchrunner.cpp:102
+#, kde-format
+msgid "Texts"
+msgstr "Textos"
+
+#: baloosearchrunner.cpp:103
+#, kde-format
+msgid "Files"
+msgstr "Archivos"

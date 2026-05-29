@@ -1,0 +1,592 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2013-09-30 01:30+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: code/tools.js:32
+#, fuzzy, kde-format
+#| msgid "Remove From Favorites"
+msgid "Remove from Favorites"
+msgstr "Таңдамалылардан шығару"
+
+#: code/tools.js:36
+#, fuzzy, kde-format
+#| msgid "Add To Favorites"
+msgid "Add to Favorites"
+msgstr "Таңдамалыларға кіргізу"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr ""
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr ""
+
+#: code/tools.js:124
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgid "Show in Favorites"
+msgstr "Таңдамалылар"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr ""
+
+#: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr ""
+
+#: ConfigGeneral.qml:53
+#, fuzzy, kde-format
+#| msgid "Application Launcher"
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Қолданбаны жегу"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr ""
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: ConfigGeneral.qml:95
+#, fuzzy, kde-format
+#| msgid "Application Launcher"
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Қолданбаны жегу"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr ""
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr ""
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr ""
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr ""
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr ""
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr ""
+
+#: ConfigGeneral.qml:157
+#, fuzzy, kde-format
+#| msgid "Show applications by name:"
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Қолданбалардың атауларын көрсету:"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr ""
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr ""
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr ""
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr ""
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr ""
+
+#: ConfigGeneral.qml:171
+#, fuzzy, kde-format
+#| msgid "Sort Alphabetically (A to Z)"
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Әліппе бойынша (A -Z, А-Я)"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr ""
+
+#: ConfigGeneral.qml:187
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Жуырда жегілген қолданбалар"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr ""
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr ""
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr ""
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr ""
+
+#: ConfigGeneral.qml:209
+#, kde-format
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr ""
+
+#: ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr ""
+
+#: ConfigGeneral.qml:225
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Таңдамалылар"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr ""
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr ""
+
+#: ConfigGeneral.qml:242
+#, fuzzy, kde-format
+#| msgid "Show applications by name:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Қолданбалардың атауларын көрсету:"
+
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr ""
+
+#: ConfigGeneral.qml:251
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr ""
+
+#: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr ""
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr ""
+
+#: ConfigGeneral.qml:273
+#, fuzzy, kde-format
+#| msgid "Save Session"
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Сеансты сақтау"
+
+#: ConfigGeneral.qml:282
+#, fuzzy, kde-format
+#| msgid "End session"
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Сеансты аяқтау"
+
+#: ConfigGeneral.qml:291
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr ""
+
+#: Footer.qml:101
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Қолданбалар"
+
+#: Footer.qml:117
+#, fuzzy, kde-format
+#| msgid "Places"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Орындар"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr ""
+
+#: Header.qml:86
+#, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr ""
+
+#: Header.qml:276
+#, kde-format
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr ""
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffGridDelegate.qml:61
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Жуырда жегілген қолданбалар"
+
+#: KickoffGridView.qml:105
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr ""
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffListDelegate.qml:125
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgid "There is a newly-installed application in this category"
+msgstr "Жуырда жегілген қолданбалар"
+
+#: KickoffListDelegate.qml:126
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgid "Newly-installed application"
+msgstr "Жуырда жегілген қолданбалар"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Save Session"
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Сеансты сақтау"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr ""
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr ""
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Сеанс"
+
+#: main.qml:358
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Қолданбалар"
+
+#: PlacesPage.qml:64
+#, fuzzy, kde-format
+#| msgid "Computer"
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Компьютер"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr ""
+
+#: PlacesPage.qml:66
+#, fuzzy, kde-format
+#| msgid "Recently Installed"
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Жуырда орнатылған"
+
+#, fuzzy
+#~| msgid "Recently Used Applications"
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Жуырда жегілген қолданбалар"
+
+#~ msgid "Leave"
+#~ msgstr "Қалдыру"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgid "Search…"
+#~ msgstr "Іздеу:"
+
+#, fuzzy
+#~| msgid "Leave"
+#~ msgid "Leave…"
+#~ msgstr "Қалдыру"
+
+#, fuzzy
+#~| msgid "Applications"
+#~ msgid "Updating applications…"
+#~ msgstr "Қолданбалар"
+
+#, fuzzy
+#~| msgctxt "Search field placeholder text"
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "Іздейтіні"
+
+#, fuzzy
+#~| msgid "Leave"
+#~ msgid "Leave..."
+#~ msgstr "Қалдыру"
+
+#, fuzzy
+#~| msgid "Applications"
+#~ msgid "Applications updated."
+#~ msgstr "Қолданбалар"
+
+#, fuzzy
+#~| msgid "Switch tabs on hover:"
+#~ msgid "Switch tabs on hover"
+#~ msgstr "Меңзегенде қойындысына ауысу:"
+
+#~ msgid "All Applications"
+#~ msgstr "Бүкіл қолданбалар"
+
+#~ msgid "Favorites"
+#~ msgstr "Таңдамалылар"
+
+#, fuzzy
+#~| msgid "Recently Used"
+#~ msgid "Often Used"
+#~ msgstr "Жуырдағылар"
+
+#~ msgctxt "@title:column"
+#~ msgid "Favorites"
+#~ msgstr "Таңдамалылар"
+
+#~ msgid "Log out"
+#~ msgstr "Шығу"
+
+#~ msgid "Lock"
+#~ msgstr "Бұғаттау"
+
+#~ msgid "Lock screen"
+#~ msgstr "Экранды бұғаттау"
+
+#~ msgid "Switch user"
+#~ msgstr "Пайдаланушыны ауыстыру"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Басқа пайдаланушы ретінде қатар сеансын бастау"
+
+#~ msgid "Shut down"
+#~ msgstr "Сөндіру"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Компьютерді сөндіру"
+
+#~ msgctxt "Restart computer"
+#~ msgid "Restart"
+#~ msgstr "Жаңадан бастау"
+
+#~ msgid "Restart computer"
+#~ msgstr "Компьютерді қайта қосу"
+
+#~ msgid "Save current session for next login"
+#~ msgstr "Сеанстың күйін келесі кіргенше сақтау"
+
+#~ msgctxt "Puts the system on standby"
+#~ msgid "Standby"
+#~ msgstr "Күту"
+
+#~ msgid "Pause without logging out"
+#~ msgstr "Шығпай аялдау"
+
+#~ msgid "Hibernate"
+#~ msgstr "Ұйықтау"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Күйін дискіге сақтап аялдау"
+
+#, fuzzy
+#~| msgid "Suspend to RAM"
+#~ msgid "Suspend"
+#~ msgstr "Күйін RAM-жадына сақтап аялдау"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Күйін RAM-жадына сақтап аялдау"
+
+#~ msgid "System"
+#~ msgstr "Жүйе"
+
+#~ msgid "Home Folder"
+#~ msgstr "Мекен қапшығы"
+
+#~ msgid "Network Folders"
+#~ msgstr "Желідегі қапшықтар"
+
+#~ msgid "Documents"
+#~ msgstr "Құжаттар"
+
+#~ msgid "Recently Used Documents"
+#~ msgstr "Жуырда ашылған құжаттар"
+
+#~ msgid "Run Command..."
+#~ msgstr "Команданы орындау..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Команданы не іздеу сұранысын орындау"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Ауыстырмалы жинақтауыштар"
+
+#, fuzzy
+#~| msgid "Show 'Recently Installed':"
+#~ msgid "Show 'Recently Installed'"
+#~ msgstr "'Жуырда орнатылған' дегенді көрсету"
+
+#~ msgid "Uninstall"
+#~ msgstr "Орнатудан шығару"
+
+#~ msgid "Sort Alphabetically (Z to A)"
+#~ msgstr "Кері әліппе бойынша (Я-А, Z-A)"
+
+#~ msgid "Clear Recent Applications"
+#~ msgstr "Жуырдағы қолданбалар тізімін тазалау"
+
+#~ msgid "Clear Recent Documents"
+#~ msgstr "Жуырдағы құжаттар тізімін тазалау"
+
+#~ msgid "Sleep"
+#~ msgstr "Қалғу"
+
+#
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Сайран Киккарин"
+
+#
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sairan@computer.org"
+
+#~ msgid "Kickoff"
+#~ msgstr "Kickoff"

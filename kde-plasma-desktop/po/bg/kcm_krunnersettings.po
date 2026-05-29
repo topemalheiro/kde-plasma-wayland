@@ -1,0 +1,98 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2026 Mincho Kondarev <mkondarev@yahoo.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-19 00:48+0000\n"
+"PO-Revision-Date: 2026-01-19 21:47+0100\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.03.70\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Position on screen:"
+msgstr "Позиция на екрана:"
+
+#: ui/main.qml:35
+#, kde-format
+msgctxt "@option:check Position on top of screen"
+msgid "Top"
+msgstr "Горе"
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check Position in center of screen"
+msgid "Center"
+msgstr "Центрирано"
+
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "History:"
+msgstr "История:"
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@option:radio History is disabled"
+msgid "Disabled"
+msgstr "Деактивирана"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable suggestions"
+msgstr "Активиране на предложения"
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable auto-complete"
+msgstr "Активиране на автоматично завършване"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear History…"
+msgstr "Изчистване на историята…"
+
+#: ui/main.qml:99
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for all activities"
+msgid "For all activities"
+msgstr "За всички дейности"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for this activity"
+msgid "For activity \"%1\""
+msgstr "За дейност „%1“"
+
+#: ui/main.qml:128
+#, kde-format
+msgctxt "@label"
+msgid "Plugins:"
+msgstr "Приставки:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Enabled Search Plugins…"
+msgstr "Конфигуриране на активираните приставки за търсене…"
+
+#~ msgctxt "@label prefix for checkbutton"
+#~ msgid "Activation:"
+#~ msgstr "Активиране:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activate when pressing any key on the desktop"
+#~ msgstr "Активиране при натискане на клавиш"

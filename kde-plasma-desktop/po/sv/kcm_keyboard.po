@@ -1,0 +1,920 @@
+# translation of kcmkeyboard.po to Swedish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2007, 2008, 2010, 2024, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# Stefan Asserhall <stefan.asserhall@gmail.com>, 2011, 2012, 2014, 2016, 2017, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2025-04-05 18:56+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 24.12.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@gmail.com"
+
+#: bindings.cpp:24
+#, kde-format
+msgid "Keyboard Layout Switcher"
+msgstr "Byte av tangentbordslayout"
+
+#: bindings.cpp:26
+#, kde-format
+msgid "Switch to Next Keyboard Layout"
+msgstr "Byt till nästa tangentbordslayout"
+
+#: bindings.cpp:30
+#, kde-format
+msgid "Switch to Last-Used Keyboard Layout"
+msgstr "Byt till senast använda tangentbordslayout"
+
+#: bindings.cpp:60
+#, kde-format
+msgid "Switch keyboard layout to %1"
+msgstr "Byt tangentbordslayout till %1"
+
+#: keyboardmodel.cpp:35
+#, kde-format
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr "Okänd"
+
+#: keyboardmodel.cpp:39
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr "%1 | %2"
+
+#: tastenbrett/main.cpp:52
+#, kde-format
+msgctxt "app display name"
+msgid "Keyboard Preview"
+msgstr "Tangentbordsförhandsgranskning"
+
+#: tastenbrett/main.cpp:54
+#, kde-format
+msgctxt "app description"
+msgid "Keyboard layout visualization"
+msgstr "Visualiseringen av tangentbordslayout"
+
+#: tastenbrett/main.cpp:139
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant.\n"
+"Previewing layouts that are defined outside your systems xkb directory is "
+"not supported and  will also trigger this message. These might still work "
+"fine if applied"
+msgstr ""
+"Tangentbordsgeometrin gick inte att läsa in. Det anger ofta att den valda "
+"modellen inte stöder en specifik layout eller layoutvariant. Problemet "
+"uppstår troligen också när du försöker använda den här kombinationen av "
+"modell, layout och variant.\n"
+"Att förhandsgranska layouter som är definierade utanför systemets xkb-"
+"katalog stöds inte och ger också det här meddelandet. De kanske ändå "
+"fungerar bra om de används."
+
+#: ui/KeyBindings.qml:18
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Configure Switching…"
+msgctxt "@title"
+msgid "Configure Key Bindings…"
+msgstr "Anpassa byte…"
+
+#: ui/KeyBindings.qml:62
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Configure keyboard options"
+msgstr "Anpassa tangentbordsalternativ"
+
+#: ui/KeyBindings.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "Återställ"
+
+#: ui/KeyBindings.qml:138
+#, kde-format
+msgctxt "@info accessible"
+msgid "Reset selected options for this group"
+msgstr "Återställ valda alternativ för gruppen"
+
+#: ui/KeyBindings.qml:139
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reset selected options for this group"
+msgstr "Återställ valda alternativ för gruppen"
+
+#: ui/LayoutDialog.qml:22
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Layout"
+msgctxt "@title:window"
+msgid "Set Layout"
+msgstr "Layout"
+
+#: ui/LayoutDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Layout"
+msgstr "Lägg till layout"
+
+#: ui/LayoutDialog.qml:121
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Short layout name"
+msgstr "Kort layoutnamn"
+
+#: ui/LayoutDialog.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The abbreviated name of the selected layout, which will be displayed in the "
+"system tray. You can change this setting yourself."
+msgstr ""
+"Det förkortade namnet på den valda layouten, som visas i systembrickan. Du "
+"kan själv ändra inställningen."
+
+#: ui/LayoutDialog.qml:139
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Shortcut:"
+msgstr "Genväg:"
+
+#: ui/LayoutDialog.qml:150 ui/main.qml:287
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Switching…"
+msgstr "Anpassa byte…"
+
+#: ui/main.qml:38
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Configure Switching"
+msgstr "Anpassa byte"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Key Bindings"
+msgstr "Tangentbindningar"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Key Bindings"
+msgstr "Tangentbindningar"
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt "@action:button Layout"
+msgid "Add…"
+msgstr "Lägg till…"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add layout"
+msgstr "Lägg till layout"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@label:checkbox configure layouts option"
+msgid "Enable"
+msgstr "Aktivera"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Configure Layouts"
+msgstr "Anpassa layouter"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@label:listbox Keyboard model"
+msgid "Model:"
+msgstr "Modell:"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@label:listbox"
+msgid "NumLock on startup:"
+msgstr "NumLock vid start:"
+
+#: ui/main.qml:112
+#, kde-format
+msgctxt "@item:inlistbox Turn on \"NumLock\" on startup"
+msgid "Turn on"
+msgstr "Sätt på"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt "@item:inlistbox Turn off \"NumLock\" on startup"
+msgid "Turn off"
+msgstr "Stäng av"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt ""
+"@item:inlistbox Leave \"NumLock\" at whatever it was set to before Plasma "
+"started up"
+msgid "Leave unchanged"
+msgstr "Lämna orört"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Key repeat:"
+msgstr "Tangentupprepning:"
+
+#: ui/main.qml:155 ui/main_phone.qml:115
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Key repeat"
+msgstr "Tangentupprepning:"
+
+#: ui/main.qml:166 ui/main_phone.qml:131
+#, kde-format
+msgctxt "@label:textbox Key repeat delay"
+msgid "Delay:"
+msgstr "Fördröjning:"
+
+#: ui/main.qml:180 ui/main_phone.qml:135
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat delay %1"
+msgstr "Tangentupprepningsfördröjning %1"
+
+#: ui/main.qml:188 ui/main_phone.qml:143
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "%1 ms"
+msgstr "%1 ms"
+
+#: ui/main.qml:192 ui/main_phone.qml:147
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "ms"
+msgstr "ms"
+
+#: ui/main.qml:205 ui/main_phone.qml:162
+#, kde-format
+msgctxt "@label:textbox Key repeat rate"
+msgid "Rate:"
+msgstr "Takt:"
+
+#: ui/main.qml:219 ui/main_phone.qml:169
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat rate %1"
+msgstr "Tangentupprepningstakt %1"
+
+#: ui/main.qml:227 ui/main_phone.qml:177
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "%1 repeats/s"
+msgstr "%1 upprepningar/s"
+
+#: ui/main.qml:231 ui/main_phone.qml:181
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "repeats/s"
+msgstr "upprepningar/s"
+
+#: ui/main.qml:243
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Test area:"
+msgstr "Provområde:"
+
+#: ui/main.qml:245
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to test settings"
+msgstr "Skriv här för att prova inställningarna"
+
+#: ui/main.qml:256
+#, kde-format
+msgctxt "@title:view"
+msgid "Layouts"
+msgstr "Layouter"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "Flytta upp"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout up"
+msgstr "Flytta layout %1 uppåt"
+
+#: ui/main.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr "Flytta ner"
+
+#: ui/main.qml:278
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout Down"
+msgstr "Flytta layout %1 neråt"
+
+#: ui/main.qml:288
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: ui/main.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Remove layout %1"
+msgstr "Ta bort layout %1"
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Spare layouts:"
+msgstr "Reservlayouter:"
+
+#: ui/main.qml:346
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of spared main layouts"
+msgstr "Antal huvudlayouter i reserv"
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@label:textbox completes spinbox, x main layouts"
+msgid "main layouts"
+msgstr "huvudlayouter"
+
+#: ui/main.qml:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can have up to 4 main layouts, all other layouts are spare. Spare "
+"layouts are not included when cycling through the layouts, but can be "
+"accessed through the keyboard indicator applet or by setting a custom "
+"shortcut."
+msgstr ""
+"Du kan ha upp till fyra huvudlayouter, alla andra layouter är reserv. "
+"Reservlayouter ingår inte när du cyklar genom layouterna, men kan nås via "
+"miniprogrammet för tangentbordsindikering eller genom att ställa in en egen "
+"genväg."
+
+#: ui/main.qml:387
+#, kde-format
+msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
+msgid "Change layout shortcut:"
+msgstr "Ändra layoutgenväg:"
+
+#: ui/main.qml:410
+#, kde-format
+msgctxt "@label Change layout shortcut or \"Configure Switching\""
+msgid "or"
+msgstr "eller"
+
+#: ui/main_phone.qml:36
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Add Layout"
+msgctxt "@title form header"
+msgid "Model & Layout"
+msgstr "Lägg till layout"
+
+#: ui/main_phone.qml:43
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Keyboard model:"
+msgctxt "@label:listbox"
+msgid "Keyboard Model"
+msgstr "Tangentbordsmodell"
+
+#: ui/main_phone.qml:72
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Layout"
+msgctxt "@option:check"
+msgid "Custom Layout"
+msgstr "Layout"
+
+#: ui/main_phone.qml:96
+#, fuzzy, kde-format
+#| msgctxt "@option:textbox"
+#| msgid "Change layout:"
+msgctxt "@action:button"
+msgid "Change Layout..."
+msgstr "Ändra genväg:"
+
+#: ui/main_phone.qml:103
+#, fuzzy, kde-format
+#| msgctxt "@label:checkbox accessible"
+#| msgid "Key repeat"
+msgctxt "@title:group"
+msgid "Key Repeat"
+msgstr "Tangentupprepning:"
+
+#: ui/main_phone.qml:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Customize Repeat"
+msgstr ""
+
+#: ui/Switching.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Configure Switching"
+msgstr "Anpassa byte"
+
+#: ui/Switching.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr "Beteende"
+
+#: ui/Switching.qml:28
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Switching layout affects:"
+msgstr "Byte av layout påverkar:"
+
+#: ui/Switching.qml:35
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows"
+msgstr "Alla fönster"
+
+#: ui/Switching.qml:39
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows on current desktop"
+msgstr "Alla fönster på nuvarande skrivbord"
+
+#: ui/Switching.qml:43
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows of current application"
+msgstr "Alla fönster i nuvarande program"
+
+#: ui/Switching.qml:47
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Current window only"
+msgstr "Bara nuvarande fönster"
+
+#: ui/Switching.qml:74
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Show OSD popup on layout change"
+msgstr "Visa skärmmeddelanderuta vid layoutbyte"
+
+#: ui/Switching.qml:86
+#, kde-format
+msgctxt "@title:group"
+msgid "Shortcuts"
+msgstr "Genvägar"
+
+#: ui/Switching.qml:91 ui/Switching.qml:151
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Change layout:"
+msgstr "Ändra genväg:"
+
+#: ui/Switching.qml:111
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Switch to last used layout:"
+msgstr "Byt till senast använda layout:"
+
+#: ui/Switching.qml:131
+#, kde-format
+msgctxt "@title:group"
+msgid "Legacy Shortcuts"
+msgstr "Föråldrade genvägar"
+
+#: ui/Switching.qml:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Legacy X11 shortcuts allow finer control of modifier-only shortcuts and have "
+"slightly better support on X11 in edge cases. They can also be used on "
+"Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings "
+"page."
+msgstr ""
+"Föråldrade X11-genvägar tillåter finare kontroll av genvägar bara för "
+"modifierare och har något bättre stöd på X11 i specialfall. De kan också "
+"användas på Wayland.<nl/><nl/>Att ställa in sådana genvägar går till sidan "
+"Tangentbindningar."
+
+#: ui/Switching.qml:180
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Alternative symbols:"
+msgstr "Alternativa symboler:"
+
+#: ui/Switching.qml:206
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Modifier keys can be used to type additional characters, symbols, and "
+"diacritical marks."
+msgstr ""
+"Väljartangenter kan användas för att skriva ytterligare tecken, symboler och "
+"diakritiska tecken."
+
+#: xkboptionsmodel.cpp:165
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] "%1 genväg"
+msgstr[1] "%1 genvägar"
+
+#: xkboptionsmodel.cpp:168
+#, kde-format
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "Inga"
+
+#~ msgctxt "@title"
+#~ msgid "Key Bindings"
+#~ msgstr "Tangentbindningar"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Turn Off"
+#~ msgstr "Stäng av"
+
+#~ msgctxt "@title:group"
+#~ msgid "When key is held:"
+#~ msgstr "När en tangent hålls nere:"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Repeat the key"
+#~ msgstr "Upprepa tangenten"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Do nothing"
+#~ msgstr "Gör ingenting"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Show accented and similar characters"
+#~ msgstr "Visa accenttecken och liknande tecken"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Display text:"
+#~ msgstr "Visa text:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Shortcuts for Switching Layout"
+#~ msgstr "Genvägar för att byta layout"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "Main shortcuts:"
+#~ msgstr "Huvudgenvägar:"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "3rd level shortcuts:"
+#~ msgstr "Tredje nivåns genvägar:"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "Last used shortcuts:"
+#~ msgstr "Senast använda genvägar:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Switching Policy"
+#~ msgstr "Princip för byte"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Global"
+#~ msgstr "Global"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Desktop"
+#~ msgstr "Skrivbord"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Window"
+#~ msgstr "Fönster"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "Lägg till"
+
+#~ msgctxt "@title:column"
+#~ msgid "Map"
+#~ msgstr "Avbildning"
+
+#~ msgctxt "@title:column"
+#~ msgid "Label"
+#~ msgstr "Beteckning"
+
+#~ msgctxt "@title:column"
+#~ msgid "Variant"
+#~ msgstr "Variant"
+
+#~ msgctxt "@action:button"
+#~ msgid "Reassign shortcut"
+#~ msgstr "Ändra genväg"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel assignment"
+#~ msgstr "Avbryt tilldelning"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Hardware"
+#~ msgstr "Maskinvara"
+
+#~ msgctxt "layout - variant"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Search…"
+#~ msgstr "Sök…"
+
+#~ msgid "Label:"
+#~ msgstr "Beteckning:"
+
+#~ msgid ""
+#~ "Here you can choose a keyboard model. This setting is independent of your "
+#~ "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
+#~ "keyboard is manufactured. Modern keyboards that come with your computer "
+#~ "usually have two extra keys and are referred to as \"104-key\" models, "
+#~ "which is probably what you want if you do not know what kind of keyboard "
+#~ "you have.\n"
+#~ msgstr ""
+#~ "Här kan du välja en tangentbordsmodell. Den här inställningen är "
+#~ "oberoende av din tangentbordslayout och refererar till modellen på "
+#~ "hårdvaran, dvs på det sätt som tangetbordet är tillverkat. Moderna "
+#~ "tangentbord som kommer med datorer har vanligtvis två extra tangenter och "
+#~ "refereras som \"104-key\"-modeller, vilket troligen är vad du vill ha om "
+#~ "du inte vet vilken typ av tangentbord du har.\n"
+
+#~ msgid ""
+#~ "If you select \"Application\" or \"Window\" switching policy, changing "
+#~ "the keyboard layout will only affect the current application or window."
+#~ msgstr ""
+#~ "Om du väljer bytesprinciperna \"Program\" eller \"Fönster\", påverkar "
+#~ "bara byte av tangentbordslayout aktuellt program eller fönster."
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts which is handled by X.org. It "
+#~ "allows modifier-only shortcuts."
+#~ msgstr ""
+#~ "Det här är en genväg för att byta layout som hanteras av X.org. Det "
+#~ "tillåter genvägar som bara är en väljartangent."
+
+#~ msgctxt "no shortcut defined"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "…"
+#~ msgstr "…"
+
+#~ msgid ""
+#~ "This is a shortcut for switching to a third level of the active layout "
+#~ "(if it has one) which is handled by X.org. It allows modifier-only "
+#~ "shortcuts."
+#~ msgstr ""
+#~ "Det här är en genväg för att byta till den tredje nivån i aktiv layout "
+#~ "(om det finns någon) som hanteras av X.org. Det tillåter genvägar som "
+#~ "bara är en väljartangent."
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts. It does not support modifier-"
+#~ "only shortcuts and also may not work in some situations (e.g. if popup is "
+#~ "active or from screensaver)."
+#~ msgstr ""
+#~ "Det här är en genväg för att byta layout. Den tillåter inte en genväg som "
+#~ "bara är en väljartangent, och fungerar dessutom kanske inte i vissa fall "
+#~ "(t.ex. om dialogfönster är aktiva eller från skärmsläckaren)."
+
+#~ msgid "Advanced"
+#~ msgstr "Avancerat"
+
+#~ msgctxt "variant"
+#~ msgid "Default"
+#~ msgstr "Förval"
+
+#~ msgid ""
+#~ "Allows to test keyboard repeat and click volume (just don't forget to "
+#~ "apply the changes)."
+#~ msgstr ""
+#~ "Gör det möjligt att prova tangentupprepning och klickvolym (glöm inte "
+#~ "bort att verkställa ändringarna)."
+
+#~ msgid ""
+#~ "If supported, this option allows you to setup the state of NumLock after "
+#~ "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+#~ "configure Plasma not to set NumLock state."
+#~ msgstr ""
+#~ "Om det finns stöd kommer det här alternativet att låta dig ställa in "
+#~ "status på NumLock efter starten av Plasma.<p>Du kan ställa in NumLock att "
+#~ "vara på- eller avslaget eller anpassa Plasma så att det inte ändrar "
+#~ "status på NumLock."
+
+#~ msgid "Leave unchan&ged"
+#~ msgstr "Lä&mna orört"
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the delay after which a "
+#~ "pressed key will start generating keycodes. The 'Repeat rate' option "
+#~ "controls the frequency of these keycodes."
+#~ msgstr ""
+#~ "Om det stöds, tillåter alternativet att du ställer in fördröjningen efter "
+#~ "en nertryckt tangent börjar skicka tangentkoder. Alternativet "
+#~ "\"Upprepningstakt\" styr frekvensen hos dessa tangentkoder."
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the rate at which keycodes "
+#~ "are generated while a key is pressed."
+#~ msgstr ""
+#~ "Om det stöds, tillåter alternativet att du ställer in takten som en "
+#~ "nertryckt tangent skickar tangentkoder."
+
+#~ msgid "KDE Keyboard Control Module"
+#~ msgstr "KDE:s tangentbordsinställningsmodul"
+
+#~ msgid "(c) 2010 Andriy Rysin"
+#~ msgstr "© 2010 Andriy Rysin"
+
+#~ msgid ""
+#~ "<h1>Keyboard</h1> This control module can be used to configure keyboard "
+#~ "parameters and layouts."
+#~ msgstr ""
+#~ "<h1>Tangentbord</h1> Den här inställningsmodulen kan användas för att "
+#~ "ställa in tangentbordsparametrar och layouter."
+
+#~ msgid "KDE Keyboard Layout Switcher"
+#~ msgstr "KDE:s byte av tangentbordslayout"
+
+#~ msgid "Only up to %1 keyboard layout is supported"
+#~ msgid_plural "Only up to %1 keyboard layouts are supported"
+#~ msgstr[0] "Bara upp till %1 tangentbordslayout stöds"
+#~ msgstr[1] "Bara upp till %1 tangentbordslayouter stöds"
+
+#~ msgid "Any language"
+#~ msgstr "Godtyckligt språk"
+
+#~ msgid "Layout:"
+#~ msgstr "Layout:"
+
+#~ msgid "Variant:"
+#~ msgstr "Variant:"
+
+#~ msgid "Limit selection by language:"
+#~ msgstr "Begränsa urval enligt språk"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgctxt "short layout label - full layout name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Layout Indicator"
+#~ msgstr "Layoutindikator"
+
+#~ msgid "Show for single layout"
+#~ msgstr "Visa för enstaka layout"
+
+#~ msgid "Show flag"
+#~ msgstr "Visa flagga"
+
+#~ msgid "Show label"
+#~ msgstr "Visa beteckning"
+
+#~ msgid "Show label on flag"
+#~ msgstr "Visa beteckning på flagga"
+
+#~ msgctxt "tooltip title"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Tangentbordslayout"
+
+#~ msgid "Configure Layouts..."
+#~ msgstr "Anpassa layouter..."
+
+#~ msgid "Configure..."
+#~ msgstr "Anpassa..."
+
+#~ msgid "Key Click"
+#~ msgstr "Tangentbordsklick"
+
+#~ msgid ""
+#~ "If supported, this option allows you to hear audible clicks from your "
+#~ "computer's speakers when you press the keys on your keyboard. This might "
+#~ "be useful if your keyboard does not have mechanical keys, or if the sound "
+#~ "that the keys make is very soft.<p>You can change the loudness of the key "
+#~ "click feedback by dragging the slider button or by clicking the up/down "
+#~ "arrows on the spin box. Setting the volume to 0% turns off the key click."
+#~ msgstr ""
+#~ "Om det finns stöd kommer det här alternativet låta dig höra klick från "
+#~ "datorns högtalare när du trycker ner tangenterna på tangentbordet. Detta "
+#~ "kan vara användbart om tangentbordet inte har mekaniska tangenter, eller "
+#~ "om ljudet som tangenterna åstadkommer är mycket svagt.<p>Du kan ändra "
+#~ "tangentklickets ljudstyrka genom att dra skjutreglaget eller genom att "
+#~ "klicka på upp/ner-pilarna. Tangentklicket stängs av genom att ställa in "
+#~ "volymen till 0 %."
+
+#, fuzzy
+#~| msgid "Key click &volume:"
+#~ msgid "&Key click volume:"
+#~ msgstr "Vol&ym på tangentbordsklick:"
+
+#~ msgid "No layout selected "
+#~ msgstr "Ingen layout vald "
+
+#~ msgid "XKB extension failed to initialize"
+#~ msgstr "XKB-utökningen misslyckades initieras"
+
+#~ msgid "Backspace"
+#~ msgstr "Backsteg"
+
+#~ msgctxt "Tab key"
+#~ msgid "Tab"
+#~ msgstr "Tabulator"
+
+#~ msgid "Caps Lock"
+#~ msgstr "Caps Lock"
+
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "AltGr"
+#~ msgstr "Alt Gr"
+
+#~ msgid "Esc"
+#~ msgstr "Esc"
+
+#~ msgctxt "Function key"
+#~ msgid "F%1"
+#~ msgstr "F%1"
+
+#~ msgid "Shift"
+#~ msgstr "Skift"
+
+#~ msgid "No preview found"
+#~ msgstr "Ingen förhandsgranskning hittades"
+
+#~ msgid "Close"
+#~ msgstr "Stäng"
+
+#~ msgid ""
+#~ "If you check this option, pressing and holding down a key emits the same "
+#~ "character over and over again. For example, pressing and holding down the "
+#~ "Tab key will have the same effect as that of pressing that key several "
+#~ "times in succession: Tab characters continue to be emitted until you "
+#~ "release the key."
+#~ msgstr ""
+#~ "Om du markerar det här alternativet avges samma tecken gång på gång när "
+#~ "en tangent hålls nere. Genom att till exempel hålla nere tabulator-"
+#~ "tangenten fås samma effekt som om tangenten trycktes ned flera gånger i "
+#~ "rad: tabulator-tecken fortsätter avges enda tills du släpper tangenten."
+
+#~ msgid "&Enable keyboard repeat"
+#~ msgstr "A&ktivera tangentbordsupprepning"

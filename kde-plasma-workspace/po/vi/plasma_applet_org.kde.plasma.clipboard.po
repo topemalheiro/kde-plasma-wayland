@@ -1,0 +1,103 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2022-05-06 06:15+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Nội dung bảng nháp"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Bảng nháp trống"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Xoá lịch sử"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Cấu hình bảng nháp…"
+
+#~ msgid "QR Code"
+#~ msgstr "Mã QR"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Ma trận dữ liệu"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Mã 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Mã 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Mã 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Quay lại bảng nháp"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Thay đổi kiểu mã QR"
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Tạo mã QR thất bại"
+
+#~ msgid "Invoke action"
+#~ msgstr "Gọi hành động"
+
+#~ msgid "Show QR code"
+#~ msgstr "Hiện mã QR"
+
+#~ msgid "Edit contents"
+#~ msgstr "Sửa nội dung"
+
+#~ msgid "Remove from history"
+#~ msgstr "Xoá khỏi lịch sử"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Lưu"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Huỷ"
+
+#~ msgid "No matches"
+#~ msgstr "Không mục nào khớp"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "Mã QR quá lớn, không hiển thị được"
+
+#~ msgid "Clear history"
+#~ msgstr "Xoá lịch sử"
+
+#~ msgid "Search…"
+#~ msgstr "Tìm kiếm…"

@@ -1,0 +1,61 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2017, 2020, 2021, 2022, 2026 giovanni <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2026-03-23 17:33+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "Cerca"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "Cerca…"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Apparentia"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "Usa button singule per menu de application"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "Monstra menu de application plen"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr "Monstra menuses eprappssur schermos differente"
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "Aperi un menu"
+
+#~ msgid "Search..."
+#~ msgstr "Cerca..."
+
+#, fuzzy
+#~ msgid "application-menu"
+#~ msgstr "Menu de application"

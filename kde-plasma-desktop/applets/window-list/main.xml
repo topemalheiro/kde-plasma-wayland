@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="showOnlyCurrentScreen" type="Bool">
+      <label>Whether to show only window tasks that are on the same screen as the widget.</label>
+      <default>false</default>
+    </entry>
+    <entry name="showOnlyCurrentDesktop" type="Bool">
+      <label>Whether to only show tasks that are on the current virtual desktop.</label>
+      <default>true</default>
+    </entry>
+    <entry name="showOnlyCurrentActivity" type="Bool">
+      <label>Whether to show only tasks that are on the current activity.</label>
+      <default>true</default>
+    </entry>
+    <entry name="showOnlyMinimized" type="Bool">
+      <label>Whether to show only window tasks that are minmized.</label>
+      <default>false</default>
+    </entry>
+    <entry name="showText" type="Bool">
+        <label>Whether to show the window title when the applet is used on a horizontal panel</label>
+        <default>true</default>
+    </entry>
+    <entry name="showIcon" type="Bool">
+      <label>Whether to show the icon on the Panel button</label>
+      <default>true</default>
+    </entry>
+    <entry name="openOnHover" type="Bool">
+        <label>Whether to open the window list popup when hovering over the applet</label>
+        <default>false</default>
+    </entry>
+    <entry name="hoverOpenDelay" type="Int">
+      <label>Delay in milliseconds before opening the window list popup when hovering over the applet</label>
+      <default>300</default>
+    </entry>
+    <entry name="sortingStrategy" type="Enum">
+    <label>Values from TaskManager::TasksModel::SortMode</label>
+      <choices name="TaskManager.TasksModel">
+        <choice name="SortDisabled"/>
+        <choice name="SortManual"/>
+        <choice name="SortAlpha"/>
+        <choice name="SortVirtualDesktop"/>
+        <choice name="SortActivity"/>
+        <choice name="SortLastActivated"/>
+        <choice name="SortWindowPositionHorizontal"/>
+      </choices>
+      <default code="true">SortVirtualDesktop</default>
+    </entry>
+  </group>
+
+</kcfg>
+
+
+

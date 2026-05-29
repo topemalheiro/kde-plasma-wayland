@@ -1,0 +1,1268 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2022, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+# Linerly <linerly@protonmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2025-03-15 06:29+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "Galat kritis saat pembacaan pokok info peranti untuk papan sentuh %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Tidak bisa mengkoneksikan ke server X"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Tidak ada papan sentuh yang ditemukan"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Tidak bisa menerapkan konfigurasi papan sentuh"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Tidak bisa membaca konfigurasi papan sentuh"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Tidak bisa membaca konfigurasi papan sentuh baku"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Error selagi memuat nilai. Lihat log untuk informasi selebihnya. Silakan "
+"jalankan ulang modul konfigurasi ini."
+
+#: kcm.cpp:129
+#, fuzzy, kde-format
+#| msgid "No touchpad found. Connect touchpad now."
+msgid "No pointer device found. Connect now."
+msgstr ""
+"Tidak ada papan sentuh yang ditemukan. Koneksikan papan sentuh sekarang."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Tidak dapat menyimpan semua perubahan. Lihat log untuk informasi selebihnya. "
+"Silakan jalankan ulang modul konfigurasi ini dan coba lagi."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Error selagi memuat nilai baku. Gagal mengeset beberapa opsi ke nilai "
+"bakunya."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Error selagi menambahkan peranti yang baru terkoneksi. Silakan koneksikan "
+"ulang dan jalankan ulang modul konfigurasi ini."
+
+#: kcm.cpp:185
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. Closed its setting dialog."
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Papan sentuh terputus. Tutuplah dialog pengaturan."
+
+#: kcm.cpp:187
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. No other touchpads found."
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Papan sentuh terputus. Tidak ada papan sentuh lain yang ditemukan."
+
+#: ui/main.qml:69
+#, fuzzy, kde-format
+#| msgid "No touchpad found"
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Tidak ada papan sentuh yang ditemukan"
+
+#: ui/main.qml:70
+#, fuzzy, kde-format
+#| msgid "Connect an external touchpad"
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Sambungkan sebuah papan sentuh eksternal"
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Peranti:"
+
+#: ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Umum:"
+
+#: ui/main.qml:111
+#, fuzzy, kde-format
+#| msgctxt "Coasting"
+#| msgid "Enable"
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Fungsikan"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Nonfungsikan ketika mouse terhubung"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Disable while typing"
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Nonfungsikan selama mengetik"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "Ini bisa mengganggu video game."
+
+#: ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Tukar tombol kiri dan kanan"
+
+#: ui/main.qml:170
+#, fuzzy, kde-format
+#| msgid "Left-handed mode"
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Mode tangan kiri"
+
+#: ui/main.qml:185
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Press left and right buttons to middle-click"
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Tekan tombol kiri dan kanan untuk klik tengah"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Mengaktifkan pengaturan ini meningkatkan latensi klik 50mdt. Tundaan ekstra "
+"yang diperlukan untuk mendeteksi secara benar penekanan tombol kiri dan "
+"kanan yang serentak."
+
+#: ui/main.qml:207
+#, fuzzy, kde-format
+#| msgid "Pointer speed:"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Kecepatan penunjuk:"
+
+#: ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Enable pointer acceleration"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Fungsikan akselerasi pointer"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+"Ketika difungsikan, jarak tempuh pointer bertambah seiring dengan kecepatan "
+"pergerakan yang lebih cepat."
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Kecepatan pengguliran:"
+
+#: ui/main.qml:360
+#, fuzzy, kde-format
+#| msgctxt "Slower Scroll"
+#| msgid "Slower"
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Lambat"
+
+#: ui/main.qml:367
+#, fuzzy, kde-format
+#| msgctxt "Faster Scroll Speed"
+#| msgid "Faster"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Cepat"
+
+#: ui/main.qml:374
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Pengguliran:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr ""
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr ""
+
+#: ui/main.qml:404
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction (Natural scrolling)"
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Kebalikan arah gulir (pengguliran Alami)"
+
+#: ui/main.qml:421
+#, fuzzy, kde-format
+#| msgid "Disable horizontal scrolling"
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Nonfungsikan pengguliran mendatar"
+
+#: ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Klik-kanan"
+
+#: ui/main.qml:443
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated right-click"
+#| msgid "Press bottom-right corner"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Tekan sudut kanan bawah"
+
+#: ui/main.qml:448
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing both bottom corners."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Klik tengah berdasarkan penekanan kedua pojok bawah."
+
+#: ui/main.qml:449
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing bottom center."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Klik tengah berdasarkan penekanan tengah bawah."
+
+#: ui/main.qml:471
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated right-click"
+#| msgid "Press touchpad with two fingers"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Tekan papan sentuh dengan dua jari"
+
+#: ui/main.qml:472
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing with three fingers."
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Klik tengah berdasarkan penekanan tiga jari."
+
+#: ui/main.qml:484
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Klik-tengah"
+
+#: ui/main.qml:487
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated middle-click"
+#| msgid "Press bottom middle edge"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Tekan tepi tengah bawah"
+
+#: ui/main.qml:507
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated middle-click"
+#| msgid "Press bottom left and bottom right corners"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Tekan pojok kiri bawah dan kanan bawah"
+
+#: ui/main.qml:519
+#, fuzzy, kde-format
+#| msgctxt "@option:check touchpad integrated middle-click"
+#| msgid "Press touchpad with three fingers"
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Tekan papan sentuh dengan tiga jari"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Pengetukan:"
+
+#: ui/main.qml:533
+#, fuzzy, kde-format
+#| msgid "Tap to Click"
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Ketuk untuk Klik"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr ""
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:580
+#, fuzzy, kde-format
+#| msgid "Two-finger tap:"
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Ketuk dua-jari:"
+
+#: ui/main.qml:586
+#, fuzzy, kde-format
+#| msgid "Right-click (three-finger tap to middle-click)"
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Klik-kanan (ketuk tiga-jari untuk klik-tengah)"
+
+#: ui/main.qml:587
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Klik-kanan"
+
+#: ui/main.qml:608
+#, fuzzy, kde-format
+#| msgid "Middle-click (three-finger tap to right-click)"
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Klik-tengah (ketuk tiga-jari untuk klik-kanan)"
+
+#: ui/main.qml:609
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Klik-tengah"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Pengquerian peranti input gagal. Silakan membuka-ulang modul pengaturan "
+#~ "ini."
+
+#~ msgid "Device enabled"
+#~ msgstr "Peranti difungsikan"
+
+#~ msgid "Two fingers"
+#~ msgstr "Dua jari"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Tepi papan sentuh"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Ketuk-untuk-klik"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Ketuk-dan-seret"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Mengintegrasikan klik kanan:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Mengintegrasikan klik tengah:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Setujui input melalui peranti ini."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Nonfungsikan papan sentuh selama mengetik untuk mencegah input yang "
+#~ "enggak sengaja."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Penekanan tombol kiri dan kanan secara serentak bertindak sebagai klik "
+#~ "tengah."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Geser dengan menggulirkan dua jari."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Geser saat menggulirkan tepi papan sentuh."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Touchscreen seperti bergulir."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Nonfungsikan pengguliran horizontal."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Ketuk sekali untuk klik kiri."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr ""
+#~ "Penggeseran melalui papan sentuh secara langsung setelah ketuk seret."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Kunci ketuk-dan-seret"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Meneruskan penyeretan setelah angkat jari singkat."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Ketuk dengan dua jari untuk klik-kanan, ketuk dengan tiga jari untuk klik-"
+#~ "tengah."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Ketuk dengan dua jari untuk klik-kanan."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Ketuk dengan dua jari untuk klik-tengah, ketuk dengan tiga jari untuk "
+#~ "klik-kanan."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Ketuk dengan dua jari untuk klik-tengah."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "Menekan pojok kanan bawah pada papan sentuh bertindak sebagai klik kanan. "
+#~ "Klik tengah berdasarkan penekanan secara serentak pojok kanan bawah dan "
+#~ "kiri bawah."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "Menekan pojok kanan bawah pada papan sentuh bertindak sebagai klik kanan. "
+#~ "Klik tengah berdasarkan penekanan area tengah bawah."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr ""
+#~ "Menekan papan sentuh di mana saja dengan dua jari bertindak sebagai klik-"
+#~ "kanan."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr ""
+#~ "Menekan pojok kanan bawah pada papan sentuh bertindak sebagai klik kanan."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "Menekan pojok kiri bawah dan kanan bawah secara bersamaan bertindak "
+#~ "sebagai klik tengah."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr ""
+#~ "Menekan papan sentuh di mana pun dengan tiga jari bertindak sebagai klik "
+#~ "tengah."
+
+#~ msgid "Touchpad"
+#~ msgstr "Papan Sentuh"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Fungsikan Papan Sentuh"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Nonfungsikan Papan Sentuh"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Jungkitan Papan Sentuh"
+
+#~ msgid "None"
+#~ msgstr "Nihil"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Perpindahan kursor jaraknya sama seperti jari."
+
+#~ msgid "Standard"
+#~ msgstr "Standar"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr ""
+#~ "Perjalanan kursor jaraknya bergantung pada kecepatan perpindahan jari."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Tidak ada aksi"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Tombol kiri"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Tombol tengah"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Tombol kanan"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Semua tepi"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Tepi atas"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Sudut kiri atas"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Tepi kanan"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Sudut kanan bawah"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Tepi bawah"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Sudut kiri bawah"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Tepi kiri"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Sudut kiri atas"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Papan sentuh telah dinonfungsikan karena mouse telah tercolok"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Papan sentuh telah difungsikan karena mouse telah tercabut"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr ""
+#~ "Tombol-tombol yang difungsikan perangkat lunak akan ditambahkan ke bagian "
+#~ "bawah touchpad-mu."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Ketuk dengan dua jari untuk memfungsikan klik-kanan."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Tombol tengah yang difungsikan perangkat lunak akan ditambahkan ke bagian "
+#~ "bawah touchpad-mu."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Wantoyèk,Linerly"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "wantoyek@gmail.com,linerly@protonmail.com"
+
+#~ msgid "Drag me"
+#~ msgstr "Seret aku"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Tombol kiri"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Tombol kanan"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Tombol tengah"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Pengesetan aktif tidak sesuai dengan pengaturan tersimpan.\n"
+#~ "Saat ini Anda melihat pengaturan tersimpan."
+
+#~ msgid "Show active settings"
+#~ msgstr "Tampilkan pengaturan aktif"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Pengesetan tersebut tidaklah berpengaruh di dalam area pengujian"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Fungsikan/Nonfungsikan Touchpad"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Fungsikan/Nonfungsikan Touchpad"
+
+#~ msgid "Configure…"
+#~ msgstr "Konfigurasi..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Pintasan keyboard:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Nonfungsikan touchpad ketika mengetik"
+
+#~ msgid "Timeout:"
+#~ msgstr "Batas waktu:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Jika tidak ada aktivitas keyboard selama lebih dari jumlah \n"
+#~ "milidetik yang ditentukan, touchpad akan difungsikan lagi"
+
+#~ msgid " ms"
+#~ msgstr " md"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Nonfungsikan emulasi klik dan pengguliran.\n"
+#~ "Anda masih bisa memindahkan penunjuk menggunakan touchpad dan melakukan "
+#~ "klik dengan tombol perangkat keras."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Nonfungsikan ketukan dan pengguliran saja"
+
+#~ msgid "Notifications:"
+#~ msgstr "Notifikasi:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Perangkat yang diabaikan:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Beberapa peranti mungkin tidak dianggap sebagai mouse.\n"
+#~ "Anda bisa menambahkannya ke daftar ini sehingga dia akan diabaikan ketika "
+#~ "dia dicolokkan."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Pergerakan Penunjuk"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Percepatan"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Minimum:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Minimum kecepatan penunjuk"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maksimum "
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Maksimum kecepatan penunjuk"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Akselerasi:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Faktor akselerasi untuk perpindahan penunjuk normal"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Pergerakan Bergantung Tekanan"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Tekanan minimum:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Faktor minimum:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Tekanan maksimum:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Faktor maksimum:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Tekanan jari dimana faktor pergerakan tekanan minimum yang diterapkan"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Tekanan jari dimana faktor pergerakan tekanan maksimum yang diterapkan"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Setelan rendah untuk faktor pergerakan tekanan"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Setelan hebat untuk faktor pergerakan tekanan"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Pembatalan Desis"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Tegak:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Mendatar:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Minimum menegak jarak perangkat-keras yang diperlukan untuk menghasilkan "
+#~ "pergerakan"
+
+#~ msgid " units"
+#~ msgstr " unit"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Minimum mendatar jarak perangkat-keras yang diperlukan untuk menghasilkan "
+#~ "pergerakan"
+
+#~ msgid "Scrolling"
+#~ msgstr "Menggulir"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Pengguliran tepi:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Fungsikan pengguliran menegak ketika menyeret sepanjang tepi kanan"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Tegak"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Fungsikan pengguliran mendatar ketika menyeret sepanjang tepi bawah"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Mendatar"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Fungsikan pengguliran menegak ketika menyeret dengan dua jari di mana pun "
+#~ "pada touchpad"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Fungsikan pengguliran mendatar ketika menyeret dengan dua jari di mana "
+#~ "pun pada touchpad"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Pengguliran menegak terbalik"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Pengguliran mendatar terbalik"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Pengguliran dua jari:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Pengguliran terbalik:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Jarak Pengguliran"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Tegak:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Jarak pindah si jari untuk peristiwa gulir"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Mendatar:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr "Teruskan pengguliran setelah jari dilepas dari tepian touchpad"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Penggelinciran"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Kecepatan minimum:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Berapa banyak pengguliran per detik ini yang diperlukan jari Anda agar "
+#~ "memulai penggelinciran"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " gulir/dtk"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Perlambatan:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Jumlah gulir/detik² untuk menurunkan kecepatan penggelinciran"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " gulir/dtk²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Penggelinciran sudut:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Fungsikan pengguliran tepi untuk meneruskan, ketika jari berada di sudut "
+#~ "tepi"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Pengguliran dilakukan saat seret dimulai di wilayah pemicu yang "
+#~ "diberikan.\n"
+#~ "Memindahkan jari Anda ke arah lingkaran jarum jam di sekitar pusat "
+#~ "touchpad\n"
+#~ "akan menggulir turun dan berlawanan arah jarum jam pergerakan akan "
+#~ "bergulir naik"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Pengguliran Keliling"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Wilayah pemicu:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Wilayah pemicu pada touchpad untuk memulai pengguliran keliling"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Sudut:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Sudut pindah (derajat) jari yang menghasilkan peristiwa gulir"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Ketika digunakan bersama-sama dengan pengguliran menegak, penekanan sudut "
+#~ "kanan atas atau bawah akan secara mulus beralih dari menegak ke "
+#~ "pengguliran keliling"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Sensitivitas"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Sensitivitas"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Tekanan untuk mendeteksi sentuhan:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Tekanan untuk mendeteksi lepasan:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Ketika tekanan jari melebihi nilai ini, driver menganggapnya sebagai "
+#~ "sentuhan"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Ketika tekanan jari kurang dari nilai ini, driver menganggapnya sebagai "
+#~ "lepasan"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Jika deteksi tapak harus difungsikan. Perhatikan bahwa ini juga "
+#~ "membutuhkan dukungan hardware/firmware dari touchpad"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Deteksi Tapak"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Lebar minimum:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Tekanan minimum:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Lebar jari minimum di mana sentuhan dianggap sebagai tapak"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Tekanan jari minimum di mana sentuhan dianggap sebagai tapak"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Ketukan"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Satu jari:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk nonpojok satu jari"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Dua jari:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk nonpojok dua jari"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Tiga jari:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk nonpojok tiga jari"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Sudut"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Kiri atas:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk sudut kiri atas"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Kiri bawah:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Kanan atas:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk sudut kiri bawah"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk sudut kanan atas"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Tombol mouse mana yang dilaporkan saat ketuk sudut kanan bawah"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Kanan bawah:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Gestur ini adalah cara alternatif menyeret. Ini dilakukan dengan mengetuk "
+#~ "(menyentuh dan melepaskan jari), lalu menyentuh lagi dan memindahkan jari "
+#~ "pada touchpad"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Gestur Ketuk dan Seret"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Jika off, sebuah gestur ketuk dan seret berakhir saat Anda melepaskan "
+#~ "jari. Jika on, gestur aktif hingga Anda mengetuk kedua kalinya, atau "
+#~ "hingga batas waktu berakhir"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Seretan Dikunci"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Batas waktu:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Berapa lama waktu yang dibutuhkan (dalam milidetik) untuk mode \"Seretan "
+#~ "Dikunci\" menjadi otomatis dioffkan setelah jari dilepaskan dari touchpad"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Deteksi Ketuk"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Waktu maksimum:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Maksimum perpindahan jari:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Maksimum waktu untuk ketuk ganda:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Batas waktu ketuk tunggal:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Maksimum waktu (dalam milidetik) untuk pendeteksian ketuk"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Maksimum perpindahan si jari untuk pendeteksian ketuk"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Maksimum waktu (dalam milidetik) untuk pendeteksian ketuk ganda"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr ""
+#~ "Batas waktu setelah ketuk untuk mengenalinya sebagai ketukan tunggal"
+
+#~ msgid "Testing area"
+#~ msgstr "Area pengujian"
+
+#~ msgid "Click me"
+#~ msgstr "Klik aku"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Profil akselerasi:"
+
+#~ msgid "Flat"
+#~ msgstr "Flat"
+
+#~ msgid "Adaptive"
+#~ msgstr "Adaptif"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Touchpad KCM"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Modul System Settings untuk mengelola touchpad Anda"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Hak cipta © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Pengembang"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Modul System Settings, applet Plasma dan daemon untuk pengelolaan "
+#~ "touchpad Anda"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Hak cipta © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Program ini mencakup pekerjaan yang dilindungi oleh pernyataan hak cipta "
+#~ "ini:\n"
+#~ "Hak cipta © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Kegunaan, pengujian"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Sedikit membantu"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Pengembang synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Pengujian"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Emulasi Klik Mouse"

@@ -1,0 +1,523 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Michôł Òstrowsczi <michol@linuxcsb.org>, 2009.
+# Mark Kwidzińśczi <mark@linuxcsb.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_image\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-06 00:47+0000\n"
+"PO-Revision-Date: 2009-12-13 00:11+0100\n"
+"Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
+"Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
+"Language: csb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michôł Òstrowsczi, Mark Kwidzińsczi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michol@linuxcsb.org, mark@linuxcsb.org"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:56
+#, fuzzy, kde-format
+#| msgid "Next Wallpaper Image"
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Directory with the wallpaper to show slides from"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:156
+#, fuzzy, kde-format
+#| msgid "&Positioning:"
+msgctxt "@label:listbox"
+msgid "Positioning:"
+msgstr "&Pòłożenié:"
+
+#: imagepackage/contents/ui/config.qml:159
+#, fuzzy, kde-format
+#| msgid "Scaled & Cropped"
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr "Skalowóno ë przëcãtô"
+
+#: imagepackage/contents/ui/config.qml:163
+#, fuzzy, kde-format
+#| msgid "Scaled"
+msgctxt "@item:inlistbox"
+msgid "Scaled"
+msgstr "Skalowóno"
+
+#: imagepackage/contents/ui/config.qml:167
+#, fuzzy, kde-format
+#| msgid "Scaled, keep proportions"
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr "Skalowóno proporcjonalnô"
+
+#: imagepackage/contents/ui/config.qml:171
+#, fuzzy, kde-format
+#| msgid "Centered"
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr "Wëstrzódowónô"
+
+#: imagepackage/contents/ui/config.qml:199
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgctxt ""
+"@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
+msgid "Switch dynamic wallpapers:"
+msgstr "Dobëcé nowé tapétë..."
+
+#: imagepackage/contents/ui/config.qml:207
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on whether the Plasma style is light or dark "
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:217
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use dark variant"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:231
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:242
+#, kde-format
+msgid "Background:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:243
+#, kde-format
+msgid "Blur"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:252
+#, kde-format
+msgid "Solid color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:263
+#, kde-format
+msgid "Select Background Color"
+msgstr ""
+
+#: imagepackage/contents/ui/main.qml:37
+#, fuzzy, kde-format
+#| msgid "Next Wallpaper Image"
+msgid "Open Wallpaper Image"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
+#, fuzzy, kde-format
+#| msgid "Next Wallpaper Image"
+msgid "Images"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
+#, kde-format
+msgctxt "@action:button the thing being added is an image file"
+msgid "Add…"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#, fuzzy, kde-format
+#| msgid "Next Wallpaper Image"
+msgctxt "@action:button"
+msgid "Add Wallpaper Image…"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgctxt "@action:button the new things being gotten are wallpapers"
+msgid "Get New…"
+msgstr "Dobëcé nowé tapétë..."
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#, fuzzy, kde-format
+#| msgid "Next Wallpaper Image"
+msgctxt "@action:button"
+msgid "Get New Wallpaper Images…"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
+#, kde-format
+msgctxt "@action:button the things being selected are wallpapers"
+msgid "Select All"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All Slides"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
+#, kde-format
+msgctxt "@action:button the things being unselected are wallpapers"
+msgid "Select None"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All Slides"
+msgstr ""
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
+#, kde-format
+msgid "Open Containing Folder"
+msgstr ""
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Restore wallpaper"
+msgstr "Dobëcé nowé tapétë..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Remove Wallpaper"
+msgstr "Dobëcé nowé tapétë..."
+
+#: plasma-apply-wallpaperimage.cpp:28
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:30
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:58
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:96
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:112
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:116
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:118
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:125
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+
+#: plugin/imagebackend.cpp:42
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Nôslédny òbrôzk tapétë"
+
+#. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
+#: plugin/imagebackend.cpp:384
+#, kde-format
+msgid "Media Files"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
+#, kde-format
+msgid "Order:"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
+#, kde-format
+msgid "Random"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
+#, kde-format
+msgid "A to Z"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
+#, kde-format
+msgid "Z to A"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
+#, kde-format
+msgid "Group by folders"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
+#, fuzzy, kde-format
+#| msgid "C&hange images every:"
+msgid "Change every:"
+msgstr "Z&mieni òbrôzk co:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
+#, fuzzy, kde-format
+#| msgid "&Remove Folder"
+msgid "Folders"
+msgstr "&Rëmôj katalog"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
+#, kde-format
+msgctxt "@action button the thing being added is a folder"
+msgid "Add…"
+msgstr ""
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
+#, fuzzy, kde-format
+#| msgid "&Add Folder..."
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "&Dodôj katalog..."
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
+#, fuzzy, kde-format
+#| msgid "&Remove Folder"
+msgid "Remove Folder"
+msgstr "&Rëmôj katalog"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
+#, fuzzy, kde-format
+#| msgid "&Remove Folder"
+msgid "Open Folder…"
+msgstr "&Rëmôj katalog"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr ""
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:47
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgctxt "@action:inmenu"
+msgid "Set as Wallpaper"
+msgstr "Dobëcé nowé tapétë..."
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Set as Desktop Wallpaper"
+msgid "Desktop"
+msgstr ""
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Set as Lockscreen Wallpaper"
+msgid "Lockscreen"
+msgstr ""
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Set as both lockscreen and Desktop Wallpaper"
+msgid "Both"
+msgstr ""
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:95
+#, kde-kuit-format
+msgctxt "@info %1 is the dbus error message"
+msgid "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+msgstr ""
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:108
+#, kde-format
+msgid "An error occurred while attempting to open kscreenlockerrc config file."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Tiled"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "Kachle"
+
+#, fuzzy
+#~| msgid "Next Wallpaper Image"
+#~ msgctxt "@title:window"
+#~ msgid "Open Media"
+#~ msgstr "Nôslédny òbrôzk tapétë"
+
+#, fuzzy
+#~| msgid "Get New Wallpapers..."
+#~ msgid "Add Custom Wallpaper"
+#~ msgstr "Dobëcé nowé tapétë..."
+
+#, fuzzy
+#~| msgid "Get New Wallpapers..."
+#~ msgid "Remove wallpaper"
+#~ msgstr "Dobëcé nowé tapétë..."
+
+#, fuzzy
+#~| msgctxt "Caption to wallpaper preview, %1 author name"
+#~| msgid "by %1"
+#~ msgid "%1 by %2"
+#~ msgstr "przez %1"
+
+#, fuzzy
+#~| msgid "Get New Wallpapers..."
+#~ msgid "Wallpapers"
+#~ msgstr "Dobëcé nowé tapétë..."
+
+#, fuzzy
+#~| msgid "Download new wallpapers"
+#~ msgid "Download Wallpapers"
+#~ msgstr "Zladëjë nowé tapétë"
+
+#~ msgid "Open..."
+#~ msgstr "Òtemkni..."
+
+#~ msgid "Center Tiled"
+#~ msgstr "Wëstrzódowóne kachle"
+
+#~ msgid "Select Wallpaper Image File"
+#~ msgstr "Wëbiérzë lopk z òbrôzkã tapétë"
+
+#~ msgid "P&ositioning:"
+#~ msgstr "&Pòzycëjô:"
+
+#~ msgid "&Color:"
+#~ msgstr "&Farwa:"
+
+#, fuzzy
+#~| msgid "&Remove Folder"
+#~ msgid "Remove from list"
+#~ msgstr "&Rëmôj katalog"
+
+#~ msgctxt ""
+#~ "(qtdt-format) Please do not change the quotes (') and translate only the "
+#~ "content of the quotes."
+#~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+#~ msgstr "hh 'Gòdzënë' mm 'Minutë' ss 'Sekùndë'"
+
+#, fuzzy
+#~| msgid "Download new wallpapers"
+#~ msgid "&My downloaded wallpapers:"
+#~ msgstr "Zladëjë nowé tapétë"
+
+#, fuzzy
+#~| msgid "Folders:"
+#~ msgid "Custom folders:"
+#~ msgstr "Katalodżi:"
+
+#~ msgid "Finding images for the wallpaper slideshow."
+#~ msgstr "Szëkba za òbrôzkama dlô prezentacji tapétów."
+
+#~ msgid "Adding wallpaper package in %1"
+#~ msgstr "Dodôwanié paczétu tapétów w %1"
+
+#~ msgid "Adding image %1"
+#~ msgstr "Dodôwanié òbrôzka %1"
+
+#~ msgctxt "Wallpaper info, author name"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "License:"
+#~ msgstr "Licencëjô:"
+
+#~ msgid "Color:"
+#~ msgstr "Farwa:"
+
+#~ msgid "Author:"
+#~ msgstr "Aùtor:"
+
+#~ msgid "Browse"
+#~ msgstr "Przezérôj"
+
+#~ msgid "&Picture:"
+#~ msgstr "Ò&brôzk:"

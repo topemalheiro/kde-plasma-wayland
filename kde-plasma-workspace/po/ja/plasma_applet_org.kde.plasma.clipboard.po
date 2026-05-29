@@ -1,0 +1,95 @@
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2021.
+# Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.clipboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2022-07-06 12:51+0900\n"
+"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "クリップボードの内容"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "クリップボードは空です"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "履歴を消去"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "クリップボードを設定…"
+
+#~ msgid "QR Code"
+#~ msgstr "QR コード"
+
+#~ msgid "Data Matrix"
+#~ msgstr "DataMatrix"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "CODE39"
+
+#~ msgid "Code 93"
+#~ msgstr "CODE93"
+
+#~ msgid "Code 128"
+#~ msgstr "Code 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "クリップボードへ戻る"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "QR コードの種類を変更"
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "QR コードの作成に失敗しました"
+
+#~ msgid "Invoke action"
+#~ msgstr "アクションを呼び出し"
+
+#~ msgid "Show QR code"
+#~ msgstr "QR コードを表示"
+
+#~ msgid "Edit contents"
+#~ msgstr "内容を編集"
+
+#~ msgid "Remove from history"
+#~ msgstr "履歴から削除"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid "No matches"
+#~ msgstr "一致するものがありません"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"

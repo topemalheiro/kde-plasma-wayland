@@ -1,0 +1,623 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2024 pieter <pieterkristensen@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2026-04-10 11:32+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Uit Favorieten verwijderen"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Aan Favorieten toevoegen"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Op alle activiteiten"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Op de huidige activiteit"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "In Favorieten tonen"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Algemeen"
+
+#: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Pictogram:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Pictogram van programmastarter wijzigen"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Huidige pictogram is %1. Klik om menu te openen om het huidige pictogram te "
+"wijzigen of te resetten naar het standaard pictogram."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Pictogramnaam is \"%1\""
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Kies…"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Een pictogram kiezen voor de programmastarter"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Terugzetten naar standaard pictogram"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Pictogram verwijderen"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Tekstlabel:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Hier typen om een tekstlabel toe te voegen"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Menulabel resetten"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr ""
+"Er kan geen tekstlabel ingesteld worden wanneer het paneel verticaal is."
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Toepassingen tonen als:"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Alleen naam"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Alleen beschrijving"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Naam (beschrijving)"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Beschrijving (Naam)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Algemeen:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Toepassingen altijd alfabetisch sorteren"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Dit heeft geen invloed op hoe toepassingen gesorteerd  zijn in ofwel "
+"zoekresultaten of de favorietenpagina."
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "Compacte stijl voor lijst gebruiken"
+
+#: ConfigGeneral.qml:187
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Accentueer nieuw geïnstalleerde toepassingen"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Categorieën in zijbalk omschakelen bij er boven zweven"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Zoekplug-ins configureren…"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Zijbalkpositie:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Rechts"
+
+#: ConfigGeneral.qml:209
+#, kde-format
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Links"
+
+#: ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Links"
+
+#: ConfigGeneral.qml:225
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Favorieten tonen:"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "In een raster"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "In een lijst"
+
+#: ConfigGeneral.qml:242
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Andere toepassingen tonen:"
+
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "In een raster"
+
+#: ConfigGeneral.qml:251
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "In een lijst"
+
+#: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Knoppen tonen voor:"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Energie"
+
+#: ConfigGeneral.qml:273
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Sessie"
+
+#: ConfigGeneral.qml:282
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Energieverbruik en sessie"
+
+#: ConfigGeneral.qml:291
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "Tekstlabel van actieknoppen tonen"
+
+#: Footer.qml:101
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Toepassingen"
+
+#: Footer.qml:117
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Plaatsen"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Geen overeenkomsten"
+
+#: Header.qml:86
+#, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "Gebruikersinstellingen openen"
+
+#: Header.qml:276
+#, kde-format
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Open houden"
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nieuw!"
+
+#: KickoffGridDelegate.qml:61
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Nieuw geïnstalleerde toepassing"
+
+#: KickoffGridView.qml:105
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Raster met %1 rijen, %2 kolommen"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nieuw!"
+
+#: KickoffListDelegate.qml:125
+#, kde-format
+msgid "There is a newly-installed application in this category"
+msgstr "Er is een nieuw geïnstalleerde toepassing in deze categorie"
+
+#: KickoffListDelegate.qml:126
+#, kde-format
+msgid "Newly-installed application"
+msgstr "Nieuw geïnstalleerde toepassing"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Sessie"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Energie"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Meer"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Sessie en energie"
+
+#: main.qml:358
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Toepassingen bewerken…"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Computer"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Geschiedenis"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Veel gebruikt"
+
+#~ msgctxt "Newly installed app, badge, keep short"
+#~ msgid "New!"
+#~ msgstr "Nieuw!"
+
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Nieuw geïnstalleerde toepassing"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "Automatisch uitschakelen wanneer in aanraakmodus"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a grid'"
+#~ msgid "In a grid"
+#~ msgstr "In een raster"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a list'"
+#~ msgid "In a list"
+#~ msgstr "In een lijst"
+
+#~ msgid "Leave"
+#~ msgstr "Verlaten"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Pictogram wissen"
+
+#~ msgid "Search…"
+#~ msgstr "Zoeken…"
+
+#~ msgid "Primary actions:"
+#~ msgstr "Primaire acties:"
+
+#~ msgid "Power actions"
+#~ msgstr "Energie-acties"
+
+#~ msgid "Leave…"
+#~ msgstr "Verlaten…"
+
+#~ msgid "Power…"
+#~ msgstr "Energie…"
+
+#~ msgid "More…"
+#~ msgstr "Meer…"
+
+#~ msgid "Updating applications…"
+#~ msgstr "Toepassingen bijwerken…"
+
+#~ msgid "Allow labels to have two lines"
+#~ msgstr "Labels mogen twee regels bevatten"
+
+#~ msgid "%2@%3 (%1)"
+#~ msgstr "%2@%3 (%1)"
+
+#~ msgid "%1@%2"
+#~ msgstr "%1@%2"
+
+#~ msgid "List with 1 item"
+#~ msgid_plural "List with %1 items"
+#~ msgstr[0] "Lijst met 1 item"
+#~ msgstr[1] "Lijst van %1 items"
+
+#~ msgid "%1 submenu"
+#~ msgstr "%1 submenu"
+
+#~ msgid "Leave..."
+#~ msgstr "Verlaten..."
+
+#~ msgid "Power..."
+#~ msgstr "Energie..."
+
+#~ msgid "More..."
+#~ msgstr "Meer..."
+
+#~ msgid "Applications updated."
+#~ msgstr "Toepassingen bijgewerkt."
+
+#~ msgid "Switch tabs on hover"
+#~ msgstr "Van tabblad veranderen door muisaanwijzer erop te plaatsen"
+
+#~ msgid "All Applications"
+#~ msgstr "Alle toepassingen"
+
+#~ msgid "Favorites"
+#~ msgstr "Favorieten"
+
+#~ msgid "Often Used"
+#~ msgstr "Vaak gebruikt"
+
+#~ msgid "Active Tabs"
+#~ msgstr "Actieve tabbladen"
+
+#~ msgid "Inactive Tabs"
+#~ msgstr "Inactieve tabbladen"
+
+#~ msgid ""
+#~ "Drag tabs between the boxes to show/hide them, or reorder the visible "
+#~ "tabs by dragging."
+#~ msgstr ""
+#~ "Versleep tabbladen tussen de vakken om ze te tonen/verbergen of wijzig "
+#~ "volgorde van de zichtbare tabbladen door slepen."
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Zoeken uitbreiden naar bladwijzers, bestanden en e-mailberichten"
+
+#~ msgid "Appearance"
+#~ msgstr "Uiterlijk"
+
+#~ msgid "Menu Buttons"
+#~ msgstr "Menu Knoppen"
+
+#~ msgid "Visible Tabs"
+#~ msgstr "Zichtbare tabbladen"
+
+#~ msgctxt "@title:column"
+#~ msgid "Favorites"
+#~ msgstr "Favorieten"
+
+#~ msgid "Log out"
+#~ msgstr "Afmelden"
+
+#~ msgid "Lock"
+#~ msgstr "Vergrendelen"
+
+#~ msgid "Lock screen"
+#~ msgstr "Scherm vergrendelen"
+
+#~ msgid "Switch user"
+#~ msgstr "Gebruiker wisselen"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Start een parallelle sessie onder een andere gebruikersnaam"
+
+#~ msgid "Shut down"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Computer uitschakelen"
+
+#~ msgctxt "Restart computer"
+#~ msgid "Restart"
+#~ msgstr "Herstarten"
+
+#~ msgid "Restart computer"
+#~ msgstr "Computer herstarten"
+
+#~ msgid "Save current session for next login"
+#~ msgstr "Huidige sessie opslaan voor de volgende aanmelding"
+
+#~ msgctxt "Puts the system on standby"
+#~ msgid "Standby"
+#~ msgstr "Standby"
+
+#~ msgid "Pause without logging out"
+#~ msgstr "Pauzeren zonder af te melden"
+
+#~ msgid "Hibernate"
+#~ msgstr "Slaapstand naar schijf"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Schijf-slaapstand"
+
+#~ msgid "Suspend"
+#~ msgstr "Onderbreken"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Naar RAM-slaapstand"
+
+#~ msgid "System"
+#~ msgstr "Systeem"
+
+#~ msgid "Home Folder"
+#~ msgstr "Persoonlijke map"
+
+#~ msgid "Network Folders"
+#~ msgstr "Netwerkmappen"
+
+#~ msgid "Documents"
+#~ msgstr "Documenten"
+
+#~ msgid "Recently Used Documents"
+#~ msgstr "Recent gebruikte documenten"
+
+#~ msgid "Run Command..."
+#~ msgstr "Commando uitvoeren..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Een commando uitvoeren of een zoekvraag"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Verwijderbare opslag"
+
+#~ msgid "Show 'Recently Installed'"
+#~ msgstr "'Recent geïnstalleerd' tonen"
+
+#~ msgid "Uninstall"
+#~ msgstr "Deïnstalleren"
+
+#~ msgid "Sort Alphabetically (Z to A)"
+#~ msgstr "Alfabetisch sorteren (Z naar A)"
+
+#~ msgid "Clear Recent Applications"
+#~ msgstr "Lijst met recente programma's wissen"
+
+#~ msgid "Clear Recent Documents"
+#~ msgstr "Lijst met recente documenten wissen"
+
+#~ msgid "Sleep"
+#~ msgstr "Slapen"
+
+#~ msgid "Add To Favorites In This Activity Only"
+#~ msgstr "Alleen aan favorieten in deze activiteit toevoegen"
+
+#~ msgid "Plasma by KDE"
+#~ msgstr "Plasma door KDE"

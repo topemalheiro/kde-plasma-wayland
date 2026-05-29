@@ -1,0 +1,1237 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Xəyyam Qocayev <xxmn77@gmail.com>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2022-07-31 23:06+0400\n"
+"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "%1 toxunma paneli üçün əsas cihaz məlumatlarının oxunmasında xəta."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "X serverə qoşula bilmədi"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Toxunma paneli tapılmadı"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Toxunma paneli tənzimlərənin tətbiqi alınmadı"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Toxunma panelinin tənzimləmələri oxunmadı"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Toxunma panelinin standart tənzimləmələri oxunmadı"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Göstəricilərin yüklənməsində xəta. Saxlanılan ətraflı məlumatlara jurnalda "
+"baxa bilərsiniz. Lütfən, tənzimləmə modulunu yenidən başladın."
+
+#: kcm.cpp:129
+#, fuzzy, kde-format
+#| msgid "No touchpad found. Connect touchpad now."
+msgid "No pointer device found. Connect now."
+msgstr "Toxunma paneli tapılmadı. Toxunma panelini qoşun."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Bütün dəyişiklikləri saxlamaq mümkün olmadı. Saxlanılan ətraflı məlumatlara "
+"jurnalda baxa bilərsiniz. Lütfən, tənzimləmə modulunu yenidən başladın."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Standart göstəricilərin yüklənməsində xəta. Bəzi seçimlərin standart "
+"göstəricilərini qurmaq mümkün olmadı."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Az əvvəl qoşulan cihazın əlavə olunmasında xəta baş verdi. Lütfən, cihazı "
+"təkrar qoşun və tənzimləmə modulunu yenidən başladın."
+
+#: kcm.cpp:185
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. Closed its setting dialog."
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Toxunma paneli ayrildı. Onun ayarlar dialoqu pəncərəsi bağlandı."
+
+#: kcm.cpp:187
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. No other touchpads found."
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Toxunma paneli ayrıldı, başqa toxunma panelləri tapılmadı."
+
+#: ui/main.qml:69
+#, fuzzy, kde-format
+#| msgid "No touchpad found"
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Toxunma paneli tapılmadı"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr ""
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Cihaz:"
+
+#: ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Əsas:"
+
+#: ui/main.qml:111
+#, fuzzy, kde-format
+#| msgctxt "Coasting"
+#| msgid "Enable"
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Aktiv etmək"
+
+#: ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Disable touchpad when mouse is plugged in"
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Toxunma panelini siçan qoşulduqda söndürmək"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Disable while typing"
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Yazı zamanı söndürmək"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr ""
+
+#: ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Sol və sağ düymələri dəyişmək."
+
+#: ui/main.qml:170
+#, fuzzy, kde-format
+#| msgid "Left handed mode"
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Sol əl rejimi"
+
+#: ui/main.qml:185
+#, fuzzy, kde-format
+#| msgid "Press left and right buttons for middle click"
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Orta düymə kliki üçün sol və sağ düymələri basın"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+
+#: ui/main.qml:207
+#, fuzzy, kde-format
+#| msgid "Minimum pointer speed"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Göstəricinin minimum sürəti"
+
+#: ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Pointer acceleration:"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Kursorun sürətlənməsi:"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Sürüşdürmə sürəti"
+
+#: ui/main.qml:360
+#, fuzzy, kde-format
+#| msgctxt "Slower Scroll"
+#| msgid "Slower"
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Yavaş"
+
+#: ui/main.qml:367
+#, fuzzy, kde-format
+#| msgctxt "Faster Scroll Speed"
+#| msgid "Faster"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Tez"
+
+#: ui/main.qml:374
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Sürüşdürmə:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr ""
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr ""
+
+#: ui/main.qml:404
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction (Natural scrolling)"
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Sürüşdürmənin istiqamətini dəyişdirmək (təbii sürüşdürmə)"
+
+#: ui/main.qml:421
+#, fuzzy, kde-format
+#| msgid "Disable horizontal scrolling"
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Üfüqi sürüşdürməni söndürmək"
+
+#: ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Sağ klik"
+
+#: ui/main.qml:443
+#, fuzzy, kde-format
+#| msgid "Press bottom-right corner"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Sağ aşağı küncə toxunun"
+
+#: ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Üç barmaqla toxunun."
+
+#: ui/main.qml:449
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Üç barmaqla toxunun."
+
+#: ui/main.qml:471
+#, fuzzy, kde-format
+#| msgid "Press anywhere with two fingers"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "İki barmaqla toxunun"
+
+#: ui/main.qml:472
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Üç barmaqla toxunun."
+
+#: ui/main.qml:484
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Orta klik"
+
+#: ui/main.qml:487
+#, fuzzy, kde-format
+#| msgid "Press bottom-middle"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Ortadan aşağıya toxunun"
+
+#: ui/main.qml:507
+#, fuzzy, kde-format
+#| msgid "Press bottom left and bottom right corners simultaneously"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Eyni vaxtda altdakı sol və sağ künclərə toxunun"
+
+#: ui/main.qml:519
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers"
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Üç barmaqla toxunun"
+
+#: ui/main.qml:532
+#, fuzzy, kde-format
+#| msgid "Tapping:"
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Basılma:"
+
+#: ui/main.qml:533
+#, fuzzy, kde-format
+#| msgid "Tap to Click"
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Toxunuşla klikləmək"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr ""
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:580
+#, fuzzy, kde-format
+#| msgid "Two-finger tap:"
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "İki barmaqla toxunma:"
+
+#: ui/main.qml:586
+#, fuzzy, kde-format
+#| msgid "Right-click (three-finger tap to middle-click)"
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Sağ düymə kliki (üç barmqla toxunma orta düymə kliki rolunda)"
+
+#: ui/main.qml:587
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Sağ klik"
+
+#: ui/main.qml:608
+#, fuzzy, kde-format
+#| msgid "Middle-click (three-finger tap right-click)"
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Orta düymə kliki (üç barmaqla toxunma sağ düymə kliki kimi)"
+
+#: ui/main.qml:609
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Orta klik"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Giriş cihazlarına sorğu göndərilmədi. Lütfən bu ayarlar modulunu yenidən "
+#~ "açın."
+
+#~ msgid "Device enabled"
+#~ msgstr "Cihaz aktiv edildi"
+
+#~ msgid "Two fingers"
+#~ msgstr "iki barmaq"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Toxunma paneli kənarları ilə"
+
+#, fuzzy
+#~| msgid "Tap-to-click"
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Siçanın düyməsinin kliki rolunda"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Vuraraq sürüşdürmək"
+
+#, fuzzy
+#~| msgid "Right-click:"
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Sağ düymə kliki:"
+
+#, fuzzy
+#~| msgid "Middle-click: "
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Orta düymə kliki: "
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Daxil etməni bu cihaz vasitəsi ilə edin."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Yazı zamanı təsadüfi daxiletmələrin qarşısını almaq üçün toxunma panelini "
+#~ "söndürün."
+
+#, fuzzy
+#~| msgid ""
+#~| "Clicking left and right button simultaneously sends middle button click."
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Sol və sağ düymələrin birgə basılması özünü orta düymə kliki kimi "
+#~ "göstərir."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Toxunma panelində iki barmağı hərəkər etdirməklə sürüşdürmək."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Toxunma panelinin kənarları boyu hərəkətlə sürüşdürmək."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Toxunma ekranındakı kimi sürüşdürmə."
+
+#, fuzzy
+#~| msgid "Disable horizontal scrolling"
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Üfüqi sürüşdürməni söndürmək"
+
+#, fuzzy
+#~| msgid "Single tap is left button click."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Tək vuruş sol düymə kliki kimi."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Vurduqdan sonra, elementi toxunma paneli üzərində şürüşdürmək."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Barmağı qaldırdıqdan sonra sürüşdürməni davam etdirmək"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Barmağı qısa müddəttə qaldırdıqda sürüşmə davam edir"
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Sağ düymə kliki üçün iki barmaqla toxunmaq, orta düymə kliki üçün üç "
+#~ "barmaqla toxunmaq."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Sağ düymə kliki üçün iki barmaqla toxunmaq."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "İki barmaqla toxunma orta düymə kliki kimi, üç barmaqla toxunma sağ düymə "
+#~ "kliki kimi."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Orta düymə kliki üçün iki barmaqla toxunmaq."
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr "Sağ düymə kliki üçün iki barmaqla toxunmaq."
+
+#, fuzzy
+#~| msgid "Press bottom left and bottom right corners simultaneously"
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr "Eyni vaxtda altdakı sol və sağ künclərə toxunun"
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr "Sağ düymə kliki üçün iki barmaqla toxunmaq."
+
+#~ msgid "Touchpad"
+#~ msgstr "Toxunma paneli"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Toxunma panelini aktiv etmək"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Toxunma panelini söndürmək"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Toxunma panelini aktiv etmək və ya söndürmək"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Kursor barmaqla eyni məsafədə hərəkət edir."
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr "Kursorun getdiyi məsafəsi barmağın hərəkət sürətindən asılıdır."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Fəaliyyət yoxdur"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Sol düymə"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Orta düymə"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Sağ düymə"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Bütün kənarlar"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Yuxarı kənar"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Yuxarı sağ künc"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Sağ kənar"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Aşağı sağ künc"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Aşağı kənar"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Aşağı sol künc"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Sol kənar"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Yuxarı sol künc"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Siçan qoşulduğu üçün Toxunma paneli söndürüldü"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Siçan ayrıldığı üçün Toxunma paneli aktiv edildi"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr ""
+#~ "Virtual proqram düymələri toxunma panelinizin aşağı hissəsinə əlavə "
+#~ "olunacaq."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "İki barmaqla toxunma sağ düymə klikini əvəz edir."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Virtual proqram orta düyməsi, toxunma panelinizin aşağı hissəsinə əlavə "
+#~ "olunacaq."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Xəyyam Qocayev"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "xxmn77@gmail.com"
+
+#~ msgid "Drag me"
+#~ msgstr "Daşıyın"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Sol düymə"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Sağ düymə"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Orta düymə"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Aktiv ayarlar saxlanılan ayarlara uyğun gəlmir.\n"
+#~ "Hal-hazırda siz saxlanılan ayarları görürsünüz."
+
+#~ msgid "Show active settings"
+#~ msgstr "Aktiv ayarları göstərmək"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Bu ayarlar sınaq sahəsində qüvvəyə minməyəcək"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Toxunma panelini Aktiv etmək/Söndürmək"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Toxunma panelini Aktiv etmək/Söndürmək"
+
+#~ msgid "Configure…"
+#~ msgstr "Tənzimləmək..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Klaviatura qısayolları:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Yazı zamanı Toxunma panelini söndürmək"
+
+#~ msgid "Timeout:"
+#~ msgstr "Aktivlik müddəti:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Müəyyən edilmiş millisaniyədən sonra klaviaturada aktivlik\n"
+#~ "olmadıqda toxunma paneli yenidən aktivləşəcək"
+
+#~ msgid " ms"
+#~ msgstr " msan"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Klik və sürüçdürmə təqlidini söndürmək.\n"
+#~ "Bununla belə kursorun toxunma paneli ilə hərəkəti və aparat düymələri ilə "
+#~ "klik etmək imkanı saxlanılır."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Yalnız toxunma və sürüşdürməni söndürmək"
+
+#~ msgid "Notifications:"
+#~ msgstr "Bildirişlər:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Gözardı edilən cihazlar:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Bəzi cihazlar yalnış olaraq siçan kimi qəbul edilə bilər.\n"
+#~ "Əgər belələrini bu siyahıya əlavə etsəniz onlar qoşulma zamanı gözardı "
+#~ "ediləcəklər."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Göstəricinin hərəkəti"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Sürət"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Minimum:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Göstəricinin minimum sürəti"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maksimum:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Göstəricinin maksimum sürəti"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Sürətlənmə:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Göstəricinin adi hərəkəti üçün sürətlənmə əmsalı"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Hərəkətin sürətinin təzyiqdən asılılığı"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimum təzyiq:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Minimum əmsal:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Maksimum təzyiq:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Maksimum əmsal:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr "Hərəkət sürətinə tətbiq olunan barmağın minimum təzyiq əmsalı"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "Hərəkət sürətinə tətbiq olunan barmağın maksimum təzyiq əmsalı"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Təzyiqə uyğun hərəkət əmsalının ən kiçik ayarı"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Təzyiqə uyğun hərəkət əmsalının ən böyük ayarı"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Səs-küyün əngəllənməsi"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Şaquli:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Üfüqi:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr "Hərəkət kimi qeydə alınan minimal şaquli yerdəyişmə"
+
+#~ msgid " units"
+#~ msgstr " vahidlər"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr "Hərəkət kimi qeydə alınan minimal üfüqi yerdəyişmə"
+
+#~ msgid "Scrolling"
+#~ msgstr "Sürüşdürmə"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Kənar sürüşdürməsi:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Sağ kənar boyü hərəkətlə şaquli sürüşdürməni aktiv etmək"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Şaquli"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Aşağı kənar boyu hərəkətlə üfüqi sürüşdürməni aktiv etmək"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Üfüqi"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "İki barmağı toxunma panelinin hər hansı yerində hərəkətlə şaquli "
+#~ "sürüşdürməni aktiv etmək"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "İki barmağı toxunma panelinin hər hansı yerində hərəkətlə üfüqi "
+#~ "sürüşdürməni aktiv etmək"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Əksinə şaquli sürüşdürmə"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Əksinə üfüqi sürüşdürmə"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "İki barmaqla sürüşdürmə:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Əksinə sürüşdürmə:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Sürüşdürmə məsafəsi"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Şaquli:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Bir sürüşdürmə halı üçün barmağın hərəkət məsafəsi"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Üfüqi:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Panelin kənarından barmağınızı qaldırdıqdan sonra sürüşdürməni davam "
+#~ "etdirmək"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Ətalət halında sürüşdürmə"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Minimum sürət:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Ətalət halında sürüşdürməni başlatmaq üçün barmağınızı saniyədə müəyyən "
+#~ "sürətlə hərəkət etdirməniz lazımdır"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " sürüşdürmə/san"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Yavaşlama:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr ""
+#~ "Ətalət halında sürüşdürmənin yavaşlaması üçün, sürüşdürmə sayı/saniyə²"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " sürüşdürmə/san²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Küncdə dayandıqda davam etdirmək:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Sürüşdürmə üçün panelin uyğun kənarı boyu hərəkət edən barmaq küncə "
+#~ "çataraq dayandıqda ətalət halında sürüşdürməni davam etdirmək"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Dairəvi sürüşdürmə, barmaq təyin olunmuş sahədə hərəkətə başladıqda aktiv "
+#~ "olur.\n"
+#~ "Toxunma panelinin mərkəzi ətrafında barmağı saat əqrəbi istiqamətində\n"
+#~ "hərəkət etdirmək aşağı sürüşdürməni, saat əqrəbinin əksinə hərəkət isə "
+#~ "yuxarı sürüşdürməni aktiv edəcək"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Dairəvi sürüşdürmə"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Başlama sahəsi:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Dairəvi sürüşdürmənin başladıldığı toxunma paneli sahəsi"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Bucaq:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Tək sürüşdürmə halı yaratmaq üçün barmağın dairəvi hərəkər bucağı"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Əgər başlama sahəsi üçün sağ yuxarı və aşağı künclər seçilərsə, şaquli "
+#~ "kənar sürüşdürmə istifadə edildikdə, barmağı sağ yuxarı və aşağı küncdə "
+#~ "yerləşdirdikdən sonra vertikal sürüşdürmə əvəzinə dairəvi sürüşdürməni "
+#~ "istifadə etməyə başlamaq olar"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Həsaslıq"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Həsaslıq"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Toxunmanın təyin olunması təzyiqi:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Buraxmağın təyin olunması təzyiqi:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Basılma təzyiqi bu göstəricidən çox olduqda, sürücü onu toxunma kimi \n"
+#~ "qeydə alır"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Basılma təzyiqi bu göstəricidən az olduqda sürücü onu toxunmanı \n"
+#~ "buraxmaq kimi qeydə alır"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Lazım gəldikdə, ovuc içi aşkarlanması aktiv edilir. Nəzərə alın ki, bu "
+#~ "funksiyanın işləməsi üçün toxunma panelindən belə bir funksiyanın aparat "
+#~ "və proqram təminatı tərəfindən dəstəklənməsi tələb olunur."
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Ovuc içi aşkarlanması"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Minimum en:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimum təzyiq:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Ovuc içi kimi qeydə alınacaq toxunuşun minimum eni"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Ovuc içi kimi qeydə alınacaq toxunuşun minimum təzyiqi"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Toxunuş"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Bir barmaqla toxunuş:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "Künc olmadan bir barmaqla toxunduşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "İki barmaqla toxunuş:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "Künc olmadan iki barmaqla toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Üç barmaqla toxunuş:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "Künc olmadan üç barmaqla toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Künclər"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Yuxarı sol:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Yuxarı sol küncə toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Aşağı sol:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Yuxarı sağ:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Sol aşağı küncə toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Sağ yuxarı küncə toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Sağ aşağı küncə toxunuşun hansı siçan düyməsinə uyğun olması"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Aşağı sağ:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Bu rejim tutub sürüşdürmək üçün alternativ üsuldur. belə ki, kursorun "
+#~ "hərəkəti siçanın düyməsinin basılı vəziyyətdə hərəkəti kimi qeydə alınır. "
+#~ "Tutub sürüşdürməyi başlatmaq üçün ikili toxunuş edin, lakin ikinci "
+#~ "toxunuşda barmağınızı buraxmayın. Barmağınızı buraxmayanadək yerdəyişmə, "
+#~ "tutub sürüşdürmə funksiyasını yerinə yetirəcək"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "İkinci toxunuşdan sonra tutub sürüşdürmək"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Əgər söndürülübsə, bu üsulla tutub sürüşdürmə, barmağınızı buraxdıqda "
+#~ "dayanacaqdır. Əgər aktiv edilibsə, tutub sürüşdürmə rejimi barmağınızı ya "
+#~ "ikinci toxunuşa qədər, ya da göstərilən vaxt bitənə qədər buraxdıqdan "
+#~ "sonra aktiv qalacaqdır"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Kilidli sürüşdürmə"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Hərəkətlər arası maksimum gecikmə:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Barmağınızı toxunma panelindən qaldırdıqdan sonra \"Kilidli Sürüşdürmə\" "
+#~ "rejiminin avtomatik olaraq söndürülməsinə (millisaniyələrlə) nə qədər "
+#~ "vaxt lazımdır"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Toxunuşun aşkarlanması"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maksimum vaxt:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Barmağın maksimum hərəkəti:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "İkili toxunuşun maksimum vaxtı:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Tək toxunuş gecikməsi:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr ""
+#~ "Toxunuşun toxunuş kimi qeydə alınmasının maksimum vaxtı (millisaniyələrlə)"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Toxunuş kimi aşkar edilməsi üçün barmağın maksimum hərəkəti"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr ""
+#~ "İkili toxunuşun aşkar edilməsi üçün maksimum vaxt (millisaniyələrlə)"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "Toxunuşdan sonra tək toxunuş kimi qeydə alınacaq müddət"
+
+#~ msgid "Testing area"
+#~ msgstr "Test sahəsi"
+
+#~ msgid "Click me"
+#~ msgstr "Buraya klikləyin"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Sürətlənmə rejimi:"
+
+#~ msgid "Flat"
+#~ msgstr "Rəvan"
+
+#~ msgid "Adaptive"
+#~ msgstr "Uyğunlaşan"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Toxunma Paneli"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Toxunma paneli ayarları modulu"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Copyright © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Tərtibatçı"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Toxunma panelinizi tənzimləmək üçün Sistem ayarları modulu, köməkçi "
+#~ "xidmət və həmçinin Plasma əlavəsi"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Copyright © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Bu proqram müəllif hüquqları bildirişini əhatə edən fəaliyyəti\n"
+#~ "özündə birləşdirir:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "İstifadə rahatlığı, sınaqdan keçirmə"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Bir az kömək edən"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Synclient tərtibatçısı"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Sinaqdan keçirən"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"

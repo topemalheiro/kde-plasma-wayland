@@ -1,0 +1,578 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2020, 2021, 2023, 2024, 2025, 2026 Shinjo Park <kde@peremen.name>
+# JungHee Lee <daemul72@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-19 00:46+0000\n"
+"PO-Revision-Date: 2026-02-03 21:36+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: basemodel.cpp:158
+#, kde-format
+msgctxt "@title:group Launch app"
+msgid "Launch"
+msgstr "실행"
+
+#: basemodel.cpp:191
+#, kde-format
+msgctxt "@item:intable"
+msgid "Window Management"
+msgstr "창 관리"
+
+#: basemodel.cpp:194
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Workspace"
+msgstr "Plasma 작업 공간"
+
+#: globalaccelmodel.cpp:281
+#, kde-format
+msgctxt ""
+"%1 is the name of the component, %2 is the action for which saving failed"
+msgid "Error while saving shortcut %1: %2"
+msgstr "%1: %2의 단축키를 저장하는 중 오류 발생"
+
+#: globalaccelmodel.cpp:395
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr "%1을(를) 추가하는 동안 오류가 발생했습니다. 작업이 없는 것 같습니다."
+
+#: globalaccelmodel.cpp:469
+#, kde-format
+msgid "Error while communicating with the global shortcuts service"
+msgstr "전역 단축키 서비스와 통신하는 중 오류 발생"
+
+#: kcm_keys.cpp:56
+#, kde-format
+msgid "Failed to communicate with global shortcuts daemon"
+msgstr "전역 단축키 데몬과 통신할 수 없음"
+
+#: kcm_keys.cpp:380
+#, kde-kuit-format
+msgctxt ""
+"@info %2 is the name of a category inside the 'Common Actions' section"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action "
+"<interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
+msgstr ""
+"<shortcut>%1</shortcut> 단축키가 이미 %2 공통 동작 <interface>%3</interface>"
+"에 할당되어 있습니다.<nl/><nl/>%4에 다시 할당하시겠습니까?"
+
+#: kcm_keys.cpp:386
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to action <interface>"
+"%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to "
+"action <interface>%4</interface> of <application>%5</application>?"
+msgstr ""
+"<shortcut>%1</shortcut> 단축키가 이미 <application>%3</application>의 "
+"<interface>%2</interface> 동작에 할당되어 있습니다.<nl/><nl/><application>"
+"%5</application>의 <interface>%4</interface> 동작에 다시 할당하시겠습니까?"
+
+#: kcm_keys.cpp:396
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve Shortcut Conflict"
+msgstr "단축키 충돌 해결"
+
+#: kcm_keys.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "재할당"
+
+#: standardshortcutsmodel.cpp:34
+#, kde-format
+msgid "File"
+msgstr "파일"
+
+#: standardshortcutsmodel.cpp:35
+#, kde-format
+msgid "Edit"
+msgstr "편집"
+
+#: standardshortcutsmodel.cpp:37
+#, kde-format
+msgid "Navigation"
+msgstr "탐색"
+
+#: standardshortcutsmodel.cpp:38
+#, kde-format
+msgid "View"
+msgstr "보기"
+
+#: standardshortcutsmodel.cpp:39
+#, kde-format
+msgid "Settings"
+msgstr "설정"
+
+#: standardshortcutsmodel.cpp:40
+#, kde-format
+msgid "Help"
+msgstr "도움말"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr "앱"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr "명령"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr "시스템 서비스"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr "공통 동작"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@action:button Import shortcut scheme"
+msgid "Import…"
+msgstr "가져오기…"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Import shortcut scheme"
+msgstr "단축키 구성표 가져오기"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Export"
+msgstr "내보내기 취소"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export…"
+msgstr "내보내기…"
+
+#: ui/main.qml:53 ui/main.qml:128
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Export shortcut scheme"
+msgstr "단축키 구성표 내보내기"
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@action:button Add new shortcut"
+msgid "Add New"
+msgstr "추가: "
+
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Application…'"
+msgid "Application…"
+msgstr "앱…"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new application"
+msgstr "새 앱 추가"
+
+#: ui/main.qml:82
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
+msgid "Command or Script…"
+msgstr "명령이나 스크립트…"
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new command or script"
+msgstr "새 명령이나 스크립트 추가"
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr "저장되지 않은 변경 사항이 있는 구성표를 내보낼 수 없음"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Select the components below that should be included in the exported scheme"
+msgstr "내보낼 구성표에 포함할 구성 요소 선택"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export"
+msgstr "내보내기"
+
+#: ui/main.qml:229
+#, kde-format
+msgctxt ""
+"@option:check accessible export shortcuts %1 is application/group name"
+msgid "Export %1"
+msgstr "%1 내보내기"
+
+#: ui/main.qml:239
+#, kde-format
+msgctxt "@action:button %1 is the name of a custom command"
+msgid "Edit command for %1"
+msgstr "%1의 명령 편집"
+
+#: ui/main.qml:268
+#, kde-format
+msgctxt "@action:button %1 is the name of a shortcut category"
+msgid "Remove all shortcuts for %1"
+msgstr "%1의 모든 단축키 삭제"
+
+#: ui/main.qml:290
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deletion"
+msgstr "삭제 실행 취소"
+
+#: ui/main.qml:357
+#, kde-format
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr "검색어와 일치하는 항목 없음"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt "@info"
+msgid "These shortcuts will be deleted when changes are applied."
+msgstr "변경 사항을 적용하면 다음 단축키를 삭제합니다."
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr "실행 취소"
+
+#: ui/main.qml:379
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deleting shortcuts"
+msgstr "단축키 삭제 실행 취소"
+
+#: ui/main.qml:420
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr "여기에서 단축키를 보려면 목록에서 선택하십시오"
+
+#: ui/main.qml:433
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr "단축키 구성표 내보내기"
+
+#: ui/main.qml:433 ui/main.qml:565
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr "단축키 구성표 가져오기"
+
+#: ui/main.qml:435
+#, kde-format
+msgctxt "Template for file dialog"
+msgid "Shortcut Scheme (*.kksrc)"
+msgstr "단축키 구성표 (*.kksrc)"
+
+#: ui/main.qml:462
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr "편집 명령"
+
+#: ui/main.qml:462
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr "명령 추가"
+
+#: ui/main.qml:479
+#, kde-format
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr "저장"
+
+#: ui/main.qml:479
+#, kde-format
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr "추가"
+
+#: ui/main.qml:481
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Save command"
+msgstr "명령 저장"
+
+#: ui/main.qml:482
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr "명령 추가"
+
+#: ui/main.qml:504
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr "명령을 입력하거나 스크립트 파일 선택:"
+
+#: ui/main.qml:513
+#, kde-format
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "명령:"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Command"
+msgstr "명령"
+
+#: ui/main.qml:526
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose…"
+msgstr "선택..."
+
+#: ui/main.qml:527
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Choose script file"
+msgstr "스크립트 파일 선택"
+
+#: ui/main.qml:535
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "이름:"
+
+#: ui/main.qml:536
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "여기에 이름 입력"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Script File"
+msgstr "스크립트 파일 선택"
+
+#: ui/main.qml:550
+#, kde-format
+msgctxt ""
+"Filename filters for file dialog. Do not translate any of the filename "
+"extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "스크립트 파일 (.sh, .bash, .zsh 등) (*.*sh)"
+
+#: ui/main.qml:573
+#, kde-format
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr "가져올 구성표 선택:"
+
+#: ui/main.qml:592
+#, kde-format
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr "사용자 정의 구성표"
+
+#: ui/main.qml:600
+#, kde-format
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr "파일 선택…"
+
+#: ui/main.qml:600
+#, kde-format
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr "가져오기"
+
+#: ui/main.qml:602
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Select shortcut scheme file"
+msgstr "단축키 구성표 파일 선택"
+
+#: ui/main.qml:603
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add shortcut scheme"
+msgstr "단축키 구성표 추가"
+
+#: ui/ShortcutActionDelegate.qml:31
+#, kde-format
+msgctxt "@action:button Collapse shortcuts view"
+msgid "Collapse"
+msgstr "접기"
+
+#: ui/ShortcutActionDelegate.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Expand to configure shortcuts"
+msgstr "단축키를 설정하려면 펴기"
+
+#: ui/ShortcutActionDelegate.qml:38
+#, kde-format
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr "단축키 편집하기: %1"
+
+#: ui/ShortcutActionDelegate.qml:63
+#, kde-format
+msgctxt ""
+"%1 is the name action that is triggered by the key sequences following "
+"after :"
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/ShortcutActionDelegate.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr "활성 단축키 없음"
+
+#: ui/ShortcutActionDelegate.qml:135
+#, kde-format
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] "기본 단축키"
+
+#: ui/ShortcutActionDelegate.qml:137
+#, kde-format
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr "기본 단축키 없음"
+
+#: ui/ShortcutActionDelegate.qml:146
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr "%1 기본 단축키가 활성화됩니다."
+
+#: ui/ShortcutActionDelegate.qml:146
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr "%1 기본 단축키가 비활성화됩니다."
+
+#: ui/ShortcutActionDelegate.qml:169
+#, kde-format
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr "사용자 정의 단축키"
+
+#: ui/ShortcutActionDelegate.qml:205
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Delete shortcut"
+msgstr "단축키 삭제"
+
+#: ui/ShortcutActionDelegate.qml:216
+#, kde-format
+msgctxt "@action:button Add custom shortcut"
+msgid "Add…"
+msgstr "추가…"
+
+#: ui/ShortcutActionDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add custom shortcut"
+msgstr "사용자 정의 단축키 추가"
+
+#: ui/ShortcutActionDelegate.qml:253
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Cancel capturing shortcut"
+msgstr "단축키 입력 취소"
+
+#~ msgctxt "@info:tooltip %1 is the text of a custom command"
+#~ msgid "Edit command for %1"
+#~ msgstr "%1의 명령 편집"
+
+#~ msgctxt "@info:tooltip %1 is the text of a shortcut category"
+#~ msgid "Remove all shortcuts for %1"
+#~ msgstr "%1의 모든 단축키 삭제"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Undo deletion"
+#~ msgstr "삭제 실행 취소"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete this shortcut"
+#~ msgstr "이 단축키 삭제"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Cancel capturing of new shortcut"
+#~ msgstr "새 단축키 입력 취소"
+
+#~ msgctxt "Template for file dialog"
+#~ msgid "Script file (*.*sh)"
+#~ msgstr "스크립트 파일 (*.*sh)"
+
+#~ msgctxt "@action:button Save shortcut scheme"
+#~ msgid "Save Scheme"
+#~ msgstr "구성표 저장"
+
+#~ msgid ""
+#~ "Shortcut %1 is already assigned to action '%2' of %3.\n"
+#~ "Do you want to reassign it?"
+#~ msgstr ""
+#~ "단축키 %1이(가) 이미 %3의 동작 '%2'에 할당되어 있습니다.\n"
+#~ "다시 할당하시겠습니까?"
+
+#~ msgctxt "@title:window"
+#~ msgid "Found conflict"
+#~ msgstr "충돌 발견됨"
+
+#~ msgctxt "@action:button Keep translated text as short as possible"
+#~ msgid "Add Command…"
+#~ msgstr "명령 추가…"
+
+#~ msgid "Import Scheme…"
+#~ msgstr "구성표 가져오기…"
+
+#~ msgid "Shortcuts"
+#~ msgstr "단축키"
+
+#~ msgid "David Redondo"
+#~ msgstr "David Redondo"

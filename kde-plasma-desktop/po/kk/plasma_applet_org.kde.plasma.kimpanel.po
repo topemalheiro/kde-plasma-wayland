@@ -1,0 +1,240 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2012-07-19 05:09+0600\n"
+"Last-Translator: Sairan Kikkarin\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: qml/ActionMenu.qml:92
+#, kde-format
+msgctxt "@label placeholder for empty menu"
+msgid "(Empty)"
+msgstr ""
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:31
+#, fuzzy, kde-format
+#| msgid "Input Method"
+msgctxt "@title:group for radiobuttons"
+msgid "Input method list:"
+msgstr "Енгізу әдісі"
+
+#: qml/ConfigAppearance.qml:32
+#, fuzzy, kde-format
+#| msgid "Vertical List"
+msgctxt "@option:radio IM list orientation"
+msgid "Vertical"
+msgstr "Тік тізім"
+
+#: qml/ConfigAppearance.qml:38
+#, fuzzy, kde-format
+#| msgid "Expand horizontally."
+msgctxt "@option:radio IM list orientation"
+msgid "Horizontal"
+msgstr "Жатығынан жаю"
+
+#: qml/ConfigAppearance.qml:45
+#, fuzzy, kde-format
+#| msgid "Font"
+msgctxt "@title group font selection"
+msgid "Font:"
+msgstr "Қаріп"
+
+#: qml/ConfigAppearance.qml:51
+#, kde-format
+msgctxt "@option:check use custom font"
+msgid "Use custom:"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:57
+#, kde-format
+msgctxt "@info The selected font family (%1) and font size (%2)"
+msgid "%1 %2 pt"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:65
+#, fuzzy, kde-format
+#| msgid "Select Font"
+msgctxt "@action:button opens font dialog"
+msgid "Choose Font…"
+msgstr "Қаріпін таңдау"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@title:group The arrangement of icons in the Panel"
+msgid "Panel icon size:"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:79
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Small"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:87
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel height"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:88
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel width"
+msgstr ""
+
+#: qml/ConfigAppearance.qml:96
+#, fuzzy, kde-format
+#| msgid "Select Font"
+msgctxt "@title:window"
+msgid "Select Font"
+msgstr "Қаріпін таңдау"
+
+#: qml/ContextMenu.qml:96
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show"
+msgstr ""
+
+#: qml/ContextMenu.qml:111
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide %1"
+msgstr ""
+
+#: qml/ContextMenu.qml:120
+#, fuzzy, kde-format
+#| msgid "Configure Input Method"
+msgctxt "@action:inmenu"
+msgid "Configure Input Method"
+msgstr "Енгізу әдісін баптау "
+
+#: qml/ContextMenu.qml:128
+#, fuzzy, kde-format
+#| msgid "Reload Config"
+msgctxt "@action:inmenu"
+msgid "Reload Config"
+msgstr "Баптауларын қайта жуктеп алу"
+
+#: qml/ContextMenu.qml:136
+#, fuzzy, kde-format
+#| msgid "Exit Input Method"
+msgctxt "@action:inmenu"
+msgid "Exit Input Method"
+msgstr "Енгізу әдісітен шығу"
+
+#: qml/main.qml:254
+#, fuzzy, kde-format
+#| msgid "Input Method"
+msgctxt "@label placeholder for missing label"
+msgid "Input Method Panel"
+msgstr "Енгізу әдісі"
+
+#, fuzzy
+#~| msgid "Select Font"
+#~ msgid "Select Font..."
+#~ msgstr "Қаріпін таңдау"
+
+#~ msgid "Reverse display order when at screen border"
+#~ msgstr "Экранның шегінде көрсету ретін терістеу"
+
+#~ msgid "Select Application"
+#~ msgstr "Қолданбаны таңдау"
+
+#~ msgctxt "General configuration page"
+#~ msgid "General"
+#~ msgstr "Жалпы"
+
+#~ msgid "Start Input Method"
+#~ msgstr "Енгізу әдісті жегу"
+
+#~ msgid "Icon Filter"
+#~ msgstr "Таңбаша сүзгісі"
+
+#~ msgid "Blur Behind"
+#~ msgstr "Артында тұман"
+
+#~ msgid "IM Panel Settings"
+#~ msgstr "Теру әдістер панелін баптау"
+
+#~ msgid "kimpanel"
+#~ msgstr "kimpanel"
+
+#~ msgid "Expand out"
+#~ msgstr "Жаю"
+
+#~ msgid "Expand out from the panel to a floating widget"
+#~ msgstr "Панелін қалқымалы виджетке жаю"
+
+#~ msgid "Collapse to panel"
+#~ msgstr "Панеліне бүктеп алу"
+
+#~ msgid "Embed into the panel"
+#~ msgstr "Панеліне енгізу"
+
+#~ msgid "Generic input method panel"
+#~ msgstr "Негізгі теру әдістер панелі"
+
+#~ msgid "Copyright (C) 2009, Wang Hoi"
+#~ msgstr "Copyright (C) 2009, Wang Hoi"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Сайран Киккарин"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sairan@computer.org"
+
+#~ msgid "Defines your preferred status bar icon size."
+#~ msgstr "Қалаған күй-жайы таңбашасының өлшемін анықтаныз."
+
+#~ msgid "Properties hidden in status bar"
+#~ msgstr "Күй-жай жолағында жасыратын қасиеттер"
+
+#~ msgid "Position of floating status bar"
+#~ msgstr "Қалқымалы күй-жай жолағының орналасуы"
+
+#~ msgid "Defines how icons are positioned in the floating status bar."
+#~ msgstr "Қалқымалы күй-жай жолағында таңбашалар қалай орналасатынын анықтау."
+
+#~ msgid "Expand vertically."
+#~ msgstr "Тігінен жаю"
+
+#~ msgid "Use multiple rows/cols."
+#~ msgstr "Қатар/Баған қылып орналастыру."
+
+#~ msgid "Defines the layout of the list of candidate words."
+#~ msgstr "Ұсынылған сөздер тізімінің орналасуын анықтау."
+
+#~ msgid "Put all words in one row."
+#~ msgstr "Барлық сөздер бір қатарда."
+
+#~ msgid "Put all words in one col."
+#~ msgstr "Барлық сөздер бір бағанда."
+
+#~ msgid "Multiple rows/cols, but fixed rows."
+#~ msgstr "Қатарды шектеп, бірнеше бағандарда."
+
+#~ msgid "Multiple rows/cols, but fixed columns."
+#~ msgstr "Бағанды шектеп, бірнеше қатарда."
+
+#~ msgid "Restricts the layout of the list of candidate words."
+#~ msgstr "Ұсынылған сөздер тізімінің орналасуын шектеңіз."

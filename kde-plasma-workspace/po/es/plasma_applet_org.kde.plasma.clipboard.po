@@ -1,0 +1,39 @@
+# Spanish translations for plasma_applet_org.kde.plasma.clipboard.po package.
+# Copyright (C) 2014-2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2021, 2023, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.clipboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2025-06-04 19:38+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.04.1\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Contenido del portapapeles"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "El portapapeles está vacío"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Borrar el historial"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Configurar el Portapapeles…"

@@ -1,0 +1,287 @@
+# SPDX-FileCopyrightText: 2026 Mint <5602mint@gmail.com>
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+# Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2022.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.systemtray\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-02-20 22:33+0900\n"
+"Last-Translator: Mint <5602mint@gmail.com>\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr ""
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "全般"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "適切なときに表示"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "常に表示"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "ポップアップでのみ表示"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "非表示 (無効化)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "アプリケーションの状態"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "コミュニケーション"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "システムサービス"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "ハードウェアコントロール"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"トレイアイコンを無効にするには、まず最初に <application>%1</application> 内の"
+"設定を確認してください。いくつかのアプリでは無効化が想定されておらず、ここで"
+"設定すると想定外の動作をするおそれがあります。<nl/><nl/>この設定は自己責任で"
+"使用ください。また、KDE やアプリ開発者に問題を報告しないでください。"
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "リスクを理解しました"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"クリップボードの無効化は非推奨です。コピー元のアプリが終了すると、コピーした"
+"データが失われるようになります。<nl/><nl/>手動でクリップボードウィジェットを"
+"設定するか、サードパーティのクリップボードアプリを使用する場合にのみ無効化し"
+"てください。または、代わりにクリップボードの履歴をオフにしたり、保存するデー"
+"タを1つに限定するなどの設定を行うことをおすすめします。"
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"通知の無効化は非推奨です。アプリが送信した通知が表示されなくなります。<nl/"
+"><nl/>手動で通知ウィジェットを設定するか、サードパーティの通知アプリを使用す"
+"る場合にのみ無効化してください。"
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "パネルの高さに合わせる"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "パネルの幅に合わせる"
+
+#: qml/ConfigGeneral.qml:213
+#, fuzzy, kde-format
+#| msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#| msgid "Panel icon size:"
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "パネルアイコンのサイズ:"
+
+#: qml/ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox Icon spacing"
+#| msgid "Small"
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "小"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "小"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "中"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "大"
+
+#: qml/ConfigGeneral.qml:269
+#, fuzzy, kde-format
+#| msgid "More actions"
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "その他のアクション"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "タッチモードで自動的に「大」に設定"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "エントリ"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "すべて常に表示"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "戻る"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "状態と通知"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "その他のアクション"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "開けたままにする"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "ポップアップでシステムトレイのすべてのアイテムを表示"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "ポップアップを閉じる"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "非表示のアイコンを表示"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "%2列に%1項目のグリッド"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AILlmyjgGJP"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "タッチモードで自動的に有効化"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "アイコン間のスペース:"

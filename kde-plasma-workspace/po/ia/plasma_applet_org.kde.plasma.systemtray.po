@@ -1,0 +1,447 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2013, 2014, 2020, 2021, 2022, 2024, 2025, 2026 Giovanni Sora <g.sora@tiscali.it>
+# giovanni <g.sora@tiscali.it>, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-05-08 12:07+0200\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "Quita %1"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "Monstrate quando relevante"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "Monstra sempre"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "Monstra solmente in popup"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "Nunquam Monstrar(dishabilitate)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "Stato de Application"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "Communicationes"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "Servicios de systema"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "Controlo Hardware"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Miscellanea"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"Cerca un preferentia in <application>%1</application> per dishabilitar su "
+"icone de tabuliero ante facer lo ci. Alcun icones de tabuliero non esseva "
+"designate per esser dishabilitate, e usar iste preferentai pote causar que "
+"lor se comporta demdo impreviste.<nl/><nl/>Usa iste preferentia a tu proprie "
+"risco e non face reporto de problemas al autor del app o de KDE."
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "Io comprende le riscos"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"Dishabilitar le area de transferentia (tabuliero) non es recommendate, "
+"proque il causara que datos copiate esserea perdite quando le application ab "
+"cuje esseva copiate  es claudite.<nl/><nl/>Tu face solmente isto si tu ha "
+"addite manualmente un widget de Clipboard (tabuliero) autonome alterubi, o "
+"tu es usante un gerente de clipboard de tertie parte. Anque, in loco "
+"considera que configurar le area de transferentia non salveguarda "
+"chronologia, o solmente memorar un elemento al vice. "
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"Dishabilitar le widget de Notificationes non es recommendate, proque "
+"notificationes inviate per apps non essera plus monstrate.<nl/><nl/>Tu face  "
+"isto solmente si tu ha addite manualmente un widget de Notificationes "
+"autonome alterubi,  o tu es usnte intentionalmente un gerente de "
+"notificationes de tertie parte permanear notificationes."
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "Scala con altessa de pannello"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "Scala con largessa de Pannello"
+
+#: qml/ConfigGeneral.qml:213
+#, kde-format
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "Dimension de Icone de pannello:"
+
+#: qml/ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "Parve"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr "Spatiar:"
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Parve"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normal"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Grande (Large)"
+
+#: qml/ConfigGeneral.qml:269
+#, kde-format
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "Direction:"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr "De basso a culmine"
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr "De culmine a basso"
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr "Sinistra a dextera"
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr "Dextera a Sinistra"
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "Automaticamente fixa a Grande (large) quando in modo de tocco (touch)"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "Entratas"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "Sempre monstra toto"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Vade retro"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Stato e Notificationes"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "Altere actiones"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "Manteni aperite"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "Monstra omne elemento in le tabuliero de systema in un popup"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "Claude popup"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Monstra icones celate"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "Grillia con %1 elementos in %2  columnas"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AILlmyjgGJP"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "Automaticamente habilitate quando in modo de tocco (Touch)"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "Spatiar de Icone de pannello:"
+
+#~ msgid "Always hidden"
+#~ msgstr "Sempre celate"
+
+#~ msgid "Disabled"
+#~ msgstr "Dishabilitate"
+
+#~ msgctxt "Name of the system tray entry"
+#~ msgid "Entry"
+#~ msgstr "Elemento"
+
+#~ msgid "Visibility"
+#~ msgstr "Visibilitate"
+
+#~ msgid "Keyboard Shortcut"
+#~ msgstr "Via Breve de Claviero"
+
+#~ msgid "Always show all entries"
+#~ msgstr "Sempre monstra omne entratas"
+
+#~ msgid "Expand System Tray"
+#~ msgstr "ExpandeTabuliero de Systema"
+
+#~ msgctxt ""
+#~ "Suffix added to the applet name if the applet is autoloaded via DBus "
+#~ "activation"
+#~ msgid "%1 (Automatic load)"
+#~ msgstr "%1 (Cargamento Automatic)"
+
+#, fuzzy
+#~| msgid "Automatic"
+#~ msgid "Auto"
+#~ msgstr "Automatic"
+
+#~ msgid "Categories"
+#~ msgstr "Categorias"
+
+#~ msgid "Extra Items"
+#~ msgstr "Extra elementos"
+
+#~ msgid "Hide icons"
+#~ msgstr "Cela icones"
+
+#~ msgid "Stat&usNotifier Testap"
+#~ msgstr "Stat&usNotifierTestap  (Notificator de stato Testap)"
+
+#~ msgid "Stat&us Notifier"
+#~ msgstr "&Gerente de notificator de stato"
+
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Log</span></p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Registro (log)</"
+#~ "span></p></body></html>"
+
+#~ msgid "<b>Status</b>"
+#~ msgstr "<b>Stato</b>"
+
+#, fuzzy
+#~| msgid " (Automatic load)"
+#~ msgid "Automatic"
+#~ msgstr " (Cargamento Automatic)"
+
+#~ msgid "Passive"
+#~ msgstr "Passive"
+
+#~ msgid "Ac&tive"
+#~ msgstr "Ac&tive"
+
+#~ msgid "&NeedsAttention"
+#~ msgstr "&NecessitaAttention"
+
+#~ msgid "<b>Icon</b>"
+#~ msgstr "<b>Icone</b>"
+
+#~ msgid "<b>ToolTip</b>"
+#~ msgstr "<b>Consilio</b>"
+
+#~ msgid "Update"
+#~ msgstr "Actualisa"
+
+#~ msgid "&Jobs"
+#~ msgstr "&Labores o Cargas"
+
+#~ msgid "<b>Job Control</b>"
+#~ msgstr "<b>Controlo de Job (labor o carga)</b>"
+
+#~ msgid "<b>Progress</b>"
+#~ msgstr "<b>Progresso</b>"
+
+#~ msgid "<b>Naming</b>"
+#~ msgstr "<b>Nominar</b>"
+
+#~ msgid "Job Started"
+#~ msgstr "Il initialva le labor o carga"
+
+#~ msgid "Pump Job"
+#~ msgstr "Pumpa labor o carga"
+
+#~ msgid "Source"
+#~ msgstr "Fonte"
+
+#~ msgid "Destination"
+#~ msgstr "Destination"
+
+#~ msgid "Testing kuiserver (%1 seconds remaining)"
+#~ msgstr "Essayante kuiserver (il ha %1 secundas remanente)"
+
+#~ msgctxt "tooltip title"
+#~ msgid "System Service Item"
+#~ msgstr "Elemento de Servicio de systema"
+
+#~ msgctxt "title"
+#~ msgid "StatusNotifierTest"
+#~ msgstr "StatusNotifierTest (Essaya de notificator de stato)"
+
+#~ msgctxt "tooltip subtitle"
+#~ msgid "Some explanation from the beach."
+#~ msgstr "Alcun explication ab le plagia."
+
+#, fuzzy
+#~| msgid "SystemTray Settings"
+#~ msgid "System Tray Options"
+#~ msgstr "Preferentias de tabuliero de systema"
+
+#~ msgid "Unknown Category"
+#~ msgstr "Categoria incognite"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Alt+S"
+#~ msgstr "Alt+S"
+
+#~ msgid "Error: Can't find plugin metadata: %1"
+#~ msgstr "Error: on non pote trovar metadatos de pluigin: %1"
+
+#~ msgid "Error loading QML file: %1"
+#~ msgstr "Error quando on cargava file QML: %1"
+
+#~ msgid "Dialog"
+#~ msgstr "Dialogo"
+
+#~ msgid "Showing info for package: %1"
+#~ msgstr "Monstrante information pro pacchetto: %1"
+
+#~ msgid "      Name : %1"
+#~ msgstr "     Nomine : %1"
+
+#~ msgid "   Comment : %1"
+#~ msgstr "  Commento: %1"
+
+#~ msgid "    Plugin : %1"
+#~ msgstr "  Plugin: %1"
+
+#~ msgid "    Author : %1"
+#~ msgstr "  Autor : %1"
+
+#~ msgid "      Path : %1"
+#~ msgstr "  Percurso: %1"

@@ -1,0 +1,56 @@
+# translation of plasma_applet_org.kde.plasma.manageinputmethod.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2021.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.manageinputmethod\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:46+0000\n"
+"PO-Revision-Date: 2023-01-22 17:03+0100\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 22.12.1\n"
+
+#: qml/main.qml:70
+#, kde-format
+msgctxt "Opens the system settings module"
+msgid "Configure Virtual Keyboards..."
+msgstr "Nastaviť virtuálne klávesnice..."
+
+#: qml/main.qml:87
+#, kde-format
+msgid "Virtual Keyboard: unavailable"
+msgstr "Virtuálna klávesnica: nedostupná"
+
+#: qml/main.qml:96
+#, kde-format
+msgid "Virtual Keyboard: disabled"
+msgstr "Virtuálna klávesnica: zakázaná"
+
+#: qml/main.qml:108
+#, kde-format
+msgid "Show Virtual Keyboard"
+msgstr "Zobraziť virtuálnu klávesnicu"
+
+#: qml/main.qml:119
+#, kde-format
+msgid "Virtual Keyboard: visible"
+msgstr "Virtuálna klávesnica: viditeľná"
+
+#: qml/main.qml:128
+#, kde-format
+msgid "Virtual Keyboard: Show on non-mouse input"
+msgstr "Virtuálna klávesnica: zobraziť pri vstupe iným než myšou"
+
+#: qml/main.qml:137
+#, kde-format
+msgid "Virtual Keyboard: Show with all input devices"
+msgstr "Virtuálna klávesnica: zobraziť so všetkými vstupnými zariadeniami"
+
+#~ msgid "Virtual Keyboard: enabled"
+#~ msgstr "Virtuálna klávesnica: povolená"

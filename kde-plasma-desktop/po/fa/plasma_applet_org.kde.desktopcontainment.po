@@ -1,0 +1,990 @@
+# translation of libkonq.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2007-07-31 19:30+0330\n"
+"Last-Translator: Nazanin Kazemi <kazemi@itland.ir>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/config/config.qml:17
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Actions"
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "کنش‌ها‌"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr ""
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "پرونده"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "نام پرونده:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "نام پرونده:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "نام پرونده:"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, fuzzy, kde-format
+#| msgid "Destination"
+msgctxt "@title:column"
+msgid "Description"
+msgstr "مقصد"
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "پوشه جدید"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, kde-format
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, kde-format
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, kde-format
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, kde-format
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, kde-format
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, kde-format
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, kde-format
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "پیش‌نمایش"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "پوشه جدید"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, fuzzy, kde-format
+#| msgid "Und&o: Rename"
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "&واگرد: تغییر نام"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "پیش‌نمایش در"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "پیش‌نمایش در"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "پیش‌نمایش در"
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, kde-format
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "پوشه جدید"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Actions"
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "کنش‌ها‌"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr "زمینه"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr "زمینه"
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Preview In"
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "پیش‌نمایش در"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr ""
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr ""
+
+#: package/contents/ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "Set as &Wallpaper"
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "تنظیم به عنوان &کاغذدیواری‌"
+
+#: plugins/folder/directorypicker.cpp:32
+#, fuzzy, kde-format
+#| msgid "New Folder"
+msgid "Select Folder"
+msgstr "پوشه جدید"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1812
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
+msgstr "&خالی کردن سطل زباله‌"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "&باز کردن‌"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, kde-format
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1926
+#, fuzzy, kde-format
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "حرکت به زباله"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "&ویژگیها‌"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Show Previews"
+msgstr "پیش‌نمایش"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr ""
+
+#, fuzzy
+#~| msgid "&Restore"
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "&بازگرداندن‌"
+
+#, fuzzy
+#~| msgid "C&ancel"
+#~ msgid "Cancel"
+#~ msgstr "&لغو‌"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "ایجاد &پوشه...‌"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "پوشه جدید"
+
+#, fuzzy
+#~| msgid "Deleting"
+#~ msgid "&Delete"
+#~ msgstr "حذف"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&خالی کردن سطل زباله‌"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "&چوب الف این صفحه‌"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "&چوب الف این مکان‌"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "&چوب الف این پوشه‌"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "&چوب الف این پیوند‌"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "&چوب الف این پرونده‌"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "&رونوشت به اینجا‌"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "حرکت به زباله"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "پوشه جدید"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "پوشه جدید"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "&رونوشت به اینجا‌"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "&حرکت به اینجا‌"
+
+#~ msgid "Share"
+#~ msgstr "مشترک"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "شما نمی‌توانید یک پوشه را به داخل خودش بیندازید"
+
+#~ msgid "File name for dropped contents:"
+#~ msgstr "نام پرونده برای محتویات انداخته‌شده:"
+
+#~ msgid "&Move Here"
+#~ msgstr "&حرکت به اینجا‌"
+
+#~ msgid "&Copy Here"
+#~ msgstr "&رونوشت به اینجا‌"
+
+#~ msgid "&Link Here"
+#~ msgstr "&پیوند به اینجا‌"
+
+#~ msgid "C&ancel"
+#~ msgstr "&لغو‌"
+
+#, fuzzy
+#~| msgid "Creating directory"
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "ایجاد فهرست راهنما"
+
+#, fuzzy
+#~| msgid "Enter folder name:"
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "نام پوشه را وارد کنید:"
+
+#, fuzzy
+#~| msgid "Creating directory"
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "ایجاد فهرست راهنما"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "پوشه جدید"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "پوشه جدید"
+
+#, fuzzy
+#~| msgid "Enter folder name:"
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "نام پوشه را وارد کنید:"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "پوشه جدید"
+
+#~ msgid "Create New"
+#~ msgstr "ایجاد جدید"
+
+#~ msgid "Link to Device"
+#~ msgstr "پیوند به دستگاه"
+
+#~ msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+#~ msgstr "<qt>پرونده قالب <b>%1</b> وجود ندارد.</qt>"
+
+#, fuzzy
+#~| msgid "&Open With"
+#~ msgctxt "@title:menu"
+#~ msgid "&Open With"
+#~ msgstr "&باز کردن با‌"
+
+#, fuzzy
+#~| msgid "&Other..."
+#~ msgctxt "@action:inmenu Open With"
+#~ msgid "&Other..."
+#~ msgstr "&غیره...‌"
+
+#, fuzzy
+#~| msgid "&Open With..."
+#~ msgctxt "@title:menu"
+#~ msgid "&Open With..."
+#~ msgstr "&باز کردن با...‌"
+
+#, fuzzy
+#~| msgid "Open with %1"
+#~ msgid "Open &with %1"
+#~ msgstr "باز کردن با %1"
+
+#~ msgid "Open in New &Window"
+#~ msgstr "باز کردن در &پنجره جدید‌"
+
+#~ msgid "Open the trash in a new window"
+#~ msgstr "باز کردن زباله در پنجره جدید"
+
+#~ msgid "Open the medium in a new window"
+#~ msgstr "باز کردن رسانه در پنجره جدید"
+
+#~ msgid "Open the document in a new window"
+#~ msgstr "باز کردن سند در پنجره جدید"
+
+#~ msgid "Directory"
+#~ msgstr "فهرست راهنما"
+
+#~ msgid "Moving"
+#~ msgstr "حرکت"
+
+#~ msgid "Source"
+#~ msgstr "مبدأ"
+
+#~ msgid "Und&o"
+#~ msgstr "&واگرد‌"
+
+#~ msgid "Und&o: Copy"
+#~ msgstr "&واگرد: رونوشت‌"
+
+#~ msgid "Und&o: Link"
+#~ msgstr "&واگرد: پیوند‌"
+
+#~ msgid "Und&o: Move"
+#~ msgstr "&واگرد: حرکت‌"
+
+#~ msgid "Und&o: Trash"
+#~ msgstr "&واگرد: زباله‌"
+
+#~ msgid "Und&o: Create Folder"
+#~ msgstr "&واگرد: ایجاد پوشه‌"
+
+#~ msgid ""
+#~ "The file %1 was copied from %2, but since then it has apparently been "
+#~ "modified at %3.\n"
+#~ "Undoing the copy will delete the file, and all modifications will be "
+#~ "lost.\n"
+#~ "Are you sure you want to delete %4?"
+#~ msgstr ""
+#~ "پرونده %1 از %2 رونوشت شد، ولی بعد از آن ظاهراً در %3 تغییر یافته است.\n"
+#~ "واگرد رونوشت پرونده را حذف می‌کند، و همه تغییرات از دست می‌روند.\n"
+#~ "مطمئنید می‌خواهید %4 را حذف کنید؟"
+
+#~ msgid "Undo File Copy Confirmation"
+#~ msgstr "واگرد تأیید رونوشت پرونده"
+
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "واقعاً می‌خواهید این %1 فقره‌ را حذف کنید؟"
+
+#~ msgid "Delete Files"
+#~ msgstr "حذف پرونده‌ها"
+
+#~ msgid "Do you really want to move this item to the trash?"
+#~ msgid_plural "Do you really want to move these %1 items to the trash?"
+#~ msgstr[0] "واقعاً می‌خواهید این %1 فقره را به زباله حرکت دهید؟"
+
+#~ msgctxt "Verb"
+#~ msgid "&Trash"
+#~ msgstr "&زباله کردن‌"
+
+#, fuzzy
+#~| msgid "Und&o"
+#~ msgid "Und&o: %1"
+#~ msgstr "&واگرد‌"
+
+#~ msgid "Background Settings"
+#~ msgstr "تنظیمات زمینه"
+
+#~ msgid "Co&lor:"
+#~ msgstr "&رنگ‌"
+
+#~ msgid "&Picture:"
+#~ msgstr "&عکس:‌"

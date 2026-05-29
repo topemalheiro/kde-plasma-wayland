@@ -1,0 +1,315 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2022, 2025, 2026 Sveinn í Felli <sv1@fellsnet.is>
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-05-06 10:21+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "Hætta í %1"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Almennt"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "Sýna þegar við á"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "Alltaf sýna"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "Sýna einungis í sprettglugga"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "Aldrei sýna (óvirkt)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "Staða forrits"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "Samskipti"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "Kerfisþjónustur"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "Stjórnun vélbúnaðar"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Ýmislegt"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"Leitaðu að stillingu í <application>%1</application> til að gera "
+"kerfisbakkatákn þess óvirkt áður en þú gerir það hér. Kerfisbakkatákn sumra "
+"forrita voru ekki hönnuð þannig að hægt sé að gera þau óvirk og ef þessi "
+"stilling er notuð getur það valdið ófyrirsjáanlegum viðbrögðum þeirra.<nl/"
+"><nl/>Notaðu þessa stillingu á eigin ábyrgð og ekki tilkynna vandamál til "
+"KDE eða þróunaraðila forritsins."
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "Ég skil áhættuna"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"Ekki er ráðlagt að slökkva á klippispjaldinu því þá glatast afrituð gögn "
+"þegar forritinu sem þau voru afrituð úr er lokað.<nl/><nl/>Gerðu þetta "
+"einungis ef þú hefur bætt handvirkt við sjálfstæðum viðmótshluta fyrir "
+"klippispjald á einhverjum öðrum stað, eða sért að nota utanaðkomandi "
+"klippispjaldsstýringu. Í staðinn gætirðu prófað að grunnstilla "
+"klippispjaldið og afvirkja ferilskráningu eða láta það muna bara eitt atriði "
+"í einu."
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"Ekki er ráðlagt að slökkva á tilkynninga-viðmótshlutanum því þá birtast ekki "
+"lengur tilkynningar frá forritum.<nl/><nl/>Gerðu þetta einungis ef þú hefur "
+"bætt handvirkt við sjálfstæðum viðmótshluta fyrir tilkynningar á einhverjum "
+"öðrum stað, eða sért að nota utanaðkomandi stýringu til að meðhöndla "
+"tilkynningar."
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "Kvarða við hæð skjástiku"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "Kvarða við breidd skjástiku"
+
+#: qml/ConfigGeneral.qml:213
+#, kde-format
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "Táknastærð á skjástiku:"
+
+#: qml/ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "Lítil"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr "Millibil:"
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Lítið"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Venjulegt"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Stórt"
+
+#: qml/ConfigGeneral.qml:269
+#, kde-format
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "Stefna:"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr "Neðan-og-upp"
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr "Ofan-og-niður"
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr "Vinstri-til-hægri"
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr "Hægri-til-vinstri"
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "Sjálfvirkt stillt á stórt þegar snertistilling er notuð"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "Færslur"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "Alltaf birta allt"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Fara til baka"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Staða og tilkynningar"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "Fleiri aðgerðir"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "Halda opnu"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "Sýna öll atriði úr kerfisbakka í sprettiglugga"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "Loka sprettiglugga"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Sýna falin tákn"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "Reitir með %1 hlutum í %2 dálkum"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AILlmyjgGJP"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "Sjálfkrafa virkjað þegar snertistilling er notuð"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "Bil milli tákna á spjaldi:"
+
+#~ msgid "Always hidden"
+#~ msgstr "Alltaf falið"
+
+#~ msgid "Disabled"
+#~ msgstr "Óvirkt"
+
+#~ msgctxt "Name of the system tray entry"
+#~ msgid "Entry"
+#~ msgstr "Færsla"
+
+#~ msgid "Visibility"
+#~ msgstr "Sýnileiki"
+
+#~ msgid "Keyboard Shortcut"
+#~ msgstr "Flýtilykill"
+
+#~ msgid "Always show all entries"
+#~ msgstr "Alltaf birta allar færslur"
+
+#~ msgid "Expand System Tray"
+#~ msgstr "Útvíkka kerfisbakka"
+
+#~ msgctxt ""
+#~ "Suffix added to the applet name if the applet is autoloaded via DBus "
+#~ "activation"
+#~ msgid "%1 (Automatic load)"
+#~ msgstr "%1 (sjálfvirk hleðsla)"

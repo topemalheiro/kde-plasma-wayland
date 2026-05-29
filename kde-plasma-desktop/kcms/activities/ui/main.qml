@@ -1,0 +1,103 @@
+/*
+ *  SPDX-FileCopyrightText: 2015 Ivan Cukic <ivan.cukic@kde.org>
+ *  SPDX-FileCopyrightText: 2023 Ismael Asensio <isma.af@gmail.com>
+ *
+ *  SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+
+import org.kde.activities as Activities
+import org.kde.kcmutils as KCM
+import org.kde.kirigami as Kirigami
+
+
+KCM.ScrollViewKCM {
+
+    implicitWidth: Kirigami.Units.gridUnit * 18
+    implicitHeight: Kirigami.Units.gridUnit * 22
+
+    KCM.ConfigModule.buttons: KCM.ConfigModule.Help
+
+    view: ListView {
+        id: activitiesList
+
+        clip: true
+
+        model: Activities.ActivityModel {
+            id: kactivities
+        }
+
+        delegate: QQC2.ItemDelegate {
+            width: ListView.view.width
+
+            onClicked: kcm.configureActivity(model.id);
+
+            contentItem: RowLayout {
+                id: row
+
+                Kirigami.Icon {
+                    id: icon
+                    height: Kirigami.Units.iconSizes.medium
+                    width: height
+                    source: model.icon
+                }
+
+                QQC2.Label {
+                    Layout.fillWidth: true
+                    text: model.name
+                    textFormat: Text.PlainText
+                }
+
+                QQC2.ToolButton {
+                    visible: kcm.isNewActivityAuthorized
+                    enabled:  activitiesList.count > 1
+                    icon.name: "edit-delete"
+                    text: i18nc("@info:tooltip", "Delete %1 activity", model.name)
+                    display: QQC2.AbstractButton.IconOnly
+                    QQC2.ToolTip.text: text
+                    QQC2.ToolTip.visible: hovered
+                    onClicked: {
+                        removePrompt.activityId = model.id;
+                        removePrompt.activityName = model.name;
+                        removePrompt.open();
+                    }
+                }
+            }
+        }
+    }
+
+    actions: Kirigami.Action {
+        visible: kcm.isNewActivityAuthorized
+        text: i18nc("@action:button Create new Activity", "Create New…")
+        icon.name: "list-add"
+        onTriggered: kcm.newActivity();
+    }
+
+    Kirigami.PromptDialog {
+        id: removePrompt
+
+        property string activityId: ""
+        property string activityName: ""
+
+        title: i18nc("@title:window", "Delete Activity")
+        subtitle: i18nc("%1 is an activity name",
+                         "Do you want to delete activity '%1'?", activityName)
+
+        dialogType: Kirigami.PromptDialog.Warning
+
+        standardButtons: Kirigami.Dialog.Cancel
+        customFooterActions: [
+            Kirigami.Action {
+                text: i18nc("@action:button in dialog confirms deletion","Delete Activity")
+                icon.name: "edit-delete"
+                onTriggered: {
+                    kcm.deleteActivity(removePrompt.activityId)
+                    removePrompt.close()
+                }
+            }
+        ]
+    }
+}

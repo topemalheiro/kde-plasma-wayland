@@ -1,0 +1,975 @@
+# Uyghur translation for plasma_applet_tasks.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2026-02-01 17:58-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: backend.cpp:288
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "باشقا %1 بوشلۇق…"
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Downloads"
+msgstr "يېقىنقى چۈشۈرۈلمە"
+
+#: backend.cpp:374
+#, kde-format
+msgid "Recent Connections"
+msgstr "يېقىنقى باغلىنىش"
+
+#: backend.cpp:376
+#, kde-format
+msgid "Recent Places"
+msgstr "يېقىنقى ئورۇن"
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "يېقىنقى چۈشۈرۈلمىنى ئۇنتۇ"
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "يېقىنقى باغلىنىشنى ئۇنتۇ"
+
+#: backend.cpp:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "يېقىنقى ئورۇننى ئۇنتۇ"
+
+#: backend.cpp:391
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "يېقىنقى ھۆججەتنى ئۇنتۇ"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "ئۈنلۈك"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "ئۈنسىز"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "%1 ئۈنلۈك"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "%1 ئۈنسىز"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr "قىياپەت"
+
+#: qml/config.qml:18
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Behavior"
+msgstr "قىلمىش"
+
+#: qml/ConfigAppearance.qml:49
+#, kde-format
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "ئادەتتىكى:"
+
+#: qml/ConfigAppearance.qml:50
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr ""
+"نىشانلىغۇچنى ۋەزىپە سىنبەلگىسىنىڭ ئۈستىگە توغرىلىغاندا كىچىك كۆزنەك ئالدىن "
+"كۆزىتىشىنى كۆرسىتىدۇ"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr ""
+"نىشانلىغۇچنى كۆزنەك ئالدىن كۆزىتىشنىڭ ئۈستىگە توغرىلىغاندا باشقا كۆزنەكنى "
+"يوشۇرىدۇ"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over tooltips"
+msgstr ""
+"نىشانلىغۇچنى قورال كۆرسەتكۈچىنىڭ ئۈستىگە توغرىلىغاندا باشقا كۆزنەكنى يوشۇرىدۇ"
+
+#: qml/ConfigAppearance.qml:60
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr "ۋەزىپە ئۈن ياڭرىتىۋاتقاندا كۆرسەتكۈچنى كۆرسىتىدۇ"
+
+#: qml/ConfigAppearance.qml:70
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr "كۆرسەتكۈچ چېكىلگەندە ۋەزىپىنى ئۈنسىزلەيدۇ"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr "قورال كۆرسەتكۈچتە ۋاسىتە ۋە ئاۋاز تىزگىنىنى كۆرسىتىدۇ"
+
+#: qml/ConfigAppearance.qml:86
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "كۆزنەكچىدىكى ئەركىن بوشلۇقنى تولدۇرىدۇ"
+
+#: qml/ConfigAppearance.qml:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "ئەڭ چوڭ ۋەزىپە كەڭلىكى:"
+
+#: qml/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr "تار"
+
+#: qml/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr "ئوتتۇراھال"
+
+#: qml/ConfigAppearance.qml:103
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr "كەڭ"
+
+#: qml/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr "كۆپ رەت كۆرۈنۈش ئىشلىتىدۇ:"
+
+#: qml/ConfigAppearance.qml:115
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr "كۆپ قۇر كۆرۈنۈش ئىشلىتىدۇ:"
+
+#: qml/ConfigAppearance.qml:121
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr "ھەرگىز"
+
+#: qml/ConfigAppearance.qml:131
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr "كۆزنەكچە ئېگىزلىكى يېتەرلىك ئەمما بوشلۇق يېتىشمىگەندە"
+
+#: qml/ConfigAppearance.qml:141
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "كۆزنەكچە ئېگىزلىكى يېتەرلىك بولغاندا ھەمىشە"
+
+#: qml/ConfigAppearance.qml:148
+#, kde-format
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "ئەڭ كۆپ رەت سانى:"
+
+#: qml/ConfigAppearance.qml:149
+#, kde-format
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "ئەڭ كۆپ قۇر سانى:"
+
+#: qml/ConfigAppearance.qml:159
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "سىنبەلگە ئارىسىدىكى بوشلۇق:"
+
+#: qml/ConfigAppearance.qml:163
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "كىچىك"
+
+#: qml/ConfigAppearance.qml:167
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "ئادەتتىكى"
+
+#: qml/ConfigAppearance.qml:171
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "چوڭ"
+
+#: qml/ConfigBehavior.qml:50
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+"ئەگەر بۇ تەڭشەكنى ئىشلىتىپ مەلۇم بىر پىروگراممىنىڭ دائىم قاڭقىش ئۇقتۇرۇشى "
+"كۆرسىتىش ئەھۋالىنى ھەل قىلماقچى بولسىڭىز، ئالدى بىلەن پىروگراممىدا قاڭقىش "
+"قىلمىشىنى چەكلەيدىغان مۇناسىپ تەڭشەكنىڭ بار يوقلۇقىنى تەكشۈرۈڭ. ئەگەر "
+"تاپالمىسىڭىز، بۇ مەسىلىنى پىروگرامما كەمتۈكلۈكى سۈپىتىدە پىروگرامما "
+"ئىجادكارىغا مەلۇم قىلىڭ."
+
+#: qml/ConfigBehavior.qml:66
+#, kde-format
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "گۇرۇپپا:"
+
+#: qml/ConfigBehavior.qml:70
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "گۇرۇپپىلىما"
+
+#: qml/ConfigBehavior.qml:71
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "پىروگرامما ئاتى بويىچە"
+
+#: qml/ConfigBehavior.qml:77
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "گۇرۇپپىلانغان ۋەزىپە چېكىلگەندە:"
+
+#: qml/ConfigBehavior.qml:84
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr "ۋەزىپىنى دەۋرىي ئالماشتۇرىدۇ"
+
+#: qml/ConfigBehavior.qml:85
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr "كىچىك كۆزنەك ئالدىن كۆزىتىشىنى كۆرسىتىدۇ"
+
+#: qml/ConfigBehavior.qml:86
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr "چوڭ كۆزنەك ئالدىن كۆزىتىشىنى كۆرسىتىدۇ"
+
+#: qml/ConfigBehavior.qml:87
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr "تېكىست تىزىمىنى كۆرسىتىدۇ"
+
+#: qml/ConfigBehavior.qml:98
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+"بىرىكتۈرگۈچ كۆزنەكنى يانمۇيان كۆرسىتىشنى قوللىمايدۇ، شۇڭا ئۇنىڭ ئورنىغا "
+"تېكىست تىزىمىنى كۆرسىتىدۇ."
+
+#: qml/ConfigBehavior.qml:108
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "يەككە توپچىغا بىرلەشتۈرىدۇ"
+
+#: qml/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "پەقەت ۋەزىپە باشقۇرغۇچ توشقاندا ئاندىن گۇرۇپپىلايدۇ"
+
+#: qml/ConfigBehavior.qml:127
+#, kde-format
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "تەرتىپ:"
+
+#: qml/ConfigBehavior.qml:134
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "تەرتىپلىمە"
+
+#: qml/ConfigBehavior.qml:138
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "قولدا"
+
+#: qml/ConfigBehavior.qml:142
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "ئېلىپبە تەرتىپى بويىچە"
+
+#: qml/ConfigBehavior.qml:146
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "ئۈستەلئۈستى بويىچە"
+
+#: qml/ConfigBehavior.qml:150
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "پائالىيەت بويىچە"
+
+#: qml/ConfigBehavior.qml:154
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr "توغرىسىغا كۆزنەك ئورنى بويىچە"
+
+#: qml/ConfigBehavior.qml:165
+#, kde-format
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "قوزغاتقۇچتا ئايرىشنى ساقلاپ قالىدۇ"
+
+#: qml/ConfigBehavior.qml:172
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr "پىروگرامما قوزغىتىلغاندا قوزغاتقۇچنى يوشۇرىدۇ"
+
+#: qml/ConfigBehavior.qml:182
+#, kde-format
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr "ئاكتىپ ۋەزىپە چېكىلگەندە:"
+
+#: qml/ConfigBehavior.qml:183
+#, kde-format
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "ۋەزىپىنى كىچىكلىتىدۇ"
+
+#: qml/ConfigBehavior.qml:188
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "خالىغان ۋەزىپە ئوتتۇرا چېكىلگەندە:"
+
+#: qml/ConfigBehavior.qml:192
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "ھېچقانداق قىلما"
+
+#: qml/ConfigBehavior.qml:193
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr "كۆزنەك ياكى گۇرۇپپىنى ياپىدۇ"
+
+#: qml/ConfigBehavior.qml:194
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr "يېڭى كۆزنەك ئاچىدۇ"
+
+#: qml/ConfigBehavior.qml:195
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "كۆزنەك ياكى گۇرۇپپىنى كىچىكلىتىدۇ/ئەسلىگە كەلتۈرىدۇ"
+
+#: qml/ConfigBehavior.qml:196
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr "گۇرۇپپىلاشنى ئالماشتۇرىدۇ"
+
+#: qml/ConfigBehavior.qml:197
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "ئۇنى نۆۋەتتىكى مەۋھۇم ئۈستەلئۈستىگە يۆتكەيدۇ"
+
+#: qml/ConfigBehavior.qml:207
+#, kde-format
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows/adjusts the hovered "
+"task’s volume''"
+msgid "Scrolling behavior:"
+msgstr "سىيرىش قىلمىشى:"
+
+#: qml/ConfigBehavior.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "ھېچقانداق قىلما"
+
+#: qml/ConfigBehavior.qml:212
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr "بارلىق ۋەزىپىنى دەۋرىي ئالماشتۇرىدۇ"
+
+#: qml/ConfigBehavior.qml:213
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr "نىشانلىغۇچ توغرىلانغان ۋەزىپە كۆزنىكىنى دەۋرىي ئالماشتۇرىدۇ"
+
+#: qml/ConfigBehavior.qml:214
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered "
+"task’s volume'"
+msgid "Adjusts the hovered task’s volume"
+msgstr "نىشانلىغۇچ توغرىلانغان ۋەزىپە ئاۋازىنى تەڭشەيدۇ"
+
+#: qml/ConfigBehavior.qml:222
+#, kde-format
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "كىچىكلىتىلگەن ۋەزىپىدىن ئاتلايدۇ"
+
+#: qml/ConfigBehavior.qml:232
+#, kde-format
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "ۋەزىپىنىلا كۆرسىتىدۇ:"
+
+#: qml/ConfigBehavior.qml:233
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr "نۆۋەتتىكى ئۈستەلئۈستىدىن"
+
+#: qml/ConfigBehavior.qml:238
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr "نۆۋەتتىكى پائالىيەتتىن"
+
+#: qml/ConfigBehavior.qml:243
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr "نۆۋەتتىكى ئېكراندىن"
+
+#: qml/ConfigBehavior.qml:248
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "كىچىكلىتىلگەن"
+
+#: qml/ConfigBehavior.qml:257
+#, kde-format
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "كۆزنەكچە يوشۇرۇلغاندا:"
+
+#: qml/ConfigBehavior.qml:258
+#, kde-format
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "كۆزنەككە دىققەت قىلىش ئىلتىماسى بولسا يوشۇرمايدۇ"
+
+#: qml/ConfigBehavior.qml:273
+#, kde-format
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "يېڭى ۋەزىپە كۆرۈنۈش ئورنى:"
+
+#: qml/ConfigBehavior.qml:277
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "ئاستىدا"
+
+#: qml/ConfigBehavior.qml:281 qml/ConfigBehavior.qml:300
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "ئوڭغا"
+
+#: qml/ConfigBehavior.qml:283 qml/ConfigBehavior.qml:298
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "سولغا"
+
+#: qml/ConfigBehavior.qml:294
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "چوققىدا"
+
+#: qml/ContextMenu.qml:100
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr "ئورۇن"
+
+#: qml/ContextMenu.qml:106
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr "يېقىنقى ھۆججەت"
+
+#: qml/ContextMenu.qml:116
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr "مەشغۇلات"
+
+#: qml/ContextMenu.qml:163
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "ئالدىنقى نەغمە"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "ۋاقىتلىق توختا"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "ياڭرات"
+
+#: qml/ContextMenu.qml:195
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "كېيىنكى نەغمە"
+
+#: qml/ContextMenu.qml:206
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "توختا"
+
+#: qml/ContextMenu.qml:226
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "چىكىن"
+
+#: qml/ContextMenu.qml:241
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "ئەسلىگە كەلتۈر"
+
+#: qml/ContextMenu.qml:266
+#, kde-format
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr "ئۈنسىز"
+
+#: qml/ContextMenu.qml:277
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Open New Window"
+msgstr "يېڭى كۆزنەك ئاچ"
+
+#: qml/ContextMenu.qml:293
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr "ئۈستەلئۈستىگە يۆتكە(&D)"
+
+#: qml/ContextMenu.qml:323
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move &To Current Desktop"
+msgstr "نۆۋەتتىكى ئۈستەلئۈستىگە يۆتكە(&T)"
+
+#: qml/ContextMenu.qml:332
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&All Desktops"
+msgstr "بارلىق ئۈستەلئۈستى(&A)"
+
+#: qml/ContextMenu.qml:360
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&New Desktop"
+msgstr "يېڭى ئۈستەلئۈستى(&N)"
+
+#: qml/ContextMenu.qml:380
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr "پائالىيەتتە كۆرسەت(&A)"
+
+#: qml/ContextMenu.qml:404
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Add To Current Activity"
+msgstr "نۆۋەتتىكى پائالىيەتكە قوش"
+
+#: qml/ContextMenu.qml:414
+#, kde-format
+msgctxt "action:inmenu"
+msgid "All Activities"
+msgstr "ھەممە پائالىيەت"
+
+#: qml/ContextMenu.qml:470
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to %1"
+msgstr "%1 غا يۆتكە"
+
+#: qml/ContextMenu.qml:496 qml/ContextMenu.qml:512
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Pin to Task Manager"
+msgstr "ۋەزىپە باشقۇرغۇچقا مىخلا(&P)"
+
+#: qml/ContextMenu.qml:564
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On All Activities"
+msgstr "ھەممە پائالىيەتتە"
+
+#: qml/ContextMenu.qml:570
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On The Current Activity"
+msgstr "نۆۋەتتىكى پائالىيەتتە"
+
+#: qml/ContextMenu.qml:594
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr "ۋەزىپە باشقۇرغۇچتىن قومۇر"
+
+#: qml/ContextMenu.qml:609
+#, kde-format
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr "تېخىمۇ كۆپ"
+
+#: qml/ContextMenu.qml:618
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Move"
+msgstr "يۆتكە(&M)"
+
+#: qml/ContextMenu.qml:627
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Re&size"
+msgstr "چوڭلۇقىنى ئۆزگەرت(&S)"
+
+#: qml/ContextMenu.qml:641
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Ma&ximize"
+msgstr "چوڭايت(&X)"
+
+#: qml/ContextMenu.qml:655
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Mi&nimize"
+msgstr "كىچىكلەت(&N)"
+
+#: qml/ContextMenu.qml:665
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Above Others"
+msgstr "ئەڭ ئۈستىدە(&A)"
+
+#: qml/ContextMenu.qml:675
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Below Others"
+msgstr "ئەڭ ئاستىدا(&B)"
+
+#: qml/ContextMenu.qml:687
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Fullscreen"
+msgstr "پۈتۈن ئېكران(&F)"
+
+#: qml/ContextMenu.qml:700
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Shade"
+msgstr "يىغ(&S)"
+
+#: qml/ContextMenu.qml:712
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr "ماۋزۇ بالداق ۋە كاندۇك يوق(&N)"
+
+#: qml/ContextMenu.qml:725
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Hide from Screencast"
+msgstr "ئېكران تارقىتىشتىن يوشۇر(&H)"
+
+#: qml/ContextMenu.qml:741
+#, kde-format
+msgctxt "@option:check inmenu"
+msgid "Allow this program to be grouped"
+msgstr "بۇ پىروگراممىنى گۇرۇپپىلاشقا يول قويىدۇ"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close All"
+msgstr "ھەممىنى ياپ(&C)"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close"
+msgstr "ياپ(&C)"
+
+#: qml/Task.qml:157
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "%1 نى قوزغات"
+
+#: qml/Task.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "%1 يېڭى ئۇچۇر بار."
+
+#: qml/Task.qml:170
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "%1 نىڭ ۋەزىپە قورال كۆرسەتكۈچىنى كۆرسىتىدۇ"
+
+#: qml/Task.qml:174
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "%1 نىڭ كۆزنىكىنى يانمۇيان كۆرسىتىدۇ"
+
+#: qml/Task.qml:179
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "%1 كۆزنەكنىڭ تېكىست تىزىمىنى ئاچىدۇ"
+
+#: qml/Task.qml:183
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Activate %1"
+msgstr "«%1» نى ئاكتىپلا"
+
+#: qml/TaskBadgeOverlay.qml:95
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: qml/ToolTipInstance.qml:201
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr "كۆزنەك ياپ"
+
+#: qml/ToolTipInstance.qml:471
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "%1 ئۈنلۈك"
+
+#: qml/ToolTipInstance.qml:472
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "%1 ئۈنسىز"
+
+#: qml/ToolTipInstance.qml:490
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "%1 نىڭ ئاۋاز تەڭشىكى"
+
+#: qml/ToolTipInstance.qml:506
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: qml/ToolTipInstance.qml:510
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: qml/ToolTipInstance.qml:526
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "%1 دىكى"
+
+#: qml/ToolTipInstance.qml:529
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "ھەممە ئۈستەلئۈستىگە مىخلاندى"
+
+#: qml/ToolTipInstance.qml:535
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "ھەممە پائالىيەتتە ئىشلەتكىلى بولىدۇ"
+
+#: qml/ToolTipInstance.qml:545
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "يەنە %1 دىمۇ ئىشلەتكىلى بولىدۇ"
+
+#: qml/ToolTipInstance.qml:549
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "%1 دا ئىشلەتكىلى بولىدۇ"
+
+#~ msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+#~ msgid "Automatically set to Large when in Touch mode"
+#~ msgstr "تەگكۈزۈش ھالىتىدە ئۆزلۈكىدىن چوڭ قىلىپ تەڭشەيدۇ"
+
+#~ msgctxt "Invalid number of new messages, overlay, keep short"
+#~ msgid "—"
+#~ msgstr "—"
+
+#~| msgid "By Desktop"
+#~ msgctxt "1 = number of desktop, 2 = desktop name"
+#~ msgid "&%1 %2"
+#~ msgstr "ئۈستەلئۈستى بويىچە"
+
+#~ msgid "Show tooltips"
+#~ msgstr "ئەسكەرتمىلەرنى كۆرسەت"
+
+#~| msgid "Grouping:"
+#~ msgctxt "When clicking it would toggle grouping windows of a specific app"
+#~ msgid "Group/Ungroup"
+#~ msgstr "گۇرۇپپىلاش:"
+
+#~| msgid "Filters"
+#~ msgid "Filter:"
+#~ msgstr "سۈزگۈچ"
+
+#~| msgid "Only show tasks from the current desktop"
+#~ msgid "Show only tasks from the current desktop"
+#~ msgstr "نۆۋەتتىكى ئۈستەلئۈستىدىكى ۋەزىپىنىلا كۆرسەت"
+
+#~ msgid "Highlight windows"
+#~ msgstr "كۆزنەكنى يورۇت"
+
+#~ msgid "Grouping and Sorting"
+#~ msgstr "گۇرۇپپىلاش ۋە تەرتىپلەش"
+
+#~ msgid "Do Not Sort"
+#~ msgstr "تەرتىپلىمە"
+
+#~ msgid "Force row settings"
+#~ msgstr "مەجبۇرىي قۇر تەڭشىكى"
+
+#~ msgid "Collapse Group"
+#~ msgstr "گۇرۇپپا قاتلا"
+
+#~ msgid "Expand Group"
+#~ msgstr "گۇرۇپپا ياي"
+
+#~ msgid "Edit Group"
+#~ msgstr "گۇرۇپپا تەھرىر"
+
+#~ msgid "New Group Name: "
+#~ msgstr "يېڭى گۇرۇپپا ئاتى "
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "ئاتا گۇرۇپپا قاتلا"

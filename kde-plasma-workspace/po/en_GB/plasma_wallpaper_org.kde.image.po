@@ -1,0 +1,465 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Steve Allewell <steve.allewell@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-06 00:47+0000\n"
+"PO-Revision-Date: 2024-09-07 12:02+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Steve Allewell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "steve.allewell@gmail.com"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Open Image"
+
+#: imagepackage/contents/ui/AddFileDialog.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Directory with the wallpaper to show slides from"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Positioning:"
+msgstr "Positioning:"
+
+#: imagepackage/contents/ui/config.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled and cropped"
+msgstr "Scaled and cropped"
+
+#: imagepackage/contents/ui/config.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled"
+msgstr "Scaled"
+
+#: imagepackage/contents/ui/config.qml:167
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Scaled, keep proportions"
+msgstr "Scaled, keep proportions"
+
+#: imagepackage/contents/ui/config.qml:171
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Centered"
+msgstr "Centred"
+
+#: imagepackage/contents/ui/config.qml:199
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Set as Wallpaper"
+msgctxt ""
+"@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
+msgid "Switch dynamic wallpapers:"
+msgstr "Set as Wallpaper"
+
+#: imagepackage/contents/ui/config.qml:207
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on whether the Plasma style is light or dark "
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:217
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use dark variant"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:231
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:242
+#, kde-format
+msgid "Background:"
+msgstr "Background:"
+
+#: imagepackage/contents/ui/config.qml:243
+#, kde-format
+msgid "Blur"
+msgstr "Blur"
+
+#: imagepackage/contents/ui/config.qml:252
+#, kde-format
+msgid "Solid color"
+msgstr "Solid colour"
+
+#: imagepackage/contents/ui/config.qml:263
+#, kde-format
+msgid "Select Background Color"
+msgstr "Select Background Colour"
+
+#: imagepackage/contents/ui/main.qml:37
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Open Wallpaper Image"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
+#, kde-format
+msgid "Images"
+msgstr "Images"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
+#, kde-format
+msgctxt "@action:button the thing being added is an image file"
+msgid "Add…"
+msgstr "Add…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Wallpaper Image…"
+msgstr "Add Wallpaper Image…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
+#, kde-format
+msgctxt "@action:button the new things being gotten are wallpapers"
+msgid "Get New…"
+msgstr "Get New…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Wallpaper Images…"
+msgstr "Get New Wallpaper Images…"
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
+#, kde-format
+msgctxt "@action:button the things being selected are wallpapers"
+msgid "Select All"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All Slides"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
+#, kde-format
+msgctxt "@action:button the things being unselected are wallpapers"
+msgid "Select None"
+msgstr ""
+
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All Slides"
+msgstr ""
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Open Containing Folder"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Restore wallpaper"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Remove Wallpaper"
+
+#: plasma-apply-wallpaperimage.cpp:28
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+
+#: plasma-apply-wallpaperimage.cpp:30
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+
+#: plasma-apply-wallpaperimage.cpp:33
+#, kde-format
+msgid "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+msgstr "Specify the fill mode (e.g., stretch, preserveAspectCrop, etc.)"
+
+#: plasma-apply-wallpaperimage.cpp:58
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+
+#: plasma-apply-wallpaperimage.cpp:96
+#, kde-format
+msgid "Invalid fill mode specified: %1"
+msgstr "Invalid fill mode specified: %1"
+
+#: plasma-apply-wallpaperimage.cpp:112
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "An error occurred while attempting to set the Plasma wallpaper:\n"
+
+#: plasma-apply-wallpaperimage.cpp:116
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+
+#: plasma-apply-wallpaperimage.cpp:118
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr "Successfully set the wallpaper for all desktops to the image %1"
+
+#: plasma-apply-wallpaperimage.cpp:125
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+
+#: plugin/imagebackend.cpp:42
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Next Wallpaper Image"
+
+#. i18n people, this isn't a "word puzzle". there is a specific string format for QFileDialog::setNameFilters
+#: plugin/imagebackend.cpp:384
+#, kde-format
+msgid "Media Files"
+msgstr "Media Files"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
+#, kde-format
+msgid "Order:"
+msgstr "Order:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
+#, kde-format
+msgid "Random"
+msgstr "Random"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
+#, kde-format
+msgid "A to Z"
+msgstr "A to Z"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
+#, kde-format
+msgid "Z to A"
+msgstr "Z to A"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Date modified (newest first)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Date modified (oldest first)"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
+#, kde-format
+msgid "Group by folders"
+msgstr "Group by folders"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
+#, kde-format
+msgid "Change every:"
+msgstr "Change every:"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 hour"
+msgstr[1] "%1 hours"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minute"
+msgstr[1] "%1 minutes"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 second"
+msgstr[1] "%1 seconds"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
+#, kde-format
+msgid "Folders"
+msgstr "Folders"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
+#, kde-format
+msgctxt "@action button the thing being added is a folder"
+msgid "Add…"
+msgstr "Add…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "Add Folder…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
+#, kde-format
+msgid "Remove Folder"
+msgstr "Remove Folder"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
+#, kde-format
+msgid "Open Folder…"
+msgstr "Open Folder…"
+
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "There are no wallpaper locations configured"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set as Wallpaper"
+msgstr "Set as Wallpaper"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Set as Desktop Wallpaper"
+msgid "Desktop"
+msgstr "Desktop"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Set as Lockscreen Wallpaper"
+msgid "Lockscreen"
+msgstr "Lockscreen"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Set as both lockscreen and Desktop Wallpaper"
+msgid "Both"
+msgstr "Both"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:95
+#, kde-kuit-format
+msgctxt "@info %1 is the dbus error message"
+msgid "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+msgstr "An error occurred while attempting to set the Plasma wallpaper:<nl/>%1"
+
+#: wallpaperfileitemactionplugin/wallpaperfileitemaction.cpp:108
+#, kde-format
+msgid "An error occurred while attempting to open kscreenlockerrc config file."
+msgstr ""
+"An error occurred while attempting to open kscreenlockerrc configuration "
+"file."
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "Tiled"
+
+#, fuzzy
+#~| msgid "Open Image"
+#~ msgctxt "@title:window"
+#~ msgid "Open Media"
+#~ msgstr "Open Image"
+
+#~ msgid "Add Image…"
+#~ msgstr "Add Image…"
+
+#~ msgid "Recommended wallpaper file"
+#~ msgstr "Recommended wallpaper file"
+
+#~ msgid "There are no wallpapers in this slideshow"
+#~ msgstr "There are no wallpapers in this slideshow"
+
+#~ msgid "Add Custom Wallpaper"
+#~ msgstr "Add Custom Wallpaper"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "Remove wallpaper"
+
+#~ msgid "%1 by %2"
+#~ msgstr "%1 by %2"
+
+#, fuzzy
+#~| msgid "Remove Wallpaper"
+#~ msgid "Wallpapers"
+#~ msgstr "Remove Wallpaper"
+
+#~ msgctxt "<image> by <author>"
+#~ msgid "By %1"
+#~ msgstr "By %1"
+
+#~ msgid "Download Wallpapers"
+#~ msgstr "Download Wallpapers"
+
+#~ msgid "Hours"
+#~ msgstr "Hours"
+
+#~ msgid "Open..."
+#~ msgstr "Open..."
+
+#~ msgctxt "Unknown Author"
+#~ msgid "Unknown"
+#~ msgstr "Unknown"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
+#~ msgstr "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz *.xcf)"
+
+#~ msgid "Screenshot"
+#~ msgstr "Screenshot"
+
+#~ msgid "Preview"
+#~ msgstr "Preview"

@@ -1,0 +1,281 @@
+# translation of kcminput.po to Occitan (lengadocian)
+# Occitan translation of kcminput.po
+#
+# Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org> - 2006-2007
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-08 00:48+0000\n"
+"PO-Revision-Date: 2008-08-05 22:26+0200\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan (lengadocian) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: backends/kwin_wl/kwin_wl_backend.cpp:44
+#, kde-format
+msgid "Critical error on reading fundamental device infos of %1."
+msgstr ""
+
+#: kcm.cpp:87
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:143
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+
+#: kcm.cpp:146
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr ""
+
+#: kcm.cpp:155
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+
+#: kcm.cpp:173
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+
+#: kcm.cpp:188
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+
+#: kcm.cpp:201
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr ""
+
+#: kcm.cpp:203
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr ""
+
+#: ui/bindings.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Extra Mouse Buttons"
+msgstr ""
+
+#: ui/bindings.qml:77
+#, kde-format
+msgctxt "@label for assigning an action to a numbered button"
+msgid "Extra Button %1:"
+msgstr ""
+
+#: ui/bindings.qml:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Press the mouse button for which you want to add a key binding"
+msgstr ""
+
+#: ui/bindings.qml:108
+#, kde-format
+msgctxt "@action:button, %1 is the translation of 'Extra Button %1' from above"
+msgid "Enter the new key combination for %1"
+msgstr ""
+
+#: ui/bindings.qml:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#: ui/bindings.qml:130
+#, kde-format
+msgctxt "@action:button"
+msgid "Press a mouse button"
+msgstr ""
+
+#: ui/bindings.qml:131
+#, kde-format
+msgctxt "@action:button, Bind a mousebutton to keyboard key(s)"
+msgid "Add Binding…"
+msgstr ""
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Extra Buttons…"
+msgstr ""
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@title:listbox select device"
+msgid "Device:"
+msgstr ""
+
+#: ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&General"
+msgctxt "@title:group"
+msgid "General:"
+msgstr "&General"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@option:check enable this mouse device"
+msgid "Enable device"
+msgstr ""
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr ""
+
+#: ui/main.qml:108
+#, kde-format
+msgctxt "@option:check Left and right buttons"
+msgid "Swap (left-handed mode)"
+msgstr ""
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr ""
+
+#: ui/main.qml:135
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr ""
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr ""
+
+#: ui/main.qml:239
+#, kde-format
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+
+#: ui/main.qml:249
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Scrolling speed:"
+msgstr ""
+
+#: ui/main.qml:300
+#, kde-format
+msgctxt "Slower Scroll"
+msgid "Slower"
+msgstr ""
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "Faster Scroll Speed"
+msgid "Faster"
+msgstr ""
+
+#: ui/main.qml:319
+#, kde-format
+msgctxt "@title:group"
+msgid "Scrolling:"
+msgstr ""
+
+#: ui/main.qml:320
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction"
+msgstr ""
+
+#: ui/main.qml:335
+#, kde-format
+msgctxt "@option:check"
+msgid "Hold down middle button and move mouse to scroll"
+msgstr ""
+
+#: ui/main.qml:347
+#, kde-format
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid ""
+"This will interfere with applications that use middle-button drag, such as "
+"some image editors, document viewers, or video games. It may be used on any "
+"device, but is intended primarily as a substitute for scroll wheels on "
+"devices that do not have any."
+msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Yannig Marchegay (Kokoyaya)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "yannig@marchegay.org"
+
+#~ msgid "&General"
+#~ msgstr "&General"
+
+#~ msgid "Advanced"
+#~ msgstr "A_vançat"
+
+#~ msgid "Mouse"
+#~ msgstr "Mirga"
+
+#~ msgid "David Faure"
+#~ msgstr "David Faure"
+
+#~ msgid "Icons"
+#~ msgstr "Icònas"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Description"
+#~ msgstr "Descripcion"
+
+#~ msgid "Mouse type: %1"
+#~ msgstr "Type de souris : %1"
+
+#, fuzzy
+#~| msgid "none"
+#~ msgctxt "no cordless mouse"
+#~ msgid "none"
+#~ msgstr "pas cap"
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmacion"
+
+#~ msgid "No description available"
+#~ msgstr "Pas cap de descripcion es disponibla"
+
+#~ msgid "Short"
+#~ msgstr "Cort"
+
+#~ msgid "Long"
+#~ msgstr "Long"

@@ -1,0 +1,290 @@
+# Albanian translation for kdebase-workspace
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the kdebase-workspace package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# Agron Selimaj <as9902613@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-27 00:47+0000\n"
+"PO-Revision-Date: 2021-03-19 18:55-0400\n"
+"Last-Translator: Agron Selimaj <as9902613@gmail.com>\n"
+"Language-Team: kdeshqip\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-06 00:17+0000\n"
+"X-Generator: Lokalize 20.12.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: label, entry (name), group (Theme)
+#: desktopthemesettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgid "Name of the current Plasma Style"
+msgstr "Emri i Temës"
+
+#: kcm.cpp:111
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcm.cpp:122
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr ""
+
+#: kcm.cpp:147
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcm.cpp:150 kcm.cpp:156
+#, kde-format
+msgid "Theme installation failed."
+msgstr ""
+
+#: kcm.cpp:250
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:33
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:37
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:38
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:55
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:76
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:78
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:86
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
+msgstr ""
+
+#: ui/main.qml:101
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:102
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr ""
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr ""
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Install from File…"
+msgstr ""
+
+#: ui/main.qml:119
+#, kde-format
+msgid "Get New…"
+msgstr ""
+
+#: ui/main.qml:132
+#, kde-format
+msgid "Follows color scheme"
+msgstr ""
+
+#: ui/main.qml:150
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgid "Edit Theme…"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:160
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr ""
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr ""
+
+#: ui/main.qml:189
+#, fuzzy, kde-format
+#| msgid "Theme Name"
+msgid "Open Theme"
+msgstr "Emri i Temës"
+
+#: ui/main.qml:191
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr ""
+
+#~ msgid "Remove Theme"
+#~ msgstr "Hiqe Temën"
+
+#, fuzzy
+#~| msgid "Remove Theme"
+#~ msgid "Restore Theme"
+#~ msgstr "Hiqe Temën"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "Get New Plasma Styles…"
+#~ msgstr "Emri i Temës"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE Shqip, Launchpad Contributions: Vilson Gjeci"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-i18n-sq@kde.org,vilsongjeci@gmail.com"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "Plasma Styles"
+#~ msgstr "Emri i Temës"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "Download New Plasma Styles"
+#~ msgstr "Emri i Temës"
+
+#~ msgctxt "plasma name"
+#~ msgid "Kickoff"
+#~ msgstr "Kickoff"
+
+#~ msgctxt "plasma name"
+#~ msgid "Analog Clock"
+#~ msgstr "Orë Analoge"
+
+#~ msgctxt "plasma name"
+#~ msgid "Notes"
+#~ msgstr "Shënimet"
+
+#~ msgctxt "plasma name"
+#~ msgid "Tooltip"
+#~ msgstr "Këshillë"
+
+#~ msgctxt "plasma name"
+#~ msgid "Pager"
+#~ msgstr "Faques"
+
+#~ msgid "Source"
+#~ msgstr "Burimi"
+
+#, fuzzy
+#~| msgid "%1 %2"
+#~ msgctxt ""
+#~ "%1 is the name of the theme, %2 is the type of the element (background, "
+#~ "icon, note, etc)"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "File..."
+#~ msgstr "Skedari..."
+
+#~ msgid "Version: %1"
+#~ msgstr "Versioni: %1"
+
+#~ msgid "More"
+#~ msgstr "Më tepër"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "New theme name:"
+#~ msgstr "Emri i Temës"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "Custom theme name"
+#~ msgstr "Emri i Temës"
+
+#~ msgid "Author:"
+#~ msgstr "Autori:"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid "Custom theme author "
+#~ msgstr "Autori:"
+
+#~ msgid "Version:"
+#~ msgstr "Versioni:"
+
+#~ msgid "Description:"
+#~ msgstr "Përshkrimi:"
+
+#, fuzzy
+#~| msgid "Author:"
+#~ msgid "Theme Author"
+#~ msgstr "Autori:"
+
+#~ msgid "Theme Name"
+#~ msgstr "Emri i Temës"
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid "Theme Version"
+#~ msgstr "Versioni:"

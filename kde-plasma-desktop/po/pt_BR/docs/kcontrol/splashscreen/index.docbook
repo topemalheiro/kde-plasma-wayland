@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
+]>
+<article id="splashscreen" lang="&language;">
+<title
+>Tela de apresentação</title>
+<articleinfo>
+<authorgroup>
+<author
+><firstname
+>Anne-Marie</firstname
+> <surname
+>Mahfouf</surname
+> <affiliation
+> <address
+>&Anne-Marie.Mahfouf.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>08/04/2021</date>
+<releaseinfo
+>Plasma 5.20</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Configurações do Sistema</keyword>
+<keyword
+>tela de abertura</keyword>
+<keyword
+>tema</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>Este módulo fornece uma interface para visualizar e selecionar os temas da tela de abertura.</para>
+
+<para>
+<screenshot>
+<screeninfo
+>Aqui está uma imagem do gerenciador da tela de abertura</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="splash-main.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>O módulo de gerenciamento da tela de abertura</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+
+<para
+>Nesta página, você pode visualizar as telas de abertura já instaladas. A visualização da tela de abertura que está em uso aparece realçada.</para>
+
+<para
+>Passe com o ponteiro do mouse sobre uma imagem em miniatura para aparecer o botão <guilabel
+>Visualizar a tela de apresentação</guilabel
+> no canto inferior direito da imagem. Clique nesse botão para ver a tela de abertura em ação.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>Baixar novas telas de apresentação...</guilabel
+></term>
+<listitem>
+<para
+>Você precisa estar conectado à Internet para usar esta ação. Uma janela exibirá uma lista de temas do site <ulink url="https://store.kde.org"
+>https://store.kde.org</ulink
+>. Clicar no botão <guibutton
+>Instalar</guibutton
+> associado a um tema o instalará localmente. </para>
+<para>
+<screenshot>
+<screeninfo
+>Instalando um novo tema</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="get-new-theme.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Instalando um novo tema</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Este novo tema estará disponível imediatamente após fechar a janela das &systemsettings; para baixar novas telas de apresentação e será destacado. A visualização exibe a imagem. Você precisa clicar no botão <guibutton
+>Aplicar</guibutton
+> para definir este tema como seu tema de tela de apresentação atual. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

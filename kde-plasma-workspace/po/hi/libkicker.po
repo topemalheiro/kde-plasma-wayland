@@ -1,0 +1,340 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2022-02-26 11:47+0530\n"
+"Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
+"Language-Team: Hindi <kde-l10n-hi@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "इसके साथ खोलें :"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "गुण"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "डेस्कटॉप पर जोडें"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "कार्य प्रबंधक पर पिन करें"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "पैनल में जोडें (विजेट)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "हाल हीं की फ़ाइलें"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "हाल की फाइलों को भूल जाएँ"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "अनुप्रयोग संपादित करें…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "ऐड-ऑन की स्थापना रद्द करें या प्रबंधित करें…"
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "अनुप्रयोग छुपाएँ"
+
+#: appentry.cpp:462
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "इस सबमेनू के अनुप्रयोगों को दिखाएं"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1' में के अनुप्रयोगों को दिखाएं"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "केरनर दिखाएँ"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "खोजें, गणना करें या एक समादेश चलाएं"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "कम्प्यूटर"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "पसंदीदा"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "हाल में प्रयुक्त"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "फ़ाइलें"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "अनुप्रयोग को भुलें"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "युक्त फोल्डर खोलें"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "फ़ाइल भूलें"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "फ़ाइल भूलें"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "सभी को भुलें"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "सभी अनुप्रयोगों को भुलें"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "सभी फाइलों को भुलें"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "सभी फाइलों को भुलें"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "सभी अनुप्रयोग"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 को छुपाएँ"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "यह दिखाई नहीं देना चाहिए! KICKER_FAVORITES_MODEL का उपयोग करें"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "हाल हीं की फ़ाइलें"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "अक्सर उपयोग की गइ फ़ाइलें"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "अक्सर उपयोग की गइ फ़ाइलें"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "हाल के अनुप्रयोग"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "अक्सर उपयोग किए जाने वाले अनुप्रयोग"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "शक्ती / सत्र"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "खोज परिणाम"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "तालाबंद"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "लॉग-आउट"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "सत्र सहेजें"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "उपयोक्ता बदलें"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "निद्रा"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "सुप्तावस्था"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "पुनः प्रारंभ करें"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "बन्द करें"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "सत्र"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "तंत्र"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "स्क्रीन तालाबंद करें"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "सत्र का अंत करें"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "किसी भिन्न उपयोगकर्ता के रूप में समानांतर सत्र प्रारंभ करें"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "रेम में निलंबित करें"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "डिस्क पर निलंबित"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "कम्प्यूटर पुनः प्रारंभ करें"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "कंप्यूटर बंद करें"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "तंत्र क्रियाएँ"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "सम्पर्क की जानकारी दिखाएँ..."
+
+#~ msgid "Contacts"
+#~ msgstr "सम्पर्क"
+
+#~ msgid "Forget Contact"
+#~ msgstr "सम्पर्क को भुलें"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "सभी सम्पर्कों को भुलें"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "हाल के संपर्क"

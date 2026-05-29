@@ -1,0 +1,626 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2014, 2019, 2020.
+# Balázs Úr <urbalazs@gmail.com>, 2012, 2013, 2014.
+# SPDX-FileCopyrightText: 2021, 2023-2026 Kristof Kiszel <kiszel.kristof@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2026-05-20 22:28+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.1\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Válasz"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Hivatkozás címének másolása"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Másolás"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Összes kijelölése"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Épp most"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 perce"
+msgstr[1] "%1 perce"
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 másodperc van hátra"
+msgstr[1] "%1 másodperc van hátra"
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 perc van hátra"
+msgstr[1] "%1 perc van hátra"
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 óra van hátra"
+msgstr[1] "%1 óra van hátra"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "Beállítások"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "Minimalizálás"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "Bezárás"
+
+#: components/JobDetails.qml:37
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 / %1"
+
+#: components/JobDetails.qml:122
+#, kde-format
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%3 / %2 fájl"
+msgstr[1] "%3 / %2 fájl"
+
+#: components/JobDetails.qml:125
+#, kde-format
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%3 / %2 mappa"
+msgstr[1] "%3 / %2 mappa"
+
+#: components/JobDetails.qml:128
+#, kde-format
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%3 / %2 elem"
+msgstr[1] "%3 / %2 elem"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 fájl"
+msgstr[1] "%1 fájl"
+
+#: components/JobDetails.qml:139
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 mappa"
+msgstr[1] "%1 mappa"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 elem"
+msgstr[1] "%1 elem"
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "Részletek"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Folytatás"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Szünet"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "Mégse"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr "További beállítások…"
+
+#: components/JobItem.qml:153
+#, kde-format
+msgid "Open"
+msgstr "Megnyitás"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Tartalmazó mappa megnyitása"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "Írja ide a választ…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Küldés"
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr "Sebesség"
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr "Átlagos sebesség"
+
+#: components/SpeedChart.qml:264
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1%"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (Felfüggesztve)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (Sikertelen)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "A feladat sikertelen"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (Befejezve)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "A feladat befejeződött"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr "Megnyitás ezzel: %1"
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr "Megnyitás mással…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "&Másolás"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Hely másolása"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "Ne zavarjanak"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "1 órán át"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "4 órán át"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "Estig"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "Holnap reggelig"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "Hétfőig"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "Kikapcsolásig"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Automatikusan véget ér: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Amíg a(z) %1 aktív (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Amíg a(z) %1 aktív"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Amikor a képernyők tükrözöttek"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Teljes képernyős alkalmazás fókuszban"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Megtekintés"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "Csoport bezárása"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "Kevesebb megjelenítése"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "További %1 megjelenítése"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "Nincsenek új értesítések"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "Az értesítési szolgáltatás nem érhető el"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Az értesítéseket jelenleg a(z) „%1 %2” biztosítja"
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Ne zavarjanak ki/be"
+
+#: globalshortcuts.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Értesítések előzményeinek törlése"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Értesítések ki"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Értesítések be"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Értesítések előzményei törölve"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 futó feladat"
+msgstr[1] "%1 futó feladat"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 futó feladat (%2%)"
+msgstr[1] "%1 futó feladat (%2%)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 új értesítés"
+msgstr[1] "%1 új értesítés"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 aktív értesítés"
+msgstr[1] "%1 aktív értesítés"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Ne zavarjanak eddig: %1; középső gombbal kattintva azonnal kiléphet"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Ne zavarjanak mód aktív; középső gombbal kattintva léphet ki"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Középső gombbal kattintva léphet ne zavarjanak módba"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "Összes értesítés törlése"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Eseményértesítések és műveletek beállítása…"
+
+#~ msgctxt "A button tooltip; expands the item to show details"
+#~ msgid "Show Details"
+#~ msgstr "Részletek megjelenítése"
+
+#~ msgctxt "Do not disturb until date"
+#~ msgid "Until %1"
+#~ msgstr "Eddig: %1"
+
+#~ msgid "Clear History"
+#~ msgstr "Előzmények törlése"
+
+#, fuzzy
+#~| msgid "Select All"
+#~ msgctxt "Clear all notifications"
+#~ msgid "Clear All"
+#~ msgstr "Összes kijelölése"
+
+#~ msgid "Until turned off"
+#~ msgstr "Amíg ki nem kapcsolom"
+
+#~ msgid "No unread notifications."
+#~ msgstr "Nincsenek új értesítések."
+
+#~ msgid "Information"
+#~ msgstr "Információ"
+
+#, fuzzy
+#~| msgid "&Application notifications:"
+#~ msgid "Show application and system notifications"
+#~ msgstr "&Alkalmazás értesítések:"
+
+#, fuzzy
+#~| msgid "No active jobs or notifications"
+#~ msgid "Show a history of notifications"
+#~ msgstr "Nincsenek aktív feladatok vagy értesítések"
+
+#, fuzzy
+#~| msgid "&File transfers and jobs:"
+#~ msgid "Track file transfers and other jobs"
+#~ msgstr "&Fájlátvitelek és feladatok:"
+
+#~ msgid "%1 of %2 %3"
+#~ msgstr "%1 / %2 %3"
+
+#~ msgid "No notifications or jobs"
+#~ msgstr "Nincsenek értesítések vagy feladatok"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the notification than previews shown"
+#~ msgid "+%1"
+#~ msgstr "%1:"
+
+#~ msgid "&Application notifications:"
+#~ msgstr "&Alkalmazás értesítések:"
+
+#~ msgid "&File transfers and jobs:"
+#~ msgstr "&Fájlátvitelek és feladatok:"
+
+#~ msgid "Choose which information to show"
+#~ msgstr "Megjelenítendő információk"
+
+#~ msgid "Transfers"
+#~ msgstr "Átvitelek"
+
+#~ msgid "All"
+#~ msgstr "Mind"
+
+#~ msgid "%1 TiB"
+#~ msgstr "%1 TiB"
+
+#~ msgid "%1 GiB"
+#~ msgstr "%1 GiB"
+
+#~ msgid "%1 MiB"
+#~ msgstr "%1 MiB"
+
+#~ msgid "%1 KiB"
+#~ msgstr "%1 KiB"
+
+#~ msgid "%1 B"
+#~ msgstr "%1 B"
+
+#~ msgid "0 B"
+#~ msgstr "0 B"
+
+#~ msgid "%1 min %2 sec"
+#~ msgstr "%1 perc %2 mp"
+
+#~ msgid "KiB/s"
+#~ msgstr "KiB/s"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 fájl ide: %2"
+#~ msgstr[1] "%1 fájl ide: %2"
+
+#~ msgid "1 running job (%2 remaining)"
+#~ msgid_plural "%1 running jobs (%2 remaining)"
+#~ msgstr[0] "1 futó feladat (%2 van hátra)"
+#~ msgstr[1] "%1 futó feladat (%2 van hátra)"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 felfüggesztett feladat"
+#~ msgstr[1] "%1 felfüggesztett feladat"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 befejezett feladat"
+#~ msgstr[1] "%1 befejezett feladat"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "Feladatok"
+
+#~ msgid "More"
+#~ msgstr "Több"
+
+#~ msgid "Pause job"
+#~ msgstr "Feladat felfüggesztése"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1 [Befejezve]"
+
+#~ msgid "Less"
+#~ msgstr "Kevesebb"
+
+#~ msgid "Notification from %1"
+#~ msgstr "Értesítés a következőtől: %1"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "Felugró értesítések"
+
+#~ msgid "Popup"
+#~ msgstr "Felugró"
+
+#~ msgid "Open destination"
+#~ msgstr "Cél megnyitása"
+
+#~ msgid "Show jobs"
+#~ msgstr "Feladatok megjelenítése"

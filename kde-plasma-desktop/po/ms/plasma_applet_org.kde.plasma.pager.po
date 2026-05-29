@@ -1,0 +1,256 @@
+# plasma_applet_pager Bahasa Melayu (Malay) (ms)
+# Copyright (C) 2008 K Desktop Environment
+# This file is distributed under the same license as the plasma_applet_pager package.
+#
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2008, 2009, 2010.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2010-07-25 21:12+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: qml/config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Umum"
+
+#: qml/configGeneral.qml:39
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Umum"
+
+#: qml/configGeneral.qml:41
+#, kde-format
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr ""
+
+#: qml/configGeneral.qml:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr ""
+
+#: qml/configGeneral.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr ""
+
+#: qml/configGeneral.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr ""
+
+#: qml/configGeneral.qml:69
+#, kde-format
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr ""
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr ""
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr ""
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr ""
+
+#: qml/configGeneral.qml:85
+#, fuzzy, kde-format
+#| msgid "Display text:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "Teks yang dipaparkan:"
+
+#: qml/configGeneral.qml:88
+#, fuzzy, kde-format
+#| msgid "No text"
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "Tiada teks"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr ""
+
+#: qml/configGeneral.qml:96
+#, fuzzy, kde-format
+#| msgid "Desktop number"
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "Nombor desktop"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr ""
+
+#: qml/configGeneral.qml:104
+#, fuzzy, kde-format
+#| msgid "Desktop name"
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "Nama desktop"
+
+#: qml/configGeneral.qml:119
+#, fuzzy, kde-format
+#| msgid "Selecting current desktop:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Memilih desktop semasa:"
+
+#: qml/configGeneral.qml:120
+#, fuzzy, kde-format
+#| msgid "Selecting current desktop:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Memilih desktop semasa:"
+
+#: qml/configGeneral.qml:123
+#, fuzzy, kde-format
+#| msgid "Does nothing"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "Tidak berbuat apa-apa"
+
+#: qml/configGeneral.qml:131
+#, fuzzy, kde-format
+#| msgid "Shows desktop"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "Papar desktop"
+
+#: qml/main.qml:87
+#, fuzzy, kde-format
+#| msgid "and 1 other"
+#| msgid_plural "and %1 others"
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "dan 1 lagi"
+msgstr[1] "dan 1 lagi"
+
+#: qml/main.qml:352
+#, fuzzy, kde-format
+#| msgid "One window:"
+#| msgid_plural "%1 windows:"
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "Satu tetingkap:"
+msgstr[1] "Satu tetingkap:"
+
+#: qml/main.qml:364
+#, fuzzy, kde-format
+#| msgid "One window:"
+#| msgid_plural "%1 windows:"
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "Satu tetingkap:"
+msgstr[1] "Satu tetingkap:"
+
+#: qml/main.qml:440
+#, fuzzy, kde-format
+#| msgid "Desktop name"
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "Nama desktop"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr ""
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr ""
+
+#: qml/main.qml:599
+#, fuzzy, kde-format
+#| msgid "&Add Virtual Desktop"
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "T&ambah Desktop Maya"
+
+#: qml/main.qml:605
+#, fuzzy, kde-format
+#| msgid "&Remove Last Virtual Desktop"
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Buang Desktop Maya Te&rakhir"
+
+#: qml/main.qml:612
+#, fuzzy, kde-format
+#| msgid "Configure Pager"
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "Tetapkan Pager"
+
+#: qml/main.qml:617
+#, fuzzy, kde-format
+#| msgid "Configure Pager"
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Tetapkan Pager"
+
+#~ msgid "Shows the dashboard"
+#~ msgstr "Papar dashboard"
+
+#~ msgid "Display icons:"
+#~ msgstr "Ikon dipaparkan:"
+
+#~ msgid "&Add Virtual Desktop"
+#~ msgstr "T&ambah Desktop Maya"
+
+#~ msgid "&Remove Last Virtual Desktop"
+#~ msgstr "Buang Desktop Maya Te&rakhir"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Bilangan lajur:"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Bilangan baris:"
+
+#~ msgid "Change the number of rows"
+#~ msgstr "Tukar jumlah baris"

@@ -1,0 +1,918 @@
+# Translation of plasma_applet_org.kde.desktopcontainment.po to Ukrainian
+# Copyright (C) 2014-2020 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2026-03-19 12:31+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: package/contents/config/config.qml:17
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "Адреса"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "Піктограми"
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "Фільтр"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr "Назад"
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, kde-format
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "Файли:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "Показати все"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "Показати відповідні"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "Приховати відповідні"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "Шаблон назви файла:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, kde-format
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "Типи файлів:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "Показувати приховані файли:"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, kde-format
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "Тип файлів"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Опис"
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, kde-format
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "Позначити все"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, kde-format
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "Зняти позначення з усіх"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr "Перемкнути порядок сортування"
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr "Кнопка панелі:"
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "Нетипова піктограма"
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Вибрати…"
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Типова піктограма"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "Компонування:"
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr "В стовпчиках"
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr "У рядках"
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, kde-format
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "Вирівнювання упорядкування:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "Зліва праворуч"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "Справа ліворуч"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, kde-format
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "Зафіксувати на місці"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "Критерій впорядковування:"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr "Вручну"
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "Назва"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "Розмір"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "Тип"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "Дата"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr "За спаданням"
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, kde-format
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "Теки спочатку"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr "Режим перегляду:"
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr "Список"
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr "Таблиця"
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, kde-format
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "Розмір піктограм:"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, kde-format
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "Малий"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, kde-format
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "Великий"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "Розмір мітки:"
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr "Вузький"
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr "Середній"
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr "Широкий"
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr "Рядки тексту:"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr "При наведенні на піктограми:"
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr "Показувати підказки"
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "Показувати маркери позначення"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "Показувати контекстні вікна перегляду вмісту теки"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr "Введення на стільниці:"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, kde-format
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "Позначені записи"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr "Активує KRunner"
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "Перейменувати:"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr "Перейменовувати на місці клацанням на тексті позначеного запису"
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, kde-format
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "Перегляд:"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "Показувати мініатюри попереднього перегляду"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "Налаштувати додатки перегляду…"
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, kde-format
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "Показати:"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, kde-format
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "Тека стільниці"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr "Файли, пов’язані із поточним простором дій"
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr "Пункт «Місця» на панелі:"
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, kde-format
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "Нетипове розташування:"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "Введіть шлях або адресу…"
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "Немає"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr "Типовий"
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr "Шлях повністю"
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr "Нетиповий"
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr "Введіть заголовок…"
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr "Натисніть і перетягніть для обертання"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr "Приховати тло"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr "Показати тло"
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr "Вилучити"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "Додатки перегляду"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+"На стільниці багато файлів та тек. Це може спричинити проблеми та зниження "
+"швидкодії. Вам варто пересунути частину пунктів деінде."
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "Порожня тека"
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "Піктограми"
+
+#: package/contents/ui/main.qml:448
+#, kde-format
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "Стільниця і фонове зображення"
+
+#: plugins/folder/directorypicker.cpp:32
+#, kde-format
+msgid "Select Folder"
+msgstr "Вибір теки"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Освіжити стільницю"
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr "&Освіжити перегляд"
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr "Не знайдено призначення посилання"
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+"<filename>%1</filename> вказує на <filename>%2</filename>, але цей файл не "
+"вдалося знайти. Можливо, його було переміщено або вилучено."
+
+#: plugins/folder/foldermodel.cpp:1812
+#, kde-format
+msgid "&Empty Trash"
+msgstr "С&порожнити смітник"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr "Відновити у попередньому місці"
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "&Відкрити"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, kde-format
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "Показати призначення"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr "Вилучити піктограму смітника"
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "&Пересунути в смітник"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "&Вставити"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "&Властивості"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr "Критерій впорядковування"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "Без певного порядку"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "Назва"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "Розмір"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "Тип"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "Дата"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr "За спаданням"
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "Теки спочатку"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr "Розмір піктограм"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr "Крихітний"
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "Дуже малий"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "Малий"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr "Малий середній"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr "Середній"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "Великий"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr "Величезний"
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr "Компонування"
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr "У стовпчиках"
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr "У рядках"
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr "Вирівнювання упорядкування"
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "Зліва праворуч"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "Справа ліворуч"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, kde-format
+msgid "Show Previews"
+msgstr "Показувати мініатюри"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr "Заблоковано"
+
+#~ msgctxt "@item:inlistbox arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "Згори вниз"
+
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align left"
+#~ msgstr "Вирівняти ліворуч"
+
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align right"
+#~ msgstr "Вирівняти праворуч"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Left to Right"
+#~ msgstr "Зліва праворуч"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Right to Left"
+#~ msgstr "Справа ліворуч"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "Згори вниз"
+
+#~ msgid "Align"
+#~ msgstr "Вирівнювання"
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Left"
+#~ msgstr "Ліворуч"
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Right"
+#~ msgstr "Праворуч"
+
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "Відновити"
+
+#~ msgid "Rotate"
+#~ msgstr "Обертати"
+
+#~ msgid "Open Externally"
+#~ msgstr "Відкрити у сторонній програмі"
+
+#~ msgid "OK"
+#~ msgstr "Гаразд"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "Features:"
+#~ msgstr "Можливості:"
+
+#~ msgid "Search…"
+#~ msgstr "Шукати…"
+
+#~ msgid "&Create Folder"
+#~ msgstr "Створити &теку"
+
+#~ msgid "Tweaks"
+#~ msgstr "Коригування"
+
+#~ msgid ""
+#~ "With the Desktop Toolbox hidden, right-click on the desktop and choose "
+#~ "'Configure Desktop...' to access this configuration window in the future"
+#~ msgstr ""
+#~ "Після того, як кнопку налаштовування стільниці буде приховано, для "
+#~ "доступу до вікна налаштовування слід навести вказівник на стільницю, "
+#~ "клацнути правою кнопкою і вибрати у меню пункт «Налаштувати стільницю…»"
+
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "Показати кнопку налаштовування стільниці"
+
+#~ msgid "Press and hold widgets to move them and reveal their handles"
+#~ msgstr ""
+#~ "Натискання і утримання надає можливість їх пересувати або показує панель "
+#~ "керування"
+
+#~ msgid "Widgets unlocked"
+#~ msgstr "Віджети розблоковано"
+
+#~ msgid ""
+#~ "You can press and hold widgets to move them and reveal their handles."
+#~ msgstr ""
+#~ "Ви можете натиснути і утримувати віджети, щоб пересунути їх або відкрити "
+#~ "панель керування віджета."
+
+#~ msgid "Got it"
+#~ msgstr "Добре"
+
+#~ msgid "Resize"
+#~ msgstr "Змінити розмір"
+
+#~ msgid "Size:"
+#~ msgstr "Розмір:"
+
+#~ msgid "Desktop Layout"
+#~ msgstr "Компонування стільниці"
+
+#~ msgid "Widget Handling"
+#~ msgstr "Обробка віджетів"
+
+#~ msgid "Arrange in"
+#~ msgstr "Компонувати у"
+
+#~ msgid "Appearance:"
+#~ msgstr "Вигляд:"
+
+#~ msgid "Location:"
+#~ msgstr "Адреса:"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "Показати теку стільниці"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "Вкажіть теку:"
+
+#~ msgid "&Reload"
+#~ msgstr "&Перезавантажити"
+
+#~ msgid "&Delete"
+#~ msgstr "&Вилучити"
+
+#~ msgid "Align:"
+#~ msgstr "Вирівнювання:"
+
+#~ msgid "Sorting"
+#~ msgstr "Впорядковування"
+
+#~ msgid "Up"
+#~ msgstr "Вище"
+
+#~ msgid ""
+#~ "Tweaks are experimental options that may become defaults depending on "
+#~ "your feedback."
+#~ msgstr ""
+#~ "Коригування складаються з експериментальних параметрів, які можуть стати "
+#~ "типовими, якщо відгуки користувачів будуть позитивними."
+
+#~ msgid "Show Original Directory"
+#~ msgstr "Показати початковий каталог"
+
+#~ msgid "Show Original File"
+#~ msgstr "Показати початковий файл"
+
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Налаштувати смітник"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "&Зробити закладку на цій сторінці"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "&Зробити закладку на цій адресі"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "&Зробити закладку на цій теці"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "&Зробити закладку на цьому посиланні"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "&Зробити закладку на цьому файлі"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Скопіювати до"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Пересунути до"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Домашня тека"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Коренева тека"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Вибрати…"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Скопіювати сюди"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Пересунути сюди"
+
+#~ msgid "Share"
+#~ msgstr "Оприлюднити"
+
+#~ msgid "Icon:"
+#~ msgstr "Піктограма:"
+
+#~ msgid "Press and hold applets to move"
+#~ msgstr "Натискання і утримання аплетів для пересування"

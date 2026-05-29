@@ -1,0 +1,65 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# pan93412 <pan93412@gmail.com>, 2019.
+# Chaoting Liu <brli@chakralinux.org>, 2021.
+# SPDX-FileCopyrightText: 2023, 2024, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"PO-Revision-Date: 2026-01-08 23:59+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.03.70\n"
+
+#: ConfigOverlay.qml:368
+#, kde-format
+msgctxt "@action:inmenu removes widget"
+msgid "Remove"
+msgstr "移除"
+
+#: ConfigOverlay.qml:378
+#, kde-format
+msgctxt "@action:inmenu opens widget config dialog"
+msgid "Configure…"
+msgstr "設定…"
+
+#: ConfigOverlay.qml:389
+#, kde-format
+msgctxt "@action:inmenu opens widget alternatives explorer"
+msgid "Show Alternatives…"
+msgstr "顯示替代選擇…"
+
+#: ConfigOverlay.qml:408
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Spacer width"
+msgstr "間隔器寬度"
+
+#: ConfigOverlay.qml:431
+#, kde-format
+msgctxt ""
+"@option:check Whether to allow a spacer widget to fill available space"
+msgid "Flexible size"
+msgstr "可變大小"
+
+#: main.qml:462
+#, kde-format
+msgctxt ""
+"@info:whatsthis Accessible description for entering Panel edit mode click "
+"area"
+msgid "Open Panel configuration ui"
+msgstr "開啟面板設定介面"
+
+#: main.qml:469
+#, kde-format
+msgctxt "@action:button opens widget explorer"
+msgid "Add Widgets…"
+msgstr "新增元件…"

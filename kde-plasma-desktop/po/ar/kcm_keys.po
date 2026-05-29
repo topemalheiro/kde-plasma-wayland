@@ -1,0 +1,583 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2021, 2023, 2024, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-19 00:46+0000\n"
+"PO-Revision-Date: 2026-01-08 11:34+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: basemodel.cpp:158
+#, kde-format
+msgctxt "@title:group Launch app"
+msgid "Launch"
+msgstr "شغّل"
+
+#: basemodel.cpp:191
+#, kde-format
+msgctxt "@item:intable"
+msgid "Window Management"
+msgstr "إدارة النّوافذ"
+
+#: basemodel.cpp:194
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Workspace"
+msgstr "مساحة عمل بلازما"
+
+#: globalaccelmodel.cpp:281
+#, kde-format
+msgctxt ""
+"%1 is the name of the component, %2 is the action for which saving failed"
+msgid "Error while saving shortcut %1: %2"
+msgstr "خطأ أثناء الحفظ الاختصار %1: %2"
+
+#: globalaccelmodel.cpp:395
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr "خطأ أثناء إضافة %1، لا تبدو أنها تحوي إجراءات."
+
+#: globalaccelmodel.cpp:469
+#, kde-format
+msgid "Error while communicating with the global shortcuts service"
+msgstr "حدث خطأ أثناء الاتصال بخدمة الاختصارات العالمية"
+
+#: kcm_keys.cpp:56
+#, kde-format
+msgid "Failed to communicate with global shortcuts daemon"
+msgstr "فشل الاتصال بخدمة الاختصارات العالمية"
+
+#: kcm_keys.cpp:380
+#, kde-kuit-format
+msgctxt ""
+"@info %2 is the name of a category inside the 'Common Actions' section"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action "
+"<interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
+msgstr ""
+"عُين الاختصار <shortcut>%1</shortcut> إلى الإجراء المشترك %2 <interface>%3</"
+"interface>.<nl/><nl/>هل تريد إعادة تعيينه إلى %4؟"
+
+#: kcm_keys.cpp:386
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to action <interface>"
+"%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to "
+"action <interface>%4</interface> of <application>%5</application>?"
+msgstr ""
+"عُين الاختصار <shortcut>%1</shortcut> إلى الإجراء <interface>%2</interface> "
+"من <application>%3</application>.<nl/><nl/>هل تريد إعادة تعيينه إلى الإجراء "
+"<interface>%4</interface> من <application>%5</application>؟"
+
+#: kcm_keys.cpp:396
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve Shortcut Conflict"
+msgstr "حل تضارب الاختصارات"
+
+#: kcm_keys.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "أعد التعيين"
+
+#: standardshortcutsmodel.cpp:34
+#, kde-format
+msgid "File"
+msgstr "ملف"
+
+#: standardshortcutsmodel.cpp:35
+#, kde-format
+msgid "Edit"
+msgstr "حرّر"
+
+#: standardshortcutsmodel.cpp:37
+#, kde-format
+msgid "Navigation"
+msgstr "التنقّل"
+
+#: standardshortcutsmodel.cpp:38
+#, kde-format
+msgid "View"
+msgstr "عرض"
+
+#: standardshortcutsmodel.cpp:39
+#, kde-format
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: standardshortcutsmodel.cpp:40
+#, kde-format
+msgid "Help"
+msgstr "مساعدة"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr "التّطبيقات"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr "الأوامر"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr "خدمات النظام"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr "إجراءات عامة"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@action:button Import shortcut scheme"
+msgid "Import…"
+msgstr "استورد…"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Import shortcut scheme"
+msgstr "استورد تشكيلة الاختصارات"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Export"
+msgstr "ألغ التصدير"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export…"
+msgstr "صدر..."
+
+#: ui/main.qml:53 ui/main.qml:128
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Export shortcut scheme"
+msgstr "صدّر تشكيلة الاختصارات"
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@action:button Add new shortcut"
+msgid "Add New"
+msgstr "أضف جديد"
+
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Application…'"
+msgid "Application…"
+msgstr "التطبيق…"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new application"
+msgstr "أضف تطبيقًا جديدًا"
+
+#: ui/main.qml:82
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
+msgid "Command or Script…"
+msgstr "الأمر أو السكربت…"
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new command or script"
+msgstr "أضف أمرًا  أو سكربتًا…"
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr "لا يمكن تصدير تشكيلة أثناء وجود تغييرات غير محفوظة"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Select the components below that should be included in the exported scheme"
+msgstr "حدد المكونات أدناه التي يجب تضمينها في التشكيلة المصدرة"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export"
+msgstr "صدّر"
+
+#: ui/main.qml:229
+#, kde-format
+msgctxt ""
+"@option:check accessible export shortcuts %1 is application/group name"
+msgid "Export %1"
+msgstr "صدّر %1"
+
+#: ui/main.qml:239
+#, kde-format
+msgctxt "@action:button %1 is the name of a custom command"
+msgid "Edit command for %1"
+msgstr "حرر أمر لـ%1"
+
+#: ui/main.qml:268
+#, kde-format
+msgctxt "@action:button %1 is the name of a shortcut category"
+msgid "Remove all shortcuts for %1"
+msgstr "أزل كل اختصارات %1"
+
+#: ui/main.qml:290
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deletion"
+msgstr "تراجع عن الحذف"
+
+#: ui/main.qml:357
+#, kde-format
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr "لا توجد عناصر مطابقة لبحثك"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt "@info"
+msgid "These shortcuts will be deleted when changes are applied."
+msgstr "ستُحذف هذه الاختصارات عند تطبيق التغييرات."
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr "تراجع"
+
+#: ui/main.qml:379
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deleting shortcuts"
+msgstr "تراجع عن حذف الاختصارات"
+
+#: ui/main.qml:420
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr "حدد عنصرًا من القائمة لعرض اختصاراته هنا"
+
+#: ui/main.qml:433
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr "صدّر تشكيلة الاختصارات"
+
+#: ui/main.qml:433 ui/main.qml:565
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr "استورد تشكيلة الاختصارات"
+
+#: ui/main.qml:435
+#, kde-format
+msgctxt "Template for file dialog"
+msgid "Shortcut Scheme (*.kksrc)"
+msgstr "تشكيلة اختصارات (*.kksrc)"
+
+#: ui/main.qml:462
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr "حرر أمر"
+
+#: ui/main.qml:462
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr "أضف أمر"
+
+#: ui/main.qml:479
+#, kde-format
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr "احفظ"
+
+#: ui/main.qml:479
+#, kde-format
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr "أضف"
+
+#: ui/main.qml:481
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Save command"
+msgstr "احفظ أمرًا"
+
+#: ui/main.qml:482
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr "أضِف أمرًا"
+
+#: ui/main.qml:504
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr "أدخِل أمرًا أو اختر ملف برمجي نصي:"
+
+#: ui/main.qml:513
+#, kde-format
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "الأمر:"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Command"
+msgstr "الأمر"
+
+#: ui/main.qml:526
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose…"
+msgstr "اختر..."
+
+#: ui/main.qml:527
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Choose script file"
+msgstr "اختر ملف برمجي نصي"
+
+#: ui/main.qml:535
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "الاسم:"
+
+#: ui/main.qml:536
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "أدخل الاسم هنا"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Script File"
+msgstr "اختر ملف برمجي نصي"
+
+#: ui/main.qml:550
+#, kde-format
+msgctxt ""
+"Filename filters for file dialog. Do not translate any of the filename "
+"extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "ملفات السكربت (.sh, .bash, .zsh, etc.) (*.*sh)"
+
+#: ui/main.qml:573
+#, kde-format
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr "اختر تشكيلة لاستيرادها:"
+
+#: ui/main.qml:592
+#, kde-format
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr "تشكيلة مخصصة"
+
+#: ui/main.qml:600
+#, kde-format
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr "اختر ملف..."
+
+#: ui/main.qml:600
+#, kde-format
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr "استورد"
+
+#: ui/main.qml:602
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Select shortcut scheme file"
+msgstr "اختر ملف مخطط الاختصارات"
+
+#: ui/main.qml:603
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add shortcut scheme"
+msgstr "أضف تشكيلة اختصارات"
+
+#: ui/ShortcutActionDelegate.qml:31
+#, kde-format
+msgctxt "@action:button Collapse shortcuts view"
+msgid "Collapse"
+msgstr "اطوِ"
+
+#: ui/ShortcutActionDelegate.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Expand to configure shortcuts"
+msgstr "وسّع لضبط الاختصارات"
+
+#: ui/ShortcutActionDelegate.qml:38
+#, kde-format
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr "حرر اختصار: %1"
+
+#: ui/ShortcutActionDelegate.qml:63
+#, kde-format
+msgctxt ""
+"%1 is the name action that is triggered by the key sequences following "
+"after :"
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/ShortcutActionDelegate.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr "لا يوجد اختصارات نشطة"
+
+#: ui/ShortcutActionDelegate.qml:135
+#, kde-format
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] "اختصار مبدئي"
+msgstr[1] "اختصار مبدئي"
+msgstr[2] "اختصارين مبدئيين"
+msgstr[3] "اختصارات مبدئية"
+msgstr[4] "اختصارا مبدئيا"
+msgstr[5] "اختصار مبدئي"
+
+#: ui/ShortcutActionDelegate.qml:137
+#, kde-format
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr "لا يوجد اختصارات مبدئية"
+
+#: ui/ShortcutActionDelegate.qml:146
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr "الاختصار المبدئي %1ممكن."
+
+#: ui/ShortcutActionDelegate.qml:146
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr "الاختصار المبدئي %1معطل."
+
+#: ui/ShortcutActionDelegate.qml:169
+#, kde-format
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr "اختصارات مخصّصة"
+
+#: ui/ShortcutActionDelegate.qml:205
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Delete shortcut"
+msgstr "احذف اختصار"
+
+#: ui/ShortcutActionDelegate.qml:216
+#, kde-format
+msgctxt "@action:button Add custom shortcut"
+msgid "Add…"
+msgstr "أضف…"
+
+#: ui/ShortcutActionDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add custom shortcut"
+msgstr "أضف اختصارًا مخصصًا"
+
+#: ui/ShortcutActionDelegate.qml:253
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Cancel capturing shortcut"
+msgstr "ألغ التقاط الاختصار"
+
+#~ msgctxt "@info:tooltip %1 is the text of a custom command"
+#~ msgid "Edit command for %1"
+#~ msgstr "حرر أمر لـ%1"
+
+#~ msgctxt "@info:tooltip %1 is the text of a shortcut category"
+#~ msgid "Remove all shortcuts for %1"
+#~ msgstr "أزل كل اختصارات %1"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Undo deletion"
+#~ msgstr "تراجع عن الحذف"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete this shortcut"
+#~ msgstr "احذف هذا الاختصار"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Cancel capturing of new shortcut"
+#~ msgstr "ألغ التقاط الاختصار الجديد"
+
+#~ msgctxt "Template for file dialog"
+#~ msgid "Script file (*.*sh)"
+#~ msgstr "ملف برمجي (*.*sh)"
+
+#~ msgctxt "@action:button Save shortcut scheme"
+#~ msgid "Save Scheme"
+#~ msgstr "احفظ التشكيلة"
+
+#~ msgid ""
+#~ "Shortcut %1 is already assigned to action '%2' of %3.\n"
+#~ "Do you want to reassign it?"
+#~ msgstr ""
+#~ "عُين الاختصار %1 بالفعل إلى  '%2' من إجراءات %3. \n"
+#~ "هل تريد إعادة تعيينه؟"
+
+#~ msgctxt "@title:window"
+#~ msgid "Found conflict"
+#~ msgstr "يوجد تضارب"
+
+#~ msgctxt "@action:button Keep translated text as short as possible"
+#~ msgid "Add Command…"
+#~ msgstr "أضف أمر…"
+
+#~ msgid "Import Scheme…"
+#~ msgstr "استورد تشكيلة..."
+
+#~ msgid "Shortcuts"
+#~ msgstr "الاختصارات"
+
+#~ msgid "David Redondo"
+#~ msgstr "David Redondo"

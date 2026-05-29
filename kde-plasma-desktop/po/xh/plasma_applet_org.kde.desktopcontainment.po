@@ -1,0 +1,992 @@
+# translation of libkonq.po to
+# translation of libkonq.po to
+# translation of libkonq.po to
+# translation of libkonq.po to
+# translation of libkonq.po to Xhosa
+# K Desktop Environment - libkonq
+# Copyright (C) 2001 translate.org.za
+# Antoinette Dekeni <antoinette@transalate.org.za>, 2001.
+# Lwandle Mgidlana <lwandle@translate.org.za>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2002-10-26 12:50SAST\n"
+"Last-Translator: Lwandle Mgidlana <lwandle@translate.org.za>\n"
+"Language-Team: Xhosa <xhosa@translate.org.za>\n"
+"Language: xh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: package/contents/config/config.qml:17
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr ""
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr ""
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "Igama lefayile:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "Iifayile Ezikrazukileyo"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "Igama lefayile:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "Igama lefayile:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "Iifayile Ezikrazukileyo"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, fuzzy, kde-format
+#| msgid "File name:"
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "Igama lefayile:"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "Incwadi enenkcukacha Entsha:"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, kde-format
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, kde-format
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, kde-format
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, kde-format
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, kde-format
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, fuzzy, kde-format
+#| msgid "&Small"
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "&Incinane"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, fuzzy, kde-format
+#| msgid "&Large"
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "&Nkulu"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr "&Phakathi"
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "Incwadi enenkcukacha Entsha:"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, fuzzy, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "Sukulenz&a: Ikhonkco"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, kde-format
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, fuzzy, kde-format
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "Isiqalo"
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "Iifayile Ezikrazukileyo"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "Incwadi enenkcukacha Entsha:"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, kde-format
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "Akukho nanye"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, fuzzy, kde-format
+#| msgid "&Default Size"
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr "&Ubungakanani Bendalo"
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr "Isiqalo"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr "Isiqalo"
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "Isiqalo"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr ""
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr ""
+
+#: package/contents/ui/main.qml:448
+#, fuzzy, kde-format
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "Isiqalo"
+
+#: plugins/folder/directorypicker.cpp:32
+#, fuzzy, kde-format
+msgid "Select Folder"
+msgstr "Incwadi enenkcukacha Entsha:"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1812
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
+msgstr "&Umgqomo Wokungabalulekanga Ongenanto"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "&Vula"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, fuzzy, kde-format
+#| msgid "Shred Files"
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "Iifayile Ezikrazukileyo"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1926
+#, fuzzy, kde-format
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "Yiya kwindawo Yomonakalo"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "&Izinto zobunini..."
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, fuzzy, kde-format
+#| msgid "&Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "&Incinane"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, fuzzy, kde-format
+#| msgid "&Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "&Incinane"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr "&Phakathi"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr "&Phakathi"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, fuzzy, kde-format
+#| msgid "&Large"
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "&Nkulu"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, fuzzy, kde-format
+#| msgid "&Huge"
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr "&Nkulu kakhulu"
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, kde-format
+msgid "Show Previews"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr ""
+
+#, fuzzy
+#~| msgid "C&ancel"
+#~ msgid "Cancel"
+#~ msgstr "R&hoxisa"
+
+#, fuzzy
+#~ msgid "&Create Folder"
+#~ msgstr "&Incwadi eneenkcukacha Entsha..."
+
+#, fuzzy
+#~ msgid "Desktop Layout"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~| msgid "Delete Files"
+#~ msgid "&Delete"
+#~ msgstr "Cima Iifayile"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Umgqomo Wokungabalulekanga Ongenanto"
+
+#, fuzzy
+#~ msgid "&Bookmark This Page"
+#~ msgstr "Amanqaku eencwadi"
+
+#, fuzzy
+#~ msgid "&Bookmark This Location"
+#~ msgstr "Amanqaku eencwadi"
+
+#, fuzzy
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "Amanqaku eencwadi"
+
+#, fuzzy
+#~ msgid "&Bookmark This Link"
+#~ msgstr "Amanqaku eencwadi"
+
+#, fuzzy
+#~ msgid "&Bookmark This File"
+#~ msgstr "Amanqaku eencwadi"
+
+#, fuzzy
+#~| msgid "&Copy Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "&Khuphela Apha"
+
+#, fuzzy
+#~| msgid "Move to Trash"
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Yiya kwindawo Yomonakalo"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~| msgid "&Copy Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "&Khuphela Apha"
+
+#, fuzzy
+#~| msgid "&Move Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "&Yiya Apha"
+
+#~ msgid "Share"
+#~ msgstr "Ulwahlulo"
+
+#, fuzzy
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "Awunaluyeka ulawulo ngokunokwalo"
+
+#~ msgid "&Move Here"
+#~ msgstr "&Yiya Apha"
+
+#~ msgid "&Copy Here"
+#~ msgstr "&Khuphela Apha"
+
+#~ msgid "&Link Here"
+#~ msgstr "&Yenza ikhonkco Apha"
+
+#~ msgid "C&ancel"
+#~ msgstr "R&hoxisa"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "&Cwangcisa Njengephepha ledonga"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "Yenza Entsh&a"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "Ngenisa igama lomlawuli:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "Yenza Entsh&a"
+
+#, fuzzy
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "Ngenisa igama lomlawuli:"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Incwadi enenkcukacha Entsha:"
+
+#, fuzzy
+#~ msgid "Create New"
+#~ msgstr "Yenza Entsh&a"
+
+#, fuzzy
+#~ msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+#~ msgstr "Ifayile ye templates %1 ayisekho!"
+
+#, fuzzy
+#~| msgid "&Open With"
+#~ msgctxt "@title:menu"
+#~ msgid "&Open With"
+#~ msgstr "&Vula Nge"
+
+#, fuzzy
+#~| msgid "&Other..."
+#~ msgctxt "@action:inmenu Open With"
+#~ msgid "&Other..."
+#~ msgstr "&Enye..."
+
+#, fuzzy
+#~| msgid "&Open With..."
+#~ msgctxt "@title:menu"
+#~ msgid "&Open With..."
+#~ msgstr "&Vula Nge..."
+
+#, fuzzy
+#~ msgid "Open &with %1"
+#~ msgstr "&Vula Nge"
+
+#~ msgid "Open in New &Window"
+#~ msgstr "Vula kwi Window &Entsha"
+
+#, fuzzy
+#~ msgid "Open the trash in a new window"
+#~ msgstr "Vula uxwebhu kwi window entsha"
+
+#, fuzzy
+#~ msgid "Open the medium in a new window"
+#~ msgstr "Vula uxwebhu kwi window entsha"
+
+#~ msgid "Open the document in a new window"
+#~ msgstr "Vula uxwebhu kwi window entsha"
+
+#~ msgid "Und&o"
+#~ msgstr "Sukwenz&a"
+
+#~ msgid "Und&o: Copy"
+#~ msgstr "Sukulenz&a: Ukhuphelo"
+
+#~ msgid "Und&o: Link"
+#~ msgstr "Sukulenz&a: Ikhonkco"
+
+#~ msgid "Und&o: Move"
+#~ msgstr "Sukuyenz&a: Intshukumo"
+
+#, fuzzy
+#~ msgid "Und&o: Trash"
+#~ msgstr "Sukulenz&a: Ukhuphelo"
+
+#, fuzzy
+#~ msgid "Und&o: Create Folder"
+#~ msgstr "Suk&wenza: Yenza Ulawulo"
+
+#, fuzzy
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "Ufuna ngokwenene ukucima lomba "
+#~ msgstr[1] "Ufuna ngokwenene ukucima %1 lemiba?"
+
+#~ msgid "Delete Files"
+#~ msgstr "Cima Iifayile"
+
+#, fuzzy
+#~ msgid "Do you really want to move this item to the trash?"
+#~ msgid_plural "Do you really want to move these %1 items to the trash?"
+#~ msgstr[0] "Ufuna ngokwenene ukushukumisa lomba kwindawo yokulahla?"
+#~ msgstr[1] " Ufuna ngokwenene ukushukumisa %1 lemiba kwindawo yokulahla?"
+
+#, fuzzy
+#~ msgctxt "Verb"
+#~ msgid "&Trash"
+#~ msgstr "Umonakalo"
+
+#, fuzzy
+#~| msgid "Und&o"
+#~ msgid "Und&o: %1"
+#~ msgstr "Sukwenz&a"
+
+#, fuzzy
+#~ msgid "Background Settings"
+#~ msgstr "Umfanekiso wesiqalo..."
+
+#, fuzzy
+#~ msgid "&Very Large"
+#~ msgstr "&Nkulu"
+
+#, fuzzy
+#~ msgid "Allows choosing of background settings for this view"
+#~ msgstr "Ivumela ukhetho lomfanekiso wesiqalo kule mboniselo"
+
+#~ msgid "<p>You do not have enough permissions to read <b>%1</b></p>"
+#~ msgstr "<p>Awunazimvumelwano ezaneleyo zokufunda <b>%1</b></p>"
+
+#, fuzzy
+#~ msgid "<p><b>%1</b> does not seem to exist anymore</p>"
+#~ msgstr "<p><b>%1</b> ayibonakali njengokuba ise khona</p>"
+
+#~ msgid "Search result: %1"
+#~ msgstr "Isiphumo sophendlo: %1"
+
+#~ msgid "Do you really want to shred this item?"
+#~ msgid_plural "Do you really want to shred these %1 items?"
+#~ msgstr[0] "Ufuna ngokwenene ukukralula kancincane lomba?"
+#~ msgstr[1] "Ufuna ngokwenene ukukrazula kancincane %1 lemiba?"
+
+#~ msgid "Shred"
+#~ msgstr "Krazula kancinane"

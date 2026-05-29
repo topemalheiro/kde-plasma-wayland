@@ -1,0 +1,151 @@
+# translation of kcm_desktoppaths.pot to Esperanto
+# e-aj mesaĝoj por plasma-desktop
+# Copyright (C) 1999, 2007 Free Software Foundation, Inc.
+# Wolfram Diestel <wofram@steloj.de>, 1999.
+# Cindy McKee <cfmckee@gmail.com>, 2007.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktoppaths\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2024-09-17 21:39+0200\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Labortabla dosierujo:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr ""
+"Ĉi tiu dosierujo enhavas ĉiujn dosierojn kiujn vi vidas sur via labortablo."
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Dosierujo de dokumentoj:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr "Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi dokumentojn."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Dosierujo de elŝutoj:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de "
+"elŝutaĵoj."
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Dosierujo de videofilmoj:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi filmdosierojn."
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Dosierujo de bildoj:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi bilddosierojn."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "Dosierujo de muziko:"
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi muzikdosierojn."
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Publika dosierujo:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por publike kundividitaj dosieroj kiam reta "
+"kunhavigo estas ŝaltita."
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Ŝablona dosierujo:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi dosierŝablonojn."
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Pictures folder:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Dosierujo de bildoj:"
+
+#: ui/main.qml:171
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip and accessible description"
+#| msgid "This folder will be used by default to open or save documents."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr "Tiu dosierujo estos la defaŭlta por malfermi aŭ konservi dokumentojn."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "Elekti novan lokon"

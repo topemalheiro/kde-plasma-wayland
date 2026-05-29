@@ -1,0 +1,104 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2019-2022, 2026 Paolo Zamponi <feus73@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-10 00:54+0000\n"
+"PO-Revision-Date: 2026-04-23 16:37+0200\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: ui/main.qml:32
+#, kde-format
+msgid ""
+"User Feedback has been disabled centrally. Please contact your distributor."
+msgstr ""
+"Le segnalazioni degli utenti sono state disabilitate centralmente. Contatta "
+"il tuo distributore."
+
+#: ui/main.qml:44
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can help KDE improve Plasma by contributing information on how you use "
+"it, so we can focus on things that matter to you.<nl/><nl/>Contributing this "
+"information is optional and entirely anonymous. We never collect your "
+"personal data, files you use, websites you visit, or information that could "
+"identify you.<nl/>"
+msgstr ""
+"Puoi aiutare KDE a migliorare Plasma fornendoci le informazioni su come lo "
+"utilizzi, in modo che possiamo concentrarci sulle cose che ti interessano."
+"<nl/><nl/>Fornire queste informazioni è facoltativo e completamente anonimo: "
+"non raccoglieremo mai i tuoi dati personali, i file che usi, i siti web che "
+"visiti, o qualsiasi altra informazione che potrebbe identificarti.<nl/>"
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt "@info"
+msgid "Read more about our privacy policy"
+msgstr ""
+"Maggiori informazioni in merito alla nostra informativa sulla riservatezza"
+
+#: ui/main.qml:64
+#, kde-format
+msgid "Plasma:"
+msgstr "Plasma:"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Plasma"
+msgstr "Plasma"
+
+#: ui/main.qml:123
+#, kde-format
+msgid "The following information will be sent:"
+msgstr "Saranno inviate le seguenti informazioni:"
+
+#: ui/main.qml:149
+#, kde-format
+msgid "View sent data:"
+msgstr "Visualizza i dati inviati:"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Paolo Zamponi"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "zapaolo@email.it"
+
+#~ msgid "User Feedback"
+#~ msgstr "Segnalazioni degli utenti"
+
+#~ msgid "Configure user feedback settings"
+#~ msgstr "Configura le impostazioni sulle segnalazioni degli utenti"
+
+#~ msgctxt "@info"
+#~ msgid "You can read about our policy in the following link:"
+#~ msgstr "Puoi saperne di più sulla nostra politica al seguente collegamento:"
+
+#~ msgid "Allow KDE software to collect anonymous usage information"
+#~ msgstr ""
+#~ "Permetti al software di KDE di raccogliere delle informazioni anonime "
+#~ "sull'utilizzo"
+
+#~ msgid "Send basic system information"
+#~ msgstr "Invia informazioni di base sul sistema"
+
+#~ msgid "Send basic usage information"
+#~ msgstr "Invia informazioni di base sull'utilizzo"
+
+#~ msgid "Send detailed system information"
+#~ msgstr "Invia informazioni dettagliate sul sistema"
+
+#~ msgid "Send detailed usage information"
+#~ msgstr "Invia informazioni dettagliate sull'utilizzo"

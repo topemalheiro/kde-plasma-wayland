@@ -1,0 +1,841 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2022, 2024, 2025, 2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"PO-Revision-Date: 2026-01-31 21:30+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: inputsequence.cpp:191
+#, kde-format
+msgctxt "@action:button This action is disabled"
+msgid "Disabled"
+msgstr "முடக்கப்பட்டுள்ளது"
+
+#: inputsequence.cpp:194
+#, kde-format
+msgctxt "@action:button There is no keybinding"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+#: inputsequence.cpp:209
+#, kde-format
+msgctxt "@action:button Two keybinds for a dial, up & down"
+msgid "%1 && %2"
+msgstr "%1 && %2"
+
+#: inputsequence.cpp:216
+#, kde-format
+msgctxt "@action:button There is no keybindings"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+#: inputsequence.cpp:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Left mouse button"
+msgstr "இடது சுட்டி பட்டன்"
+
+#: inputsequence.cpp:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Right mouse button"
+msgstr "வலது சுட்டி பட்டன்"
+
+#: inputsequence.cpp:225
+#, kde-format
+msgctxt "@action:button"
+msgid "Middle mouse button"
+msgstr "நடு சுட்டி பட்டன்"
+
+#: inputsequence.cpp:231
+#, kde-format
+msgctxt "@action:button"
+msgid "Application-defined"
+msgstr "செயலியால் வகுக்கப்படுவது"
+
+#: inputsequence.cpp:233
+#, kde-format
+msgctxt "@action:button"
+msgid "Pen Button %1"
+msgstr "பேனா பட்டன் %1"
+
+#: inputsequence.cpp:235
+#, kde-format
+msgctxt "@action:button"
+msgid "Scroll wheel"
+msgstr "உருள் சக்கரம்"
+
+#: kcmtablet.cpp:36
+#, kde-format
+msgid "Default"
+msgstr "இயல்பிருப்பு"
+
+#: kcmtablet.cpp:37
+#, kde-format
+msgid "Portrait"
+msgstr "செங்குத்தாக"
+
+#: kcmtablet.cpp:38
+#, kde-format
+msgid "Landscape"
+msgstr "கிடைமட்டமாக"
+
+#: kcmtablet.cpp:39
+#, kde-format
+msgid "Inverted Portrait"
+msgstr "புரட்டி செங்குத்தாக"
+
+#: kcmtablet.cpp:40
+#, kde-format
+msgid "Inverted Landscape"
+msgstr "புரட்டி கிடைமட்டமாக"
+
+#: kcmtablet.cpp:90
+#, kde-format
+msgid "Follow the Current Screen"
+msgstr "குவியமுள்ள திரையை பயன்படுத்து"
+
+#: kcmtablet.cpp:95
+#, kde-format
+msgid "All Screens"
+msgstr "அனைத்து திரைகள்"
+
+#: kcmtablet.cpp:104
+#, kde-format
+msgctxt "model - (x,y widthxheight)"
+msgid "%1 - (%2,%3 %4×%5)"
+msgstr "%1 - (%2,%3 %4×%5)"
+
+#: kcmtablet.cpp:164 ui/DisplayTab.qml:97 ui/DisplayTab.qml:98
+#, kde-format
+msgctxt "@item:inlistbox Stretch and fill to the screen"
+msgid "Stretch and Fill"
+msgstr "நீட்டி திரையை நிரப்பு"
+
+#: kcmtablet.cpp:165 ui/DisplayTab.qml:99
+#, kde-format
+msgctxt "@item:inlistbox Keep aspect ratio and fit within the screen"
+msgid "Keep Aspect Ratio and Fit"
+msgstr "உருவ விகிதத்தை மாற்றாமல் திரைக்குள் பொருத்து"
+
+#: kcmtablet.cpp:166 ui/DisplayTab.qml:100
+#, kde-format
+msgctxt "@item:inlistbox Map to portion of the screen"
+msgid "Map to Portion"
+msgstr "திரையின் பகுதிக்கு இணை"
+
+#: kcmtablet.cpp:269
+#, kde-format
+msgctxt "Stylus pen button"
+msgid "Pen button %1:"
+msgstr "பேனா பட்டன் %1:"
+
+#: kcmtablet.cpp:270
+#, kde-format
+msgctxt ""
+"@info Meant to be inserted into an existing sentence like 'configuring pen "
+"button X'"
+msgid "pen button %1"
+msgstr "பேனா பட்டன் %1"
+
+#: ui/ActionDialog.qml:27
+#, kde-format
+msgctxt "@title Select the action for the tablet dial"
+msgid "Select Dial/Ring Action"
+msgstr "திருகி/வளையத்திற்கான செயலைத் தெர்ந்தெடுப்பது"
+
+#: ui/ActionDialog.qml:28
+#, kde-format
+msgctxt "@title Select the action for the tablet button"
+msgid "Select Button Action"
+msgstr "பட்டனுக்கான செயலைத் தெர்ந்தெடுப்பது"
+
+#: ui/ActionDialog.qml:87
+#, kde-format
+msgctxt "@info %1 is the 'pad button %1' or 'pen button 1/2/3' strings"
+msgid "Choose what action will be taken when rotating %1:"
+msgstr "%1 தனை சுழற்றும்போது செய்ய வேண்டியது:"
+
+#: ui/ActionDialog.qml:88
+#, kde-format
+msgctxt "@info %1 is the 'pad button %1' or 'pen button 1/2/3' strings"
+msgid "Choose what action will be taken when pressing %1:"
+msgstr "%1-ஐ அழுத்தம்போது என்ன செய்ய வேண்டும்:"
+
+#: ui/ActionDialog.qml:102
+#, kde-format
+msgctxt "@option:radio Set this action to an application-defined type"
+msgid "Defer to application"
+msgstr "செயலியைப் பொறுத்து"
+
+#: ui/ActionDialog.qml:117
+#, kde-format
+msgctxt "@option:radio Set this action to a keyboard type"
+msgid "Send keyboard key"
+msgstr "விசைப்பலகை பட்டனை அனுப்பு"
+
+#: ui/ActionDialog.qml:133
+#, kde-format
+msgctxt "@option:radio Set this action to a up/down keyboard type"
+msgid "Send keyboard keys"
+msgstr "விசைப்பலகை பட்டனை அனுப்பு"
+
+#: ui/ActionDialog.qml:148
+#, kde-format
+msgctxt "@option:radio Set this action to a mouse type"
+msgid "Send mouse button click"
+msgstr "சுட்டி கிளிக்கை அனுப்பு"
+
+#: ui/ActionDialog.qml:164
+#, kde-format
+msgctxt "@option:radio Set this action to a pen button type"
+msgid "Send pen button"
+msgstr "பேனா பட்டனை அனுப்பு"
+
+#: ui/ActionDialog.qml:181
+#, kde-format
+msgctxt "@option:radio Set this action to a scroll wheel type type"
+msgid "Act as scroll wheel"
+msgstr "உருள் சக்கரத்தைப் போல் செயல்படு"
+
+#: ui/ActionDialog.qml:199
+#, kde-format
+msgctxt "@option:radio Disable this action"
+msgid "Do nothing"
+msgstr "ஒன்றும் செய்யாதே"
+
+#: ui/ActionDialog.qml:219
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This tablet button is forwarded to the focused application, which can decide "
+"how to handle it."
+msgstr ""
+"குவயத்திலுள்ள செயலிக்கு இப்பட்டன் அனுப்பப்படும்; அச்செயலி இப்பட்டனை எப்படி கையாள்வதென "
+"முடிவு செய்யும்."
+
+#: ui/ActionDialog.qml:248
+#, kde-format
+msgctxt ""
+"@label prefix for configuring Keybind to send when dial/ring is turned "
+"upwards"
+msgid "Up:"
+msgstr "மேலே:"
+
+#: ui/ActionDialog.qml:261
+#, kde-format
+msgctxt ""
+"@label prefix for configuring Keybind to send when dial/ring is turned "
+"downwards"
+msgid "Down:"
+msgstr "கீழே:"
+
+#: ui/ActionDialog.qml:275
+#, kde-format
+msgctxt ""
+"@label:slider Speed for how often this dial/ring should emit key events"
+msgid "Speed:"
+msgstr "வேகம்:"
+
+#: ui/ActionDialog.qml:290
+#, kde-format
+msgctxt "@action:inmenu Left mouse click"
+msgid "Left-click"
+msgstr "இடது கிளிக்"
+
+#: ui/ActionDialog.qml:291
+#, kde-format
+msgctxt "@action:inmenu Middle mouse click"
+msgid "Middle-click"
+msgstr "நடு கிளிக்"
+
+#: ui/ActionDialog.qml:292
+#, kde-format
+msgctxt "@action:inmenu Right mouse click"
+msgid "Right-click"
+msgstr "வலது கிளிக்"
+
+#: ui/ActionDialog.qml:319
+#, kde-format
+msgctxt "@option:check The ctrl modifier on the keyboard"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ui/ActionDialog.qml:326
+#, kde-format
+msgctxt "@option:check The alt modifier on the keyboard"
+msgid "Alt"
+msgstr "Alt"
+
+#: ui/ActionDialog.qml:333
+#, kde-format
+msgctxt "@option:check The meta modifier on the keyboard"
+msgid "Meta"
+msgstr "Meta"
+
+#: ui/ActionDialog.qml:340
+#, kde-format
+msgctxt "@option:check The shift modifier on the keyboard"
+msgid "Shift"
+msgstr "Shift"
+
+#: ui/ActionDialog.qml:356
+#, kde-format
+msgctxt "@action:inmenu Stylus button"
+msgid "Button 1"
+msgstr "பட்டன் 1"
+
+#: ui/ActionDialog.qml:357
+#, kde-format
+msgctxt "@action:inmenu Stylus button"
+msgid "Button 2"
+msgstr "பட்டன் 2"
+
+#: ui/ActionDialog.qml:358
+#, kde-format
+msgctxt "@action:inmenu Stylus button"
+msgid "Button 3"
+msgstr "பட்டன் 3"
+
+#: ui/ActionDialog.qml:367
+#, kde-format
+msgctxt "@info"
+msgid "Act like a scroll wheel on a mouse."
+msgstr "சுட்டியிலுள்ள உருள் சக்கரத்தைப் போல செயல்படும்."
+
+#: ui/ActionDialog.qml:376
+#, kde-format
+msgctxt "@info"
+msgid "This button is disabled and will not do anything."
+msgstr "இப்பட்டன் முடக்கப்பட்டுள்ளது; எதுவும் செய்யாது."
+
+#: ui/Calibration.qml:30
+#, kde-format
+msgctxt "@title"
+msgid "Pen Calibration"
+msgstr "பேனா அளதிருத்தம்"
+
+#: ui/Calibration.qml:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Tap the targets again to confirm the new calibration.<nl/><nl/><b>Will "
+"revert to default calibration in %1 seconds unless further action is taken.</"
+"b>"
+msgstr ""
+"புதிய அளவுதிருத்தத்தை உறுதிப்படுத்த குறிகளை மறுபடியும் தட்டவும். <nl/><nl/><b> "
+"ஒன்றும் செய்யாத பட்சத்தில், %1 நொடிகளில் இயல்பிருப்பு மீட்டமைக்கப்படும்.</b>"
+
+#: ui/Calibration.qml:102
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Calibration is completed and saved.<nl/><nl/>Refine the calibration further "
+"or close the window."
+msgstr ""
+"அளதிருத்தம் முடிவடைந்து செமிக்கப்பட்டுள்ளது.<nl/><nl/>அளதிருத்தத்தை மேம்படுத்தலாம் அல்லது "
+"இச்சாளரத்தை மூடலாம்."
+
+#: ui/Calibration.qml:105
+#, kde-format
+msgctxt "@info"
+msgid "Tap the center of each target."
+msgstr "ஒவ்வொரு குறியின் நடுப்பகுதியை தட்டவும்."
+
+#: ui/Calibration.qml:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Refine Existing Calibration"
+msgstr "ஏற்கனவேயுள்ள அளதிருத்தத்தை மேம்படுத்து"
+
+#: ui/Calibration.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset and Try Again"
+msgstr "மீட்டமைத்து மறுபடியும் முயற்சி"
+
+#: ui/Calibration.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "Calibrate from Scratch"
+msgstr "முதலிலிருந்து அளதிருத்து"
+
+#: ui/Calibration.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "மூடு"
+
+#: ui/Calibration.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "ரத்து செய்"
+
+#: ui/DisplayTab.qml:46
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Map to screen:"
+msgstr "திரைக்கு இணை:"
+
+#: ui/DisplayTab.qml:73
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Orientation:"
+msgstr "நோக்குநிலை:"
+
+#: ui/DisplayTab.qml:79
+#, kde-format
+msgctxt "@label substitute for unavailable orientation change"
+msgid "Not Applicable"
+msgstr "பொருந்தாதது"
+
+#: ui/DisplayTab.qml:93
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Mapped Area:"
+msgstr "இணைக்கப்படும் பரப்பளவு:"
+
+#: ui/ExternalScreenMapping.qml:110
+#, kde-format
+msgctxt "@option:check"
+msgid "Lock aspect ratio"
+msgstr "உருவ விகித‍த்தை பூட்டு"
+
+#: ui/ExternalScreenMapping.qml:151
+#, kde-format
+msgctxt "tablet area position - size"
+msgid "%1,%2 - %3×%4"
+msgstr "%1,%2 - %3×%4"
+
+#: ui/ExternalScreenMapping.qml:190
+#, kde-format
+msgctxt "@action:button"
+msgid "Resize the screen area"
+msgstr "திரையிலுள்ள பரப்பளவை மாற்று"
+
+#: ui/ExternalScreenMapping.qml:267
+#, kde-format
+msgctxt "tablet area position - size"
+msgid "%1%,%2% - %3%×%4%"
+msgstr "%1%,%2% - %3%×%4%"
+
+#: ui/ExternalScreenMapping.qml:301
+#, kde-format
+msgctxt "@action:button"
+msgid "Resize the tablet area"
+msgstr "வரைபலகையிலுள்ள பரப்பளவை மாற்று"
+
+#: ui/main.qml:38
+#, kde-format
+msgctxt "@info placeholdermessage text"
+msgid "No drawing tablets found"
+msgstr "வரைபலகைகளேதும் கண்டுபிடிக்கப்படவில்லை"
+
+#: ui/main.qml:39
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect a drawing tablet"
+msgstr "வரைபலகையை இணைக்கவும்"
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt "Tests tablet functionality like the pen"
+msgid "Test Tablet…"
+msgstr "வரைபலகையை சோதி…"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This device is managed by a user-space driver that you installed. Use that "
+"driver to configure the tablet instead of using the settings here, unless "
+"specifically instructed otherwise."
+msgstr ""
+"இச்சாதனம் நீங்கள் நிறுவியுள்ள தனிப்பட்ட நிரலால் நிர்வகிக்கப்படுகிறது. இதை அந்நிரலிலேயே "
+"மாற்றியமைக்க வேண்டும்."
+
+#: ui/main.qml:106
+#, kde-format
+msgctxt "@label:listbox The device we are configuring"
+msgid "Device:"
+msgstr "சாதனம்:"
+
+#: ui/main.qml:174
+#, kde-format
+msgctxt "@title:tab"
+msgid "Display"
+msgstr "திரை"
+
+#: ui/main.qml:187
+#, kde-format
+msgctxt "@title:tab"
+msgid "Pen"
+msgstr "பேனா"
+
+#: ui/main.qml:199
+#, kde-format
+msgctxt "@title:tab"
+msgid "Pad"
+msgstr "வரைபலகை"
+
+#: ui/MissingPadTab.qml:15
+#, kde-format
+msgctxt "@info placeholdermessage main text"
+msgid "No pad inputs found"
+msgstr "வரைபலகையேதும் கண்டுபிடிக்கப்படவில்லை"
+
+#: ui/MissingPadTab.qml:16
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid ""
+"No buttons or other inputs were detected. This could mean the driver for "
+"this device is missing."
+msgstr ""
+"எந்த பட்டனோ வேறுபட்ட உள்ளீட்டு சாதனமோ கண்டுபிடிக்கப்படவில்லை. உரிய சாதனநிரல் "
+"நிறுவப்படாதது இதற்கு காரணமாக இருக்கலாம்."
+
+#: ui/PadTab.qml:37
+#, kde-format
+msgctxt "@label for graphics tablet ring config, % is number of ring"
+msgid "Pad ring %1:"
+msgstr "வரைபலகை வளையம் %1:"
+
+#: ui/PadTab.qml:61
+#, kde-format
+msgctxt ""
+"@info Meant to be inserted into an existing sentence like 'configuring pad "
+"ring/dial 0'"
+msgid "pad ring/dial %1"
+msgstr "வரைபலகை வளையம்/திருகி %1:"
+
+#: ui/PadTab.qml:101
+#, kde-format
+msgctxt "@label for graphics tablet ring config, % is number of dial"
+msgid "Pad dial %1:"
+msgstr "வரைபலகை திருகி %1:"
+
+#: ui/PadTab.qml:103
+#, kde-format
+msgctxt ""
+"@info Meant to be inserted into an existing sentence like 'configuring pad "
+"button 0'"
+msgid "pad dial %1"
+msgstr "பலகை திருகி %1"
+
+#: ui/PadTab.qml:139
+#, kde-format
+msgctxt "@label for graphics tablet button config, % is number of button"
+msgid "Pad button %1:"
+msgstr "வரைபலகை பட்டன் %1:"
+
+#: ui/PadTab.qml:142
+#, kde-format
+msgctxt ""
+"@info Meant to be inserted into an existing sentence like 'configuring pad "
+"button 0'"
+msgid "pad button %1"
+msgstr "வரைபலகை பட்டன் %1"
+
+#: ui/StylusTab.qml:223
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Left-handed mode:"
+msgstr "இடதுகை பயன்முறை:"
+
+#: ui/StylusTab.qml:229
+#, kde-format
+msgctxt "@option:check Enable left-handed mode"
+msgid "Enable"
+msgstr "இயக்கு"
+
+#: ui/StylusTab.qml:235
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Tells the device to accommodate left-handed users. Effects will vary by "
+"device, but often it reverses the pad buttonsʼ functionality so the tablet "
+"can be used upside-down."
+msgstr ""
+"இடக்கை பயனர்களுக்கு இணங்குமாறு சாதனத்திறுக் கட்டளையிடும். பெரும்பாலும், இது வரைபலகையைத் "
+"தலைகீழாக பயன்படுத்தும் விதத்தில் பட்டன்களை புரட்டும்."
+
+#: ui/StylusTab.qml:247
+#, kde-format
+msgctxt ""
+"'Mode' is the mode the stylus is in, pen (absolute) or mouse (relative)"
+msgid "Mode:"
+msgstr "பயன்முறை:"
+
+#: ui/StylusTab.qml:255
+#, kde-format
+msgctxt ""
+"@option:radio Pen mode, where the point on the screen is always where you "
+"touch the stylus"
+msgid "Pen"
+msgstr "பேனா"
+
+#: ui/StylusTab.qml:260
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "The cursor follows where you touch the pen on the surface"
+msgstr ""
+"வரைபலகையில் எங்கு பேனாவை வைக்கிறீர்களோ, அதற்குரிய இடத்திற்கு இடஞ்சுட்டி நகர்த்தப்படும்"
+
+#: ui/StylusTab.qml:281
+#, kde-format
+msgctxt ""
+"@option:radio Mouse mode, or like using the tablet like a giant touchpad"
+msgid "Mouse"
+msgstr "சுட்டி"
+
+#: ui/StylusTab.qml:286
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid ""
+"Moving the pen on the surface moves the cursor relative to where it was, "
+"like a mouse"
+msgstr "இடஞ்சுட்டி அதன் தற்போதைய இருப்பிடத்தைப் பொறுத்து நகரும் (சாதாரண சுட்டியைப் போல)"
+
+#: ui/StylusTab.qml:302
+#, kde-format
+msgid "Sync with mouse cursor"
+msgstr ""
+
+#: ui/StylusTab.qml:362
+#, kde-format
+msgctxt "@label prefix for pen pressure curve config"
+msgid "Pen Pressure:"
+msgstr "பேனா அழுத்தம்:"
+
+#: ui/StylusTab.qml:422
+#, kde-format
+msgctxt "% of minimum pen pressure"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/StylusTab.qml:430
+#, kde-format
+msgctxt "% of maximum pen pressure"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/StylusTab.qml:441
+#, kde-format
+msgctxt "100% or maximum pen pressure"
+msgid "100%"
+msgstr "100%"
+
+#: ui/StylusTab.qml:449
+#, kde-format
+msgctxt "0% or zero pen pressure"
+msgid "0%"
+msgstr "0%"
+
+#: ui/StylusTab.qml:453
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This curve controls the relationship between the pressure on the stylus and "
+"the pressure values received by applications."
+msgstr ""
+"பேனாமீத் நீங்கள் இடும் அழுத்தம், செயலிக்கு எவ்வாறு மாற்றி அனுப்பப்பட வேண்டுமென்பதை இது "
+"தீர்மானிக்கும்"
+
+#: ui/StylusTab.qml:458
+#, kde-format
+msgctxt "Pen pressure range"
+msgid "Pressure Range:"
+msgstr "அழுத்த வீச்சு:"
+
+#: ui/StylusTab.qml:485
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Pressure above or below the threshold will be clamped, and this becomes the "
+"new effective range."
+msgstr ""
+"அமைக்கப்பட்டுள்ள வரம்பில் அடங்கா அழுத்தத்தின் விளைவு, வரம்பின் எல்லை மதிப்பிற்கான விளைவுபோல் "
+"இருக்கும். அதாவது இந்த வரம்பிற்குள் உள்ள அழுத்த மாறுபாடுகளே கணினியால் பொருட்படுத்தப்படும்."
+
+#: ui/StylusTab.qml:496
+#, kde-format
+msgctxt "@action:button Calibration in progress"
+msgid "Calibration in Progress"
+msgstr "அளதிருத்தம் செயலிலுள்ளது"
+
+#: ui/StylusTab.qml:498
+#, kde-format
+msgctxt "@action:button Calibrate the pen display"
+msgid "Calibrate"
+msgstr "அளவொப்புமை"
+
+#: ui/StylusTab.qml:501
+#, kde-format
+msgctxt "@action:button Pen display doesn't support calibration"
+msgid "Calibration Not Supported"
+msgstr "அளதிருத்தம் ஆதரிக்கப்படவில்லை"
+
+#: ui/StylusTab.qml:542
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset Custom Calibration"
+msgstr "தனிப்பயன் அளதிருத்தத்தை செயல்நீக்கு"
+
+#: ui/StylusTab.qml:557
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You have manually calibrated this tablet. If it's no longer working "
+"correctly, try resetting this first."
+msgstr ""
+"இப்பலகையை கைமுறையாக அளவுதிருத்தியுள்ளீர். ஏதேனும் சிக்கலிருந்தால், முதலில் "
+"அளவுதிருத்தத்தை மீட்டமைத்து பார்க்கவும்."
+
+#: ui/Tester.qml:25
+#, kde-format
+msgctxt "@title"
+msgid "Tablet Tester"
+msgstr "வரைபலகை சோதிப்பிடம்"
+
+#: ui/Tester.qml:48
+#, kde-format
+msgctxt ""
+"A tablet stylus was pressed onto the surface X=[x position] Y=[y position]"
+msgid "Stylus press X=%1 Y=%2"
+msgstr "எழுதுகோல் அழுத்தப்பட்டது: X=%1 Y=%2"
+
+#: ui/Tester.qml:58
+#, kde-format
+msgctxt ""
+"A tablet stylus has 'released' or was lifted from the surface X=[x position] "
+"Y=[y position]"
+msgid "Stylus release X=%1 Y=%2"
+msgstr "எழுதுகோல் தூக்கப்பட்டது: X=%1 Y=%2"
+
+#: ui/Tester.qml:68
+#, kde-format
+msgctxt ""
+"A tablet stylus has moved over the surface X=[x position] Y=[y position] "
+"P=[pressure] TX=[tilt x] TY=[tilt y]"
+msgid "Stylus move X=%1 Y=%2 P=%3% TX=%4 TY=%5"
+msgstr "எழுதுகோல் நகர்த்தப்பட்டது: X=%1 Y=%2 P=%3% TX=%4 TY=%5"
+
+#: ui/Tester.qml:75
+#, kde-format
+msgctxt "A tablet pad's button has been pressed B=[the button number]"
+msgid "Pad button press B=%1"
+msgstr "வரைபலகை பட்டன் அழுத்தப்பட்டது B=%1:"
+
+#: ui/Tester.qml:77
+#, kde-format
+msgctxt "A tablet pad's button has been released B=[the button number]"
+msgid "Pad button release B=%1"
+msgstr "வரைபலகை பட்டன் விடுவிக்கப்பட்டது B=%1:"
+
+#: ui/Tester.qml:83
+#, kde-format
+msgctxt ""
+"A tablet pad's dial has moved, V120 here refers to 'Value 120' which is a "
+"technical term that should be kept as is"
+msgid "Pad dial moved V120=%1"
+msgstr "வரைபலகை திருகி நகரந்தது V120=%1:"
+
+#: ui/Tester.qml:219
+#, kde-format
+msgctxt "The tablet tester legend which is shown on start-up"
+msgid ""
+"## Legend:\n"
+"# X, Y - event coordinate\n"
+"# P - pressure\n"
+"# TX,TY - tilt\n"
+msgstr ""
+"## விளக்கம்:\n"
+"# X, Y - நிகழ்வின் ஆயங்கள்\n"
+"# P - அழுத்தம்\n"
+"# TX,TY - சாய்வுநிலை\n"
+
+#: ui/Tester.qml:225
+#, kde-format
+msgctxt "Clear the tablet tester event log"
+msgid "Clear"
+msgstr "காலியாக்கு"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "Pen"
+#~ msgctxt ""
+#~ "Pen mode, where the point on the screen is always where you touch the "
+#~ "stylus"
+#~ msgid "Pen"
+#~ msgstr "பேனா"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Tap the center of each target.<nl/><nl/>Aim for the point where the "
+#~ "stylus tip lands, and ignore the cursor position on the screen."
+#~ msgstr ""
+#~ "ஒவ்வொரு இலக்கின் நடுப்பகுதியை தட்டவும்.<nl/><nl/> திரையில் காட்டப்படும் "
+#~ "சுட்டிக்குறியை பொருட்படுத்தாமல் பேனாவின் மீது மட்டும் கவனம் செலுத்தவும்."
+
+#~ msgctxt "Low pen pressure"
+#~ msgid "Low Pressure"
+#~ msgstr "குறைவான அழுத்தம்"
+
+#~ msgctxt "High pen pressure"
+#~ msgid "High Pressure"
+#~ msgstr "கூடுதல் அழுத்தம்"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Calibration across multiple screens is not supported."
+#~ msgstr "பல திரைகளுடனான அளதிருத்தம் ஆதரிக்கப்படாதது."
+
+#~ msgid "Fit to Screen"
+#~ msgstr "திரைக்கு பொருத்து"
+
+#~ msgid "Pen button 2:"
+#~ msgstr "பேனா பட்டன் 2:"
+
+#~ msgid "Pen button 3:"
+#~ msgstr "பேனா பட்டன் 3:"
+
+#~ msgid "Not Supported"
+#~ msgstr "ஆதரிக்கப்படாதது"
+
+#~ msgid "Primary (default)"
+#~ msgstr "முதன்மையானது (இயல்பிருப்பு)"
+
+#~ msgid "Fit to Output"
+#~ msgstr "திரைக்கு பொருத்து"
+
+#~ msgid "Fit Output in tablet"
+#~ msgstr "திரையை வரைபலகையில் பொருத்து"
+
+#~ msgid "Custom size"
+#~ msgstr "விருப்ப அளவு"
+
+#~ msgid "Target display:"
+#~ msgstr "இலக்கு திரை:"
+
+#~ msgid "Area:"
+#~ msgstr "பரப்பளவு:"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "கோ. கிஷோர்"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Kde-l10n-ta@kde.org"

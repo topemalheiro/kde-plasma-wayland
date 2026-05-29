@@ -1,0 +1,528 @@
+# Bosnian translations for kde package.
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kde package.
+# Samir Ribic <megaribi@epn.ba>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kde 49i410\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2015-02-04 15:12+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-02-05 07:28+0000\n"
+"X-Generator: Launchpad (build 17331)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Otvori sa:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Podešavanja"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Dodaj na površ"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr ""
+
+#: actionlist.cpp:164
+#, fuzzy, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Dodaj na panel"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, fuzzy, kde-format
+#| msgid "Recent Documents"
+msgid "Recent Files"
+msgstr "Skorašnji dokumenti"
+
+#: actionlist.cpp:326
+#, fuzzy, kde-format
+msgid "Forget Recent Files"
+msgstr "Skorašnji dokumenti"
+
+#: actionlist.cpp:393
+#, fuzzy, kde-format
+#| msgid "Edit Application..."
+msgid "Edit Application…"
+msgstr "Podesavanje aplikacije..."
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr ""
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "Sakrij aplikaciju"
+
+#: appentry.cpp:462
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 ( %2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 ( %2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, fuzzy, kde-format
+msgid "Applications"
+msgstr "Sakrij aplikaciju"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Prikaži aplikacije u podmenu-u"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Prikaži aplikacije u '%1'"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr ""
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr ""
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr ""
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, fuzzy, kde-format
+msgid "Favorites"
+msgstr "Dodaj u omiljene"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr ""
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr ""
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "Zaboravi aplikaciju"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr ""
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+msgid "Forget Folder"
+msgstr "Zaboravi sve dokumente"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+msgid "Forget File"
+msgstr "Zaboravi sve dokumente"
+
+#: recentusagemodel.cpp:526
+#, fuzzy, kde-format
+msgid "Forget All"
+msgstr "Zaboravi sve dokumente"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Zaboravi sve aplikacije"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+msgid "Forget All Folders"
+msgstr "Zaboravi sve dokumente"
+
+#: recentusagemodel.cpp:533
+#, fuzzy, kde-format
+msgid "Forget All Files"
+msgstr "Zaboravi sve dokumente"
+
+#: rootmodel.cpp:80
+#, fuzzy, kde-format
+msgid "All Applications"
+msgstr "Zaboravi sve aplikacije"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr ""
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr ""
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Documents"
+msgid "Recent Places"
+msgstr "Skorašnji dokumenti"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+msgid "Often Used Places"
+msgstr "Skorašnji dokumenti"
+
+#: rootmodel.cpp:587
+#, fuzzy, kde-format
+msgid "Often Used Files"
+msgstr "Skorašnji dokumenti"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "Skorašnji programi"
+
+#: rootmodel.cpp:596
+#, fuzzy, kde-format
+msgid "Often Used Applications"
+msgstr "Skorašnji programi"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "Napajanje / Sesija"
+
+#: runnermodel.cpp:272
+#, fuzzy, kde-format
+msgid "Search results"
+msgstr "Pretraživanje"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "Zaključaj"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr ""
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "Sačuvaj sesiju"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr ""
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr ""
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernacija"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "Ponovo pokreni"
+
+#: systementry.cpp:214
+#, fuzzy, kde-format
+msgid "Shut Down"
+msgstr "Ugasi"
+
+#: systementry.cpp:230
+#, fuzzy, kde-format
+msgid "Session"
+msgstr "Nova sesija"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr ""
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr ""
+
+#: systementry.cpp:250
+#, fuzzy, kde-format
+msgid "End session"
+msgstr "Nova sesija"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr ""
+
+#: systementry.cpp:259
+#, fuzzy, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspenduj"
+
+#: systementry.cpp:262
+#, fuzzy, kde-format
+msgid "Suspend to disk"
+msgstr "Suspenduj"
+
+#: systementry.cpp:265
+#, fuzzy, kde-format
+msgid "Restart computer"
+msgstr "Ponovo pokreni"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr ""
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Contacts"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~ msgid "Forget Contact"
+#~ msgstr "Zaboravi dokument"
+
+#, fuzzy
+#~ msgid "Forget All Contacts"
+#~ msgstr "Zaboravi sve dokumente"
+
+#, fuzzy
+#~ msgid "Recent Contacts"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~ msgid "Documents"
+#~ msgstr "Skorašnji dokumenti"
+
+#~ msgid "Forget Document"
+#~ msgstr "Zaboravi dokument"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Zaboravi sve dokumente"
+
+#~ msgid "General"
+#~ msgstr "Opšte"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Ukloni iz omiljenih"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Dodaj u omiljene"
+
+#, fuzzy
+#~| msgid "Add to Favorites"
+#~ msgid "Show In Favorites"
+#~ msgstr "Dodaj u omiljene"
+
+#, fuzzy
+#~| msgid "Icon"
+#~ msgid "Icon:"
+#~ msgstr "Ikona"
+
+#~ msgid "Show applications as:"
+#~ msgstr "Prikaži aplikaciju kao:"
+
+#~ msgid "Name only"
+#~ msgstr "Samo ime"
+
+#~ msgid "Description only"
+#~ msgstr "Samo opis"
+
+#~ msgid "Name (Description)"
+#~ msgstr "Ime (Opis)"
+
+#~ msgid "Description (Name)"
+#~ msgstr "Opis (ime)"
+
+#, fuzzy
+#~| msgid "Behavior"
+#~ msgid "Behavior:"
+#~ msgstr "Ponašanje"
+
+#, fuzzy
+#~| msgid "Show applications as:"
+#~ msgid "Sort applications alphabetically"
+#~ msgstr "Prikaži aplikaciju kao:"
+
+#, fuzzy
+#~| msgid "Flatten menu to a single level"
+#~ msgid "Flatten sub-menus to a single level"
+#~ msgstr "Izravnajte menu na jedan nivo"
+
+#, fuzzy
+#~| msgid "Add to Favorites"
+#~ msgid "Show categories:"
+#~ msgstr "Dodaj u omiljene"
+
+#, fuzzy
+#~| msgid "Recent Applications"
+#~ msgid "Recent applications"
+#~ msgstr "Skorašnji programi"
+
+#, fuzzy
+#~| msgid "Recent Applications"
+#~ msgid "Often used applications"
+#~ msgstr "Skorašnji programi"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Recent documents"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Often used documents"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Recent contacts"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Often used contacts"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+#~ msgid "Recently used"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#~ msgid "Often used"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search:"
+#~ msgstr "Pretraživanje"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Proširi pretragu na zabilješke, datoteke i e-poštu"
+
+#~ msgid "Align search results to bottom"
+#~ msgstr "Svrstajte rezultate pretrage na dno"
+
+#, fuzzy
+#~| msgid "Search..."
+#~ msgid "Type to search..."
+#~ msgstr "Traži..."
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Izmijeni programe..."
+
+#~ msgid "Search..."
+#~ msgstr "Traži..."
+
+#, fuzzy
+#~| msgid "Remove '%1'..."
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Ukloni '%1'..."
+
+#, fuzzy
+#~| msgid "Recent Applications"
+#~ msgid "Show recent applications"
+#~ msgstr "Skorašnji programi"
+
+#, fuzzy
+#~| msgid "Recent Applications"
+#~ msgid "Show often used applications"
+#~ msgstr "Skorašnji programi"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Show recent documents"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Show often used documents"
+#~ msgstr "Skorašnji dokumenti"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Show recent contacts"
+#~ msgstr "Skorašnji dokumenti"
+
+#~ msgid "Logout"
+#~ msgstr "Odjava"
+
+#~ msgid "Suspend"
+#~ msgstr "Suspenduj"
+
+#~ msgid "Use custom image:"
+#~ msgstr "Vlastita slika:"
+
+#~ msgid "Choose an image"
+#~ msgstr "Izaberite sliku"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+#~ msgstr "Tip slikovne datoteke (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+
+#~ msgid "Add as Launcher"
+#~ msgstr "Dodaj kao pokretac"
+
+#~ msgid "New Session"
+#~ msgstr "Nova sesija"
+
+#~ msgid "(Empty)"
+#~ msgstr "(Prazno)"

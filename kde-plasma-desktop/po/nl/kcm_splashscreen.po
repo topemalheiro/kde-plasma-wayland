@@ -1,0 +1,122 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2021, 2022, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2024 pieter <pieterkristensen@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-03 00:48+0000\n"
+"PO-Revision-Date: 2026-02-03 10:43+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: kcm.cpp:162
+#, kde-format
+msgid "None"
+msgstr "Geen"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Geen opstartscherm"
+
+#: kcm.cpp:183
+#, kde-format
+msgid "You cannot delete the currently selected splash screen"
+msgstr "U kunt het nu geselecteerde opstartscherm niet verwijderen"
+
+#. i18n: ectx: label, entry (engine), group (KSplash)
+#: splashscreensettings.kcfg:12
+#, kde-format
+msgid "For future use"
+msgstr "Voor toekomstig gebruik"
+
+#. i18n: ectx: label, entry (theme), group (KSplash)
+#: splashscreensettings.kcfg:16
+#, kde-format
+msgid "Name of the current splash theme"
+msgstr "Opstartscherm-thema nu in gebruik"
+
+#: ui/main.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&Get New…"
+msgstr "Nieuwe op&halen…"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to show the splash screen preview."
+msgstr "Voorbeeld van het opstartscherm tonen is mislukt."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview splash screen"
+msgstr "Opstartscherm bekijken"
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove splash screen"
+msgstr "Opstartscherm verwijderen"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active splash screen"
+msgstr "Kan het actieve opstartscherm niet verwijderen"
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed splash screens"
+msgstr ""
+"Kan het door het systeem geïnstalleerde opstartschermen niet verwijderen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Uninstall"
+#~ msgstr "Installatie ongedaan maken"
+
+#~ msgid "This module lets you choose the splash screen theme."
+#~ msgstr "Deze module laat u het thema van het opstartscherm kiezen."
+
+#~ msgid "&Get New Splash Screens…"
+#~ msgstr "Nieuwe opstartschermen &ophalen…"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Freek de Kruijf - t/m 2021"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "freekdekruijf@kde.nl"
+
+#~ msgid "Splash Screen"
+#~ msgstr "Opstartscherm"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "Get New Icons..."
+#~ msgstr "Nieuwe pictogrammen ophalen..."
+
+#~ msgid "Splash Screens"
+#~ msgstr "Opstartschermen"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "Choose the splash screen theme"
+#~ msgstr "Het opstartschermthema kiezen"
+
+#~ msgid "Configure Splash screen details"
+#~ msgstr "Details van opstartscherm instellen"

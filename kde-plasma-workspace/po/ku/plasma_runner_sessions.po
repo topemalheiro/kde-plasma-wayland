@@ -1,0 +1,216 @@
+# translation of krunner_sessions.po to Kurdish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Erdal Ronahi <erdal.ronahi@nospam.gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner_sessions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2008-06-11 14:45+0200\n"
+"Last-Translator: Erdal Ronahi <erdal.ronahi@nospam.gmail.com>\n"
+"Language-Team: ku <ubuntu-l10n-kur@lists.ubuntu.com>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sessionrunner.cpp:20
+#, fuzzy, kde-format
+#| msgid "log out"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to log out of the "
+"session"
+msgid "logout;log out"
+msgstr "derkeve"
+
+#: sessionrunner.cpp:23
+#, kde-format
+msgid "Logs out, exiting the current desktop session"
+msgstr ""
+
+#: sessionrunner.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "shutdown computer command"
+#| msgid "shutdown"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to shut down the "
+"computer"
+msgid "shutdown;shut down;power;poweroff;power off"
+msgstr "girtin"
+
+#: sessionrunner.cpp:30
+#, fuzzy, kde-format
+#| msgid "Shutdown the computer"
+msgid "Turns off the computer"
+msgstr "Komputerê bigire"
+
+#: sessionrunner.cpp:33
+#, fuzzy, kde-format
+#| msgctxt "restart computer command"
+#| msgid "restart"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to restart the "
+"computer"
+msgid "restart;reboot"
+msgstr "nûdestpêkirin"
+
+#: sessionrunner.cpp:36
+#, fuzzy, kde-format
+#| msgid "Restart the computer"
+msgid "Reboots the computer"
+msgstr "Nûdestpêkirina komputerê"
+
+#: sessionrunner.cpp:40
+#, fuzzy, kde-format
+#| msgid "Lock the screen"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to lock the screen"
+msgid "lock;lock screen"
+msgstr "Dîmenderê biqufilîne"
+
+#: sessionrunner.cpp:42
+#, kde-format
+msgid "Locks the current sessions and starts the screen saver"
+msgstr ""
+
+#: sessionrunner.cpp:45
+#, fuzzy, kde-format
+#| msgid "new session"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to save the "
+"desktop session"
+msgid "save;save session"
+msgstr "danişîna nû"
+
+#: sessionrunner.cpp:48
+#, kde-format
+msgid "Saves the current session for session restoration"
+msgstr ""
+
+#: sessionrunner.cpp:51
+#, fuzzy, kde-format
+#| msgid "switch user"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to switch user "
+"sessions"
+msgid "switch user;new session"
+msgstr "guherandina bikarhênerê/î"
+
+#: sessionrunner.cpp:54
+#, kde-format
+msgid "Switch to a session as a different user"
+msgstr ""
+
+#: sessionrunner.cpp:75
+#, kde-format
+msgctxt "log out command"
+msgid "Log Out"
+msgstr ""
+
+#: sessionrunner.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "shutdown computer command"
+#| msgid "shutdown"
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr "girtin"
+
+#: sessionrunner.cpp:90
+#, fuzzy, kde-format
+#| msgctxt "restart computer command"
+#| msgid "restart"
+msgctxt "restart computer command"
+msgid "Restart"
+msgstr "nûdestpêkirin"
+
+#: sessionrunner.cpp:97
+#, kde-format
+msgctxt "lock screen command"
+msgid "Lock"
+msgstr ""
+
+#: sessionrunner.cpp:104
+#, fuzzy, kde-format
+#| msgid "new session"
+msgid "Save Session"
+msgstr "danişîna nû"
+
+#: sessionrunner.cpp:111
+#, fuzzy, kde-format
+#| msgid "switch user"
+msgid "Switch User"
+msgstr "guherandina bikarhênerê/î"
+
+#, fuzzy
+#~| msgid "Sessions"
+#~ msgctxt "KRunner keyword to list user sessions"
+#~ msgid "sessions"
+#~ msgstr "Danişîn"
+
+#, fuzzy
+#~| msgctxt "switch user command"
+#~| msgid "switch"
+#~ msgctxt "KRunner keyword to switch user sessions"
+#~ msgid "switch"
+#~ msgstr "guherandin"
+
+#, fuzzy
+#~| msgid "New Session"
+#~ msgid "New Desktop Session"
+#~ msgstr "Danişîna Nû"
+
+#~ msgctxt "log out command"
+#~ msgid "logout"
+#~ msgstr "derketin"
+
+#~ msgctxt "lock screen command"
+#~ msgid "lock"
+#~ msgstr "qufilkirin"
+
+#~ msgctxt "restart computer command"
+#~ msgid "reboot"
+#~ msgstr "nûdestpêkirin"
+
+#, fuzzy
+#~| msgctxt "switch user command"
+#~| msgid "switch"
+#~ msgctxt "switch user command"
+#~ msgid "switch :q:"
+#~ msgstr "guherandin"
+
+#~ msgid "new session"
+#~ msgstr "danişîna nû"
+
+#~ msgctxt "log out command"
+#~ msgid "Logout"
+#~ msgstr "Derketin"
+
+#~ msgid "Restart the computer"
+#~ msgstr "Nûdestpêkirina komputerê"
+
+#, fuzzy
+#~| msgctxt "shutdown computer command"
+#~| msgid "shutdown"
+#~ msgctxt "shut down computer command"
+#~ msgid "shutdown"
+#~ msgstr "girtin"
+
+#, fuzzy
+#~| msgid "Shutdown the computer"
+#~ msgid "Shut down the computer"
+#~ msgstr "Komputerê bigire"
+
+#, fuzzy
+#~| msgid "new session"
+#~ msgid "Save the session"
+#~ msgstr "danişîna nû"
+
+#~ msgid "Warning - New Session"
+#~ msgstr "Hişyarî - Danişîna Nû"
+
+#~ msgid "&Start New Session"
+#~ msgstr "&Dest bi danişîna nû bike"

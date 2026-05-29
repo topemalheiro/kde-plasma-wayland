@@ -1,0 +1,358 @@
+# translation of kcm_autostart.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2010-11-08 09:45+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#: autostartmodel.cpp:381
+#, kde-format
+msgid "\"%1\" is not an absolute url."
+msgstr ""
+
+#: autostartmodel.cpp:384
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr ""
+
+#: autostartmodel.cpp:387
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr ""
+
+#: autostartmodel.cpp:390
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr ""
+
+#: ui/entry.qml:30
+#, kde-format
+msgctxt "@label Stop the Systemd unit for a running process"
+msgid "Stop"
+msgstr ""
+
+#: ui/entry.qml:31
+#, fuzzy, kde-format
+#| msgid "Startup"
+msgctxt "@label Start the Systemd unit for a currently inactive process"
+msgid "Start"
+msgstr "ចាប់ផ្ដើម"
+
+#: ui/entry.qml:71
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt ""
+"@label The name of a Systemd unit for an app or script that will autostart"
+msgid "Name:"
+msgstr "ឈ្មោះ"
+
+#: ui/entry.qml:77
+#, fuzzy, kde-format
+#| msgid "Status"
+msgctxt ""
+"@label The current status (e.g. active or inactive) of a Systemd unit for an "
+"app or script that will autostart"
+msgid "Status:"
+msgstr "ស្ថានភាព"
+
+#: ui/entry.qml:83
+#, kde-format
+msgctxt ""
+"@label A date and time follows this text, making a sentence like 'Last "
+"activated on: August 7th 11 PM 2023'"
+msgid "Last activated on:"
+msgstr ""
+
+#: ui/entry.qml:114
+#, kde-format
+msgid "Unable to load logs. Try refreshing."
+msgstr ""
+
+#: ui/entry.qml:118
+#, kde-format
+msgctxt "@action:button Refresh entry logs when it failed to load"
+msgid "Refresh"
+msgstr ""
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Make Executable"
+msgstr ""
+
+#: ui/main.qml:55
+#, kde-format
+msgid "The file '%1' must be executable to run at logout."
+msgstr ""
+
+#: ui/main.qml:57
+#, kde-format
+msgid "The file '%1' must be executable to run at login."
+msgstr ""
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@action:button menu button; add new application etc"
+msgid "Add New"
+msgstr ""
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@title:menu accessible menu button"
+msgid "Add new application or script"
+msgstr ""
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:inmenu completes: add new application"
+msgid "Application…"
+msgstr ""
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:inmenu accessible"
+msgid "Add application"
+msgstr ""
+
+#: ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgctxt "@action:inmenu completes: add new login script"
+msgid "Login Script…"
+msgstr "បន្ថែម​ស្គ្រីប..."
+
+#: ui/main.qml:81
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgctxt "@action:inmenu accessible"
+msgid "Add login script"
+msgstr "បន្ថែម​ស្គ្រីប..."
+
+#: ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgctxt "@action:inmenu completes: add new logout script"
+msgid "Logout Script…"
+msgstr "បន្ថែម​ស្គ្រីប..."
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgctxt "@action:inmenu accessible"
+msgid "Add logout script"
+msgstr "បន្ថែម​ស្គ្រីប..."
+
+#: ui/main.qml:121
+#, kde-format
+msgid ""
+"%1 has not been autostarted yet. Details will be available after the system "
+"is restarted."
+msgstr ""
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt ""
+"@label Entry hasn't been autostarted because system hasn't been restarted"
+msgid "Not autostarted yet"
+msgstr ""
+
+#: ui/main.qml:153
+#, fuzzy, kde-format
+#| msgid "&Properties"
+msgctxt "@action:button"
+msgid "See properties"
+msgstr "លក្ខណៈសម្បត្តិ"
+
+#: ui/main.qml:164
+#, fuzzy, kde-format
+#| msgid "&Remove"
+msgctxt "@action:button"
+msgid "Remove entry"
+msgstr "យក​ចេញ"
+
+#: ui/main.qml:180
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: ui/main.qml:183
+#, kde-format
+msgid "Login Scripts"
+msgstr ""
+
+#: ui/main.qml:186
+#, fuzzy, kde-format
+#| msgid "Pre-KDE startup"
+msgid "Pre-startup Scripts"
+msgstr "ចាប់ផ្ដើម​មុន KDE"
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Logout Scripts"
+msgstr ""
+
+#: ui/main.qml:198
+#, kde-format
+msgid "No user-specified autostart items"
+msgstr ""
+
+#: ui/main.qml:199
+#, kde-kuit-format
+msgctxt "@info 'some' refers to autostart items"
+msgid "Click the <interface>Add New</interface> button to add some"
+msgstr ""
+
+#: ui/main.qml:214
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Choose Login Script"
+msgstr "បន្ថែម​ស្គ្រីប..."
+
+#: ui/main.qml:234
+#, kde-format
+msgid "Choose Logout Script"
+msgstr ""
+
+#: unit.cpp:26
+#, kde-format
+msgctxt "@label Entry is running right now"
+msgid "Running"
+msgstr ""
+
+#: unit.cpp:27
+#, kde-format
+msgctxt "@label Entry is not running right now (exited without error)"
+msgid "Not running"
+msgstr ""
+
+#: unit.cpp:28
+#, fuzzy, kde-format
+#| msgid "Startup"
+msgctxt "@label Entry is being started"
+msgid "Starting"
+msgstr "ចាប់ផ្ដើម"
+
+#: unit.cpp:29
+#, kde-format
+msgctxt "@label Entry is being stopped"
+msgid "Stopping"
+msgstr ""
+
+#: unit.cpp:30
+#, kde-format
+msgctxt "@label Entry has failed (exited with an error)"
+msgid "Failed"
+msgstr ""
+
+#: unit.cpp:81
+#, kde-format
+msgid "Error occurred when receiving reply of GetAll call %1"
+msgstr ""
+
+#: unit.cpp:153
+#, kde-format
+msgid "Failed to open journal"
+msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "khoemsokhem@khmeros.info,evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#, fuzzy
+#~| msgid "KDE Autostart Manager Control Panel Module"
+#~ msgid "Session Autostart Manager Control Panel Module"
+#~ msgstr "ម៉ូឌុល​បន្ទះ​ត្រួតពិនិត្យ​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​ចាប់ផ្ដើម​ដោយ​ស្វ័យប្រវត្តិ​របស់ KDE"
+
+#, fuzzy
+#~| msgid "Copyright © 2006–2010 Autostart Manager team"
+#~ msgid "Copyright © 2006–2020 Autostart Manager team"
+#~ msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៦-២០១០ ដោយ​ក្រុម​កម្មវិធី​គ្រប់គ្រង​ការ​ចាប់ផ្ដើម​ដោយ​ស្វ័យ​ប្រវត្តិ"
+
+#~ msgid "Stephen Leaf"
+#~ msgstr "Stephen Leaf"
+
+#~ msgid "Montel Laurent"
+#~ msgstr "Montel Laurent"
+
+#~ msgid "Maintainer"
+#~ msgstr "អ្នកថែទាំ"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Add..."
+#~ msgstr "កម្រិតខ្ពស់"
+
+#, fuzzy
+#~| msgid "Shell script:"
+#~ msgid "Shell script path:"
+#~ msgstr "ស្គ្រីប​សែល ៖"
+
+#~ msgid "Create as symlink"
+#~ msgstr "បង្កើត​ជា​តំណ​និមិត្ត​សញ្ញា"
+
+#, fuzzy
+#~| msgid "Autostart only in KDE"
+#~ msgid "Autostart only in Plasma"
+#~ msgstr "ចាប់ផ្ដើម​ដោយ​ស្វ័យ​ប្រវត្តិ​តែ​ក្នុង KDE ប៉ុណ្ណោះ"
+
+#~ msgid "Command"
+#~ msgstr "ពាក្យ​បញ្ជា"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@title:column The name of the column that decides if the program is run "
+#~| "on kde startup, on kde shutdown, etc"
+#~| msgid "Run On"
+#~ msgctxt ""
+#~ "@title:column The name of the column that decides if the program is run "
+#~ "on session startup, on session shutdown, etc"
+#~ msgid "Run On"
+#~ msgstr "រត់​លើ"
+
+#, fuzzy
+#~| msgid "KDE Autostart Manager"
+#~ msgid "Session Autostart Manager"
+#~ msgstr "កម្មវិធី​គ្រប់គ្រង​ការ​ចាប់ផ្ដើមដោយ​ស្វ័យប្រវត្តិ​របស់ KDE"
+
+#~ msgctxt "The program will be run"
+#~ msgid "Enabled"
+#~ msgstr "បានបើក"
+
+#~ msgctxt "The program won't be run"
+#~ msgid "Disabled"
+#~ msgstr "បាន​បិទ"
+
+#~ msgid "Desktop File"
+#~ msgstr "ឯកសារ​ផ្ទៃតុ"
+
+#~ msgid "Script File"
+#~ msgstr "ឯកសារ​ស្គ្រីប"
+
+#~ msgid "Add Program..."
+#~ msgstr "បន្ថែម​កម្មវិធី..."
+
+#~ msgid ""
+#~ "Only files with “.sh” extensions are allowed for setting up the "
+#~ "environment."
+#~ msgstr "មាន​តែ​ឯកសារ​ដែល​មាន​កន្ទុយ “.sh” ប៉ុណ្ណោះ​ត្រូវបាន​អនុញ្ញាត​ឲ្យ​រៀបចំ​បរិស្ថាន ។"
+
+#~ msgid "Shutdown"
+#~ msgstr "បិទ"

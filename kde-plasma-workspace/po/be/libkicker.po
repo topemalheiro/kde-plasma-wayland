@@ -1,0 +1,343 @@
+# Zmicier <zmicerturok@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2024-11-04 22:07\n"
+"Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
+"Language-Team: Belarusian\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Generator: Lokalize 22.08.3\n"
+"X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
+"X-Crowdin-Project-ID: 136\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/"
+"libkicker.po\n"
+"X-Crowdin-File-ID: 10796\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Адкрыць у:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Уласцівасці"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Дадаць на працоўны стол"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Замацаваць у кіраўніку задач"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Дадаць на панэль (віджэт)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "Нядаўнія файлы"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Забыць нядаўнія файлы"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "Рэдагаваць праграму…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Выдаленне або кіраванне дапаўненнямі…"
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "Схаваць праграму"
+
+#: appentry.cpp:462
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "Праграмы"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Паказваць праграмы ў гэтым падменю"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Паказваць праграмы ў \"%1\""
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "Паказаць KRunner"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Пошук, разбор або запуск каманд"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "Камп'ютар"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Улюбёнае"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "Нядаўнія"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "Файлы"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "Забыцца на праграму"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Адкрыць каталог змесціва"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "Забыцца на файл"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "Забыцца на файл"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "Забыцца на ўсе"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Забыцца на ўсе праграмы"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "Забыцца на ўсе файлы"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "Забыцца на ўсе файлы"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Усе праграмы"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "Схаваць %1"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "Гэта мусіць быць бачна! Выкарыстоўвайце KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "Нядаўнія файлы"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "Файлы, якія часта выкарыстоўваюцца"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "Файлы, якія часта выкарыстоўваюцца"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "Нядаўнія праграмы"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Праграмы, якія часта выкарыстоўваюцца"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "Сілкаванне / сеанс"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "Вынікі пошуку"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "Заблакаваць"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "Выхад"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "Захаваць сеанс"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "Пераключыць карыстальніка"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Прыпыніць у RAM"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "Перавесці ў рэжым сну"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "Перазапусціць"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "Выключыць"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "Сеанс"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "Сістэма"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "Заблакаваць экран"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "Скончыць сеанс"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Запусціць паралельны сеанс ад імя іншага карыстальніка"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Прыпыніць з кэшаваннем у аператыўную памяць"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Прыпыніць з кэшаваннем на цвёрды дыск"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "Перазапусціць камп'ютар"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "Выключыць камп'ютар"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Сістэмныя дзеянні"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "Паказаць кантактную інфармацыю…"
+
+#~ msgid "Contacts"
+#~ msgstr "Кантакты"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Забыцца на кантакт"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Забыцца на ўсе кантакты"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Нядаўнія кантакты"

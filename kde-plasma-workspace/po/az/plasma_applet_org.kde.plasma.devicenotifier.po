@@ -1,0 +1,305 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024, 2025 Kheyyam Godjayev <xxmn77@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2025-04-23 00:15+0400\n"
+"Last-Translator: linux <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr ""
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Qoşmaq"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Fayl Meneceri açmaq"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Xətaları düzəltməyə cəhd edin"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Qoşmaq və Açmaq"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Çıxartmaq"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Təhlükəsiz çıxartmaq"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Bu cihazın fayl sistemində xəta var."
+
+#: messageinfo.cpp:110
+#, fuzzy, kde-format
+#| msgid "This device has file system errors."
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Bu cihazın fayl sistemində xəta var."
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Xətalar düzəldildi!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Cihazın vəziyyəti"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Cihazı indi təhlükəsiz ayırmaq olar"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Bu cihazı indi təhlükəsiz ayırmaq olar."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Bu cihazı qoşmaq icazəniz yoxdur."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Bu diski çıxartmaq icazəniz yoxdur."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Bu cihazı ayırmaq icazəniz yoxdur."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Bu cihazdakı xətaları düzəltmək icazəniz yoxdur."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr ""
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Bu cihazə qoşmaq olmaz, o məşğuldur."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Bu cihazdakı bir və daha çox fayl bir tətbiq tərəfindən açılıb."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] "Bu cihazdakı bir və daha çox fayl bir tətbiq tərəfindən açılıb."
+msgstr[1] "Bu cihazdakı bir və daha çox fayl \"%2\" tətbiq tərəfindən açılıb."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Bu cihazı qoşmaq mümkün olmadı."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Bu diski çıxartmaq mümkün olmadı."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Bu cihazı ayırmaq mümkün olmadı."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Bu cihazdakı xətaları düzəltmək mümkün olmadı: %1"
+
+#: qml/DeviceItem.qml:98
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Accessing is a less technical word for Mounting; translation should be "
+#| "short and mean 'Currently mounting this device'"
+#| msgid "Checking…"
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Yoxlanılır..."
+
+#: qml/DeviceItem.qml:100
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Accessing is a less technical word for Mounting; translation should be "
+#| "short and mean 'Currently mounting this device'"
+#| msgid "Repairing…"
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Xətalar düzəldilir..."
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1/%2 boş"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Giriş..."
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Çıxarılır..."
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Elektrik şəbəkəsindən ayırmayın! Hələ də fayllar köçürülür..."
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Hamısını çıxartmaq"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Bütün cihazları təhlükəsiz çıxartmaq üçün klikləyin"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Çıxarıla bilən cihaz əlavə edilməyib"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Disklər mövcud deyil"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Ən son cihaz"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Movcud cihaz yoxdur"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "ÇIxarılabilən cihazları tənzimləmək..."
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Çıxarılabilən cihazlar"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Çıxarıla bilməyən cihazlar"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Bütün cihazlar"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Yeni cihaz qoşulduqda açılan menyuda göstərmək"
+
+#~ msgid "Filesystem is not responding"
+#~ msgstr "Fayl sistemi cavab vermir"
+
+#~ msgid "Filesystem mounted at '%1' is not responding"
+#~ msgstr "\"%1\"-ə qoşulmuş fayl sistemi cavab vermir"
+
+#~ msgid "Show:"
+#~ msgstr "Göstərmək:"
+
+#~ msgid "General"
+#~ msgstr "Əsas"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Hal-hazırda bu cihazı çıxarmaq <b>təhlükəsiz deyil</b>: Cihazı təhlükəsiz "
+#~ "çıxarmaq üçün cıxartmaq düyməsinə vurmaq lazımdır."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "Bu cihaz hal-hazırda əlçatandır"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Bu cihazı hal-hazırda çıxartmaq <b>təhlükəsiz deyil</b>: tətbiq bu "
+#~ "cihazdakı digər bölmələrə giriş əldə etmiş ola bilər. Bu cihazı "
+#~ "təhlükəsiz çıxarmaq üçün digər bölmələrdəki şıxart düyməsinə vurmaq "
+#~ "lazımdır."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "B cihaz hazırda əlçatan deyil"
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "Bu cihaz üçün %1 fəaliyyət"
+#~ msgstr[1] "Bu cihaz üçün %1 fəaliyyət"

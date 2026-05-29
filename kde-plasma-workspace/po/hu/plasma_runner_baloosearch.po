@@ -1,0 +1,99 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2014, 2019.
+# Kiszel Kristóf <kiszel.kristof@gmail.com>, 2017.
+# SPDX-FileCopyrightText: 2023-2024, 2026 Kristof Kiszel <ulysses@fsf.hu>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-05-21 22:40+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 26.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: baloosearchrunner.cpp:42
+#, kde-format
+msgid "File Search"
+msgstr "Fájlkeresés"
+
+#: baloosearchrunner.cpp:69
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Tartalmazó mappa megnyitása"
+
+#: baloosearchrunner.cpp:93
+#, kde-format
+msgctxt ""
+"Audio files; translate this as a plural noun in languages with a plural form "
+"of the word"
+msgid "Audio"
+msgstr "Hang"
+
+#: baloosearchrunner.cpp:95
+#, kde-format
+msgid "Images"
+msgstr "Képek"
+
+#: baloosearchrunner.cpp:96
+#, kde-format
+msgid "Videos"
+msgstr "Videók"
+
+#: baloosearchrunner.cpp:97
+#, kde-format
+msgid "Spreadsheets"
+msgstr "Táblázatok"
+
+#: baloosearchrunner.cpp:98
+#, kde-format
+msgid "Presentations"
+msgstr "Bemutatók"
+
+#: baloosearchrunner.cpp:99
+#, kde-format
+msgid "Folders"
+msgstr "Mappák"
+
+#: baloosearchrunner.cpp:100
+#, kde-format
+msgid "Documents"
+msgstr "Dokumentumok"
+
+#: baloosearchrunner.cpp:101
+#, kde-format
+msgid "Archives"
+msgstr "Archívumok"
+
+#: baloosearchrunner.cpp:102
+#, kde-format
+msgid "Texts"
+msgstr "Szövegek"
+
+#: baloosearchrunner.cpp:103
+#, kde-format
+msgid "Files"
+msgstr "Fájlok"
+
+#~ msgid "Search through files, emails and contacts"
+#~ msgstr "Keresés fájlokban, e-mailekben és névjegyekben"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"

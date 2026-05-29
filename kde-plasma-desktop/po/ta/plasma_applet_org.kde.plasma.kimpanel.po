@@ -1,0 +1,166 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2021, 2022, 2025, 2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-01-31 18:08+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: qml/ActionMenu.qml:92
+#, kde-format
+msgctxt "@label placeholder for empty menu"
+msgid "(Empty)"
+msgstr "(காலியானது)"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr "தோற்றம்"
+
+#: qml/ConfigAppearance.qml:31
+#, kde-format
+msgctxt "@title:group for radiobuttons"
+msgid "Input method list:"
+msgstr "உள்ளீட்டு முறைகளின் பட்டியல்:"
+
+#: qml/ConfigAppearance.qml:32
+#, kde-format
+msgctxt "@option:radio IM list orientation"
+msgid "Vertical"
+msgstr "நெடுக்காகது"
+
+#: qml/ConfigAppearance.qml:38
+#, kde-format
+msgctxt "@option:radio IM list orientation"
+msgid "Horizontal"
+msgstr "கிடைமட்டமாகது"
+
+#: qml/ConfigAppearance.qml:45
+#, kde-format
+msgctxt "@title group font selection"
+msgid "Font:"
+msgstr "எழுத்துரு:"
+
+#: qml/ConfigAppearance.qml:51
+#, kde-format
+msgctxt "@option:check use custom font"
+msgid "Use custom:"
+msgstr "விருப்பமானதை பயன்படுத்து:"
+
+#: qml/ConfigAppearance.qml:57
+#, kde-format
+msgctxt "@info The selected font family (%1) and font size (%2)"
+msgid "%1 %2 pt"
+msgstr "%1 %2 pt"
+
+#: qml/ConfigAppearance.qml:65
+#, kde-format
+msgctxt "@action:button opens font dialog"
+msgid "Choose Font…"
+msgstr "எழுத்துருவை தேர்வு செய்…"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@title:group The arrangement of icons in the Panel"
+msgid "Panel icon size:"
+msgstr "பலகையிலுள்ள சின்னத்தின் அளவு:"
+
+#: qml/ConfigAppearance.qml:79
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Small"
+msgstr "சிறியது"
+
+#: qml/ConfigAppearance.qml:87
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel height"
+msgstr "பலகையின் உயரத்தைப் பொறுத்து மாறும்"
+
+#: qml/ConfigAppearance.qml:88
+#, kde-format
+msgctxt "@option:radio panel icon size"
+msgid "Scale with Panel width"
+msgstr "பலகையின் அகலத்தைப் பொறுத்து மாறும்"
+
+#: qml/ConfigAppearance.qml:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Font"
+msgstr "எழுத்துருவை தேர்வு செய்தல்"
+
+#: qml/ContextMenu.qml:96
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show"
+msgstr "காட்டு"
+
+#: qml/ContextMenu.qml:111
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide %1"
+msgstr "%1 என்பதை மறை"
+
+#: qml/ContextMenu.qml:120
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Input Method"
+msgstr "உள்ளீட்டு முறையை அமை"
+
+#: qml/ContextMenu.qml:128
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Config"
+msgstr "அமைப்புகளை மீளேற்று"
+
+#: qml/ContextMenu.qml:136
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Input Method"
+msgstr "உள்ளீட்டு முறையிலிருந்து வெளியேறு"
+
+#: qml/main.qml:254
+#, kde-format
+msgctxt "@label placeholder for missing label"
+msgid "Input Method Panel"
+msgstr "உள்ளீட்டு முறை பலகை"
+
+#~ msgctxt "The selected font family and font size"
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Search"
+#~ msgstr "தேடல்"
+
+#~ msgid "Clear History"
+#~ msgstr "வரலாற்றை காலியாக்கு"
+
+#~ msgid "No recent Emojis"
+#~ msgstr "சமீப முகவடிகள் இல்லை"
+
+#~ msgid "%1 copied to the clipboard"
+#~ msgstr "%1 பிடிப்புப்பலகைக்கு நகலெடுக்கப்பட்டது"
+
+#~ msgid "Recent"
+#~ msgstr "சமீபமானவை"
+
+#~ msgid "All"
+#~ msgstr "அனைத்து"
+
+#~ msgid "Categories"
+#~ msgstr "வகைகள்"
+
+#~ msgid "Search…"
+#~ msgstr "தேடு..."

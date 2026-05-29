@@ -1,0 +1,248 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Marek Laane <qiilaq69@gmail.com>, 2019, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2020-03-05 18:29+0200\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian <kde-et@lists.linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.1\n"
+
+#: ui/DayNightView.qml:154
+#, fuzzy, kde-format
+#| msgid "Night Color begins changing back at %1"
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr "Öörežiim hakkab lõppema kell %1"
+
+#: ui/DayNightView.qml:157
+#, fuzzy, kde-format
+#| msgid "Night Color begins changing back at %1"
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr "Öörežiim hakkab lõppema kell %1"
+
+#: ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid ""
+#| "Night Color makes the colors on the screen warmer to reduce eye strain at "
+#| "the time of your choosing."
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr ""
+"Öörežiim muudab ekraani värvid soojemaks, vähendades silmade pinget just "
+"siis, kui sa seda soovid."
+
+#: ui/main.qml:49
+#, fuzzy, kde-format
+#| msgid "Activation time:"
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "Aktiveerimise aeg:"
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr ""
+
+#: ui/main.qml:59
+#, fuzzy, kde-format
+#| msgid "Always on"
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "Alati sees"
+
+#: ui/main.qml:60
+#, fuzzy, kde-format
+#| msgid "Sunrise begins:"
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr "Päike tõuseb:"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr ""
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr ""
+
+#: ui/main.qml:123
+#, fuzzy, kde-format
+#| msgid "Night Color Temperature:"
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "Öine värvustemperatuur:"
+
+#: ui/main.qml:173 ui/main.qml:237
+#, kde-format
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr ""
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Soe "
+
+#: ui/main.qml:187
+#, fuzzy, kde-format
+#| msgid "Night Color Temperature:"
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "Öine värvustemperatuur:"
+
+#, fuzzy
+#~| msgid "Latitude:"
+#~ msgctxt "@label: textbox"
+#~ msgid "Latitude:"
+#~ msgstr "Laiuskraad:"
+
+#, fuzzy
+#~| msgid "Longitude:"
+#~ msgctxt "@label: textbox"
+#~ msgid "Longitude:"
+#~ msgstr "Pikkuskraad:"
+
+#, fuzzy
+#~| msgid "Sunset to sunrise at current location"
+#~ msgid "Sunset and sunrise at current location"
+#~ msgstr "Loojangust koiduni praeguses asukohas"
+
+#, fuzzy
+#~| msgid "Sunset to sunrise at manual location"
+#~ msgid "Sunset and sunrise at manual location"
+#~ msgstr "Loojangust koiduni käsitsi valitud asukohas"
+
+#, fuzzy
+#~| msgid "Custom time"
+#~ msgid "Custom times"
+#~ msgstr "Kohandatud ajal"
+
+#, fuzzy
+#~| msgid "Detect Location"
+#~ msgctxt "@label The coordinates for the current location"
+#~ msgid "Current location:"
+#~ msgstr "Tuvasta asukoht"
+
+#, fuzzy
+#~| msgid "Latitude: %1   Longitude: %2"
+#~ msgid "Latitude: %1°   Longitude: %2°"
+#~ msgstr "Laiuskraad: %1   Pikkuskraad: %2"
+
+#~ msgid "Transition duration:"
+#~ msgstr "Ülemineku kestus:"
+
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 minut"
+#~ msgstr[1] "%1 minutit"
+
+#~ msgid "Input minutes - min. 1, max. 600"
+#~ msgstr "Minutite sisestamine: min 1, maks 60"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgctxt "@info:placeholder"
+#~ msgid "Locating…"
+#~ msgstr "Asukoht"
+
+#, fuzzy
+#~| msgid "%1 minute"
+#~| msgid_plural "%1 minutes"
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "minute"
+#~ msgstr "%1 minut"
+
+#~ msgid "Error: Transition time overlaps."
+#~ msgstr "Viga: üleminekuaeg kattub"
+
+#~ msgid "Input format: HH:MM"
+#~ msgstr "Sisestusvorming: HH:MM"
+
+#~ msgctxt "Night colour blue-ish"
+#~ msgid "Cool"
+#~ msgstr "Külm"
+
+#, fuzzy
+#~| msgid "Activate Night Color"
+#~ msgid "Activate blue light filter"
+#~ msgstr "Öörežiimi lubamine"
+
+#~ msgid "Turn on at:"
+#~ msgstr "Sisselülitamise aeg:"
+
+#~ msgid "Turn off at:"
+#~ msgstr "Väljalülitamise aeg:"
+
+#, fuzzy
+#~| msgid "Night Color begins changing back at %1"
+#~ msgid "Night Color begins changing back at %1 and ends at %2"
+#~ msgstr "Öörežiim hakkab lõppema kell %1"
+
+#~ msgid "Error: Morning is before evening."
+#~ msgstr "Viga: hommik on enne õhtut"
+
+#~ msgid "Night Color begins at %1"
+#~ msgstr "Öörežiim algab kell %1"
+
+#~ msgid "Color fully changed at %1"
+#~ msgstr "Täielik öörežiim kell %1"
+
+#~ msgid "Normal coloration restored by %1"
+#~ msgstr "Päevarežiimi taastumine kell %1"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Marek Laane"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "qiilaq69@gmail.com"
+
+#~ msgid "Night Color"
+#~ msgstr "Öörežiim"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid " K"
+#~ msgstr " K"
+
+#~ msgid "Operation mode:"
+#~ msgstr "Tegutsemise alus:"
+
+#~ msgid "Automatic"
+#~ msgstr "Automaatne"
+
+#~ msgid "Times"
+#~ msgstr "Aeg"
+
+#~ msgid "Constant"
+#~ msgstr "Püsiv"
+
+#~ msgid "(Input format: HH:MM)"
+#~ msgstr "(Sisestusvorming: HH:MM)"
+
+#~ msgid "Sunset begins:"
+#~ msgstr "Päike loojub:"
+
+#~ msgid "...and ends:"
+#~ msgstr "... ja lõpeb:"

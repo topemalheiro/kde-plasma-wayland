@@ -1,0 +1,1298 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Kardarakos <dimkard@gmail.com>, 2015, 2017.
+# Dimitrys Meliates <demetresmeliates+i18n@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2024-08-12 21:02+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr ""
+"Κρίσιμο σφάλμα κατά την ανάγνωση θεμελιωδών πληροφοριών συσκευής για το "
+"επιφάνεια αφής %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Αδυναμία σύνδεσης στον διακομιστή X"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Δεν βρέθηκε επιφάνεια αφής"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Αδυναμία εφαρμογής της διαμόρφωσης επιφάνειας αφής"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Αδυναμία ανάγνωσης της διαμόρφωσης επιφάνειας αφής"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Αδυναμία ανάγνωσης της προεπιλεγμένης διαμόρφωσης επιφάνειας αφής"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Σφάλμα κατά τη φόρτωση τιμών. Δείτε τα αρχεία καταγραφής για περισσότερες "
+"πληροφορίες. Παρακαλώ επανεκκινήστε αυτή τη μονάδα διαμόρφωσης."
+
+#: kcm.cpp:129
+#, fuzzy, kde-format
+#| msgid "No touchpad found. Connect touchpad now."
+msgid "No pointer device found. Connect now."
+msgstr "Δεν βρέθηκε επιφάνεια αφής. Συνδέστε μια επιφάνεια αφής τώρα."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Αδυναμία αποθήκευσης όλων των αλλαγών. Δείτε τα αρχεία καταγραφής για "
+"περισσότερες πληροφορίες. Παρακαλώ επανεκκινήστε αυτή τη μονάδα διαμόρφωσης "
+"και δοκιμάστε ξανά."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Αδυναμία φόρτωσης των προκαθορισμένων τιμών. Αποτυχία καθορισμού κάποιων "
+"επιλογών στις προκαθορισμένες τιμές."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Σφάλμα κατά την προσθήκη της πρόσφατα συνδεδεμένης συσκευής. Παρακαλώ "
+"επανασυνδέστε τη και επανεκκινήστε το άρθρωμα διαμόρφωσης."
+
+#: kcm.cpp:185
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. Closed its setting dialog."
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Αποσύνδεση επιφάνειας αφής. Κλείσιμο του διαλόγου ρυθμίσεων."
+
+#: kcm.cpp:187
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. No other touchpads found."
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Αποσύνδεση επιφάνειας αφής. Δε βρέθηκαν άλλες επιφάνειες αφής."
+
+#: ui/main.qml:69
+#, fuzzy, kde-format
+#| msgid "No touchpad found"
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Δεν βρέθηκε επιφάνεια αφής"
+
+#: ui/main.qml:70
+#, fuzzy, kde-format
+#| msgid "Connect an external touchpad"
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Συνδέστε μια εξωτερική επιφάνεια αφής"
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Συσκευή:"
+
+#: ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Γενικά:"
+
+#: ui/main.qml:111
+#, fuzzy, kde-format
+#| msgctxt "Coasting"
+#| msgid "Enable"
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Ενεργοποίηση"
+
+#: ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Disable touchpad when mouse is plugged in"
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Απενεργοποίηση της επιφάνειας αφής όταν συνδέεται το ποντίκι"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Disable while typing"
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Απενεργοποίηση κατά την πληκτρολόγηση"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "Αυτό μπορεί να επηρεάσει τα βιντεοπαιχνίδια."
+
+#: ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Εναλλαγή αριστερού και δεξιού κουμπιού."
+
+#: ui/main.qml:170
+#, fuzzy, kde-format
+#| msgid "Left-handed mode"
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Λειτουργία αριστερόχειρα"
+
+#: ui/main.qml:185
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Press left and right buttons to middle-click"
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Πατήστε το αριστερό και το δεξί κουμπί για μεσαίο κλικ"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Η ενεργοποίηση αυτής της ρύθμισης αυξάνει την καθυστέρηση του κλικ του "
+"ποντικιού κατά 50ms. Η επιπλέον καθυστέρηση είναι απαραίτητη για τη σωστή "
+"ανίχνευση ταυτόχρονων αριστερών και δεξιών κλικ του ποντικιού."
+
+#: ui/main.qml:207
+#, fuzzy, kde-format
+#| msgid "Pointer speed:"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Ταχύτητα δείκτη:"
+
+#: ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Pointer acceleration:"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Επιτάχυνση δείκτη:"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Ταχύτητα κύλισης:"
+
+#: ui/main.qml:360
+#, fuzzy, kde-format
+#| msgctxt "Slower Scroll"
+#| msgid "Slower"
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Αργότερη"
+
+#: ui/main.qml:367
+#, fuzzy, kde-format
+#| msgctxt "Faster Scroll Speed"
+#| msgid "Faster"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Ταχύτερη"
+
+#: ui/main.qml:374
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Κύλιση:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr ""
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr ""
+
+#: ui/main.qml:404
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction (Natural scrolling)"
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Αντιστροφή κατεύθυνσης κύλισης (Φυσική κύλιση)"
+
+#: ui/main.qml:421
+#, fuzzy, kde-format
+#| msgid "Disable horizontal scrolling"
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Απενεργοποίηση οριζόντιας κύλισης"
+
+#: ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Δεξί κλικ"
+
+#: ui/main.qml:443
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated right-click"
+#| msgid "Press bottom-right corner"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Πατήστε την κάτω δεξιά γωνία"
+
+#: ui/main.qml:448
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing both bottom corners."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Μεσαίο κλικ πατώντας και τις δύο κάτω γωνίες."
+
+#: ui/main.qml:449
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing bottom center."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Μεσαίο κλικ πατώντας το κάτω κέντρο."
+
+#: ui/main.qml:471
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated right-click"
+#| msgid "Press touchpad with two fingers"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Πατήστε την επιφάνειας αφής με δύο δάχτυλα"
+
+#: ui/main.qml:472
+#, fuzzy, kde-format
+#| msgctxt "@info shown below radio button"
+#| msgid "Middle-click by pressing with three fingers."
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Μεσαίο κλικ πατώντας με τρία δάχτυλα."
+
+#: ui/main.qml:484
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Μεσαίο κλικ"
+
+#: ui/main.qml:487
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated middle-click"
+#| msgid "Press bottom middle edge"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Πατήστε την κάτω μεσαία άκρη"
+
+#: ui/main.qml:507
+#, fuzzy, kde-format
+#| msgctxt "@option:radio touchpad integrated middle-click"
+#| msgid "Press bottom left and bottom right corners"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Πατήστε τις κάτω αριστερή και κάτω δεξιά γωνίες"
+
+#: ui/main.qml:519
+#, fuzzy, kde-format
+#| msgctxt "@option:check touchpad integrated middle-click"
+#| msgid "Press touchpad with three fingers"
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Πατήστε την επιφάνεια αφής οπουδήποτε με τρία δάχτυλα"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Πατώντας:"
+
+#: ui/main.qml:533
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Tap-to-click"
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Πάτημα για κλικ"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr ""
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:580
+#, fuzzy, kde-format
+#| msgid "Two-finger tap:"
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Πάτημα με δύο δάχτυλα:"
+
+#: ui/main.qml:586
+#, fuzzy, kde-format
+#| msgid "Right-click (three-finger tap to middle-click)"
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Δεξί κλικ (πατήστε με τρία δάχτυλα για μεσαίο κλικ)"
+
+#: ui/main.qml:587
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Δεξί κλικ"
+
+#: ui/main.qml:608
+#, fuzzy, kde-format
+#| msgid "Middle-click (three-finger tap to right-click)"
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Μεσαίο κλικ (πατήστε με τρία δάχτυλα για δεξί κλικ)"
+
+#: ui/main.qml:609
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Μεσαίο κλικ"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Αποτυχία στην αναζήτηση συσκευών εισόδου. Ανοίξτε ξανά αυτή τη μονάδα "
+#~ "ρυθμίσεων."
+
+#~ msgid "Device enabled"
+#~ msgstr "Ενεργή συσκευή"
+
+#~ msgid "Two fingers"
+#~ msgstr "Δύο δάχτυλα"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Άκρες επιφάνειας αφής"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Πάτημα και σύρσιμο"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Ενσωματωμένο δεξί κλικ:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Ενσωματωμένο μεσαίο κλικ:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Αποδοχή εισόδου μέσω αυτής της συσκευής."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Απενεργοποίηση της επιφάνειας αφής κατά την πληκτρολόγηση για να "
+#~ "αποφευχθούν τυχαίες είσοδοι."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Το ταυτόχρονο πάτημα του αριστερού και του δεξιού κουμπιού λειτουργεί ως "
+#~ "μεσαίο κλικ."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Η ολίσθηση με δύο δάχτυλα κάνει κύλιση."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Σύρετε τις άκρες της επιφάνειας αφής για κύλιση."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Κύλιση σαν οθόνη αφής."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Απενεργοποίηση οριζόντιας κύλισης."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Μονό πάτημα για αριστερό κλικ."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr ""
+#~ "Ολίσθηση πάνω από την επιφάνεια αφής απευθείας μετά από σύρσιμο με "
+#~ "πατήματα."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Κλείδωμα με πάτημα και σύρσιμο"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Το σύρσιμο συνεχίζεται μετά από ένα σύντομο σήκωμα των δακτύλων."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Πατήστε με δύο δάχτυλα για δεξί κλικ, πατήστε με τρία δάχτυλα για μεσαίο "
+#~ "κλικ."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Πατήστε με δύο δάχτυλα για δεξί κλικ."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Πατήστε με δύο δάχτυλα για μεσαίο κλικ, πατήστε με τρία δάχτυλα για δεξί "
+#~ "κλικ."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Πατήστε με δύο δάχτυλα για μεσαίο κλικ."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "Το πάτημα της κάτω δεξιάς γωνίας της επιφάνειας αφής λειτουργεί ως δεξί "
+#~ "κλικ. Μεσαίο κλικ πατώντας ταυτόχρονα την κάτω αριστερή και την κάτω "
+#~ "δεξιά γωνία."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "Το πάτημα της κάτω δεξιάς γωνίας της επιφάνειας αφής λειτουργεί ως δεξί "
+#~ "κλικ. Μεσαίο κλικ πατώντας την κάτω κεντρική περιοχή."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr ""
+#~ "Το πάτημα της επιφάνειας αφής οπουδήποτε με δύο δάχτυλα λειτουργεί ως "
+#~ "δεξί κλικ."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr ""
+#~ "Το πάτημα στην κάτω δεξιά γωνίας της επιφάνειας αφής λειτουργεί ως δεξί "
+#~ "κλικ."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "Το ταυτόχρονο πάτημα στην κάτω αριστερή και την κάτω δεξιά γωνία της "
+#~ "επιφάνειας αφής λειτουργεί ως μεσαίο κλικ."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr ""
+#~ "Το πάτημα της επιφάνειας αφής οπουδήποτε με τρία δάχτυλα λειτουργεί ως "
+#~ "μεσαίο κλικ."
+
+#~ msgid "Touchpad"
+#~ msgstr "Επιφάνεια αφής"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Ενεργοποίηση επιφάνειας αφής"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Απενεργοποίηση επιφάνειας αφής"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Εναλλαγή επιφάνειας αφής"
+
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Ο δρομέας κινείται στην ίδια απόσταση με το δάχτυλο."
+
+#~ msgid "Standard"
+#~ msgstr "Τυπικό"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr ""
+#~ "Η απόσταση κίνησης δρομέα εξαρτάται από την ταχύτητα κίνησης του δακτύλου."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Καμία ενέργεια"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Αριστερό κουμπί"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Μεσαίο κουμπί"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Δεξί κουμπί"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Όλες οι ακμές"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Πάνω ακμή"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Πάνω δεξιά γωνία"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Δεξιά ακμή"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Κάτω δεξιά γωνία"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Κάτω ακμή"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Κάτω αριστερή γωνία"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Αριστερή ακμή"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Πάνω αριστερή γωνία"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Η επιφάνεια αφής απενεργοποιήθηκε γιατί συνδέθηκε ένα ποντίκι"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Η επιφάνεια αφής ενεργοποιήθηκε γιατί το ποντίκι αποσυνδέθηκε"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Δημήτρης Καρδαράκος"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "dimkard@gmail.com"
+
+#~ msgid "Drag me"
+#~ msgstr "Σύρσιμο εδώ"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Αριστερό κουμπί"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Δεξί κουμπί"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Μεσαίο κουμπί"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Οι ενεργές ρυθμίσεις δεν ταιριάζουν με τις αποθηκευμένες ρυθμίσεις.\n"
+#~ "Αυτή τη στιγμή βλέπετε τις αποθηκευμένες ρυθμίσεις."
+
+#~ msgid "Show active settings"
+#~ msgstr "Εμφάνιση ενεργών ρυθμίσεων"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Αυτές οι ρυθμίσεις δε θα ισχύουν στην περιοχή ελέγχου"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Ενεργοποίηση/Απενεργοποίηση της επιφάνειας αφής"
+
+#, fuzzy
+#~| msgid "Enable/Disable Touchpad"
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Ενεργοποίηση/Απενεργοποίηση της επιφάνειας αφής"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configure…"
+#~ msgstr "Διαμόρφωση"
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Συντομεύσεις πληκτρολογίου:"
+
+#~ msgid "Timeout:"
+#~ msgstr "Χρονικό όριο:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Αν δεν υπάρχει δραστηριότητα πληκτρολογίου για περισσότερο από τον \n"
+#~ "καθορισμένο αριθμό χιλιοστών του δευτερολέπτου, η επιφάνεια αφής θα "
+#~ "ενεργοποιηθεί ξανά "
+
+#~ msgid " ms"
+#~ msgstr " χδ"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Απενεργοποίηση προσομοίωσής κλικ και κύλισης.\n"
+#~ "Θα μπορείτε ακόμα να μετακινείτε τον δρομέα με την επιφάνεια αφής και να "
+#~ "κάνετε κλικ με τα κουμπιά του υλικού."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Απενεργοποίηση μόνο των χτυπημάτων και της κύλισης"
+
+#~ msgid "Notifications:"
+#~ msgstr "Ειδοποιήσεις:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Αγνοημένες συσκευές:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Ορισμένες συσκευές ενδέχεται λαθεμένα να εκληφθούν ως ποντίκια.\n"
+#~ "Μπορείτε να τις προσθέστε σε αυτή τη λίστα ώστε να αγνοούνται όταν "
+#~ "συνδέονται."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Κίνηση δείκτη"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Ταχύτητα"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Ελάχιστη:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Ελάχιστη ταχύτητα δείκτη"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Μέγιστη:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Μέγιστη ταχύτητα δείκτη"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Επιτάχυνση:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Παράγοντας επιτάχυνσης για κανονικές κινήσεις του δείκτη"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Κίνηση εξαρτώμενη από την πίεση"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Ελάχιστη πίεση:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Ελάχιστος παράγοντας:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Μέγιστη πίεση:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Μέγιστος παράγοντας:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Πίεση δαχτύλου στην οποία εφαρμόζεται ο παράγοντας κίνησης ελάχιστης "
+#~ "πίεσης"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Πίεση δαχτύλου στην οποία εφαρμόζεται ο παράγοντας κίνησης μέγιστης πίεσης"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Χαμηλότερη ρύθμιση για τον παράγοντα κίνησης πίεσης"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Υψηλότερη ρύθμιση για τον παράγοντα κίνησης πίεσης"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Ακύρωση θορύβου"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Κάθετη:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Οριζόντια:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Η ελάχιστη κάθετη απόσταση υλικού που απαιτείται για τη δημιουργία "
+#~ "γεγονότων κίνησης"
+
+#~ msgid " units"
+#~ msgstr " μονάδες"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Η ελάχιστη οριζόντια απόσταση υλικού που απαιτείται για τη δημιουργία "
+#~ "γεγονότων κίνησης"
+
+#~ msgid "Scrolling"
+#~ msgstr "Κύλιση"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Κύλιση ακμών:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr ""
+#~ "Ενεργοποίηση της κάθετης κύλισης κατά το σύρσιμο κατά μήκος της δεξιάς "
+#~ "ακμής"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Κάθετα"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr ""
+#~ "Ενεργοποίηση της οριζόντιας κύλισης κατά το σύρσιμο κατά μήκος της κάτω "
+#~ "ακμής"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Οριζόντια"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Ενεργοποίηση της κάθετης κύλισης κατά το σύρσιμο με δυο δάχτυλα "
+#~ "οπουδήποτε στην επιφάνεια αφής"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Ενεργοποίηση της οριζόντιας κύλισης κατά το σύρσιμο με δυο δάχτυλα "
+#~ "οπουδήποτε στην επιφάνεια αφής"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Αντίστροφη κάθετη κύλιση"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Αντίστροφη οριζόντια κύλιση"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Κύλιση με δύο δάχτυλα:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Αντίστροφη κύλιση:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Απόσταση κύλισης"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Κάθετα:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Απόσταση κίνησης του δαχτύλου για ένα γεγονός κύλισης"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Οριζόντια:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Συνέχεια της κύλισης αφού το δάχτυλο απελευθερωθεί από την άκρη της "
+#~ "επιφάνειας αφής"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Κύλιση μετά την απελευθέρωση"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Ελάχιστη ταχύτητα:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Το δάχτυλο πρέπει να κάνει τόσες κυλίσεις ανά δευτερόλεπτο για να "
+#~ "ξεκινήσει η κίνηση μετά την απελευθέρωση"
+
+#~ msgid " scrolls/sec"
+#~ msgstr "κυλίσεις/δευ"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Επιβράδυνση:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr ""
+#~ "Αριθμός κυλίσεων/δευτερόλεπτο² για τη μείωση της ταχύτητας της κύλισης "
+#~ "μετά την απελευθέρωση"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr "κυλίσεις/δευ²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Γωνιακή κύλιση μετά την απελευθέρωση:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Ενεργοποίηση της συνέχισης της κύλισης ακμής ενώ το δάχτυλο παραμένει σε "
+#~ "μια γωνία της ακμής"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Η κύλιση ενεργοποιείται όταν ξενικά ένα σύρσιμο στη δοσμένη περιοχή "
+#~ "ενεργοποίησης.\n"
+#~ "Κινώντας το δάχτυλό σας δεξιόστροφα γύρω από το κέντρο της επιφάνειας "
+#~ "αφής θα\n"
+#~ "πραγματοποιηθεί κύλιση προς τα κάτω και κινώντας το αριστερόστροφα κύλιση "
+#~ "προς τα πάνω"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Κυκλική κύλιση"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Περιοχή ενεργοποίησης"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr ""
+#~ "Περιοχή ενεργοποίησης στην επιφάνεια αφής για την εκκίνηση κυκλικής "
+#~ "κύλισης"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Γωνία:"
+
+#, fuzzy
+#~| msgid "Move angle (radians) of finger to generate a scroll event"
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr ""
+#~ "Γωνία κίνησης (σε ακτίνια) του δαχτύλου για τη δημιουργία γεγονότος "
+#~ "κύλισης"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Όταν χρησιμοποιείται μαζί με κάθετη κύλιση, χτυπώντας την πάνω ή κάτω "
+#~ "δεξιά γωνία θα πραγματοποιηθεί απρόσκοπτη μετάβαση από κάθετη σε κυκλική "
+#~ "κύλιση"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Ευαισθησία"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Ευαισθησία"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Πίεση για την ανίχνευση επαφής:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Πίεση για την ανίχνευση απελευθέρωσης:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Όταν η πίεση του δαχτύλου ξεπερνά αυτή την τιμή, ο οδηγός τη λαμβάνει ως "
+#~ "επαφή"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Όταν η πίεση του δαχτύλου πέφτει χαμηλότερα από αυτή την τιμή, ο οδηγός "
+#~ "τη λαμβάνει ως απελευθέρωση"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Αν θα ενεργοποιηθεί η ανίχνευση παλάμης. Σημειώστε πως αυτό απαιτεί "
+#~ "επίσης υποστήριξη από το υλικό/υλικολογισμικό της επιφάνειας αφής"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Ανίχνευση παλάμης"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Ελάχιστο πλάτος:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Ελάχιστη πίεση:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Ελάχιστο πλάτος δαχτύλου για το οποίο η επαφή θεωρείται παλάμη"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Ελάχιστη πίεση δαχτύλου για την οποία η επαφή θεωρείται παλάμη"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Χτυπήματα"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Ένα δάχτυλο:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα μη γωνιακό χτύπημα με ένα "
+#~ "δάχτυλο "
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Δύο δάχτυλα:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα μη γωνιακό χτύπημα με δύο "
+#~ "δάχτυλα"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Τρία δάχτυλα:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα μη γωνιακό χτύπημα με τρία "
+#~ "δάχτυλα"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Γωνίες"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Πάνω αριστερά:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα χτύπημα στην πάνω αριστερή "
+#~ "γωνία"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Κάτω αριστερά:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Πάνω δεξιά:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα χτύπημα στην κάτω αριστερή "
+#~ "γωνία"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα χτύπημα στην πάνω δεξιά γωνία"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr ""
+#~ "Ποιο κουμπί του ποντικιού αναφέρεται σε ένα χτύπημα στην κάτω δεξιά γωνία"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Κάτω δεξιά:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Η χειρονομία αυτή αποτελεί έναν εναλλακτικό τρόπο συρσίματος. Εκτελείται "
+#~ "με ελαφρύ χτύπημα (επαφή και απελευθέρωση του δαχτύλου), στη συνέχεια "
+#~ "επαφή και πάλι και κίνηση του δαχτύλου στην επιφάνεια αφής"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Χειρονομία χτυπήματος και συρσίματος"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Εφόσον απενεργοποιηθεί, η χειρονομία χτυπήματος και συρσίματος "
+#~ "τερματίζεται όταν απελευθερώνετε το δάχτυλο. Εφόσον ενεργοποιηθεί, η "
+#~ "χειρονομία είναι ενεργή έως ότου χτυπήσετε για δεύτερη φορά, ή μέχρι να "
+#~ "ξεπεραστεί το χρονικό όριο"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Κλειδωμένα συρσίματα"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Χρονικό όριο:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Πόσο χρόνο παίρνει (σε χιλιοστά του δευτερολέπτου) ώστε η λειτουργία "
+#~ "\"Κλειδωμένα συρσίματα\" να απενεργοποιηθεί αυτόματα μετά την "
+#~ "απελευθέρωση του δαχτύλου από την επιφάνεια αφής"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Ανίχνευση χτυπήματος"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Μέγιστος χρόνος:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Μέγιστη κίνηση δαχτύλου:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Μέγιστος χρόνος για διπλό χτύπημα:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr ""
+#~ "Μέγιστος χρόνος (σε χιλιοστά του δευτερολέπτου) για ανίχνευση χτυπήματος"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Μέγιστη κίνηση δαχτύλου για ανίχνευση χτυπήματος"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr ""
+#~ "Μέγιστος χρόνος (σε χιλιοστά του δευτερολέπτου) για ανίχνευση διπλού "
+#~ "χτυπήματος"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr ""
+#~ "Χρονικό όριο μετά από ένα χτύπημα για αναγνώρισή του ως μονό χτύπημα"
+
+#~ msgid "Testing area"
+#~ msgstr "Περιοχή ελέγχου"
+
+#~ msgid "Click me"
+#~ msgstr "Κλικ εδώ"
+
+#, fuzzy
+#~| msgctxt "Pointer acceleration"
+#~| msgid "Acceleration:"
+#~ msgid "Acceleration profile:"
+#~ msgstr "Επιτάχυνση:"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Επιφάνεια αφής KCM"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr ""
+#~ "Άρθρωμα ρυθμίσεων συστήματος για τη διαχείριση της επιφάνειας αφής σας"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Πνευματικά δικαιώματα © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Προγραμματιστής"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Άρθρωμα ρυθμίσεων συστήματος, δαίμονας και μικροεφαρμογή Plasma για τη "
+#~ "διαχείριση της επιφάνειας αφής σας"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Πνευματικά δικαιώματα © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Το πρόγραμμα αυτό περιλαμβάνει εργασία που καλύπτεται από τα παρακάτω "
+#~ "πνευματικά δικαιώματα:\n"
+#~ "Πνευματικά δικαιώματα © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Χρηστικότητα, έλεγχος"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Βοήθησε λίγο"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Προγραμματιστής του synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Έλεγχος"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Προσομοίωση κλικ ποντικιού"
+
+#~ msgctxt "Synaptics touchpad driver"
+#~ msgid "Synaptics backend not found"
+#~ msgstr "Το σύστημα υποστήριξης Synaptics δε βρέθηκε"
+
+#~ msgid "Cannot read any of touchpad's properties"
+#~ msgstr "Αδυναμία ανάγνωσης των ιδιοτήτων της επιφάνειας αφής"
+
+#~ msgid "Cannot read touchpad's capabilities"
+#~ msgstr "Αδυναμία ανάγνωσης των δυνατοτήτων της επιφάνειας αφής"
+
+#~ msgctxt "Libinput touchpad driver"
+#~ msgid "Libinput backend not found"
+#~ msgstr "Το σύστημα υποστήριξης Libinput δε βρέθηκε"
+
+#~ msgid "Synaptics driver is not installed (or is not used)"
+#~ msgstr "Ο οδηγός Synaptics δεν είναι εγκατεστημένος (ή δε χρησιμοποιείται)"

@@ -1,0 +1,597 @@
+# Lithuanian translations for l package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+#
+# Andrius Štikonas <andrius@stikonas.eu>, 2010.
+# Donatas G. <dgvirtual@akl.lt>, 2010.
+# Tomas Straupis <tomasstraupis@gmail.com>, 2011.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012, 2013, 2015.
+# liudas@aksioma.lt <liudas@aksioma.lt>, 2014.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_notifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2026-03-08 23:55+0200\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Atsakyti"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Kopijuoti nuorodos adresą"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Žymėti viską"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Ką tik"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "prieš %1 min."
+msgstr[1] "prieš %1 min."
+msgstr[2] "prieš %1 min."
+msgstr[3] "prieš %1 min."
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "liko %1 sek."
+msgstr[1] "liko %1 sek."
+msgstr[2] "liko %1 sek."
+msgstr[3] "liko %1 sek."
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "liko %1 min."
+msgstr[1] "liko %1 min."
+msgstr[2] "liko %1 min."
+msgstr[3] "liko %1 min."
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "liko %1 val."
+msgstr[1] "liko %1 val."
+msgstr[2] "liko %1 val."
+msgstr[3] "liko %1 val."
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "Konfigūruoti"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "Grąžinti iš suskleidimo"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "Suskleisti"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "Užverti"
+
+#: components/JobDetails.qml:37
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 iš %1"
+
+#: components/JobDetails.qml:122
+#, kde-format
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%3 iš %2 failo"
+msgstr[1] "%3 iš %2 failų"
+msgstr[2] "%3 iš %2 failų"
+msgstr[3] "%3 iš %2 failo"
+
+#: components/JobDetails.qml:125
+#, kde-format
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%3 iš %2 aplanko"
+msgstr[1] "%3 iš %2 aplankų"
+msgstr[2] "%3 iš %2 aplankų"
+msgstr[3] "%3 iš %2 aplanko"
+
+#: components/JobDetails.qml:128
+#, kde-format
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%3 iš %2 elemento"
+msgstr[1] "%3 iš %2 elementų"
+msgstr[2] "%3 iš %2 elementų"
+msgstr[3] "%3 iš %2 elemento"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 failas"
+msgstr[1] "%1 failai"
+msgstr[2] "%1 failų"
+msgstr[3] "%1 failas"
+
+#: components/JobDetails.qml:139
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 aplankas"
+msgstr[1] "%1 aplankai"
+msgstr[2] "%1 aplankų"
+msgstr[3] "%1 aplankas"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 elementas"
+msgstr[1] "%1 elementai"
+msgstr[2] "%1 elementų"
+msgstr[3] "%1 elementas"
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/sek."
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "Išsamiau"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Pratęsti"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr "Daugiau parinkčių…"
+
+#: components/JobItem.qml:153
+#, kde-format
+msgid "Open"
+msgstr "Atverti"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Atverti vidinį aplanką"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "Rašykite atsakymą…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Siųsti"
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr "Greitis"
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr "Vidutinis greitis"
+
+#: components/SpeedChart.qml:264
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1%"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (pristabdyta)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (nepavyko)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "Užduotis nepavyko"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (užbaigta)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "Užduotis baigta"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr "Atverti naudojant %1"
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr "Atverti naudojant…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "&Kopijuoti"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Kopijuoti vietą"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "Savybės"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "Netrukdyti"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "1 valandą"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "4 valandas"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "Iki šio vakaro"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "Iki rytojaus ryto"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "Iki pirmadienio"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "Kol nebus išjungta rankiniu būdu"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Automatiškai pasibaigs: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Kol %1 yra aktyvi (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Kol %1 yra aktyvi"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Ekranai yra suvienyti"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Visame ekrane esanti programa yra sufokusuota"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Rodyti"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "Užverti grupę"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "Rodyti mažiau"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Rodyti dar %1"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "Neskaitytų pranešimų nėra"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "Pranešimų tarnyba yra neprieinama"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Šiuo metu pranešimus teikia \"%1 %2\""
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Perjungti \"Netrukdymo\" veikseną"
+
+#: globalshortcuts.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Išvalyti pranešimų istoriją"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Pranešimai išjungti"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Pranešimai įjungti"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Pranešimų istorija išvalyta"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 vykdoma užduotis"
+msgstr[1] "%1 vykdomos užduotys"
+msgstr[2] "%1 vykdomų užduočių"
+msgstr[3] "%1 vykdoma užduotis"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 vykdoma užduotis (%2%)"
+msgstr[1] "%1 vykdomos užduotys (%2%)"
+msgstr[2] "%1 vykdomų užduočių (%2%)"
+msgstr[3] "%1 vykdoma užduotis (%2%)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 neskaitytas pranešimas"
+msgstr[1] "%1 neskaityti pranešimai"
+msgstr[2] "%1 neskaitytų pranešimų"
+msgstr[3] "%1 neskaitytas pranešimas"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 aktyvus pranešimas"
+msgstr[1] "%1 aktyvūs pranešimai"
+msgstr[2] "%1 aktyvių pranešimų"
+msgstr[3] "%1 aktyvus pranešimas"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr ""
+"Netrukdyti iki %1; spustelėkite viduriniuoju pelės mygtuku norėdami dabar "
+"išjungti"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr ""
+"Netrukdymo veiksena yra aktyvi; spustelėkite viduriniuoju pelės mygtuku "
+"norėdami išeiti"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr ""
+"Spustelėkite viduriniuoju pelės mygtuku norėdami įjungti netrukdymo veikseną"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "Išvalyti visus pranešimus"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Konfigūruoti pranešimus apie įvykius ir veiksmus…"
+
+#~ msgctxt "A button tooltip; expands the item to show details"
+#~ msgid "Show Details"
+#~ msgstr "Rodyti išsamiau"
+
+#~ msgctxt "Do not disturb until date"
+#~ msgid "Until %1"
+#~ msgstr "Iki %1"
+
+#~ msgid "Clear History"
+#~ msgstr "Išvalyti istoriją"
+
+#, fuzzy
+#~| msgid "Select All"
+#~ msgctxt "Clear all notifications"
+#~ msgid "Clear All"
+#~ msgstr "Žymėti viską"
+
+#~ msgid "Until turned off"
+#~ msgstr "Iki tol, kol bus išjungta"
+
+#~ msgid "No unread notifications."
+#~ msgstr "Neskaitytų pranešimų nėra."
+
+#~ msgid "Information"
+#~ msgstr "Informacija"
+
+#~ msgid "Show application and system notifications"
+#~ msgstr "Rodyti programų ir sistemos pranešimus"
+
+#, fuzzy
+#~| msgid "Show application and system notifications"
+#~ msgid "Show a history of notifications"
+#~ msgstr "Rodyti programų ir sistemos pranešimus"
+
+#~ msgid "Track file transfers and other jobs"
+#~ msgstr "Sekti failų siuntimus ir kitas užduotis"
+
+#~ msgid "Use custom position for the notification popup"
+#~ msgstr "Naudoti savitą pranešimų lango poziciją"
+
+#~ msgctxt "Either just 1 dir or m of n dirs are being processed"
+#~ msgid "1 dir"
+#~ msgid_plural "%2 of %1 dirs"
+#~ msgstr[0] "1 apl."
+#~ msgstr[1] "%2 iš %1 apl."
+#~ msgstr[2] "%2 iš %1 apl."
+#~ msgstr[3] "%2 iš %1 apl."
+
+#~ msgid "%1 of %2 %3"
+#~ msgstr "%1 iš %2 %3"
+
+#~ msgid "No notifications or jobs"
+#~ msgstr "Nėra pranešimų ar užduočių"
+
+#~ msgctxt "10 seconds ago, keep short"
+#~ msgid "10 s ago"
+#~ msgstr "prieš 10s"
+
+#~ msgctxt "30 seconds ago, keep short"
+#~ msgid "30 s ago"
+#~ msgstr "prieš 30s"
+
+#~ msgctxt "notification was added yesterday, keep short"
+#~ msgid "Yesterday"
+#~ msgstr "Vakar"
+
+#~ msgctxt "notification was added n days ago, keep short"
+#~ msgid "%1 day ago"
+#~ msgid_plural "%1 days ago"
+#~ msgstr[0] "Vakar"
+#~ msgstr[1] "Prieš %1 dienas"
+#~ msgstr[2] "Prieš %1 dienų"
+#~ msgstr[3] "Prieš %1 dieną"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the notification than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"

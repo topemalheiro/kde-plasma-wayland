@@ -1,0 +1,187 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2009.
+# Yasen Pramatarov <yasen@lindeas.com>, 2009, 2011.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2026 Mincho Kondarev <mkondarev@yahoo.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-27 00:47+0000\n"
+"PO-Revision-Date: 2026-02-11 22:39+0100\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.03.70\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: label, entry (name), group (Theme)
+#: desktopthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current Plasma Style"
+msgstr "Име на текущия стил за Plasma"
+
+#: kcm.cpp:111
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Не може да се създаде временен файл."
+
+#: kcm.cpp:122
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "Темата не може да се изтегли: %1"
+
+#: kcm.cpp:147
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Темата е инсталирана успешно."
+
+#: kcm.cpp:150 kcm.cpp:156
+#, kde-format
+msgid "Theme installation failed."
+msgstr "Инсталацията на темата е неуспешна."
+
+#: kcm.cpp:250
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "Премахването на темата е неуспешно: %1"
+
+#: plasma-apply-desktoptheme.cpp:33
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+"Този инструмент ви позволява да зададете темата за курсора на мишката за "
+"текущата Plasma сесия, без случайно да го зададете на този, който или не е "
+"на разположение, или който вече е зададен."
+
+#: plasma-apply-desktoptheme.cpp:37
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+"Името на темата на курсора, която искате да зададете за текущата си сесия на "
+"Plasma (посочването на пълен път, ще използва само последната част на пътя)"
+
+#: plasma-apply-desktoptheme.cpp:38
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr "Показване на всички налични теми на системата (и коя е текущата тема)"
+
+#: plasma-apply-desktoptheme.cpp:55
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+"Заявената тема „%1“ вече е зададена като тема за текущата сесия на Plasma."
+
+#: plasma-apply-desktoptheme.cpp:76
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr "Темата на текущата сесия на Plasma е зададена на %1"
+
+#: plasma-apply-desktoptheme.cpp:78
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+"Не може да се намери тема „%1“. Темата трябва да има следните опции: %2"
+
+#: plasma-apply-desktoptheme.cpp:86
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
+msgstr "Имате следните теми на курсора на мишката на вашата система:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "Всички теми"
+
+#: ui/main.qml:102
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "Светли теми"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr "Тъмни теми"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr "Съвместими с цветовата схема"
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Install from File…"
+msgstr "Инсталиране от файл…"
+
+#: ui/main.qml:119
+#, kde-format
+msgid "Get New…"
+msgstr "Изтегляне на нови…"
+
+#: ui/main.qml:132
+#, kde-format
+msgid "Follows color scheme"
+msgstr "Спазване на цветовата схема"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Edit Theme…"
+msgstr "Редактиране на тема…"
+
+#: ui/main.qml:158
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr "Премахване на стил на Plasma"
+
+#: ui/main.qml:160
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr "Не може да се изтрие активния стил на Plasma"
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr "Не могат да се изтрият инсталирани от системата стилове на Plasma"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr "Да не се изтрива този стил на Plasma"
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Open Theme"
+msgstr "Отваряне на тема"
+
+#: ui/main.qml:191
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "Файлове на тема ((*.zip *.tar.gz *.tar.bz2)"
+
+#~ msgid "Remove Theme"
+#~ msgstr "Премахване на тема"
+
+#~ msgid "Restore Theme"
+#~ msgstr "Възстановяване на тема"

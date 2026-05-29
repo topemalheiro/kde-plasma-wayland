@@ -1,0 +1,355 @@
+# kcm_desktopthemedetails Bahasa Melayu (Malay) (ms)
+# Copyright (C) 2008, 2009 K Desktop Environment
+# This file is distributed under the same license as the kcm_desktopthemedetails package.
+#
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2008, 2009, 2010.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-27 00:47+0000\n"
+"PO-Revision-Date: 2010-07-13 22:52+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#. i18n: ectx: label, entry (name), group (Theme)
+#: desktopthemesettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Name of the current Plasma Style"
+msgstr "Dapatkan Tema Baru..."
+
+#: kcm.cpp:111
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcm.cpp:122
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr ""
+
+#: kcm.cpp:147
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcm.cpp:150 kcm.cpp:156
+#, kde-format
+msgid "Theme installation failed."
+msgstr ""
+
+#: kcm.cpp:250
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:33
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:37
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:38
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:55
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:76
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:78
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+
+#: plasma-apply-desktoptheme.cpp:86
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
+msgstr ""
+
+#: ui/main.qml:101
+#, fuzzy, kde-format
+#| msgid "Available themes"
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "Tema yang ada"
+
+#: ui/main.qml:102
+#, fuzzy, kde-format
+#| msgid "Theme"
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "Tema"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr ""
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr ""
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Install from File…"
+msgstr ""
+
+#: ui/main.qml:119
+#, kde-format
+msgid "Get New…"
+msgstr ""
+
+#: ui/main.qml:132
+#, fuzzy, kde-format
+#| msgctxt "plasma name"
+#| msgid "Color Scheme"
+msgid "Follows color scheme"
+msgstr "Skema Warna"
+
+#: ui/main.qml:150
+#, fuzzy, kde-format
+#| msgid "Theme"
+msgid "Edit Theme…"
+msgstr "Tema"
+
+#: ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr "Dapatkan Tema Baru..."
+
+#: ui/main.qml:160
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr "Dapatkan Tema Baru..."
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr ""
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr ""
+
+#: ui/main.qml:189
+#, fuzzy, kde-format
+#| msgid "Theme"
+msgid "Open Theme"
+msgstr "Tema"
+
+#: ui/main.qml:191
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr ""
+
+#~ msgid "Remove Theme"
+#~ msgstr "Buang Tema"
+
+#, fuzzy
+#~| msgid "Remove Theme"
+#~ msgid "Restore Theme"
+#~ msgstr "Buang Tema"
+
+#, fuzzy
+#~| msgid "Get New Themes..."
+#~ msgid "Get New Plasma Styles…"
+#~ msgstr "Dapatkan Tema Baru..."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Sharuzzaman Ahmat Raslan"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sharuzzaman@myrealbox.com"
+
+#, fuzzy
+#~| msgid "Get New Themes..."
+#~ msgid "Plasma Styles"
+#~ msgstr "Dapatkan Tema Baru..."
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Download New Plasma Styles"
+#~ msgstr "Buang Tema Desktop"
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Configure Desktop Theme"
+#~ msgstr "Buang Tema Desktop"
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "KDE Desktop Theme Module"
+#~ msgstr "Buang Tema Desktop"
+
+#~ msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+#~ msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#~ msgid "Details"
+#~ msgstr "Terperinci"
+
+#~ msgctxt "plasma name"
+#~ msgid "Panel Background"
+#~ msgstr "Latar Belakang Panel"
+
+#~ msgctxt "plasma name"
+#~ msgid "Kickoff"
+#~ msgstr "Kickoff"
+
+#~ msgctxt "plasma name"
+#~ msgid "Task Items"
+#~ msgstr "Item Tugasan"
+
+#~ msgctxt "plasma name"
+#~ msgid "Widget Background"
+#~ msgstr "Latarbelakang Widget"
+
+#~ msgctxt "plasma name"
+#~ msgid "Translucent Background"
+#~ msgstr "Latarbelakang Telus"
+
+#~ msgctxt "plasma name"
+#~ msgid "Dialog Background"
+#~ msgstr "Latarbelakang Dialog"
+
+#~ msgctxt "plasma name"
+#~ msgid "Analog Clock"
+#~ msgstr "Jam Analog"
+
+#~ msgctxt "plasma name"
+#~ msgid "Notes"
+#~ msgstr "Nota"
+
+#~ msgctxt "plasma name"
+#~ msgid "Tooltip"
+#~ msgstr "Tip alatan"
+
+#~ msgctxt "plasma name"
+#~ msgid "Pager"
+#~ msgstr "Kelui"
+
+#~ msgid "Source"
+#~ msgstr "Sumber"
+
+#, fuzzy
+#~| msgid "%1 %2"
+#~ msgctxt ""
+#~ "%1 is the name of the theme, %2 is the type of the element (background, "
+#~ "icon, note, etc)"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "File..."
+#~ msgstr "Fail..."
+
+#~ msgid "Version: %1"
+#~ msgstr "Versi: %1"
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Desktop Theme Details"
+#~ msgstr "Buang Tema Desktop"
+
+#~ msgid "More"
+#~ msgstr "Lagi"
+
+#, fuzzy
+#~| msgid "Remove Desktop Theme"
+#~ msgid "Remove the selected theme"
+#~ msgstr "Buang Tema Desktop"
+
+#, fuzzy
+#~| msgid "Theme Name"
+#~ msgid "New theme name:"
+#~ msgstr "Nama Tema"
+
+#, fuzzy
+#~| msgid "Theme Author"
+#~ msgid "Custom theme name"
+#~ msgstr "Pengarang Tema"
+
+#~ msgid "Author:"
+#~ msgstr "Pengarang:"
+
+#, fuzzy
+#~| msgid "Theme Author"
+#~ msgid "Custom theme author "
+#~ msgstr "Pengarang Tema"
+
+#~ msgid "Version:"
+#~ msgstr "Versi:"
+
+#, fuzzy
+#~| msgid "Theme Author"
+#~ msgid "Custom theme version number"
+#~ msgstr "Pengarang Tema"
+
+#~ msgid "Description:"
+#~ msgstr "Huraian:"
+
+#, fuzzy
+#~| msgid "Theme Author"
+#~ msgid "Custom theme description"
+#~ msgstr "Pengarang Tema"
+
+#~ msgid "Theme Author"
+#~ msgstr "Pengarang Tema"
+
+#~ msgid "Theme Name"
+#~ msgstr "Nama Tema"
+
+#~ msgid "Theme Version"
+#~ msgstr "Versi Tema"
+
+#~ msgid "Karol Szwed"
+#~ msgstr "Karol Szwed"
+
+#~ msgid "Daniel Molkentin"
+#~ msgstr "Daniel Molkentin"
+
+#~ msgid "Ralf Nolden"
+#~ msgstr "Ralf Nolden"
+
+#~ msgid "KCMDesktopTheme"
+#~ msgstr "KCMDesktopTheme"

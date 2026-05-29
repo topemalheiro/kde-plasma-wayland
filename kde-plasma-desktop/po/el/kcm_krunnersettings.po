@@ -1,0 +1,151 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2015, 2016.
+# Dimitrys Meliates <demetresmeliates+i18n@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-19 00:48+0000\n"
+"PO-Revision-Date: 2024-08-12 18:01+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: ui/main.qml:31
+#, fuzzy, kde-format
+#| msgid "Position on screen:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Position on screen:"
+msgstr "Θέση στην οθόνη:"
+
+#: ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "Top"
+msgctxt "@option:check Position on top of screen"
+msgid "Top"
+msgstr "Κορυφή"
+
+#: ui/main.qml:42
+#, fuzzy, kde-format
+#| msgid "Center"
+msgctxt "@option:check Position in center of screen"
+msgid "Center"
+msgstr "Κέντρο"
+
+#: ui/main.qml:55
+#, fuzzy, kde-format
+#| msgid "History:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "History:"
+msgstr "Ιστορικό:"
+
+#: ui/main.qml:58
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Disabled"
+msgctxt "@option:radio History is disabled"
+msgid "Disabled"
+msgstr "Ανενεργό"
+
+#: ui/main.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@option:check The thing being enabled is search history"
+#| msgid "Enable suggestions"
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable suggestions"
+msgstr "Ενεργοποίηση προτάσεων"
+
+#: ui/main.qml:68
+#, fuzzy, kde-format
+#| msgctxt "@option:check The thing being enabled is search history"
+#| msgid "Enabled auto-complete"
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable auto-complete"
+msgstr "Ενεργή αυτόματη συμπλήρωση"
+
+#: ui/main.qml:76
+#, fuzzy, kde-format
+#| msgid "Clear History…"
+msgctxt "@action:button"
+msgid "Clear History…"
+msgstr "Καθαρισμός ιστορικού…"
+
+#: ui/main.qml:99
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for all activities"
+msgid "For all activities"
+msgstr "Για όλες τις δραστηριότητες"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for this activity"
+msgid "For activity \"%1\""
+msgstr "Για τη δραστηριότητα «%1»"
+
+#: ui/main.qml:128
+#, kde-format
+msgctxt "@label"
+msgid "Plugins:"
+msgstr "Πρόσθετα:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Enabled Search Plugins…"
+msgstr "Ρύθμιση ενεργών πρόσθετων αναζήτησης…"
+
+#, fuzzy
+#~| msgid "Activation:"
+#~ msgctxt "@label prefix for checkbutton"
+#~ msgid "Activation:"
+#~ msgstr "Ενεργοποίηση:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activate when pressing any key on the desktop"
+#~ msgstr ""
+#~ "Ενεργοποίηση κατά το πάτημα οποιουδήποτε πλήκτρου στην επιφάνεια εργασίας"
+
+#~ msgid "Clear History"
+#~ msgstr "Καθαρισμός ιστορικού"
+
+#~ msgid "Available Plugins"
+#~ msgstr "Διαθέσιμα πρόσθετα"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Δημήτρης Καρδαράκος"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "dimkard@gmail.com"
+
+#, fuzzy
+#~| msgid "Configure Search"
+#~ msgctxt "kcm name for About dialog"
+#~ msgid "Configure search settings"
+#~ msgstr "Διαμόρφωση αναζήτησης"
+
+#~ msgid "Vishesh Handa"
+#~ msgstr "Vishesh Handa"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgid "KRunner history:"
+#~ msgstr "Καθαρισμός ιστορικού"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgid "Clear History..."
+#~ msgstr "Καθαρισμός ιστορικού"
+
+#, fuzzy
+#~| msgid "Select the search plugins"
+#~ msgid "Select the search plugins:"
+#~ msgstr "Επιλογή των προσθέτων αναζήτησης"

@@ -1,0 +1,125 @@
+# Traducerea plasma_applet_trash.po în Română
+# translation of plasma_applet_trash to Romanian
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_trash package.
+# Laurenţiu Buzdugan <lbuz@rolix.org>, 2008".
+# SPDX-FileCopyrightText: 2008, 2009, 2012, 2013, 2020, 2022, 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+# Cristian Oneț <onet.cristian@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_trash\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-10-03 12:54+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "Gunoi"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "Se golește…"
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Un element"
+msgstr[1] "%1 elemente"
+msgstr[2] "%1 de elemente"
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "Gol"
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "Deschide"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "Golește"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "Configurări gunoi…"
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "Golește"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr ""
+#~ "Gunoi\n"
+#~ "Gol"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "Gunoi\n"
+#~ "Un element"
+#~ msgstr[1] ""
+#~ "Gunoi\n"
+#~ " %1 elemente"
+#~ msgstr[2] ""
+#~ "Gunoi\n"
+#~ " %1 de elemente"
+
+#~ msgid ""
+#~ "Trash \n"
+#~ " Empty"
+#~ msgstr ""
+#~ "Gunoi\n"
+#~ " gol"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Golește gunoiul"
+
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr "Sigur doriți să goliți gunoiul? Toate elementele vor fi șterse."
+
+#~ msgid "Cancel"
+#~ msgstr "Renunță"
+
+#~ msgid "&Empty Trashcan"
+#~ msgstr "&Golește gunoiul"
+
+#~ msgid "&Menu"
+#~ msgstr "&Meniu"
+
+#~ msgctxt "@title:window"
+#~ msgid "Empty Trash"
+#~ msgstr "Golește gunoiul"
+
+#~ msgid "Emptying Trashcan..."
+#~ msgstr "Se golește gunoiul..."

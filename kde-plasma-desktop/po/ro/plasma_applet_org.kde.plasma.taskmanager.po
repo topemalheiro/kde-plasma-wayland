@@ -1,0 +1,1064 @@
+# Traducerea plasma_applet_tasks.po în Română
+# translation of plasma_applet_tasks to Romanian
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_tasks package.
+# Laurenţiu Buzdugan <lbuz@rolix.org>, 2008".
+# SPDX-FileCopyrightText: 2008, 2009, 2011, 2013, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Sergiu Bivol <sergiu@cip.md>
+# Cristian Oneț <onet.cristian@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2026-01-28 23:01+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: backend.cpp:288
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "Încă %1 loc…"
+msgstr[1] "Încă %1 locuri…"
+msgstr[2] "Încă %1 de locuri…"
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Downloads"
+msgstr "Descărcări recente"
+
+#: backend.cpp:374
+#, kde-format
+msgid "Recent Connections"
+msgstr "Conexiuni recente"
+
+#: backend.cpp:376
+#, kde-format
+msgid "Recent Places"
+msgstr "Locuri recente"
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "Uită descărcările recente"
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "Uită conexiunile recente"
+
+#: backend.cpp:389
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "Uită locurile recente"
+
+#: backend.cpp:391
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Uită fișierele recente"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Sonorizează"
+
+#: qml/AudioStream.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Muțește"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "Sonorizează %1"
+
+#: qml/AudioStream.qml:95
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "Muțește %1"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Appearance"
+msgstr "Aspect"
+
+#: qml/config.qml:18
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Behavior"
+msgstr "Comportament"
+
+#: qml/ConfigAppearance.qml:49
+#, kde-format
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "Generale:"
+
+#: qml/ConfigAppearance.qml:50
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr ""
+"Arată previzualizări mici ale ferestrelor la planarea deasupra sarcinilor"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr "Ascunde celelalte ferestre la planarea deasupra sarcinilor"
+
+#: qml/ConfigAppearance.qml:55
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over tooltips"
+msgstr "Ascunde celelalte ferestre la planarea deasupra indiciilor"
+
+#: qml/ConfigAppearance.qml:60
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr "Arată un indicator când o sarcină redă sunet"
+
+#: qml/ConfigAppearance.qml:70
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr "Muțește sarcina la apăsarea pe indicator"
+
+#: qml/ConfigAppearance.qml:78
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr "Arată controale de redare și volum în indiciu"
+
+#: qml/ConfigAppearance.qml:86
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "Umple spațiul gol de pe panou"
+
+#: qml/ConfigAppearance.qml:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "Lățime maximă sarcini:"
+
+#: qml/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr "Îngustă"
+
+#: qml/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr "Medie"
+
+#: qml/ConfigAppearance.qml:103
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr "Lată"
+
+#: qml/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr "Folosește vizualizare cu multe coloane:"
+
+#: qml/ConfigAppearance.qml:115
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr "Folosește vizualizare cu multe rânduri:"
+
+#: qml/ConfigAppearance.qml:121
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr "Niciodată"
+
+#: qml/ConfigAppearance.qml:131
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr "Când panoul nu mai are spațiu și e suficient de lat"
+
+#: qml/ConfigAppearance.qml:141
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "Mereu când panoul e suficient de lat"
+
+#: qml/ConfigAppearance.qml:148
+#, kde-format
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "Maxim coloane:"
+
+#: qml/ConfigAppearance.qml:149
+#, kde-format
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "Maxim rânduri:"
+
+#: qml/ConfigAppearance.qml:159
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "Spațiere între pictograme:"
+
+#: qml/ConfigAppearance.qml:163
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Mică"
+
+#: qml/ConfigAppearance.qml:167
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normală"
+
+#: qml/ConfigAppearance.qml:171
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Mare"
+
+#: qml/ConfigBehavior.qml:50
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+"Dacă folosiți această configurare din cauza unei aplicații ce vrea atenție "
+"prea des, încercați mai întâi să găsiți în acea aplicație o configurare ce "
+"dezactivează acest comportament. Dacă nu o găsiți, puteți raporta aceasta ca "
+"defect dezvoltatorilor aplicației."
+
+#: qml/ConfigBehavior.qml:66
+#, kde-format
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "Grupează:"
+
+#: qml/ConfigBehavior.qml:70
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "Nu grupa"
+
+#: qml/ConfigBehavior.qml:71
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "După denumirea programului"
+
+#: qml/ConfigBehavior.qml:77
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "Apăsarea pe sarcină grupată:"
+
+#: qml/ConfigBehavior.qml:84
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr "Ciclează printre sarcini"
+
+#: qml/ConfigBehavior.qml:85
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr "Arată previzualizări mici ale ferestrelor"
+
+#: qml/ConfigBehavior.qml:86
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr "Arată previzualizări mari ale ferestrelor"
+
+#: qml/ConfigBehavior.qml:87
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr "Arată lista textuală"
+
+#: qml/ConfigBehavior.qml:98
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+"Compozitorul nu susține afișarea ferestrelor una lângă alta, deci va fi "
+"afișată în schimb o listă textuală."
+
+#: qml/ConfigBehavior.qml:108
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "Combină într-un singur buton"
+
+#: qml/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "Grupează numai când gestionarul de sarcini e plin"
+
+#: qml/ConfigBehavior.qml:127
+#, kde-format
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "Sortează:"
+
+#: qml/ConfigBehavior.qml:134
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "Nu sorta"
+
+#: qml/ConfigBehavior.qml:138
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "Manual"
+
+#: qml/ConfigBehavior.qml:142
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "Alfabetic"
+
+#: qml/ConfigBehavior.qml:146
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "Conform biroului"
+
+#: qml/ConfigBehavior.qml:150
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "Conform activității"
+
+#: qml/ConfigBehavior.qml:154
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr "Conform poziției orizontale a ferestrei"
+
+#: qml/ConfigBehavior.qml:165
+#, kde-format
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "Păstrează lansatorii separați"
+
+#: qml/ConfigBehavior.qml:172
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr "Ascunde lansatorii după pornirea aplicației"
+
+#: qml/ConfigBehavior.qml:182
+#, kde-format
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr "Apăsarea pe sarcina activă:"
+
+#: qml/ConfigBehavior.qml:183
+#, kde-format
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "Minimizează sarcina"
+
+#: qml/ConfigBehavior.qml:188
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "Clic-mijloc pe orice sarcină:"
+
+#: qml/ConfigBehavior.qml:192
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "Nu face nimic"
+
+#: qml/ConfigBehavior.qml:193
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr "Închide fereastra sau grupul"
+
+#: qml/ConfigBehavior.qml:194
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr "Deschide o fereastră nouă"
+
+#: qml/ConfigBehavior.qml:195
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "Minimizează/restabilește fereastra sau grupul"
+
+#: qml/ConfigBehavior.qml:196
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr "Comută gruparea"
+
+#: qml/ConfigBehavior.qml:197
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "O aduce pe biroul virtual curent"
+
+#: qml/ConfigBehavior.qml:207
+#, kde-format
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows/adjusts the hovered "
+"task’s volume''"
+msgid "Scrolling behavior:"
+msgstr "Comportamentul derulării:"
+
+#: qml/ConfigBehavior.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "Nu face nimic"
+
+#: qml/ConfigBehavior.qml:212
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr "Ciclează printre toate sarcinile"
+
+#: qml/ConfigBehavior.qml:213
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr "Ciclează printre ferestrele sarcinii evidențiate"
+
+#: qml/ConfigBehavior.qml:214
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered "
+"task’s volume'"
+msgid "Adjusts the hovered task’s volume"
+msgstr "Ajustează volumul sarcinii evidențiate"
+
+#: qml/ConfigBehavior.qml:222
+#, kde-format
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "Sari peste sarcini minimizate"
+
+#: qml/ConfigBehavior.qml:232
+#, kde-format
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "Arată numai sarcinile:"
+
+#: qml/ConfigBehavior.qml:233
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr "De pe biroul actual"
+
+#: qml/ConfigBehavior.qml:238
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr "Din activitatea actuală"
+
+#: qml/ConfigBehavior.qml:243
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr "De pe ecranul actual"
+
+#: qml/ConfigBehavior.qml:248
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "Care sunt minimizate"
+
+#: qml/ConfigBehavior.qml:257
+#, kde-format
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "Când panoul e ascuns:"
+
+#: qml/ConfigBehavior.qml:258
+#, kde-format
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "Demaschează când o fereastră vrea atenție"
+
+#: qml/ConfigBehavior.qml:273
+#, kde-format
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "Sarcinile noi apar:"
+
+#: qml/ConfigBehavior.qml:277
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "La fund"
+
+#: qml/ConfigBehavior.qml:281 qml/ConfigBehavior.qml:300
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "La dreapta"
+
+#: qml/ConfigBehavior.qml:283 qml/ConfigBehavior.qml:298
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "La stânga"
+
+#: qml/ConfigBehavior.qml:294
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "La vârf"
+
+#: qml/ContextMenu.qml:100
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr "Locuri"
+
+#: qml/ContextMenu.qml:106
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr "Fișiere recente"
+
+#: qml/ContextMenu.qml:116
+#, kde-format
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: qml/ContextMenu.qml:163
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Piesa precedentă"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Întrerupe"
+
+#: qml/ContextMenu.qml:177
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Redă"
+
+#: qml/ContextMenu.qml:195
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Piesa următoare"
+
+#: qml/ContextMenu.qml:206
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Oprește"
+
+#: qml/ContextMenu.qml:226
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Termină"
+
+#: qml/ContextMenu.qml:241
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Restabilește"
+
+#: qml/ContextMenu.qml:266
+#, kde-format
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr "Tăcut"
+
+#: qml/ContextMenu.qml:277
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Open New Window"
+msgstr "Deschide o fereastră nouă"
+
+#: qml/ContextMenu.qml:293
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr "M&ută la biroul"
+
+#: qml/ContextMenu.qml:323
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move &To Current Desktop"
+msgstr "Mu&tă la biroul actual"
+
+#: qml/ContextMenu.qml:332
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&All Desktops"
+msgstr "To&ate birourile"
+
+#: qml/ContextMenu.qml:360
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&New Desktop"
+msgstr "Birou &nou"
+
+#: qml/ContextMenu.qml:380
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr "&Arată în activități"
+
+#: qml/ContextMenu.qml:404
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Add To Current Activity"
+msgstr "Adaugă la activitatea actuală"
+
+#: qml/ContextMenu.qml:414
+#, kde-format
+msgctxt "action:inmenu"
+msgid "All Activities"
+msgstr "Toate activitățile"
+
+#: qml/ContextMenu.qml:470
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Move to %1"
+msgstr "Mută la %1"
+
+#: qml/ContextMenu.qml:496 qml/ContextMenu.qml:512
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Pin to Task Manager"
+msgstr "&Fixează la gestionarul de sarcini"
+
+#: qml/ContextMenu.qml:564
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On All Activities"
+msgstr "Pe toate activitățile"
+
+#: qml/ContextMenu.qml:570
+#, kde-format
+msgctxt "action:inmenu"
+msgid "On The Current Activity"
+msgstr "Pe activitatea actuală"
+
+#: qml/ContextMenu.qml:594
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr "Desprinde de la gestionarul de sarcini"
+
+#: qml/ContextMenu.qml:609
+#, kde-format
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr "Mai multe"
+
+#: qml/ContextMenu.qml:618
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Move"
+msgstr "&Mută"
+
+#: qml/ContextMenu.qml:627
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Re&size"
+msgstr "Redimen&sionează"
+
+#: qml/ContextMenu.qml:641
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Ma&ximize"
+msgstr "Ma&ximizează"
+
+#: qml/ContextMenu.qml:655
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Mi&nimize"
+msgstr "Mi&nimizează"
+
+#: qml/ContextMenu.qml:665
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Above Others"
+msgstr "Ține de&asupra celorlalte"
+
+#: qml/ContextMenu.qml:675
+#, kde-format
+msgctxt "action:inmenu"
+msgid "Keep &Below Others"
+msgstr "Ține su&b celelalte"
+
+#: qml/ContextMenu.qml:687
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Fullscreen"
+msgstr "&Ecran complet"
+
+#: qml/ContextMenu.qml:700
+#, kde-format
+msgctxt "action:inmenu"
+msgid "&Shade"
+msgstr "&Strânge"
+
+#: qml/ContextMenu.qml:712
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr "Fără &bară de titlu și cadru"
+
+#: qml/ContextMenu.qml:725
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Hide from Screencast"
+msgstr "Asc&unde din înregistrare"
+
+#: qml/ContextMenu.qml:741
+#, kde-format
+msgctxt "@option:check inmenu"
+msgid "Allow this program to be grouped"
+msgstr "Permite acestui program să fie grupat"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close All"
+msgstr "În&chide toate"
+
+#: qml/ContextMenu.qml:787
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Close"
+msgstr "În&chide"
+
+#: qml/Task.qml:157
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "Lansează %1"
+
+#: qml/Task.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "Este %1 mesaj nou."
+msgstr[1] "Sunt %1 mesaje noi."
+msgstr[2] "Sunt %1 de mesaje noi."
+
+#: qml/Task.qml:170
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "Arată indiciile sarcinii %1"
+
+#: qml/Task.qml:174
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "Arată ferestrele una lângă alta pentru %1"
+
+#: qml/Task.qml:179
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "Deschide lista textuală a ferestrelor pentru %1"
+
+#: qml/Task.qml:183
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Activate %1"
+msgstr "Activează %1"
+
+#: qml/TaskBadgeOverlay.qml:95
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: qml/ToolTipInstance.qml:201
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr "Închide fereastra"
+
+#: qml/ToolTipInstance.qml:471
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "Sonorizează %1"
+
+#: qml/ToolTipInstance.qml:472
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "Muțește %1"
+
+#: qml/ToolTipInstance.qml:490
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "Ajustează volumul pentru %1"
+
+#: qml/ToolTipInstance.qml:506
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: qml/ToolTipInstance.qml:510
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: qml/ToolTipInstance.qml:526
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "Pe %1"
+
+#: qml/ToolTipInstance.qml:529
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "Fixat pe toate birourile"
+
+#: qml/ToolTipInstance.qml:535
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Disponibilă în toate activitățile"
+
+#: qml/ToolTipInstance.qml:545
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "Disponibilă și pe %1"
+
+#: qml/ToolTipInstance.qml:549
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Disponibilă pe %1"
+
+#~ msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+#~ msgid "Automatically set to Large when in Touch mode"
+#~ msgstr "Treci automat la Mare în regim tactil"
+
+#~ msgctxt "Invalid number of new messages, overlay, keep short"
+#~ msgid "—"
+#~ msgstr "—"
+
+#, fuzzy
+#~| msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+#~| msgid "Does nothing"
+#~ msgctxt ""
+#~ "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
+#~ msgid "Does nothing"
+#~ msgstr "Nu face nimic"
+
+#, fuzzy
+#~| msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~| msgid "Mouse wheel:"
+#~ msgctxt ""
+#~ "@label for checkbox Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Mouse wheel:"
+#~ msgstr "Rotița mausului:"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Completes the sentence 'Clicking grouped task cycles through tasks' "
+#~| msgid "Cycles through tasks"
+#~ msgctxt ""
+#~ "@option:check Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Ciclează printre sarcini"
+
+#, fuzzy
+#~| msgid "Mark applications that play audio"
+#~ msgctxt "@option:check section General"
+#~ msgid "Mark applications that play audio"
+#~ msgstr "Marchează aplicațiile ce redau sunet"
+
+#~ msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Ciclează printre sarcini"
+
+#~ msgctxt "1 = number of desktop, 2 = desktop name"
+#~ msgid "&%1 %2"
+#~ msgstr "&%1 %2"
+
+#~ msgid "Always arrange tasks in rows of as many columns"
+#~ msgstr "Aranjează mereu sarcinile în rânduri de tot atâtea coloane"
+
+#~ msgid "Always arrange tasks in columns of as many rows"
+#~ msgstr "Aranjează mereu sarcinile în coloane de tot atâtea rânduri"
+
+#~ msgid ""
+#~ "Tooltips are disabled, so the windows will be displayed side by side "
+#~ "instead."
+#~ msgstr ""
+#~ "Indiciile sunt dezactivate, deci ferestrele vor fi afișate una lângă alta."
+
+#~ msgid ""
+#~ "Tooltips are disabled, and the compositor does not support displaying "
+#~ "windows side by side, so a textual list will be displayed instead"
+#~ msgstr ""
+#~ "Indiciile sunt dezactivate și compozitorul nu susține afișarea "
+#~ "ferestrelor una lângă alta, deci va fi afișată în schimb o listă textuală"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Arată indicii"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows tooltip window "
+#~ "thumbnails' "
+#~ msgid "Shows tooltip window thumbnails"
+#~ msgstr "Arată miniatura ferestrei"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows 'Present Windows' "
+#~ "effect' "
+#~ msgid "Shows 'Present Windows' effect"
+#~ msgstr "Arată efectul de prezentare a ferestrelor"
+
+#~ msgid "Icon size:"
+#~ msgstr "Dimensiune pictograme:"
+
+#~ msgid "Start New Instance"
+#~ msgstr "Pornește instanță nouă"
+
+#~ msgid "More Actions"
+#~ msgstr "Mai multe acțiuni"
+
+#~ msgid "Panel Hiding:"
+#~ msgstr "Ascundere panou:"
+
+#, fuzzy
+#~| msgid "Grouping:"
+#~ msgctxt "When clicking it would toggle grouping windows of a specific app"
+#~ msgid "Group/Ungroup"
+#~ msgstr "Grupare:"
+
+#, fuzzy
+#~| msgid "Filters"
+#~ msgid "Filter:"
+#~ msgstr "Filtre"
+
+#~ msgid "Show only tasks from the current desktop"
+#~ msgstr "Arată numai sarcinile de pe biroul curent"
+
+#, fuzzy
+#~| msgid "By Activity"
+#~ msgid "Move to &Activity"
+#~ msgstr "După activitate"
+
+#~ msgid "Highlight windows"
+#~ msgstr "Evidențiază ferestrele"
+
+#~ msgid "Grouping and Sorting"
+#~ msgstr "Grupare și sortare"
+
+#~ msgid "Do Not Sort"
+#~ msgstr "Nu sorta"
+
+#~ msgid "Force row settings"
+#~ msgstr "Forțează configurări rând"
+
+#~ msgid "Collapse Group"
+#~ msgstr "Restrânge grupul"
+
+#~ msgid "Expand Group"
+#~ msgstr "Desfășoară grupul"
+
+#~ msgid "Edit Group"
+#~ msgstr "Modifică grupul"
+
+#~ msgid "New Group Name: "
+#~ msgstr "Noua denumire a grupului: "
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "Restrânge grupul părinte"
+
+#~ msgid "Configure Taskbar"
+#~ msgstr "Configurează panoul"

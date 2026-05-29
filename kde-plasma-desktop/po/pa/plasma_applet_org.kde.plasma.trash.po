@@ -1,0 +1,103 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2021, 2023, 2025 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-09-15 10:15-0500\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.08.0\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "ਰੱਦੀ"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "…ਰੱਦੀ ਖਾਲੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "ਇੱਕ ਆਈਟਮ"
+msgstr[1] "%1 ਆਈਟਮਾਂ"
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "ਖਾਲੀ ਕਰੋ"
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "ਖੋਲ੍ਹੋ"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "ਖਾਲੀ ਕਰੋ"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "…ਰੱਦੀ ਲਈ ਸੈਟਿੰਗਾਂ"
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "ਖਾਲੀ"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr ""
+#~ "ਰੱਦੀ\n"
+#~ "ਖਾਲੀ"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "ਇੱਕ ਆਈਟਮ\n"
+#~ "ਰੱਦੀ 'ਚ ਭੇਜੋ"
+#~ msgstr[1] ""
+#~ "%1 ਆਈਟਮਾਂ\n"
+#~ "ਰੱਦੀ ਵਿੱਚ ਭੇਜੋ"
+
+#~ msgid ""
+#~ "Trash \n"
+#~ " Empty"
+#~ msgstr ""
+#~ "ਰੱਦੀ\n"
+#~ "ਖਾਲੀ ਕਰੋ"
+
+#~ msgid "Empty Trash"
+#~ msgstr "ਰੱਦੀ ਖਾਲੀ ਕਰੋ"
+
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr "ਕੀ ਤੁਸੀਂ ਰੱਦੀ ਖਾਲੀ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ? ਸਭ ਆਈਟਮਾਂ ਹਟਾਈਆਂ ਜਾਣਗੀਆਂ।"
+
+#~ msgid "Cancel"
+#~ msgstr "ਰੱਦ ਕਰੋ"

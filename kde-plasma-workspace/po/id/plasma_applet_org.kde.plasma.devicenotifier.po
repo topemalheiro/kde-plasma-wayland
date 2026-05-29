@@ -1,0 +1,371 @@
+# Indonesian translations for plasma_applet_devicenotifier package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_devicenotifier package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010-2014.
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2024 Wantoyo <wantoyek@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2024-12-07 19:40+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr ""
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Kaitkan"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Buka di File Manager"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Kaitkan dan Buka"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Keluarkan"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Lepas dengan aman"
+
+#: messageinfo.cpp:108
+#, fuzzy, kde-format
+#| msgid "This device can now be safely removed."
+msgid "This device has file system errors."
+msgstr "Peranti ini sekarang bisa dilepas dengan aman."
+
+#: messageinfo.cpp:110
+#, fuzzy, kde-format
+#| msgid "This device can now be safely removed."
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Peranti ini sekarang bisa dilepas dengan aman."
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr ""
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Status Peranti"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Sekarang peranti bisa dilepas dengan aman"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Peranti ini sekarang bisa dilepas dengan aman."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Anda tidak diotorisasi untuk mengaitkan peranti ini."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Anda tidak diotorisasi untuk mengeluarkan cakram ini."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Anda tidak diotorisasi untuk melepaskan peranti ini."
+
+#: messageinfo.cpp:139
+#, fuzzy, kde-format
+#| msgctxt "Remove is less technical for unmount"
+#| msgid "You are not authorized to remove this device."
+msgid "You are not authorized to repair this device."
+msgstr "Anda tidak diotorisasi untuk melepaskan peranti ini."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr ""
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Tidak bisa mengaitkan peranti ini karena ia sedang sibuk."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr ""
+"Satu atau lebih file pada peranti ini sedang dibuka oleh suatu aplikasi."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"Satu atau lebih file pada peranti ini sedang dibuka oleh aplikasi \"%2\"."
+msgstr[1] ""
+"Satu atau lebih file pada peranti ini sedang dibuka oleh aplikasi berikut "
+"ini: %2."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Tidak dapat mengaitkan peranti ini."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Tidak dapat mengeluarkan cakram ini."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Tidak dapat melepas peranti ini."
+
+#: messageinfo.cpp:206
+#, fuzzy, kde-format
+#| msgctxt "Remove is less technical for unmount"
+#| msgid "Could not remove this device."
+msgid "Could not repair this device: %1"
+msgstr "Tidak dapat melepas peranti ini."
+
+#: qml/DeviceItem.qml:98
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation should be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing…"
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Melepas..."
+
+#: qml/DeviceItem.qml:100
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation should be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing…"
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Melepas..."
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 bebas dari %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Mengakses..."
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Melepas..."
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Jangan cabut dulu! File-file masih sedang ditransfer..."
+
+# Melepas Perangkat
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Lepas Semua"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Klik untuk secara aman melepas semua peranti"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Tidak ada peranti bisa-dilepas yang tercantol"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Tidak ada disk yang tersedia"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Peranti Terkini"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Tidak ada Peranti Tersedia"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Konfigurasi Peranti Bisa-dilepas..."
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Peranti Bisa-dilepas"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Peranti Non Bisa-dilepas"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Semua Peranti"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Tampilkan sembulan ketika peranti baru sudah tercolok"
+
+#~ msgid "Show:"
+#~ msgstr "Tampilkan:"
+
+#~ msgid "General"
+#~ msgstr "Umum"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Saat ini <b>tidak aman</b> untuk melepas perangkat ini: aplikasi mungkin "
+#~ "sedang mengaksesnya. Klik tombol eject untuk melepas perangkat ini dengan "
+#~ "aman."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "Perangkat ini saat ini dapat diakses."
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Saat ini <b>tidak aman</b> untuk melepas perangkat ini: aplikasi mungkin "
+#~ "sedang mengakses volume lain di perangkat ini. Klik tombol eject pada "
+#~ "volume lain tersebut untuk melepas perangkat ini dengan aman."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "Perangkat ini saat ini tidak dapat diakses."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 aksi untuk perangkat ini"
+#~ msgstr[1] "%1 aksi untuk perangkat ini"
+
+#~ msgid "Click to access this device from other applications."
+#~ msgstr "Klik untuk mengakses perangkat ini dari aplikasi lain."
+
+#~ msgid "Click to safely remove this device."
+#~ msgstr "Klik untuk secara aman melepaskan perangkat ini."
+
+#~ msgid "Available Devices"
+#~ msgstr "Divais Tersedia"
+
+#~ msgid "Display"
+#~ msgstr "Tampilan"
+
+#~ msgid "Automounting"
+#~ msgstr "Otomatis Mengaitkan"
+
+#~ msgid "Show hidden devices"
+#~ msgstr "Tampilkan divais tersembunyi"
+
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "Sembunyikan %1"
+
+#, fuzzy
+#~| msgid "Device is plugged in and can be accessed by applications."
+#~ msgid ""
+#~ "Device is plugged in and the volume can be accessed by applications. It "
+#~ "is not safe to remove this device."
+#~ msgstr "Divais ditancapkan dan dapat diakses oleh aplikasi."
+
+#, fuzzy
+#~| msgid "Device is plugged in, but not mounted for access yet."
+#~ msgid ""
+#~ "Device is plugged in and the volume is not mounted for access yet. The "
+#~ "device can be safely removed."
+#~ msgstr "Divais ditancapkan, tapi belum dikaitkan untuk akses."
+
+#~ msgid "Cannot mount the disc."
+#~ msgstr "Tak dapat mengaitkan cakram"
+
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "Divais yang baru-baru ini ditancapkan:"
+
+#~ msgid "Show the popup when a device is inserted"
+#~ msgstr "Tampilkan popup ketika sebuah divais dimasukkan"
+
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " detik"
+
+#~ msgid "Show all the items"
+#~ msgstr "Tampilkan semua item"
+
+#~ msgid "never"
+#~ msgstr "tak pernah"
+
+#~ msgid "When inserting a device close the popup after"
+#~ msgstr "Ketika memasukkan sebuah divais tutup popup setelah"
+
+#~ msgid "Form"
+#~ msgstr "Bentuk"

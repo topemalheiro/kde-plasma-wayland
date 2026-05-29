@@ -1,0 +1,82 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2015, 2016, 2018, 2020, 2021, 2023, 2024, 2026 Shinjo Park <kde@peremen.name>
+# JungHee Lee <daemul72@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-02-03 21:57+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: main.qml:118
+#, kde-format
+msgctxt "@label Accessible name"
+msgid "Minimize All Applet Active Indicator"
+msgstr "모든 애플릿 활성 표시기 최소화"
+
+#: MinimizeAllController.qml:17
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Restore Windows"
+msgstr "창 복원"
+
+#: MinimizeAllController.qml:18
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Minimize All Windows"
+msgstr "모든 창 최소화"
+
+#: MinimizeAllController.qml:20
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Restores the previously minimized windows"
+msgstr "이전에 최소화된 창 복원"
+
+#: MinimizeAllController.qml:21
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "모든 창을 최소화하여 바탕 화면 표시"
+
+#: PeekController.qml:14
+#, kde-format
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr "바탕 화면 엿보기"
+
+#: PeekController.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr "바탕 화면 엿보기 끝내기"
+
+#: PeekController.qml:17
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr "창을 원래 위치로 되돌림"
+
+#: PeekController.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr "창을 이동하여 임시로 바탕 화면 표시"
+
+#~ msgid "Show Desktop"
+#~ msgstr "바탕 화면 표시"
+
+#~ msgid "Show the Plasma desktop"
+#~ msgstr "Plasma 바탕 화면 표시"
+
+#~ msgid "Minimize all open windows and show the Desktop"
+#~ msgstr "모든 열린 창 최소화 후 데스크톱 보이기"

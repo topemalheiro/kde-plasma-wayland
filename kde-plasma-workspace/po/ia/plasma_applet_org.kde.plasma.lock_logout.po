@@ -1,0 +1,199 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2010, 2011, 2012, 2014, 2020, 2021, 2023, 2024 g.sora <g.sora@tiscali.it>
+# giovanni <g.sora@tiscali.it>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2026-02-04 19:01+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.12.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: ConfigGeneral.qml:120
+#, kde-format
+msgid "Unavailable"
+msgstr "Non disponibile"
+
+#: data.js:5
+#, kde-format
+msgid "Lock"
+msgstr "Bloca"
+
+#: data.js:6
+#, kde-format
+msgid "Lock the screen"
+msgstr "Bloca le schermo"
+
+#: data.js:12
+#, kde-format
+msgid "Switch user…"
+msgstr "Commuta Usator…"
+
+#: data.js:13
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Initia un session parallel como differente usator"
+
+#: data.js:19
+#, kde-format
+msgid "Shut down"
+msgstr "Arresto (shut down)"
+
+#: data.js:20
+#, kde-format
+msgid "Turn off the computer"
+msgstr "Extingue le computator"
+
+#: data.js:26
+#, kde-format
+msgid "Restart"
+msgstr "Re-Initia"
+
+#: data.js:27
+#, kde-format
+msgid "Reboot the computer"
+msgstr "Re-starta le computator"
+
+#: data.js:33
+#, kde-format
+msgid "Log out"
+msgstr "Claude session"
+
+#: data.js:34
+#, kde-format
+msgid "End the session"
+msgstr "Termina  le session"
+
+#: data.js:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show logout screen"
+msgstr "Monstra Schermo de clausura de session"
+
+#: data.js:41
+#, kde-format
+msgid "Log out, turn off, or restart the computer"
+msgstr "Claude session, stoppa o re-starta le computator"
+
+#: data.js:47
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Dormi"
+
+#: data.js:48
+#, kde-format
+msgid "Sleep (suspend to RAM)"
+msgstr "Dormi (suspende a RAM)"
+
+#: data.js:54
+#, kde-format
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: data.js:55
+#, kde-format
+msgid "Hibernate (suspend to disk)"
+msgstr "Hiberna (Suspende a Disco)"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgctxt "@title:column"
+#~ msgid "Actions"
+#~ msgstr "Actiones"
+
+#~ msgctxt ""
+#~ "Heading for a list of actions (leave, lock, switch user, hibernate, "
+#~ "suspend)"
+#~ msgid "Show actions:"
+#~ msgstr "Monstra Actiones:"
+
+#~ msgid "Log Out"
+#~ msgstr "Claude session"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show logout screen"
+#~ msgstr "Monstra Schermo de clausura de session"
+
+#~ msgid "Shut Down"
+#~ msgstr "Arresto (shut down)"
+
+#~ msgid "Switch User"
+#~ msgstr "Commuta Usator"
+
+#~ msgid "Shutdown…"
+#~ msgstr "Arresto (Shutdown)…"
+
+#~ msgid "Restart…"
+#~ msgstr "Re-Initia..."
+
+#~ msgid "Logout…"
+#~ msgstr "Clausura de session…"
+
+#~ msgid "Logout"
+#~ msgstr "Clausura de session"
+
+#~ msgid "Reboot"
+#~ msgstr "Reboot (re-initia)"
+
+#~ msgid "Shutdown..."
+#~ msgstr "Stoppa (Shutdown)..."
+
+#~ msgid "Logout..."
+#~ msgstr "Clausura de session..."
+
+#~ msgid "Do you want to suspend to disk (hibernate)?"
+#~ msgstr "Tu vole suspender a disco (hibernar)?"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Do you want to suspend to RAM (sleep)?"
+#~ msgstr "Tu vole suspender a RAM (dormir)?"
+
+#~ msgid "Leave"
+#~ msgstr "Lassa (abandonar)"
+
+#~ msgid "Leave..."
+#~ msgstr "Lassa (abandonar)..."
+
+#~ msgid "Suspend"
+#~ msgstr "Suspende"
+
+#~ msgid "SystemTray Settings"
+#~ msgstr "Preferentias de tabuliero de systema"
+
+#~ msgid "Configure Lock/Logout"
+#~ msgstr "Configura Bloca/Claude session"
+
+#~ msgid "Please select one or more items on the list below."
+#~ msgstr "Per favor tu selige un o plus elementos del lista a basso."
+
+#~ msgid "Entries"
+#~ msgstr "Entratas"
+
+#~ msgid "Show \"switch user\" button"
+#~ msgstr "Monstrar button de \"commutar usator\""
+
+#~ msgid "Show hibernate button"
+#~ msgstr "Monstrar button de hibernar"
+
+#~ msgid "Show sleep button"
+#~ msgstr "Monstrar button de dormir"

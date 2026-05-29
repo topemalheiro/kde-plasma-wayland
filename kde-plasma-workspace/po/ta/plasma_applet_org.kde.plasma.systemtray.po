@@ -1,0 +1,312 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2021-2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-05-02 17:53+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "%1 தனை மூடு"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "பொதுவானவை"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "தேவைப்படும்போது காட்டு"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "எப்போதும் காட்டு"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "கணினித் தட்டை விரிவுபடுத்தம்போது மட்டும் காட்டு"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "ஒருபோதும் காட்டாதே (முடக்கு)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "செயலியின் நிலை"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "தொலைதொடர்பு"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "கணினி சேவைகள்"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "வன்பொருள் கட்டுப்பாடு"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "மற்றவை"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"<application>%1</application> தினின் சின்னத்தை இங்கு முடக்குமுன், அச்செயலியிலேயே "
+"அதன் கணினித்தட்டு சின்னத்தை முடக்கும் தேர்வு உள்ளதா என்று முதலில் பார்க்கவும். இத்தேர்வைக் "
+"கொண்டு சின்னத்தை முடக்குவது, அச்செயலியின் நிரலாளர் எதிர்பார்க்காததாக இருக்கலாம்.<nl/><nl/"
+">இத்தேர்வால் செயலியில் ஏதேனும் சிக்கல் ஏற்பட்டால், தயவுசெய்து அதை கே.டீ.யீ.யிடமோ செயலியின் "
+"நிரலாளரிடமோ தெரிவிக்க வேண்டாம்."
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "விளைவுகளை ஏற்கிறேன்"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"பிடிப்புப்பலகையை முடக்கினால், ஓர் செயலியை மூடியபிறகு அதிலிருந்து நகலெடுத்ததை ஒட்ட "
+"முடியாமல் போகும்.<nl/><nl/> பிடிப்புப்பலகை வேறு நிரலால் கையாளப்படுகிறதென்றாலோ, "
+"தனிப்பட்ட பிடிப்புப்பலகை பிளாஸ்மாய்டை வேறு எங்கேயாவது சேர்த்திருந்தாலோ, இதை முடக்கலாம். "
+"மேலும், இதை முடக்குவதற்கு பதிலாக, பிடிப்புப்பலகை வரலாற்றை முடக்கலாம், அல்லது ஒரு "
+"நேரத்தில் ஒரே உருப்படியை நினைவில் கொள்ளுமாறு பிடிப்புப்பலகையை அமைக்கலாம்."
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"அறிவிப்புகள் பிளாஸ்மாய்டை முடக்கினால், செயலிகள் அனுப்பும் அறிவிப்புகள் காட்டப்படாமல் "
+"இருக்கலாம்.<nl/><nl/>அறிவிப்புகளை கையாளும் வேறு நிரலை நிறுவியிருந்தாலோ அறிவிப்புகள் "
+"பிளாஸ்மாய்டை வேறு எங்கேயாவது சேர்த்திருந்தாலோ மட்டும் இதை முடக்கவும்."
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "பலகையின் உயரத்தைப் பொறுத்து மாறும்"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "பலகையின் அகலத்தைப் பொறுத்து மாறும்"
+
+#: qml/ConfigGeneral.qml:213
+#, kde-format
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "பலகையிலுள்ள சின்னத்தின் அளவு:"
+
+#: qml/ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "சிறியது"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr "இடைவெளி:"
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "சிறியது"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "சாதாரணமானது"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "பெரியது"
+
+#: qml/ConfigGeneral.qml:269
+#, kde-format
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "நோக்குநிலை:"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr "கீழிருந்து மேல்"
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr "மேலிருந்து கீழ்"
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr "இடதிலிருந்து வலது"
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr "வலதிலிருந்து இடது"
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "பலகைக்கணினி பயன்முறையில் இருக்கும்போது, பெரிதானதற்கு தானாக மாற்றப்படும்"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "பதிவுகள்"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "அனைத்தையும் எப்போதும் காட்டு"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "பின்னே செல்"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "நிலைகாட்டிகளும் அறிவிப்புகளும்"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "மேலும் செயல்கள்"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "திறந்தே வைத்திரு"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "கணினித் தட்டிலுள்ள அனைத்தையும் மேல்தோன்றும் பட்டியில் காட்டும்"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "தெரித்தெழும் பட்டியை மூடு"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "மறைந்துள்ள சின்னங்களை காட்டு"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "%2 நெடுவரிசைகளில் %1 உருப்படிகளைக் கொண்ட கிரிட்"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AILlmyjgGJPதொமுகீ"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "பலகைக்கணினி பயன்முறையில் தானாக இயக்கப்படும்"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "பலகையிலுள்ள சின்னங்களுக்கிடையே இடைவெளி:"
+
+#~ msgid "Always hidden"
+#~ msgstr "எப்போதும் மறை"
+
+#~ msgid "Disabled"
+#~ msgstr "முடக்கு"
+
+#~ msgctxt "Name of the system tray entry"
+#~ msgid "Entry"
+#~ msgstr "பதிவு"
+
+#~ msgid "Visibility"
+#~ msgstr "காட்டப்படுவது"
+
+#~ msgid "Keyboard Shortcut"
+#~ msgstr "விசைப்பலகை சுருக்குவழி"
+
+#~ msgid "Always show all entries"
+#~ msgstr "அனைத்து பதிவுகளையும் எப்போதும் காட்டு"
+
+#~ msgid "Some letters with tall characters, ascenders, descenders, etc"
+#~ msgstr "AILlmyjgGJPதொமு"
+
+#~ msgid "Expand System Tray"
+#~ msgstr "கணினித் தட்டை பெரிதாக்கு"
+
+#~ msgctxt ""
+#~ "Suffix added to the applet name if the applet is autoloaded via DBus "
+#~ "activation"
+#~ msgid "%1 (Automatic load)"
+#~ msgstr "%1 (தானாக இயக்கப்பட்டது)"

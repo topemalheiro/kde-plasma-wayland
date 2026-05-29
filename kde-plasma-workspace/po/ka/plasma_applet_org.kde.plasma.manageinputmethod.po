@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:46+0000\n"
+"PO-Revision-Date: 2026-05-14 04:28+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: qml/main.qml:70
+#, kde-format
+msgctxt "Opens the system settings module"
+msgid "Configure Virtual Keyboards..."
+msgstr "ვირტუალური კლავიატურების კონფიგურაცია..."
+
+#: qml/main.qml:87
+#, kde-format
+msgid "Virtual Keyboard: unavailable"
+msgstr "ვირტუალური კლავიატურა: მიუწვდომელია"
+
+#: qml/main.qml:96
+#, kde-format
+msgid "Virtual Keyboard: disabled"
+msgstr "ვირტუალური კლავიატურა: გამორთულია"
+
+#: qml/main.qml:108
+#, kde-format
+msgid "Show Virtual Keyboard"
+msgstr "ვირტუალური კლავიატურის ჩვენება"
+
+#: qml/main.qml:119
+#, kde-format
+msgid "Virtual Keyboard: visible"
+msgstr "ვირტუალური კლავიატურა: ჩანს"
+
+#: qml/main.qml:128
+#, kde-format
+msgid "Virtual Keyboard: Show on non-mouse input"
+msgstr "ვირტუალური კლავიატურა: ჩვენება არა-თაგუნათი შეყვანისას"
+
+#: qml/main.qml:137
+#, kde-format
+msgid "Virtual Keyboard: Show with all input devices"
+msgstr "ვირტუალური კლავიატურა: ჩვენება ყველა შეყვანის მოწყობილობით"
+
+#~ msgid "Virtual Keyboard: enabled"
+#~ msgstr "ვირტუალური კლავიატურა: ჩართული"

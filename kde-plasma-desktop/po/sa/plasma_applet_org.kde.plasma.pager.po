@@ -1,0 +1,242 @@
+# Sanskrit translations for plasma-desktop package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2024-12-20 21:53+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: qml/config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "सामान्य"
+
+#: qml/configGeneral.qml:39
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "सामान्य:"
+
+#: qml/configGeneral.qml:41
+#, fuzzy, kde-format
+#| msgid "Show window outlines"
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "विण्डोरूपरेखाः दर्शयन्तु"
+
+#: qml/configGeneral.qml:46
+#, fuzzy, kde-format
+#| msgid "Show application icons on window outlines"
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "विण्डोरूपरेखासु अनुप्रयोगचिह्नानि दर्शयन्तु"
+
+#: qml/configGeneral.qml:52
+#, fuzzy, kde-format
+#| msgid "Show only current screen"
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "केवलं वर्तमानपटलं दर्शयतु"
+
+#: qml/configGeneral.qml:57
+#, fuzzy, kde-format
+#| msgid "Navigation wraps around"
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "नेविगेशनं परितः वेष्टयति"
+
+#: qml/configGeneral.qml:69
+#, fuzzy, kde-format
+#| msgid "Layout:"
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "प्रारूपं:"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgctxt "The pager layout"
+#| msgid "Default"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "मूलभूतम्‌"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgid "Horizontal"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "क्षैतिज"
+
+#: qml/configGeneral.qml:71
+#, fuzzy, kde-format
+#| msgid "Vertical"
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "ऊर्ध्वाधर"
+
+#: qml/configGeneral.qml:85
+#, fuzzy, kde-format
+#| msgid "Text display:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "पाठप्रदर्शनम् :"
+
+#: qml/configGeneral.qml:88
+#, fuzzy, kde-format
+#| msgid "No text"
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "न पाठः"
+
+#: qml/configGeneral.qml:96
+#, fuzzy, kde-format
+#| msgid "Activity number"
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "गतिविधि संख्या"
+
+#: qml/configGeneral.qml:96
+#, fuzzy, kde-format
+#| msgid "Desktop number"
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "डेस्कटॉप सङ्ख्या"
+
+#: qml/configGeneral.qml:104
+#, fuzzy, kde-format
+#| msgid "Activity name"
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "क्रियाकलापनाम"
+
+#: qml/configGeneral.qml:104
+#, fuzzy, kde-format
+#| msgid "Desktop name"
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "डेस्कटॉप नाम"
+
+#: qml/configGeneral.qml:119
+#, fuzzy, kde-format
+#| msgid "Selecting current Activity:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "वर्तमान क्रियाकलापस्य चयनम् :"
+
+#: qml/configGeneral.qml:120
+#, fuzzy, kde-format
+#| msgid "Selecting current virtual desktop:"
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "वर्तमान वर्चुअल् डेस्कटॉप् चयनम् :"
+
+#: qml/configGeneral.qml:123
+#, fuzzy, kde-format
+#| msgid "Does nothing"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "न किमपि करोति"
+
+#: qml/configGeneral.qml:131
+#, fuzzy, kde-format
+#| msgid "Shows the desktop"
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "डेस्कटॉप् दर्शयति"
+
+#: qml/main.qml:87
+#, fuzzy, kde-format
+#| msgid "…and %1 other window"
+#| msgid_plural "…and %1 other windows"
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "...तथा %1 अन्यविण्डो"
+msgstr[1] "...तथा %1 अन्ये विण्डोस्"
+
+#: qml/main.qml:352
+#, fuzzy, kde-format
+#| msgid "%1 Window:"
+#| msgid_plural "%1 Windows:"
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 विण्डो: ."
+msgstr[1] "%1 विण्डोज: ."
+
+#: qml/main.qml:364
+#, fuzzy, kde-format
+#| msgid "%1 Minimized Window:"
+#| msgid_plural "%1 Minimized Windows:"
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 न्यूनतमं विण्डो: ."
+msgstr[1] "%1 न्यूनतमं विण्डोज: ."
+
+#: qml/main.qml:440
+#, fuzzy, kde-format
+#| msgid "Desktop %1"
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "डेस्कटॉप %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "%1 इत्यत्र स्विच कुर्वन्तु"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "गतिविधिप्रबन्धकं दर्शयतु"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "वर्चुअल् डेस्कटॉप् योजयन्तु"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "वर्चुअल् डेस्कटॉप् निष्कासयन्तु"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&क्रियाकलापाः विन्यस्तं कुर्वन्तु..."
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "वर्चुअल् डेस्कटॉप्स् विन्यस्तं कुर्वन्तु..."

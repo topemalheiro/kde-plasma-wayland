@@ -1,0 +1,236 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2021, 2022, 2024, 2025 Tommi Nieminen <translator@legisign.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2025-10-22 10:02+0300\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "Väriteeman nimi"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "Avaa tiedostot kertanapsautuksella"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr "Vaihda ulkoasupakettia kellonajan mukaan"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "Yleisulkoasun ja -tuntuman paketti"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "Yleisulkoasun ja -tuntuman paketti, vaihtoehtoinen"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "Animointinopeus"
+
+#: ui/LookAndFeelBox.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "Muuta yleisteemaa"
+
+#: ui/LookAndFeelBox.qml:178
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "Yleisteema"
+
+#: ui/main.qml:31
+#, fuzzy, kde-format
+#| msgid "Theme:"
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "Teema:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark "
+"global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "Käytä päivällä teemaa ”%1”, yöllä teemaa ”%2”"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "Lisää ulkoasuasetuksia:"
+
+#: ui/main.qml:193
+#, fuzzy, kde-format
+#| msgid "Animation speed:"
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "Animointinopeus:"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "Hidas"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "Välitön"
+
+#: ui/main.qml:220
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "Tiedostojen ja kansioiden napsauttaminen:"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "valitsee ne"
+
+#: ui/main.qml:231
+#, fuzzy, kde-format
+#| msgid "Open by double-clicking instead"
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "Avaaminen tapahtuu kaksoisnapsautuksella"
+
+#: ui/main.qml:247
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "avaa ne"
+
+#: ui/main.qml:252
+#, fuzzy, kde-format
+#| msgid "Select by clicking on item's selection marker"
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "Valitse napsauttamalla tietueen valintamerkkiä"
+
+#: ui/main.qml:264
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "Lisää toiminta-asetuksia:"
+
+#: ui/main.qml:275
+#, fuzzy, kde-format
+#| msgid "Most used pages:"
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "Käytetyimmät sivut:"
+
+#, fuzzy
+#~| msgid "Change Wallpaper…"
+#~ msgctxt "@action:button as in, 'this will take you to the Wallpaper KCM'"
+#~ msgid "Wallpaper"
+#~ msgstr "Vaihda taustakuva…"
+
+#, fuzzy
+#~| msgid "Color scheme name"
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the first KCM in the Colors "
+#~ "& Themes group'"
+#~ msgid "Colors & Themes"
+#~ msgstr "Väriteeman nimi"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid ""
+#~ "You can help KDE improve Plasma by contributing information on how you "
+#~ "use it, so we can focus on things that matter to you.<br/><br/"
+#~ ">Contributing this information is optional and entirely anonymous. We "
+#~ "never collect your personal data, files you use, websites you visit, or "
+#~ "information that could identify you."
+#~ msgstr ""
+#~ "Voit auttaa KDE:ta Plasman kehityksessä lahjoittamalla tietoa sen "
+#~ "käytöstä, jotta voimme keskittyä sinulle tärkeisiin asioihin.<nl/><nl/"
+#~ ">Tiedon lahjoittaminen on vapaaehtoista ja tapahtuu täysin nimettömästi. "
+#~ "Emme koskaan kerää henkilökohtaisia tietojasi, käyttämiäsi tiedostoja, "
+#~ "sivustoja joilla käyt tai muuta tietoa, josta sinut voisi tunnistaa."
+
+#~ msgid "No data will be sent."
+#~ msgstr "Tietoja ei lähetetä."
+
+#~ msgid "The following information will be sent:"
+#~ msgstr "Lähetetään seuraavat tiedot:"
+
+#~ msgid "Send User Feedback:"
+#~ msgstr "Lähetä käyttäjäpalautetta:"
+
+#~ msgctxt "Adjective; as in, 'light theme'"
+#~ msgid "Light"
+#~ msgstr "Vaalea"
+
+#~ msgctxt "Adjective; as in, 'dark theme'"
+#~ msgid "Dark"
+#~ msgstr "Tumma"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Tommi Nieminen"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "translator@legisign.org"
+
+#~ msgid "Quick Settings"
+#~ msgstr "Pika-asetukset"
+
+#~ msgid "Landing page with some basic settings."
+#~ msgstr "Aloitussivu, jolla voi asettaa joitakin perusasetuksia."
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "Most used module number %1"
+#~ msgstr "Käytetyimmän moduulin numero %1"
+
+#~ msgid "Enable file indexer"
+#~ msgstr "Käytä tiedostoindeksointia"
+
+#~ msgid "File Indexing:"
+#~ msgstr "Tiedostojen indeksointi:"
+
+#~ msgid "Enabled"
+#~ msgstr "Käytössä"

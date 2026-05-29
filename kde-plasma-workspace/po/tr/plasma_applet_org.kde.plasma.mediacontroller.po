@@ -1,0 +1,170 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 00:44+0000\n"
+"PO-Revision-Date: 2025-03-29 14:09+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#: AlbumArtStackView.qml:211
+#, kde-format
+msgid "No title"
+msgstr "Başlıksız"
+
+#: AlbumArtStackView.qml:211 main.qml:57
+#, kde-format
+msgid "No media playing"
+msgstr "Oynatılan/Çalınan ortam yok"
+
+#: ExpandedRepresentation.qml:414 ExpandedRepresentation.qml:570
+#, kde-format
+msgctxt "Remaining time for song e.g -5:42"
+msgid "-%1"
+msgstr "−%1"
+
+#: ExpandedRepresentation.qml:591
+#, kde-format
+msgid "Playback rate %1"
+msgstr "Oynatma hızı %1"
+
+#: ExpandedRepresentation.qml:594
+#, kde-format
+msgctxt "Playback rate"
+msgid "%1x"
+msgstr "%1×"
+
+#: ExpandedRepresentation.qml:598
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Playback rate"
+msgstr "Oynatma hızı"
+
+#: ExpandedRepresentation.qml:644
+#, kde-format
+msgctxt "@action:inmenu Playback speed (Normal)"
+msgid "%1 (Normal)"
+msgstr "%1 (Normal)"
+
+#: ExpandedRepresentation.qml:683
+#, kde-format
+msgctxt "@action:button"
+msgid "Shuffle"
+msgstr "Karıştır"
+
+#: ExpandedRepresentation.qml:707 main.qml:114
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Önceki Parça"
+
+#: ExpandedRepresentation.qml:729 main.qml:122
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: ExpandedRepresentation.qml:729 main.qml:130
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Oynat/Çal"
+
+#: ExpandedRepresentation.qml:747 main.qml:138
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Sonraki Parça"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat Track"
+msgstr "Parçayı Yinele"
+
+#: ExpandedRepresentation.qml:770
+#, kde-format
+msgid "Repeat"
+msgstr "Yinele"
+
+#: ExpandedRepresentation.qml:841
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose player automatically"
+msgstr "Oynatıcıyı/Çaları Kendiliğinden Seç"
+
+#: main.qml:60
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (%2)\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1 tarafından (%2)\n"
+"Duraklatmak için orta tıklayın\n"
+"Ses düzeyini ayarlamak için sarın"
+
+#: main.qml:61
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"%1\n"
+"Middle-click to pause\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1\n"
+"Duraklatmak için orta tıklayın\n"
+"Ses düzeyini ayarlamak için sarın"
+
+#: main.qml:63
+#, kde-format
+msgctxt "@info:tooltip %1 is a musical artist and %2 is an app name"
+msgid ""
+"by %1 (paused, %2)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"%1 tarafından (duraklatıldı, %2)\n"
+"Sürdürmek için orta tıklayın\n"
+"Ses düzeyini ayarlamak için sarın"
+
+#: main.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 is an app name"
+msgid ""
+"Paused (%1)\n"
+"Middle-click to play\n"
+"Scroll to adjust volume"
+msgstr ""
+"Duraklatıldı (%1)\n"
+"Sürdürmek için orta tıklayın\n"
+"Ses düzeyini ayarlamak için sarın"
+
+#: main.qml:107
+#, kde-format
+msgctxt "Open player window or bring it to the front if already open"
+msgid "Open"
+msgstr "Aç"
+
+#: main.qml:146
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Durdur"
+
+#: main.qml:159
+#, kde-format
+msgctxt "Quit player"
+msgid "Quit"
+msgstr "Çık"

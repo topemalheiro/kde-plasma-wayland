@@ -1,0 +1,321 @@
+# Copyright (C) 2025 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2018-2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2020 Frank Steinmetzger <Warp_7@gmx.de>
+# SPDX-FileCopyrightText: 2020-2021 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2022 Alois Spitzbart <spitz234@hotmail.com>
+# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
+# SPDX-FileCopyrightText: 2024 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_nightlight\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2026-03-26 22:40+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: ui/DayNightView.qml:154
+#, kde-format
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr ""
+"Farbtemperatur wird ab %1 auf die Nachtzeit wechseln und ist bis %2 "
+"vollständig umgestellt."
+
+#: ui/DayNightView.qml:157
+#, kde-format
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr ""
+"Farbtemperatur wird ab %1 auf die Tageszeit wechseln und ist bis %2 "
+"vollständig umgestellt."
+
+#: ui/main.qml:39
+#, kde-format
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr ""
+"Durch den Blaulichtfilter werden die Bildschirmfarben wärmer dargestellt."
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "Umschaltzeiten:"
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr "Immer aus"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "Immer an"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr "Sonnenaufgang und Sonnenuntergang"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "Einrichten …"
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "Tageslichttemperatur:"
+
+#: ui/main.qml:173 ui/main.qml:237
+#, kde-format
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr "Kühl (Kein Filter)"
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Warm"
+
+#: ui/main.qml:187
+#, kde-format
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "Nachtlichttemperatur:"
+
+#~ msgctxt "@item:inlistbox switching times"
+#~ msgid "Always on night light"
+#~ msgstr "Nachtlicht immer an"
+
+#~ msgctxt "Color temperature in Kelvin"
+#~ msgid "%1K"
+#~ msgstr "%1 K"
+
+#~ msgctxt ""
+#~ "@label:chooser Tap should be translated to mean touching using a "
+#~ "touchscreen"
+#~ msgid "Tap to choose your location on the map."
+#~ msgstr "Tippen, um Ihren Standort auf der Karte auszuwählen."
+
+#~ msgctxt ""
+#~ "@label:chooser Click should be translated to mean clicking using a mouse"
+#~ msgid "Click to choose your location on the map."
+#~ msgstr "Klicken, um Ihren Standort auf der Karte auszuwählen."
+
+#~ msgid "Zoom in"
+#~ msgstr "Vergrößern"
+
+#~ msgid "Zoom out"
+#~ msgstr "Verkleinern"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Modified from <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>World location map</link> "
+#~ "by TUBS / Wikimedia Commons / <link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+#~ msgstr ""
+#~ "Von <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>Positionskarte der Welt</"
+#~ "link> geändert durch TUBS / Wikimedia Commons / <link url='https://"
+#~ "creativecommons.org/licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Latitude:"
+#~ msgstr "Breitengrad:"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Longitude:"
+#~ msgstr "Längengrad:"
+
+#~ msgid "Sunset and sunrise at current location"
+#~ msgstr "Sonnenunter- und -aufgang am aktuellen Standort"
+
+#~ msgid "Sunset and sunrise at manual location"
+#~ msgstr "Sonnenunter- und -aufgang am benutzerdefinierten Standort"
+
+#~ msgid "Custom times"
+#~ msgstr "Benutzerdefinierte Uhrzeiten"
+
+#~ msgctxt "@label The coordinates for the current location"
+#~ msgid "Current location:"
+#~ msgstr "Aktueller Ort:"
+
+#~ msgid "Latitude: %1°   Longitude: %2°"
+#~ msgstr "Breitengrad: %1 °   Längengrad: %2 °"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>GeoClue2</application> service will be used to "
+#~ "periodically update the device's location using GPS or cell tower "
+#~ "triangulation if available, or else by sending its IP address to <link "
+#~ "url='https://geoip.com/privacy/'>GeoIP</link>."
+#~ msgstr ""
+#~ "Der Dienst <application>GeoClue2</application> wird verwendet, um den "
+#~ "Standort des Geräts regelmäßig zu aktualisieren, indem er GPS oder, falls "
+#~ "verfügbar, die Triangulation von Mobilfunkmasten verwendet oder indem er "
+#~ "seine IP-Adresse an <link url='https://geoip.com/privacy/'>GeoIP</link> "
+#~ "sendet."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>%1</application> service will be used to periodically "
+#~ "update the device's location. Please open a bug report at <link "
+#~ "url='https://bugs.kde.org'>https://bugs.kde.org</link> asking KDE "
+#~ "developers to write a detailed description of what this service will do."
+#~ msgstr ""
+#~ "Der <application>%1</application>-Dienst wird verwendet, um den Standort "
+#~ "des Geräts regelmäßig zu aktualisieren. Bitte öffnen Sie einen "
+#~ "Fehlerbericht unter <link url='https://bugs.kde.org'>https://bugs.kde."
+#~ "org</link> und bitten Sie die KDE-Entwickler eine detaillierte "
+#~ "Beschreibung zu verfassen, was dieser Dienst tun wird."
+
+#~ msgid "Begin night light at:"
+#~ msgstr "Nachtlicht beginnen um:"
+
+#~ msgid "Begin day light at:"
+#~ msgstr "Tageslicht beginnen um:"
+
+#~ msgid "Transition duration:"
+#~ msgstr "Durchgangsdauer:"
+
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 Minute"
+#~ msgstr[1] "%1 Minuten"
+
+#~ msgid "Input minutes - min. 1, max. 600"
+#~ msgstr "Eingabe in Minuten – min. 1, max. 600"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Locating…"
+#~ msgstr "Lokalisieren …"
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "hour"
+#~ msgstr "Stunde"
+
+#~ msgctxt "Time separator between hours and minutes"
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "minute"
+#~ msgstr "Minute"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The device's location will be periodically updated using GPS (if "
+#~ "available), or by sending network information to <link url='https://"
+#~ "location.services.mozilla.com'>Mozilla Location Service</link>."
+#~ msgstr ""
+#~ "Der Standort des Geräts wird regelmäßig über GPS (falls verfügbar) oder "
+#~ "durch Senden von Netzwerkinformationen an den <link url='https://location."
+#~ "services.mozilla.com'>Mozilla Location Service</link> aktualisiert."
+
+# Übergangszeiten?
+#~ msgid "Error: Transition time overlaps."
+#~ msgstr "Fehler: Übergangszeiten überschneiden sich."
+
+#~ msgid "Input format: HH:MM"
+#~ msgstr "Eingabeformat: HH:MM"
+
+#~ msgctxt "Night colour blue-ish"
+#~ msgid "Cool"
+#~ msgstr "Kalt"
+
+#, fuzzy
+#~| msgid "Activate Night Color"
+#~ msgid "Activate blue light filter"
+#~ msgstr "Nachtfarben aktivieren"
+
+#~ msgid "Turn on at:"
+#~ msgstr "Einschalten um:"
+
+#~ msgid "Turn off at:"
+#~ msgstr "Ausschalten um:"
+
+#, fuzzy
+#~| msgid "Night Color begins changing back at %1"
+#~ msgid "Night Color begins changing back at %1 and ends at %2"
+#~ msgstr "Nachtfarben werden ab %1 zurückgesetzt"
+
+#~ msgid "Error: Morning is before evening."
+#~ msgstr "Fehler: Der Morgen liegt vor dem Abend."
+
+#~ msgid "Night Color begins at %1"
+#~ msgstr "Nachtfarben beginnen um %1"
+
+#~ msgid "Color fully changed at %1"
+#~ msgstr "Farbe vollständig umgestellt um %1"
+
+#~ msgid "Normal coloration restored by %1"
+#~ msgstr "Normale Farben sind um %1 wiederhergestellt"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Burkhard Lück, Frank Steinmetzger"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "lueck@hube-lueck.de, Warp_7@gmx.de"
+
+#~ msgid "Night Color"
+#~ msgstr "Nachtfarben"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid " K"
+#~ msgstr " K"
+
+#~ msgid "Operation mode:"
+#~ msgstr "Operationsmodus"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisch"
+
+#~ msgid "Times"
+#~ msgstr "Zeiten"
+
+#~ msgid "Constant"
+#~ msgstr "Konstant"
+
+#~ msgid "(Input format: HH:MM)"
+#~ msgstr "(Eingabeformat: HH:MM)"
+
+#~ msgid "Sunset begins:"
+#~ msgstr "Sonnenuntergang um:"
+
+#~ msgid "...and ends:"
+#~ msgstr ".. und endet:"
+
+#~ msgid "Manual"
+#~ msgstr "Manuell"
+
+#~ msgid "(HH:MM)"
+#~ msgstr "(HH:MM)"

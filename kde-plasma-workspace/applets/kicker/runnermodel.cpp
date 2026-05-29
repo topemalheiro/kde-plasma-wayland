@@ -1,0 +1,297 @@
+/*
+    SPDX-FileCopyrightText: 2012 Aurélien Gâteau <agateau@kde.org>
+    SPDX-FileCopyrightText: 2014 Eike Hein <hein@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#include "runnermodel.h"
+#include "runnermatchesmodel.h"
+
+#include <QSet>
+
+#include <KConfigGroup>
+#include <KLocalizedString>
+#include <KRunner/AbstractRunner>
+#include <KRunner/RunnerManager>
+#include <chrono>
+#include <optional>
+#include <qtmetamacros.h>
+
+using namespace std::chrono_literals;
+
+RunnerModel::RunnerModel(QObject *parent)
+    : QAbstractListModel(parent)
+    , m_favoritesModel(nullptr)
+    , m_appletInterface(nullptr)
+    , m_mergeResults(false)
+    , m_krunnerConfig(KSharedConfig::openConfig(QStringLiteral("krunnerrc")))
+{
+    m_queryTimer.setSingleShot(true);
+    m_queryTimer.setInterval(10ms);
+    connect(&m_queryTimer, &QTimer::timeout, this, &RunnerModel::startQuery);
+    const auto readFavorites = [this]() {
+        m_favoritePluginIds = m_krunnerConfig
+                                  ->group(QStringLiteral("Plugins")) //
+                                  .group(QStringLiteral("Favorites"))
+                                  .readEntry("plugins", QStringList(QStringLiteral("krunner_services")));
+        if (m_mergeResults && !m_models.isEmpty()) {
+            m_models.constFirst()->setFavoriteIds(m_favoritePluginIds);
+        }
+    };
+    m_configWatcher = KConfigWatcher::create(m_krunnerConfig);
+    connect(m_configWatcher.data(), &KConfigWatcher::configChanged, this, readFavorites);
+    readFavorites();
+    connect(m_configWatcher.data(), &KConfigWatcher::configChanged, this, [this](const KConfigGroup &group) {
+        if (group.name() == QLatin1String("Plugins")) {
+            updateEnabledRunners();
+        }
+    });
+}
+
+RunnerModel::~RunnerModel() = default;
+
+QHash<int, QByteArray> RunnerModel::roleNames() const
+{
+    return {{Qt::DisplayRole, QByteArrayLiteral("display")}};
+}
+
+AbstractModel *RunnerModel::favoritesModel() const
+{
+    return m_favoritesModel;
+}
+
+void RunnerModel::setFavoritesModel(AbstractModel *model)
+{
+    if (m_favoritesModel != model) {
+        m_favoritesModel = model;
+
+        clear();
+
+        for (auto *model : std::as_const(m_models)) {
+            model->setFavoritesModel(m_favoritesModel);
+        }
+
+        if (!m_query.isEmpty()) {
+            m_queryTimer.start();
+            Q_EMIT queryingChanged();
+        }
+
+        Q_EMIT favoritesModelChanged();
+    }
+}
+
+QObject *RunnerModel::appletInterface() const
+{
+    return m_appletInterface;
+}
+
+void RunnerModel::setAppletInterface(QObject *appletInterface)
+{
+    if (m_appletInterface != appletInterface) {
+        m_appletInterface = appletInterface;
+
+        clear();
+
+        if (!m_query.isEmpty()) {
+            m_queryTimer.start();
+            Q_EMIT queryingChanged();
+        }
+
+        Q_EMIT appletInterfaceChanged();
+    }
+}
+
+bool RunnerModel::mergeResults() const
+{
+    return m_mergeResults;
+}
+
+void RunnerModel::setMergeResults(bool merge)
+{
+    if (m_mergeResults != merge) {
+        m_mergeResults = merge;
+        Q_EMIT mergeResultsChanged();
+
+        // If we haven't lazy-initialzed our models, we do not need to re-create them
+        if (!m_models.isEmpty()) {
+            qDeleteAll(m_models);
+            m_models.clear();
+            // Just re-create all models,
+            initializeModels();
+        }
+    }
+}
+
+QVariant RunnerModel::data(const QModelIndex &index, int role) const
+{
+    if (!index.isValid() || index.row() >= m_models.count()) {
+        return {};
+    }
+
+    if (role == Qt::DisplayRole) {
+        return m_models.at(index.row())->name();
+    }
+
+    return {};
+}
+
+int RunnerModel::rowCount(const QModelIndex &parent) const
+{
+    return parent.isValid() ? 0 : m_models.count();
+}
+
+int RunnerModel::count() const
+{
+    return rowCount();
+}
+
+RunnerMatchesModel *RunnerModel::modelForRow(int row)
+{
+    if (row < 0 || row >= m_models.count()) {
+        return nullptr;
+    }
+
+    return m_models.at(row);
+}
+
+QStringList RunnerModel::runners() const
+{
+    return m_runners;
+}
+
+void RunnerModel::setRunners(const QStringList &runners)
+{
+    if (runners == m_runners) {
+        return;
+    }
+
+    m_runners = runners;
+    // Delay checking enabled runners until needed
+    if (!m_models.isEmpty()) {
+        updateEnabledRunners();
+    }
+    Q_EMIT runnersChanged();
+}
+
+void RunnerModel::setEnabledRunners(const QStringList &runners)
+{
+    if (runners == m_enabledRunners) {
+        return;
+    }
+
+    m_enabledRunners = runners;
+
+    // Update the existing models only, if we have initialized the models
+    if (!m_models.isEmpty()) {
+        if (m_mergeResults) {
+            Q_ASSERT(m_models.length() == 1);
+            m_models.constFirst()->runnerManager()->setAllowedRunners(runners);
+        } else {
+            // Just re-create all the models, it is an edge-case anyway
+            qDeleteAll(m_models);
+            m_models.clear();
+            initializeModels();
+        }
+    }
+}
+
+void RunnerModel::updateEnabledRunners()
+{
+    if (m_runners.isEmpty()) {
+        setEnabledRunners(m_runners);
+    } else {
+        const static auto availableRunners = KRunner::RunnerManager::runnerMetaDataList();
+        const auto configGroup = m_krunnerConfig->group(QStringLiteral("Plugins"));
+        QStringList newEnabledRunners;
+        for (const QString &runnerId : std::as_const(m_runners)) {
+            for (const KPluginMetaData &runner : availableRunners) {
+                if (runner.pluginId() == runnerId && runner.isEnabled(configGroup)) {
+                    newEnabledRunners << runnerId;
+                    break;
+                }
+            }
+        }
+        setEnabledRunners(newEnabledRunners);
+    }
+}
+
+QString RunnerModel::query() const
+{
+    return m_query;
+}
+
+bool RunnerModel::querying() const
+{
+    return m_queryingModels > 0 || m_queryTimer.isActive();
+}
+
+void RunnerModel::setQuery(const QString &query)
+{
+    if (m_query == query) {
+        return; // do not init models if the query doesn't change. particularly important during startup!
+    }
+    if (m_models.isEmpty()) {
+        initializeModels();
+    }
+    m_query = query;
+    m_queryTimer.start();
+    Q_EMIT queryChanged();
+    Q_EMIT queryingChanged();
+}
+
+void RunnerModel::startQuery()
+{
+    if (m_query.isEmpty()) {
+        clear();
+        QTimer::singleShot(0, this, &RunnerModel::queryFinished);
+    } else {
+        const bool wasQuerying = querying();
+        m_queryingModels += m_models.size();
+        for (KRunner::ResultsModel *model : std::as_const(m_models)) {
+            model->setQueryString(m_query);
+        }
+        if (!wasQuerying) {
+            Q_EMIT queryingChanged();
+        }
+    }
+}
+
+void RunnerModel::clear()
+{
+    for (KRunner::ResultsModel *model : std::as_const(m_models)) {
+        model->clear();
+    }
+}
+
+void RunnerModel::initializeModels()
+{
+    updateEnabledRunners();
+    beginResetModel();
+    if (m_mergeResults) {
+        auto model = new RunnerMatchesModel(QString(), i18n("Search results"), this);
+        model->runnerManager()->setAllowedRunners(m_enabledRunners);
+        model->setFavoritesModel(m_favoritesModel);
+        model->setFavoriteIds(m_favoritePluginIds);
+        m_models.append(model);
+    } else {
+        for (const QString &runnerId : std::as_const(m_enabledRunners)) {
+            auto *model = new RunnerMatchesModel(runnerId, std::nullopt, this);
+            model->setFavoritesModel(m_favoritesModel);
+            m_models.append(model);
+        }
+    }
+    for (auto model : std::as_const(m_models)) {
+        connect(model->runnerManager(), &KRunner::RunnerManager::queryFinished, this, [this]() {
+            Q_EMIT anyRunnerFinished();
+            if (--m_queryingModels == 0) {
+                Q_EMIT queryFinished();
+                Q_EMIT queryingChanged();
+            }
+        });
+    }
+    endResetModel();
+    Q_EMIT countChanged();
+}
+
+#include "moc_runnermodel.cpp"

@@ -1,0 +1,1267 @@
+# Uyghur translation for plasma_applet_folderview.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_folderview\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2026-02-01 17:57-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: package/contents/config/config.qml:17
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "ئورنى"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "سىنبەلگە"
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "سۈزگۈچ"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr "قايت"
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, kde-format
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "ھۆججەت:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "ھەممىنى كۆرسەت"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "ماس كەلگەننى كۆرسەت"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "ماس كەلگەننى يوشۇر"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "ھۆججەت ئاتى ئەندىزىسى:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, kde-format
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "ھۆججەت تۈرى:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "يوشۇرۇن ھۆججەتنى كۆرسەت:"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, kde-format
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "ھۆججەت تۈرى"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "چۈشەندۈرۈش"
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, kde-format
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "ھەممىنى تاللا"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, kde-format
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "ھەممىنى تاللىما"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr "تەرتىپلەش تەرتىپىنى ئالماشتۇر"
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr "كۆزنەكچە توپچە:"
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "ئىختىيارى سىنبەلگە ئىشلەت"
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "تاللا…"
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "سىنبەلگە تازىلا"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "ئورۇنلاشتۇرۇش:"
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr "رەتتە"
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr "قۇردا"
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, kde-format
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "توغرىلىنىش تەرتىپى:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "سولدىن ئوڭغا"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "ئوڭدىن سولغا"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, kde-format
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "ئورنىدا قۇلۇپلا"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "تەرتىپلىنىشى:"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr "قولدا"
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "ئاتى"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "چوڭلۇقى"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "تۈرى"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "چېسلا"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr "كېمەيگۈچى"
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, kde-format
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "قىسقۇچ ئالدىدا"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr "كۆرۈنۈش ھالىتى:"
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr "تىزىم"
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr "شادا"
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, kde-format
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "سىنبەلگە چوڭلۇقى:"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, kde-format
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "كىچىك"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, kde-format
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "چوڭ"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "بەلگە كەڭلىكى:"
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr "تار"
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr "ئوتتۇراھال"
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr "كەڭ"
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr "تېكىست قۇرى:"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr "سىنبەلگە ئۈستىدە لەيلەتكەندە:"
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr "قورال ئەسكەرتىشىنى كۆرسىتىدۇ"
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "تاللاش بەلگىسىنى كۆرسىتىدۇ"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "قىسقۇچ ئالدىن كۆزىتىش قاڭقىش كۆزنىكىنى كۆرسىتىدۇ"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+#| msgid "Select Folder"
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "قىسقۇچ تاللا"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "ئات ئۆزگەرت:"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr "تاللانغان تۈرنىڭ تېكىستىنى چېكىپ بىۋاسىتە ئات ئۆزگەرتكىلى بولىدۇ"
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, kde-format
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "ئالدىن كۆزەت:"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "ئالدىن كۆزىتىش كىچىك كۆرۈنۈشنى كۆرسىتىدۇ"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "ئالدىن كۆزىتىش قىستۇرمىسىنى سەپلەيدۇ…"
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, kde-format
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "كۆرسەت:"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, kde-format
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr "نۆۋەتتىكى پائالىيەتكە باغلانغان ھۆججەت"
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr "دائىملىق كۆزنەكچە تۈرى:"
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, kde-format
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "ئىختىيارى ئورنى:"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "كىرگۈزۈش يولى ياكى تور ئادرېسى…"
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "ماۋزۇ:"
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "يوق"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr "كۆڭۈلدىكى"
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr "تولۇق يول"
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr "ئىختىيارى"
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr "ماۋزۇ كىرگۈزۈلىدۇ…"
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr "چېكىپ سۆرەلسە ئايلاندۇرىدۇ"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr "تەگلىكنى يوشۇر"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr "تەگلىك كۆرسەت"
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr "چىقىرىۋەت"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "ئالدىن كۆزىتىش قىستۇرمىسى"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+"ئۈستەلئۈستىدە نۇرغۇن ھۆججەت ۋە قىسقۇچ بار. بۇ خاتالىق ۋە ئۈنۈم مەسىلىسىنى "
+"پەيدا قىلىشى مۇمكىن. ئۇلارنىڭ بەزىلىرىنى باشقا جايغا يۆتكەشنى ئويلىشىڭ."
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "قىسقۇچ بوش"
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "سىنبەلگە"
+
+#: package/contents/ui/main.qml:448
+#, kde-format
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "ئۈستەلئۈستى ۋە تام قەغەز"
+
+#: plugins/folder/directorypicker.cpp:32
+#, kde-format
+msgid "Select Folder"
+msgstr "قىسقۇچ تاللا"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "ئۈستەلئۈستىنى يېڭىلا(&R)"
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr "كۆرۈنۈشنى يېڭىلا(&R)"
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr "ئۇلانما نىشانىنى تاپالمىدى"
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+"<filename>%1</filename> <filename>%2</filename> نى كۆرسەتتى ئەمما ئۇنى "
+"تاپالمىدى. ئۇ بەلكىم يۆتكەلگەن ياكى  ئۆچۈرۈلگەن بولۇشى مۇمكىن."
+
+#: plugins/folder/foldermodel.cpp:1812
+#, kde-format
+msgid "&Empty Trash"
+msgstr "ئەخلەتخانىنى بوشات(&E)"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr "ئەسلى ئورنىغا ئەسلىگە كەلتۈر"
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "ئاچ(&O)"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, kde-format
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "نىشاننى كۆرسەت"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr "ئەخلەتخانا سىنبەلگىسىنى چىقىرىۋەت"
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "ئەخلەتخانىغا يۆتكە(&M)"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "چاپلا(&P)"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "خاسلىق(&P)"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr "تەرتىپى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "تەرتىپلەنمىگەن"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "ئاتى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "چوڭلۇقى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "تۈرى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "چېسلا"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr "كېمەيگۈچى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "قىسقۇچ ئالدىدا"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr "سىنبەلگە چوڭلۇقى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr "كىچىك"
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "بەك كىچىك"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "كىچىك"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr "كىچىك-ئوتتۇراھال"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr "ئوتتۇراھال"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "چوڭ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr "ئىنتايىن چوڭ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr "تەرتىپلە"
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr "رەتتە"
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr "قۇردا"
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr "توغرىلىنىش تەرتىپى"
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "سولدىن ئوڭغا"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "ئوڭدىن سولغا"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, kde-format
+msgid "Show Previews"
+msgstr "ئالدىن كۆزىتىشىنى كۆرسەت"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr "قۇلۇپلانغان"
+
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inlistbox arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "ئۈستىدىن ئاستىغا، سولدىن ئوڭغا"
+
+#~| msgid "Align"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align left"
+#~ msgstr "توغرىلا"
+
+#~| msgid "Align"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align right"
+#~ msgstr "توغرىلا"
+
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Left to Right"
+#~ msgstr "ئۈستىدىن ئاستىغا، سولدىن ئوڭغا"
+
+#~| msgid "Top to Bottom, Right to Left"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Right to Left"
+#~ msgstr "ئۈستىدىن ئاستىغا، ئوڭدىن سولغا"
+
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "ئۈستىدىن ئاستىغا، سولدىن ئوڭغا"
+
+#~ msgid "Align"
+#~ msgstr "توغرىلا"
+
+#~| msgctxt "Align icons"
+#~| msgid "Left"
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Left"
+#~ msgstr "سول"
+
+#~| msgctxt "Align icons"
+#~| msgid "Right"
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Right"
+#~ msgstr "ئوڭ"
+
+#~| msgid "&Restore"
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "ئەسلىگە كەلتۈر(&R)"
+
+#~| msgctxt "On a camera"
+#~| msgid "Aperture:"
+#~ msgid "Features:"
+#~ msgstr "نۇر گەردىشى"
+
+#~| msgid "Search file type"
+#~ msgid "Search…"
+#~ msgstr "ھۆججەت تىپىنى ئىزدە"
+
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "قىسقۇچ قۇر(&F)…"
+
+#~| msgid "Show the Desktop folder"
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچنى كۆرسەت"
+
+#~ msgid "Size:"
+#~ msgstr "چوڭلۇقى:"
+
+#~| msgid "Desktop Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~| msgid "Arrangement"
+#~ msgid "Arrange in"
+#~ msgstr "تەرتىپلە"
+
+#~| msgctxt ""
+#~| "Title of the page that lets the user choose which location should the "
+#~| "folderview show"
+#~| msgid "Location"
+#~ msgid "Location:"
+#~ msgstr "ئورنى"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچنى كۆرسەت"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "قىسقۇچ بەلگىلەڭ:"
+
+#~ msgid "&Reload"
+#~ msgstr "قايتا يۈكلە(&R)"
+
+#~ msgid "&Delete"
+#~ msgstr "ئۆچۈر(&D)"
+
+#~ msgid "Align:"
+#~ msgstr "توغرىلاش:"
+
+#~ msgid "Sorting"
+#~ msgstr "تەرتىپلەش"
+
+#~ msgid "Title"
+#~ msgstr "ماۋزۇ"
+
+#~ msgid "Show Original Directory"
+#~ msgstr "ئەسلى مۇندەرىجىنى كۆرسەت"
+
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "ھەممە ھۆججەتنى كۆرسەت"
+
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "ئەخلەتخانىنى تازىلا(&E)"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "بۇ بەتنى  خەتكۈچلە(&B)"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "بۇ ئورۇننى  خەتكۈچلە(&B)"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "بۇ قىسقۇچنى خەتكۈچلە(&B)"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "بۇ ئۇلانمىدى خەتكۈچلە(&B)"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "بۇ ھۆججەتنى خەتكۈچلە(&B)"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "كۆچۈر"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "يۆتكە"
+
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "كۆز يۈگۈرت…"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "بۇ جايغا كۆچۈر"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "نۆۋەتتىكى ئورۇنغا يۆتكە"
+
+#~ msgid "Share"
+#~ msgstr "ھەمبەھىر"
+
+#~| msgid "Icons"
+#~ msgid "Icon:"
+#~ msgstr "سىنبەلگىلەر"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "قىسقۇچنى ئۆزىگە تاشلىيالمايسىز"
+
+#~| msgid "File name pattern:"
+#~ msgid "File name for dropped contents:"
+#~ msgstr "ھۆججەت ئاتى ئەندىزىسى:"
+
+#~ msgid "&Move Here"
+#~ msgstr "بۇ جايغا يۆتكە(&M)"
+
+#~ msgid "&Copy Here"
+#~ msgstr "بۇ جايغا كۆچۈر(&C)"
+
+#~ msgid "&Link Here"
+#~ msgstr "بۇ يەرگە ئۇلا(&L)"
+
+#~ msgid "C&ancel"
+#~ msgstr "ۋاز كەچ(&A)"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "تام قەغىزى قىلىپ بەلگىلە"
+
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "مۇندەرىجە قۇر"
+
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "باشقا ئات كىرگۈزۈڭ"
+
+#~ msgid ""
+#~ "The name \"%1\" starts with a dot, so the directory will be hidden by "
+#~ "default."
+#~ msgstr ""
+#~ "\"%1\" ئات چېكىت بىلەن باشلانغان بۇ مۇندەرىجە كۆڭۈلدىكى ئەھۋالدا "
+#~ "يوشۇرۇلىدۇ."
+
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "يوشۇرۇن مۇندەرىجە قۇرامدۇ؟"
+
+#~| msgid "Desktop Folder"
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "قىسقۇچ ئاتىنى كىرگۈزۈڭ:"
+
+#~| msgid "Desktop Folder"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "ئۈستەلئۈستى قىسقۇچى"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "بىر ھۆججەت چاپلا"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "%1 تۈر چاپلا"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "چاپلاش تاختىسىدىكى مەزمۇنلارنى چاپلا…"
+
+#~| msgid "&Paste"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "چاپلا(&P)"
+
+#~ msgid ""
+#~ "Restores this file or directory, back to the location where it was "
+#~ "deleted from initially"
+#~ msgstr ""
+#~ "ھۆججەت ياكى مۇندەرىجىنى ئۆچۈرۈشتىن بۇرۇنقى ئورنىغا ئەسلىگە كەلتۈرىدۇ"
+
+#~ msgid ""
+#~ "Opens a new file manager window showing the target of this link, in its "
+#~ "parent directory."
+#~ msgstr ""
+#~ "يېڭى بىر ھۆججەت باشقۇرغۇچ كۆزنەك ئېچىپ بۇ ئۇلانما كۆرسەتكەن نىشاننىڭ ئاتا "
+#~ "مۇندەرىجىسىنى كۆرسىتىدۇ."
+
+#~ msgid "Behavior"
+#~ msgstr "ھەرىكەت"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Icons"
+#~ msgstr "سىنبەلگىلەر"
+
+#~ msgid "Align to Grid"
+#~ msgstr "سېتكا توغرىلا"
+
+#~ msgctxt "Icons on the desktop"
+#~ msgid "Lock in Place"
+#~ msgstr "ئورنىدا قۇلۇپلا"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 folder"
+#~ msgid_plural "%1 folders"
+#~ msgstr[0] "%1 قىسقۇچ"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 file"
+#~ msgid_plural "%1 files"
+#~ msgstr[0] "%1 ھۆججەت"
+
+#~ msgctxt "%1 and %2 are the messages translated above."
+#~ msgid "%1, %2."
+#~ msgstr "%1، %2."
+
+#~ msgid "1 file."
+#~ msgid_plural "%1 files."
+#~ msgstr[0] "%1 ھۆججەت."
+
+#~ msgid "Sort By:"
+#~ msgstr "تەرتىپلەش ئۇسۇلى:"
+
+#~ msgid ""
+#~ "Use this control to choose the criteria by which the icons will be sorted "
+#~ "in the view."
+#~ msgstr ""
+#~ "بۇ ئىقتىدارنى ئىشلىتىپ ئېكراندىكى سىنبەلگىلەرنىڭ تەرتىپلەش ئۇسۇلىنى "
+#~ "تىزگىنلىگىلى بولىدۇ."
+
+#~ msgid ""
+#~ "Check this option if you do not want the icons to be moveable in the "
+#~ "view.\n"
+#~ "\n"
+#~ "This option is useful if you want to avoid accidentally moving the icons "
+#~ "while interacting with them."
+#~ msgstr ""
+#~ "ئەگەر ئېكراندىكى سىنبەلگىنىڭ يۆتكىگىلى بولماسلىقىنى خالىسىڭىز بۇ "
+#~ "تاللانمىنى تاللاڭ.\n"
+#~ "\n"
+#~ "ئەگەر سىز ئېھتىياتسىزلىقتىن سىنبەلگىنىڭ يۆتكىلىپ كېتىشىنى خالىمىسىڭىز بۇ "
+#~ "تاللانما ناھايىتى كېرەكلىك."
+
+#~ msgid "Align to grid:"
+#~ msgstr "سېتكا توغرىلا:"
+
+#~ msgid ""
+#~ "Check this option if you want the icons to be arranged in a grid.\n"
+#~ "\n"
+#~ "When this option is checked, icons will automatically snap to the nearest "
+#~ "grid cell when you move them around in the view."
+#~ msgstr ""
+#~ "ئەگەر سىنبەلگىنىڭ تور سەتكە بويىچە تەرتىپلىنىشىنى خالىسىڭىز بۇ تاللانمىنى "
+#~ "تاللاڭ.\n"
+#~ "\n"
+#~ "ئەگەر بۇ تاللانما تاللانسا، ھەممە سىنبەلگە يېقىنقى تور سەتكە ئىچىگە "
+#~ "ئۆزلۈكىدىن توغرىلىنىدۇ."
+
+#~ msgid ""
+#~ "Use this slider to increase or decrease the size of the icons in the view."
+#~ msgstr ""
+#~ "بۇ سۈرگۈچنى ئىشلىتىپ ئېكران دائىرىسىدىكى سىنبەلگە چوڭلۇقىنى كېڭەيتىپ ياكى "
+#~ "تارايتالايدۇ."
+
+#~ msgid ""
+#~ "Check this option if you want to see previews of the file contents in the "
+#~ "icons."
+#~ msgstr ""
+#~ "ئەگەر سىز سىنبەلگىدە ھۆججەت مەزمۇنىنى كۆرمەكچى بولسىڭىز بۇ تاللانمىنى "
+#~ "تاللاڭ."
+
+#~ msgid ""
+#~ "Click this button to choose for which types of files previews will be "
+#~ "shown."
+#~ msgstr ""
+#~ "بۇ توپچا چېكىلسە قايسى تىپتىكى ھۆججەتلەرنى ئالدىن كۆزىتىدىغانلىقىنى "
+#~ "تاللىغىلى بولىدۇ."
+
+#~ msgid "Lines:"
+#~ msgstr "قۇر سانى:"
+
+#~ msgid ""
+#~ "Use this control to choose how many lines of text will be shown below the "
+#~ "icons."
+#~ msgstr ""
+#~ "بۇ ئىقتىدارنى ئىشلىتىپ سىنبەلگىدە قانچە قۇر تېكىست كۆرسەتكىلى "
+#~ "بولىدىغانلىقى تىزگىنلىنىدۇ."
+
+#~ msgid "1 line"
+#~ msgstr "%1 قۇر"
+
+#~ msgid "Color:"
+#~ msgstr "رەڭ:"
+
+#~ msgid ""
+#~ "Click this button to choose the color which is used for the text labels "
+#~ "in the view."
+#~ msgstr ""
+#~ "بۇ توپچا چېكىلسە ئېكراندىكى تېكىست بەلگىسىگە قانداق رەڭدە "
+#~ "كۆرسىتىلىدىغانلىقىنى تاللىغىلى بولىدۇ."
+
+#~ msgid "Shadows:"
+#~ msgstr "سايە:"
+
+#~ msgid ""
+#~ "<html><body><p>Check this option if you want the text labels to cast a "
+#~ "shadow on the background.</p>\n"
+#~ "<p></p>\n"
+#~ "<p>Shadows help make the text easier to read by making it stand out more "
+#~ "from the background.</p>\n"
+#~ "<p></p>\n"
+#~ "<p><i>Note that with dark text colors, this option will cause the text to "
+#~ "glow with a bright halo, instead of casting a shadow.</i></p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html dir=\"rtl\"><body><p>ئەگەر تېكىست بەلگىسى سايە ئۈنۈمىگە ئىگە "
+#~ "بولۇشنى خالىسىڭىز، بۇ تاللانمىنى تاللاڭ.</p>\n"
+#~ "<p></p>\n"
+#~ "<p>سايە تېكىستنىڭ تەگلىكتە تېخىمۇ ئېنىق كۆرسىتىپ ئوقۇشچانلىققا ياردەم "
+#~ "بېرىدۇ.</p>\n"
+#~ "<p></p>\n"
+#~ "<p><i>دىققەت، ئەگەر تېكىستنىڭ ئۆزى نىسبەتەن تۇتۇق بولسا، بۇ تاللانما "
+#~ "تېكىستتە نۇر گەردىشى ئۈنۈمىنى ھاسىل قىلىپ تېخىمۇ تۇتۇقلىشىدۇ.</i></p></"
+#~ "body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
+#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
+#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
+#~ "no files will be shown.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html dir=rtl><head><meta name=\"qrichtext\" content=\"1\" /><style type="
+#~ "\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'UKIJ Tuz Tom, Sans Serif'; "
+#~ "font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">ئەگەر «ماس كەلگەن "
+#~ "ھۆججەتنى كۆرسەت» ياكى «ماس كەلگەن ھۆججەتنى يوشۇر»نى تاللىسىڭىز ئۇنداقتا "
+#~ "پەقەت بۇ شەرتلەرنىڭ ھەممىسىنى قاندۇرغان ھۆججەتلا يوشۇرۇلىدۇ ياكى "
+#~ "كۆرسىتىلىدۇ.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">مەسىلەن، ئەگەر سىز "
+#~ "ماسلىشىش ھالىتىنى \"*\" قىلىپ تەڭشىسىڭىز ئەمما MIME تىپىنى تاللىمىسىڭىز "
+#~ "ئۇ ھالدا ھېچقانداق ھۆججەتنى كۆرسەتمەيدۇ.</p></body></html>"
+
+#~ msgid ""
+#~ "Note that if you have selected \"Show Files Matching\" or \"Hide Files "
+#~ "Matching\",\n"
+#~ "only the files matching BOTH the conditions will be shown or hidden "
+#~ "respectively.\n"
+#~ "For example, if you have \"*\" as your pattern, but have nothing selected "
+#~ "in the MIME types, no files will be shown."
+#~ msgstr ""
+#~ "دىققەت، ئەگەر «ماس كەلگەن ھۆججەتنى كۆرسەت» ياكى «ماس كەلگەن ھۆججەتنى "
+#~ "يوشۇر»نى تاللىسىڭىز ئۇنداقتا پەقەت بۇ شەرتلەرنىڭ ھەممىسىنى قاندۇرغان "
+#~ "ھۆججەتلا يوشۇرۇلىدۇ ياكى كۆرسىتىلىدۇ. مەسىلەن، ئەگەر سىز ماسلىشىش "
+#~ "ھالىتىنى \"*\" قىلىپ تەڭشىسىڭىز ئەمما MIME تىپىنى تاللىمىسىڭىز ئۇ ھالدا "
+#~ "ھېچقانداق ھۆججەتنى كۆرسەتمەيدۇ."
+
+#~ msgid "<a href=\"null\">Cannot See Any Files?</a>"
+#~ msgstr "<a href=\"null\">ھېچقانداق ھۆججەتنى كۆرمىدىڭىزمۇ؟</a>"
+
+#~ msgid "Space-separated list of extensions, e.g. *.txt *.od*"
+#~ msgstr ""
+#~ "بوش ئورۇن بىلەن ئايرىلغان كېڭەيتىلگەن ئات تىزىمى، مەسىلەن، *.txt *.od*"
+
+#~ msgid ""
+#~ "Space-separated list of extensions, e.g. *.txt *.od* to display only "
+#~ "office- and text-files"
+#~ msgstr ""
+#~ "بوش ئورۇن بىلەن ئايرىلغان كېڭەيتىلگەن ئات تىزىمى، مەسىلەن، *.txt *.od* "
+#~ "تېكىست ھۆججەت ۋە ئىشخانا پۈتۈكلىرىنىلا كۆرسىتىدۇ"
+
+#~ msgid "Pattern filter"
+#~ msgstr "ئەندىزە سۈزگۈچ"
+
+#~ msgid "Check the file types you want icon previews for:"
+#~ msgstr "سىنبەلگىدە مەزمۇنىنى ئالدىن كۆزەتمەكچى بولغان ھۆججەت تىپىنى تاللاڭ:"
+
+#~ msgctxt "Music"
+#~ msgid "Artist:"
+#~ msgstr "ئورۇنلىغۇچى:"
+
+#~ msgctxt "Music"
+#~ msgid "Album:"
+#~ msgstr "ئالبوم:"
+
+#~ msgid "%1 MPixels"
+#~ msgstr "%1 مېگاپىكسېل"
+
+#~ msgid "Camera:"
+#~ msgstr "كامېرا:"
+
+#~ msgctxt "Length in millimeters"
+#~ msgid "%1 mm"
+#~ msgstr "%1 م م"
+
+#~ msgctxt "In photography"
+#~ msgid "35 mm equivalent: %1 mm"
+#~ msgstr "35mm غا تەڭداش: %1mm"
+
+#~ msgctxt "On a camera"
+#~ msgid "Focal Length:"
+#~ msgstr "فوكۇس ئارىلىقى:"
+
+#~ msgctxt "On a camera"
+#~ msgid "Exposure Time:"
+#~ msgstr "نۇر ئۆتۈش ۋاقتى:"
+
+#~ msgctxt "Fraction of a second, or number of seconds"
+#~ msgid "%1 s"
+#~ msgstr "%1 s"
+
+#~ msgctxt "On a camera"
+#~ msgid "ISO Speed:"
+#~ msgstr "ISO سۈرئەت:"
+
+#~ msgid "Time:"
+#~ msgstr "ۋاقتى:"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 page"
+#~ msgid_plural "%1 pages"
+#~ msgstr[0] "%1 بەت"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 word"
+#~ msgid_plural "%1 words"
+#~ msgstr[0] "%1 سۆز"
+
+#~ msgctxt "Items in a folder"
+#~ msgid "1 item"
+#~ msgid_plural "%1 items"
+#~ msgstr[0] "%1 تۈر"
+
+#~ msgid "Left to Right, Top to Bottom"
+#~ msgstr "سولدىن ئوڭغا، ئۈستىدىن ئاستىغا"
+
+#~ msgid "Right to Left, Top to Bottom"
+#~ msgstr "ئوڭدىن سولغا، ئۈستىدىن ئاستىغا"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Display"
+#~ msgstr "كۆرسەت"
+
+#~ msgctxt "Sort icons"
+#~ msgid "By Size"
+#~ msgstr "چوڭلۇقى بويىچە"
+
+#~ msgid ""
+#~ "Use this control to choose if you want the icons to be arranged top to "
+#~ "bottom starting on the left side of the view, or arranged left to right "
+#~ "starting at the top of the view."
+#~ msgstr ""
+#~ "بۇ ئىقتىدارنى ئىشلىتىپ سىنبەلگە تەرتىپلەش ئۇسۇلىنى تىزگىنلىگىلى بولىدۇ. "
+#~ "ئېكراننىڭ سول تەرىپىدە ئۈستىدىن ئاستىغا ياكى ئېكراننىڭ ئۈستىدە سولدىن "
+#~ "ئوڭغا تەرتىپلەيدۇ."
+
+#~ msgid "Header"
+#~ msgstr "بەت قېشى"

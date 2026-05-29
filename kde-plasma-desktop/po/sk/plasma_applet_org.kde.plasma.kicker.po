@@ -1,0 +1,559 @@
+# translation of plasma_applet_org.kde.plasma.kicker.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
+# Mthw <jari_45@hotmail.com>, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2019, 2020, 2021.
+# Dusan Kazik <prescott66@gmail.com>, 2020.
+# Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-04-10 12:00+0200\n"
+"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
+"Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Odstrániť z obľúbených"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Pridať do obľúbených"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Na všetkých aktivitách"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Na aktuálnej aktivite"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Zobraziť v obľúbených"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Všeobecné"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Vybrať..."
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Obnoviť predvolenú ikonu"
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Zobraziť aplikáciu ako:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Iba názov"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Len popis"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Názov (popis)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Popis (názov)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Správanie:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Zoradiť podľa abecedy"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Sploštiť ponuku na jednoduchú úroveň"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Zobraziť ikony na koreňovej úrovni ponuky"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Zvýrazniť novo nainštalované aplikácie"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Zobraziť kategórie:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Nedávne aplikácie"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Často používané aplikácie"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Nedávne súbory"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Často používané súbory"
+
+#: ConfigGeneral.qml:227
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Nedávne miesta"
+
+#: ConfigGeneral.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Často používané miesta"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Zoradiť položky v kategóriách podľa:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Nedávno použité"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Často používané"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Hľadať:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Rozbaliť hľadanie na záložky, súbory a e-maily"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Zarovnať výsledky hľadania na spodok"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Vzhľad:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Preferovať tmavý režim keď je dostupný"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Táto funkcia používa doplnkové farby z vašej farebnej schémy, ktoré majú "
+"zvyčajne tmavé pozadie."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Obľúbené"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nové!"
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr "V tejto kategórii je novo nainštalovaná aplikácia"
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nové!"
+
+#: ItemGridDelegate.qml:83
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Novo nainštalovaná aplikácia"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Otvoriť kategóriu"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Spustiť"
+
+#: ItemListDelegate.qml:99
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Novo nainštalovaná aplikácia"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Upraviť aplikácie..."
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Obľúbené"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Žiadne zhody"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Vymazať ikonu"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Vyhľadáva sa \"%1\""
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Písať na hľadanie...."
+
+#~ msgid "Widgets"
+#~ msgstr "Miniaplikácie"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Aplikácie a dokumenty"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Nedávne kontakty"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Často používané kontakty"
+
+#~ msgid "Search…"
+#~ msgstr "Hľadať..."
+
+#~ msgid "Search..."
+#~ msgstr "Hľadať..."
+
+#~ msgid "Often used documents"
+#~ msgstr "Často používané dokumenty"
+
+#~ msgid "Open with:"
+#~ msgstr "Otvoriť pomocou:"
+
+#~ msgid "Properties"
+#~ msgstr "Vlastnosti"
+
+#~ msgid "Add to Desktop"
+#~ msgstr "Pridať na pracovnú plochu"
+
+#~ msgid "Add to Panel (Widget)"
+#~ msgstr "Pridať do panelu (widget)"
+
+#~ msgid "Pin to Task Manager"
+#~ msgstr "Pripnúť k správcovi úloh"
+
+#~ msgid "Recent Documents"
+#~ msgstr "Nedávne dokumenty"
+
+#~ msgid "Forget Recent Documents"
+#~ msgstr "Zabudnúť nedávne dokumenty"
+
+#~ msgid "Edit Application..."
+#~ msgstr "Upraviť aplikáciu..."
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Uninstall or Manage Add-Ons..."
+#~ msgstr "Odinštalovať alebo Spravovať doplnky..."
+
+#~ msgid "Hide Application"
+#~ msgstr "Skryť aplikáciu"
+
+#~ msgctxt "App name (Generic name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "Generic name (App name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Applications"
+#~ msgstr "Aplikácie"
+
+#~ msgid "Unhide Applications in this Submenu"
+#~ msgstr "Odkryť aplikácie v tejto podponuke"
+
+#~ msgid "Unhide Applications in '%1'"
+#~ msgstr "Odkryť aplikácie v '%1'"
+
+#~ msgid "Show KRunner"
+#~ msgstr "Zobraziť Krunner"
+
+#~ msgid "Search, calculate, or run a command"
+#~ msgstr "Hľadať, počítať alebo spustiť príkaz"
+
+#~ msgid "Computer"
+#~ msgstr "Počítač"
+
+#~ msgid "Show Contact Information..."
+#~ msgstr "Zobraziť informácie o kontakte..."
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakty"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Zabudnúť kontakt"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Zabudnúť všetky kontakty"
+
+#~ msgid "Recently Used"
+#~ msgstr "Nedávno použité"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumenty"
+
+#~ msgid "Forget Application"
+#~ msgstr "Zabudnúť aplikáciu"
+
+#~ msgid "Forget Document"
+#~ msgstr "Zabudnúť dokument"
+
+#~ msgid "Forget All"
+#~ msgstr "Zabudnúť všetko"
+
+#~ msgid "Forget All Applications"
+#~ msgstr "Zabudnúť všetky aplikácie"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Zabudnúť všetky dokumenty"
+
+#~ msgid "Hide %1"
+#~ msgstr "Skryť %1"
+
+#~ msgid "All Applications"
+#~ msgstr "Všetky aplikácie"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Nedávne kontakty"
+
+#~ msgid "Often Used Documents"
+#~ msgstr "Často použité dokumenty"
+
+#~ msgid "Recent Applications"
+#~ msgstr "Nedávne aplikácie"
+
+#~ msgid "Often Used Applications"
+#~ msgstr "Často použité aplikácie"
+
+#~ msgid "Power / Session"
+#~ msgstr "Napájanie / Sedenie"
+
+#~ msgid "Search results"
+#~ msgstr "Výsledok hľadania"
+
+#~ msgid "Lock"
+#~ msgstr "Zamknúť"
+
+#~ msgid "Log Out"
+#~ msgstr "Odhlásiť sa"
+
+#~ msgid "Save Session"
+#~ msgstr "Uložiť sedenie"
+
+#~ msgid "Switch User"
+#~ msgstr "Prepnúť užívateľa"
+
+#~ msgctxt "Suspend to RAM"
+#~ msgid "Sleep"
+#~ msgstr "Uspať"
+
+#~ msgid "Hibernate"
+#~ msgstr "Hibernovať"
+
+#~ msgid "Restart"
+#~ msgstr "Reštart"
+
+#~ msgid "Shut Down"
+#~ msgstr "Vypnúť"
+
+#~ msgid "Session"
+#~ msgstr "Sedenie"
+
+#~ msgid "System"
+#~ msgstr "Systém"
+
+#~ msgid "Lock screen"
+#~ msgstr "Zamknúť obrazovku"
+
+#~ msgid "End session"
+#~ msgstr "Ukončiť sedenie"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Spustiť súbežné sedenie ako iný užívateľ"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Uspať do RAM"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Uspať na disk"
+
+#~ msgid "Restart computer"
+#~ msgstr "Reštartovať počítač"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Vypnúť počítač"
+
+#~ msgid "System actions"
+#~ msgstr "Systémové akcie"
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Spravovať '%1'..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Spustiť príkaz..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Spustiť príkaz alebo vyhľadávací dotaz"
+
+#~ msgid "Show:"
+#~ msgstr "Zobraziť:"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Zobraziť nedávne aplikácie"
+
+#~ msgid "Show often used applications"
+#~ msgstr "Zobraziť často použité aplikácie"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Ukázať nedávne dokumenty"
+
+#~ msgid "Show often used documents"
+#~ msgstr "Zobraziť často použité dokumenty"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Zobraziť nedávne kontakty"
+
+#~ msgid "Logout"
+#~ msgstr "Odhlásenie"
+
+#~ msgid "Reboot"
+#~ msgstr "Reštartovať"
+
+#~ msgid "Suspend"
+#~ msgstr "Uspať"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Vymeniteľné úložisko"
+
+#~ msgid "Places"
+#~ msgstr "Miesta"
+
+#~ msgid "Use custom image:"
+#~ msgstr "Použiť vlastný obrázok:"
+
+#~ msgid "Choose an image"
+#~ msgstr "Vybrať obrázok"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+#~ msgstr "Súbory obrázkov (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+
+#~ msgid "Add as Launcher"
+#~ msgstr "Pridať ako spúšťač"
+
+#~ msgid "New Session"
+#~ msgstr "Nové sedenie"
+
+#~ msgid "(Empty)"
+#~ msgstr "(Prázdne)"

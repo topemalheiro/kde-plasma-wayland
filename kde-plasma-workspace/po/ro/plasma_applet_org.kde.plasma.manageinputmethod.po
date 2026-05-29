@@ -1,0 +1,58 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2022, 2023, 2026 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:46+0000\n"
+"PO-Revision-Date: 2026-05-16 20:53+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: qml/main.qml:70
+#, kde-format
+msgctxt "Opens the system settings module"
+msgid "Configure Virtual Keyboards..."
+msgstr "Configurează tastaturi virtuale…"
+
+#: qml/main.qml:87
+#, kde-format
+msgid "Virtual Keyboard: unavailable"
+msgstr "Tastatură virtuală: indisponibilă"
+
+#: qml/main.qml:96
+#, kde-format
+msgid "Virtual Keyboard: disabled"
+msgstr "Tastatură virtuală: inactivă"
+
+#: qml/main.qml:108
+#, kde-format
+msgid "Show Virtual Keyboard"
+msgstr "Arată tastatură virtuală"
+
+#: qml/main.qml:119
+#, kde-format
+msgid "Virtual Keyboard: visible"
+msgstr "Tastatură virtuală: vizibilă"
+
+#: qml/main.qml:128
+#, kde-format
+msgid "Virtual Keyboard: Show on non-mouse input"
+msgstr "Tastatură virtuală: Arată la introducere, cu excepția șoricelului"
+
+#: qml/main.qml:137
+#, kde-format
+msgid "Virtual Keyboard: Show with all input devices"
+msgstr "Tastatură virtuală: Arată cu toate dispozitivele de introducere"
+
+#~ msgid "Virtual Keyboard: enabled"
+#~ msgstr "Tastatură virtuală: activă"

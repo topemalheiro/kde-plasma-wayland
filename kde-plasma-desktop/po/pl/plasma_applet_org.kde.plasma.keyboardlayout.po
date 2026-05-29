@@ -1,0 +1,55 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2021, 2022, 2026 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-13 08:43+0000\n"
+"PO-Revision-Date: 2026-01-24 10:17+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: qml/config.qml:6
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Ogólne"
+
+#: qml/configGeneral.qml:31
+#, kde-format
+msgctxt "@title:group of radio buttons, options are language codes or images"
+msgid "Display style:"
+msgstr "Sposób wyświetlania:"
+
+#: qml/configGeneral.qml:65
+#, kde-format
+msgctxt "@info:placeholder Make this translation as short as possible"
+msgid "No flag available"
+msgstr "Nie jest dostępna żadna flaga"
+
+#: qml/configGeneral.qml:102
+#, kde-format
+msgctxt "@label prefixed to button, as in 'keyboard layouts'"
+msgid "Layouts:"
+msgstr "Układy:"
+
+#: qml/configGeneral.qml:103
+#, kde-format
+msgctxt "@action:button opens kcm_keyboard"
+msgid "Configure…"
+msgstr "Ustawienia…"
+
+#~ msgid "Show label"
+#~ msgstr "Pokaż etykietę"
+
+#~ msgid "Show flag"
+#~ msgstr "Pokaż flagę"

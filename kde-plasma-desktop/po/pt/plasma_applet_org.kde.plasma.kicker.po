@@ -1,0 +1,333 @@
+# SPDX-FileCopyrightText: 2026 César A. P. Cláudio <cesarapclaudio@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-02-09 21:42+0000\n"
+"Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: mails svgz jpg KRunner\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-IgnoreConsistency: Lock\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Remover dos Favoritos"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Adicionar aos Favoritos"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Em todas as Atividades"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Na Atividade atual"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Mostrar nos Favoritos"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Geral"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ícone:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Escolher…"
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr ""
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Mostrar aplicações como:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Apenas nome"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Apenas descrição"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Nome (Descrição)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Descrição (Nome)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Comportamento:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Ordenar aplicações alfabeticamente"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Mostrar submenus todos no mesmo nível"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Mostrar ícones no nível raiz do menu"
+
+#: ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Aplicações utilizadas com frequência"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Mostrar categorias:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Aplicações recentes"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Aplicações utilizadas com frequência"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Ficheiros recentes"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Ficheiros utilizados com frequência"
+
+#: ConfigGeneral.qml:227
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Recent files"
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Ficheiros recentes"
+
+#: ConfigGeneral.qml:228
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used files"
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Ficheiros utilizados com frequência"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Ordenar itens nas categorias por:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Utilizados recentemente"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Utilizados frequentemente"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Pesquisar:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr ""
+"Expandir pesquisa a marcadores, ficheiros e mensagens de correio eletrónico"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Alinhar resultados da pesquisa na parte inferior"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Aparência:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Preferir Modo Escuro quando disponível"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Esta funcionalidade utiliza as cores complementares do seu esquema de cores, "
+"que normalmente inclui um fundo escuro."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr ""
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: ItemGridDelegate.qml:83
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Aplicações utilizadas com frequência"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Abrir categoria"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Iniciar"
+
+#: ItemListDelegate.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Aplicações utilizadas com frequência"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Editar aplicações…"
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Sem correspondências"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Limpar ícone"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "A procurar por '%1'"
+
+#, fuzzy
+#~| msgid "Type to search…"
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Escreva para procurar…"
+
+#~ msgid "Widgets"
+#~ msgstr "Elementos"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Aplicações & Documentos"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Contactos recentes"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Contactos frequentes"
+
+#~ msgid "Search…"
+#~ msgstr "Procurar…"

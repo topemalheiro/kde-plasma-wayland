@@ -1,0 +1,321 @@
+# Spanish translations for libkicker.po package.
+# Copyright (C) 2014-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2014.
+#
+# SPDX-FileCopyrightText: 2014-2017, 2019-2022, 2024-2026 Eloy Cuadra <ecuadra@eloihr.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: libkicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2026-04-23 11:14+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Abrir con:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Propiedades"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Añadir al escritorio"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Fijar en el gestor de tareas"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Añadir al panel (elemento gráfico)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "Archivos recientes"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Olvidar archivos recientes"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "Editar aplicación…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Desinstalar y gestionar complementos…"
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "Ocultar aplicación"
+
+#: appentry.cpp:462
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Mostrar aplicaciones ocultas en este submenú"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Mostrar aplicaciones ocultas en «%1»"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "Mostrar KRunner"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Buscar, calcular y ejecutar órdenes"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "Equipo"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "Usado recientemente"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr "Lugares"
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "Archivos"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "Olvidar aplicación"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr "Carpetas"
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Abrir la carpeta contenedora"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget Folder"
+msgstr "Olvidar carpeta"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "Olvidar archivo"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "Olvidar todo"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Olvidar todas las aplicaciones"
+
+#: recentusagemodel.cpp:530
+#, kde-format
+msgid "Forget All Folders"
+msgstr "Olvidar todas las carpetas"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "Olvidar todos los archivos"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Todas las aplicaciones"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "Ocultar %1"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "¡Esto no tendría que ser visible!! Use KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:578
+#, kde-format
+msgid "Recent Places"
+msgstr "Lugares recientes"
+
+#: rootmodel.cpp:578
+#, kde-format
+msgid "Often Used Places"
+msgstr "Lugares usados con frecuencia"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "Archivos usados con frecuencia"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "Aplicaciones recientes"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Aplicaciones usadas con frecuencia"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "Inicio y apagado"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "Resultado de la búsqueda"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "Bloquear la sesión"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "Cerrar sesión"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "Guardar la sesión"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "Cambiar de usuario"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Reposo"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "Apagar"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "Sesión"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "Sistema"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "Bloquear la pantalla"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "Terminar la sesión"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Iniciar una sesión paralela como otro usuario"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspender en memoria"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Suspender en disco"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "Reiniciar el equipo"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "Apagar el equipo"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Acciones del sistema"

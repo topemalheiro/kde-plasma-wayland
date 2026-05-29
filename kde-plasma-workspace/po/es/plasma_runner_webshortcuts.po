@@ -1,0 +1,46 @@
+# Spanish translations for plasma_runner_webshortcuts.po package.
+# Copyright (C) 2008-2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2008 Jaime Robles <jaime@kde.org>
+# SPDX-FileCopyrightText: 2009, 2017, 2020, 2021, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2010 Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_webshortcuts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-18 00:47+0000\n"
+"PO-Revision-Date: 2025-06-04 19:42+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.12.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: webshortcutrunner.cpp:43 webshortcutrunner.cpp:135 webshortcutrunner.cpp:152
+#, kde-format
+msgid "Search %1 for %2"
+msgstr "Buscar %2 en %1"
+
+#: webshortcutrunner.cpp:67
+#, kde-format
+msgid "Opens \"%1\" in a web browser with the query :q:."
+msgstr "Abre «%1» en un navegador web con la consulta :q:."
+
+#: webshortcutrunner.cpp:72
+#, kde-format
+msgid "Search using the DuckDuckGo bang syntax"
+msgstr "Buscar usando la sintaxis del «bang» de DuckDuckGo"
+
+#: webshortcutrunner.cpp:100
+#, kde-format
+msgid "Search in private window"
+msgstr "Buscar en ventana privada"
+
+#: webshortcutrunner.cpp:100
+#, kde-format
+msgid "Search in incognito window"
+msgstr "Buscar en ventana de incógnito"

@@ -1,0 +1,86 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2011, 2018, 2020, 2021, 2023, 2024 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2024-10-25 23:53-0500\n"
+"Last-Translator: A S Alam <aman@punlinux.org>\n"
+"Language-Team: pa\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 24.08.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: qml/config.qml:13
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title page"
+msgid "Appearance"
+msgstr "ਦਿੱਖ"
+
+#: qml/ConfigAppearance.qml:23
+#, fuzzy, kde-format
+#| msgid "Icon:"
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Icon:"
+msgstr "ਆਈਕਾਨ:"
+
+#: qml/ConfigAppearance.qml:25
+#, fuzzy, kde-format
+#| msgid "Show the current activity icon"
+msgctxt "@option:radio"
+msgid "Show the current activity icon"
+msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਦਾ ਆਈਕਾਨ ਵੇਖਾਓ"
+
+#: qml/ConfigAppearance.qml:31
+#, fuzzy, kde-format
+#| msgid "Show the generic activity icon"
+msgctxt "@option:radio"
+msgid "Show the generic activity icon"
+msgstr "ਸਧਾਰਨ ਸਰਗਰਮੀ ਆਈਕਾਨ ਦਿਖਾਓ"
+
+#: qml/ConfigAppearance.qml:41
+#, fuzzy, kde-format
+#| msgid "Title:"
+msgctxt "@label prefix for checkbox"
+msgid "Title:"
+msgstr "ਟਾਈਟਲ:"
+
+#: qml/ConfigAppearance.qml:43
+#, fuzzy, kde-format
+#| msgid "Show the current activity name"
+msgctxt "@option:check title"
+msgid "Show the current activity name"
+msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਦਾ ਨਾਂ ਵੇਖਾਓ"
+
+#: qml/main.qml:66
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Current activity is %1"
+msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ %1 ਹੈ"
+
+#: qml/main.qml:76
+#, fuzzy, kde-format
+#| msgid "Show Activity Manager"
+msgctxt "@info:tooltip"
+msgid "Show Activity Manager"
+msgstr "ਸਰਗਰਮੀ ਮੈਨੇਜਰ ਵੇਖੋ"
+
+#: qml/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Click to show the activity manager"
+msgctxt "@info:tooltip subtext"
+msgid "Click to show the activity manager"
+msgstr "ਸਰਗਰਮੀ ਮੈਨੇਜਰ ਵੇਖਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+
+#: qml/main.qml:119
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "…ਸਰਗਰਮੀਆਂ ਦੀ ਸੰਰਚਨਾ(&C)"

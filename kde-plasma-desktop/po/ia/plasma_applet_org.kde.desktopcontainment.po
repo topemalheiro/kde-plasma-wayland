@@ -1,0 +1,1356 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2010, 2011, 2012, 2013, 2014, 2020, 2021, 2022, 2023, 2024, 2025, 2026 g.sora <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2026-04-30 16:58+0200\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#: package/contents/config/config.qml:17
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "Location"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "Icones"
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "Filtro"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr "Vade retro"
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, kde-format
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "Files:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "Monstra omne"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "Monstra coincidente"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, kde-format
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "Cela coincidente"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "Patrono de nomine de file:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, kde-format
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "Typos de file:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, kde-format
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "Monstra files celate:"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, kde-format
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "Typo de File"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Description"
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, kde-format
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "Selectiona Omne"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, kde-format
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "De-selectiona Omne"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr "Commuta Ordine de ordinar"
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr "Button de pannello:"
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "Usa icone personalisate"
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Selige..."
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Netta icones"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, kde-format
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "Collocation:"
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr "In Columnas"
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr "In Rangos"
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, kde-format
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "Ordina Alineamento:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "Sinistra a dextera"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, kde-format
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "Dextera a Sinistra"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, kde-format
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "Bloca in posto"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, kde-format
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "Ordina per:"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr "Manual"
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, kde-format
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "Nomine"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, kde-format
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "Dimension"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, kde-format
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "Typo"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, kde-format
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "Data"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr "Descendente"
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, kde-format
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "Prime le dossieres"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr "Modo de vista:"
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr "Lista"
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr "Grillia"
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, kde-format
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "Dimension de Icone:"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, kde-format
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "Parve"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, kde-format
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "Grande (Large)"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "Largessa de Etiquetta:"
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr "Stricte"
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr "Medie"
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr "Large"
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr "Rangos de texto:"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr "Quando plana sur icones:"
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr "Monstra consilios"
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "Monstra marcatores de selection"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "Monstra Popups de vista preliminar de dossier"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr "Typante sur le scriptorio:"
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, kde-format
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "Selectiona elementos"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr "Activa KRunner"
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, kde-format
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "Renomina:"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr "Renomina inline (incrporate) per pulsar texto de elemento selectionate"
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, kde-format
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "Vistas preliminar:"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "Monstra Vistas preliminar de miniaturas"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, kde-format
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "Configura Plugins de vista preliminar …"
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, kde-format
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "Monstra:"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, kde-format
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "Dossier de scriptorio"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr "Files relate al activitate currente"
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr "Placia elemento de pannello:"
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, kde-format
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "Location personalisate:"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, kde-format
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "Typa ci un percurso o un URL…"
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, kde-format
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "Titulo:"
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "Necun"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr "Predefinite"
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr "Percurso complete"
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, kde-format
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr "Personalisate"
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, kde-format
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr "Inserta titulo…"
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr "Clicca e trahe per rotar"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr "Cela fundo"
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr "Monstra fundo"
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr "Remove"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "Vistas preliminar de plugins"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+"Il ha multe files e dossieres sur le scriptorio. Isto pote causar faltas e "
+"problemas de execution. Pro favor tu considera mover alcun de lor alibi."
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "Dossier es vacue"
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, kde-format
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "Icones"
+
+#: package/contents/ui/main.qml:448
+#, kde-format
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "Scriptorio e Tapete de papiro"
+
+#: plugins/folder/directorypicker.cpp:32
+#, kde-format
+msgid "Select Folder"
+msgstr "Selige dossier"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Refresca Scriptorio"
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr "&Refresca Vista"
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr "Objectivo de ligamine non trovate"
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+"<filename>%1</filename> puncta a <filename>%2</filename>, ma illo non  "
+"poteva esser trovate. Il poterea esser movite o delite."
+
+#: plugins/folder/foldermodel.cpp:1812
+#, kde-format
+msgid "&Empty Trash"
+msgstr "Vacua corb&e"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr "Restabili a location previe"
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "&Aperi"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, kde-format
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "Monstra Objectivo"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr "Remove icone de Corbe"
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "&Move al Corbe"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "&Colla"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "&Proprietates"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, kde-format
+msgid "Sort By"
+msgstr "Ordina per"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, kde-format
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "Non ordinate"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "Nomine"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, kde-format
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "Dimension"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, kde-format
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "Typo"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, kde-format
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "Data"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr "Descendente"
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, kde-format
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "Prime le dossieres"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Icon Size"
+msgstr "Dimension de Icone"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr "Minuscule"
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "Multe Parve"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "Parve"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr "Parve medie"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr "Medie"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "Grande (Large)"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr "Ponderose (Huge)"
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr "Dispone"
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr "In Columnas"
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr "In Rangos"
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr "Ordina Alineamento"
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "Sinistra a dextera"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "Dextera a Sinistra"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, kde-format
+msgid "Show Previews"
+msgstr "Monstra  vistas preliminar"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr "Blocate"
+
+#~ msgctxt "@item:inlistbox arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "De culmine a basso"
+
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align left"
+#~ msgstr "Alinea a sinistra"
+
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align right"
+#~ msgstr "Alinea a  dextera"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Left to Right"
+#~ msgstr "Sinistra a Dextera"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Right to Left"
+#~ msgstr "Dextera a Sinistra"
+
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "De culmine a basso"
+
+#~ msgid "Align"
+#~ msgstr "Alinea "
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgctxt "@item:inmenu alignment of icons"
+#~ msgid "Right"
+#~ msgstr "Dextera"
+
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "Restabili"
+
+#~ msgid "Rotate"
+#~ msgstr "Rota"
+
+#~ msgid "Open Externally"
+#~ msgstr "Aperi externemente"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancella"
+
+#~ msgid "Features:"
+#~ msgstr "Characteristicas:"
+
+#~ msgid "Search…"
+#~ msgstr "Cerca..."
+
+#~ msgid "&Create Folder"
+#~ msgstr "&Crea dossier"
+
+#, fuzzy
+#~| msgid "Show the Desktop folder"
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "Monstra le Dossier de Scriptorio"
+
+#~ msgid "Size:"
+#~ msgstr "Dimension:"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "Dossier de Scriptorio"
+
+#, fuzzy
+#~| msgid "Arrange in:"
+#~ msgid "Arrange in"
+#~ msgstr "Dispone in:"
+
+#, fuzzy
+#~| msgid "Appearance"
+#~ msgid "Appearance:"
+#~ msgstr "Apparentia"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Location:"
+#~ msgstr "Location"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "Monstra le Dossier de Scriptorio"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "Specifica un dossier:"
+
+#~ msgid "&Reload"
+#~ msgstr "&Recarga"
+
+#~ msgid "&Delete"
+#~ msgstr "De&le"
+
+#~ msgid "Align:"
+#~ msgstr "Alinea :"
+
+#~ msgid "Sorting"
+#~ msgstr "Ordinar"
+
+#~ msgid "Title"
+#~ msgstr "Titulo"
+
+#~ msgid "Show Original Directory"
+#~ msgstr "Monstra directorio original"
+
+#~ msgid "Show Original File"
+#~ msgstr "Monstra file original"
+
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "&Configura le corbe"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "Adjunge iste pagina a le marcatores de li&bro"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "Adjunge iste location a le marcatores de li&bro"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "Adjunge iste dossier a le marcatores de li&bro"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "Adjunge iste ligamine a le marcatores de li&bro"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "Adjunge iste file a le marcatores de li&bro"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "Copia a"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "Move a"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "Dossier domo o principal"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "Dossier Radice"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "Naviga..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "Copia ci"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "Move ci"
+
+#~ msgid "Share"
+#~ msgstr "Comparti"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Icon:"
+#~ msgstr "Icones"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "Tu non pote lassar cader un dossier super illo mesme"
+
+#~ msgid "File name for dropped contents:"
+#~ msgstr "Nomine de file per contentos collabite:"
+
+#~ msgid "&Move Here"
+#~ msgstr "&Move ci"
+
+#~ msgid "&Copy Here"
+#~ msgstr "&Copia ci"
+
+#~ msgid "&Link Here"
+#~ msgstr "Conca&tena ci"
+
+#~ msgid "C&ancel"
+#~ msgstr "C&ancella "
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "Poner como tapete de &Papiro"
+
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "Crea  directorio"
+
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "Inserta un nomine differente"
+
+#~ msgid ""
+#~ "The name \"%1\" starts with a dot, so the directory will be hidden by "
+#~ "default."
+#~ msgstr ""
+#~ "Le nomine \"%1\" initia con un puncto, assi le directorio essera celate "
+#~ "per definition."
+
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "Crea un directorio celate?"
+
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "Nove dossier"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "Nove dossier"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "Inserta nomine de dossier:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "Colla un dossier"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "Colla un file"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "Colla un elemento"
+#~ msgstr[1] "Colla %1 elementos"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "Colla contentos del area de transferentia..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "Colla"
+
+#~ msgid ""
+#~ "Restores this file or directory, back to the location where it was "
+#~ "deleted from initially"
+#~ msgstr ""
+#~ "Il restabili iste file o directorio, de retro a le location ubi illo "
+#~ "esseva ante esser cancellate"
+
+#~ msgid ""
+#~ "Opens a new file manager window showing the target of this link, in its "
+#~ "parent directory."
+#~ msgstr ""
+#~ "Il aperi un nove fenestra de gerente de file monstrante le objectivo de "
+#~ "iste ligamine, in su directorio genitor."
+
+#~ msgctxt "@info"
+#~ msgid "Close"
+#~ msgstr "Claude"
+
+#~ msgid "Close"
+#~ msgstr "Claude"
+
+#~ msgid "Error: %1"
+#~ msgstr "Error: %1"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportamento"
+
+#~ msgid "Click to view folder"
+#~ msgstr "Pulsa per vider dossier"
+
+#~ msgid " bytes"
+#~ msgstr " bytes"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Icons"
+#~ msgstr "Icones"
+
+#~ msgid "Network is not reachable"
+#~ msgstr "Rete non es attingibile"
+
+#~ msgid "Align to Grid"
+#~ msgstr "Alinea a Grillia"
+
+#~ msgctxt "Icons on the desktop"
+#~ msgid "Lock in Place"
+#~ msgstr "Bloca in posto"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 folder"
+#~ msgid_plural "%1 folders"
+#~ msgstr[0] "1 dossier"
+#~ msgstr[1] "%1 dossieres"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 file"
+#~ msgid_plural "%1 files"
+#~ msgstr[0] "1 File"
+#~ msgstr[1] "%1 files"
+
+#~ msgctxt "%1 and %2 are the messages translated above."
+#~ msgid "%1, %2."
+#~ msgstr "%1, %2."
+
+#~ msgid "1 file."
+#~ msgid_plural "%1 files."
+#~ msgstr[0] "1 File."
+#~ msgstr[1] "%1 files."
+
+#~ msgid "Sort By:"
+#~ msgstr "Ordina per:"
+
+#~ msgid ""
+#~ "Use this control to choose the criteria by which the icons will be sorted "
+#~ "in the view."
+#~ msgstr ""
+#~ "Usar iste controlo pro seliger le criteria per qual le icones essera "
+#~ "ordinate in le vista."
+
+#~ msgid "Descending:"
+#~ msgstr "Descendente:"
+
+#~ msgid ""
+#~ "Check this option if you want folders to have sorting precedence. When "
+#~ "this option is turned off, folders will be treated like regular files "
+#~ "with respect to sorting."
+#~ msgstr ""
+#~ "Marca iste option si tu vole que le dossieres ha precedentia de ordine. "
+#~ "Quando iste option es non marcate, dossieres essera tratate como files "
+#~ "normal pro loque es reguardante le ordine."
+
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be arranged "
+#~ "horizontally (in rows) or vertically (in columns)."
+#~ msgstr ""
+#~ "Usa iste controlo pro seliger si le icones essera disponite "
+#~ "horizontalmente (in rangos) o verticalmente (in columnas)."
+
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be aligned to the left "
+#~ "or to the right side of the screen."
+#~ msgstr ""
+#~ "Usa iste controlo pro seliger si  le icones essera alineate al latere "
+#~ "sinistre o dextere del schermo."
+
+#~ msgid ""
+#~ "Check this option if you do not want the icons to be moveable in the "
+#~ "view.\n"
+#~ "\n"
+#~ "This option is useful if you want to avoid accidentally moving the icons "
+#~ "while interacting with them."
+#~ msgstr ""
+#~ "Marca iste option si tu non vole que le icones sia movibile in le vista.\n"
+#~ "\n"
+#~ "Iste option es utile si tu vole evitar de mover accidentalmente le icones "
+#~ "durante que tu inter-ager con illos."
+
+#~ msgid "Align to grid:"
+#~ msgstr "Alinea a grillia:"
+
+#~ msgid ""
+#~ "Check this option if you want the icons to be arranged in a grid.\n"
+#~ "\n"
+#~ "When this option is checked, icons will automatically snap to the nearest "
+#~ "grid cell when you move them around in the view."
+#~ msgstr ""
+#~ "Marca iste option si tu vole que le icones sia collocate in un grillia.\n"
+#~ "\n"
+#~ " Quando iste option es marcate, icones automaticamente saltara a le plus "
+#~ "vicin cella quando tu move in le vista."
+
+#~ msgid ""
+#~ "Use this slider to increase or decrease the size of the icons in the view."
+#~ msgstr ""
+#~ "Usa iste glissator pro accrescer o diminuer le dimensiones de icones in "
+#~ "iste vista."
+
+#~ msgid ""
+#~ "Check this option if you want to see previews of the file contents in the "
+#~ "icons."
+#~ msgstr ""
+#~ "Marca iste option si tu vole vider vista preliminar del contentos de file "
+#~ "in le icones."
+
+#~ msgid ""
+#~ "Click this button to choose for which types of files previews will be "
+#~ "shown."
+#~ msgstr ""
+#~ "Pulsa iste button pro seliger pro qual typo de files le vista preliminar "
+#~ "essera monstrate."
+
+#~ msgid ""
+#~ "Check this option if you want folder previews to appear only when "
+#~ "clicked. When this option is turned off, folder previews will appear "
+#~ "automatically when the mouse hovers over a folder."
+#~ msgstr ""
+#~ "Marca iste option si tu vole que le vistas preliminar de dossier appare "
+#~ "solmente quando pulsate. Quando iste option es non marcate,vistas "
+#~ "preliminar de dossier apparera  automaticamente quando le mus move super "
+#~ "un dossier."
+
+#~ msgid "Lines:"
+#~ msgstr "Lineas:"
+
+#~ msgid ""
+#~ "Use this control to choose how many lines of text will be shown below the "
+#~ "icons."
+#~ msgstr ""
+#~ "Usa iste controlo pro seliger quante lineas de texto essera monstrate sub "
+#~ "le icones."
+
+#~ msgid "1 line"
+#~ msgstr "1 linea"
+
+#~ msgid "Color:"
+#~ msgstr "Color:"
+
+#~ msgid ""
+#~ "Click this button to choose the color which is used for the text labels "
+#~ "in the view."
+#~ msgstr ""
+#~ "Pulsa iste button pro seliger le color que essera usate pro le etiquettas "
+#~ "de texto in le vista."
+
+#~ msgid "Shadows:"
+#~ msgstr "Umbras:"
+
+#~ msgid ""
+#~ "<html><body><p>Check this option if you want the text labels to cast a "
+#~ "shadow on the background.</p>\n"
+#~ "<p></p>\n"
+#~ "<p>Shadows help make the text easier to read by making it stand out more "
+#~ "from the background.</p>\n"
+#~ "<p></p>\n"
+#~ "<p><i>Note that with dark text colors, this option will cause the text to "
+#~ "glow with a bright halo, instead of casting a shadow.</i></p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><body><p>Marca iste option si tu vole le etiquettas de texto "
+#~ "projectante un umbra sur le fundo.</p>\n"
+#~ "<p></p>\n"
+#~ "<p>Umbras adjuta le texto a esser legite plus facilemente per facer lo "
+#~ "evidentiar ex le fundo.</p>\n"
+#~ "<p></p>\n"
+#~ "<p><i>Tu nota que con colores de texto obscur , iste option causara que "
+#~ "le texto habera un aureola brillante, in vice de projectar un umbra.</i></"
+#~ "p></body></html>"
+
+#~ msgid ""
+#~ "Check this option if you want the icons to be sorted in a descending "
+#~ "order."
+#~ msgstr ""
+#~ "Marca iste option si tu vole que le icones essera ordinate per ordine "
+#~ "descendente."
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
+#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
+#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
+#~ "no files will be shown.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Si tu ha seligite "
+#~ "\"Monstra Files coincidente\" o \"Cela Files coincidente\", solmente le "
+#~ "files coincidente con AMBE le conditiones essera monstrate o celate "
+#~ "respectivemente.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Pro exemplo, si tu ha "
+#~ "\"*\" como tu patrono, ma tu seligeva nihil in le typos de MIME, necun "
+#~ "files essera monstrate.</p></body></html>"
+
+#~ msgid ""
+#~ "Note that if you have selected \"Show Files Matching\" or \"Hide Files "
+#~ "Matching\",\n"
+#~ "only the files matching BOTH the conditions will be shown or hidden "
+#~ "respectively.\n"
+#~ "For example, if you have \"*\" as your pattern, but have nothing selected "
+#~ "in the MIME types, no files will be shown."
+#~ msgstr ""
+#~ "Nota que si tu ha seligite \"Monstra files coincidente\" o \"Cela Files "
+#~ "Coincidente\",\n"
+#~ "solmente le files coincidente con AMBE le conditiones essera monstrate o "
+#~ "celate respectivemente.\n"
+#~ "Pro exemplo, si tu ha \"*\" como tu patrono, ma tu ha seligite nihil in "
+#~ "le typos de MIME, necun files essera monstrate."
+
+#~ msgid "<a href=\"null\">Cannot See Any Files?</a>"
+#~ msgstr "<a href=\"null\">Non pote vider alcun files?</a>"
+
+#~ msgid "Space-separated list of extensions, e.g. *.txt *.od*"
+#~ msgstr "Lista de extensiones separate pro un spatio, p.ex. *.txt*.od*"
+
+#~ msgid ""
+#~ "Space-separated list of extensions, e.g. *.txt *.od* to display only "
+#~ "office- and text-files"
+#~ msgstr ""
+#~ "Lista de extensiones separate pro un spatio, p.ex. *.txt*.od* pro "
+#~ "monstrar solmente file de office e de texto"
+
+#~ msgid "Pattern filter"
+#~ msgstr "Filtro de patrono"
+
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:400;\">Title:</span></"
+#~ "p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:400;\">Titulo:</span></"
+#~ "p></body></html>"
+
+#~ msgid "Check the file types you want icon previews for:"
+#~ msgstr "Marca le typo de files pro que tu vole icone de vista preliminar:"
+
+#~ msgctxt "Music"
+#~ msgid "Artist:"
+#~ msgstr "Artista:"
+
+#~ msgctxt "Music"
+#~ msgid "Album:"
+#~ msgstr "Album:"
+
+#~ msgid "%1 MPixels"
+#~ msgstr "%1 Mpixels"
+
+#~ msgid "Camera:"
+#~ msgstr "Camera:"
+
+#~ msgctxt "Length in millimeters"
+#~ msgid "%1 mm"
+#~ msgstr "%1 mm"
+
+#~ msgctxt "In photography"
+#~ msgid "35 mm equivalent: %1 mm"
+#~ msgstr "equivalente a 35mm: %1 mm"
+
+#~ msgctxt "On a camera"
+#~ msgid "Focal Length:"
+#~ msgstr "Longitude Focal:"
+
+#~ msgctxt "On a camera"
+#~ msgid "Exposure Time:"
+#~ msgstr "Tempore de exposition:"
+
+#~ msgctxt "Fraction of a second, or number of seconds"
+#~ msgid "%1 s"
+#~ msgstr "%1 s"
+
+#~ msgctxt "On a camera"
+#~ msgid "ISO Speed:"
+#~ msgstr "Velocitate ISO:"
+
+#~ msgid "Time:"
+#~ msgstr "Tempore:"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 page"
+#~ msgid_plural "%1 pages"
+#~ msgstr[0] "1 pagina"
+#~ msgstr[1] "%1 paginas"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 word"
+#~ msgid_plural "%1 words"
+#~ msgstr[0] "1 parola"
+#~ msgstr[1] "%1 parolas"
+
+#~ msgctxt "Items in a folder"
+#~ msgid "1 item"
+#~ msgid_plural "%1 items"
+#~ msgstr[0] "1 elemento"
+#~ msgstr[1] "%1 elementos"
+
+#~ msgid "Left to Right, Top to Bottom"
+#~ msgstr "Sinistra a Dextera, Alto a Basso"
+
+#~ msgid "Right to Left, Top to Bottom"
+#~ msgstr "Dextera a Sinistra, Alto a Basso"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Display"
+#~ msgstr "Monstrator"
+
+#~ msgctxt "Sort icons"
+#~ msgid "By Size"
+#~ msgstr "Per Dimension"
+
+#~ msgctxt "Sort icons"
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid ""
+#~ "Use this control to choose if you want the icons to be arranged top to "
+#~ "bottom starting on the left side of the view, or arranged left to right "
+#~ "starting at the top of the view."
+#~ msgstr ""
+#~ "Usa iste controlo pro seliger si tu vole que le icones es collocate del "
+#~ "alto a basso initiante a le parte sinistre del vista, o collocate de "
+#~ "sinistra a dextera initiante al culmine del vista."
+
+#~ msgid "Header"
+#~ msgstr "Capite"
+
+#~ msgid ""
+#~ "This edit field contains the label which is shown at the top of the "
+#~ "applet.\n"
+#~ "\n"
+#~ "By default it contains the name of the place being shown in the applet, "
+#~ "but if you prefer to have a custom label you can enter it here."
+#~ msgstr ""
+#~ "Iste campo pro modificar contine le etiquetta que es monstrate a le "
+#~ "culmine del applet.\n"
+#~ "\n"
+#~ "Per definition il contine le nomine del posto que es monstrate in le "
+#~ "applet, ma si tu prefere haber un etiquetta personalisate tu pote entrar "
+#~ "lo hic."

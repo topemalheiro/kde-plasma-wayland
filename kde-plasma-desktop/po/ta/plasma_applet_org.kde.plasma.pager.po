@@ -1,0 +1,247 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2021, 2022, 2024, 2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2026-01-31 20:43+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "பொதுவானவை"
+
+#: qml/configGeneral.qml:39
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "பொதுவானவை:"
+
+#: qml/configGeneral.qml:41
+#, kde-format
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "சாளரங்களின் கோட்டோவியங்களைக் காட்டு"
+
+#: qml/configGeneral.qml:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "uசாளரங்களின் கோட்டோவியங்களில் செயலிகளின் சின்னங்களை காட்டு"
+
+#: qml/configGeneral.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "தற்போதைய திரையில் உள்ளவற்றை மட்டும் காட்டு"
+
+#: qml/configGeneral.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "உலாவல் சுற்றி ஆரம்பத்திற்கே வரும்"
+
+#: qml/configGeneral.qml:69
+#, kde-format
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "தளவமைப்பு:"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "இயல்பிருப்பு"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "கிடைமட்டமாக"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "நெடுக்காக"
+
+#: qml/configGeneral.qml:85
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "காட்டப்படும் உரை:"
+
+#: qml/configGeneral.qml:88
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "ஏதுமில்லை"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "செயல்பாட்டின் எண்"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "பணிமேடையின் எண்"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "செயல்பாட்டின் பெயர்"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "பணிமேடையின் பெயர்"
+
+#: qml/configGeneral.qml:119
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "தற்போதைய செயல்பாட்டை தேர்ந்தெடுப்பது:"
+
+#: qml/configGeneral.qml:120
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "தற்போதைய மெய்நிகர் பணிமேடையை தேர்ந்தெடுப்பது:"
+
+#: qml/configGeneral.qml:123
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "ஒன்றும் செய்யாது"
+
+#: qml/configGeneral.qml:131
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "பணிமேடையை காட்டும்"
+
+#: qml/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "… மற்றும் %1 சாளரம்"
+msgstr[1] "… மற்றும் %1 சாளரங்கள்"
+
+#: qml/main.qml:352
+#, kde-format
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 சாளரம்:"
+msgstr[1] "%1 சாளரங்கள்:"
+
+#: qml/main.qml:364
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 ஒதுக்கப்பட்ட சாளரம்:"
+msgstr[1] "%1 ஒதுக்கப்பட்ட சாளரங்கள்:"
+
+#: qml/main.qml:440
+#, kde-format
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "பணிமேடை %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "%1-க்கு தாவு"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "செயல்பாடு மேலாளியைக் காட்டு"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "மெய்நிகர் பணிமேடையைச் சேர்"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "மெய்நிகர் பணிமேடையை நீக்கு"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&செயல்பாடுகளை அமை…"
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "மெய்நிகர் பணிமேடைகளை அமை…"
+
+#~ msgid "Activate %1"
+#~ msgstr "%1-ஐ இயக்கு"
+
+#, fuzzy
+#~| msgid "&Configure Desktops..."
+#~ msgid "Configure Desktops..."
+#~ msgstr "திரைமேசைகளை &வடிவமைக்க..."
+
+#, fuzzy
+#~| msgid "Display window &icons"
+#~ msgid "Display icons:"
+#~ msgstr "சாளர &முகவுருக்களின் காட்சி"
+
+#, fuzzy
+#~| msgid "&Configure Desktops..."
+#~ msgid "&Remove Last Virtual Desktop"
+#~ msgstr "திரைமேசைகளை &வடிவமைக்க..."
+
+#~ msgid "Configure Pager"
+#~ msgstr "பேஜர் வடிவமைக்க"
+
+#, fuzzy
+#~| msgid "Number of rows:"
+#~ msgid "Number of columns:"
+#~ msgstr "குறுக்குவரிசைகளின் எண்ணிக்கை:"
+
+#~ msgid "Number of rows:"
+#~ msgstr "குறுக்குவரிசைகளின் எண்ணிக்கை:"
+
+#~ msgid "Change the number of rows"
+#~ msgstr "குறுக்கு வரிசைகளின் எண்ணிக்கையை மாற்றுக"
+
+#~ msgid "None"
+#~ msgstr "ஏதுமில்லை"

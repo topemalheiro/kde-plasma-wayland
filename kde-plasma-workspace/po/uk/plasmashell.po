@@ -1,0 +1,545 @@
+# Translation of plasmashell.po to Ukrainian
+# Copyright (C) 2014-2020 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2014, 2015, 2016, 2018, 2020, 2022, 2023, 2024, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmashell\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"PO-Revision-Date: 2025-10-05 15:12+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: currentcontainmentactionsmodel.cpp:201
+#, kde-format
+msgid "Configure Mouse Actions Plugin"
+msgstr "Налаштувати додаток дій мишею"
+
+#: desktopview.cpp:213
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Dev"
+msgstr "Плазма KDE 6.0 Dev"
+
+#: desktopview.cpp:216
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Alpha"
+msgstr "Плазма KDE 6.0 Alpha"
+
+#: desktopview.cpp:219
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 1"
+msgstr "Плазма KDE 6.0 Beta 1"
+
+#: desktopview.cpp:222
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 2"
+msgstr "Плазма KDE 6.0 Beta 2"
+
+#: desktopview.cpp:225
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC1"
+msgstr "Плазма KDE 6.0 RC1"
+
+#: desktopview.cpp:228
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC2"
+msgstr "Плазма KDE 6.0 RC2"
+
+#: desktopview.cpp:254
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Dev"
+msgstr "Плазма KDE %1 Dev"
+
+#: desktopview.cpp:258
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Beta"
+msgstr "Плазма KDE %1 Beta"
+
+#: desktopview.cpp:261
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "KDE Plasma %1 Beta %2"
+msgstr "Плазма KDE %1 Beta %2"
+
+#: desktopview.cpp:265
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1"
+msgstr "Плазма KDE %1"
+
+#: desktopview.cpp:271
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Visit bugs.kde.org to report issues"
+msgstr "Відвідайте bugs.kde.org, щоб повідомити про вади"
+
+#: desktopview.cpp:279
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Plasma Version"
+msgstr "Скопіювати версію Плазми"
+
+#: desktopview.cpp:285
+#, kde-format
+msgctxt "@action:button"
+msgid "Report a Bug…"
+msgstr "Повідомити про ваду…"
+
+#: desktopview.cpp:295
+#, kde-format
+msgctxt "@title:menu"
+msgid "Hide Preview Banner"
+msgstr "Приховати банер попереднього перегляду"
+
+#: desktopview.cpp:297
+#, kde-format
+msgctxt "@action:button Hide the preview banner until the system is restarted"
+msgid "Hide Until Restart"
+msgstr "Приховати до перезапуску"
+
+#: desktopview.cpp:304
+#, kde-format
+msgctxt "@action:button Hide the preview banner permanently"
+msgid "Hide Permanently…"
+msgstr "Приховати остаточно…"
+
+#: desktopview.cpp:310
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Are you sure you want to permanently hide the preview banner?<nl/><nl/>This "
+"action can only be undone by removing the line beginning with "
+"<icode>ShowDesktopPreviewBanner</icode> in the <filename>kdeglobals</"
+"filename> config file."
+msgstr ""
+"Ви справді хочете приховати банер попереднього перегляду?<nl/><nl/>Скасувати "
+"наслідки цієї дії можна лише вилученням рядка, що починається з "
+"<icode>ShowDesktopPreviewBanner</icode> з файла налаштувань "
+"<filename>kdeglobals</filename>."
+
+#: desktopview.cpp:312
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide Preview Banner?"
+msgstr "Приховати банер попереднього перегляду?"
+
+#: desktopview.cpp:543 desktopview.cpp:559
+#, kde-format
+msgid "Enter Edit Mode"
+msgstr "Увійти до режиму редагування"
+
+#: desktopview.cpp:557
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "Вийти з режиму редагування"
+
+#: main.cpp:108
+#, kde-format
+msgid "Plasma Shell"
+msgstr "Оболонка Плазми"
+
+#: main.cpp:121
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "Увімкнути засіб діагностики Javascript QML"
+
+#: main.cpp:124
+#, kde-format
+msgid "Do not restart plasma-shell automatically after a crash"
+msgstr "Не перезапускати оболонку Плазми автоматично після аварії"
+
+#: main.cpp:127
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "Примусово завантажити вказаний додаток оболонки"
+
+#: main.cpp:131
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "Замінити наявний екземпляр"
+
+#: main.cpp:134
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr "Показати доступні варіанти для відгуків користувача"
+
+#: main.cpp:190
+#, kde-format
+msgid "Plasma Failed To Start"
+msgstr "Не вдалося запустити Плазму"
+
+#: main.cpp:191
+#, kde-format
+msgid ""
+"Plasma is unable to start as it could not correctly use OpenGL 2 or software "
+"fallback\n"
+"Please check that your graphic drivers are set up correctly."
+msgstr ""
+"Не вдалося запустити Плазму, оскільки не вдалося належним чином скористатися "
+"OpenGL 2 або резервними програмними засобами обробки зображення.\n"
+"Будь ласка, перевірте, чи налаштовано належним чином графічні драйвери."
+
+#: osd.cpp:67
+#, kde-format
+msgctxt "Brightness OSD: display name and brightness percentage"
+msgid "%1: %2%"
+msgstr "%1: %2%"
+
+#: osd.cpp:95
+#, kde-format
+msgctxt "OSD informing that the system is muted, keep short"
+msgid "Audio Muted"
+msgstr "Звук вимкнено"
+
+#: osd.cpp:118
+#, kde-format
+msgctxt "OSD informing that the microphone is muted, keep short"
+msgid "Microphone Muted"
+msgstr "Мікрофон вимкнено"
+
+#: osd.cpp:134
+#, kde-format
+msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
+msgid "%1 Muted"
+msgstr "Звук у %1 вимкнено"
+
+#: osd.cpp:156
+#, kde-format
+msgctxt "touchpad was enabled, keep short"
+msgid "Touchpad On"
+msgstr "Сенсор увімкнено"
+
+#: osd.cpp:158
+#, kde-format
+msgctxt "touchpad was disabled, keep short"
+msgid "Touchpad Off"
+msgstr "Сенсор вимкнено"
+
+#: osd.cpp:165
+#, kde-format
+msgctxt "wireless lan was enabled, keep short"
+msgid "Wifi On"
+msgstr "Wifi увімкнено"
+
+#: osd.cpp:167
+#, kde-format
+msgctxt "wireless lan was disabled, keep short"
+msgid "Wifi Off"
+msgstr "Wifi вимкнено"
+
+#: osd.cpp:174
+#, kde-format
+msgctxt "Bluetooth was enabled, keep short"
+msgid "Bluetooth On"
+msgstr "Bluetooth увімкнено"
+
+#: osd.cpp:176
+#, kde-format
+msgctxt "Bluetooth was disabled, keep short"
+msgid "Bluetooth Off"
+msgstr "Bluetooth вимкнено"
+
+#: osd.cpp:183
+#, kde-format
+msgctxt "mobile internet was enabled, keep short"
+msgid "Mobile Internet On"
+msgstr "Мобільний інтернет увімкнено"
+
+#: osd.cpp:185
+#, kde-format
+msgctxt "mobile internet was disabled, keep short"
+msgid "Mobile Internet Off"
+msgstr "Мобільний інтернет вимкнено"
+
+#: osd.cpp:193
+#, kde-format
+msgctxt ""
+"on screen keyboard was enabled because physical keyboard got unplugged, keep "
+"short"
+msgid "On-Screen Keyboard Activated"
+msgstr "Задіяно екранну клавіатуру"
+
+#: osd.cpp:196
+#, kde-format
+msgctxt ""
+"on screen keyboard was disabled because physical keyboard was plugged in, "
+"keep short"
+msgid "On-Screen Keyboard Deactivated"
+msgstr "Вимкнено екранну клавіатуру"
+
+#: osd.cpp:203
+#, kde-format
+msgctxt "power management was inhibited, keep short"
+msgid "Sleep and Screen Locking Blocked"
+msgstr "Присипляння та автоматичне блокування екрана заблоковано"
+
+#: osd.cpp:205
+#, kde-format
+msgctxt "power management was uninhibited, keep short"
+msgid "Sleep and Screen Locking Unblocked"
+msgstr "Присипляння та автоматичне блокування екрана розблоковано"
+
+#: osd.cpp:215
+#, kde-format
+msgctxt "Power profile was changed to power save mode, keep short"
+msgid "Power Save Mode"
+msgstr "Режим заощадження енергії"
+
+#: osd.cpp:218
+#, kde-format
+msgctxt "Power profile was changed to balanced mode, keep short"
+msgid "Balanced Power Mode"
+msgstr "Режим збалансованого споживання"
+
+#: osd.cpp:221
+#, kde-format
+msgctxt "Power profile was changed to performance mode, keep short"
+msgid "Performance Mode"
+msgstr "Режим швидкодії"
+
+#: panelview.cpp:458
+#, kde-format
+msgid ""
+"With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are "
+"known to cause poor window drag and resize performance. Consider using other "
+"settings."
+msgstr ""
+"Якщо у X11 використано графічний процесор NVIDIA, рухомий стиль та режим "
+"адаптивної непрозорості, як відомо, спричиняють значне уповільнення "
+"перетягування та зміни розмірів вікон. Вам варто скористатися іншими "
+"варіантами параметрів."
+
+#: panelview.cpp:1144
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Panel Configuration"
+msgstr "Приховати налаштування панелі"
+
+#: panelview.cpp:1146
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Panel Configuration"
+msgstr "Показати налаштування панелі"
+
+#: qml/OsdItem.qml:34
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr "%1%"
+
+#: shellcontainmentconfig.cpp:107
+#, kde-format
+msgid "Internal Screen on %1"
+msgstr "Внутрішній екран на %1"
+
+#: shellcontainmentconfig.cpp:111
+#, kde-format
+msgctxt "Screen manufacturer and model on connector"
+msgid "%1 %2 on %3"
+msgstr "%1 %2 на %3"
+
+#: shellcontainmentconfig.cpp:134
+#, kde-format
+msgid "Disconnected Screen %1"
+msgstr "Від'єднаний екран %1"
+
+#: shellcorona.cpp:174 shellcorona.cpp:176
+#, kde-format
+msgid "Show Desktop"
+msgstr "Показати стільницю"
+
+#: shellcorona.cpp:176
+#, kde-format
+msgid "Hide Desktop"
+msgstr "Приховати стільницю"
+
+#: shellcorona.cpp:192
+#, kde-format
+msgid "Activate Application Launcher"
+msgstr "Задіяти засіб запуску програм"
+
+#: shellcorona.cpp:200
+#, kde-format
+msgid "Show Activity Switcher"
+msgstr "Показати перемикач просторів дій"
+
+#: shellcorona.cpp:209
+#, kde-format
+msgid "Switch to Previous Activity"
+msgstr "Перемкнутися на попередній простір дій"
+
+#: shellcorona.cpp:217
+#, kde-format
+msgid "Switch to Next Activity"
+msgstr "Перемкнутися на наступний простір дій"
+
+#: shellcorona.cpp:232
+#, kde-format
+msgid "Activate Task Manager Entry %1"
+msgstr "Задіяти пункт панелі керування задачами %1"
+
+#: shellcorona.cpp:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage Desktops and Panels…"
+msgstr "Керування стільницями і панелями…"
+
+#: shellcorona.cpp:289
+#, kde-format
+msgid "Move keyboard focus between panels"
+msgstr "Пересування фокуса клавіатури між панелями"
+
+#: shellcorona.cpp:2302
+#, kde-format
+msgid "Add Panel"
+msgstr "Додати панель"
+
+#: shellcorona.cpp:2385
+#, kde-format
+msgctxt "Creates an empty containment (%1 is the containment name)"
+msgid "Empty %1"
+msgstr "Порожній %1"
+
+#: softwarerendernotifier.cpp:34
+#, kde-format
+msgid "Software Renderer In Use"
+msgstr "Використовується програмна обробка"
+
+#: softwarerendernotifier.cpp:35
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Software Renderer In Use"
+msgstr "Використовується програмна обробка"
+
+#: softwarerendernotifier.cpp:36
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Rendering may be degraded"
+msgstr "Могла знизитися швидкодія обробки"
+
+#: softwarerendernotifier.cpp:46
+#, kde-format
+msgid "Never show again"
+msgstr "Більше не показувати"
+
+#: userfeedback.cpp:36
+#, kde-format
+msgid "Panel Count"
+msgstr "Кількість панелей"
+
+#: userfeedback.cpp:40
+#, kde-format
+msgid "Counts the panels"
+msgstr "Лічить кількість панелей"
+
+#~ msgid "Stop Current Activity"
+#~ msgstr "Зупинити поточний простір дій"
+
+#~ msgid "Panel and Desktop Management"
+#~ msgstr "Керування панелями та стільницею"
+
+#~ msgid ""
+#~ "Enables test mode and specifies the layout javascript file to set up the "
+#~ "testing environment"
+#~ msgstr ""
+#~ "Вмикає режим тестування і вказує файл компонування у форматі javascript "
+#~ "для налаштовування тестового середовища"
+
+#~ msgid "file"
+#~ msgstr "файл"
+
+#~ msgctxt "@label %1 version string"
+#~ msgid "Plasma %1 Development Build"
+#~ msgstr "Тестова збірка Плазми %1"
+
+#~ msgid ""
+#~ "Load plasmashell as a standalone application, needs the shell-plugin "
+#~ "option to be specified"
+#~ msgstr ""
+#~ "Завантажити plasmashell як окрему програму. Потребує визначення параметра "
+#~ "додатка оболонки."
+
+#~ msgid "Unknown %1"
+#~ msgstr "Невідомий %1"
+
+#~ msgid "Unable to load script file: %1"
+#~ msgstr "Не вдалося завантажити файл скрипту: %1"
+
+#~ msgid "Activities..."
+#~ msgstr "Простори дій..."
+
+#~ msgctxt "Fatal error message body"
+#~ msgid ""
+#~ "All shell packages missing.\n"
+#~ "This is an installation issue, please contact your distribution"
+#~ msgstr ""
+#~ "Не вистачає усіх пакунків оболонки.\n"
+#~ "Це помилка встановлення, будь ласка, повідомте про неї авторів "
+#~ "дистрибутива."
+
+#~ msgctxt "Fatal error message title"
+#~ msgid "Plasma Cannot Start"
+#~ msgstr "Не вдалося запустити Плазму"
+
+#~ msgctxt "Fatal error message body"
+#~ msgid "Shell package %1 cannot be found"
+#~ msgstr "Не вдалося виявити пакунок оболонки %1"
+
+#~ msgid "Main Script File"
+#~ msgstr "Головний файл скрипту"
+
+#~ msgid "Force a windowed view for testing purposes"
+#~ msgstr "Примусовий запуск у вікні з метою тестування"
+
+#~ msgid "Deprecated, does nothing"
+#~ msgstr "Застарілий, не призводить до будь-яких змін"
+
+#~ msgid ""
+#~ "Your graphics hardware does not support OpenGL (ES) 2. Plasma will abort "
+#~ "now."
+#~ msgstr ""
+#~ "Апаратною частиною вашого комп’ютера не передбачено підтримки OpenGL (ES) "
+#~ "2. Роботу Плазми буде завершено."
+
+#~ msgid "Incompatible OpenGL version detected"
+#~ msgstr "Виявлено несумісну версію OpenGL"
+
+#~ msgid "Recent number of crashes"
+#~ msgstr "Кількість нещодавніх аварійних завершень"
+
+#~ msgid "Show Dashboard"
+#~ msgstr "Показати панель приладів"
+
+#~ msgid "Hide Dashboard"
+#~ msgstr "Сховати панель приладів"
+
+#~ msgid "Shuts up the output"
+#~ msgstr "Не виводити повідомлень"

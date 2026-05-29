@@ -1,0 +1,345 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2022, 2026 Sveinn í Felli <sv1@fellsnet.is>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-19 00:47+0000\n"
+"PO-Revision-Date: 2026-03-10 12:55+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Kveikja/slökkva á 'Ekki ónáða'"
+
+#: sourcesmodel.cpp:404
+#, kde-format
+msgid "Other Applications"
+msgstr "Önnur forrit"
+
+#: ui/ApplicationConfiguration.qml:105
+#, kde-format
+msgid "Show popups"
+msgstr "Birta sprettiglugga"
+
+#: ui/ApplicationConfiguration.qml:119
+#, kde-format
+msgid "Show in do not disturb mode"
+msgstr "Birta þegar stillt á 'Ekki ónáða'"
+
+#: ui/ApplicationConfiguration.qml:132 ui/main.qml:208
+#, kde-format
+msgid "Show in history"
+msgstr "Sýna í ferilskráningu"
+
+#: ui/ApplicationConfiguration.qml:143
+#, kde-format
+msgid "Show notification badges"
+msgstr "Sýna tilkynningamerki"
+
+#: ui/ApplicationConfiguration.qml:180
+#, kde-format
+msgctxt "@title:table Configure individual notification events in an app"
+msgid "Configure Events"
+msgstr "Grunnstilla viðburði"
+
+#: ui/ApplicationConfiguration.qml:188
+#, kde-format
+msgid ""
+"This application does not support configuring notifications on a per-event "
+"basis"
+msgstr ""
+"Þetta forrit styður ekki grunnstillingu tilkynninga fyrir hvern viðburð "
+"fyrir sig"
+
+#: ui/ApplicationConfiguration.qml:282
+#, kde-format
+msgid "Show a message in a pop-up"
+msgstr "Sýna skilaboð í sprettiglugga"
+
+#: ui/ApplicationConfiguration.qml:291
+#, kde-format
+msgid "Play a sound"
+msgstr "Spila hljóð"
+
+#: ui/ApplicationConfiguration.qml:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview sound"
+msgstr "Forskoða hljóð"
+
+#: ui/ApplicationConfiguration.qml:328
+#, kde-format
+msgctxt "Reset the notification sound to a default one"
+msgid "Reset"
+msgstr "Endurstilla"
+
+#: ui/ApplicationConfiguration.qml:340
+#, kde-format
+msgid "Choose sound file"
+msgstr "Velja hljóðskrá"
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt "@action:button Plasma-specific notifications"
+msgid "Configure for System…"
+msgstr "Grunnstilla fyrir kerfið…"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@action:button Application-specific notifications"
+msgid "Configure for Applications…"
+msgstr "Grunnstilla fyrir forrit..."
+
+#: ui/main.qml:96
+#, kde-format
+msgid ""
+"Could not find a 'Notifications' widget, which is required for displaying "
+"notifications. Make sure that it is enabled either in your System Tray or as "
+"a standalone widget."
+msgstr ""
+"Ekki tókst að finna græjuna 'Tilkynningar' sem er nauðsynlegtil að hægt sé "
+"að birta tilkynningar. Gakktu úr skugga um að hún sé virkjuð í "
+"kerfisbakkanum eða sem sjálfstæð græja."
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2' instead of Plasma."
+msgstr "'%1 %2' útvegar tilkynningar eins og er í staðinn fyrir Plasma."
+
+#: ui/main.qml:111
+#, kde-format
+msgid "Notifications are currently not provided by Plasma."
+msgstr "Plasma útvegar ekki tilkynningar sem stendur."
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group"
+msgid "Do Not Disturb mode"
+msgstr "Stillingin 'Ekki ónáða':"
+
+#: ui/main.qml:131
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "Enable automatically:"
+msgstr "Virkja sjálfkrafa:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Þegar skjáir eru speglaðir"
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode during screen sharing"
+msgid "During screen sharing"
+msgstr "Þegar skjár er samnýttur"
+
+#: ui/main.qml:158
+#, kde-format
+msgctxt ""
+"Automatically enable Do Not Disturb mode while a fullscreen application is "
+"focused"
+msgid "While a fullscreen application is focused"
+msgstr "Þegar forrit sem fyllir skjá er í fókus"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
+msgid "Manually toggle with shortcut:"
+msgstr "Víxla af/á handvirkt með flýtilykli:"
+
+#: ui/main.qml:177
+#, kde-format
+msgctxt "@title:group"
+msgid "Visibility conditions"
+msgstr "Skilyrði fyrir sýnileika"
+
+#: ui/main.qml:182
+#, kde-format
+msgid "Critical notifications:"
+msgstr "Áríðandi tilkynningar:"
+
+#: ui/main.qml:183
+#, kde-format
+msgid "Show in Do Not Disturb mode"
+msgstr "Sýna þegar stillt er á 'Ekki ónáða'"
+
+#: ui/main.qml:195
+#, kde-format
+msgid "Low priority notifications:"
+msgstr "Tilkynningar án forgangs:"
+
+#: ui/main.qml:196
+#, kde-format
+msgid "Show popup"
+msgstr "Sýna sprettiglugga"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "@title:group As in: 'notification popups'"
+msgid "Popups"
+msgstr "Sprettigluggar"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "Staðsetning:"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "Popup position near notification plasmoid"
+msgid "Near notification icon"
+msgstr "Nálægt tilkynningatákni"
+
+#: ui/main.qml:269
+#, kde-format
+msgctxt "@action:button choose custom notification position"
+msgid "Choose…"
+msgstr "Veldu…"
+
+#: ui/main.qml:278 ui/main.qml:294
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekúnda"
+msgstr[1] "%1 sekúndur"
+
+#: ui/main.qml:283
+#, kde-format
+msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
+msgid "Hide after:"
+msgstr "Fela eftir:"
+
+#: ui/main.qml:306
+#, kde-format
+msgctxt ""
+"@option:check Show progress bar on notifications indicating when it will hide"
+msgid "Show timeout indicator"
+msgstr "Sýna merki um tímamörk"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:group"
+msgid "Additional feedback"
+msgstr "Viðbótarendurgjöf"
+
+#: ui/main.qml:324
+#, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr "Sýna í tilkynningum"
+
+#: ui/main.qml:325
+#, kde-format
+msgid "Application progress:"
+msgstr "Framvinda forrits:"
+
+#: ui/main.qml:339
+#, kde-format
+msgctxt "Keep application job popup open for entire duration of job"
+msgid "Keep popup open during progress"
+msgstr "Halda sprettigluggum opnum í framvindu"
+
+#: ui/main.qml:352
+#, kde-format
+msgid "Notification badges:"
+msgstr "Tilkynningamerki:"
+
+#: ui/main.qml:353
+#, kde-format
+msgid "Show in task manager"
+msgstr "Sýna í verkefnastjóra"
+
+#: ui/PopupPositionDialog.qml:15
+#, kde-format
+msgid "Popup Position"
+msgstr "Staðsetning sprettiglugga"
+
+#: ui/SourcesPage.qml:20
+#, kde-format
+msgctxt ""
+"@title:window kcm page title, configure app-specific notification settings"
+msgid "Application Notifications"
+msgstr "Tilkynningar forrits"
+
+#: ui/SourcesPage.qml:108
+#, kde-format
+msgid "Applications"
+msgstr "Forrit"
+
+#: ui/SourcesPage.qml:109
+#, kde-format
+msgid "System Services"
+msgstr "Kerfisþjónustur"
+
+#: ui/SourcesPage.qml:157
+#, kde-format
+msgid "No application or event matches your search term"
+msgstr "Ekkert forrit eða viðburður passar við leitarorðið þitt."
+
+#: ui/SourcesPage.qml:181
+#, kde-format
+msgid ""
+"Select an application from the list to configure its notification settings "
+"and behavior"
+msgstr "Veldu forrit af listanum til að grunnstilla tilkynningar og hegðun."
+
+#~ msgctxt "@action:button Plasma-specific notifications"
+#~ msgid "System Notifications"
+#~ msgstr "Kerfistilkynningar"
+
+#~ msgctxt "@action:button Application-specific notifications"
+#~ msgid "Application Settings"
+#~ msgstr "Stillingar forrits"
+
+#~ msgctxt "@action:button choose custom notification position"
+#~ msgid "Custom…"
+#~ msgstr "Sérsniðið…"
+
+#~ msgid "Normal notifications:"
+#~ msgstr "Venjulegar tilkynningar:"
+
+#~ msgid "Show over full screen windows"
+#~ msgstr "Birta yfir gluggum sem fylla skjáinn"
+
+#~ msgid "Choose Custom Position…"
+#~ msgstr "Velja aðra staðsetningu..."
+
+#~ msgctxt "@action:button Application-specific notifications"
+#~ msgid "Application Settings…"
+#~ msgstr "Stillingar forrits…"
+
+#~ msgctxt "@title:group"
+#~ msgid "Application-specific settings"
+#~ msgstr "Stillingar fyrir tiltekin forrit"
+
+#~ msgctxt "Enable Do Not Disturb mode when screens are mirrored"
+#~ msgid "Enable:"
+#~ msgstr "Virkja:"
+
+#~ msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
+#~ msgid "Keyboard shortcut:"
+#~ msgstr "Flýtilykill:"
+
+#~ msgid "This module lets you manage application and system notifications."
+#~ msgstr ""
+#~ "Með þessari einingu geturðu stjórnað tilkynningum forrita og kerfis."
+
+#~ msgctxt "Turn do not disturb mode on/off with keyboard shortcut"
+#~ msgid "Toggle with:"
+#~ msgstr "Víxla með:"

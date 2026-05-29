@@ -1,0 +1,429 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Sveinn í Felli <sv1@fellsnet.is>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2026-04-13 18:35+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Fjarlægja úr eftirlætum"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Bæta við eftirlæti"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Í öllum athöfnum"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Í núverandi athöfn"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Sýna í eftirlætum"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Almennt"
+
+#: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Tákn:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Breyta tákni fyrir forritið"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Núverandi tákn er %1. Smelltu til að opna valmynd og breyta núverandi tákni "
+"eða stilla aftur á sjálfgefna táknið."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Heiti tákns er \"%1\""
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Velja…"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Velja tákn fyrir forritaræsirinn"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Endurstilla á sjálfgefið tákn"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Fjarlægja tákn"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Textamerki:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Sláðu inn hér til að bæta við textamerki"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Endurstilla valmyndarmerki"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "Ekki er hægt að velja textamerki þegar skjáborðsstikan er lóðrétt"
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Sýna forrit sem:"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Heiti eingöngu"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Lýsing eingöngu"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Heiti (lýsing)"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Lýsing (heiti)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Almennt:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Raða forritum í stafrófsröð"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Þetta breytir því ekki hvernig forritum er raðað annað hvort í "
+"leitarniðurstöðum eða á síðu yfir eftirlæti."
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "Nota þéttan listastíl"
+
+#: ConfigGeneral.qml:187
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Auðkenna nýlega uppsett forrit"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Skipta um flokka á hliðarstiku þegar bendill sveimar yfir þeim"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Grunnstilla leitarviðbætur..."
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Staðsetning hliðarstiku:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Hægra megin"
+
+#: ConfigGeneral.qml:209
+#, kde-format
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Vinstra megin"
+
+#: ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Vinstra megin"
+
+#: ConfigGeneral.qml:225
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Sýna eftirlæti:"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "í reitum"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "í lista"
+
+#: ConfigGeneral.qml:242
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Sýna önnur forrit:"
+
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "í reitum"
+
+#: ConfigGeneral.qml:251
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "í lista"
+
+#: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Sýna hnappa fyrir:"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Frágang - Slökkva"
+
+#: ConfigGeneral.qml:273
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Setu"
+
+#: ConfigGeneral.qml:282
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Frágang og setu"
+
+#: ConfigGeneral.qml:291
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "Birta skýringartexta á aðgerðahnöppum"
+
+#: Footer.qml:101
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Forrit"
+
+#: Footer.qml:117
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Staðir"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Ekkert sem passar"
+
+#: Header.qml:86
+#, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "Opna notandastillingar"
+
+#: Header.qml:276
+#, kde-format
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Halda opnu"
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nýtt!"
+
+#: KickoffGridDelegate.qml:61
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Nýlega uppsett forrit"
+
+#: KickoffGridView.qml:105
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Reitir í %1 röðum, %2 dálkum"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nýtt!"
+
+#: KickoffListDelegate.qml:125
+#, kde-format
+msgid "There is a newly-installed application in this category"
+msgstr "Það er nýlega uppsett forrit í þessum flokki"
+
+#: KickoffListDelegate.qml:126
+#, kde-format
+msgid "Newly-installed application"
+msgstr "Nýlega uppsett forrit"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Seta"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Frágangur"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Meira"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Seta og frágangur"
+
+#: main.qml:358
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Breyta forritum…"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Tölvan"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Ferill"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Oft notað"
+
+#~ msgctxt "Newly installed app, badge, keep short"
+#~ msgid "New!"
+#~ msgstr "Nýtt!"
+
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Nýlega uppsett forrit"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "Sjálfkrafa óvirkt þegar snertistilling er notuð"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a grid'"
+#~ msgid "In a grid"
+#~ msgstr "í reitum"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a list'"
+#~ msgid "In a list"
+#~ msgstr "í lista"
+
+#~ msgid "Leave"
+#~ msgstr "Hætta"

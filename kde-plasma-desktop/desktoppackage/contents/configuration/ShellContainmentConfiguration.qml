@@ -1,0 +1,85 @@
+/*
+    SPDX-FileCopyrightText: 2021 Cyril Rossi <cyril.rossi@enioka.com>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
+
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import QtQuick.Window
+
+import org.kde.kirigami as Kirigami
+
+import "shellcontainmentconfiguration"
+
+Kirigami.AbstractApplicationWindow {
+    id: root
+
+    title: i18ndc("plasma_shell_org.kde.plasma.desktop", "@title:window", "Manage Panels and Desktops")
+
+    width: Kirigami.Units.gridUnit * 40
+    height: Kirigami.Units.gridUnit * 32
+
+    minimumWidth: Kirigami.Units.gridUnit * 30
+    minimumHeight: Kirigami.Units.gridUnit * 25
+
+    header: QQC2.ToolBar {
+        anchors {
+            left: parent.left
+            right: parent.right
+        }
+        contentItem: QQC2.Label {
+            Layout.fillWidth: parent
+            text: i18ndc("plasma_shell_org.kde.plasma.desktop", "@info:usagetip", "You can drag Panels and Desktops around to move them to different screens.")
+            textFormat: Text.PlainText
+            horizontalAlignment: Text.AlignHCenter
+            wrapMode: Text.WordWrap
+        }
+    }
+
+    footer: QQC2.Control {
+        contentItem: QQC2.DialogButtonBox {
+            QQC2.Button {
+                text: i18ndc("plasma_shell_org.kde.plasma.desktop", "@action:button Close window", "Close")
+                onClicked: Window.window.close()
+            }
+        }
+        background: Item {
+            // FIXME: automate that somehow?
+            Kirigami.Separator {
+                anchors {
+                    left: parent.left
+                    top: parent.top
+                    right: parent.right
+                }
+                visible: mainPage.flickable.contentHeight > mainPage.flickable.height
+            }
+        }
+    }
+
+    Kirigami.ScrollablePage {
+        id: mainPage
+        anchors.fill: parent
+
+        leftPadding: 0
+        topPadding: 0
+        rightPadding: 0
+        bottomPadding: 0
+
+        Flow {
+            id: mainGrid
+            width: mainPage.flickable.width
+            spacing: 0
+
+            Repeater {
+                id: repeater
+                model: ShellContainmentModel
+
+                delegate: Delegate {
+                    viewPort: mainPage
+                }
+            }
+        }
+    }
+}

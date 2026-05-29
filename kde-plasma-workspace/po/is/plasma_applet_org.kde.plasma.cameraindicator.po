@@ -1,0 +1,86 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Sveinn í Felli <sv1@fellsnet.is>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-02 00:46+0000\n"
+"PO-Revision-Date: 2024-04-15 15:28+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: qml/FullRepresentation.qml:44
+#, kde-format
+msgctxt "@info:status %1 camera name"
+msgid "%1 is in use"
+msgstr "%1 er í notkun"
+
+#: qml/FullRepresentation.qml:78
+#, kde-format
+msgctxt "@title"
+msgid "Camera"
+msgstr "Myndavél"
+
+#: qml/FullRepresentation.qml:81
+#, kde-format
+msgctxt "@info:status"
+msgid "Active"
+msgstr "Virk"
+
+#: qml/FullRepresentation.qml:83
+#, kde-format
+msgctxt "@info:status"
+msgid "Idle"
+msgstr "Við aðgerðaleysi (Idle)"
+
+#: qml/FullRepresentation.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "Villa"
+
+#: qml/FullRepresentation.qml:87
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating"
+msgstr "Bý til"
+
+#: qml/FullRepresentation.qml:89
+#, kde-format
+msgctxt "@info:status"
+msgid "Suspended"
+msgstr "Í bið"
+
+#: qml/FullRepresentation.qml:91
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: qml/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Camera indicator is unavailable"
+msgstr "Myndavélarvísir er ekki til taks"
+
+#: qml/main.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A camera is in use"
+msgid_plural "%1 cameras are in use"
+msgstr[0] "Myndavél er í notkun"
+msgstr[1] "%1 myndavélar eru í notkun"
+
+#: qml/main.qml:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No camera is in use"
+msgstr "Engin myndavél er í notkun"

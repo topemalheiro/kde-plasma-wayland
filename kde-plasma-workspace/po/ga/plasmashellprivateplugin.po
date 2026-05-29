@@ -1,0 +1,465 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2026 Charlotte <altronic25@protonmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-24 00:46+0000\n"
+"PO-Revision-Date: 2026-01-14 14:33+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Charlotte"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "altronic25@protonmail.com"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:45
+#, kde-format
+msgctxt "Placeholder is the battery number"
+msgid "Battery %1"
+msgstr "Cadhnra %1"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:47
+#, kde-format
+msgid "Battery"
+msgstr "Cadhnra"
+
+#: calendar/eventdatadecorator.cpp:50
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Holidays"
+msgstr "Laethanta Saoire"
+
+#: calendar/eventdatadecorator.cpp:52
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Events"
+msgstr "Imeachtaí"
+
+#: calendar/eventdatadecorator.cpp:54
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Todo"
+msgstr ""
+
+#: calendar/eventdatadecorator.cpp:56
+#, kde-format
+msgctxt "Means 'Other calendar items'"
+msgid "Other"
+msgstr "Eile"
+
+#: calendar/qml/DayDelegate.qml:97
+#, kde-format
+msgid "%1 event"
+msgid_plural "%1 events"
+msgstr[0] "%1 imeacht"
+msgstr[1] "%1 imeacht"
+msgstr[2] "%1 imeacht"
+msgstr[3] "%1 n-imeacht"
+msgstr[4] "%1 imeacht"
+
+#: calendar/qml/DayDelegate.qml:98
+#, kde-format
+msgid "No events"
+msgstr "Gan Imeacht"
+
+#: calendar/qml/MonthViewHeader.qml:74
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: calendar/qml/MonthViewHeader.qml:131
+#, kde-format
+msgid "Days"
+msgstr "Laethanna"
+
+#: calendar/qml/MonthViewHeader.qml:139
+#, kde-format
+msgid "Months"
+msgstr "Míonna"
+
+#: calendar/qml/MonthViewHeader.qml:147
+#, kde-format
+msgid "Years"
+msgstr "Blianta"
+
+#: calendar/qml/MonthViewHeader.qml:184
+#, kde-format
+msgid "Previous Month"
+msgstr "Mí Roimhe"
+
+#: calendar/qml/MonthViewHeader.qml:186
+#, kde-format
+msgid "Previous Year"
+msgstr "Bliana Roimhe"
+
+#: calendar/qml/MonthViewHeader.qml:188
+#, kde-format
+msgid "Previous Decade"
+msgstr "Deich mBliana Roimhe"
+
+#: calendar/qml/MonthViewHeader.qml:206
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "Inniu"
+
+#: calendar/qml/MonthViewHeader.qml:207
+#, kde-format
+msgid "Reset calendar to today"
+msgstr ""
+
+#: calendar/qml/MonthViewHeader.qml:220
+#, kde-format
+msgid "Next Month"
+msgstr "An Mhí Seo Chugainn"
+
+#: calendar/qml/MonthViewHeader.qml:222
+#, kde-format
+msgid "Next Year"
+msgstr "An Bhliain Seo Chugainn"
+
+#: calendar/qml/MonthViewHeader.qml:224
+#, kde-format
+msgid "Next Decade"
+msgstr "An Deich mBliana Seo Chugainn"
+
+#: calendar/qml/MonthViewHeader.qml:283
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep Open"
+msgstr ""
+
+#: containmentlayoutmanager/qml/BasicAppletContainer.qml:287
+#, kde-format
+msgid "Configure…"
+msgstr "Cumraigh..."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr ""
+
+#: sessionsprivate/sessionsmodel.cpp:255 sessionsprivate/sessionsmodel.cpp:259
+#, kde-format
+msgid "New Session"
+msgstr "Seisiún Nua"
+
+#: shellprivate/kcategorizeditemsviewmodels.cpp:66
+#, kde-format
+msgid "Filters"
+msgstr "Scagairí"
+
+#: shellprivate/plasmaappletitemmodel.cpp:199
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for an unknown older version of Plasma and is not "
+"compatible with Plasma %1. Please contact the widget's author for an updated "
+"version."
+msgstr ""
+"Bhí an giuirléidí seo ag scríofa do Plasma %1 agus níl comhoiriúnach le an "
+"leagan is déanaí de Plasma. Nuashonraigh Plasma chun an giuirléidí a úsáid."
+
+#: shellprivate/plasmaappletitemmodel.cpp:203
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please contact the widget's author for an updated version."
+msgstr ""
+"Bhí an giuirléidí seo ag scríofa do Plasma %1 agus níl comhoiriúnach le an "
+"leagan is déanaí de Plasma. Nuashonraigh Plasma chun an giuirléidí a úsáid."
+
+#: shellprivate/plasmaappletitemmodel.cpp:207
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please update Plasma in order to use the widget."
+msgstr ""
+"Bhí an giuirléidí seo ag scríofa do Plasma %1 agus níl comhoiriúnach le an "
+"leagan is déanaí de Plasma. Nuashonraigh Plasma chun an giuirléidí a úsáid."
+
+#: shellprivate/plasmaappletitemmodel.cpp:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with the older "
+"version of Plasma installed on this system. Please update Plasma in order to "
+"use the widget."
+msgstr ""
+"Bhí an giuirléidí seo ag scríofa do Plasma %1 agus níl comhoiriúnach le an "
+"leagan is déanaí de Plasma. Nuashonraigh Plasma chun an giuirléidí a úsáid."
+
+#: shellprivate/widgetexplorer.cpp:110
+msgctxt "applet category"
+msgid "Accessibility"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:111
+msgctxt "applet category"
+msgid "Application Launchers"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:112
+msgctxt "applet category"
+msgid "Astronomy"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:113
+msgctxt "applet category"
+msgid "Date and Time"
+msgstr "Dáta agus Am"
+
+#: shellprivate/widgetexplorer.cpp:114
+msgctxt "applet category"
+msgid "Development Tools"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:115
+msgctxt "applet category"
+msgid "Education"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:116
+msgctxt "applet category"
+msgid "Environment and Weather"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:117
+msgctxt "applet category"
+msgid "Examples"
+msgstr "Samplaí"
+
+#: shellprivate/widgetexplorer.cpp:118
+msgctxt "applet category"
+msgid "File System"
+msgstr "Córas Comhad"
+
+#: shellprivate/widgetexplorer.cpp:119
+msgctxt "applet category"
+msgid "Fun and Games"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:120
+msgctxt "applet category"
+msgid "Graphics"
+msgstr "Grafaicí"
+
+#: shellprivate/widgetexplorer.cpp:121
+msgctxt "applet category"
+msgid "Language"
+msgstr "Teanga"
+
+#: shellprivate/widgetexplorer.cpp:122
+msgctxt "applet category"
+msgid "Mapping"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:123
+msgctxt "applet category"
+msgid "Miscellaneous"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:124
+msgctxt "applet category"
+msgid "Multimedia"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:125
+msgctxt "applet category"
+msgid "Online Services"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:126
+msgctxt "applet category"
+msgid "Personal Information"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:127
+msgctxt "applet category"
+msgid "Productivity"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:128
+msgctxt "applet category"
+msgid "System Information"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:129
+msgctxt "applet category"
+msgid "Utilities"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:130
+msgctxt "applet category"
+msgid "Windows and Tasks"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:131
+msgctxt "applet category"
+msgid "Clipboard"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:132
+msgctxt "applet category"
+msgid "Tasks"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:148
+#, kde-format
+msgid "All Widgets"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:152
+#, kde-format
+msgid "Running"
+msgstr "Ag Rith"
+
+#: shellprivate/widgetexplorer.cpp:158
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can be un-"
+"installed from the system, which are usually installed by the user to a "
+"local place."
+msgid "User-installed"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:162
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can were "
+"recently installed."
+msgid "Recently installed"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:166
+#, kde-format
+msgid "Categories:"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:236
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "Íosluchtaigh Giuirléidí Plasma Nua"
+
+#: shellprivate/widgetexplorer.cpp:245
+#, kde-format
+msgid "Install Widget From Local File…"
+msgstr ""
+
+#: shellprivate/widgetexplorer.cpp:484
+#, kde-format
+msgctxt "@title:window"
+msgid "Get New Widgets"
+msgstr "Faigh Giuirléidí Nua"
+
+#: shellprivate/widgetexplorer.cpp:503
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "Roghnaigh Comhad Plasmóid"
+
+#: shellprivate/widgetexplorer.cpp:519
+#, kde-format
+msgctxt "%1 is the name of an applet, %2 is an error message"
+msgid "Installing the package %1 failed: %2."
+msgstr "Bhí an pacáiste %1 ag theipthe a shuiteáil: %2."
+
+#: shellprivate/widgetexplorer.cpp:520
+#, kde-format
+msgid "Installation Failure"
+msgstr "Teip Shuiteáilte"
+
+#: timezoneselector/TimezoneSelector.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The currently selected time zone is not available for visualization on this "
+"map"
+msgstr ""
+
+#: timezoneselector/TimezoneSelector.qml:122
+#: timezoneselector/TimezoneSelector.qml:301
+#, kde-format
+msgctxt "Placeholder for empty time zone combobox selector"
+msgid "Choose…"
+msgstr "Roghnaigh..."
+
+#: timezoneselector/TimezoneSelector.qml:124
+#: timezoneselector/TimezoneSelector.qml:293
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Region:"
+msgstr "Réigiún:"
+
+#: timezoneselector/TimezoneSelector.qml:146
+#: timezoneselector/TimezoneSelector.qml:326
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Time zone:"
+msgstr "Crios ama:"
+
+#: timezoneselector/TimezoneSelector.qml:248
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom in"
+msgstr "Zúmáil isteach"
+
+#: timezoneselector/TimezoneSelector.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom out"
+msgstr "Zúmáil amach"
+
+#: timezoneselector/TimezoneSelector.qml:305
+#, kde-format
+msgid "Timezone region selector"
+msgstr "Roghnóir réigiún crios ama"
+
+#: timezoneselector/TimezoneSelector.qml:337
+#, kde-format
+msgid "Timezone location selector"
+msgstr ""

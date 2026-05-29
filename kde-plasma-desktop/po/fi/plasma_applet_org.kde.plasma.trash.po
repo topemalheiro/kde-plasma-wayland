@@ -1,0 +1,111 @@
+# translation of plasma_applet_trash.po to Finnish
+# Copyright © 2008, 2010, 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kde-workspace package.
+# Teemu Rytilahti <teemu.rytilahti@kde-fi.org>, 2008.
+# SPDX-FileCopyrightText: 2010, 2012, 2021, 2023, 2025 Tommi Nieminen <translator@legisign.org>
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2013, 2014, 2015, 2016.
+#
+# KDE Finnish translation sprint participants:
+# Author: Lliehu
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_trash\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-05-25 10:09+0300\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "Roskakori"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "Tyhjennetään…"
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "Yksi kohde"
+msgstr[1] "%1 kohdetta"
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "Tyhjä"
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "Avaa"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "Tyhjennä"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "Roskakorin asetukset…"
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "Tyhjennä"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr ""
+#~ "Roskakori\n"
+#~ "Tyhjä"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "Roskakori\n"
+#~ "Yksi tiedosto"
+#~ msgstr[1] ""
+#~ "Roskakori\n"
+#~ "%1 tiedostoa"
+
+#~ msgid ""
+#~ "Trash \n"
+#~ " Empty"
+#~ msgstr ""
+#~ "Roskakori \n"
+#~ " Tyhjä"
+
+# ”Tyhjennä roskakori” ei mahtunut tämän kommentin kirjoitushetkellä siististi käyttöliittymään.
+#~ msgid "Empty Trash"
+#~ msgstr "Tyhjennä"
+
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr ""
+#~ "Haluatko varmasti tyhjentää roskakorin? Kaikki siellä olevat tiedostot "
+#~ "poistetaan."
+
+#~ msgid "Cancel"
+#~ msgstr "Peru"

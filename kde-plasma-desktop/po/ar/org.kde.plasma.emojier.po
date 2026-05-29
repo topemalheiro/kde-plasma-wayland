@@ -1,0 +1,248 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-13 00:47+0000\n"
+"PO-Revision-Date: 2026-05-21 11:23+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: app/emojier.cpp:43 app/emojier.cpp:45
+#, kde-format
+msgid "Emoji Selector"
+msgstr "منتقي الإيموجي"
+
+#: app/emojier.cpp:47
+#, kde-format
+msgid "(C) 2019 Aleix Pol i Gonzalez"
+msgstr "(ج) 2019 أليكس بول إي جونزاليس"
+
+#: app/emojier.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: app/emojier.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: app/emojier.cpp:58
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "استبدل نسخة موجودة"
+
+#: app/ui/CategoryPage.qml:41
+#, kde-format
+msgctxt "@action Search field action"
+msgid "Search"
+msgstr "ابحث"
+
+#: app/ui/CategoryPage.qml:100
+#, kde-format
+msgctxt "@action:button clear emoji history"
+msgid "Clear History"
+msgstr "امحُ التاريخ"
+
+#: app/ui/CategoryPage.qml:106
+#, kde-format
+msgctxt "@action:button Button to open a menu that lets you choose a skin tone"
+msgid "Skin tone: %1"
+msgstr "لون البشرة: %1"
+
+#: app/ui/CategoryPage.qml:137
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐️ Neutral"
+msgstr "🖐محايد"
+
+#: app/ui/CategoryPage.qml:138
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Neutral"
+msgstr "طبيعي"
+
+#: app/ui/CategoryPage.qml:146
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏻 Light"
+msgstr "🖐🏻 فاتح"
+
+#: app/ui/CategoryPage.qml:147
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Light"
+msgstr "فاتح"
+
+#: app/ui/CategoryPage.qml:155
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏼 Medium Light"
+msgstr "🖐🏼 فاتح متوسط"
+
+#: app/ui/CategoryPage.qml:156
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium Light"
+msgstr "فاتح متوسط"
+
+#: app/ui/CategoryPage.qml:164
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏽 Medium"
+msgstr "🖐🏽 متوسط"
+
+#: app/ui/CategoryPage.qml:165
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium"
+msgstr "متوسط"
+
+#: app/ui/CategoryPage.qml:173
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏾 Medium Dark"
+msgstr "🖐🏾 داكن متوسط"
+
+#: app/ui/CategoryPage.qml:174
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium Dark"
+msgstr "داكن متوسط"
+
+#: app/ui/CategoryPage.qml:182
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏿 Dark"
+msgstr "🖐🏿 داكن"
+
+#: app/ui/CategoryPage.qml:183
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Dark"
+msgstr "داكن"
+
+#: app/ui/CategoryPage.qml:194
+#, kde-format
+msgctxt "@title:window A two-tone skin variant can be selected here"
+msgid "Select Variant"
+msgstr "حدد لون بشرة"
+
+#: app/ui/CategoryPage.qml:242
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Copy Character"
+msgstr "انسخ المحرف"
+
+#: app/ui/CategoryPage.qml:250
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Copy Description"
+msgstr "انسخ الوصف"
+
+#: app/ui/CategoryPage.qml:291
+#, kde-format
+msgctxt "@label placeholder for empty recent emoji list"
+msgid "No recent emojis"
+msgstr "لا يوجد صور تعبيرية حديثة"
+
+#: app/ui/CategoryPage.qml:291
+#, kde-format
+msgctxt "@label placeholder for no emoji found in category"
+msgid "No matching emoji found"
+msgstr "لم يعثر على رموز مطابقة"
+
+#: app/ui/CategoryPage.qml:339
+#, kde-format
+msgctxt ""
+"@action:button Opens a window where a two-tone skin variant can be selected. "
+"%1 is the emoji's name"
+msgid "Select Variant of \"%1\""
+msgstr "حدد لون بشرة ”%1“"
+
+#: app/ui/Emojier.qml:44
+#, kde-format
+msgctxt "@info:status passive notification as action feedback, %1 is an emoji"
+msgid "%1 copied to the clipboard"
+msgstr "‏%1 نُسخ للحافظة"
+
+#: app/ui/Emojier.qml:58
+#, kde-format
+msgctxt "@title page title for Recent Emoji view, and sidebar label for it"
+msgid "Recent"
+msgstr "الحديثة"
+
+#: app/ui/Emojier.qml:73
+#, kde-format
+msgctxt "@title:page All emojis"
+msgid "All"
+msgstr "الكلّ"
+
+#: emojicategory.cpp:14
+msgctxt "Emoji Category"
+msgid "Smileys and Emotion"
+msgstr "تعبيرات وأحاسيس"
+
+#: emojicategory.cpp:15
+msgctxt "Emoji Category"
+msgid "People and Body"
+msgstr "الناس و الجسم"
+
+#: emojicategory.cpp:16
+msgctxt "Emoji Category"
+msgid "Component"
+msgstr "مكون"
+
+#: emojicategory.cpp:17
+msgctxt "Emoji Category"
+msgid "Animals and Nature"
+msgstr "حيوانات وطبيعة"
+
+#: emojicategory.cpp:18
+msgctxt "Emoji Category"
+msgid "Food and Drink"
+msgstr "طعام وشراب"
+
+#: emojicategory.cpp:19
+msgctxt "Emoji Category"
+msgid "Travel and Places"
+msgstr "سفر وأماكن"
+
+#: emojicategory.cpp:20
+msgctxt "Emoji Category"
+msgid "Activities"
+msgstr "الأنشطة"
+
+#: emojicategory.cpp:21
+msgctxt "Emoji Category"
+msgid "Objects"
+msgstr "أشياء"
+
+#: emojicategory.cpp:22
+msgctxt "Emoji Category"
+msgid "Symbols"
+msgstr "رموز"
+
+#: emojicategory.cpp:23
+msgctxt "Emoji Category"
+msgid "Flags"
+msgstr "أعلام"
+
+#~ msgid "Categories"
+#~ msgstr "الفئات"
+
+#~ msgid "Search…"
+#~ msgstr "ابحث…"

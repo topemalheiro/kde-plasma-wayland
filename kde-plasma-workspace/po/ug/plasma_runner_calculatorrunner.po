@@ -1,0 +1,51 @@
+# Uyghur translation for plasma_runner_calculatorrunner.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_calculatorrunner\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-02-09 18:16-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: calculatorrunner.cpp:28
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "چاپلاش تاختىسىغا كۆچۈر"
+
+#: calculatorrunner.cpp:31
+#, kde-format
+msgid ""
+"Calculates the value of :q: when :q: is made up of numbers and mathematical "
+"symbols such as +, -, /, *, ! and ^."
+msgstr ""
+":q: رەقەم ۋە ماتېماتىكىلىق ئەمەل بەلگىلىرى (+، -، /، *، ! ۋە ^) دىن تەركىب "
+"تاپقان بولسا، :q: نىڭ قىممىتىنى ھېسابلايدۇ."
+
+#: calculatorrunner.cpp:36
+#, kde-format
+msgid "Enter a common math function"
+msgstr "ئادەتتىكى ماتېماتىكىلىق فۇنكسىيە كىرگۈزۈلىدۇ"
+
+#: calculatorrunner.cpp:140
+#, kde-format
+msgctxt "The result of the calculation is only an approximation"
+msgid "Approximation"
+msgstr "تەخمىنىي قىممەت"
+
+#~ msgid ""
+#~ "The exchange rates could not be updated. The following error has been "
+#~ "reported: %1"
+#~ msgstr ""
+#~ "ئالماشتۇرۇش باھاسى(exchange rates)نى يېڭىلىغىلى بولمىدى. تۆۋەندىكىدەك "
+#~ "خاتالىق كۆرۈلدى: %1"

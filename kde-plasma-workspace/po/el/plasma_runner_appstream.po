@@ -1,0 +1,28 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 Dimitrys Meliates <demetresmeliates+i18n@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-08-24 14:05+0300\n"
+"Last-Translator: Dimitrys Meliates <demetresmeliates+i18n@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: appstreamrunner.cpp:35
+#, kde-format
+msgid "Looks for non-installed components according to :q:"
+msgstr "Αναζήτηση για μη εγκατεστημένα συστατικά σύμφωνα με το :q:"
+
+#: appstreamrunner.cpp:125
+#, kde-format
+msgid "Get %1…"
+msgstr "Λήψη %1…"

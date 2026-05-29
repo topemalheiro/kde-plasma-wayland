@@ -1,0 +1,190 @@
+/*
+    SPDX-FileCopyrightText: 2019 Aleix Pol Gonzalez <aleixpol@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+*/
+pragma ComponentBehavior: Bound
+
+import QtQuick
+import QtQuick.Controls as QQC2
+
+import org.kde.kirigami as Kirigami
+import org.kde.config as KConfig
+
+import org.kde.plasma.emoji
+
+Kirigami.ApplicationWindow {
+    id: window
+
+    readonly property CategoryPage currentPage: window.pageStack.currentItem as CategoryPage
+
+
+    minimumWidth: Math.round(minimumHeight * 1.25)
+    // minimumHeight is set in Component.onCompleted to avoid a binding loop
+
+    width: Kirigami.Units.gridUnit * 25
+    height: Kirigami.Units.gridUnit * 25
+
+    pageStack.initialPage: Qt.resolvedUrl("CategoryPage.qml")// { }
+
+    KConfig.WindowStateSaver {
+        configGroupName: "MainWindow"
+    }
+
+    EmojiModel {
+        id: emoji
+    }
+
+    RecentEmojiModel {
+        id: recentEmojiModel
+    }
+
+    function copyAndReport(text: string) : void {
+        CopyHelper.copyTextToClipboard(text)
+        window.showPassiveNotification(i18nc("@info:status passive notification as action feedback, %1 is an emoji", "%1 copied to the clipboard", text))
+    }
+
+    function addToRecents(text: string, description: string): void {
+        recentEmojiModel.includeRecent(text, description);
+    }
+
+    function clearHistory() : void {
+        recentEmojiModel.clearHistory();
+    }
+
+    Kirigami.Action {
+        id: recentAction
+        checked: window.pageStack.get(0).title === text
+        text: i18nc("@title page title for Recent Emoji view, and sidebar label for it", "Recent")
+
+        icon.name: "document-open-recent-symbolic"
+        onTriggered: {
+            window.currentPage.category = "Recent";
+            window.currentPage.model = recentEmojiModel;
+            window.currentPage.title = text;
+            window.currentPage.showClearHistoryButton = true;
+            window.currentPage.searchFieldFocusRequested();
+        }
+    }
+
+    Kirigami.Action {
+        id: allAction
+        checked: window.pageStack.get(0).title === text
+        text: i18nc("@title:page All emojis", "All")
+        icon.name: "view-list-icons"
+
+        onTriggered: {
+            window.currentPage.category = "All";
+            window.currentPage.model = emoji;
+            window.currentPage.title = text;
+            window.currentPage.showClearHistoryButton = false;
+            window.currentPage.searchFieldFocusRequested();
+        }
+    }
+
+    globalDrawer: Kirigami.GlobalDrawer {
+        id: drawer
+
+        collapsible: true
+        showHeaderWhenCollapsed: true
+        collapseButtonVisible: false
+        collapsed: true
+        modal: false
+
+        actions: [recentAction, allAction]
+
+        header: Kirigami.AbstractApplicationHeader {
+            leftPadding: Kirigami.Units.smallSpacing
+            rightPadding: Kirigami.Units.smallSpacing
+
+            QQC2.ToolButton {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                text: drawer.collapsed ? "" : qsTr("Close Sidebar")
+                icon.name: {
+                    if (drawer.collapsed) {
+                        return Application.layoutDirection === Qt.RightToLeft ? "sidebar-expand-right" : "sidebar-expand-left";
+                    } else {
+                        return Application.layoutDirection === Qt.RightToLeft ? "sidebar-collapse-right" : "sidebar-collapse-left";
+                    }
+                }
+
+                onClicked: drawer.collapsed = !drawer.collapsed
+
+                QQC2.ToolTip.visible: drawer.collapsed && (Kirigami.Settings.tabletMode ? pressed : hovered)
+                QQC2.ToolTip.text: qsTr("Open Sidebar")
+                QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+            }
+        }
+
+        function getIcon(category: string): string {
+            switch (category.trim()) {
+                case 'Activities': return 'games-highscores'
+                case 'Animals and Nature': return 'animal'
+                case 'Flags': return 'flag'
+                case 'Food and Drink': return 'food'
+                case 'Objects': return 'object'
+                case 'People and Body': return 'user'
+                case 'Smileys and Emotion': return 'smiley'
+                case 'Symbols': return 'checkmark'
+                case 'Travel and Places': return 'globe'
+                default: return 'folder'
+            }
+        }
+
+        Instantiator {
+            id: instantiator
+
+            model: emoji.categories
+            delegate: Kirigami.Action {
+                required property string modelData
+
+                checked: window.pageStack.get(0).title === text
+                icon.name: drawer.getIcon(modelData)
+                text: i18ndc("org.kde.plasma.emojier", "Emoji Category", modelData)
+
+                onTriggered: {
+                    window.currentPage.category = modelData;
+                    window.currentPage.model = emoji;
+                    window.currentPage.title = text
+                    window.currentPage.showClearHistoryButton = false;
+                    window.currentPage.searchFieldFocusRequested();
+                }
+            }
+
+            onObjectAdded: (index, object) => {
+                drawer.actions.push(object);
+            }
+        }
+    }
+
+    Connections {
+        target: window.pageStack.currentItem
+        function onCopyRequested(text: string) : void { window.copyAndReport(text) }
+        function onAddToRecentsRequested(text: string, description: string) : void { window.addToRecents(text, description) }
+        function onClearHistoryRequested() : void { window.clearHistory() }
+        function onAllDataRequested() : void {
+            if (window.currentPage.category.length > 0 || window.currentPage.model != emoji) {
+                window.currentPage.category = "";
+                window.currentPage.model = emoji;
+                window.currentPage.title = allAction.text
+                window.currentPage.showClearHistoryButton = true;
+            }
+        }
+    }
+
+    Component.onCompleted: {
+        if (recentEmojiModel.count > 0) {
+            recentAction.trigger();
+        } else {
+            allAction.trigger();
+        }
+
+        // Correct height required for no scrolling — drawer's header's
+        // implicit height is used instead of height, so add the difference.
+        // Set imperatively to avoid binding loop
+        window.minimumHeight = Qt.binding( () => {
+            return drawer.contentHeight + (drawer.header.height - drawer.header.implicitHeight)
+        })
+    }
+}

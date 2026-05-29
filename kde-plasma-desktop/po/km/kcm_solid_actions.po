@@ -1,0 +1,284 @@
+# translation of kcm_solid_actions.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_solid_actions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-31 00:46+0000\n"
+"PO-Revision-Date: 2012-06-13 15:41+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,vannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: ActionEditor.cpp:60
+#, fuzzy, kde-format
+#| msgid "Editing Action %1"
+msgid "Editing Action '%1'"
+msgstr "កែសម្រួល​សកម្មភាព %1"
+
+#: ActionEditor.cpp:162
+#, kde-format
+msgid ""
+"It appears that the action name, command, icon or condition are not valid.\n"
+"Therefore, changes will not be applied."
+msgstr ""
+"វា​បង្ហាញ​ថា ឈ្មោះ​សកម្មភាព ពាក្យ​បញ្ជា រូបតំណាង ឬ​លក្ខខណ្ឌ​មិន​ត្រឹមត្រូវ ។\n"
+"ដូច្នេះ ការ​​ផ្លាស់ប្ដូរ​នឹង​មិន​ត្រូ​វបានអនុវត្ត​ទេ ។"
+
+#: ActionEditor.cpp:163
+#, kde-format
+msgid "Invalid action"
+msgstr "សកម្មភាព​មិន​ត្រឹមត្រូវ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GbParameter)
+#: ActionEditor.ui:17
+#, kde-format
+msgid "Edit Parameter"
+msgstr "កែសម្រួល​ប៉ារ៉ាម៉ែត្រ"
+
+#. i18n: ectx: property (text), widget (QLabel, LblParameterType)
+#: ActionEditor.ui:43
+#, kde-format
+msgid "Parameter type:"
+msgstr "ប្រភេទ​ប៉ារ៉ាម៉ែត្រ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:51
+#, kde-format
+msgid "Property Match"
+msgstr "ការ​ផ្គូផ្គង​លក្ខណសម្បត្តិ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:56
+#, kde-format
+msgid "Content Conjunction"
+msgstr "កា​រភ្ជាប់​មាតិកា"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:61
+#, kde-format
+msgid "Content Disjunction"
+msgstr "ផ្ដាច់​មាតិកា"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:66
+#, kde-format
+msgid "Device Interface Match"
+msgstr "ផ្គូផ្គង​ចំណុច​ប្រទាក់​ឧបករណ៍"
+
+#. i18n: ectx: property (text), widget (QLabel, LblDeviceType)
+#: ActionEditor.ui:96
+#, kde-format
+msgid "Device type:"
+msgstr "ប្រភេទ​ឧបករណ៍ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, LblValueName)
+#: ActionEditor.ui:135
+#, kde-format
+msgid "Value name:"
+msgstr "ឈ្មោះ​តម្លៃ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#: ActionEditor.ui:175
+#, kde-format
+msgid "Equals"
+msgstr "ស្មើ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#: ActionEditor.ui:180
+#, kde-format
+msgid "Contains"
+msgstr "មាន"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterReset)
+#: ActionEditor.ui:208
+#, kde-format
+msgid "Reset Parameter"
+msgstr "កំណត់ប៉ារ៉ាម៉ែត្រ​ឡើង​វិញ"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterSave)
+#: ActionEditor.ui:215
+#, kde-format
+msgid "Save Parameter Changes"
+msgstr "រក្សា​ទុក​ការ​ផ្លាស់ប្ដូរ​ប៉ារ៉ាម៉ែត្រ"
+
+#. i18n: ectx: property (toolTip), widget (KIconButton, IbActionIcon)
+#: ActionEditor.ui:247
+#, kde-format
+msgid "Action icon, click to change it"
+msgstr "រូបតំណាង​សកម្មភាព ចុច​ដើម្បី​ផ្លាស់ប្ដូរ​វា"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionFriendlyName)
+#: ActionEditor.ui:254
+#, kde-format
+msgid "Action name"
+msgstr "ឈ្មោះ​សកម្មភាព"
+
+#. i18n: ectx: property (text), widget (QLabel, TlActionCommand)
+#: ActionEditor.ui:271
+#, kde-format
+msgid "Command: "
+msgstr "ពាក្យ​បញ្ជា ៖"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, LeActionCommand)
+#: ActionEditor.ui:283
+#, no-c-format, kde-format
+msgid ""
+"Command that will trigger the action\n"
+"This can include any or all of the following case insensitive expands:\n"
+"\n"
+"%f: The mountpoint for the device - Storage Access devices only\n"
+"%d: Path to the device node - Block devices only\n"
+"%i: The identifier of the device"
+msgstr ""
+"ពាក្យ​បញ្ជា​ដែល​នឹង​កេះ​សកម្មភាព\n"
+"វា​អាច​រួម​បញ្ចូល​ការ​ពង្រីក​អក្សរតូចធំ​ដូច​ខាងក្រោម ៖\n"
+"\n"
+"%f: ចំណុច​ម៉ោន​សម្រាប់​ឧបករណ៍ - អាច​ចូលដំណើរការ​ឧបករណ៍​​នៃ​ការ​ផ្ទុក​\n"
+"%d: ផ្លូវ​ទៅ​ថ្នាំង​ឧបករណ៍ - ទប់ស្កាត់​តែ​ឧបករណ៍​ប៉ុណ្ណោះ\n"
+"%i: ឧបករណ៍​កំណត់​អត្តសញ្ញាណ​របស់​ឧបករណ៍"
+
+#. i18n: ectx: property (text), widget (QLabel, TlPredicateTree)
+#: ActionEditor.ui:300
+#, kde-format
+msgid "Devices must match the following parameters for this action:"
+msgstr "ឧបករណ៍​ត្រូវ​តែ​ផ្គូផ្គង​ប៉ារ៉ាម៉ែត្រ​ដូច​ខាងក្រោម​សម្រាប់​សកម្មភាព​នេះ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, LblActionName)
+#: AddAction.ui:19
+#, kde-format
+msgid "Action name:"
+msgstr "ឈ្មោះ​សកម្មភាព ៖"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionName)
+#: AddAction.ui:26
+#, kde-format
+msgid "Enter the name for your new action"
+msgstr "បញ្ចូល​ឈ្មោះ​សម្រាប់​សកម្មភាព​ថ្មី​របស់​អ្នក"
+
+#: DesktopFileGenerator.cpp:25
+#, kde-format
+msgid "Solid Action Desktop File Generator"
+msgstr "កម្មវិធី​បង្កើត​ឯកសារ​ផ្ទៃតុ​សកម្មភាព​តាន់"
+
+#: DesktopFileGenerator.cpp:27
+#, kde-format
+msgid ""
+"Tool to automatically generate Desktop Files from Solid DeviceInterface "
+"classes for translation"
+msgstr "ឧបករណ៍​ត្រូវ​បង្កើត​ឯកសារ​ដោយ​ស្វ័យ​ប្រវត្តិ​ពី​ថ្នាក់ DeviceInterface សម្រាប់​បកប្រែ"
+
+#: DesktopFileGenerator.cpp:29
+#, kde-format
+msgid "(c) 2009, Ben Cooksley"
+msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៩ ដោយ Ben Cooksley"
+
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Ben Cooksley"
+msgstr "Ben Cooksley"
+
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Maintainer"
+msgstr "អ្នក​ថែទាំ"
+
+#: PredicateItem.cpp:119
+#, kde-format
+msgid "The device must be of the type %1"
+msgstr "ឧបករណ៍​ត្រូវ​តែ​ជា​ប្រភេទ​ %1"
+
+#: PredicateItem.cpp:122
+#, kde-format
+msgid "Any of the contained properties must match"
+msgstr "លក្ខណសម្បត្តិ​ដែល​មាន​មួយ​ចំនួន​ត្រូវ​តែ​ផ្គូផ្គង"
+
+#: PredicateItem.cpp:125
+#, kde-format
+msgid "All of the contained properties must match"
+msgstr "លក្ខណសម្បត្តិ​ដែលមាន​ណាមួយ​ត្រូវ​តែ​ផ្គូផ្គង"
+
+#: PredicateItem.cpp:134
+#, kde-format
+msgid "The device property %1 must equal %2"
+msgstr "លក្ខណ​សម្បត្តិ​ឧបករណ៍​ %1 ត្រូវ​តែ​ស្មើ %2"
+
+#: PredicateItem.cpp:137
+#, kde-format
+msgid "The device property %1 must contain %2"
+msgstr "លក្ខណសម្បត្តិ​ឧបករណ៍ %1 ត្រូវ​តែ​មាន %2"
+
+#: SolidActions.cpp:139
+#, kde-format
+msgid "It appears that the predicate for this action is not valid."
+msgstr "វា​បង្ហាញ​ថា​ការ​ទាយ​សម្រាប់​សកម្មភាព​នេះ​មិន​ត្រឹមត្រូវ ។"
+
+#: SolidActions.cpp:139
+#, kde-format
+msgid "Error Parsing Device Conditions"
+msgstr "កំហុស​ក្នុងការ​ញែក​លក្ខខណ្ឌ​ឧបករណ៍"
+
+#: SolidActions.cpp:187
+#, kde-format
+msgid "No Action Selected"
+msgstr "គ្មាន​សកម្មភាព​បាន​ជ្រើស"
+
+#: SolidActions.cpp:208
+#, kde-format
+msgid "Cannot be deleted"
+msgstr "មិនអាច​ត្រូ​វបានលុប​ទេ"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbDeleteAction)
+#: SolidActions.ui:22
+#, kde-format
+msgid "Remove"
+msgstr "យក​​ចេញ"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbEditAction)
+#: SolidActions.ui:29
+#, kde-format
+msgid "Edit…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbAddAction)
+#: SolidActions.ui:36
+#, kde-format
+msgid "Add…"
+msgstr ""
+
+#~ msgid "Solid Device Actions Editor"
+#~ msgstr "កម្មវិធី​កែសម្រួល​សកម្មភាព​ឧបករណ៍​តាន់"
+
+#~ msgid "Solid Device Actions Control Panel Module"
+#~ msgstr "ម៉ូឌុល​បន្ទះ​ត្រួតពិនិត្យ​សកម្មភាព​ឧបករណ៍​តាន់"
+
+#, fuzzy
+#~| msgid "(c) 2009 Solid Device Actions team"
+#~ msgid "(c) 2009, 2014 Solid Device Actions team"
+#~ msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៩ ដោយ​ក្រុម​សកម្មភាព​ឧបករណ៍​តាន់"
+
+#~ msgid "Edit..."
+#~ msgstr "កែសម្រួល..."
+
+#~ msgid "Add..."
+#~ msgstr "បន្ថែម..."

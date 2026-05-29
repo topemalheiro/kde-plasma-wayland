@@ -1,0 +1,391 @@
+# Lithuanian translations for l package.
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+#
+# Automatically generated, 2014.
+# Liudas Ališauskas <liudas@aksioma.lt>, 2014, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-05-01 14:02+0300\n"
+"Last-Translator: Moo <<>>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr "Išjungti %1"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Bendra"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "Rodyti, kai aktualus"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "Visada rodyti"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "Rodyti tik iškylančiajame lange"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "Niekada nerodyti (išjungtas)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "Programos būsena"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "Ryšiai"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "Sistemos tarnybos"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "Aparatinės įrangos valdymas"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Įvairūs"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"Prieš darydami tai čia, ieškokite programoje <application>%1</application> "
+"nuostatos išjungti dėklo piktogramą. Kai kurių programų dėklo piktogramos "
+"nebuvo sukurtos tam, kad būtų išjungtos, tad šios nuostatos naudojimas gali "
+"sukelti netikėtą tų programų elgseną.<nl/><nl/>Naudokite šią nuostatą savo "
+"pačių rizika ir nepranešinėkite apie klaidas KDE projektui ar programos "
+"autoriui."
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "Aš suprantu rizikas"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"Išjungti iškarpinę yra nerekomenduojama todėl, kad nukopijuoti duomenys bus "
+"prarandami po to, kai bus užveriama programa, iš kurios jie buvo nukopijuoti."
+"<nl/><nl/>Išjunkite ją tik tuo atveju, jei kurioje nors kitoje vietoje esate "
+"pridėję atskirą iškarpinės valdiklį arba naudojate trečiosios šalies "
+"iškarpinės tvarkytuvę. Taip pat, užuot tai darę, pagalvokite apie galimybę "
+"sukonfigūruoti iškarpinę taip, kad būtų išjungta jos istorija arba taip, kad "
+"vienu metu ji prisimintų tik vieną elementą."
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"Yra nerekomenduojama išjungti pranešimų valdiklio, nes nebebus rodomi "
+"programų siunčiami pranešimai.<nl/><nl/>Darykite tai tik tuo atveju, jei "
+"kurioje nors kitoje vietoje esate pridėję atskirą pranešimų valdiklį arba "
+"pranešimų apdorojimui sąmoningai naudojate trečiosios šalies pranešimų "
+"tvarkytuvę."
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "Keisti mastelį pagal skydelio aukštį"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "Keisti mastelį pagal skydelio plotį"
+
+#: qml/ConfigGeneral.qml:213
+#, kde-format
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "Skydelio piktogramų dydis:"
+
+#: qml/ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "Mažas"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr "Tarpai:"
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Maži"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Įprasti"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Dideli"
+
+#: qml/ConfigGeneral.qml:269
+#, kde-format
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "Kryptis:"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr "Iš apačios į viršų"
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr "Iš viršaus į apačią"
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr "Iš kairės į dešinę"
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr "Iš dešinės į kairę"
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "Automatiškai nustatoma į didelius, kai esama lietimo veiksenoje"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "Elementai"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "Visada rodyti visus"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Grįžti"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Būsena ir pranešimai"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "Daugiau veiksmų"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "Palikti atvertą"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "Rodyti visus sistemos dėklo elementus iškylančiajame lange"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "Užverti iškylantįjį langą"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Rodyti paslėptas piktogramas"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "Tinklelis, kuriame %1 elementai išdėstyti %2 stulpeliais"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AĄČčęĘėĖĮįILlmŠšŲųŪūŽžyjgGJP"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "Automatiškai įjungta, kai esama lietimo veiksenoje"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "Tarpai tarp skydelio piktogramų:"
+
+#~ msgid "Always hidden"
+#~ msgstr "Visada slepiamas"
+
+#~ msgid "Disabled"
+#~ msgstr "Išjungtas"
+
+#~ msgctxt "Name of the system tray entry"
+#~ msgid "Entry"
+#~ msgstr "Elementas"
+
+#~ msgid "Visibility"
+#~ msgstr "Matomumas"
+
+#~ msgid "Keyboard Shortcut"
+#~ msgstr "Spartieji klavišai"
+
+#~ msgid "Always show all entries"
+#~ msgstr "Visada rodyti visus elementus"
+
+#~ msgid "Some letters with tall characters, ascenders, descenders, etc"
+#~ msgstr ""
+#~ "Kai kurios raidės su aukštais simboliais, viršraidžiai, poraidžiai ir t.t."
+
+#~ msgid "Expand System Tray"
+#~ msgstr "Išskleisti sistemos dėklą"
+
+#~ msgctxt ""
+#~ "Suffix added to the applet name if the applet is autoloaded via DBus "
+#~ "activation"
+#~ msgid "%1 (Automatic load)"
+#~ msgstr "%1 (Automatinis įkėlimas)"
+
+#~ msgid "Very Small"
+#~ msgstr "Labai mažas"
+
+#~ msgid "Medium"
+#~ msgstr "Vidutinis"
+
+#~ msgid "Huge"
+#~ msgstr "Didžiulis"
+
+#~ msgid "Enormous"
+#~ msgstr "Milžiniškas"
+
+#~ msgid "Auto"
+#~ msgstr "Automatiškai"
+
+#~ msgid "Shown"
+#~ msgstr "Rodomas"
+
+#~ msgid "Hidden"
+#~ msgstr "Paslėptas"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorijos"
+
+#~ msgid "Extra Items"
+#~ msgstr "Papildomi elementai"
+
+#~ msgid "Hide icons"
+#~ msgstr "Slėpti ženkliukus"
+
+#, fuzzy
+#~| msgid "Status & Notifications"
+#~ msgid "Stat&us Notifier"
+#~ msgstr "Būsena ir pranešimai"
+
+#, fuzzy
+#~| msgid " (Automatic load)"
+#~ msgid "Automatic"
+#~ msgstr " (Automatinis įkėlimas)"
+
+#, fuzzy
+#~| msgid "System Services"
+#~ msgctxt "tooltip title"
+#~ msgid "System Service Item"
+#~ msgstr "Sistemos paslaugos"
+
+#, fuzzy
+#~| msgid "Status & Notifications"
+#~ msgctxt "title"
+#~ msgid "StatusNotifierTest"
+#~ msgstr "Būsena ir pranešimai"
+
+#~ msgid "System Tray Options"
+#~ msgstr "Sistemos dėklo parinktys"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "%1 parinktys"
+
+#~ msgid "Unknown Category"
+#~ msgstr "Nežinoma kategorija"
+
+#~ msgid "Hardware"
+#~ msgstr "Aparatinė įranga"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Options"
+#~ msgstr "%1 parinktys"

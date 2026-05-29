@@ -1,0 +1,669 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2025-06-06 11:46+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.1\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Ta bort från favoriter"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Lägg till i favoriter"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "För alla aktiviteter"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "För aktuell aktivitet"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Visa i favoriter"
+
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Allmänt"
+
+#: ConfigGeneral.qml:47
+#, fuzzy, kde-format
+#| msgid "Icon:"
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Ändra startprogrammets ikon"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Nuvarande ikon är %1. Klicka för att visa menyn för att ändra nuvarande ikon "
+"eller återställa till standardikonen."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Ikonnamnet är \"%1\""
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Välj…"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Välj en ikon för startprogrammet"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Återställ till standardikon"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Ta bort ikon"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Textetikett:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Skriv här för att lägga till en textetikett"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Återställ menybeteckning"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "En textetikett kan inte anges när panelen är vertikal."
+
+#: ConfigGeneral.qml:157
+#, fuzzy, kde-format
+#| msgid "Show applications as:"
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Visa program med:"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name only"
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Bara namn"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description only"
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Bara beskrivning"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name (Description)"
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Namn (Beskrivning)"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Beskrivning (Namn)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Allmänt:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Sortera program alfabetiskt"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Det påverkar inte hur program sorteras varken i sökresultat eller på "
+"favoritsidan."
+
+#: ConfigGeneral.qml:181
+#, fuzzy, kde-format
+#| msgid "Use compact list item style"
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "Använd kompakt stil för listalternativ"
+
+#: ConfigGeneral.qml:187
+#, fuzzy, kde-format
+#| msgid "Highlight newly installed applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Markera nyinstallerade program"
+
+#: ConfigGeneral.qml:192
+#, fuzzy, kde-format
+#| msgid "Switch sidebar categories when hovering over them"
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Ändra sidoradskategorier när muspekaren hålls över dem"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Anpassa sökinsticksprogram…"
+
+#: ConfigGeneral.qml:208
+#, fuzzy, kde-format
+#| msgid "Sidebar position:"
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Sidoradens position:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Right"
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Höger"
+
+#: ConfigGeneral.qml:209
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Vänster"
+
+#: ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Vänster"
+
+#: ConfigGeneral.qml:225
+#, fuzzy, kde-format
+#| msgid "Show favorites:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Visa favoriter:"
+
+#: ConfigGeneral.qml:226
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "I ett rutnät"
+
+#: ConfigGeneral.qml:234
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "I en lista"
+
+#: ConfigGeneral.qml:242
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Visa övriga program:"
+
+#: ConfigGeneral.qml:243
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "I ett rutnät"
+
+#: ConfigGeneral.qml:251
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "I en lista"
+
+#: ConfigGeneral.qml:263
+#, fuzzy, kde-format
+#| msgid "Show buttons for:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Visa knappar för:"
+
+#: ConfigGeneral.qml:264
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Strömhantering"
+
+#: ConfigGeneral.qml:273
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Session"
+
+#: ConfigGeneral.qml:282
+#, fuzzy, kde-format
+#| msgid "Power and session"
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Strömhantering och session"
+
+#: ConfigGeneral.qml:291
+#, fuzzy, kde-format
+#| msgid "Show action button captions"
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "Visa rubriker för åtgärdsknappar"
+
+#: Footer.qml:101
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Program"
+
+#: Footer.qml:117
+#, fuzzy, kde-format
+#| msgid "Places"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Platser"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Inga träffar"
+
+#: Header.qml:86
+#, fuzzy, kde-format
+#| msgid "Open user settings"
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "Visa användarinställningar"
+
+#: Header.qml:276
+#, fuzzy, kde-format
+#| msgid "Keep Open"
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Behåll öppet"
+
+#: KickoffGridDelegate.qml:59
+#, fuzzy, kde-format
+#| msgctxt "Newly installed app, badge, keep short"
+#| msgid "New!"
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Ny!"
+
+#: KickoffGridDelegate.qml:61
+#, fuzzy, kde-format
+#| msgid "Newly installed application"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Nyinstallerat program"
+
+#: KickoffGridView.qml:105
+#, fuzzy, kde-format
+#| msgid "Grid with %1 rows, %2 columns"
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Rutnät med %1 rader, %2 kolumner"
+
+#: KickoffListDelegate.qml:120
+#, fuzzy, kde-format
+#| msgctxt "Newly installed app, badge, keep short"
+#| msgid "New!"
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Ny!"
+
+#: KickoffListDelegate.qml:125
+#, fuzzy, kde-format
+#| msgid "There is a newly installed application in this category"
+msgid "There is a newly-installed application in this category"
+msgstr "Det finns ett nyinstallerat program i kategorin"
+
+#: KickoffListDelegate.qml:126
+#, fuzzy, kde-format
+#| msgid "Newly installed application"
+msgid "Newly-installed application"
+msgstr "Nyinstallerat program"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Session"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Strömhantering"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "More"
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Mer"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session and Power"
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Session och ström"
+
+#: main.qml:358
+#, fuzzy, kde-format
+#| msgid "Edit Applications…"
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Redigera program…"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Dator"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Historik"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Oftast använda"
+
+#~ msgctxt "Newly installed app, badge, keep short"
+#~ msgid "New!"
+#~ msgstr "Ny!"
+
+#, fuzzy
+#~| msgid "Newly installed application"
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "Nyinstallerat program"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "Automatiskt inaktiverat i pekläge"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a grid'"
+#~ msgid "In a grid"
+#~ msgstr "I ett rutnät"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a list'"
+#~ msgid "In a list"
+#~ msgstr "I en lista"
+
+#~ msgid "Leave"
+#~ msgstr "Gå ifrån"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Rensa ikon"
+
+#~ msgid "Search…"
+#~ msgstr "Sök…"
+
+#~ msgid "Primary actions:"
+#~ msgstr "Primära åtgärder:"
+
+#~ msgid "Power actions"
+#~ msgstr "Kraftåtgärder"
+
+#~ msgid "Leave…"
+#~ msgstr "Gå ifrån…"
+
+#~ msgid "Power…"
+#~ msgstr "Ström…"
+
+#~ msgid "More…"
+#~ msgstr "Mer…"
+
+#~ msgid "Updating applications…"
+#~ msgstr "Uppdaterar program…"
+
+#~ msgid "Allow labels to have two lines"
+#~ msgstr "Tillåt att beteckning har två rader"
+
+#~ msgid "%2@%3 (%1)"
+#~ msgstr "%2@%3 (%1)"
+
+#~ msgid "%1@%2"
+#~ msgstr "%1@%2"
+
+#~ msgid "List with 1 item"
+#~ msgid_plural "List with %1 items"
+#~ msgstr[0] "Lista med 1 objekt"
+#~ msgstr[1] "Lista med %1 objekt"
+
+#~ msgid "%1 submenu"
+#~ msgstr "Undermeny %1"
+
+#~ msgid "Leave..."
+#~ msgstr "Gå ifrån..."
+
+#~ msgid "Power..."
+#~ msgstr "Kraft..."
+
+#~ msgid "More..."
+#~ msgstr "Mer..."
+
+#~ msgid "Applications updated."
+#~ msgstr "Program uppdaterade."
+
+#~ msgid "Switch tabs on hover"
+#~ msgstr "Byt flikar när musen hålls över dem"
+
+#~ msgid "All Applications"
+#~ msgstr "Alla program"
+
+#~ msgid "Favorites"
+#~ msgstr "Favoriter"
+
+#~ msgid "Often Used"
+#~ msgstr "Ofta använda"
+
+#~ msgid "Active Tabs"
+#~ msgstr "Aktiva flikar"
+
+#~ msgid "Inactive Tabs"
+#~ msgstr "Inaktiva flikar"
+
+#~ msgid ""
+#~ "Drag tabs between the boxes to show/hide them, or reorder the visible "
+#~ "tabs by dragging."
+#~ msgstr ""
+#~ "Dra flikar mellan rutorna för att visa eller dölja dem, eller ordna om de "
+#~ "synliga flikarna genom att dra dem."
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Expandera sökning till bokmärken, filer och e-post"
+
+#~ msgid "Appearance"
+#~ msgstr "Utseende"
+
+#~ msgid "Menu Buttons"
+#~ msgstr "Menyknappar"
+
+#~ msgid "Visible Tabs"
+#~ msgstr "Synliga flikar"
+
+#~ msgctxt "@title:column"
+#~ msgid "Favorites"
+#~ msgstr "Favoriter"
+
+#~ msgid "Log out"
+#~ msgstr "Logga ut"
+
+#~ msgid "Lock"
+#~ msgstr "Lås"
+
+#~ msgid "Lock screen"
+#~ msgstr "Lås skärmen"
+
+#~ msgid "Switch user"
+#~ msgstr "Byt användare"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Starta en parallell session som en annan användare"
+
+#~ msgid "Shut down"
+#~ msgstr "Stäng av"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Stäng av datorn"
+
+#~ msgctxt "Restart computer"
+#~ msgid "Restart"
+#~ msgstr "Starta om"
+
+#~ msgid "Restart computer"
+#~ msgstr "Starta om datorn"
+
+#~ msgid "Save current session for next login"
+#~ msgstr "Spara aktuell session till nästa inloggning"
+
+#~ msgctxt "Puts the system on standby"
+#~ msgid "Standby"
+#~ msgstr "Vänteläge"
+
+#~ msgid "Pause without logging out"
+#~ msgstr "Gör en paus utan att logga ut"
+
+#~ msgid "Hibernate"
+#~ msgstr "Dvala"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Viloläge på disk"
+
+#~ msgid "Suspend"
+#~ msgstr "Viloläge"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Gå till viloläge i minnet"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Home Folder"
+#~ msgstr "Hemkatalog"
+
+#~ msgid "Network Folders"
+#~ msgstr "Nätverkskataloger"
+
+#~ msgid "Documents"
+#~ msgstr "Dokument"
+
+#~ msgid "Recently Used Documents"
+#~ msgstr "Senast använda dokument"
+
+#~ msgid "Run Command..."
+#~ msgstr "Kör kommando..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Kör ett kommando eller utför en sökning"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Flyttbara lagringsmedia"
+
+#~ msgid "Show 'Recently Installed'"
+#~ msgstr "Visa 'Senast installerade'"
+
+#~ msgid "Uninstall"
+#~ msgstr "Avinstallera"
+
+#~ msgid "Sort Alphabetically (Z to A)"
+#~ msgstr "Sortera alfabetiskt (Ö till A)"
+
+#~ msgid "Clear Recent Applications"
+#~ msgstr "Rensa senaste program"
+
+#~ msgid "Clear Recent Documents"
+#~ msgstr "Rensa senaste dokument"
+
+#~ msgid "Sleep"
+#~ msgstr "Viloläge"
+
+#~ msgid "Add To Favorites In This Activity Only"
+#~ msgstr "Lägg till i favoriter bara i den här aktiviteten"
+
+#~ msgid "Plasma by KDE"
+#~ msgstr "Plasma av KDE"

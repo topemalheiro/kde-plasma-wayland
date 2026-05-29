@@ -1,0 +1,100 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2023, 2024, 2026 Shinjo Park <kde@peremen.name>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-29 00:44+0000\n"
+"PO-Revision-Date: 2026-02-03 23:28+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: kded/mprisservice.cpp:131
+#, kde-format
+msgctxt "@title Name for global shortcuts category"
+msgid "Media Controller"
+msgstr "미디어 컨트롤러"
+
+#: kded/mprisservice.cpp:140
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Play/Pause media playback"
+msgstr "미디어 재생/일시 정지"
+
+#: kded/mprisservice.cpp:141
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback next"
+msgstr "다음 미디어 재생"
+
+#: kded/mprisservice.cpp:142
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback previous"
+msgstr "이전 미디어 재생"
+
+#: kded/mprisservice.cpp:144
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek forward 5s"
+msgstr "미디어 앞으로 5초 이동"
+
+#: kded/mprisservice.cpp:148
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek backward 5s"
+msgstr "미디어 뒤로 5초 이동"
+
+#: kded/mprisservice.cpp:152
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek forward 30s"
+msgstr "미디어 앞으로 30초 이동"
+
+#: kded/mprisservice.cpp:156
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek backward 30s"
+msgstr "미디어 뒤로 30초 이동"
+
+#: kded/mprisservice.cpp:159
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Stop media playback"
+msgstr "미디어 재생 정지"
+
+#: kded/mprisservice.cpp:160
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Pause media playback"
+msgstr "미디어 일시 정지"
+
+#: kded/mprisservice.cpp:161
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Play media playback"
+msgstr "미디어 재생"
+
+#: kded/mprisservice.cpp:162
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media volume up"
+msgstr "미디어 음량 증가"
+
+#: kded/mprisservice.cpp:163
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media volume down"
+msgstr "미디어 음량 감소"
+
+#~ msgctxt "@action:button"
+#~ msgid "Choose player automatically"
+#~ msgstr "자동으로 재생기 선택"

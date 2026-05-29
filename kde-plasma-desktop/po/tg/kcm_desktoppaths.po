@@ -1,0 +1,177 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2019-09-23 20:07+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgid "Desktop path:"
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Масири мизи корӣ:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr ""
+
+#: ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "Documents"
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Ҳуҷҷатҳо"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr ""
+
+#: ui/main.qml:81
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Боргириҳо"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+
+#: ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "Movies path:"
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Масири филмҳо:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+
+#: ui/main.qml:109
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Масири тасвирҳо:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr ""
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+
+#: ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Music path:"
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Масири мусиқӣ:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+
+#: ui/main.qml:151
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Масири тасвирҳо:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Масири тасвирҳо:"
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr ""
+
+#~ msgid "Documents path:"
+#~ msgstr "Масири ҳуҷҷатҳо:"
+
+#~ msgid "Downloads path:"
+#~ msgstr "Масири боргириҳо:"
+
+#~ msgid "Music path:"
+#~ msgstr "Масири мусиқӣ:"
+
+#~ msgid "Desktop"
+#~ msgstr "Мизи корӣ"
+
+#~ msgid "Music"
+#~ msgstr "Мусиқӣ"
+
+#~ msgid "Pictures"
+#~ msgstr "Тасвирҳо"
+
+#, fuzzy
+#~| msgid "Movies path:"
+#~ msgid "Videos"
+#~ msgstr "Масири филмҳо:"
+
+#~ msgid "Autostart path:"
+#~ msgstr "Масир барои оғози худкор:"
+
+#~ msgid "Autostart"
+#~ msgstr "Оғози худкор"
+
+#~ msgid "Movies"
+#~ msgstr "Филмҳо"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "Тасдиқи амал лозим аст"

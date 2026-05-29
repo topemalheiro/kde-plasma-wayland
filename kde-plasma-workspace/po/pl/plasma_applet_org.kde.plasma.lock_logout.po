@@ -1,0 +1,185 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2014, 2015, 2019, 2021, 2023, 2024, 2026 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2026-01-01 12:48+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Ogólne"
+
+#: ConfigGeneral.qml:120
+#, kde-format
+msgid "Unavailable"
+msgstr "Niedostępny"
+
+#: data.js:5
+#, kde-format
+msgid "Lock"
+msgstr "Zablokuj"
+
+#: data.js:6
+#, kde-format
+msgid "Lock the screen"
+msgstr "Zablokuj ekran"
+
+#: data.js:12
+#, kde-format
+msgid "Switch user…"
+msgstr "Przełącz użytkownika…"
+
+#: data.js:13
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Rozpocznij posiedzenie innego użytkownika"
+
+#: data.js:19
+#, kde-format
+msgid "Shut down"
+msgstr "Wyłącz"
+
+#: data.js:20
+#, kde-format
+msgid "Turn off the computer"
+msgstr "Wyłącz komputer"
+
+#: data.js:26
+#, kde-format
+msgid "Restart"
+msgstr "Uruchom ponownie"
+
+#: data.js:27
+#, kde-format
+msgid "Reboot the computer"
+msgstr "Uruchom komputer ponownie"
+
+#: data.js:33
+#, kde-format
+msgid "Log out"
+msgstr "Wyloguj"
+
+#: data.js:34
+#, kde-format
+msgid "End the session"
+msgstr "Zakończ posiedzenie"
+
+#: data.js:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show logout screen"
+msgstr "Pokaż ekran wylogowywania"
+
+#: data.js:41
+#, kde-format
+msgid "Log out, turn off, or restart the computer"
+msgstr "Wyloguj, wyłącz lub uruchom ponownie komputer"
+
+#: data.js:47
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Uśpij"
+
+#: data.js:48
+#, kde-format
+msgid "Sleep (suspend to RAM)"
+msgstr "Uśpij (zapisz do pamięci)"
+
+#: data.js:54
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernuj"
+
+#: data.js:55
+#, kde-format
+msgid "Hibernate (suspend to disk)"
+msgstr "Hibernuj (zapisz na dysk)"
+
+#, fuzzy
+#~| msgctxt "Heading for list of actions (leave, lock, shutdown, ...)"
+#~| msgid "Actions"
+#~ msgctxt "@title:column"
+#~ msgid "Actions"
+#~ msgstr "Działania"
+
+#~ msgctxt ""
+#~ "Heading for a list of actions (leave, lock, switch user, hibernate, "
+#~ "suspend)"
+#~ msgid "Show actions:"
+#~ msgstr "Pokaż działania:"
+
+#~ msgid "Log Out"
+#~ msgstr "Wyloguj"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show logout screen"
+#~ msgstr "Pokaż ekran wylogowywania"
+
+#~ msgid "Shut Down"
+#~ msgstr "Wyłącz"
+
+#~ msgid "Switch User"
+#~ msgstr "Przełącz użytkownika"
+
+#~ msgid "Shutdown…"
+#~ msgstr "Wyłącz..."
+
+#~ msgid "Restart…"
+#~ msgstr "Uruchom ponownie..."
+
+#~ msgid "Logout…"
+#~ msgstr "Wyloguj..."
+
+#~ msgid "Logout"
+#~ msgstr "Wyloguj"
+
+#~ msgid "Reboot"
+#~ msgstr "Uruchom ponownie"
+
+#~ msgid "Shutdown..."
+#~ msgstr "Wyłącz..."
+
+#~ msgid "Logout..."
+#~ msgstr "Wyloguj..."
+
+#~ msgid "Do you want to suspend to disk (hibernate)?"
+#~ msgstr "Czy zahibernować system (uśpić na dysk)?"
+
+#~ msgid "Yes"
+#~ msgstr "Tak"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Do you want to suspend to RAM (sleep)?"
+#~ msgstr "Czy uśpić system do pamięci RAM?"
+
+#~ msgid "Leave"
+#~ msgstr "Wyjdź"
+
+#~ msgid "Leave..."
+#~ msgstr "Wyjdź..."
+
+#~ msgid "Suspend"
+#~ msgstr "Uśpij"
+
+#~ msgid "Lock/Logout Settings"
+#~ msgstr "Ustawienia blokowania/wylogowywania"
+
+#~ msgid "SystemTray Settings"
+#~ msgstr "Ustawienia tacki systemowej"

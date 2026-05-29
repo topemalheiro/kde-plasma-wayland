@@ -1,0 +1,88 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
+"PO-Revision-Date: 2025-12-12 11:15+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: devicenotifications.cpp:449
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Detected"
+msgstr "Afișaj detectat"
+
+#: devicenotifications.cpp:450
+#, kde-format
+msgid "A display has been connected."
+msgstr "A fost conectat un afișaj."
+
+#: devicenotifications.cpp:470
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Removed"
+msgstr "Afișaj eliminat"
+
+#: devicenotifications.cpp:471
+#, kde-format
+msgid "A display has been disconnected."
+msgstr "A fost deconectat un afișaj."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "%1 has been connected."
+msgstr "%1 a fost conectat."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "A USB device has been connected."
+msgstr "A fost conectat un dispozitiv USB."
+
+#: devicenotifications.cpp:522
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Detected"
+msgstr "Dispozitiv USB detectat"
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "%1 has been disconnected."
+msgstr "%1 a fost deconectat."
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "A USB device has been disconnected."
+msgstr "A fost deconectat un dispozitiv USB."
+
+#: devicenotifications.cpp:565
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Removed"
+msgstr "Dispozitiv USB eliminat"
+
+#~ msgctxt "@title:notifications"
+#~ msgid "USB Device Went Away"
+#~ msgstr "Dispozitivul USB a dispărut"
+
+#, fuzzy
+#~| msgid "A USB device has been plugged in."
+#~ msgid "A display has been plugged in."
+#~ msgstr "A fost atașat un dispozitiv USB."
+
+#~ msgid "%1 has been plugged in."
+#~ msgstr "%1 a fost atașat."
+
+#~ msgid "A USB device has been plugged in."
+#~ msgstr "A fost atașat un dispozitiv USB."

@@ -1,0 +1,58 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-05 00:46+0000\n"
+"PO-Revision-Date: 2025-08-03 23:19+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: main.cpp:53 plasmawindowedcorona.cpp:104
+#, kde-format
+msgid "Plasma Windowed"
+msgstr "بلازما المؤطرة"
+
+#: main.cpp:55
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "مكّن منقّح جافاسكربت QML"
+
+#: main.cpp:58 plasmawindowedcorona.cpp:106
+#, kde-format
+msgid ""
+"Makes the plasmoid stay alive in the Notification Area, even when the window "
+"is closed."
+msgstr ""
+"يجعل البلازمويد يبقى على قيد الحياة في منطقة الإشعارات، حتى عندما تكون "
+"النافذة مغلقة."
+
+#: main.cpp:60
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "أجبِر تحميل ملحقة الصّدفة المعطاة"
+
+#: main.cpp:64 plasmawindowedcorona.cpp:107
+#, kde-format
+msgid "The applet to open."
+msgstr "الأداة التي ستفتح"
+
+#: main.cpp:65 plasmawindowedcorona.cpp:108
+#, kde-format
+msgid "Arguments to pass to the plasmoid."
+msgstr "معطيات لتمريرها إلى للبلازمويد."
+
+#: plasmawindowedview.cpp:119
+#, kde-format
+msgid "Close %1"
+msgstr "أغلق %1"

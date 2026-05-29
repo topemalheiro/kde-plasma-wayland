@@ -1,0 +1,334 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2021-2022, 2024-2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2026-05-02 17:50+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.04.0\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "இதனால் திற:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "பண்புகள்"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "பணிமேடையில் சேர்"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "பணி மேலாளரில் தக்கவை"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "பலகையில் சேர் (பிளாஸ்மாய்ட்)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "சமீப கோப்புகள்"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "சமீப கோப்புகளை மறந்துவிடு"
+
+#: actionlist.cpp:393
+#, kde-format
+msgid "Edit Application…"
+msgstr "செயலியை திருத்து…"
+
+#: actionlist.cpp:425
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "துணை நிரல்களை நீக்கு அல்லது நிர்வகி…"
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "செயலியை மறை"
+
+#: appentry.cpp:462
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "செயலிகள்"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "இந்த துணைப்பட்டியில் உள்ள செயலிகளை மறைந்திருந்தாலும் காட்டு"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1' என்பதில் உள்ள செயலிகளை மறைந்திருந்தாலும் காட்டு"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "கேரன்னரைக் காட்டு"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "தேடு, கணி, அல்லது கட்டளையை இயக்கு"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "கணினி"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "பிடித்தவை"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "சமீபத்தில் பயன்படுத்தியவை"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr "இடங்கள்"
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "கோப்புகள்"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "செயலியை மறந்துவிடு"
+
+#: recentusagemodel.cpp:328
+#, kde-format
+msgid "Folders"
+msgstr "அடைவுகள்"
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "கொண்டுள்ள அடைவைத் திற"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget Folder"
+msgstr "அடைவை மறந்துவிடு"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "கோப்பை மறந்துவிடு"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "அனைத்தையும் மறந்துவிடு"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "அனைத்து செயலிகளையும் மறந்துவிடு"
+
+#: recentusagemodel.cpp:530
+#, kde-format
+msgid "Forget All Folders"
+msgstr "அனைத்து அடைவுகளையும் மறந்துவிடு"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "அனைத்து கோப்புகளையும் மறந்துவிடு"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "அனைத்து செயலிகள்"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 என்பதை மறை"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "இது தெரியக் கூடாதது! KICKER_FAVORITES_MODEL என்பதை பயன்படுத்துங்கள்"
+
+#: rootmodel.cpp:578
+#, kde-format
+msgid "Recent Places"
+msgstr "சமீப இடங்கள்"
+
+#: rootmodel.cpp:578
+#, kde-format
+msgid "Often Used Places"
+msgstr "அடிக்கடி அணுகப்படும் இடங்கள்"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "அடிக்கடி பயன்படுத்தப்படும் கோப்புகள்"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "சமீப செயலிகள்"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "அடிக்கடி பயன்படுத்தப்படும் செயலிகள்"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "ஆற்றல் / அமர்வு"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "தேடலின் முடிவுகள்"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "பூட்டு"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "அமர்விலிருந்து வெளியேறு"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "அமர்வை சேமி"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "பயனரை மாற்று"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "தூக்கம்"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "ஆழுறக்கம்"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "மீள்துவக்கு"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "கணினியை நிறுத்து"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "அமர்வு"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "கணினி"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "பூட்டு திரை"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "அமர்வை நிறுத்து"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "இன்னொரு பயனராக வேறொரு (இணையான) அமர்வைத் தொடக்கும்"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "RAM-க்கு இடைநிறுத்து"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "வட்டுக்கு இடைநிறுத்து"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "கணினியை மீள்துவக்கு"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "கணினியை நிறுத்து"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "கணினி செயல்கள்"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "தொடர்புகளின் விவரங்களை காட்டு…"
+
+#~ msgid "Contacts"
+#~ msgstr "தொடர்புகள்"
+
+#~ msgid "Forget Contact"
+#~ msgstr "தொடர்பை மறந்துவிடு"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "அனைத்து தொடர்புகளையும் மறந்துவிடு"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "சமீப தொடர்புகள்"

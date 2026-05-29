@@ -1,0 +1,355 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2021-05-26 21:20+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Xoá khỏi \"Ưa thích\""
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Thêm vào \"Ưa thích\""
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Ở tất cả các Hoạt động"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Ở Hoạt động hiện tại"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Hiện trong \"Ưa thích\""
+
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Chung"
+
+#: ConfigGeneral.qml:50
+#, fuzzy, kde-format
+#| msgid "Icon:"
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Biểu tượng:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Chọn…"
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr ""
+
+#: ConfigGeneral.qml:161
+#, fuzzy, kde-format
+#| msgid "Show applications as:"
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Hiện ứng dụng thành:"
+
+#: ConfigGeneral.qml:163
+#, fuzzy, kde-format
+#| msgid "Name only"
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Chỉ tên"
+
+#: ConfigGeneral.qml:163
+#, fuzzy, kde-format
+#| msgid "Description only"
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Chỉ mô tả"
+
+#: ConfigGeneral.qml:164
+#, fuzzy, kde-format
+#| msgid "Name (Description)"
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Tên (mô tả)"
+
+#: ConfigGeneral.qml:164
+#, fuzzy, kde-format
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Mô tả (tên)"
+
+#: ConfigGeneral.qml:174
+#, fuzzy, kde-format
+#| msgid "Behavior:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Ứng xử:"
+
+#: ConfigGeneral.qml:176
+#, fuzzy, kde-format
+#| msgid "Sort applications alphabetically"
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Sắp xếp ứng dụng theo bảng chữ cái"
+
+#: ConfigGeneral.qml:184
+#, fuzzy, kde-format
+#| msgid "Flatten sub-menus to a single level"
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Làm phẳng các trình đơn con thành chỉ còn một cấp"
+
+#: ConfigGeneral.qml:192
+#, fuzzy, kde-format
+#| msgid "Show icons on the root level of the menu"
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Hiện biểu tượng ở cấp gốc của trình đơn"
+
+#: ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Ứng dụng hay dùng"
+
+#: ConfigGeneral.qml:208
+#, fuzzy, kde-format
+#| msgid "Show categories:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Hiện các mục:"
+
+#: ConfigGeneral.qml:211
+#, fuzzy, kde-format
+#| msgid "Recent applications"
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Ứng dụng gần đây"
+
+#: ConfigGeneral.qml:212
+#, fuzzy, kde-format
+#| msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Ứng dụng hay dùng"
+
+#: ConfigGeneral.qml:219
+#, fuzzy, kde-format
+#| msgid "Recent files"
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Tệp gần đây"
+
+#: ConfigGeneral.qml:220
+#, fuzzy, kde-format
+#| msgid "Often used files"
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Tệp hay dùng"
+
+#: ConfigGeneral.qml:227
+#, fuzzy, kde-format
+#| msgid "Recent files"
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Tệp gần đây"
+
+#: ConfigGeneral.qml:228
+#, fuzzy, kde-format
+#| msgid "Often used files"
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Tệp hay dùng"
+
+#: ConfigGeneral.qml:234
+#, fuzzy, kde-format
+#| msgid "Sort items in categories by:"
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Sắp xếp các thứ trong mục theo:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Dùng gần đây"
+
+#: ConfigGeneral.qml:235
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#| msgid "Often used"
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Hay dùng"
+
+#: ConfigGeneral.qml:245
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Tìm kiếm:"
+
+#: ConfigGeneral.qml:247
+#, fuzzy, kde-format
+#| msgid "Expand search to bookmarks, files and emails"
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Mở rộng tìm kiếm ra cả dấu nhớ, tệp và thư"
+
+#: ConfigGeneral.qml:255
+#, fuzzy, kde-format
+#| msgid "Align search results to bottom"
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Căn kết quả tìm kiếm về cuối"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr ""
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr ""
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+
+#: DashboardRepresentation.qml:424
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Ưa thích"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr ""
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: ItemGridDelegate.qml:83
+#, fuzzy, kde-format
+#| msgid "Often used applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Ứng dụng hay dùng"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr ""
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr ""
+
+#: ItemListDelegate.qml:99
+#, fuzzy, kde-format
+#| msgid "Often used applications"
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Ứng dụng hay dùng"
+
+#: main.qml:208
+#, fuzzy, kde-format
+#| msgid "Edit Applications…"
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Sửa ứng dụng…"
+
+#: MenuRepresentation.qml:191
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Ưa thích"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr ""
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Đặt lại biểu tượng"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Đang tìm '%1'"
+
+#, fuzzy
+#~| msgid "Type to search…"
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Gõ để tìm kiếm…"
+
+#~ msgid "Widgets"
+#~ msgstr "Phụ kiện"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Ứng dụng & tài liệu"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Liên hệ gần đây"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Liên hệ hay dùng"
+
+#~ msgid "Search…"
+#~ msgstr "Tìm kiếm…"
+
+#~ msgid "Search..."
+#~ msgstr "Tìm kiếm…"

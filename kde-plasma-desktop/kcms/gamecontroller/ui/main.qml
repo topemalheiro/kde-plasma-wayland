@@ -1,0 +1,242 @@
+/*
+    SPDX-FileCopyrightText: 2023 Joshua Goins <josh@redstrate.com>
+    SPDX-FileCopyrightText: 2025 Yelsin Sepulveda <yelsin.sepulveda@kdemail.org>
+    SPDX-FileCopyrightText: 2025 Jakob Petsovits <jpetso@petsovits.com>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as QQC2
+
+import org.kde.kcmutils as KCM
+import org.kde.kirigami as Kirigami
+
+import org.kde.plasma.gamecontroller.kcm
+
+KCM.SimpleKCM {
+    id: root
+
+    readonly property var device: deviceCombo.currentValue !== null ? DeviceModel.device(deviceCombo.currentValue) : null
+    readonly property var deviceType: device?.type ?? ""
+    readonly property var deviceControllerType: device?.controllerTypeName ?? ""
+    readonly property var deviceConnectionType: device?.connectionType ?? ""
+
+    actions: [
+        Kirigami.Action {
+            displayComponent: RowLayout {
+                spacing: Kirigami.Units.smallSpacing
+                Layout.fillWidth: true
+
+                QQC2.Switch {
+                    id: plasmaIntegrationSwitch
+                    text: i18nc("@option:check Allow using game controllers as a pointer and keyboard", "Allow using as pointer and keyboard")
+                    checked: kcm.pluginEnabled
+
+                    onToggled: {
+                        kcm.pluginEnabled = checked
+                    }
+                }
+
+                Kirigami.ContextualHelpButton {
+                    toolTipText: xi18nc("@info:tooltip", "Allow game controllers to act like pointer and keyboard devices in Plasma and non-game applications.<nl/><nl/>Games can always use the controller.")
+                }
+            }
+        }
+    ]
+
+    Kirigami.PlaceholderMessage {
+        icon.name: "input-gamepad"
+        text: i18nc("@info placeholdermessage text", "No game controllers found")
+        explanation: i18nc("@info:usagetip placeholdermessage text", "Connect a wired or wireless controller")
+        anchors.centerIn: parent
+        visible: DeviceModel.count === 0
+        width: parent.width - (Kirigami.Units.largeSpacing * 4)
+    }
+
+    Connections {
+        target: DeviceModel
+
+        function onDevicesChanged() {
+            // If there are no devices, make sure the combo box is set to no selection
+            if (DeviceModel.count === 0) {
+                deviceCombo.currentIndex = -1;
+            } else if (deviceCombo.currentIndex === -1) {
+                // However if we didn't have a selection before, and now have a device
+                deviceCombo.currentIndex = 0;
+            } else if (deviceCombo.currentIndex >= DeviceModel.count) {
+                // If the last device in the popup list was disconnected, select a previous one
+                deviceCombo.currentIndex = DeviceModel.count - 1;
+            }
+        }
+    }
+
+    headerPaddingEnabled: false // Let the InlineMessages touch the edges
+    header: Kirigami.InlineMessage {
+        Layout.fillWidth: true
+        visible: !kcm.pluginEnabled && deviceCombo.count !== 0
+        type: Kirigami.MessageType.Warning
+        position: Kirigami.InlineMessage.Position.Header
+        showCloseButton: true
+        text: i18nc("@info:usagetip", "The system may automatically go to sleep or lock the screen while the controller is in use. Consider manually blocking them while using the controller, or enable automatic blocking by allowing the use as pointer and keyboard.")
+    }
+
+    ColumnLayout {
+        anchors.fill: parent
+
+        visible: deviceCombo.count !== 0
+        spacing: Kirigami.Units.largeSpacing
+
+        RowLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            Layout.fillWidth: true
+
+            QQC2.Label {
+                text: i18nc("@label:textbox", "Device:")
+                textFormat: Text.PlainText
+            }
+
+            QQC2.ComboBox {
+                id: deviceCombo
+
+                model: DeviceModel
+
+                textRole: "text"
+                valueRole: "id"
+
+                Layout.fillWidth: true
+            }
+        }
+
+        RowLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            Layout.fillWidth: true
+
+            QQC2.Label {
+                text: i18nc("@label game controller device type (wheel, joystick, game controller, etc.)", "Device type:")
+                textFormat: Text.PlainText
+            }
+
+            QQC2.Label {
+                id: typeLabel
+                text: deviceType
+            }
+        }
+
+        RowLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            Layout.fillWidth: true
+
+            QQC2.Label {
+                text: i18nc("@label game controller controller type (which brand, etc.)", "Controller type:")
+                textFormat: Text.PlainText
+            }
+
+            QQC2.Label {
+                id: controllerTypeLabel
+                text: deviceControllerType
+            }
+        }
+
+        RowLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            Layout.fillWidth: true
+
+            QQC2.Label {
+                text: i18nc("@label:textbox", "Connection type:")
+                textFormat: Text.PlainText
+            }
+
+            QQC2.Label {
+                id: connectionTypeLabel
+                text: deviceConnectionType
+            }
+        }
+
+        RowLayout {
+            spacing: Kirigami.Units.largeSpacing
+
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+
+            ColumnLayout {
+                spacing: Kirigami.Units.largeSpacing
+
+                Layout.alignment: Qt.AlignTop
+
+                QQC2.Label {
+                    text: i18nc("@label Visual representation of the axis position for the left axis", "Left position:")
+                    textFormat: Text.PlainText
+                }
+
+                PositionWidget {
+                    id: leftPosWidget
+
+                    device: root.device
+                    leftAxis: true
+                }
+
+                QQC2.Label {
+                    text: i18nc("@label Visual representation of the axis position for the right axis", "Right position:")
+                    textFormat: Text.PlainText
+                }
+
+                PositionWidget {
+                    id: rightPosWidget
+                    device: root.device
+                    leftAxis: false
+                }
+            }
+
+            ColumnLayout {
+                spacing: Kirigami.Units.largeSpacing
+
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.preferredWidth: 50 // Same space for the two columns
+
+                QQC2.Label {
+                    text: i18nc("@label Gamepad buttons", "Buttons:")
+                    textFormat: Text.PlainText
+                }
+
+                Table {
+                    model: ButtonModel {
+                        device: root.device
+                    }
+
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                }
+            }
+
+            ColumnLayout {
+                spacing: Kirigami.Units.largeSpacing
+
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.preferredWidth: 50 // Same space for the two columns
+
+                QQC2.Label {
+                    text: i18nc("@label Gamepad axes (sticks)", "Axes:")
+                    textFormat: Text.PlainText
+                }
+
+                Table {
+                    model: AxesProxyModel {
+                        device: root.device
+                    }
+
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                }
+            }
+        }
+        Item { Layout.fillHeight: true }
+    }
+}

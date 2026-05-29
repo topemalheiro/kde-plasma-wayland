@@ -1,0 +1,57 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Kishore G <kishore96@gmail.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2022-07-26 19:57+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.07.80\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "தேடு"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "தேடு…"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "தோற்றம்"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "செயலின் பட்டிக்கு ஒரே ஒரு பட்டனை பயன்படுத்து"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "செயலியின் முழு பட்டியைக் காட்டு"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr ""
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "ஓர் பட்டியைத் திறக்கும்"
+
+#~ msgid "Search..."
+#~ msgstr "தேடு..."

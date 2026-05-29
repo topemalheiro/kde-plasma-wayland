@@ -1,0 +1,68 @@
+# Translation of plasma_applet_org.kde.panel.po to Brazilian Portuguese
+# Copyright (C) 2018-2019 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2018, 2019.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2024, 2025 Geraldo Simiao <geraldosimiao@fedoraproject.org>
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+# SPDX-FileCopyrightText: 2026 Marcus Gama <marcus.gama@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.panel\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"PO-Revision-Date: 2026-01-08 07:52-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#: ConfigOverlay.qml:368
+#, kde-format
+msgctxt "@action:inmenu removes widget"
+msgid "Remove"
+msgstr "Remover"
+
+#: ConfigOverlay.qml:378
+#, kde-format
+msgctxt "@action:inmenu opens widget config dialog"
+msgid "Configure…"
+msgstr "Configurar…"
+
+#: ConfigOverlay.qml:389
+#, kde-format
+msgctxt "@action:inmenu opens widget alternatives explorer"
+msgid "Show Alternatives…"
+msgstr "Mostrar alternativas…"
+
+#: ConfigOverlay.qml:408
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Spacer width"
+msgstr "Largura do espaçador"
+
+#: ConfigOverlay.qml:431
+#, kde-format
+msgctxt ""
+"@option:check Whether to allow a spacer widget to fill available space"
+msgid "Flexible size"
+msgstr "Tamanho flexível"
+
+#: main.qml:462
+#, kde-format
+msgctxt ""
+"@info:whatsthis Accessible description for entering Panel edit mode click "
+"area"
+msgid "Open Panel configuration ui"
+msgstr "Mostrar configuração do painel"
+
+#: main.qml:469
+#, kde-format
+msgctxt "@action:button opens widget explorer"
+msgid "Add Widgets…"
+msgstr "Adicionar widgets…"

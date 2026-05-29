@@ -1,0 +1,594 @@
+# translation of kcm_keys.pot to esperanto
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the plasma-desktop package.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_keys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-19 00:46+0000\n"
+"PO-Revision-Date: 2025-01-06 18:58+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: basemodel.cpp:158
+#, kde-format
+msgctxt "@title:group Launch app"
+msgid "Launch"
+msgstr "Lanĉi"
+
+#: basemodel.cpp:191
+#, kde-format
+msgctxt "@item:intable"
+msgid "Window Management"
+msgstr ""
+
+#: basemodel.cpp:194
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Workspace"
+msgstr ""
+
+#: globalaccelmodel.cpp:281
+#, kde-format
+msgctxt ""
+"%1 is the name of the component, %2 is the action for which saving failed"
+msgid "Error while saving shortcut %1: %2"
+msgstr "Eraro dum konservado de ŝparvojo %1: %2"
+
+#: globalaccelmodel.cpp:395
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr "Eraro dum aldono de %1, ŝajnas, ke ĝi ne havas agojn."
+
+#: globalaccelmodel.cpp:469
+#, kde-format
+msgid "Error while communicating with the global shortcuts service"
+msgstr "Eraro dum komunikado kun la ĉiea ŝparvoja servo"
+
+#: kcm_keys.cpp:56
+#, kde-format
+msgid "Failed to communicate with global shortcuts daemon"
+msgstr "Malsukcesis komuniki kun demono por ĉieaj ŝparvojoj"
+
+#: kcm_keys.cpp:380
+#, kde-kuit-format
+msgctxt ""
+"@info %2 is the name of a category inside the 'Common Actions' section"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action "
+"<interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
+msgstr ""
+"Ŝparvojo <shortcut>%1</shortcut> jam estas asignita al la komuna %2-ago "
+"<interface>%3</interface>.<nl/><nl/>.Ĉu reasigni ĝin al %4?"
+
+#: kcm_keys.cpp:386
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to action <interface>"
+"%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to "
+"action <interface>%4</interface> of <application>%5</application>?"
+msgstr ""
+"Ŝparvojo <shortcut>%1</shortcut> jam estas asignita al ago <interface>%2</"
+"interface> de <application>%3</application>.<nl/><nl/>.Ĉu reasigni ĝin al "
+"ago <interface>%4</interface> de <application>%5</application>?"
+
+#: kcm_keys.cpp:396
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve Shortcut Conflict"
+msgstr "Solvi Ŝparvojan Konflikton"
+
+#: kcm_keys.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "Ali-atribui"
+
+#: standardshortcutsmodel.cpp:34
+#, kde-format
+msgid "File"
+msgstr "Dosiero"
+
+#: standardshortcutsmodel.cpp:35
+#, kde-format
+msgid "Edit"
+msgstr "Redakti"
+
+#: standardshortcutsmodel.cpp:37
+#, kde-format
+msgid "Navigation"
+msgstr "Navigado"
+
+#: standardshortcutsmodel.cpp:38
+#, kde-format
+msgid "View"
+msgstr "Vido"
+
+#: standardshortcutsmodel.cpp:39
+#, kde-format
+msgid "Settings"
+msgstr "Agordoj"
+
+#: standardshortcutsmodel.cpp:40
+#, kde-format
+msgid "Help"
+msgstr "Helpo"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr "Aplikoj"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Commands"
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr "Komandoj"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "System Services"
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr "Sistemaj Servoj"
+
+#: ui/main.qml:27
+#, fuzzy, kde-format
+#| msgid "Common Actions"
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr "Komunaj Agoj"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@action:button Import shortcut scheme"
+msgid "Import…"
+msgstr "Importi…"
+
+#: ui/main.qml:44
+#, fuzzy, kde-format
+#| msgid "Import Shortcut Scheme"
+msgctxt "@action:button accessible"
+msgid "Import shortcut scheme"
+msgstr "Importi Ŝparvojan Skemon"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Export"
+msgstr "Nuligi Eksporton"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export…"
+msgstr "Eksporti…"
+
+#: ui/main.qml:53 ui/main.qml:128
+#, fuzzy, kde-format
+#| msgid "Export Shortcut Scheme"
+msgctxt "@action:button accessible"
+msgid "Export shortcut scheme"
+msgstr "Eksporti Ŝparvojan Skemon"
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@action:button Add new shortcut"
+msgid "Add New"
+msgstr "Aldoni Novan"
+
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Application…'"
+msgid "Application…"
+msgstr "Aplikaĵon…"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new application"
+msgstr "Aldoni novan aplikaĵon"
+
+#: ui/main.qml:82
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
+msgid "Command or Script…"
+msgstr "Komandon aŭ Skripton…"
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new command or script"
+msgstr "Aldoni novan komandon aŭ skripton"
+
+#: ui/main.qml:107
+#, fuzzy, kde-format
+#| msgid "Cannot export scheme while there are unsaved changes"
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr "Ne povas eksporti skemon dum estas nekonservitaj ŝanĝoj"
+
+#: ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid ""
+#| "Select the components below that should be included in the exported scheme"
+msgctxt "@info:usagetip"
+msgid ""
+"Select the components below that should be included in the exported scheme"
+msgstr ""
+"Elektu la subajn komponantojn, kiuj devus esti inkluzivitaj en la eksportita "
+"skemo"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export"
+msgstr "Elporti"
+
+#: ui/main.qml:229
+#, kde-format
+msgctxt ""
+"@option:check accessible export shortcuts %1 is application/group name"
+msgid "Export %1"
+msgstr "Elporti %1"
+
+#: ui/main.qml:239
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible %1 is the name of a custom command"
+#| msgid "Edit command for %1"
+msgctxt "@action:button %1 is the name of a custom command"
+msgid "Edit command for %1"
+msgstr "Redakti komandon por %1"
+
+#: ui/main.qml:268
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible %1 is the name of a shortcut category"
+#| msgid "Remove all shortcuts for %1"
+msgctxt "@action:button %1 is the name of a shortcut category"
+msgid "Remove all shortcuts for %1"
+msgstr "Forigi ĉiujn ŝparvojojn por %1"
+
+#: ui/main.qml:290
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible"
+#| msgid "Undo deletion"
+msgctxt "@action:button"
+msgid "Undo deletion"
+msgstr "Malfari forigon"
+
+#: ui/main.qml:357
+#, fuzzy, kde-format
+#| msgid "No items matched the search terms"
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr "Neniuj eroj kongruis kun la serĉaj terminoj"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt "@info"
+msgid "These shortcuts will be deleted when changes are applied."
+msgstr ""
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr ""
+
+#: ui/main.qml:379
+#, fuzzy, kde-format
+#| msgid "No default shortcuts"
+msgctxt "@action:button"
+msgid "Undo deleting shortcuts"
+msgstr "Neniuj defaŭltaj ŝparvojoj"
+
+#: ui/main.qml:420
+#, fuzzy, kde-format
+#| msgid "Select an item from the list to view its shortcuts here"
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr "Elektu eron el la listo por vidi ĝiajn ŝparvojojn ĉi tie"
+
+#: ui/main.qml:433
+#, fuzzy, kde-format
+#| msgid "Export Shortcut Scheme"
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr "Eksporti Ŝparvojan Skemon"
+
+#: ui/main.qml:433 ui/main.qml:565
+#, fuzzy, kde-format
+#| msgid "Import Shortcut Scheme"
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr "Importi Ŝparvojan Skemon"
+
+#: ui/main.qml:435
+#, kde-format
+msgctxt "Template for file dialog"
+msgid "Shortcut Scheme (*.kksrc)"
+msgstr "Ŝparvoja Skemo (*.kksrc)"
+
+#: ui/main.qml:462
+#, fuzzy, kde-format
+#| msgid "Edit Command"
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr "Redakti Komandon"
+
+#: ui/main.qml:462
+#, fuzzy, kde-format
+#| msgid "Add Command"
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr "Aldoni Komandon"
+
+#: ui/main.qml:479
+#, fuzzy, kde-format
+#| msgid "Save"
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr "Konservi"
+
+#: ui/main.qml:479
+#, fuzzy, kde-format
+#| msgid "Add"
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr "Aldoni"
+
+#: ui/main.qml:481
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox accessible"
+#| msgid "Command"
+msgctxt "@action:button accessible"
+msgid "Save command"
+msgstr "Komando"
+
+#: ui/main.qml:482
+#, fuzzy, kde-format
+#| msgid "Add Command"
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr "Aldoni Komandon"
+
+#: ui/main.qml:504
+#, fuzzy, kde-format
+#| msgid "Enter a command or choose a script file:"
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr "Enigu komandon aŭ elektu skriptodosieron:"
+
+#: ui/main.qml:513
+#, kde-format
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "Komando:"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Command"
+msgstr "Komando"
+
+#: ui/main.qml:526
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose…"
+msgstr "Elekti…"
+
+#: ui/main.qml:527
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Choose script file"
+msgstr "Elekti skriptodosieron"
+
+#: ui/main.qml:535
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "Nomo:"
+
+#: ui/main.qml:536
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "Enigu nomon tie ĉi"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Script File"
+msgstr "Elekti Skriptodosieron"
+
+#: ui/main.qml:550
+#, kde-format
+msgctxt ""
+"Filename filters for file dialog. Do not translate any of the filename "
+"extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "Skriptodosieroj (.sh, .bash, .zsh, etc.) (*.*sh)"
+
+#: ui/main.qml:573
+#, fuzzy, kde-format
+#| msgid "Select the scheme to import:"
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr "Elektu la skemon por importi:"
+
+#: ui/main.qml:592
+#, fuzzy, kde-format
+#| msgid "Custom Scheme"
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr "Propra Skemo"
+
+#: ui/main.qml:600
+#, fuzzy, kde-format
+#| msgid "Select File…"
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr "Elekti Dosieron…"
+
+#: ui/main.qml:600
+#, fuzzy, kde-format
+#| msgid "Import"
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr "Importi"
+
+#: ui/main.qml:602
+#, fuzzy, kde-format
+#| msgctxt "@action:button accessible"
+#| msgid "Delete shortcut"
+msgctxt "@action:button accessible"
+msgid "Select shortcut scheme file"
+msgstr "Forigi ŝparvojon"
+
+#: ui/main.qml:603
+#, fuzzy, kde-format
+#| msgid "Export Shortcut Scheme"
+msgctxt "@action:button accessible"
+msgid "Add shortcut scheme"
+msgstr "Eksporti Ŝparvojan Skemon"
+
+#: ui/ShortcutActionDelegate.qml:31
+#, kde-format
+msgctxt "@action:button Collapse shortcuts view"
+msgid "Collapse"
+msgstr ""
+
+#: ui/ShortcutActionDelegate.qml:32
+#, fuzzy, kde-format
+#| msgid "No active shortcuts"
+msgctxt "@action:button"
+msgid "Expand to configure shortcuts"
+msgstr "Neniuj aktivaj ŝparvojoj"
+
+#: ui/ShortcutActionDelegate.qml:38
+#, fuzzy, kde-format
+#| msgid "Editing shortcut: %1"
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr "Redakta ŝparvojo: %1"
+
+#: ui/ShortcutActionDelegate.qml:63
+#, kde-format
+msgctxt ""
+"%1 is the name action that is triggered by the key sequences following "
+"after :"
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/ShortcutActionDelegate.qml:85
+#, fuzzy, kde-format
+#| msgid "No active shortcuts"
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr "Neniuj aktivaj ŝparvojoj"
+
+#: ui/ShortcutActionDelegate.qml:135
+#, fuzzy, kde-format
+#| msgctxt "%1 decides if singular or plural will be used"
+#| msgid "Default shortcut"
+#| msgid_plural "Default shortcuts"
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] "Defaŭlta ŝparvojo"
+msgstr[1] "Defaŭltaj ŝparvojoj"
+
+#: ui/ShortcutActionDelegate.qml:137
+#, fuzzy, kde-format
+#| msgid "No default shortcuts"
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr "Neniuj defaŭltaj ŝparvojoj"
+
+#: ui/ShortcutActionDelegate.qml:146
+#, fuzzy, kde-format
+#| msgid "Default shortcut %1 is enabled."
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr "Defaŭlta ŝparvojo %1 estas ebligita."
+
+#: ui/ShortcutActionDelegate.qml:146
+#, fuzzy, kde-format
+#| msgid "Default shortcut %1 is disabled."
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr "Defaŭlta ŝparvojo %1 estas malŝaltita."
+
+#: ui/ShortcutActionDelegate.qml:169
+#, fuzzy, kde-format
+#| msgid "Custom shortcuts"
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr "Propraj ŝparvojoj"
+
+#: ui/ShortcutActionDelegate.qml:205
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Delete shortcut"
+msgstr "Forigi ŝparvojon"
+
+#: ui/ShortcutActionDelegate.qml:216
+#, kde-format
+msgctxt "@action:button Add custom shortcut"
+msgid "Add…"
+msgstr "Aldoni…"
+
+#: ui/ShortcutActionDelegate.qml:217
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add custom shortcut"
+msgstr "Aldoni propran ŝparvojon"
+
+#: ui/ShortcutActionDelegate.qml:253
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Cancel capturing shortcut"
+msgstr "Nuligi kapton de ŝparvojo"
+
+#~ msgctxt "@info:tooltip %1 is the text of a custom command"
+#~ msgid "Edit command for %1"
+#~ msgstr "Redakti komandon por %1"
+
+#~ msgctxt "@info:tooltip %1 is the text of a shortcut category"
+#~ msgid "Remove all shortcuts for %1"
+#~ msgstr "Forigi ĉiujn ŝparvojojn por %1"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Undo deletion"
+#~ msgstr "Malfari forigon"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete this shortcut"
+#~ msgstr "Forigi ĉi tiun ŝparvojon"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Cancel capturing of new shortcut"
+#~ msgstr "Nuligi kapton de nova ŝparvojo"

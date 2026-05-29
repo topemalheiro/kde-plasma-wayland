@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-01-08 05:11+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "ფერების სქემის სახელი"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "ერთი წკაპი ფაილის გასახსნელად"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr "გარეგნობის პაკეტის გადართვა დღის დროზე დამოკიდებულებით"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "გარეგნობის გლობალური პაკეტი"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "გარეგნობის გლობალური პაკეტი, ალტერნატიული"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "ანიმაციის სიჩქარე"
+
+#: ui/LookAndFeelBox.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "გლობალური თემის შეცვლა"
+
+#: ui/LookAndFeelBox.qml:178
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "გლობალური თემა"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "თემა:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "ავტომატური"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark "
+"global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "\"%1\"-ის გამოყენება დღისით და \"%2\"-ის ღამით"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "გარეგნობის მეტი პარამეტრი:"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "ანიმაციის სიჩქარე:"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "ნელი"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "მყისი"
+
+#: ui/main.qml:220
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "დაწკაპუნება ფაილზე ან საქაღალდეზე:"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "მონიშნავს"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "გახსნა ორმაგი წკაპით"
+
+#: ui/main.qml:247
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "გახსნის მათ"
+
+#: ui/main.qml:252
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "არჩიეთ ჩანაწერის არჩევის სანიშნზე დაწკაპუნებით"
+
+#: ui/main.qml:264
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "ქცევის მეტი პარამეტრი:"
+
+#: ui/main.qml:275
+#, kde-format
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "ყველაზე ხშირად გამოყენებული გვერდები:"
+
+#~ msgctxt "@action:button as in, 'this will take you to the Wallpaper KCM'"
+#~ msgid "Wallpaper"
+#~ msgstr "ფონის სურათი"
+
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the first KCM in the Colors "
+#~ "& Themes group'"
+#~ msgid "Colors & Themes"
+#~ msgstr "ფერები & თემები"
+
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the General Behavior KCM'"
+#~ msgid "General Behavior"
+#~ msgstr "ზოგადი ქცევა"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid ""
+#~ "You can help KDE improve Plasma by contributing information on how you "
+#~ "use it, so we can focus on things that matter to you.<br/><br/"
+#~ ">Contributing this information is optional and entirely anonymous. We "
+#~ "never collect your personal data, files you use, websites you visit, or "
+#~ "information that could identify you."
+#~ msgstr ""
+#~ "თქვენ შეგიძლიათ დაეხმაროთ KDE-ს პლაზმის გაუმჯობესებაში ინფორმაციის "
+#~ "მიწოდებით, თუ როგორ იყენებთ მას, ასე რომ, ჩვენ შეგვიძლია ფოკუსირება "
+#~ "მოახდინოთ თქვენთვის მნიშვნელოვან საკითხებზე.<br/><br/>ამ ინფორმაციის "
+#~ "კონტრიბუცია არჩევითია და სრულიად ანონიმური. ჩვენ არასოდეს ვაგროვებთ "
+#~ "თქვენს პერსონალურ მონაცემებს, ფაილებს, რომლებსაც იყენებთ, ვებსაიტებს, "
+#~ "რომლებსაც სტუმრობთ, ან ინფორმაციას, რომელსაც შეუძლია თქვენი "
+#~ "იდენტიფიცირება."
+
+#~ msgid "No data will be sent."
+#~ msgstr "მონაცემები გადაგზავნილი არ იქნება."
+
+#~ msgid "The following information will be sent:"
+#~ msgstr "გაგზავნილი იქნება შემდეგი ინფორმაცია:"
+
+#~ msgid "Send User Feedback:"
+#~ msgstr "მომხმარებლის უკუკავშირის გაგზავნა:"
+
+#~ msgctxt "Adjective; as in, 'light theme'"
+#~ msgid "Light"
+#~ msgstr "მსუბუქი"
+
+#~ msgctxt "Adjective; as in, 'dark theme'"
+#~ msgid "Dark"
+#~ msgstr "ბნელი"

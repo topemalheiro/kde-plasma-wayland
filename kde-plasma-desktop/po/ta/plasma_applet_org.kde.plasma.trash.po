@@ -1,0 +1,115 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2021, 2023, 2025 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_trash\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 00:45+0000\n"
+"PO-Revision-Date: 2025-05-18 20:40+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.1\n"
+
+#: main.qml:33
+#, kde-format
+msgctxt "@title the name of the Trash widget"
+msgid "Trash"
+msgstr "அகற்றிடம்"
+
+#: main.qml:36
+#, kde-format
+msgctxt "@info:status The trash is being emptied"
+msgid "Emptying…"
+msgstr "காலியாக்கப்படுகிறது…"
+
+#: main.qml:38
+#, kde-format
+msgctxt "@info:status The trash contains this many items in it"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "ஒரு உருப்படி"
+msgstr[1] "%1 உருப்படிகள்"
+
+#: main.qml:40
+#, kde-format
+msgctxt "@info:status The trash is empty"
+msgid "Empty"
+msgstr "காலி"
+
+#: main.qml:80
+#, kde-format
+msgctxt "@action:inmenu Open the trash"
+msgid "Open"
+msgstr "திற"
+
+#: main.qml:85
+#, kde-format
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "காலியாக்கு"
+
+#: main.qml:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr "அகற்றிட அமைப்புகள்..."
+
+#~ msgctxt "a verb"
+#~ msgid "Empty"
+#~ msgstr "காலியாக்கு"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "Empty"
+#~ msgstr "அகற்றிடம் காலியாக இருக்கிறது"
+
+#~ msgid ""
+#~ "Trash\n"
+#~ "One item"
+#~ msgid_plural ""
+#~ "Trash\n"
+#~ " %1 items"
+#~ msgstr[0] ""
+#~ "அகற்றிடம்\n"
+#~ "ஒரு உருப்படி"
+#~ msgstr[1] ""
+#~ "அகற்றிடம்\n"
+#~ "%1 உருப்படிகள்"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Trash"
+#~ msgstr "அகற்றிடத்தை காலி செய்க"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Do you really want to empty the Trash? All items will get deleted."
+#~ msgid ""
+#~ "Do you really want to empty the trash ? All the items will be deleted."
+#~ msgstr "அகற்றிடத்தை காலி செய்ய விருப்பமா? அனைத்து உருப்படிகளும் அகற்றப்படும்."
+
+#~ msgid "&Empty Trashcan"
+#~ msgstr "&அகற்றிடத்தை துடைக்க"
+
+#~ msgid "&Menu"
+#~ msgstr "&மெனு"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Empty Trash"
+#~ msgctxt "@title:window"
+#~ msgid "Empty Trash"
+#~ msgstr "அகற்றிடத்தை காலி செய்க"
+
+#, fuzzy
+#~| msgid "&Empty Trashcan"
+#~ msgid "Emptying Trashcan..."
+#~ msgstr "&அகற்றிடத்தை துடைக்க"

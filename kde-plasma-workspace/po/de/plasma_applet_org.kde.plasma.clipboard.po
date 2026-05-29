@@ -1,0 +1,116 @@
+# SPDX-FileCopyrightText: 2014-2015, 2019-2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2018, 2022-2023 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2024 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.clipboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2025-12-04 20:39+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Inhalt der Zwischenablage"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Zwischenablage ist leer"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Verlauf leeren"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Zwischenablage einrichten …"
+
+#~ msgid "QR Code"
+#~ msgstr "QR-Code"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Datenmatrix"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Code 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Code 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Code 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Zurück zur Zwischenablage"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Den QR-Code-Typ ändern"
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr ""
+#~ "Es gibt nicht genug Platz zum Anzeigen des QR-Codes. Versuchen Sie, das "
+#~ "Programm zu vergrößern."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Das Erstellen des QR-Codes ist fehlgeschlagen"
+
+#~ msgid "Invoke action"
+#~ msgstr "Aktion aufrufen"
+
+#~ msgid "Show QR code"
+#~ msgstr "QR-Code anzeigen"
+
+#~ msgid "Edit contents"
+#~ msgstr "Inhalte bearbeiten"
+
+#~ msgid "Remove from history"
+#~ msgstr "Aus Verlauf löschen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Speichern"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "No matches"
+#~ msgstr "Keine Übereinstimmungen"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "Der QR-Code ist zu groß, um angezeigt zu werden"
+
+#~ msgid "Clear history"
+#~ msgstr "Verlauf leeren"
+
+#~ msgid "Search…"
+#~ msgstr "Suchen ..."
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "Verlauf der Zwischenablage ist leer"
+
+#~ msgid "Configure"
+#~ msgstr "Einrichten"

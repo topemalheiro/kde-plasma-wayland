@@ -1,0 +1,118 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2023, 2025 gummi <gudmundure@gmail.com>
+# SPDX-FileCopyrightText: 2026 Sveinn í Felli <sv1@fellsnet.is>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-19 00:48+0000\n"
+"PO-Revision-Date: 2026-02-15 14:27+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Position on screen:"
+msgstr "Staðsetning á skjá:"
+
+#: ui/main.qml:35
+#, kde-format
+msgctxt "@option:check Position on top of screen"
+msgid "Top"
+msgstr "Efst"
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check Position in center of screen"
+msgid "Center"
+msgstr "Miðja"
+
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "History:"
+msgstr "Ferill:"
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@option:radio History is disabled"
+msgid "Disabled"
+msgstr "Óvirkt"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable suggestions"
+msgstr "Virkja tillögur"
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable auto-complete"
+msgstr "Kveikja á sjálfvirkri útfyllingingu"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear History…"
+msgstr "Hreinsa feril..."
+
+#: ui/main.qml:99
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for all activities"
+msgid "For all activities"
+msgstr "Fyrir allar athafnir"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for this activity"
+msgid "For activity \"%1\""
+msgstr "Fyrir athöfnina \"%1\""
+
+#: ui/main.qml:128
+#, kde-format
+msgctxt "@label"
+msgid "Plugins:"
+msgstr "Viðbætur:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Enabled Search Plugins…"
+msgstr "Grunnstilla virkar leitarviðbætur..."
+
+#~ msgctxt "@label prefix for checkbutton"
+#~ msgid "Activation:"
+#~ msgstr "Virkjun:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activate when pressing any key on the desktop"
+#~ msgstr "Virkja þegar ýtt er á einhvern lykil á skjáborðinu"
+
+#~ msgctxt "@option:check"
+#~ msgid "Remember past searches"
+#~ msgstr "Muna fyrri leitir"
+
+#~ msgctxt "@option:check"
+#~ msgid "Retain last search when re-opening"
+#~ msgstr "Sýna síðustu leit þegar opnað er aftur"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activity-aware (last search and history)"
+#~ msgstr "Fylgist með athöfnum (síðasta leit og ferill)"
+
+#~ msgid "Clear History"
+#~ msgstr "Hreinsa feril"
+
+#~ msgctxt "@action:button %1 activity name"
+#~ msgid "Clear History for Activity \"%1\""
+#~ msgstr "Hreinsa feril fyrir athöfnina \"%1\""

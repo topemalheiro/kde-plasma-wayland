@@ -1,0 +1,66 @@
+# translation of plasma_runner_plasma-desktop.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"PO-Revision-Date: 2012-06-14 10:29+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: plasma-desktop-runner.cpp:24
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "desktop console"
+msgstr "កុងសូល​ផ្ទៃតុ"
+
+#: plasma-desktop-runner.cpp:25
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "wm console"
+msgstr "កុងសូល wm"
+
+#: plasma-desktop-runner.cpp:28 plasma-desktop-runner.cpp:30
+#, kde-format
+msgid ""
+"Opens the Plasma desktop interactive console with a file path to a script on "
+"disk."
+msgstr "បើក​កុងសូល​អន្តរកម្ម​ផ្ទៃតុ​ប្លាស្មា ដែលមាន​ផ្លូវ​ឯកសារ​ទៅ​ស្គ្រីប​នៅ​លើ​ថាស ។"
+
+#: plasma-desktop-runner.cpp:29
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "desktop console :q:"
+msgstr "កុងសូល​ផ្ទៃតុ :q:"
+
+#: plasma-desktop-runner.cpp:31 plasma-desktop-runner.cpp:32
+#, kde-format
+msgid ""
+"Opens the KWin interactive console with a file path to a script on disk."
+msgstr "បើក​កុងសូល​អន្តរកម្ម KWin ដែលមាន​ផ្លូវ​ឯកសារ​ទៅ​ស្គ្រីប​នៅ​លើ​ថាស ។"
+
+#: plasma-desktop-runner.cpp:32
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "wm console :q:"
+msgstr "wm console :q:"
+
+#: plasma-desktop-runner.cpp:42
+#, kde-format
+msgid "Open Plasma desktop interactive console"
+msgstr "បើក​កុងសូល​អន្តរកម្ម​ផ្ទៃតុ​ប្លាស្មា"
+
+#: plasma-desktop-runner.cpp:51
+#, kde-format
+msgid "Open KWin interactive console"
+msgstr "បើក​កុងសូល​អន្តរកម្ម KWin"

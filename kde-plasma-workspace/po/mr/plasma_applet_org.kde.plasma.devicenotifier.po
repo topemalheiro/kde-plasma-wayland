@@ -1,0 +1,348 @@
+# translation of plasma_applet_devicenotifier.po to marathi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2014-10-28 10:25+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr ""
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr ""
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr ""
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr ""
+
+#: messageinfo.cpp:110
+#, fuzzy, kde-format
+#| msgid "This device is not currently accessible."
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "हे साधन सध्या वापरता येत नाही."
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr ""
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr ""
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr ""
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr ""
+
+#: messageinfo.cpp:129
+#, fuzzy, kde-format
+#| msgid "Click to mount this device."
+msgid "You are not authorized to mount this device."
+msgstr "हे साधन जुळवणी करण्याकरिता क्लिक करा."
+
+#: messageinfo.cpp:133
+#, fuzzy, kde-format
+#| msgid "Click to eject this disc."
+msgid "You are not authorized to eject this disc."
+msgstr "ही डिस्क बाहेर काढण्याकरिता क्लिक करा."
+
+#: messageinfo.cpp:136
+#, fuzzy, kde-format
+#| msgid "It is currently safe to remove this device."
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "हे साधन बाहेर काढण्याकरिता सुरक्षित आहे."
+
+#: messageinfo.cpp:139
+#, fuzzy, kde-format
+#| msgid "It is currently safe to remove this device."
+msgid "You are not authorized to repair this device."
+msgstr "हे साधन बाहेर काढण्याकरिता सुरक्षित आहे."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr ""
+
+#: messageinfo.cpp:145
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgid "Could not mount this device as it is busy."
+msgstr "शेवटचे जोडलेले साधन: %1"
+
+#: messageinfo.cpp:173
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot eject the disc.\n"
+#| "One or more files on this disc are open within an application."
+msgid "One or more files on this device are open within an application."
+msgstr ""
+"डिस्क बाहेर काढू शकत नाही.\n"
+"अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
+
+#: messageinfo.cpp:175
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot unmount the device.\n"
+#| "One or more files on this device are open within an application."
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"साधन unmount करू शकत नाही.\n"
+"अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
+msgstr[1] ""
+"साधन unmount करू शकत नाही.\n"
+"अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ""
+
+#: messageinfo.cpp:197
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgid "Could not mount this device."
+msgstr "शेवटचे जोडलेले साधन: %1"
+
+#: messageinfo.cpp:201
+#, fuzzy, kde-format
+#| msgid "Click to eject this disc."
+msgid "Could not eject this disc."
+msgstr "ही डिस्क बाहेर काढण्याकरिता क्लिक करा."
+
+#: messageinfo.cpp:203
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "शेवटचे जोडलेले साधन: %1"
+
+#: messageinfo.cpp:206
+#, fuzzy, kde-format
+#| msgid "Last plugged in device: %1"
+msgid "Could not repair this device: %1"
+msgstr "शेवटचे जोडलेले साधन: %1"
+
+#: qml/DeviceItem.qml:98
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation shoud be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "काढून टाकत आहे..."
+
+#: qml/DeviceItem.qml:100
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation shoud be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "काढून टाकत आहे..."
+
+#: qml/DeviceItem.qml:103
+#, fuzzy, kde-format
+#| msgctxt "@info:status Free disk space"
+#| msgid "%1 free"
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 मोकळे"
+
+#: qml/DeviceItem.qml:107
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Accessing is a less technical word for Mounting; translation should be "
+#| "short and mean 'Currently mounting this device'"
+#| msgid "Accessing..."
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "वापरत आहे..."
+
+#: qml/DeviceItem.qml:110
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Removing is a less technical word for Unmounting; translation shoud be "
+#| "short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "काढून टाकत आहे..."
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr ""
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr ""
+
+#: qml/FullRepresentation.qml:48
+#, fuzzy, kde-format
+#| msgid "Click to safely remove this device."
+msgid "Click to safely remove all devices"
+msgstr "हे साधन सुरक्षितरित्या बाहेर काढण्याकरिता क्लिक करा."
+
+#: qml/FullRepresentation.qml:163
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgid "No removable devices attached"
+msgstr "फक्त न-काढता येणारी साधने"
+
+#: qml/FullRepresentation.qml:163
+#, fuzzy, kde-format
+#| msgid "No devices available"
+msgid "No disks available"
+msgstr "कोणतीही साधने उपलब्ध नाहीत"
+
+#: qml/main.qml:76
+#, fuzzy, kde-format
+#| msgid "Most recent device"
+msgid "Most Recent Device"
+msgstr "शेवटचे जोडलेले साधन"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "कोणतीही साधने उपलब्ध नाहीत"
+
+#: qml/main.qml:113
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "फक्त न-काढता येणारी साधने"
+
+#: qml/main.qml:135
+#, fuzzy, kde-format
+#| msgid "Removable devices only"
+msgid "Removable Devices"
+msgstr "फक्त काढता येणारी साधने"
+
+#: qml/main.qml:150
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgid "Non Removable Devices"
+msgstr "फक्त न-काढता येणारी साधने"
+
+#: qml/main.qml:165
+#, fuzzy, kde-format
+#| msgid "All devices"
+msgid "All Devices"
+msgstr "सर्व साधने"
+
+#: qml/main.qml:182
+#, fuzzy, kde-format
+#| msgid "No devices plugged in"
+msgid "Show popup when new device is plugged in"
+msgstr "साधन जोडले नाही"
+
+#~ msgid "General"
+#~ msgstr "साधारण"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "हे साधन आता बाहेर काढणे <b>असुरक्षित</b> आहे. काही अनुप्रयोग ते वापरत असण्याची "
+#~ "शक्यता आहे. ते साधन सुरक्षितरित्या बाहेर काढण्याकरिता \"बाहेर काढा\" बटनावर क्लिक "
+#~ "करा."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "हे साधन सध्या वापरता येउ शकते.."
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "हे साधन आता बाहेर काढणे <b>असुरक्षित</b> आहे. काही अनुप्रयोग ते वापरत असण्याची "
+#~ "शक्यता आहे. ते साधन सुरक्षितरित्या बाहेर काढण्याकरिता \"बाहेर काढा\" बटनावर क्लिक "
+#~ "करा."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "या साधनाकरिता 1 क्रिया"
+#~ msgstr[1] "या साधनाकरिता %1 क्रिया"
+
+#~ msgid "Click to access this device from other applications."
+#~ msgstr "हे साधन इतर अनुप्रयोगातून वापरण्याकरिता क्लिक करा."
+
+#~ msgid "Click to safely remove this device."
+#~ msgstr "हे साधन सुरक्षितरित्या बाहेर काढण्याकरिता क्लिक करा."
+
+#~ msgid "Available Devices"
+#~ msgstr "उपलब्ध साधने"
+
+#, fuzzy
+#~| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "<font color=\"%1\">नुकतेच जुळलेले साधन:</font>"

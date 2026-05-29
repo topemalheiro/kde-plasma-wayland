@@ -1,0 +1,926 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2020, 2021, 2023, 2024, 2025, 2026 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2024 Olesya Gerasimenko <translation-team@basealt.ru>
+# Nick Shaforostoff <shaforostoff@kde.ru>, 2007.
+# Artem Sereda <overmind88@gmail.com>, 2008.
+# Andrey Cherepanov <skull@kde.ru>, 2009, 2011.
+# Nick Shaforostoff <shafff@ukr.net>, 2010, 2011.
+# Alexander Potashev <aspotashev@gmail.com>, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018.
+# Yuri Efremov <yur.arh@gmail.com>, 2013.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2024, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2026-01-20 19:54+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.1\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Николай Шафоростов,Олеся Герасименко"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shafff@ukr.net,translation-team@basealt.ru"
+
+#: bindings.cpp:24
+#, kde-format
+msgid "Keyboard Layout Switcher"
+msgstr "Переключение раскладки клавиатуры"
+
+#: bindings.cpp:26
+#, kde-format
+msgid "Switch to Next Keyboard Layout"
+msgstr "Выбрать следующую раскладку клавиатуры"
+
+#: bindings.cpp:30
+#, kde-format
+msgid "Switch to Last-Used Keyboard Layout"
+msgstr "Выбрать последнюю использованную раскладку клавиатуры"
+
+#: bindings.cpp:60
+#, kde-format
+msgid "Switch keyboard layout to %1"
+msgstr "Сменить раскладку клавиатуры на %1"
+
+#: keyboardmodel.cpp:35
+#, kde-format
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr "Неизвестный производитель"
+
+#: keyboardmodel.cpp:39
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr "%1 | %2"
+
+#: tastenbrett/main.cpp:52
+#, kde-format
+msgctxt "app display name"
+msgid "Keyboard Preview"
+msgstr "Просмотр раскладки клавиатуры"
+
+#: tastenbrett/main.cpp:54
+#, kde-format
+msgctxt "app description"
+msgid "Keyboard layout visualization"
+msgstr "Просмотр раскладки клавиатуры"
+
+#: tastenbrett/main.cpp:139
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The keyboard geometry failed to load. This often indicates that the selected "
+"model does not support a specific layout or layout variant. This problem "
+"will likely also present when you try to use this combination of model, "
+"layout and variant.\n"
+"Previewing layouts that are defined outside your systems xkb directory is "
+"not supported and  will also trigger this message. These might still work "
+"fine if applied"
+msgstr ""
+"Не удалось загрузить конфигурацию клавиатуры. Эта ошибка, обычно, происходит "
+"при попытке использовать неподдерживаемую раскладку или вариант раскладки "
+"клавиатуры. Ошибка, скорее всего, будет присутствовать при попытке "
+"использовать это сочетание модели, раскладки и варианта раскладки "
+"клавиатуры.\n"
+"Предварительный просмотр раскладок, определённых вне системного каталога xkb "
+"не поддерживается, и также приводит в выводу данного сообщения. Тем не "
+"менее, заданные параметры, при применении, могут работать нормально."
+
+#: ui/KeyBindings.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Configure Key Bindings…"
+msgstr "Настроить комбинации клавиш…"
+
+#: ui/KeyBindings.qml:62
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Configure keyboard options"
+msgstr "Настроить дополнительные параметры клавиатуры"
+
+#: ui/KeyBindings.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/KeyBindings.qml:138
+#, kde-format
+msgctxt "@info accessible"
+msgid "Reset selected options for this group"
+msgstr "Сбросить выбранные параметры этой группы"
+
+#: ui/KeyBindings.qml:139
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reset selected options for this group"
+msgstr "Сбросить выбранные параметры этой группы"
+
+#: ui/LayoutDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Layout"
+msgstr "Выбор раскладки"
+
+#: ui/LayoutDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Layout"
+msgstr "Добавление раскладки"
+
+#: ui/LayoutDialog.qml:121
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Short layout name"
+msgstr "Краткое название раскладки"
+
+#: ui/LayoutDialog.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The abbreviated name of the selected layout, which will be displayed in the "
+"system tray. You can change this setting yourself."
+msgstr ""
+"Сокращённое название выбранной раскладки, которое будет показано в системном "
+"лотке. Этот параметр возможно изменить самостоятельно."
+
+#: ui/LayoutDialog.qml:139
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Shortcut:"
+msgstr "Комбинация клавиш:"
+
+#: ui/LayoutDialog.qml:150 ui/main.qml:287
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "Просмотр"
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Switching…"
+msgstr "Настроить переключение…"
+
+#: ui/main.qml:38
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Configure Switching"
+msgstr "Настроить переключение"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Key Bindings"
+msgstr "Комбинации клавиш"
+
+#: ui/main.qml:45
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Key Bindings"
+msgstr "Комбинации клавиш"
+
+#: ui/main.qml:51
+#, kde-format
+msgctxt "@action:button Layout"
+msgid "Add…"
+msgstr "Добавить…"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add layout"
+msgstr "Добавить раскладку"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@label:checkbox configure layouts option"
+msgid "Enable"
+msgstr "Включить"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Configure Layouts"
+msgstr "Настроить раскладки"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@label:listbox Keyboard model"
+msgid "Model:"
+msgstr "Модель:"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@label:listbox"
+msgid "NumLock on startup:"
+msgstr "Режим NumLock при запуске:"
+
+#: ui/main.qml:112
+#, kde-format
+msgctxt "@item:inlistbox Turn on \"NumLock\" on startup"
+msgid "Turn on"
+msgstr "Включить"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt "@item:inlistbox Turn off \"NumLock\" on startup"
+msgid "Turn off"
+msgstr "Отключить"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt ""
+"@item:inlistbox Leave \"NumLock\" at whatever it was set to before Plasma "
+"started up"
+msgid "Leave unchanged"
+msgstr "Не изменять"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Key repeat:"
+msgstr "Автоповтор клавиш:"
+
+#: ui/main.qml:155 ui/main_phone.qml:115
+#, kde-format
+msgctxt "@label:checkbox accessible"
+msgid "Key repeat"
+msgstr "Автоповтор клавиш"
+
+#: ui/main.qml:166 ui/main_phone.qml:131
+#, kde-format
+msgctxt "@label:textbox Key repeat delay"
+msgid "Delay:"
+msgstr "Задержка:"
+
+#: ui/main.qml:180 ui/main_phone.qml:135
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat delay %1"
+msgstr "Задержка автоповтора клавиш %1"
+
+#: ui/main.qml:188 ui/main_phone.qml:143
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "%1 ms"
+msgstr "%1 мс"
+
+#: ui/main.qml:192 ui/main_phone.qml:147
+#, kde-format
+msgctxt "@spinbox:value Repeat delay interval"
+msgid "ms"
+msgstr " мс"
+
+#: ui/main.qml:205 ui/main_phone.qml:162
+#, kde-format
+msgctxt "@label:textbox Key repeat rate"
+msgid "Rate:"
+msgstr "Частота:"
+
+#: ui/main.qml:219 ui/main_phone.qml:169
+#, kde-format
+msgctxt "@label:spinbox accessible"
+msgid "Key repeat rate %1"
+msgstr "Частота автоповтора клавиш %1"
+
+#: ui/main.qml:227 ui/main_phone.qml:177
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "%1 repeats/s"
+msgstr "%1 повт./с"
+
+#: ui/main.qml:231 ui/main_phone.qml:181
+#, kde-format
+msgctxt "@spinbox:value  Key repeat rate"
+msgid "repeats/s"
+msgstr " повт./с"
+
+#: ui/main.qml:243
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Test area:"
+msgstr "Проверка:"
+
+#: ui/main.qml:245
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to test settings"
+msgstr "Начните печатать для проверки настроек"
+
+#: ui/main.qml:256
+#, kde-format
+msgctxt "@title:view"
+msgid "Layouts"
+msgstr "Раскладки"
+
+#: ui/main.qml:270
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "Переместить вверх"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout up"
+msgstr "Переместить раскладку %1 вверх"
+
+#: ui/main.qml:277
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr "Переместить вниз"
+
+#: ui/main.qml:278
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Move %1 layout Down"
+msgstr "Переместить раскладку %1 вниз"
+
+#: ui/main.qml:288
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Preview"
+msgstr "Просмотр"
+
+#: ui/main.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Удалить"
+
+#: ui/main.qml:297
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Remove layout %1"
+msgstr "Удалить раскладку %1"
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Spare layouts:"
+msgstr "Ограничить число раскладок, входящих в кольцо переключения:"
+
+#: ui/main.qml:346
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of spared main layouts"
+msgstr "Количество основных раскладок вне кольца переключения"
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@label:textbox completes spinbox, x main layouts"
+msgid "main layouts"
+msgstr "основные раскладки"
+
+#: ui/main.qml:382
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can have up to 4 main layouts, all other layouts are spare. Spare "
+"layouts are not included when cycling through the layouts, but can be "
+"accessed through the keyboard indicator applet or by setting a custom "
+"shortcut."
+msgstr ""
+"Допускается наличие не более 4 основных раскладок, все остальные раскладки "
+"не входят в кольцо переключения. Это означает, что они недоступны при "
+"переборе кольца, но доступ к ним можно получить с помощью апплета индикатора "
+"раскладки или по заранее заданной пользователем комбинации клавиш."
+
+#: ui/main.qml:387
+#, kde-format
+msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
+msgid "Change layout shortcut:"
+msgstr "Комбинация клавиш для переключения раскладки:"
+
+#: ui/main.qml:410
+#, kde-format
+msgctxt "@label Change layout shortcut or \"Configure Switching\""
+msgid "or"
+msgstr "или"
+
+#: ui/main_phone.qml:36
+#, kde-format
+msgctxt "@title form header"
+msgid "Model & Layout"
+msgstr "Модель и раскладка"
+
+#: ui/main_phone.qml:43
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Keyboard Model"
+msgstr "Модель клавиатуры"
+
+#: ui/main_phone.qml:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Custom Layout"
+msgstr "Нестандартная раскладка"
+
+#: ui/main_phone.qml:96
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Layout..."
+msgstr "Сменить раскладку…"
+
+#: ui/main_phone.qml:103
+#, kde-format
+msgctxt "@title:group"
+msgid "Key Repeat"
+msgstr "Автоповтор клавиш"
+
+#: ui/main_phone.qml:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Customize Repeat"
+msgstr "Настроить автоповтор"
+
+#: ui/Switching.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Configure Switching"
+msgstr "Настроить переключение"
+
+#: ui/Switching.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr "Поведение"
+
+#: ui/Switching.qml:28
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Switching layout affects:"
+msgstr "Смена раскладки затрагивает:"
+
+#: ui/Switching.qml:35
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows"
+msgstr "Все окна"
+
+#: ui/Switching.qml:39
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows on current desktop"
+msgstr "Все окна на текущем рабочем столе"
+
+#: ui/Switching.qml:43
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All windows of current application"
+msgstr "Все окна текущего приложения"
+
+#: ui/Switching.qml:47
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Current window only"
+msgstr "Только текущее окно"
+
+#: ui/Switching.qml:74
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Show OSD popup on layout change"
+msgstr "Показывать экранное уведомление при переключении раскладки клавиатуры"
+
+#: ui/Switching.qml:86
+#, kde-format
+msgctxt "@title:group"
+msgid "Shortcuts"
+msgstr "Комбинации клавиш"
+
+#: ui/Switching.qml:91 ui/Switching.qml:151
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Change layout:"
+msgstr "Сменить раскладку:"
+
+#: ui/Switching.qml:111
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Switch to last used layout:"
+msgstr "Выбрать последнюю использованную раскладку:"
+
+#: ui/Switching.qml:131
+#, kde-format
+msgctxt "@title:group"
+msgid "Legacy Shortcuts"
+msgstr "Устаревшие комбинации клавиш"
+
+#: ui/Switching.qml:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Legacy X11 shortcuts allow finer control of modifier-only shortcuts and have "
+"slightly better support on X11 in edge cases. They can also be used on "
+"Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings "
+"page."
+msgstr ""
+"Устаревшие комбинации клавиш X11 позволяют тоньше настраивать комбинации "
+"клавиш, в которых задействованы исключительно модификаторы, и немного лучше "
+"поддерживаются X11 в пограничных случаях. Также их можно использовать в "
+"Wayland.<nl/><nl/>Настройка этих комбинаций клавиш выполняется в разделе "
+"«Комбинации клавиш»."
+
+#: ui/Switching.qml:180
+#, kde-format
+msgctxt "@option:textbox"
+msgid "Alternative symbols:"
+msgstr "Альтернативные символы:"
+
+#: ui/Switching.qml:206
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Modifier keys can be used to type additional characters, symbols, and "
+"diacritical marks."
+msgstr ""
+"Для набора дополнительных букв, символов и диакритических знаков можно "
+"воспользоваться клавишами-модификаторами."
+
+#: xkboptionsmodel.cpp:165
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] "%1 комбинация клавиш"
+msgstr[1] "%1 комбинации клавиш"
+msgstr[2] "%1 комбинаций клавиш"
+msgstr[3] "%1 комбинация клавиш"
+
+#: xkboptionsmodel.cpp:168
+#, kde-format
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "Нет"
+
+#~ msgctxt "@title"
+#~ msgid "Key Bindings"
+#~ msgstr "Комбинации клавиш"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Turn Off"
+#~ msgstr "Отключить"
+
+#~ msgctxt "@title:group"
+#~ msgid "When key is held:"
+#~ msgstr "Действие при удержании клавиши:"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Repeat the key"
+#~ msgstr "Повторять ввод символа"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Do nothing"
+#~ msgstr "Ничего не делать"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Show accented and similar characters"
+#~ msgstr "Показывать акцентированные и схожие символы"
+
+#~ msgctxt "@title:group"
+#~ msgid "Shortcuts for Switching Layout"
+#~ msgstr "Комбинации клавиш для переключения"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "Main shortcuts:"
+#~ msgstr "Основные:"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "3rd level shortcuts:"
+#~ msgstr "«3-й» уровень (набор типографских символов):"
+
+#~ msgctxt "@option:textbox"
+#~ msgid "Last used shortcuts:"
+#~ msgstr "Последняя использованная комбинация:"
+
+#~ msgctxt "@title:group"
+#~ msgid "Switching Policy"
+#~ msgstr "Область переключения раскладки"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Global"
+#~ msgstr "Глобально"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Desktop"
+#~ msgstr "Рабочий стол"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Application"
+#~ msgstr "Приложение"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Window"
+#~ msgstr "Окно"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgctxt "@title:column"
+#~ msgid "Map"
+#~ msgstr "Название"
+
+#~ msgctxt "@title:column"
+#~ msgid "Label"
+#~ msgstr "Значок"
+
+#~ msgctxt "@title:column"
+#~ msgid "Variant"
+#~ msgstr "Вариант"
+
+#~ msgctxt "@action:button"
+#~ msgid "Reassign shortcut"
+#~ msgstr "Переназначить"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel assignment"
+#~ msgstr "Отменить"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Hardware"
+#~ msgstr "Оборудование"
+
+#~ msgctxt "layout - variant"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Search…"
+#~ msgstr "Поиск…"
+
+# BUGME: значок? подпись на значке? --aspotashev
+#~ msgid "Label:"
+#~ msgstr "Подпись:"
+
+#~ msgid ""
+#~ "Here you can choose a keyboard model. This setting is independent of your "
+#~ "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
+#~ "keyboard is manufactured. Modern keyboards that come with your computer "
+#~ "usually have two extra keys and are referred to as \"104-key\" models, "
+#~ "which is probably what you want if you do not know what kind of keyboard "
+#~ "you have.\n"
+#~ msgstr ""
+#~ "Здесь можно указать модель клавиатуры. Этот параметр не зависит от "
+#~ "раскладки клавиатуры и относится к аппаратной модели, то есть к тому, кем "
+#~ "была произведена ваша клавиатура. Современные клавиатуры с двумя "
+#~ "дополнительными клавишами являются 104-клавишными, скорее всего у вас "
+#~ "именно такой тип клавиатуры.\n"
+
+#~ msgid ""
+#~ "If you select \"Application\" or \"Window\" switching policy, changing "
+#~ "the keyboard layout will only affect the current application or window."
+#~ msgstr ""
+#~ "Если вы выбрали область переключения «Приложение» или «Окно», каждое "
+#~ "приложение/окно будет иметь свою текущую раскладку (как в Windows)."
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts which is handled by X.org. It "
+#~ "allows modifier-only shortcuts."
+#~ msgstr ""
+#~ "Комбинация клавиш, используемая для переключения раскладки клавиатуры, "
+#~ "обрабатываемая графической системой X.org. Можно указывать только клавиши-"
+#~ "модификаторы (например, Alt+Shift)."
+
+#~ msgctxt "no shortcut defined"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "…"
+#~ msgstr "..."
+
+#~ msgid ""
+#~ "This is a shortcut for switching to a third level of the active layout "
+#~ "(if it has one) which is handled by X.org. It allows modifier-only "
+#~ "shortcuts."
+#~ msgstr ""
+#~ "Комбинация клавиш, используемая для переключения на третий уровень "
+#~ "раскладки, обрабатываемая графической системой X.org. Можно указывать "
+#~ "только клавиши-модификаторы (например, Alt+Shift). Для ввода типографских "
+#~ "символов («, », —, ©, §, °, £, …) включите соответствующий пункт на "
+#~ "вкладке «Дополнительно», в разделе «Разные параметры совместимости»."
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts. It does not support modifier-"
+#~ "only shortcuts and also may not work in some situations (e.g. if popup is "
+#~ "active or from screensaver)."
+#~ msgstr ""
+#~ "Комбинация клавиш для переключения раскладки. Она не может состоять "
+#~ "исключительно из клавиш-модификаторов (например, Alt+Shift) и она может "
+#~ "не работать в некоторых случаях (например, в выпадающем меню из хранителя "
+#~ "экрана)."
+
+#~ msgid ""
+#~ "This shortcut allows for fast switching between two layouts, by always "
+#~ "switching to the last-used one."
+#~ msgstr ""
+#~ "Эта комбинация клавиш позволяет последовательно переключаться между двумя "
+#~ "последними использованными раскладками."
+
+#~ msgid "Advanced"
+#~ msgstr "Дополнительно"
+
+#~ msgctxt "variant"
+#~ msgid "Default"
+#~ msgstr "Вариант по умолчанию"
+
+#~ msgid ""
+#~ "Allows to test keyboard repeat and click volume (just don't forget to "
+#~ "apply the changes)."
+#~ msgstr ""
+#~ "Здесь можно проверить параметры автоповтора и громкость\n"
+#~ "звука нажатия (после этого не забудьте применить изменения)."
+
+#~ msgid ""
+#~ "If supported, this option allows you to setup the state of NumLock after "
+#~ "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+#~ "configure Plasma not to set NumLock state."
+#~ msgstr ""
+#~ "Если поддерживается, этот параметр позволяет установить состояние NumLock "
+#~ "после запуска Plasma. <p> Можно настроить включение или отключение "
+#~ "NumLock, или не изменять состояние NumLock при запуске Plasma."
+
+#~ msgid "Leave unchan&ged"
+#~ msgstr "&Не изменять"
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the delay after which a "
+#~ "pressed key will start generating keycodes. The 'Repeat rate' option "
+#~ "controls the frequency of these keycodes."
+#~ msgstr ""
+#~ "Если поддерживается, этот параметр позволяет установить задержку, после "
+#~ "которой нажатая клавиша начинает генерировать коды. Параметр «Частота» "
+#~ "определяет частоту автоповтора."
+
+#~ msgid ""
+#~ "If supported, this option allows you to set the rate at which keycodes "
+#~ "are generated while a key is pressed."
+#~ msgstr ""
+#~ "Если поддерживается, этот параметр позволяет установить частоту "
+#~ "автоповтора при длительном нажатии клавиши."
+
+#~ msgid "KDE Keyboard Control Module"
+#~ msgstr "Модуль настройки клавиатуры"
+
+#~ msgid "(c) 2010 Andriy Rysin"
+#~ msgstr "© Andriy Rysin, 2010"
+
+#~ msgid ""
+#~ "<h1>Keyboard</h1> This control module can be used to configure keyboard "
+#~ "parameters and layouts."
+#~ msgstr ""
+#~ "<h1>Клавиатура</h1> Этот модуль настройки позволяет выбрать параметры и "
+#~ "раскладки клавиатуры."
+
+#~ msgid "KDE Keyboard Layout Switcher"
+#~ msgstr "Переключение раскладки клавиатуры в KDE"
+
+#~ msgid "Only up to %1 keyboard layout is supported"
+#~ msgid_plural "Only up to %1 keyboard layouts are supported"
+#~ msgstr[0] "Поддерживается использование не более %1 раскладки клавиатуры"
+#~ msgstr[1] "Поддерживается использование не более %1 раскладок клавиатуры"
+#~ msgstr[2] "Поддерживается использование не более %1 раскладок клавиатуры"
+#~ msgstr[3] "Поддерживается использование не более %1 раскладки клавиатуры"
+
+#~ msgid "Any language"
+#~ msgstr "любой язык"
+
+#~ msgid "Layout:"
+#~ msgstr "Раскладка:"
+
+#~ msgid "Variant:"
+#~ msgstr "Вариант:"
+
+#~ msgid "Limit selection by language:"
+#~ msgstr "Ограничить выбор языком:"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgctxt "short layout label - full layout name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 — %2"
+
+#~ msgid "Layout Indicator"
+#~ msgstr "Индикатор раскладки"
+
+#~ msgid "Show for single layout"
+#~ msgstr "Показывать даже для одной раскладки"
+
+#~ msgid "Show flag"
+#~ msgstr "Флаг страны"
+
+#~ msgid "Show label"
+#~ msgstr "Код языка"
+
+#~ msgid "Show label on flag"
+#~ msgstr "Код языка на флаге"
+
+#~ msgctxt "tooltip title"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Раскладка клавиатуры"
+
+#~ msgid "Configure Layouts..."
+#~ msgstr "Настроить раскладки клавиатуры..."
+
+# BUGME: change to "configure layouts" --aspotashev
+#~ msgid "Configure..."
+#~ msgstr "Настроить раскладки..."
+
+#~ msgid "Key Click"
+#~ msgstr "Звук нажатия клавиш"
+
+#~ msgid ""
+#~ "If supported, this option allows you to hear audible clicks from your "
+#~ "computer's speakers when you press the keys on your keyboard. This might "
+#~ "be useful if your keyboard does not have mechanical keys, or if the sound "
+#~ "that the keys make is very soft.<p>You can change the loudness of the key "
+#~ "click feedback by dragging the slider button or by clicking the up/down "
+#~ "arrows on the spin box. Setting the volume to 0% turns off the key click."
+#~ msgstr ""
+#~ "Если поддерживается, этот параметр позволяет слышать щелчки из динамиков "
+#~ "компьютера при нажатии клавиш на клавиатуре. это может быть полезным, "
+#~ "если на клавиатуре нет механических клавиш, или если звук от нажатия "
+#~ "клавиш слишком тихий.<p>Вы можете изменить громкость щелчков, перемещая "
+#~ "ползунок или при помощи стрелок на поле со счётчиком. Установка громкости "
+#~ "на 0 отключает щелчки клавиатуры."
+
+#, fuzzy
+#~ msgid "&Key click volume:"
+#~ msgstr "&Громкость нажатия клавиш:"
+
+#~ msgid "No layout selected "
+#~ msgstr "Не выбрана раскладка"
+
+#~ msgid "XKB extension failed to initialize"
+#~ msgstr "Не удалось инициализировать расширение XKB"
+
+#~ msgid "Backspace"
+#~ msgstr "Backspace"
+
+#~ msgctxt "Tab key"
+#~ msgid "Tab"
+#~ msgstr "Tab"
+
+#~ msgid "Caps Lock"
+#~ msgstr "Caps Lock"
+
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "AltGr"
+#~ msgstr "AltGr"
+
+#~ msgid "Esc"
+#~ msgstr "Esc"
+
+#~ msgctxt "Function key"
+#~ msgid "F%1"
+#~ msgstr "F%1"
+
+#~ msgid "Shift"
+#~ msgstr "Shift"
+
+#~ msgid "No preview found"
+#~ msgstr "Изображение предварительного просмотра отсутствует"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid ""
+#~ "If you check this option, pressing and holding down a key emits the same "
+#~ "character over and over again. For example, pressing and holding down the "
+#~ "Tab key will have the same effect as that of pressing that key several "
+#~ "times in succession: Tab characters continue to be emitted until you "
+#~ "release the key."
+#~ msgstr ""
+#~ "Если установлен этот параметр, нажатие и удерживание клавиши приводит к "
+#~ "тому, что клавиша выдаёт код символа снова и снова (аналогично нажатию "
+#~ "клавиши несколько раз)."
+
+#~ msgid "&Enable keyboard repeat"
+#~ msgstr "По&вторять ввод символа"

@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-20 00:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-workspace/kcm_nighttime.pot\n"
+"X-Crowdin-File-ID: 58298\n"
+
+#: ui/main.qml:26
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Time-based features such as Night Light and dynamic wallpapers can be "
+"synchronized with the day-night cycle. Choose your preferred cycle here."
+msgstr ""
+"基于时间的功能，例如夜间模式和动态壁纸等，可以根据日夜周期同步切换。请在此选"
+"择想要使用的周期。"
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: 'Determine sunrise and sunset times "
+"[based on]'"
+msgid "Determine sunrise and sunset times:"
+msgstr "日出和日落时间的确定方式："
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt ""
+"@item:inlistbox part of a sentence: 'Determine sunrise and sunset times'"
+msgid "Based on device's location"
+msgstr "基于设备的位置"
+
+#: ui/main.qml:48
+#, kde-format
+msgctxt ""
+"@item:inlistbox part of a sentence: 'Determine sunrise and sunset times'"
+msgid "Using custom times"
+msgstr "使用自定义时间"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@label"
+msgid "Sunrise:"
+msgstr "日出："
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@label"
+msgid "Sunset:"
+msgstr "日落："
+
+#: ui/main.qml:89
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Transition duration:"
+msgstr "过渡时长："
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@item:valuesuffix transition duration"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟"
+
+#: ui/main.qml:118
+#, kde-format
+msgctxt "@option:radio"
+msgid "Automatically detect location"
+msgstr "自动检测位置"
+
+#: ui/main.qml:145
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The <application>GeoClue2</application> service will be used to periodically "
+"update the device's location using GPS or cell tower triangulation if "
+"available, or else by sending its IP address to <link url='https://geoip.com/"
+"privacy/'>GeoIP</link>."
+msgstr ""
+"程序将使用 <application>GeoClue2</application> 服务来定期更新设备的位置。"
+"GeoClue2 将使用 GPS 和移动基站三角测量法来对设备进行定位 (如果可用)，否则将发"
+"送设备的 IP 地址到 <link url='https://geoip.com/privacy/'>GeoIP</link> 服务来"
+"获取定位。"
+
+#: ui/main.qml:146
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The <application>%1</application> service will be used to periodically "
+"update the device's location. Please open a bug report at <link url='https://"
+"bugs.kde.org'>https://bugs.kde.org</link> asking KDE developers to write a "
+"detailed description of what this service will do."
+msgstr ""
+"triangulation<application>%1</application> 服务来定期更新设备的位置。请在 "
+"<link url='https://bugs.kde.org'>https://bugs.kde.org</link> 网站提交一个程序"
+"缺陷报告，提醒 KDE 开发人员撰写关于此服务的工作方式的详细说明。"
+
+#: ui/main.qml:163
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use manual location:"
+msgstr "手动指定位置："
+
+#: ui/main.qml:175
+#, kde-format
+msgctxt "@label"
+msgid "Latitude:"
+msgstr "纬度："
+
+#: ui/main.qml:195
+#, kde-format
+msgctxt "@label"
+msgid "Longitude:"
+msgstr "经度："
+
+#: ui/SunPath.qml:52
+#, kde-format
+msgctxt "@info:tooltip; the variables are times of day, e.g. 07:30"
+msgid "Sunrise starts at %1 and ends at %2"
+msgstr "日出从 %1 开始，到 %2 结束"
+
+#: ui/SunPath.qml:57
+#, kde-format
+msgctxt "@label"
+msgid "Sunrise"
+msgstr "日出"
+
+#: ui/SunPath.qml:77
+#, kde-format
+msgctxt "@info:tooltip; the variables are times of day, e.g. 07:30"
+msgid "Sunset starts at %1 and ends at %2"
+msgstr "日落从 %1 开始，到 %2 结束"
+
+#: ui/SunPath.qml:82
+#, kde-format
+msgctxt "@label"
+msgid "Sunset"
+msgstr "日落"
+
+#: ui/SunPath.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be determined at your location due to polar "
+"day. Choose custom times instead."
+msgstr "由于极昼现象，您所在位置的日出和日落时间无法确定。请选择自定义时间。"
+
+#: ui/SunPath.qml:109
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be determined at your location due to polar "
+"night. Choose custom times instead."
+msgstr "由于极夜现象，您所在位置的日出和日落时间无法确定。请选择自定义时间。"
+
+#: ui/SunPath.qml:111
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be reliably determined at your location. "
+"Choose custom times instead."
+msgstr "您所在位置的日出和日落时间无法准确判断。请选择自定义时间。"
+
+#: ui/TimeField.qml:31
+#, kde-format
+msgctxt "Time separator between hours and minutes"
+msgid ":"
+msgstr ":"
+
+#: ui/WorldMap.qml:76
+#, kde-format
+msgctxt ""
+"@label:chooser Tap should be translated to mean touching using a touchscreen"
+msgid "Tap to choose your location on the map."
+msgstr "点击地图以选择您的位置。"
+
+#: ui/WorldMap.qml:77
+#, kde-format
+msgctxt ""
+"@label:chooser Click should be translated to mean clicking using a mouse"
+msgid "Click to choose your location on the map."
+msgstr "点击地图以选择您的位置。"
+
+#: ui/WorldMap.qml:189
+#, kde-format
+msgid "Zoom in"
+msgstr "放大"
+
+#: ui/WorldMap.qml:206
+#, kde-format
+msgid "Zoom out"
+msgstr "缩小"
+
+#: ui/WorldMap.qml:235
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Modified from <link url='https://commons.wikimedia.org/wiki/File:"
+"World_location_map_(equirectangular_180).svg'>World location map</link> by "
+"TUBS / Wikimedia Commons / <link url='https://creativecommons.org/licenses/"
+"by-sa/3.0'>CC BY-SA 3.0</link>"
+msgstr ""
+"基于 TUBS 制作的<link url='https://commons.wikimedia.org/wiki/File:"
+"World_location_map_(equirectangular_180).svg'>世界位置地图</link> / "
+"Wikimedia Commons / <link url='https://creativecommons.org/licenses/by-"
+"sa/3.0'>CC BY-SA 3.0</link>"

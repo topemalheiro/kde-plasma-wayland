@@ -1,0 +1,719 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2012, 2016, 2019, 2020.
+# Mihkel Tõnnov <mihhkel@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-28 00:46+0000\n"
+"PO-Revision-Date: 2020-09-28 01:43+0200\n"
+"Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
+"Language-Team: Estonian <>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#: actionlist.cpp:93
+#, kde-format
+msgid "Open with:"
+msgstr "Avamine rakendusega:"
+
+#: actionlist.cpp:106
+#, kde-format
+msgid "Properties"
+msgstr "Omadused"
+
+#: actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Lisa töölauale"
+
+#: actionlist.cpp:160
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Kinnista tegumihaldurile"
+
+#: actionlist.cpp:164
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Lisa paneelile (vidin)"
+
+#: actionlist.cpp:316 rootmodel.cpp:587
+#, kde-format
+msgid "Recent Files"
+msgstr "Viimati kasutatud failid"
+
+#: actionlist.cpp:326
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Unusta viimati kasutatud failid"
+
+#: actionlist.cpp:393
+#, fuzzy, kde-format
+#| msgid "Edit Application..."
+msgid "Edit Application…"
+msgstr "Muuda rakendust..."
+
+#: actionlist.cpp:425
+#, fuzzy, kde-format
+#| msgctxt "@action opens a software center with the application"
+#| msgid "Uninstall or Manage Add-Ons..."
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Eemalda või halda lisandeid ..."
+
+#: appentry.cpp:400
+#, kde-format
+msgid "Hide Application"
+msgstr "Peida rakendus"
+
+#: appentry.cpp:462
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:464
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:93 computermodel.cpp:219
+#: recentusagemodel.cpp:158 recentusagemodel.cpp:229
+#, kde-format
+msgid "Applications"
+msgstr "Rakendused"
+
+#: appsmodel.cpp:173
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Näita taas alammenüü peidetud rakendusi"
+
+#: appsmodel.cpp:182
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Näita taas \"%1\" peidetud rakendusi"
+
+#: computermodel.cpp:87
+#, kde-format
+msgid "Show KRunner"
+msgstr "KRunneri näitamine"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Otsimine, arvutamine või käsu käivitamine"
+
+#: computermodel.cpp:142
+#, kde-format
+msgid "Computer"
+msgstr "Arvuti"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:537 rootmodel.cpp:571 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Lemmikud"
+
+#: recentusagemodel.cpp:156
+#, kde-format
+msgid "Recently Used"
+msgstr "Viimati kasutatud"
+
+#: recentusagemodel.cpp:160
+#, kde-format
+msgid "Places"
+msgstr "Asukohad"
+
+#: recentusagemodel.cpp:163 recentusagemodel.cpp:330
+#, kde-format
+msgid "Files"
+msgstr "Failid"
+
+#: recentusagemodel.cpp:263
+#, kde-format
+msgid "Forget Application"
+msgstr "Unusta rakendus"
+
+#: recentusagemodel.cpp:328
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgid "Folders"
+msgstr "Kataloog"
+
+#: recentusagemodel.cpp:375
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Ava sisaldav kataloog"
+
+#: recentusagemodel.cpp:380
+#, fuzzy, kde-format
+#| msgid "Forget File"
+msgid "Forget Folder"
+msgstr "Unusta fail"
+
+#: recentusagemodel.cpp:380
+#, kde-format
+msgid "Forget File"
+msgstr "Unusta fail"
+
+#: recentusagemodel.cpp:526
+#, kde-format
+msgid "Forget All"
+msgstr "Unusta kõik"
+
+#: recentusagemodel.cpp:528
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Unusta kõik rakendused"
+
+#: recentusagemodel.cpp:530
+#, fuzzy, kde-format
+#| msgid "Forget All Files"
+msgid "Forget All Folders"
+msgstr "Unusta kõik failid"
+
+#: recentusagemodel.cpp:533
+#, kde-format
+msgid "Forget All Files"
+msgstr "Unusta kõik failid"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Kõik rakendused"
+
+#: rootmodel.cpp:134
+#, kde-format
+msgid "Hide %1"
+msgstr "Peida %1"
+
+#: rootmodel.cpp:565
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr ""
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Recent Files"
+msgid "Recent Places"
+msgstr "Viimati kasutatud failid"
+
+#: rootmodel.cpp:578
+#, fuzzy, kde-format
+#| msgid "Often Used Files"
+msgid "Often Used Places"
+msgstr "Sageli kasutatud failid"
+
+#: rootmodel.cpp:587
+#, kde-format
+msgid "Often Used Files"
+msgstr "Sageli kasutatud failid"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Recent Applications"
+msgstr "Viimati kasutatud rakendused"
+
+#: rootmodel.cpp:596
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Sageli kasutatud rakendused"
+
+#: rootmodel.cpp:611
+#, kde-format
+msgid "Power / Session"
+msgstr "Toide / Seanss"
+
+#: runnermodel.cpp:272
+#, kde-format
+msgid "Search results"
+msgstr "Otsingutulemused"
+
+#: systementry.cpp:193
+#, kde-format
+msgid "Lock"
+msgstr "Lukusta"
+
+#: systementry.cpp:196
+#, kde-format
+msgid "Log Out"
+msgstr "Logi välja"
+
+#: systementry.cpp:199 systementry.cpp:253
+#, kde-format
+msgid "Save Session"
+msgstr "Salvesta seanss"
+
+#: systementry.cpp:202
+#, kde-format
+msgid "Switch User"
+msgstr "Vaheta kasutaja"
+
+#: systementry.cpp:205
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Unne"
+
+#: systementry.cpp:208
+#, kde-format
+msgid "Hibernate"
+msgstr "Talveunne"
+
+#: systementry.cpp:211
+#, kde-format
+msgid "Restart"
+msgstr "Taaskäivita"
+
+#: systementry.cpp:214
+#, kde-format
+msgid "Shut Down"
+msgstr "Seiska"
+
+#: systementry.cpp:230
+#, kde-format
+msgid "Session"
+msgstr "Seanss"
+
+#: systementry.cpp:235
+#, kde-format
+msgid "System"
+msgstr "Süsteem"
+
+#: systementry.cpp:247
+#, kde-format
+msgid "Lock screen"
+msgstr "Lukusta ekraan"
+
+#: systementry.cpp:250
+#, kde-format
+msgid "End session"
+msgstr "Lõpeta seanss"
+
+#: systementry.cpp:256
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Käivita paralleelne seanss teise kasutaja õigustes"
+
+#: systementry.cpp:259
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Passiivseisundisse mälus"
+
+#: systementry.cpp:262
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Passiivseisundisse kettal"
+
+#: systementry.cpp:265
+#, kde-format
+msgid "Restart computer"
+msgstr "Taaskäivita arvuti"
+
+#: systementry.cpp:268
+#, kde-format
+msgid "Turn off computer"
+msgstr "Lülita arvuti välja"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Süsteemi toimingud"
+
+#, fuzzy
+#~| msgid "Show Contact Information..."
+#~ msgid "Show Contact Information…"
+#~ msgstr "Näita kontaktiteavet..."
+
+#~ msgid "Contacts"
+#~ msgstr "Kontaktid"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Unusta kontakt"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Unusta kõik kontaktid"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Viimati kasutatud kontaktid"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumendid"
+
+#~ msgid "Forget Document"
+#~ msgstr "Unusta dokument"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Unusta kõik dokumendid"
+
+#~ msgid "General"
+#~ msgstr "Üldine"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Eemalda lemmikute seast"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Lisa lemmikute sekka"
+
+#, fuzzy
+#~| msgid "Favorites"
+#~ msgid "Show In Favorites"
+#~ msgstr "Lemmikud"
+
+#, fuzzy
+#~| msgid "Icon"
+#~ msgid "Icon:"
+#~ msgstr "Lisa lemmikute sekka"
+
+#, fuzzy
+#~| msgid "Tab Icon:"
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Kaardi ikoon:"
+
+#~ msgid "Show applications as:"
+#~ msgstr "Rakenduste kuvamine:"
+
+#~ msgid "Name only"
+#~ msgstr "Ainult nimi"
+
+#~ msgid "Description only"
+#~ msgstr "Ainult kirjeldus"
+
+#~ msgid "Name (Description)"
+#~ msgstr "Nimi (kirjeldus)"
+
+#~ msgid "Description (Name)"
+#~ msgstr "Kirjeldus (nimi)"
+
+#, fuzzy
+#~| msgid "Behavior"
+#~ msgid "Behavior:"
+#~ msgstr "Käitumine"
+
+#, fuzzy
+#~| msgid "Show applications as:"
+#~ msgid "Sort applications alphabetically"
+#~ msgstr "Rakenduste kuvamine:"
+
+#, fuzzy
+#~| msgid "Flatten menu to a single level"
+#~ msgid "Flatten sub-menus to a single level"
+#~ msgstr "Menüü ahendamine ühele tasandile"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Show categories:"
+#~ msgstr "Kategooriad"
+
+#, fuzzy
+#~| msgid "Recent Applications"
+#~ msgid "Recent applications"
+#~ msgstr "Viimati kasutatud rakendused"
+
+#, fuzzy
+#~| msgid "Installed Applications"
+#~ msgid "Often used applications"
+#~ msgstr "Paigaldatud rakendused"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Recent documents"
+#~ msgstr "Viimati kasutatud dokumendid"
+
+#, fuzzy
+#~| msgid "Recent Documents"
+#~ msgid "Often used documents"
+#~ msgstr "Viimati kasutatud dokumendid"
+
+#, fuzzy
+#~| msgid "Recent Contacts"
+#~ msgid "Recent contacts"
+#~ msgstr "Viimati kasutatud kontaktid"
+
+#, fuzzy
+#~| msgid "Show recent contacts"
+#~ msgid "Often used contacts"
+#~ msgstr "Viimati kasutatud kontaktide näitamine"
+
+#, fuzzy
+#~| msgid "Recently Used"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+#~ msgid "Recently used"
+#~ msgstr "Viimati kasutatud"
+
+#, fuzzy
+#~| msgid "Recently Used"
+#~ msgctxt ""
+#~ "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+#~ msgid "Often used"
+#~ msgstr "Viimati kasutatud"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search:"
+#~ msgstr "Otsing"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Otsingu laiendamine järjehoidjatele, failidele ja kirjadele"
+
+#~ msgid "Align search results to bottom"
+#~ msgstr "Otsingutulemuste joondamine alla"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "\"%1\" otsimine'"
+
+#, fuzzy
+#~| msgid "Type to search."
+#~ msgid "Type to search..."
+#~ msgstr "Kirjuta otsimiseks."
+
+#~ msgid "Edit Applications..."
+#~ msgstr "Muuda rakendusi..."
+
+#~ msgid "Search..."
+#~ msgstr "Otsing..."
+
+#, fuzzy
+#~| msgid "Remove '%1'..."
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Eemalda '%1'..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Käivita käsk..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Käsu või otsingupäringu käivitamine"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Viimati kasutatud rakenduste näitamine"
+
+#, fuzzy
+#~| msgid "Show recent applications"
+#~ msgid "Show often used applications"
+#~ msgstr "Viimati kasutatud rakenduste näitamine"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Viimati kasutatud dokumentide näitamine"
+
+#, fuzzy
+#~| msgid "Show recent documents"
+#~ msgid "Show often used documents"
+#~ msgstr "Viimati kasutatud dokumentide näitamine"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Viimati kasutatud kontaktide näitamine"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Eemaldatavad andmekandjad"
+
+#~ msgid "Logout"
+#~ msgstr "Logi välja"
+
+#~ msgid "Suspend"
+#~ msgstr "Passiivseisundisse"
+
+#~ msgid "Reboot"
+#~ msgstr "Taaskäivita"
+
+#~ msgid "Use custom image:"
+#~ msgstr "Kohandatud pilt:"
+
+#~ msgid "Choose an image"
+#~ msgstr "Pildi valimine"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+#~ msgstr "Pildifailid (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+
+#~ msgid "Add as Launcher"
+#~ msgstr "Lisa käivitajana"
+
+#~ msgid "New Session"
+#~ msgstr "Uus seanss"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Marek Laane"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "bald@smail.ee"
+
+#, fuzzy
+#~| msgid "KRunner"
+#~ msgid "Runner: %1"
+#~ msgstr "KRunner"
+
+#~ msgid "Browse installed applications by categories"
+#~ msgstr "Paigaldatud rakenduste sirvimine kategooriate järgi"
+
+#~ msgid "All Installed Applications"
+#~ msgstr "Kõik paigaldatud rakendused"
+
+#~ msgid ""
+#~ "List all installed applications in a flat list, grouped by categories"
+#~ msgstr ""
+#~ "Paigaldatud rakenduste näitamine ühtlases nimekirjas kategooriatesse "
+#~ "rühmitatuna"
+
+#, fuzzy
+#~| msgid "All Installed Applications"
+#~ msgid "All Installed Applications With Filters"
+#~ msgstr "Kõik paigaldatud rakendused"
+
+#, fuzzy
+#~| msgid ""
+#~| "List all installed applications in a flat list, grouped by categories"
+#~ msgid "List all installed applications and filter via the sidebar"
+#~ msgstr ""
+#~ "Paigaldatud rakenduste näitamine ühtlases nimekirjas kategooriatesse "
+#~ "rühmitatuna"
+
+#~ msgid "List the content of a folder and let you browse into sub-folders"
+#~ msgstr "Kataloogi sisu näitamine ja alamkataloogide sirvimise võimalus"
+
+#~ msgid "Browse the content of your favorite places"
+#~ msgstr "Sisu sirvimine lemmikasukohtade järgi"
+
+#~ msgid "List applications marked as favorite"
+#~ msgstr "Lemmikuks märgitud rakenduste näitamine"
+
+#~ msgid "Power Management"
+#~ msgstr "Toitehaldus"
+
+#~ msgid "Provide buttons to suspend, hibernate, reboot or halt your computer"
+#~ msgstr ""
+#~ "Nupud arvuti unne või talveunne saatmiseks, taaskäivitamiseks ja "
+#~ "seiskamiseks"
+
+#~ msgid ""
+#~ "Provide buttons to lock the screen, log out, or switch to another user"
+#~ msgstr ""
+#~ "Nupud ekraani lukustamiseks, väljalogimiseks või teisele kasutajale "
+#~ "lülitumiseks"
+
+#, fuzzy
+#~| msgid "Provide buttons to suspend, hibernate, reboot or halt your computer"
+#~ msgid ""
+#~ "Provide buttons to manage your workspace session and the power state of "
+#~ "your computer"
+#~ msgstr ""
+#~ "Nupud arvuti unne või talveunne saatmiseks, taaskäivitamiseks ja "
+#~ "seiskamiseks"
+
+#~ msgid "Perform searchs using a selection of runners"
+#~ msgstr "Otsimine määratud käivitajatega"
+
+#~ msgid "Folder to show:"
+#~ msgstr "Näidatav kataloog:"
+
+#~ msgid "Title:"
+#~ msgstr "Pealkiri:"
+
+#~ msgid "If title is left empty, the folder name will be used"
+#~ msgstr "Tühjaks jätmisel kasutatakse pealkirjana kataloogi nime"
+
+#, fuzzy
+#~| msgctxt "Program name"
+#~| msgid "Homerun"
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Home"
+#~ msgstr "Homerun"
+
+#~ msgid "Pick the application folder to display:"
+#~ msgstr "Näidatav rakendusekataloog:"
+
+#~ msgid "Power"
+#~ msgstr "Toide"
+
+#~ msgid "Pick the runners you would like to use in this source:"
+#~ msgstr "Käivitajad, mida allikas kasutada:"
+
+#~ msgid "Hello"
+#~ msgstr "Tere"
+
+#~ msgid "World"
+#~ msgstr "Maailm"
+
+#~ msgid "Hello World"
+#~ msgstr "Tere, maailm"
+
+#~ msgctxt "Used for tabs which have no name"
+#~ msgid "<Untitled>"
+#~ msgstr "<Nimetu>"
+
+#, fuzzy
+#~| msgid "End Configure"
+#~ msgid "End Configure Tabs"
+#~ msgstr "Lõpeta seadistamine"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configure Tabs"
+#~ msgstr "Seadistamine"
+
+#~ msgid "About %1"
+#~ msgstr "Teave %1 kohta"
+
+#~ msgid "Tab Label:"
+#~ msgstr "Kaardi pealdis:"
+
+#~ msgid "Log focused item (for debug purposes)"
+#~ msgstr "Fookuses elemendi logimine (silumise huvides)"
+
+#~ msgid "Use a plain window (for debug purposes)"
+#~ msgstr "Puhta akna kasutamine (silumise huvides)"
+
+#~ msgctxt "Program name"
+#~ msgid "Homerun"
+#~ msgstr "Homerun"
+
+#, fuzzy
+#~| msgid "(C) 2012 Blue Systems"
+#~ msgid "(C) 2012-2014 Blue Systems"
+#~ msgstr "(C) 2012: Blue Systems"
+
+#~ msgid "Shaun Reich"
+#~ msgstr "Shaun Reich"
+
+#~ msgid "Developer"
+#~ msgstr "Arendaja"
+
+#~ msgid "Aurélien Gâteau"
+#~ msgstr "Aurélien Gâteau"
+
+#, fuzzy
+#~| msgctxt "Program name"
+#~| msgid "Homerun"
+#~ msgctxt "Tab title"
+#~ msgid "Home"
+#~ msgstr "Homerun"
+
+#, fuzzy
+#~| msgid "Power"
+#~ msgctxt "Tab title"
+#~ msgid "Power"
+#~ msgstr "Toide"
+
+#, fuzzy
+#~| msgctxt "Program name"
+#~| msgid "Homerun"
+#~ msgid "Homerun Kicker"
+#~ msgstr "Homerun"
+
+#~ msgid "Show on screen <screen>"
+#~ msgstr "Näitamine ekraanil <ekraan>"
+
+#~ msgid "Nightly build using source from: %1"
+#~ msgstr "Igaöine lähtekoodist ehitatud versioon: %1"

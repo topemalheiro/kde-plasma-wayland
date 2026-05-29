@@ -1,0 +1,112 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2015.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2023-06-01 09:58+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "محتويات الحافظة"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "الحافظة فارغة"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "امحُ التّأريخ"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "اضبط الحافظة..."
+
+#~ msgid "QR Code"
+#~ msgstr "رمز QR"
+
+#~ msgid "Data Matrix"
+#~ msgstr "مصفوفة بيانات"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "بركود Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "رمز 39"
+
+#~ msgid "Code 93"
+#~ msgstr "رمز 93"
+
+#~ msgid "Code 128"
+#~ msgstr "رمز 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "ارجع إلى الحافظة"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "غيّر نوع \"باركود\""
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr "لا توجد مساحة كافية لعرض رمز كيو أر. حاول تغيير حجم التطبيق."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "فشل إنشاء باركود"
+
+#~ msgid "Invoke action"
+#~ msgstr "استدعِ إجراء"
+
+#~ msgid "Show QR code"
+#~ msgstr "أظهر باركود"
+
+#~ msgid "Edit contents"
+#~ msgstr "حرّر المحتويات"
+
+#~ msgid "Remove from history"
+#~ msgstr "أزل من التّأريخ"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "احفظ"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "ألغ"
+
+#~ msgid "No matches"
+#~ msgstr "لا يوجد متطابقات"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "البركود كبير بحيث لا يمكن عرضه"
+
+#~ msgid "Clear history"
+#~ msgstr "امحُ التّأريخ"
+
+#~ msgid "Search…"
+#~ msgstr "ابحث..."
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "تأريخ الحافظة فارغ."

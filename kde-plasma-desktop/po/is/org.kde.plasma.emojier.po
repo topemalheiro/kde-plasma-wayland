@@ -1,0 +1,249 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+# SPDX-FileCopyrightText: 2026 Sveinn í Felli <sv1@fellsnet.is>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-13 00:47+0000\n"
+"PO-Revision-Date: 2026-02-15 15:47+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: app/emojier.cpp:43 app/emojier.cpp:45
+#, kde-format
+msgid "Emoji Selector"
+msgstr "Val á tjáknum (emoji)"
+
+#: app/emojier.cpp:47
+#, kde-format
+msgid "(C) 2019 Aleix Pol i Gonzalez"
+msgstr "(C) 2019 Aleix Pol i Gonzalez"
+
+#: app/emojier.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sveinn í Felli, Guðmundur Erlingsson"
+
+#: app/emojier.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sv1@fellsnet.is, gudmundure@gmail.com"
+
+#: app/emojier.cpp:58
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "Skipta út fyrirliggjandi tilviki"
+
+#: app/ui/CategoryPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Search"
+msgctxt "@action Search field action"
+msgid "Search"
+msgstr "Leita"
+
+#: app/ui/CategoryPage.qml:100
+#, kde-format
+msgctxt "@action:button clear emoji history"
+msgid "Clear History"
+msgstr "Hreinsa feril"
+
+#: app/ui/CategoryPage.qml:106
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@action:button Button to open a menu that lets you choose a skin tone"
+#| msgid "Skin tone:"
+msgctxt "@action:button Button to open a menu that lets you choose a skin tone"
+msgid "Skin tone: %1"
+msgstr "Húðlitur:"
+
+#: app/ui/CategoryPage.qml:137
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐️ Neutral"
+msgstr "🖐️ Hlutlaus"
+
+#: app/ui/CategoryPage.qml:138
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Neutral"
+msgstr "Hlutlaus"
+
+#: app/ui/CategoryPage.qml:146
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏻 Light"
+msgstr "🖐🏻 Ljós"
+
+#: app/ui/CategoryPage.qml:147
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Light"
+msgstr "Ljós"
+
+#: app/ui/CategoryPage.qml:155
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏼 Medium Light"
+msgstr "🖐🏼 Miðlungs ljós"
+
+#: app/ui/CategoryPage.qml:156
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium Light"
+msgstr "Miðlungs ljós"
+
+#: app/ui/CategoryPage.qml:164
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏽 Medium"
+msgstr "🖐🏽 Miðlungs"
+
+#: app/ui/CategoryPage.qml:165
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium"
+msgstr "Miðlungs"
+
+#: app/ui/CategoryPage.qml:173
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏾 Medium Dark"
+msgstr "🖐🏾 Miðlungs dökkur"
+
+#: app/ui/CategoryPage.qml:174
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Medium Dark"
+msgstr "Miðlungs dökkur"
+
+#: app/ui/CategoryPage.qml:182
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "🖐🏿 Dark"
+msgstr "🖐🏿 Dökkur"
+
+#: app/ui/CategoryPage.qml:183
+#, kde-format
+msgctxt "@action:inmenu Skin Tone"
+msgid "Dark"
+msgstr "Dökkur"
+
+#: app/ui/CategoryPage.qml:194
+#, kde-format
+msgctxt "@title:window A two-tone skin variant can be selected here"
+msgid "Select Variant"
+msgstr "Veldu tilbrigði"
+
+#: app/ui/CategoryPage.qml:242
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Copy Character"
+msgstr "Afrita staf"
+
+#: app/ui/CategoryPage.qml:250
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Copy Description"
+msgstr "Afrita lýsingu"
+
+#: app/ui/CategoryPage.qml:291
+#, kde-format
+msgctxt "@label placeholder for empty recent emoji list"
+msgid "No recent emojis"
+msgstr "Engin nýleg tjákn"
+
+#: app/ui/CategoryPage.qml:291
+#, kde-format
+msgctxt "@label placeholder for no emoji found in category"
+msgid "No matching emoji found"
+msgstr "Engir samsvarandi tjákn fannst"
+
+#: app/ui/CategoryPage.qml:339
+#, kde-format
+msgctxt ""
+"@action:button Opens a window where a two-tone skin variant can be selected. "
+"%1 is the emoji's name"
+msgid "Select Variant of \"%1\""
+msgstr "Veldu tilbrigði af \"%1\""
+
+#: app/ui/Emojier.qml:44
+#, kde-format
+msgctxt "@info:status passive notification as action feedback, %1 is an emoji"
+msgid "%1 copied to the clipboard"
+msgstr "%1 afritað á klippispjaldið"
+
+#: app/ui/Emojier.qml:58
+#, kde-format
+msgctxt "@title page title for Recent Emoji view, and sidebar label for it"
+msgid "Recent"
+msgstr "Nýlegt"
+
+#: app/ui/Emojier.qml:73
+#, kde-format
+msgctxt "@title:page All emojis"
+msgid "All"
+msgstr "Allt"
+
+#: emojicategory.cpp:14
+msgctxt "Emoji Category"
+msgid "Smileys and Emotion"
+msgstr "Broskallar og tilfinningar"
+
+#: emojicategory.cpp:15
+msgctxt "Emoji Category"
+msgid "People and Body"
+msgstr "Fólk og líkami"
+
+#: emojicategory.cpp:16
+msgctxt "Emoji Category"
+msgid "Component"
+msgstr "Hluti"
+
+#: emojicategory.cpp:17
+msgctxt "Emoji Category"
+msgid "Animals and Nature"
+msgstr "Dýr og náttúra"
+
+#: emojicategory.cpp:18
+msgctxt "Emoji Category"
+msgid "Food and Drink"
+msgstr "Matur og drykkur"
+
+#: emojicategory.cpp:19
+msgctxt "Emoji Category"
+msgid "Travel and Places"
+msgstr "Ferðalög og staðir"
+
+#: emojicategory.cpp:20
+msgctxt "Emoji Category"
+msgid "Activities"
+msgstr "Athafnir"
+
+#: emojicategory.cpp:21
+msgctxt "Emoji Category"
+msgid "Objects"
+msgstr "Hlutir"
+
+#: emojicategory.cpp:22
+msgctxt "Emoji Category"
+msgid "Symbols"
+msgstr "Tákn"
+
+#: emojicategory.cpp:23
+msgctxt "Emoji Category"
+msgid "Flags"
+msgstr "Fánar"
+
+#~ msgid "Categories"
+#~ msgstr "Flokkar"

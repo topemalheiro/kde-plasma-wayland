@@ -1,0 +1,72 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2015, 2016.
+# Antonis Geralis <capoiosct@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-05 00:44+0000\n"
+"PO-Revision-Date: 2024-08-24 09:50+0300\n"
+"Last-Translator: Αντώνης Γέραλης <capoiosct@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Γενικά"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Calendar version:"
+msgstr "Έκδοση ημερολογίου:"
+
+#: qml/configGeneral.qml:23
+#, kde-format
+msgid "Show week numbers"
+msgstr "Εμφάνιση αριθμών εβδομάδας"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgctxt "What information is shown in the calendar icon"
+msgid "Compact version:"
+msgstr "Συμπαγής έκδοση:"
+
+#: qml/configGeneral.qml:34
+#, kde-format
+msgctxt "Show the number of the day (eg. 31) in the icon"
+msgid "Show day of the month"
+msgstr "Εμφάνιση της ημέρας του μήνα"
+
+#: qml/configGeneral.qml:40
+#, kde-format
+msgctxt "Show the week number (eg. 50) in the icon"
+msgid "Show week number"
+msgstr "Εμφάνιση αριθμού εβδομάδας"
+
+#~ msgid "Working Day"
+#~ msgstr "Εργάσιμη ημέρα "
+
+#~ msgid "Starts at 9"
+#~ msgstr "Ξεκινά στις 9"
+
+#~ msgid "Ends at 5"
+#~ msgstr "Τελειώνει στις 5"
+
+#~ msgctxt "What information is shown in the calendar icon"
+#~ msgid "Icon:"
+#~ msgstr "Εικονίδιο:"
+
+#~ msgctxt "Show the number of the day (eg. 31) in the icon"
+#~ msgid "Day in month"
+#~ msgstr "Ημέρα του μήνα"
+
+#~ msgid "Agenda"
+#~ msgstr "Ατζέντα"

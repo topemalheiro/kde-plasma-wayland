@@ -1,0 +1,298 @@
+# SPDX-FileCopyrightText: 2026 Mint <5602mint@gmail.com>
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_search\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2026-05-10 14:37+0900\n"
+"Last-Translator: Mint <5602mint@gmail.com>\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 26.04.1\n"
+
+#: plasmasearch/kcm.h:73
+#, kde-format
+msgid "Favorite Plugins"
+msgstr "お気に入りのプラグイン"
+
+#: plasmasearch/kcm.h:74
+#, kde-format
+msgid "Available Plugins"
+msgstr "利用可能なプラグイン"
+
+#: plasmasearch/ui/main.qml:25
+#, kde-format
+msgctxt "@action:button in toolbar"
+msgid "Configure KRunner…"
+msgstr "KRunner を設定…"
+
+#: plasmasearch/ui/main.qml:30
+#, kde-format
+msgctxt "@action:button in toolbar"
+msgid "Get New Plugins…"
+msgstr "新しいプラグインを取得…"
+
+#: plasmasearch/ui/main.qml:45
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Enable or disable plugins (used in KRunner, Application Launcher, and the "
+"Overview effect). Mark plugins as favorites and arrange them in order you "
+"want to prioritize them."
+msgstr ""
+"プラグインの有効/無効を設定できます (KRunner, アプリケーションランチャー, "
+"オーバービュー効果で使用されます)。また、プラグインをお気に入りとして設定し、"
+"優先したい順番に並べ替えることもできます。"
+
+#: plasmasearch/ui/main.qml:91
+#, kde-format
+msgctxt "@action:button, icononly"
+msgid "Remove from favorites"
+msgstr "お気に入りから削除"
+
+#: plasmasearch/ui/main.qml:91
+#, kde-format
+msgctxt "@action:button, icononly"
+msgid "Add to favorites"
+msgstr "お気に入りに追加"
+
+#: plugininstaller/AbstractJob.cpp:18
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Failed to run install script in terminal <message>%1</message>"
+msgstr ""
+"ターミナルでインストールスクリプトを実行できませんでした <message>%1</"
+"message>"
+
+#: plugininstaller/AbstractJob.cpp:29
+#, kde-format
+msgctxt "@info"
+msgid "Installation executed successfully, you may now close this window"
+msgstr "インストールが正常に実行されました。このウィンドウを閉じてください"
+
+#: plugininstaller/AbstractJob.cpp:31
+#, kde-format
+msgctxt "@info"
+msgid "Uninstallation executed successfully, you may now close this window"
+msgstr "アンインストールが正常に実行されました。このウィンドウを閉じてください"
+
+#: plugininstaller/KRunnerPluginInstallerRcJob.cpp:88
+#, kde-format
+msgid "Failed to copy file %1 to %2"
+msgstr "ファイル %1 を %2 にコピーできませんでした"
+
+#: plugininstaller/KRunnerPluginInstallerRcJob.cpp:103
+#: plugininstaller/KRunnerPluginInstallerRcJob.cpp:106
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to remove file %1:<nl/>%2"
+msgstr "ファイル %1:<nl/>%2 を削除できませんでした"
+
+#: plugininstaller/main.cpp:33
+#, kde-format
+msgctxt "@info"
+msgid "KRunner plugin installation failed"
+msgstr "KRunner プラグインのインストールに失敗しました"
+
+#: plugininstaller/main.cpp:48
+#, kde-format
+msgctxt "@info:shell"
+msgid "Command to execute: install or uninstall"
+msgstr "実行するコマンド: インストールまたはアンインストール"
+
+#: plugininstaller/main.cpp:49
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path to archive or extracted folder"
+msgstr "アーカイブまたは展開されたフォルダーへのパス"
+
+#: plugininstaller/main.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Do not show a visual confirmation dialog"
+msgstr "視覚的な確認ダイアログを表示しない"
+
+#: plugininstaller/main.cpp:92
+#, kde-format
+msgctxt "@info"
+msgid "No PackageKit support"
+msgstr "PackageKit サポートなし"
+
+#: plugininstaller/PackageKitConfirmationDialog.h:23
+#: plugininstaller/ScriptConfirmationDialog.h:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Installation"
+msgstr "インストールの確認"
+
+#: plugininstaller/PackageKitConfirmationDialog.h:26
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You are about to install a binary package. You should only install these "
+"from a trusted author/packager."
+msgstr ""
+"バイナリパッケージをインストールしようとしています。信頼できる作者/パッケージ"
+"作成者からのみインストールしてください。"
+
+#: plugininstaller/PackageKitConfirmationDialog.h:33
+#: plugininstaller/ScriptConfirmationDialog.h:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept Risk And Continue"
+msgstr "リスクを受け入れて継続"
+
+#: plugininstaller/PackageKitConfirmationDialog.h:37
+#, kde-format
+msgctxt "@action:button"
+msgid "View File"
+msgstr "ファイルを表示"
+
+#: plugininstaller/PackageKitJob.cpp:24
+#, kde-format
+msgctxt "@info"
+msgid "The mime type %1 is not supported by the packagekit backend"
+msgstr "MIME タイプ %1 は packagekit バックエンドでサポートされていません"
+
+#: plugininstaller/ScriptConfirmationDialog.h:44
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin executes the following command for starting the \"%1\" service:"
+"<nl/>%2"
+msgstr ""
+"このプラグインは「%1」サービスを開始するために次のコマンドを実行します:<nl/>"
+"%2"
+
+#: plugininstaller/ScriptConfirmationDialog.h:47
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin does not provide an uninstallation script. Please contact the "
+"author. You can try to uninstall the plugin manually.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインにはアンインストールスクリプトが用意されていません。作者に連絡"
+"してください。プラグインを手動でアンインストールしてみてください。<nl/>この操"
+"作に不安がある場合は、今すぐ<interface>キャンセル</interface>をクリックしてく"
+"ださい。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:52
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin does not provide an uninstallation script. Please contact the "
+"author. You can try to uninstall the plugin manually. Please have a look at "
+"the README for instructions from the author.<nl/>If you do not feel capable "
+"or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインにはアンインストールスクリプトが用意されていません。作者に連絡"
+"してください。プラグインを手動でアンインストールしてみてください。作者の指示"
+"については README を参照してください。<nl/>この操作に不安がある場合は、今すぐ"
+"<interface>キャンセル</interface>をクリックしてください。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:58
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin does not provide an installation script. Please contact the "
+"author. You can try to install the plugin manually.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインにはインストールスクリプトが用意されていません。作成者に問い合"
+"わせてください。プラグインを手動でインストールしてみてください。<nl/>この作業"
+"が不安な場合は、今すぐ<interface>キャンセル</interface>をクリックしてくださ"
+"い。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:63
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin does not provide an installation script. Please contact the "
+"author. You can try to install the plugin manually. Please have a look at "
+"the README for instructions from the author.<nl/>If you do not feel capable "
+"or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインにはインストールスクリプトが用意されていません。作者に連絡して"
+"ください。プラグインを手動でインストールしてみてください。作者の指示について"
+"は README を参照してください。<nl/>この作業が不安な場合は、今すぐ<interface>"
+"キャンセル</interface>をクリックしてください。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:69
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin uses a script for installation which can pose a security risk. "
+"Please examine the entire plugin's contents before installing, or at least "
+"read the script's source code.<nl/>If you do not feel capable or comfortable "
+"with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインはインストールにスクリプトを使用しますが、セキュリティ上のリス"
+"クをもたらす可能性があります。インストール前にプラグインのコンテンツ全体を調"
+"べるか、少なくともスクリプトのソースコードを読んでください。<nl/>この作業に自"
+"信がない場合は、今すぐ<interface>キャンセル</interface>をクリックしてくださ"
+"い。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:75
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This plugin uses a script for installation which can pose a security risk. "
+"Please examine the entire plugin's contents before installing, or at least "
+"read the README file and the script's source code.<nl/>If you do not feel "
+"capable or comfortable with this, click <interface>Cancel</interface>  now."
+msgstr ""
+"このプラグインはインストールにスクリプトを使用しますが、セキュリティ上のリス"
+"クをもたらす可能性があります。インストール前にプラグインのコンテンツ全体を調"
+"べるか、少なくとも README ファイルとスクリプトのソースコードを読んでくださ"
+"い。<nl/>この作業に自信がない場合は、今すぐ<interface>キャンセル</interface>"
+"をクリックしてください。"
+
+#: plugininstaller/ScriptConfirmationDialog.h:90
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark entry as uninstalled"
+msgstr "エントリをアンインストール済みとしてマーク"
+
+#: plugininstaller/ScriptConfirmationDialog.h:92
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark entry as installed"
+msgstr "エントリをインストール済みとしてマーク"
+
+#: plugininstaller/ScriptConfirmationDialog.h:100
+#, kde-format
+msgctxt "@action:button"
+msgid "View Script"
+msgstr "スクリプトを表示"
+
+#: plugininstaller/ScriptConfirmationDialog.h:106
+#, kde-format
+msgctxt "@action:button"
+msgid "View Source Directory"
+msgstr "ソースディレクトリを表示"
+
+#: plugininstaller/ScriptConfirmationDialog.h:117
+#, kde-format
+msgctxt "@action:button"
+msgid "View %1"
+msgstr "%1 を表示"
+
+#: plugininstaller/ZypperRPMJob.cpp:28
+#, kde-format
+msgctxt "@info"
+msgid "Could not resolve package name of %1"
+msgstr "%1 のパッケージ名を解決できませんでした"
+
+#: plugininstaller/ZypperRPMJob.cpp:35
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to run install command: <message>%1</message>"
+msgstr "インストールコマンドの実行に失敗しました: <message>%1</message>"

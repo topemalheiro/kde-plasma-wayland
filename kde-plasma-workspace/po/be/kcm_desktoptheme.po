@@ -1,0 +1,191 @@
+# Zmicier <zmicerturok@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-27 00:47+0000\n"
+"PO-Revision-Date: 2024-11-05 10:00\n"
+"Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
+"Language-Team: Belarusian\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Generator: Lokalize 22.08.3\n"
+"X-Crowdin-Project: fc57ad16a28d02dea100ceb1c60de14e\n"
+"X-Crowdin-Project-ID: 136\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /[antikruk.KDE] main/KDE6/be/messages/plasma-workspace/"
+"kcm_desktoptheme.po\n"
+"X-Crowdin-File-ID: 10760\n"
+
+#. i18n: ectx: label, entry (name), group (Theme)
+#: desktopthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current Plasma Style"
+msgstr "Назва бягучага стылю Plasma"
+
+#: kcm.cpp:111
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Не ўдалося стварыць часовы файл."
+
+#: kcm.cpp:122
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "Не ўдалося спампаваць тэму: %1"
+
+#: kcm.cpp:147
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Тэма паспяхова ўсталяваная."
+
+#: kcm.cpp:150 kcm.cpp:156
+#, kde-format
+msgid "Theme installation failed."
+msgstr "Не ўдалося ўсталяваць тэму."
+
+#: kcm.cpp:250
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "Не ўдалося выдаліць тэму: %1"
+
+#: plasma-apply-desktoptheme.cpp:33
+#, kde-format
+msgid ""
+"This tool allows you to set the theme of the current Plasma session, without "
+"accidentally setting it to one that is either not available, or which is "
+"already set."
+msgstr ""
+"Гэты інструмент дазваляе вам вызначыць тэму для бягучага сеанса Plasma, "
+"пазбягаючы недаступных або ўжо вызначанай."
+
+#: plasma-apply-desktoptheme.cpp:37
+#, kde-format
+msgid ""
+"The name of the theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+"Назва тэмы, якую вы хочаце вызначыць для вашага бягучага сеанса Plasma (калі "
+"ўвесці поўны шлях, то будзе выкарыстоўвацца толькі апошняя частка шляху)"
+
+#: plasma-apply-desktoptheme.cpp:38
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr "Паказаць усе тэмы, даступныя ў сістэме (бягучую таксама)"
+
+#: plasma-apply-desktoptheme.cpp:55
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr "Мэтавая тэма \"%1\" ужо вызначаная тэмай для бягучага сеанса Plasma."
+
+#: plasma-apply-desktoptheme.cpp:76
+#, kde-format
+msgid "The current Plasma session's theme has been set to %1"
+msgstr "Тэмай бягучага сеанса Plasma была вызначана %1"
+
+#: plasma-apply-desktoptheme.cpp:78
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+"Не ўдалося знайсці тэму \"%1\". Тэма мусіць адпавядаць аднаму з наступных "
+"параметраў: %2"
+
+#: plasma-apply-desktoptheme.cpp:86
+#, kde-format
+msgid "You have the following Plasma themes on your system:"
+msgstr "У вашай сістэме ёсць наступныя тэмы Plasma:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "Усе тэмы"
+
+#: ui/main.qml:102
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "Светлыя тэмы"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr "Цёмныя тэмы"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr "Колеравая схема сумяшчальная"
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Install from File…"
+msgstr "Усталяваць з файла…"
+
+#: ui/main.qml:119
+#, kde-format
+msgid "Get New…"
+msgstr "Атрымаць новыя…"
+
+#: ui/main.qml:132
+#, kde-format
+msgid "Follows color scheme"
+msgstr "Пільнуецца колеравай схемы"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Edit Theme…"
+msgstr "Рэдагаваць тэму…"
+
+#: ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "Get New Plasma Styles…"
+msgctxt "@info:tooltip"
+msgid "Remove Plasma style"
+msgstr "Атрымаць новыя стылі Plasma…"
+
+#: ui/main.qml:160
+#, fuzzy, kde-format
+#| msgid "This module lets you choose the Plasma style."
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active Plasma style"
+msgstr "Гэты модуль дазваляе абраць стыль Plasma."
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed Plasma styles"
+msgstr ""
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this Plasma style"
+msgstr ""
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Open Theme"
+msgstr "Адкрыць тэму"
+
+#: ui/main.qml:191
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "Файлы тэмаў (*.zip *.tar.gz *.tar.bz2)"
+
+#~ msgid "Remove Theme"
+#~ msgstr "Выдаліць тэму"
+
+#~ msgid "Restore Theme"
+#~ msgstr "Аднавіць тэму"

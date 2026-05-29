@@ -1,0 +1,375 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2019, 2020.
+# SPDX-FileCopyrightText: 2021, 2023, 2024, 2025 Kristof Kiszel <kiszel.kristof@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-19 00:47+0000\n"
+"PO-Revision-Date: 2025-05-27 22:01+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.1\n"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Ne zavarjanak mód be/kikapcsolása"
+
+#: sourcesmodel.cpp:404
+#, kde-format
+msgid "Other Applications"
+msgstr "Egyéb alkalmazások"
+
+#: ui/ApplicationConfiguration.qml:105
+#, kde-format
+msgid "Show popups"
+msgstr "Felugró értesítések megjelenítése"
+
+#: ui/ApplicationConfiguration.qml:119
+#, kde-format
+msgid "Show in do not disturb mode"
+msgstr "„Ne zavarjanak” módban is"
+
+#: ui/ApplicationConfiguration.qml:132 ui/main.qml:208
+#, kde-format
+msgid "Show in history"
+msgstr "Megjelenítés az előzményekben"
+
+#: ui/ApplicationConfiguration.qml:143
+#, kde-format
+msgid "Show notification badges"
+msgstr "Értesítési jelvények megjelenítése"
+
+#: ui/ApplicationConfiguration.qml:180
+#, kde-format
+msgctxt "@title:table Configure individual notification events in an app"
+msgid "Configure Events"
+msgstr "Események beállítása"
+
+#: ui/ApplicationConfiguration.qml:188
+#, kde-format
+msgid ""
+"This application does not support configuring notifications on a per-event "
+"basis"
+msgstr ""
+"Ez az alkalmazás nem támogatja az értesítések eseményeken alapuló beállítását"
+
+#: ui/ApplicationConfiguration.qml:282
+#, kde-format
+msgid "Show a message in a pop-up"
+msgstr "Üzenet megjelenítése felugróban"
+
+#: ui/ApplicationConfiguration.qml:291
+#, kde-format
+msgid "Play a sound"
+msgstr "Hang lejátszása"
+
+#: ui/ApplicationConfiguration.qml:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview sound"
+msgstr "Hang előnézete"
+
+#: ui/ApplicationConfiguration.qml:328
+#, kde-format
+msgctxt "Reset the notification sound to a default one"
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: ui/ApplicationConfiguration.qml:340
+#, kde-format
+msgid "Choose sound file"
+msgstr "Válasszon egy hangfájlt"
+
+#: ui/main.qml:47
+#, fuzzy, kde-format
+#| msgid "Configure…"
+msgctxt "@action:button Plasma-specific notifications"
+msgid "Configure for System…"
+msgstr "Beállítások…"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgctxt "@action:button Application-specific notifications"
+#| msgid "Configure Application Settings…"
+msgctxt "@action:button Application-specific notifications"
+msgid "Configure for Applications…"
+msgstr "Alkalmazásbeállítások konfigurálása…"
+
+#: ui/main.qml:96
+#, kde-format
+msgid ""
+"Could not find a 'Notifications' widget, which is required for displaying "
+"notifications. Make sure that it is enabled either in your System Tray or as "
+"a standalone widget."
+msgstr ""
+"Nem található az értesítések megjelenítéséhez szükséges „Értesítések” elem. "
+"Ellenőrizze, hogy engedélyezve van-e a rendszertálcán, vagy önálló elemként."
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2' instead of Plasma."
+msgstr "Az értesítéseket jelenleg a(z) „%1 %2” biztosítja a Plasma helyett."
+
+#: ui/main.qml:111
+#, kde-format
+msgid "Notifications are currently not provided by Plasma."
+msgstr "Az értesítéseket jelenleg nem a Plasma biztosítja."
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group"
+msgid "Do Not Disturb mode"
+msgstr "Ne zavarjanak mód"
+
+#: ui/main.qml:131
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "Enable automatically:"
+msgstr "Automatikus bekapcsolás:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Amikor a képernyők tükrözöttek"
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt "Automatically enable Do Not Disturb mode during screen sharing"
+msgid "During screen sharing"
+msgstr "Képernyőmegosztáskor"
+
+#: ui/main.qml:158
+#, kde-format
+msgctxt ""
+"Automatically enable Do Not Disturb mode while a fullscreen application is "
+"focused"
+msgid "While a fullscreen application is focused"
+msgstr "Ha teljes képernyős alkalmazás van fókuszban"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
+msgid "Manually toggle with shortcut:"
+msgstr "Kézi bekapcsolás gyorsbillentyűvel:"
+
+#: ui/main.qml:177
+#, kde-format
+msgctxt "@title:group"
+msgid "Visibility conditions"
+msgstr "Láthatósági feltételek"
+
+#: ui/main.qml:182
+#, kde-format
+msgid "Critical notifications:"
+msgstr "Fontos értesítések:"
+
+#: ui/main.qml:183
+#, kde-format
+msgid "Show in Do Not Disturb mode"
+msgstr "„Ne zavarjanak” módban is"
+
+#: ui/main.qml:195
+#, kde-format
+msgid "Low priority notifications:"
+msgstr "Nem sürgős értesítések:"
+
+#: ui/main.qml:196
+#, kde-format
+msgid "Show popup"
+msgstr "Felugró megjelenítése"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "@title:group As in: 'notification popups'"
+msgid "Popups"
+msgstr "Felugrók"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "Hely:"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "Popup position near notification plasmoid"
+msgid "Near notification icon"
+msgstr "Az értesítés ikonjának közelében"
+
+#: ui/main.qml:269
+#, kde-format
+msgctxt "@action:button choose custom notification position"
+msgid "Choose…"
+msgstr ""
+
+#: ui/main.qml:278 ui/main.qml:294
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 másodperc"
+msgstr[1] "%1 másodperc"
+
+#: ui/main.qml:283
+#, kde-format
+msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
+msgid "Hide after:"
+msgstr "Felugró időtartama:"
+
+#: ui/main.qml:306
+#, fuzzy, kde-format
+#| msgctxt "Show application jobs in notification widget"
+#| msgid "Show in notifications"
+msgctxt ""
+"@option:check Show progress bar on notifications indicating when it will hide"
+msgid "Show timeout indicator"
+msgstr "Az értesítésekben"
+
+#: ui/main.qml:318
+#, kde-format
+msgctxt "@title:group"
+msgid "Additional feedback"
+msgstr "További visszajelzések"
+
+#: ui/main.qml:324
+#, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr "Az értesítésekben"
+
+#: ui/main.qml:325
+#, kde-format
+msgid "Application progress:"
+msgstr "Alkalmazások folyamatjelzője:"
+
+#: ui/main.qml:339
+#, kde-format
+msgctxt "Keep application job popup open for entire duration of job"
+msgid "Keep popup open during progress"
+msgstr "Felugró megjelenítése, amíg a folyamat tart"
+
+#: ui/main.qml:352
+#, kde-format
+msgid "Notification badges:"
+msgstr "Értesítési jelvények:"
+
+#: ui/main.qml:353
+#, kde-format
+msgid "Show in task manager"
+msgstr "A feladatkezelőn"
+
+#: ui/PopupPositionDialog.qml:15
+#, kde-format
+msgid "Popup Position"
+msgstr "Felugró helye"
+
+#: ui/SourcesPage.qml:20
+#, fuzzy, kde-format
+#| msgid "Application Settings"
+msgctxt ""
+"@title:window kcm page title, configure app-specific notification settings"
+msgid "Application Notifications"
+msgstr "Alkalmazásbeállítások"
+
+#: ui/SourcesPage.qml:108
+#, kde-format
+msgid "Applications"
+msgstr "Alkalmazások"
+
+#: ui/SourcesPage.qml:109
+#, kde-format
+msgid "System Services"
+msgstr "Rendszerszolgáltatások"
+
+#: ui/SourcesPage.qml:157
+#, kde-format
+msgid "No application or event matches your search term"
+msgstr ""
+"Nincsenek a keresett kifejezésre illeszkedő alkalmazások vagy események"
+
+#: ui/SourcesPage.qml:181
+#, kde-format
+msgid ""
+"Select an application from the list to configure its notification settings "
+"and behavior"
+msgstr ""
+"Válasszon egy alkalmazást a listából, és állítsa be az értesítéseinek "
+"működését"
+
+#~ msgctxt "@action:button Plasma-specific notifications"
+#~ msgid "System Notifications"
+#~ msgstr "Rendszerértesítések"
+
+#~ msgctxt "@action:button Application-specific notifications"
+#~ msgid "Application Settings"
+#~ msgstr "Alkalmazásbeállítások"
+
+#~ msgctxt "@action:button choose custom notification position"
+#~ msgid "Custom…"
+#~ msgstr "Egyéni…"
+
+#~ msgid "Normal notifications:"
+#~ msgstr "Normál értesítések:"
+
+#~ msgid "Show over full screen windows"
+#~ msgstr "Megjelenítés teljes képernyős ablakok fölött"
+
+#~ msgid "Choose Custom Position…"
+#~ msgstr "Egyéni pozíció megadása…"
+
+#~ msgctxt "@action:button Application-specific notifications"
+#~ msgid "Application Settings…"
+#~ msgstr "Alkalmazásbeállítások…"
+
+#~ msgctxt "@title:group"
+#~ msgid "Application-specific settings"
+#~ msgstr "Alkalmazásspecifikus beállítások"
+
+#~ msgctxt "Enable Do Not Disturb mode when screens are mirrored"
+#~ msgid "Enable:"
+#~ msgstr "Bekapcsolás:"
+
+#~ msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
+#~ msgid "Keyboard shortcut:"
+#~ msgstr "Billentyűparancs:"
+
+#~ msgid "Configure Notifications"
+#~ msgstr "Értesítések beállítása"
+
+#~ msgid "This module lets you manage application and system notifications."
+#~ msgstr ""
+#~ "Ebben a modulban beállíthatja az alkalmazás- és rendszerértesítéseket."
+
+#~ msgctxt "Turn do not disturb mode on/off with keyboard shortcut"
+#~ msgid "Toggle with:"
+#~ msgstr "Be/kikapcsolás:"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Kiszel Kristóf"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kiszel.kristof@gmail.com"
+
+#~ msgid "Kai Uwe Broulik"
+#~ msgstr "Kai Uwe Broulik"
+
+#~ msgid "Show critical notifications"
+#~ msgstr "Fontos értesítések megjelenítése"
+
+#~ msgid "Always keep on top"
+#~ msgstr "Mindig legfelül"
+
+#~ msgid "Popup position:"
+#~ msgstr "Felugró helye:"

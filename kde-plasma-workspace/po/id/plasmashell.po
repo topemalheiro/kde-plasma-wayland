@@ -1,0 +1,506 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2022, 2023, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+# Linerly <linerly@protonmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-23 00:46+0000\n"
+"PO-Revision-Date: 2025-02-13 22:22+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Wantoyèk"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wantoyek@gmail.com"
+
+#: currentcontainmentactionsmodel.cpp:201
+#, kde-format
+msgid "Configure Mouse Actions Plugin"
+msgstr "Konfigurasikan Plugin Tindakan Mouse"
+
+#: desktopview.cpp:213
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Dev"
+msgstr "KDE Plasma 6.0 Dev"
+
+#: desktopview.cpp:216
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Alpha"
+msgstr "KDE Plasma 6.0 Alpha"
+
+#: desktopview.cpp:219
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 1"
+msgstr "KDE Plasma  Beta 1"
+
+#: desktopview.cpp:222
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma 6.0 Beta 2"
+msgstr "KDE Plasma  Beta 2"
+
+#: desktopview.cpp:225
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC1"
+msgstr "KDE Plasma 6.0 RC1"
+
+#: desktopview.cpp:228
+#, kde-format
+msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
+msgid "KDE Plasma 6.0 RC2"
+msgstr "KDE Plasma 6.0 RC2"
+
+#: desktopview.cpp:254
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Dev"
+msgstr "KDE Plasma %1 Dev"
+
+#: desktopview.cpp:258
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1 Beta"
+msgstr "KDE Plasma %1 Beta"
+
+#: desktopview.cpp:261
+#, kde-format
+msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
+msgid "KDE Plasma %1 Beta %2"
+msgstr "KDE Plasma %1 Beta %2"
+
+#: desktopview.cpp:265
+#, kde-format
+msgctxt "@label %1 is the Plasma version"
+msgid "KDE Plasma %1"
+msgstr "KDE Plasma %1"
+
+#: desktopview.cpp:271
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Visit bugs.kde.org to report issues"
+msgstr "Kunjungi bugs.kde.org untuk melaporkan masalah"
+
+#: desktopview.cpp:279
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Plasma Version"
+msgstr "Salin Versi Plasma"
+
+#: desktopview.cpp:285
+#, kde-format
+msgctxt "@action:button"
+msgid "Report a Bug…"
+msgstr "Laporkan Bug…"
+
+#: desktopview.cpp:295
+#, kde-format
+msgctxt "@title:menu"
+msgid "Hide Preview Banner"
+msgstr "Sembunyikan Banner Pratinjau"
+
+#: desktopview.cpp:297
+#, kde-format
+msgctxt "@action:button Hide the preview banner until the system is restarted"
+msgid "Hide Until Restart"
+msgstr "Sembunyikan Sampai Dinyalakan Ulang"
+
+#: desktopview.cpp:304
+#, kde-format
+msgctxt "@action:button Hide the preview banner permanently"
+msgid "Hide Permanently…"
+msgstr "Sembunyikan Secara Permanen…"
+
+#: desktopview.cpp:310
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Are you sure you want to permanently hide the preview banner?<nl/><nl/>This "
+"action can only be undone by removing the line beginning with "
+"<icode>ShowDesktopPreviewBanner</icode> in the <filename>kdeglobals</"
+"filename> config file."
+msgstr ""
+"Apakah Anda yakin ingin menyembunyikan secara permanen banner pratinjau?<nl/"
+"><nl/>Tindakan ini hanya bisa diurungkan dengan menghapus awal baris dengan "
+"<icode>ShowDesktopPreviewBanner</icode> di file konfig <filename>kdeglobals</"
+"filename>."
+
+#: desktopview.cpp:312
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide Preview Banner?"
+msgstr "Sembunyikan Banner Pratinjau?"
+
+#: desktopview.cpp:543 desktopview.cpp:559
+#, kde-format
+msgid "Enter Edit Mode"
+msgstr "Masuki Mode Edit"
+
+#: desktopview.cpp:557
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "Keluar Mode Edit"
+
+#: main.cpp:108
+#, kde-format
+msgid "Plasma Shell"
+msgstr "Plasma Shell"
+
+#: main.cpp:121
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "Fungsikan pendebug Javascript QML"
+
+#: main.cpp:124
+#, kde-format
+msgid "Do not restart plasma-shell automatically after a crash"
+msgstr "Jangan me-restart plasma-shell secara otomatis setelah mogok"
+
+#: main.cpp:127
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "Paksa pemuatan plugin shell yang diberikan"
+
+#: main.cpp:131
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "Ganti sebuah instansi yang ada"
+
+#: main.cpp:134
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr "Daftar opsi yang tersedia untuk umpan balik pengguna"
+
+#: main.cpp:190
+#, kde-format
+msgid "Plasma Failed To Start"
+msgstr "Plasma Gagal Untuk Memulai"
+
+#: main.cpp:191
+#, kde-format
+msgid ""
+"Plasma is unable to start as it could not correctly use OpenGL 2 or software "
+"fallback\n"
+"Please check that your graphic drivers are set up correctly."
+msgstr ""
+"Plasma tidak dapat memulai dikarenakan tidak secara benar menggunakan OpenGL "
+"2 atau alternatif perangkat lunak\n"
+"Mohon periksa bahwa driver grafikmu telah dipersiapkan secara benar."
+
+#: osd.cpp:67
+#, kde-format
+msgctxt "Brightness OSD: display name and brightness percentage"
+msgid "%1: %2%"
+msgstr "%1: %2%"
+
+#: osd.cpp:95
+#, kde-format
+msgctxt "OSD informing that the system is muted, keep short"
+msgid "Audio Muted"
+msgstr "Audio Dibungkam"
+
+#: osd.cpp:118
+#, kde-format
+msgctxt "OSD informing that the microphone is muted, keep short"
+msgid "Microphone Muted"
+msgstr "Microphone Dibungkam"
+
+#: osd.cpp:134
+#, kde-format
+msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
+msgid "%1 Muted"
+msgstr "%1 Dibungkam"
+
+#: osd.cpp:156
+#, kde-format
+msgctxt "touchpad was enabled, keep short"
+msgid "Touchpad On"
+msgstr "Touchpad Nyala"
+
+#: osd.cpp:158
+#, kde-format
+msgctxt "touchpad was disabled, keep short"
+msgid "Touchpad Off"
+msgstr "Touchpad Mati"
+
+#: osd.cpp:165
+#, kde-format
+msgctxt "wireless lan was enabled, keep short"
+msgid "Wifi On"
+msgstr "Wifi Nyala"
+
+#: osd.cpp:167
+#, kde-format
+msgctxt "wireless lan was disabled, keep short"
+msgid "Wifi Off"
+msgstr "Wifi Mati"
+
+#: osd.cpp:174
+#, kde-format
+msgctxt "Bluetooth was enabled, keep short"
+msgid "Bluetooth On"
+msgstr "Bluetooth Nyala"
+
+#: osd.cpp:176
+#, kde-format
+msgctxt "Bluetooth was disabled, keep short"
+msgid "Bluetooth Off"
+msgstr "Bluetooth Mati"
+
+#: osd.cpp:183
+#, kde-format
+msgctxt "mobile internet was enabled, keep short"
+msgid "Mobile Internet On"
+msgstr "Internet Ponsel Nyala"
+
+#: osd.cpp:185
+#, kde-format
+msgctxt "mobile internet was disabled, keep short"
+msgid "Mobile Internet Off"
+msgstr "Internet Ponsel Mati"
+
+#: osd.cpp:193
+#, kde-format
+msgctxt ""
+"on screen keyboard was enabled because physical keyboard got unplugged, keep "
+"short"
+msgid "On-Screen Keyboard Activated"
+msgstr "Keyboard Pada-Layar Diaktifkan"
+
+#: osd.cpp:196
+#, kde-format
+msgctxt ""
+"on screen keyboard was disabled because physical keyboard was plugged in, "
+"keep short"
+msgid "On-Screen Keyboard Deactivated"
+msgstr "Keyboard Pada-Layar Dinonaktifkan"
+
+#: osd.cpp:203
+#, kde-format
+msgctxt "power management was inhibited, keep short"
+msgid "Sleep and Screen Locking Blocked"
+msgstr "Tidur dan Penguncian Layar Diblokir"
+
+#: osd.cpp:205
+#, kde-format
+msgctxt "power management was uninhibited, keep short"
+msgid "Sleep and Screen Locking Unblocked"
+msgstr "Tidur dan Penguncian Layar Tidak Diblokir"
+
+#: osd.cpp:215
+#, kde-format
+msgctxt "Power profile was changed to power save mode, keep short"
+msgid "Power Save Mode"
+msgstr "Mode Hemat Daya"
+
+#: osd.cpp:218
+#, kde-format
+msgctxt "Power profile was changed to balanced mode, keep short"
+msgid "Balanced Power Mode"
+msgstr "Mode Daya Seimbang"
+
+#: osd.cpp:221
+#, kde-format
+msgctxt "Power profile was changed to performance mode, keep short"
+msgid "Performance Mode"
+msgstr "Mode Performa"
+
+#: panelview.cpp:458
+#, kde-format
+msgid ""
+"With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are "
+"known to cause poor window drag and resize performance. Consider using other "
+"settings."
+msgstr ""
+"Memakai GPU NVIDIA pada X11, mode opasitas Adaptive dan gaya Mengambang "
+"diketahui menyebabkan kinerja sèrèt dan ubah ukuran jendela menjadi buruk. "
+"Pertimbangkan untuk menggunakan pengaturan lain."
+
+#: panelview.cpp:1144
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Panel Configuration"
+msgstr "Sembunyikan Panel Konfigurasi"
+
+#: panelview.cpp:1146
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Panel Configuration"
+msgstr "Tampilkan Panel Konfigurasi"
+
+#: qml/OsdItem.qml:34
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr ""
+
+#: shellcontainmentconfig.cpp:107
+#, kde-format
+msgid "Internal Screen on %1"
+msgstr "Layar Internal pada %1"
+
+#: shellcontainmentconfig.cpp:111
+#, kde-format
+msgctxt "Screen manufacturer and model on connector"
+msgid "%1 %2 on %3"
+msgstr "%1 %2 di %3"
+
+#: shellcontainmentconfig.cpp:134
+#, kde-format
+msgid "Disconnected Screen %1"
+msgstr "Layar %1 Terputus"
+
+#: shellcorona.cpp:174 shellcorona.cpp:176
+#, kde-format
+msgid "Show Desktop"
+msgstr "Tampilkan Desktop"
+
+#: shellcorona.cpp:176
+#, kde-format
+msgid "Hide Desktop"
+msgstr "Sembunyikan Desktop"
+
+#: shellcorona.cpp:192
+#, kde-format
+msgid "Activate Application Launcher"
+msgstr "Aktifkan Peluncur Aplikasi"
+
+#: shellcorona.cpp:200
+#, kde-format
+msgid "Show Activity Switcher"
+msgstr "Tampilkan Pengalih Aktivitas"
+
+#: shellcorona.cpp:209
+#, kde-format
+msgid "Switch to Previous Activity"
+msgstr "Beralih ke Aktivitas Sebelumnya"
+
+#: shellcorona.cpp:217
+#, kde-format
+msgid "Switch to Next Activity"
+msgstr "Beralih ke Aktivitas Selanjutnya"
+
+#: shellcorona.cpp:232
+#, kde-format
+msgid "Activate Task Manager Entry %1"
+msgstr "Aktifkan Entri Task Manager %1"
+
+#: shellcorona.cpp:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage Desktops and Panels…"
+msgstr "Kelola Desktop dan Panel..."
+
+#: shellcorona.cpp:289
+#, kde-format
+msgid "Move keyboard focus between panels"
+msgstr "Pindah fokus keyboard antar panel"
+
+#: shellcorona.cpp:2302
+#, kde-format
+msgid "Add Panel"
+msgstr "Tambahkan Panel"
+
+#: shellcorona.cpp:2385
+#, kde-format
+msgctxt "Creates an empty containment (%1 is the containment name)"
+msgid "Empty %1"
+msgstr "Kosong %1"
+
+#: softwarerendernotifier.cpp:34
+#, kde-format
+msgid "Software Renderer In Use"
+msgstr "Software Perender Sedang Digunakan"
+
+#: softwarerendernotifier.cpp:35
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Software Renderer In Use"
+msgstr "Software Perender Sedang Digunakan"
+
+#: softwarerendernotifier.cpp:36
+#, kde-format
+msgctxt "Tooltip telling user their GL drivers are broken"
+msgid "Rendering may be degraded"
+msgstr "Perenderan mungkin direndahkan"
+
+#: softwarerendernotifier.cpp:46
+#, kde-format
+msgid "Never show again"
+msgstr "Jangan tampilkan lagi"
+
+#: userfeedback.cpp:36
+#, kde-format
+msgid "Panel Count"
+msgstr "Cacah Panel"
+
+#: userfeedback.cpp:40
+#, kde-format
+msgid "Counts the panels"
+msgstr "Cacahnya panel-panel"
+
+#~ msgid "Stop Current Activity"
+#~ msgstr "Hentikan Aktivitas Saat Ini"
+
+#~ msgid "Panel and Desktop Management"
+#~ msgstr "Pengelolaan Desktop dan Panel"
+
+#~ msgid ""
+#~ "Enables test mode and specifies the layout javascript file to set up the "
+#~ "testing environment"
+#~ msgstr ""
+#~ "Fungsikan mode uji dan ketentuan tataletak file javascript untuk "
+#~ "mempersiapkan environment pengujian"
+
+#~ msgid "file"
+#~ msgstr "file"
+
+#~ msgid ""
+#~ "Load plasmashell as a standalone application, needs the shell-plugin "
+#~ "option to be specified"
+#~ msgstr ""
+#~ "Muat plasmashell sebagai aplikasi tersendiri, memerlukan opsi shell-"
+#~ "plugin untuk ketentuan"
+
+#~ msgid "Unknown %1"
+#~ msgstr "Tak diketahui %1"
+
+#~ msgid "Unable to load script file: %1"
+#~ msgstr "Tidak dapat memuat file skrip: %1"
+
+#~ msgid "Activities..."
+#~ msgstr "Activities..."
+
+#~ msgctxt "Fatal error message body"
+#~ msgid ""
+#~ "All shell packages missing.\n"
+#~ "This is an installation issue, please contact your distribution"
+#~ msgstr ""
+#~ "Semua paket shell hilang.\n"
+#~ "Ini disebabkan masalah penginstalan, silakan kontak distribusimu"
+
+#~ msgctxt "Fatal error message title"
+#~ msgid "Plasma Cannot Start"
+#~ msgstr "Plasma Tidak Bisa Mulai"
+
+#~ msgctxt "Fatal error message body"
+#~ msgid "Shell package %1 cannot be found"
+#~ msgstr "Paket shell %1 tidak bisa ditemukan"

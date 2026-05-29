@@ -1,0 +1,164 @@
+/*
+    SPDX-FileCopyrightText: 2015 Martin Gräßlin <mgraesslin@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+pragma ComponentBehavior: Bound
+
+import QtQuick
+import QtQuick.Templates as T
+import QtQuick.Layouts
+import org.kde.plasma.components as PlasmaComponents3
+import org.kde.plasma.plasmoid
+import org.kde.plasma.extras as PlasmaExtras
+import org.kde.kirigami as Kirigami
+import org.kde.kquickcontrolsaddons as KQuickControlsAddons
+
+import org.kde.prison as Prison
+
+Item {
+    id: barcodeView
+
+    required property bool expanded
+    required property T.StackView stack
+    required property string barcodeType
+
+    readonly property bool valid: barcodeItem.implicitWidth > 0 && barcodeItem.implicitHeight > 0
+    readonly property bool fit: barcodeItem.implicitWidth <= barcodeItem.width && barcodeItem.implicitHeight <= barcodeItem.height
+    property alias text: barcodeItem.content
+
+    readonly property alias copyAction: copyQRButton.action
+
+    required property bool showHeader
+
+    Keys.onPressed: event => {
+        if (event.key == Qt.Key_Escape) {
+            barcodeView.stack.popCurrentItem();
+            event.accepted = true;
+        }
+    }
+
+    property PlasmaExtras.PlasmoidHeading header: PlasmaExtras.PlasmoidHeading {
+        visible: barcodeView.showHeader
+        RowLayout {
+            anchors.fill: parent
+            PlasmaComponents3.ToolButton {
+                icon.name: "go-previous-view"
+                text: i18nd("klipper", "Return to Clipboard")
+                onClicked: barcodeView.stack.popCurrentItem()
+                visible: barcodeView.showHeader
+            }
+
+            Item {
+                Layout.fillWidth: true
+            }
+
+            Item {
+                Layout.fillWidth: true
+            }
+
+            PlasmaComponents3.ToolButton {
+                id: copyQRButton
+
+                visible: barcodeView.showHeader
+                action: Kirigami.Action {
+                    enabled: barcodeView.valid && barcodeView.fit
+                    icon.name: "edit-copy"
+                    shortcut: StandardKey.Copy
+                    text: i18ndc("klipper", "@action:button Copy to clipboard", "Copy")
+
+                    onTriggered: {
+                        barcodeItem.grabToImage((result) => {
+                            clipboard.content = result.image;
+                            feedback.show(
+                                i18ndc("klipper", "@info:status", "An image of the QR code has been copied to clipboard"), 5000)
+                        });
+                    }
+                    tooltip: i18ndc("klipper", "@info:tooltip", "Copy QR code image to clipboard")
+                }
+
+                PlasmaComponents3.ToolTip {
+                    text: copyQRButton.action.tooltip
+                }
+            }
+        }
+    }
+
+    KQuickControlsAddons.Clipboard {
+        id: clipboard
+    }
+
+    Rectangle {
+        readonly property bool square: barcodeItem.dimensions == Prison.Barcode.TwoDimensions
+        readonly property int shortestSize: Math.floor(Math.min(barcodeView.width, barcodeView.height))
+
+        anchors.centerIn: parent
+        width: (square ? shortestSize : barcodeView.width) - 2 * Kirigami.Units.largeSpacing
+        height: (square ? shortestSize : barcodeView.height) - 2 * Kirigami.Units.largeSpacing
+
+        color: barcodeItem.backgroundColor
+        radius: Kirigami.Units.cornerRadius
+        // Cannot set visible to false as we need it to re-render when changing its size
+        opacity: barcodeView.valid && barcodeView.fit ? 1 : 0
+
+        Prison.Barcode {
+            id: barcodeItem
+
+            anchors.fill: parent
+            anchors.margins: Kirigami.Units.cornerRadius
+
+            barcodeType: Prison.Barcode.QRCode
+
+            Accessible.name: i18nd("klipper", "QR Code")
+            Accessible.role: Accessible.Graphic
+            Drag.dragType: Drag.Automatic
+            Drag.supportedActions: Qt.CopyAction
+
+            HoverHandler {
+                enabled: barcodeView.valid && barcodeView.fit
+                cursorShape: Qt.OpenHandCursor
+            }
+
+            DragHandler {
+                id: dragHandler
+                enabled: barcodeView.valid && barcodeView.fit
+
+                onActiveChanged: {
+                    if (active) {
+                        barcodeItem.grabToImage((result) => {
+                            barcodeItem.Drag.mimeData = {
+                                "image/png": result.image,
+                            };
+                            barcodeItem.Drag.active = dragHandler.active;
+                        });
+                    } else {
+                        barcodeItem.Drag.active = false;
+                    }
+                }
+            }
+        }
+
+        // This item is placed in the center of the barcode item
+        // to position the tooltip that shows feedback notifications
+        Item {
+            id: feedbackAnchor
+            anchors.centerIn: barcodeItem
+            width: 5
+            height: 5
+
+            PlasmaComponents3.ToolTip {
+                id: feedback
+                parent: feedbackAnchor
+            }
+        }
+    }
+
+    PlasmaExtras.PlaceholderMessage {
+        anchors.centerIn: parent
+        width: parent.width - (Kirigami.Units.gridUnit * 4)
+        visible: !barcodeView.valid || !barcodeView.fit
+        iconName: barcodeView.valid ? "dialog-transform" : "data-error"
+        text: barcodeView.valid ? i18nd("klipper", "There is not enough space to display the QR code. Try resizing this applet.") : i18nd("klipper", "Creating QR code failed")
+    }
+}

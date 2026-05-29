@@ -1,0 +1,123 @@
+# SPDX-FileCopyrightText: 2014, 2018 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2015, 2018-2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2023 Jannick Kuhr <opensource@kuhr.org>
+# SPDX-FileCopyrightText: 2025-2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_splashscreen\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-03 00:48+0000\n"
+"PO-Revision-Date: 2026-02-08 14:56+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: kcm.cpp:162
+#, kde-format
+msgid "None"
+msgstr "Keiner"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Es wird kein Startbildschirm angezeigt"
+
+#: kcm.cpp:183
+#, kde-format
+msgid "You cannot delete the currently selected splash screen"
+msgstr "Sie können den gerade ausgewählten Startbildschirm nicht löschen"
+
+#. i18n: ectx: label, entry (engine), group (KSplash)
+#: splashscreensettings.kcfg:12
+#, kde-format
+msgid "For future use"
+msgstr "Für die künftige Verwendung"
+
+#. i18n: ectx: label, entry (theme), group (KSplash)
+#: splashscreensettings.kcfg:16
+#, kde-format
+msgid "Name of the current splash theme"
+msgstr "Name des aktuellen Startbildschirms"
+
+#: ui/main.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&Get New…"
+msgstr "&Neue holen …"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to show the splash screen preview."
+msgstr "Anzeigen der Startbildschirmvorschau fehlgeschlagen."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview splash screen"
+msgstr "Startbildschirmvorschau anzeigen"
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove splash screen"
+msgstr "Startbildschirm entfernen"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active splash screen"
+msgstr "Der aktive Startbildschirm kann nicht gelöscht werden"
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed splash screens"
+msgstr ""
+"Durch das System installierte Startbildschirme können nicht gelöscht werden"
+
+#~ msgctxt "@action:button"
+#~ msgid "Uninstall"
+#~ msgstr "Deinstallieren"
+
+#~ msgid "This module lets you choose the splash screen theme."
+#~ msgstr "Mit diesem Modul können Sie das Startbildschirm-Design auswählen."
+
+#~ msgid "&Get New Splash Screens…"
+#~ msgstr "&Neue Startbildschirme holen ..."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frederik Schwarzer"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "schwarzer@kde.org"
+
+#~ msgid "Splash Screen"
+#~ msgstr "Startbildschirm"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#, fuzzy
+#~| msgid "&Get New Splash Screens..."
+#~ msgid "Get New Icons..."
+#~ msgstr "&Neue Startbildschirme herunterladen ..."
+
+#~ msgid "Splash Screens"
+#~ msgstr "Startbildschirme"
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "Choose the splash screen theme"
+#~ msgstr "Startbildschirm-Design auswählen"
+
+#~ msgid "Configure Splash screen details"
+#~ msgstr "Startbildschirm-Details einrichten"

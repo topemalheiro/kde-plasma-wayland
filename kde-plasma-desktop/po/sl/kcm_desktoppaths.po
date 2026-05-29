@@ -1,0 +1,255 @@
+# translation of kcmkonq.po to Slovenian
+# Translation of kcmkonq.po to Slovenian
+# SLOVENIAN TRANSLATION OF KCMKONQ.
+# $Id: kcm_desktoppaths.po 1735908 2026-05-01 01:28:17Z scripty $
+# $Source$
+#
+# Copyright (C) 2001, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+# Roman Maurer <roman.maurer@amis.net>, 2001.
+# Gregor Rakar <gregor.rakar@kiss.si>, 2003, 2004, 2005.
+# Jure Repinc <jlp@holodeck1.com>, 2006, 2007, 2008, 2009.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2018.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2026-04-30 07:03+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ui/main.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Mapa namizja:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr "Ta mapa vsebuje vse datoteke, ki jih vidite na namizju."
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Mapa dokumentov:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje in shranjevanje dokumentov."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Mapa prejemov:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "Ta mapa bo privzeto uporabljena za shranjevanje prejetih predmetov."
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Mapa videov:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje in shranjevanje video datotek."
+
+#: ui/main.qml:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Mapa slik:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje in shranjevanje slikovnih "
+"datotek."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr "Mapa glasbe:"
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje in shranjevanje glasbenih "
+"datotek."
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Javna mapa:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za datoteke v javni skupni rabi, kadar je "
+"omogočena skupna raba omrežja."
+
+#: ui/main.qml:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Mapa predlog:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje in shranjevanje predlog datotek."
+
+#: ui/main.qml:165
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Mapa projektov:"
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+"Ta mapa bo privzeto uporabljena za odpiranje ali shranjevanje projektov."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr "Izberite novo lokacijo"
+
+#~ msgid ""
+#~ "This folder contains all the files which you see on your desktop. You can "
+#~ "change the location of this folder if you want to, and the contents will "
+#~ "move automatically to the new location as well."
+#~ msgstr ""
+#~ "V tej mapi so vse datoteke, ki jih vidite na namizju. Če želite, lahko "
+#~ "spremenite njeno mesto in tja se bo samodejno prestavila tudi vsebina."
+
+#~ msgid "Documents path:"
+#~ msgstr "Pot do dokumentov:"
+
+#~ msgid "Downloads path:"
+#~ msgstr "Pot do prejemov:"
+
+#~ msgid ""
+#~ "This folder will be used by default to load or save pictures from or to."
+#~ msgstr "To bo privzeta mapa za nalaganje in shranjevanje slik."
+
+#~ msgid "Music path:"
+#~ msgstr "Pot do glasbe:"
+
+#~ msgid "Templates path:"
+#~ msgstr "Pot do predlog:"
+
+#~ msgid "Desktop"
+#~ msgstr "Namizje"
+
+#~ msgid "Music"
+#~ msgstr "Glasba"
+
+#~ msgid "Pictures"
+#~ msgstr "Slike"
+
+#~ msgid "Videos"
+#~ msgstr "Videi"
+
+#~ msgid "Public"
+#~ msgstr "Javno"
+
+#~ msgid ""
+#~ "<h1>Paths</h1>\n"
+#~ "This module allows you to choose where in the filesystem the files on "
+#~ "your desktop should be stored.\n"
+#~ "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+#~ msgstr ""
+#~ "<h1>Poti</h1>\n"
+#~ "Ta modul vam omogoča izbrati, kje v vašem datotečnem sistemu so shranjene "
+#~ "datoteke na vašem namizju.\n"
+#~ "Uporabite »Kaj je to?« (Shift+F1) za pomoč pri posameznih možnostih."
+
+#~ msgid "Autostart path:"
+#~ msgstr "Pot do samodejnega zagona:"
+
+#~ msgid ""
+#~ "This folder contains applications or links to applications (shortcuts) "
+#~ "that you want to have started automatically whenever the session starts. "
+#~ "You can change the location of this folder if you want to, and the "
+#~ "contents will move automatically to the new location as well."
+#~ msgstr ""
+#~ "V tej mapi so programi ali povezave do njih (bližnjice), ki se samodejno "
+#~ "zaženejo vsakič, ko se zažene seja. Če želite, lahko spremenite njeno "
+#~ "mesto in tja se bo samodejno prestavila tudi vsebina."
+
+#~ msgid "Autostart"
+#~ msgstr "Samodejni zagon"
+
+#~ msgid "Movies"
+#~ msgstr "Filmi"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want the files to be moved from '%2' to '%3'?"
+#~ msgstr ""
+#~ "Pot za »%1« je bila spremenjena.\n"
+#~ "Ali želite, da se datoteke iz »%2« premaknejo v »%3«?"
+
+#~ msgctxt "Move files from old to new place"
+#~ msgid "Move"
+#~ msgstr "Premakni"
+
+#~ msgctxt "Use the new directory but do not move files"
+#~ msgid "Do not Move"
+#~ msgstr "Ne premakni"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want to move the directory '%2' to '%3'?"
+#~ msgstr ""
+#~ "Pot za »%1« je bila spremenjena.\n"
+#~ "Ali želite, da se mapo iz »%2« premakne v »%3«?"
+
+#~ msgctxt "Move the directory"
+#~ msgid "Move"
+#~ msgstr "Premakni"
+
+#~ msgctxt "Use the new directory but do not move anything"
+#~ msgid "Do not Move"
+#~ msgstr "Ne premakni"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "Zahtevana je potrditev"

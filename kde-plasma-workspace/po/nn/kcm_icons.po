@@ -1,0 +1,112 @@
+# Translation of kcm_icons to Norwegian Nynorsk
+#
+# Gaute Hvoslef Kvalnes <gaute@verdsveven.com>, 1999, 2000, 2002, 2003, 2004, 2005.
+# Håvard Korsvoll <korsvoll@skulelinux.no>, 2007.
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009.
+# Øystein Steffensen-Alværvik <oysteins.omsetting@protonmail.com>, 2018, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-31 00:45+0000\n"
+"PO-Revision-Date: 2026-03-01 19:28+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.03.70\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr "Namn på gjeldande ikontema"
+
+#: main.cpp:147
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Klarte ikkje laga mellombels fil."
+
+#: main.cpp:158
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Klarte ikkje lasta ned ikontema-arkivet: %1"
+
+#: main.cpp:172
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Fila er ikkje eit gyldig ikontemaarkiv."
+
+#: main.cpp:177
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Det oppstod eit problem ved installeringa, men dei fleste temaa i arkivet er "
+"likevel installerte."
+
+#: main.cpp:181
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Temaet er no installert."
+
+#: main.cpp:225
+#, kde-format
+msgid "Installing icon themes…"
+msgstr "Installerer ikontema …"
+
+#: main.cpp:235
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr "Installerer %1-temaet …"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "Install from File…"
+msgstr "Installer frå fil …"
+
+#: ui/main.qml:72
+#, kde-format
+msgid "Get New…"
+msgstr "Hent nye …"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove icon theme"
+msgstr "Fjern ikontema"
+
+#: ui/main.qml:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active icon theme"
+msgstr "Kan ikkje sletta det gjeldande ikontemaet"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed icon themes"
+msgstr "Kan ikkje sletta systeminstallerte ikontema"
+
+#: ui/main.qml:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this icon theme"
+msgstr "Ikkje slett dette ikontemaet"
+
+#: ui/main.qml:250
+#, kde-format
+msgid "Open Theme"
+msgstr "Opna tema"
+
+#: ui/main.qml:252
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "Temafiler (*.tar.gz *.tar.bz2)"

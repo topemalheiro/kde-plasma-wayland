@@ -1,0 +1,317 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
+# SPDX-FileCopyrightText: 2022-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2026-04-08 22:35+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.07.70\n"
+
+#: ui/DayNightView.qml:154
+#, kde-format
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr "在 %1 開始逐漸變更至夜間色溫，到 %2 時完全變更"
+
+#: ui/DayNightView.qml:157
+#, kde-format
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr "在 %1 開始逐漸變更至日間色溫，到 %2 時完全變更"
+
+#: ui/main.qml:39
+#, kde-format
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr "藍光濾鏡讓螢幕顏色偏向暖色調。"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "切換時間："
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr "永遠關閉"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "永遠開啟"
+
+#: ui/main.qml:60
+#, kde-format
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr "日出與日落"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr "設定…"
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr "%1 K"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "日光色溫："
+
+#: ui/main.qml:173 ui/main.qml:237
+#, kde-format
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr "冷色調（無濾鏡）"
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "暖色調"
+
+#: ui/main.qml:187
+#, kde-format
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "夜光色溫："
+
+#~ msgctxt "@item:inlistbox switching times"
+#~ msgid "Always on night light"
+#~ msgstr "總是使用夜光模式"
+
+#~ msgctxt "Color temperature in Kelvin"
+#~ msgid "%1K"
+#~ msgstr "%1K"
+
+#~ msgctxt ""
+#~ "@label:chooser Tap should be translated to mean touching using a "
+#~ "touchscreen"
+#~ msgid "Tap to choose your location on the map."
+#~ msgstr "輕點地圖選取您的所在地。"
+
+#~ msgctxt ""
+#~ "@label:chooser Click should be translated to mean clicking using a mouse"
+#~ msgid "Click to choose your location on the map."
+#~ msgstr "點擊地圖選取您的所在地。"
+
+#~ msgid "Zoom in"
+#~ msgstr "放大"
+
+#~ msgid "Zoom out"
+#~ msgstr "縮小"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Modified from <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>World location map</link> "
+#~ "by TUBS / Wikimedia Commons / <link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+#~ msgstr ""
+#~ "從由 TUBS / Wikimedia Commons (<link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>) 所做的 <link url='https://"
+#~ "commons.wikimedia.org/wiki/File:World_location_map_(equirectangular_180)."
+#~ "svg'>World location map</link> 修改"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Latitude:"
+#~ msgstr "緯度："
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Longitude:"
+#~ msgstr "經度："
+
+#~ msgid "Sunset and sunrise at current location"
+#~ msgstr "目前所在地的日落及日出"
+
+#~ msgid "Sunset and sunrise at manual location"
+#~ msgstr "手動指定所在地的日落及日出"
+
+#~ msgid "Custom times"
+#~ msgstr "自訂時間"
+
+#~ msgctxt "@label The coordinates for the current location"
+#~ msgid "Current location:"
+#~ msgstr "目前位置："
+
+#~ msgid "Latitude: %1°   Longitude: %2°"
+#~ msgstr "緯度：%1°  經度：%2°"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>GeoClue2</application> service will be used to "
+#~ "periodically update the device's location using GPS or cell tower "
+#~ "triangulation if available, or else by sending its IP address to <link "
+#~ "url='https://geoip.com/privacy/'>GeoIP</link>."
+#~ msgstr ""
+#~ "會使用 <application>GeoClue2</application> 服務來定時更新裝置的位置資訊。"
+#~ "會先嘗試利用 GPS 或基地台定位，如不可用則會傳送裝置的 IP 位址到 <link "
+#~ "url='https://geoip.com/privacy/'>GeoIP</link> 來取得位置資訊。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>%1</application> service will be used to periodically "
+#~ "update the device's location. Please open a bug report at <link "
+#~ "url='https://bugs.kde.org'>https://bugs.kde.org</link> asking KDE "
+#~ "developers to write a detailed description of what this service will do."
+#~ msgstr ""
+#~ "會使用 <application>%1</application> 服務來定時更新裝置的位置資訊。請到 "
+#~ "<link url='https://bugs.kde.org'>https://bugs.kde.org</link> 撰寫問題回報"
+#~ "來請 KDE 的開發者為這個服務會做的事情撰寫詳細的描述。"
+
+#~ msgid "Begin night light at:"
+#~ msgstr "夜光開始時間："
+
+#~ msgid "Begin day light at:"
+#~ msgstr "日光開始時間："
+
+#~ msgid "Transition duration:"
+#~ msgstr "過渡時間："
+
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1分鐘"
+
+#~ msgid "Input minutes - min. 1, max. 600"
+#~ msgstr "輸入分鐘 - 最小值：1，最大值：600"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Locating…"
+#~ msgstr "定位中…"
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "hour"
+#~ msgstr "小時"
+
+#~ msgctxt "Time separator between hours and minutes"
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "minute"
+#~ msgstr "分鐘"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The device's location will be periodically updated using GPS (if "
+#~ "available), or by sending network information to <link url='https://"
+#~ "location.services.mozilla.com'>Mozilla Location Service</link>."
+#~ msgstr ""
+#~ "將會使用 GPS 或透過傳送網路資訊至 <link url='https://location.services."
+#~ "mozilla.com'>Mozilla 定位服務 (Mozilla Location Service)</link> 來定期更新"
+#~ "本裝置的所在地。"
+
+#~ msgid "Error: Transition time overlaps."
+#~ msgstr "錯誤：過渡時間重疊。"
+
+#~ msgid "Input format: HH:MM"
+#~ msgstr "輸入格式：HH:MM"
+
+#~ msgctxt "Night colour blue-ish"
+#~ msgid "Cool"
+#~ msgstr "冷色調"
+
+#, fuzzy
+#~| msgid "This is what Night Color will look like when active."
+#~ msgid "This is what day color temperature will look like when active."
+#~ msgstr "夜色模式開啟時看起來會像這樣。"
+
+#, fuzzy
+#~| msgid "This is what Night Color will look like when active."
+#~ msgid "This is what night color temperature will look like when active."
+#~ msgstr "夜色模式開啟時看起來會像這樣。"
+
+#, fuzzy
+#~| msgid "Activate Night Color"
+#~ msgid "Activate blue light filter"
+#~ msgstr "開啟夜色模式"
+
+#~ msgid "Turn on at:"
+#~ msgstr "開啟時間："
+
+#~ msgid "Turn off at:"
+#~ msgstr "關閉時間："
+
+#~ msgid "Night Color begins changing back at %1 and ends at %2"
+#~ msgstr "夜色模式在 %1 開始變回來，到 %2 時完全恢復一般色彩"
+
+#~ msgid "Error: Morning is before evening."
+#~ msgstr "錯誤：早上比晚上還早。"
+
+#~ msgid ""
+#~ "The device's location will be detected using GPS (if available), or by "
+#~ "sending network information to <a href=\"https://location.services."
+#~ "mozilla.com\">Mozilla Location Service</a>."
+#~ msgstr ""
+#~ "將會使用 GPS 或透過傳送網路資訊至<link url='https://location.services."
+#~ "mozilla.com'>Mozilla 定位服務 (Mozilla Location Service)</link>來偵測本裝"
+#~ "置的所在地。"
+
+#~ msgid "Night Color begins at %1"
+#~ msgstr "夜色模式在 %1 開始"
+
+#~ msgid "Color fully changed at %1"
+#~ msgstr "色彩已在 %1 時完全變更"
+
+#~ msgid "Normal coloration restored by %1"
+#~ msgstr "%1 還原了一般色彩"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "pan93412"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "pan93412@gmail.com"
+
+#~ msgid "Night Color"
+#~ msgstr "夜色模式"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid " K"
+#~ msgstr " K"
+
+#~ msgid "Operation mode:"
+#~ msgstr "操作模式："
+
+#~ msgid "Automatic"
+#~ msgstr "自動設定"
+
+#~ msgid "Times"
+#~ msgstr "時間"
+
+#~ msgid "Constant"
+#~ msgstr "恆定不變"
+
+#~ msgid "(Input format: HH:MM)"
+#~ msgstr "（輸入格式：HH:MM）"
+
+#~ msgid "Sunset begins:"
+#~ msgstr "開始日落："
+
+#~ msgid "...and ends:"
+#~ msgstr "…和結束："

@@ -1,0 +1,532 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Maris Nartiss <maris.kde@gmail.com>, 2019.
+# SPDX-FileCopyrightText: 2024, 2026 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-01-16 18:29+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Noņemt no izlases"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Pievienot izlasei"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Visās aktivitātēs"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Pašreizējā aktivitātē"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Rādīt izlasē"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Pamata"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Izvēlēties..."
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr ""
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Rādīt programmas:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Tikai ar nosaukumu"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Tikai ar aprakstu"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Nosaukums (apraksts)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Apraksts (nosaukums)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Uzvedība:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Programmas kārtot alfabētiski"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Saplacināt apakšizvēlnes līdz vienam līmenim"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Rādīt ikonas izvēlnes saknes līmenim"
+
+#: ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Biežāk lietotās programmas"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Rādīt kategorijas:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Nesenās programmas"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Biežāk lietotās programmas"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Nesenās datnes"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Biežāk lietotās datnes"
+
+#: ConfigGeneral.qml:227
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Recent files"
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Nesenās datnes"
+
+#: ConfigGeneral.qml:228
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used files"
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Biežāk lietotās datnes"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Kārtot vienumus kategorijās pēc:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Nesen lietotie"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Biežāk lietotie"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Meklēt:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Meklēšanā ietvert grāmatzīmes, datnes un e-pasta vēstules"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Meklēšanas rezultātus izlīdzināt gar apakšu"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Izskats:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Kad iespējams, priekšroku dot tumšajam režīmam"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Šī iespēja izmanto papildu krāsas no ierīces krāsu shēmas, kurām parasti ir "
+"tumšs fons."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Izlase"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr ""
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: ItemGridDelegate.qml:83
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Biežāk lietotās programmas"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Atvērt kategoriju"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Palaist"
+
+#: ItemListDelegate.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Biežāk lietotās programmas"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Rediģēt programmas…"
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Izlase"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nav atbilstību"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Notīrīt ikonu"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Meklē „%1“"
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Raksti, lai meklētu..."
+
+#~ msgid "Widgets"
+#~ msgstr "Logdaļas"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Programmas un dokumenti"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Nesenie kontakti"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Biežāk lietotie kontakti"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgid "Search…"
+#~ msgstr "Meklēt:"
+
+#~ msgid "Search..."
+#~ msgstr "Meklēt..."
+
+#~ msgid "Often used documents"
+#~ msgstr "Biežāk lietotie dokumenti"
+
+#~ msgid "Open with:"
+#~ msgstr "Atvērt ar:"
+
+#~ msgid "Properties"
+#~ msgstr "Īpašības"
+
+#~ msgid "Add to Desktop"
+#~ msgstr "Pievienot darbvirsmai"
+
+#~ msgid "Add to Panel (Widget)"
+#~ msgstr "Pievienot panelim (logdaļa)"
+
+#~ msgid "Pin to Task Manager"
+#~ msgstr "Piespraust pie uzdevumu pārvaldnieka"
+
+#~ msgid "Recent Documents"
+#~ msgstr "Nesenie dokumenti"
+
+#~ msgid "Forget Recent Documents"
+#~ msgstr "Aizmirst nesenos dokumentus"
+
+#~ msgid "Edit Application..."
+#~ msgstr "Rediģēt programmu..."
+
+#~ msgid "Hide Application"
+#~ msgstr "Slēpt programmu"
+
+#~ msgctxt "App name (Generic name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "Generic name (App name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Applications"
+#~ msgstr "Programmas"
+
+#~ msgid "Unhide Applications in this Submenu"
+#~ msgstr "Šajā apakšizvēlnē padarīt programmas redzamas"
+
+#~ msgid "Unhide Applications in '%1'"
+#~ msgstr "Padarīt redzamas programmas iekš '%1'"
+
+#~ msgid "Computer"
+#~ msgstr "Dators"
+
+#~ msgid "Show Contact Information..."
+#~ msgstr "Rādīt kontaktinformāciju..."
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakti"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Aizmirst kontaktu"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Aizmirst visus kontaktus"
+
+#~ msgid "Recently Used"
+#~ msgstr "Nesen lietotie"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumenti"
+
+#~ msgid "Forget Application"
+#~ msgstr "Aizmirst programmu"
+
+#~ msgid "Forget Document"
+#~ msgstr "Aizmirst dokumentu"
+
+#~ msgid "Forget All"
+#~ msgstr "Aizmirst visu"
+
+#~ msgid "Forget All Applications"
+#~ msgstr "Aizmirst visas programmas"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Aizmirst visus dokumentus"
+
+#~ msgid "Hide %1"
+#~ msgstr "Slēpt %1"
+
+#~ msgid "All Applications"
+#~ msgstr "Visas programmas"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Nesenie kontakti"
+
+#~ msgid "Often Used Documents"
+#~ msgstr "Biežāk lietotie dokumenti"
+
+#~ msgid "Recent Applications"
+#~ msgstr "Nesenās programmas"
+
+#~ msgid "Often Used Applications"
+#~ msgstr "Biežāk lietotās programmas"
+
+#~ msgid "Power / Session"
+#~ msgstr "Izslēgšana / sesija"
+
+#~ msgid "Search results"
+#~ msgstr "Meklēšanas rezultāti"
+
+#~ msgid "Lock"
+#~ msgstr "Slēgt"
+
+#~ msgid "Save Session"
+#~ msgstr "Saglabāt sesiju"
+
+#~ msgid "Switch User"
+#~ msgstr "Pārslēgt lietotāju"
+
+#~ msgid "Hibernate"
+#~ msgstr "Hibernēt"
+
+#, fuzzy
+#~| msgid "Restart computer"
+#~ msgid "Restart"
+#~ msgstr "Pārstartē datoru"
+
+#~ msgid "Shut Down"
+#~ msgstr "Izslēgt"
+
+#~ msgid "Session"
+#~ msgstr "Sesija"
+
+#~ msgid "System"
+#~ msgstr "Sistēma"
+
+#~ msgid "Lock screen"
+#~ msgstr "Slēgt ekrānu"
+
+#~ msgid "End session"
+#~ msgstr "Beigt sesiju"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Sākt paralēlu sesiju kā citam lietotājam"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Iemidzina uz RAM"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Iemidzina uz disku"
+
+#~ msgid "Restart computer"
+#~ msgstr "Pārstartē datoru"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Izslēdz datoru"
+
+#~ msgid "System actions"
+#~ msgstr "Sistēmas darbības"
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Pārvaldīt '%1'..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Darbināt komandu..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Darbināt komandu vai izpildīt meklēšanas vaicājumu"
+
+#~ msgid "Show:"
+#~ msgstr "Rādīt:"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Rādīt nesen lietotās programmas"
+
+#~ msgid "Show often used applications"
+#~ msgstr "Rādīt biežāk lietotās programmas"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Rādīt nesenos dokumentus"
+
+#~ msgid "Show often used documents"
+#~ msgstr "Rādīt biežāk lietotos dokumentus"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Rādīt nesenos kontaktus"
+
+#~ msgid "Logout"
+#~ msgstr "Atteikties"
+
+#~ msgid "Reboot"
+#~ msgstr "Pārstartēt"
+
+#~ msgid "Suspend"
+#~ msgstr "Iemidzināt"

@@ -1,0 +1,55 @@
+# Sanskrit translations for plasma-workspace package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-12-20 12:26+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: kdisplaymanager.cpp:767
+#, kde-format
+msgctxt "user: …"
+msgid "%1: TTY login"
+msgstr "%1: TTY प्रवेशः"
+
+#: kdisplaymanager.cpp:772
+#, kde-format
+msgctxt "… location (TTY or X display)"
+msgid "Unused"
+msgstr "अप्रयुक्तः"
+
+#: kdisplaymanager.cpp:773
+#, kde-format
+msgid "X login on remote host"
+msgstr "दूरस्थे होस्ट् इत्यत्र X प्रवेशः"
+
+#: kdisplaymanager.cpp:773
+#, kde-format
+msgctxt "… host"
+msgid "X login on %1"
+msgstr "X %1 इत्यत्र प्रवेशं कुर्वन्तु"
+
+#: kdisplaymanager.cpp:775
+#, kde-format
+msgctxt "user: session type"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: kdisplaymanager.cpp:786
+#, kde-format
+msgctxt "session (location)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"

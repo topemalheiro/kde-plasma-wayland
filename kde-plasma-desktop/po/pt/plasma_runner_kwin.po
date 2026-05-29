@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 César A. P. Cláudio <cesarapclaudio@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_kwin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"PO-Revision-Date: 2026-02-09 23:00+0000\n"
+"Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: KWin\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: kwin-runner.cpp:42
+#, kde-format
+msgid "Open KWin debug console"
+msgstr "Abrir consola de depuração do KWin"
+
+#: kwin-runner.cpp:69
+#, kde-format
+msgid "Opens the KWin (Plasma Window Manager) debug console."
+msgstr "Abre a consola de depuração do KWin (Gestor de Janelas do Plasma)."

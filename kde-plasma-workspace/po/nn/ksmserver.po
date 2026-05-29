@@ -1,0 +1,135 @@
+# Translation of ksmserver to Norwegian Nynorsk
+#
+# Gaute Hvoslef Kvalnes <gaute@verdsveven.com>, 2000, 2002, 2003, 2004, 2005.
+# Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2024-09-25 19:21+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 24.11.70\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Gaute Hvoslef Kvalnes,Eirik U. Birkeland,Karl Ove Hufthammer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "gaute@verdsveven.com,eirbir@gmail.com,karl@huftis.org"
+
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "Utlogging avbroten av «%1»."
+
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr "Økta vert avslutta"
+
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "Har ikkje skrivetilgang til «%1»."
+
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "Har ikkje lesetilgang til «%1»."
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+"Oppdaga følgjande installasjonsproblem ved\n"
+"forsøk på å starta Plasma:"
+
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"Kan ikkje starta Plasma.\n"
+
+#: main.cpp:129
+#, kde-format
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"Den pålitelege økthandsamaren til Plasma som snakkar med den \n"
+"normale økthandsamingsprotokollen til X11R6 (XSMP)."
+
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "Gjenopprettar tilstanden frå den førre økta, om det går"
+
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "Tillat nettverkstilkoplingar"
+
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr "Startar økta i låst modus"
+
+#: main.cpp:143
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr ""
+"Startar utan støtte for skjermlåsing. Berre nødvendig viss andre komponentar "
+"står for skjermlåsinga."
+
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr "[ukjend]"
+
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+"Kan ikkje handsama nokre appar, då ressursane for økthandsaming på dette "
+"systemet er oppbrukte. Her er det som brukar mest øktressursar:\n"
+"%1"
+
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+"Kan ikkje gjenoppretta <application>%1</application>, då programmet er "
+"øydelagt og har brukt opp ressursane for økthandsaming på dette systemet. "
+"Meld frå om feilen til utviklarane av appen."

@@ -1,0 +1,76 @@
+# Bosnian translation for bosnianuniversetranslation
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the bosnianuniversetranslation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bosnianuniversetranslation\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2015-02-15 12:28+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-02-16 06:46+0000\n"
+"X-Generator: Launchpad (build 17341)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Zadrži sadržaj klipborda"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Klipbord je prazan"
+
+#: qml/main.qml:69
+#, fuzzy, kde-format
+#| msgid "Clear history"
+msgid "Clear History"
+msgstr "Očisti historiju"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr ""
+
+#~ msgid "Invoke action"
+#~ msgstr "Dozovi akciju"
+
+#, fuzzy
+#~| msgid "Show barcode"
+#~ msgid "Show QR code"
+#~ msgstr "Prikaži bar kod"
+
+#~ msgid "Edit contents"
+#~ msgstr "Uredi sadržaj"
+
+#~ msgid "Remove from history"
+#~ msgstr "Ukloni iz historije"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "Clear history"
+#~ msgstr "Očisti historiju"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search…"
+#~ msgstr "Pretraživanje"
+
+#, fuzzy
+#~ msgid "Clipboard history is empty."
+#~ msgstr "Klipbord je prazan"
+
+#~ msgid "Configure"
+#~ msgstr "Konfiguriši"

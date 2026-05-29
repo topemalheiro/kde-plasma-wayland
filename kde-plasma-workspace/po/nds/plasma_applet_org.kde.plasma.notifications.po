@@ -1,0 +1,645 @@
+# translation of plasma_applet_notifications.po to Low Saxon
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Manfred Wiese <m.j.wiese@web.de>, 2010, 2011.
+# Sönke Dibbern <s_dibbern@web.de>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_notifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2014-09-18 16:11+0200\n"
+"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
+"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr ""
+
+#: components/EditContextMenu.qml:32
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Koperen"
+
+#: components/EditContextMenu.qml:44
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Koperen"
+
+#: components/EditContextMenu.qml:61
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Allens utsöken"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr ""
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: components/HeadingButtons.qml:121
+#, fuzzy, kde-format
+#| msgctxt "Speed and estimated time to completition"
+#| msgid "%1 (%2 remaining)"
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 (noch %2 över)"
+msgstr[1] "%1 (noch %2 över)"
+
+#: components/HeadingButtons.qml:125
+#, fuzzy, kde-format
+#| msgctxt "Speed and estimated time to completition"
+#| msgid "%1 (%2 remaining)"
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 (noch %2 över)"
+msgstr[1] "%1 (noch %2 över)"
+
+#: components/HeadingButtons.qml:130
+#, fuzzy, kde-format
+#| msgctxt "Speed and estimated time to completition"
+#| msgid "%1 (%2 remaining)"
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 (noch %2 över)"
+msgstr[1] "%1 (noch %2 över)"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr ""
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr ""
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: components/JobDetails.qml:37
+#, fuzzy, kde-format
+#| msgid "%1:"
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "How much many bytes (or whether unit in the locale has been copied over "
+#| "total"
+#| msgid "%1 of %2"
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%1 vun %2"
+
+#: components/JobDetails.qml:122
+#, fuzzy, kde-format
+#| msgid "%2 / 1 file"
+#| msgid_plural "%2 / %1 files"
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%2 / 1 Datei"
+msgstr[1] "%2 / %1 Dateien"
+
+#: components/JobDetails.qml:125
+#, fuzzy, kde-format
+#| msgid "%2 / 1 folder"
+#| msgid_plural "%2 / %1 folders"
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%2 / 1 Orner"
+msgstr[1] "%2 / %1 Ornern"
+
+#: components/JobDetails.qml:128
+#, fuzzy, kde-format
+#| msgid "%2 / 1 file"
+#| msgid_plural "%2 / %1 files"
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%2 / 1 Datei"
+msgstr[1] "%2 / %1 Dateien"
+
+#: components/JobDetails.qml:137
+#, fuzzy, kde-format
+#| msgid "%2 / 1 file"
+#| msgid_plural "%2 / %1 files"
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%2 / 1 Datei"
+msgstr[1] "%2 / %1 Dateien"
+
+#: components/JobDetails.qml:139
+#, fuzzy, kde-format
+#| msgid "%2 / 1 folder"
+#| msgid_plural "%2 / %1 folders"
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%2 / 1 Orner"
+msgstr[1] "%2 / %1 Ornern"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr ""
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr ""
+
+#: components/JobItem.qml:78
+#, fuzzy, kde-format
+#| msgid "Resume job"
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Opgaav wiedermaken"
+
+#: components/JobItem.qml:79
+#, fuzzy, kde-format
+#| msgid "Paused"
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Anhollen"
+
+#: components/JobItem.qml:93
+#, fuzzy, kde-format
+#| msgid "Cancel job"
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "Opgaav afbreken"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr ""
+
+#: components/JobItem.qml:153
+#, fuzzy, kde-format
+#| msgid "Open"
+msgid "Open"
+msgstr "Opmaken"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr ""
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr ""
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr ""
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr ""
+
+#: components/SpeedChart.qml:264
+#, fuzzy, kde-format
+#| msgid "%1:"
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1:"
+
+#: components/Summary.qml:36
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "%1 is the name of the job, can be things like Copying, deleting, moving"
+#| msgid "%1 [Paused]"
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 [anhollen]"
+
+#: components/Summary.qml:41
+#, fuzzy, kde-format
+#| msgid "%1 Finished"
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 afslaten"
+
+#: components/Summary.qml:43
+#, fuzzy, kde-format
+#| msgid "%1 Finished"
+msgid "Job Failed"
+msgstr "%1 afslaten"
+
+#: components/Summary.qml:47
+#, fuzzy, kde-format
+#| msgid "%1 Finished"
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 afslaten"
+
+#: components/Summary.qml:49
+#, fuzzy, kde-format
+#| msgid "%1 Finished"
+msgid "Job Finished"
+msgstr "%1 afslaten"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr ""
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr ""
+
+#: filemenu.cpp:131
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "&Copy"
+msgstr "Koperen"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr ""
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr ""
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr ""
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr ""
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr ""
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr ""
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr ""
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr ""
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr ""
+
+#: FullRepresentation.qml:226
+#, fuzzy, kde-format
+#| msgid "Automatically hide"
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Automaatsch versteken"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr ""
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr ""
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr ""
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr ""
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr ""
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr ""
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr ""
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr ""
+
+#: FullRepresentation.qml:650 main.qml:108
+#, fuzzy, kde-format
+#| msgid "No new notifications."
+msgid "No unread notifications"
+msgstr "Keen nieg Bescheden."
+
+#: FullRepresentation.qml:665 main.qml:77
+#, fuzzy, kde-format
+#| msgid "Notifications and Jobs"
+msgid "Notification service not available"
+msgstr "Bescheden un Opgaven"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr ""
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr ""
+
+#: globalshortcuts.cpp:33
+#, fuzzy, kde-format
+#| msgid "Notifications"
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Bescheden"
+
+#: globalshortcuts.cpp:52
+#, fuzzy, kde-format
+#| msgid "Notifications"
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Bescheden"
+
+#: globalshortcuts.cpp:53
+#, fuzzy, kde-format
+#| msgid "Notifications"
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Bescheden"
+
+#: globalshortcuts.cpp:68
+#, fuzzy, kde-format
+#| msgid "Notifications"
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Bescheden"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 lopen Opgaav"
+msgstr[1] "%1 lopen Opgaven"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr ""
+
+#: main.qml:70
+#, fuzzy, kde-format
+#| msgctxt "Number of jobs and the speed at which they are downloading"
+#| msgid "%1 running job (%2/s)"
+#| msgid_plural "%1 running jobs (%2/s)"
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 lopen Opgaav (%2/s)"
+msgstr[1] "%1 lopen Opgaven (%2/s)"
+
+#: main.qml:83
+#, fuzzy, kde-format
+#| msgid "%1 notification"
+#| msgid_plural "%1 notifications"
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 Bescheed"
+msgstr[1] "%1 Bescheden"
+
+#: main.qml:88
+#, fuzzy, kde-format
+#| msgid "%1 notification"
+#| msgid_plural "%1 notifications"
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 Bescheed"
+msgstr[1] "%1 Bescheden"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr ""
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr ""
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr ""
+
+#: main.qml:245
+#, fuzzy, kde-format
+#| msgid "Notifications"
+msgid "Clear All Notifications"
+msgstr "Bescheden"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Select All"
+#~ msgctxt "Clear all notifications"
+#~ msgid "Clear All"
+#~ msgstr "Allens utsöken"
+
+#, fuzzy
+#~| msgid "No new notifications."
+#~ msgid "No unread notifications."
+#~ msgstr "Keen nieg Bescheden."
+
+#~ msgid "Information"
+#~ msgstr "Informatschonen"
+
+#, fuzzy
+#~| msgid "&Application notifications:"
+#~ msgid "Show application and system notifications"
+#~ msgstr "&Programm-Bescheden:"
+
+#, fuzzy
+#~| msgid "No active jobs or notifications"
+#~ msgid "Show a history of notifications"
+#~ msgstr "Keen aktiev Opgaven oder Bescheden"
+
+#, fuzzy
+#~| msgid "&File transfers and jobs:"
+#~ msgid "Track file transfers and other jobs"
+#~ msgstr "&Dateiöverdregen un Opgaven:"
+
+#~ msgid "%1 of %2 %3"
+#~ msgstr "%1 vun %2 %3"
+
+#~ msgid "No notifications or jobs"
+#~ msgstr "Keen Bescheden oder Opgaven"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the notification than previews shown"
+#~ msgid "+%1"
+#~ msgstr "%1:"
+
+#~ msgid "&Application notifications:"
+#~ msgstr "&Programm-Bescheden:"
+
+#~ msgid "&File transfers and jobs:"
+#~ msgstr "&Dateiöverdregen un Opgaven:"
+
+#~ msgid "Choose which information to show"
+#~ msgstr "De Informatschonen utsöken, de Du wiesen wullt"
+
+#~ msgid "Transfers"
+#~ msgstr "Överdregen"
+
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgid "KiB/s"
+#~ msgstr "KiB/s"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 Datei, na: %2"
+#~ msgstr[1] "%1 Dateien, na: %2"
+
+#~ msgid "1 running job (%2 remaining)"
+#~ msgid_plural "%1 running jobs (%2 remaining)"
+#~ msgstr[0] "1 lopen Opgaav (noch %2 över)"
+#~ msgstr[1] "%1 lopen Opgaven (noch %2 över)"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 utsett Opgaav"
+#~ msgstr[1] "%1 utsett Opgaven"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 afslaten Opgaav"
+#~ msgstr[1] "%1 afslaten Opgaven"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "Opgaven"
+
+#~ msgid "More"
+#~ msgstr "Mehr"
+
+#~ msgid "Pause job"
+#~ msgstr "Opgaav anhollen"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1 [afslaten]"
+
+#~ msgid "Less"
+#~ msgstr "Weniger"
+
+#~ msgid "Notification from %1"
+#~ msgstr "Narichten vun %1"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "Opduk-Notizen"
+
+#~ msgid "Popup"
+#~ msgstr "Opduker"
+
+#~ msgid "Open destination"
+#~ msgstr "Teel opmaken"
+
+#~ msgid "Show jobs"
+#~ msgstr "Opgaven wiesen"

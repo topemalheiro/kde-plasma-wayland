@@ -1,0 +1,1239 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <qiilaq69@gmail.com>, 2016, 2019, 2020.
+# Mihkel Tõnnov <mihhkel@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2020-10-07 23:02+0200\n"
+"Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
+"Language-Team: Estonian <>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "Kriitiline tõrge %1 puutepadja põhilise seadmeinfo lugemisel."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Ühenduse loomine X-serveriga nurjus"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Puutepatja ei leitud"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Puutepadja seadistust ei suudetud rakendada"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Puutepadja seadistust ei suudetud lugeda"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Puutepadja vaikeseadistust ei suudetud lugeda"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Tõrge väärtuste laadimisel. Täpsemat teavet annab logi. Palun käivita see "
+"seadistusmoodul uuesti."
+
+#: kcm.cpp:129
+#, fuzzy, kde-format
+#| msgid "No touchpad found. Connect touchpad now."
+msgid "No pointer device found. Connect now."
+msgstr "Puutepatja ei leitud. Ühenda see nüüd."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Kõiki muudatusi ei õnnestunud salvestada. Täpsemat teavet annab logi. Palunn "
+"käivita see seadistusmoodul uuesti ja proovi veel."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Tõrge vaikeväärtuste laadimisel. Mõnele valikule vaikimisi väärtuse "
+"määramine nurjus."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Tõrge äsja ühendatud seadme lisamisel. Palun ühenda see uuesti ja käivita "
+"see seadistusmoodul veel kord."
+
+#: kcm.cpp:185
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. Closed its setting dialog."
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Puutepadi on lahutatud. Seadistustedialoog suletakse."
+
+#: kcm.cpp:187
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. No other touchpads found."
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Puutepadi on lahutatud. Teisi puutepatju ei leitud."
+
+#: ui/main.qml:69
+#, fuzzy, kde-format
+#| msgid "No touchpad found"
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Puutepatja ei leitud"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr ""
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Seade:"
+
+#: ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Üldine:"
+
+#: ui/main.qml:111
+#, fuzzy, kde-format
+#| msgctxt "Coasting"
+#| msgid "Enable"
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Lubatud"
+
+#: ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Disable touchpad when mouse is plugged in"
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Puutepadja keelamine hiire ühendatuse ajal"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Disable while typing"
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Keelamine kirjutamise ajal"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr ""
+
+#: ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Vasaku ja parema nupu vahetamine."
+
+#: ui/main.qml:170
+#, fuzzy, kde-format
+#| msgid "Left handed mode"
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Vasaku käe režiim"
+
+#: ui/main.qml:185
+#, fuzzy, kde-format
+#| msgid "Press left and right buttons for middle click"
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Vasaku ja parema nupu klõps asendab keskmise nupu klõpsu"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+
+#: ui/main.qml:207
+#, fuzzy, kde-format
+#| msgid "Pointer speed:"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Osutusseadme kiirus:"
+
+#: ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Pointer acceleration:"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Kursori kiirendus:"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Kerimiskiirus:"
+
+#: ui/main.qml:360
+#, fuzzy, kde-format
+#| msgctxt "Slower Scroll"
+#| msgid "Slower"
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Aeglasem"
+
+#: ui/main.qml:367
+#, fuzzy, kde-format
+#| msgctxt "Faster Scroll Speed"
+#| msgid "Faster"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Kiirem"
+
+#: ui/main.qml:374
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Kerimine:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr ""
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr ""
+
+#: ui/main.qml:404
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction (Natural scrolling)"
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Teistpidi kerimissuund (loomulik kerimine)"
+
+#: ui/main.qml:421
+#, fuzzy, kde-format
+#| msgid "Disable horizontal scrolling"
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Rõhtsuunas kerimise keelamine"
+
+#: ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Paremklõps"
+
+#: ui/main.qml:443
+#, fuzzy, kde-format
+#| msgid "Press bottom-right corner"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Vajutamine alumisse paremasse nurka"
+
+#: ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Vajutamine ükspuha kuhu kolme sõrmega."
+
+#: ui/main.qml:449
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Vajutamine ükspuha kuhu kolme sõrmega."
+
+#: ui/main.qml:471
+#, fuzzy, kde-format
+#| msgid "Press anywhere with two fingers"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Vajutus ükspuha kuhu kahe sõrmega"
+
+#: ui/main.qml:472
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Vajutamine ükspuha kuhu kolme sõrmega."
+
+#: ui/main.qml:484
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Keskklõps"
+
+#: ui/main.qml:487
+#, fuzzy, kde-format
+#| msgid "Press bottom-middle"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Vajutamine alla keskele"
+
+#: ui/main.qml:507
+#, fuzzy, kde-format
+#| msgid "Press bottom left and bottom right corners simultaneously"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Vajutamine korraga alumisse vasakusse ja paremasse nurka"
+
+#: ui/main.qml:519
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers"
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Vajutamine ükspuha kuhu kolme sõrmega"
+
+#: ui/main.qml:532
+#, fuzzy, kde-format
+#| msgid "Tapping:"
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Koputamine:"
+
+#: ui/main.qml:533
+#, fuzzy, kde-format
+#| msgid "Tap to Click"
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Koputamine klõpsamiseks"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr ""
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:580
+#, fuzzy, kde-format
+#| msgid "Two-finger tap:"
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Kahe sõrmega koputus:"
+
+#: ui/main.qml:586
+#, fuzzy, kde-format
+#| msgid "Right-click (three-finger tap to middle-click)"
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Paremklõps (kolme sõrmega koputus - keskklõps)"
+
+#: ui/main.qml:587
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Paremklõps"
+
+#: ui/main.qml:608
+#, fuzzy, kde-format
+#| msgid "Middle-click (three-finger tap right-click)"
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Keskklõps (kolme sõrmega koputus - paremklõps)"
+
+#: ui/main.qml:609
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Keskklõps"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr "Sisendseadmete otsing nurjus. Palun ava seadistusmoodul."
+
+#~ msgid "Device enabled"
+#~ msgstr "Seadme lubamine"
+
+#~ msgid "Two fingers"
+#~ msgstr "Kahe sõrmega"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Puutepadja servadel"
+
+#, fuzzy
+#~| msgid "Tap-to-click"
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Koputamine teeb klõpsu"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Koputamine ja lohistamine"
+
+#, fuzzy
+#~| msgid "Right-click:"
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Paremklõps:"
+
+#, fuzzy
+#~| msgid "Middle-click: "
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Keskklõps: "
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Sisendi lubamine selle seadme abil."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Puutepadja keelamine kirjutamise ajal vältimaks juhuslikku sekkumist."
+
+#, fuzzy
+#~| msgid ""
+#~| "Clicking left and right button simultaneously sends middle button click."
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Korraga vasakule ja paremale nupule vajutamine võrdub keskmise nupu "
+#~ "klõpsuga."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Kahe sõrmega libistamine kerib."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Libistamine puutepadja servadel kerib."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Nagu puuteekraanil kerimine."
+
+#, fuzzy
+#~| msgid "Disable horizontal scrolling"
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Rõhtsuunas kerimise keelamine"
+
+#, fuzzy
+#~| msgid "Single tap is left button click."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Ühekordne koputus vastab vasaku nupuga klõpsamisele."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Libistamisel üle puutepadja kohe koputuse järel lohistab."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Koputamise ja lohistamise lukk"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Lohistamine jätkub pärast üürikest sõrme eemaldamist."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Koputus kahe sõrmega võrdub parema nupu, koputus kolme sõrmega keskmise "
+#~ "nupu klõpsuga."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Koputus kahe sõrmega võrdub paremklõpsuga."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Koputus kahe sõrmega võrdub keskmise nupu, koputus kolme sõrmega parema "
+#~ "nupu klõpsuga."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Koputus kahe sõrmega võrdub keskmise nupu klõpsuga."
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr "Koputus kahe sõrmega võrdub paremklõpsuga."
+
+#, fuzzy
+#~| msgid "Press bottom left and bottom right corners simultaneously"
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr "Vajutamine korraga alumisse vasakusse ja paremasse nurka"
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr "Koputus kahe sõrmega võrdub paremklõpsuga."
+
+#~ msgid "Touchpad"
+#~ msgstr "Puutepadi"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Luba puutepadi"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Keela puutepadi"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Lülita puutepatja"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Kursor liigub sama palju nagu sõrm."
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr "Kursori liikumiskaugus sõltub sõrme liigutamise kiirusest."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Toiming puudub"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Vasak nupp"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Keskmine nupp"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Parem nupp"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Kõik servad"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Ülaserv"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Ülemine parem nurk"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Parem serv"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Alumine parem nurk"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Alaserv"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Alumine vasak nurk"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Vasak serv"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Ülemine vasak nurk"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Puutepadi lülitati välja, sest ühendati hiir"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Puutepadi lülitati sisse, sest hiir eemaldati"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr "Tarkvaralised nupud lisatakse puutepadja alumisse ossa."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Koputus kahe sõrmega paremklõpsu võimaldamiseks."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr "Tarkvaraline keskmine nupp lisatakse puutepadja alumisse ossa."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Marek Laane"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "qiilaq69@gmail.com"
+
+#~ msgid "Drag me"
+#~ msgstr "Lohista mind"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Vasak nupp"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Parem nupp"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Keskmine nupp"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Aktiivsed seadistused ei sobi salvestatud seadistustega.\n"
+#~ "Näed praegu salvestatud seadistusi."
+
+#~ msgid "Show active settings"
+#~ msgstr "Näita aktiivseid seadistusi"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Need seadistused ei avalda toimet testialas"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Puutepadja lubamine/keelamine"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Puutepadja lubamine/keelamine"
+
+#, fuzzy
+#~| msgid "Configure..."
+#~ msgid "Configure…"
+#~ msgstr "Seadista ..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Kiirklahvid:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Puutepadja keelamine kirjutamise ajal"
+
+#~ msgid "Timeout:"
+#~ msgstr "Aegumine:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Kui klaviatuuri ei puudutata üle määratud aja (millisekundites), "
+#~ "lülitatakse puutepadi taas sisse"
+
+#~ msgid " ms"
+#~ msgstr " ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Klõpsu emuleerimise ja kerimise keelamine.\n"
+#~ "Saad siiski kursorit liigutada puutepadja abil ja teha klõpse "
+#~ "riistvaraliste nuppudega."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Ainult koputuste ja kerimise keelamine"
+
+#~ msgid "Notifications:"
+#~ msgstr "Märguanded:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Eiratavad seadmed:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Mõningaid seadmeid võidakse valesti tõlgendada hiirena.\n"
+#~ "Need saab siia lisada, et neid ühendamise korral eirataks."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Kursori liikumine"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Kiirus"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Miinimum:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Minimaalne kursori kiirus"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maksimum:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Maksimaalne kursori kiirus"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Kiirendus:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Kursori tavalise liikumise kiirendustegur"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Survetundlik liikumine"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Miinimumsurve:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Miinimumtegur:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Maksimumsurve:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Maksimumtegur:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr "Sõrme surve, mille puhul rakendatakse miinimumsurve liikumistegurit"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "Sõrme surve, mille puhul rakendatakse maksimumsurve liikumistegurit"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Surve liikumisteguri madalaim lävi"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Surve liikumisteguri kõrgeim lävi"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Müra kõrvaldamine"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Püstsuunas:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Rõhtsuunas:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Minimaalne nõutav püstsuunas riistvaraline vahemaa liikumissündmuse "
+#~ "loomiseks"
+
+#~ msgid " units"
+#~ msgstr " ühikut"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Minimaalne nõutav rõhtsuunas riistvaraline vahemaa liikumissündmuse "
+#~ "loomiseks"
+
+#~ msgid "Scrolling"
+#~ msgstr "Kerimine"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Servas kerimine:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Püstsuunas kerimise lubamine lohistamisel piki paremat serva"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Püstsuunas"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Rõhtsuunas kerimise lubamine lohistamisel piki alaserva"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Rõhtsuunas"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Püstsuunas kerimise lubamine lohistamisel kahe sõrmega kus tahes "
+#~ "puutepadjal"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Rõhtsuunas kerimise lubamine lohistamisel kahe sõrmega kus tahes "
+#~ "puutepadjal"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Teistpidi püstsuunas kerimine"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Teistpidi rõhtsuunas kerimine"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Kahe sõrmega kerimine:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Teistpidi kerimine"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Kerimise vahemaa"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Püstsuunas:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Sõrme liikumiskaugus kerimissündmuse loomiseks"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Rõhtsuunas:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Kerimise jätkamine, kui sõrm puutepadja serva jõudes üles tõstetakse"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Vabajooks"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Miinimumkiirus:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Vabajooksu alustamiseks peab sõrm tegema nii mitu kerimisliigutust "
+#~ "sekundis"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " kerimisliigutust sekundis"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Aeglustus:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Kerimisliigutust sekundis² vabajooksu aeglustamiseks"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " kerimisliigutust sekundis²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Nurgas vabajooks"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr "Servas kerimise jätkamise lubamine, kui sõrm jäetakse servanurka"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Kui lohistamine algab määratud käivituspiirkonnas, alustatakse kerimist.\n"
+#~ "Sõrme liigutamine päripäeva ringis ümber puutepadja keskme kerib\n"
+#~ "allasuunas, vastupäeva aga ülessuunas."
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Ringkerimine"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Käivituspiirkond:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Puutepadja käivutuspiirkond ringkerimise alustamiseks"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Nurk:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Sõrme liikumisnurk (kraadides) kerimissündmuse loomiseks"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Koos püstsuunas kerimisega kasutamisel lülitutakse ülemisse või alumisse "
+#~ "paremasse nurka jõudmisel sujuvalt püstsuunas kerimiselt ringkerimisele"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Tundlikkus"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Tundlikkus"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Surve puute tuvastamiseks:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Surve vabastamise tuvastamiseks:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Kui sõrme surve ületab määratud väärtust, tõlgendab draiver seda puutena"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Kui sõrme surve langeb alla määratud väärtuse, tõlgendab draiver seda "
+#~ "vabastamisena"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Kas lubada peopesa tuvastamine. Pane tähele, et see nõuab ka puutepadja "
+#~ "riistvaralit/püsivaralist toetust."
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Peopesa tuvastamine"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Miinimumlaius:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Miinimumsurve:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Sõrme miinimumlaius, mida tõlgendatakse peopesana"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Sõrme miinimumsurve, mida tõlgendatakse peopesana"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Koputused"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Ühe sõrmega:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "Millist hiirenuppu arvestatakse ühe sõrmega ja mitte nurgas sooritatud "
+#~ "koputuse puhul"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Kahe sõrmega:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "Millist hiirenuppu arvestatakse kahe sõrmega ja mitte nurgas sooritatud "
+#~ "koputuse puhul"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Kolme sõrmega:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "Millist hiirenuppu arvestatakse kolme sõrmega ja mitte nurgas sooritatud "
+#~ "koputuse puhul"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Nurgad"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Ülal vasakul:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Millist hiirenuppu arvestatakse koputusel ülemises vasakus nurgas"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "All vasakul:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Ülal paremal:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Millist hiirenuppu arvestatakse koputusel alumises vasakus nurgas"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Millist hiirenuppu arvestatakse koputusel ülemises paremas nurgas"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Millist hiirenuppu arvestatakse koputusel alumises paremas nurgas"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "All paremal:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "See žest on lohistamise alternatiiv. Selleks tuleb koputada (sooritada "
+#~ "puude ja sõrm vabastada), seejärel uuesti puudutada ja liigutada sõrme "
+#~ "puutepadjal"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Koputamise ja lohistamise žest"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Kui see pole lubatud, lõpeb koputamise ja lohistamise žest sõrme "
+#~ "vabastamisega. Kui see on lubatud, kehtib žest seni, kuni koputad teist "
+#~ "korda või kuni ajaületuse määrang lubab"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Lukustatud lohistamine"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Aegumine:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Kui kaua kulub (millisekundites), enne kui \"lukustatud lohistamise\" "
+#~ "režiim lülitatakse pärast sõrme vabastamist puutepadjalt välja"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Koputuse tuvastamine"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maksimumaeg:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Sõrme maksimumliikumine:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Topeltkoputuse maksimumaeg:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Üksikkoputuse aegumine:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Maksimaalne aeg (millisekundites) koputuse tuvastamiseks"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Maksimaalne sõrme liikumine koputuse tuvastamiseks"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Maksimaalne aeg (millisekundites) topeltkoputuse tuvastamiseks"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "Aeg koputuse järel selle tuvastamiseks üksikkoputusena"
+
+#~ msgid "Testing area"
+#~ msgstr "Testala"
+
+#~ msgid "Click me"
+#~ msgstr "Klõpsa siia"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Kiirendusprofiil:"
+
+#~ msgid "Flat"
+#~ msgstr "Ühtlane"
+
+#~ msgid "Adaptive"
+#~ msgstr "Kohanduv"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Puutepadja juhtimismoodul"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Süsteemi seadistuste moodul puutepadja haldamiseks"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Autoriõigus © 2016: Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Arendaja"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Süsteemi seadistuste moodul, deemon ja Plasma aplett puutepadja "
+#~ "haldamiseks"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Autoriõigus © 2013: Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Programm sisaldab järgmise autoriõigusega kaitstud tööd:\n"
+#~ "Autoriõigus © 2002-2005,2007: Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Kasutatavus, testimine"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Väheke abi"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Synclienti arendaja"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Testimine"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Hiireklõpsu emuleerimine"
+
+#~ msgctxt "Synaptics touchpad driver"
+#~ msgid "Synaptics backend not found"
+#~ msgstr "Synapticsi taustaprogrammi ei leitud"
+
+#~ msgid "Cannot read any of touchpad's properties"
+#~ msgstr "Puutepadja omadusi ei suudetud lugeda"
+
+#~ msgid "Cannot read touchpad's capabilities"
+#~ msgstr "Puutepadja võimalusi ei suudetud lugeda"
+
+#~ msgctxt "Libinput touchpad driver"
+#~ msgid "Libinput backend not found"
+#~ msgstr "Libinputi taustaprogrammi ei leitud"

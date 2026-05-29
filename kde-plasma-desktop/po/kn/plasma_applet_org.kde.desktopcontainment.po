@@ -1,0 +1,1334 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vasudev Kamath <kamathvasudev@gmail.com>, 2009.
+# Shankar Prasad <svenkate@redhat.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2010-01-12 21:50+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <kde-l10n-kn@kde.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: package/contents/config/config.qml:17
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "ಸ್ಥಳ"
+
+#: package/contents/config/config.qml:24
+#, fuzzy, kde-format
+#| msgid "Icons"
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "ಚಿಹ್ನೆಗಳು"
+
+#: package/contents/config/config.qml:31
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "ಸೋಸುಗ(ಫಿಲ್ಟರ್)"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "ಕಡತದ ಬಗೆಗಳು:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "ಸ್ಥಳವನ್ನು ತೋರಿಸು:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "ತಾಳೆಯಾಗುವ ಕಡತಗಳನ್ನು ತೋರಿಸು"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Hide Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "ತಾಳೆಯಾಗುವ ಕಡತಗಳನ್ನು ಮರೆ ಮಾಡಿ"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name pattern:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "ಕಡತ ಹೆಸರಿನ ರೂಪ:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "ಕಡತದ ಬಗೆಗಳು:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, fuzzy, kde-format
+#| msgid "Show All Files"
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "ಎಲ್ಲಾ ಕಡತಗಳನ್ನು ತೋರಿಸು"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "ಕಡತದ ಬಗೆಗಳು:"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "ಎಲ್ಲವನ್ನೂ ಆರಿಸು"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, fuzzy, kde-format
+#| msgid "Deselect All"
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "ಎಲ್ಲಾ ಆಯ್ಕೆಗಳನ್ನು ರದ್ದುಗೊಳಿಸು"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, fuzzy, kde-format
+#| msgid "Custom Title:"
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆ:"
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, fuzzy, kde-format
+#| msgid "Sort Icons"
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "ಚಿಹ್ನೆಗಳನ್ನು ವಿಂಗಡಿಸು"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, fuzzy, kde-format
+#| msgid "Arrangement:"
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "ಏರ್ಪಾಟು:"
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "ವಿಂಗಡಣೆ:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Left to Right"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ, ಎಡದಿಂದ ಬಲಕ್ಕೆ"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Right to Left"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "ಮೇಲಿನಿಂದ ಕೆಲಕ್ಕೆ, ಬಲದಿಂದ ಎಡಕ್ಕೆ"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, fuzzy, kde-format
+#| msgid "Lock in place:"
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "ಸ್ಥಳಕ್ಕೆ ಬಂಧಿಸಿ:"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "ವಿಂಗಡಣೆ:"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "ಹೆಸರಿನಿಂದ"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "ಗಾತ್ರ:"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "ಬಗೆಯಿಂದ"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "ದಿನಾಂಕದಿಂದ"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, kde-format
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "ಕಡತಕೋಶಗಳು ಮೊದಲು"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Size"
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "ಗಾತ್ರದಿಂದ"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "ಚಿಕ್ಕದಾದ"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, fuzzy, kde-format
+#| msgid "Large"
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "ದೊಡ್ಡದಾದ"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, fuzzy, kde-format
+#| msgid " lines"
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr " ಸಾಲುಗಳು"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "ಎಲ್ಲವನ್ನೂ ಆರಿಸು"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "ಮುನ್ನೋಟಗಳು:"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "ಎಲ್ಲವನ್ನೂ ಆರಿಸು"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, fuzzy, kde-format
+#| msgid "&Rename"
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "ಹೆಸರನ್ನು ಬದಲಾಯಿಸು(&R)"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "ಮುನ್ನೋಟಗಳು:"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "ಮುನ್ನೋಟಗಳು:"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, fuzzy, kde-format
+#| msgid "More Preview Options..."
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "ಇನ್ನಷ್ಟು ಮುನ್ನೋಟದ ಆಯ್ಕೆಗಳು..."
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "ಸ್ಥಳವನ್ನು ತೋರಿಸು:"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+#| msgid "Show the Desktop folder"
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶವನ್ನು ತೋರಿಸು"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, fuzzy, kde-format
+#| msgid "Custom Title:"
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆ:"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, fuzzy, kde-format
+#| msgid "Type a path or a URL here"
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "ತಾಣ ಸೂಚಿ ಅಥವಾ ಕಡತದ ಮಾರ್ಗವನ್ನು ನಮೂದಿಸಿ"
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, fuzzy, kde-format
+#| msgctxt "Music"
+#| msgid "Title:"
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "ಶೀರ್ಷಿಕೆ:"
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, fuzzy, kde-format
+#| msgid "Custom Title:"
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆ:"
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, fuzzy, kde-format
+#| msgid "Enter a customized title"
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸು"
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "ಮುನ್ನೋಟಗಳು:"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, fuzzy, kde-format
+#| msgid "This folder is empty."
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "ಈ ಕಡತಕೋಶ ಖಾಲಿಯಾಗಿದೆ."
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, fuzzy, kde-format
+#| msgid "Icons"
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "ಚಿಹ್ನೆಗಳು"
+
+#: package/contents/ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "&Refresh Desktop"
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "ಗಣಕತೆರೆಯನ್ನು ಪುನಶ್ಚೇತನಗೊಳಿಸು(&R)"
+
+#: plugins/folder/directorypicker.cpp:32
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "ಎಲ್ಲವನ್ನೂ ಆರಿಸು"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "ಗಣಕತೆರೆಯನ್ನು ಪುನಶ್ಚೇತನಗೊಳಿಸು(&R)"
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr "ನೋಟವನ್ನು ಪುನಶ್ಚೇತನಗೊಳಿಸು(&R)"
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1812
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
+msgstr "ಕಸಬುಟ್ಟಿಯನ್ನು ಖಾಲಿಮಾಡು (&E)"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "(&ತ)ತೆರೆ"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "ಸ್ಥಳವನ್ನು ತೋರಿಸು:"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "ಕಸದ ಬುಟ್ಟಿಗೆ ಸ್ಥಳಾಂತರಿಸು(&M)"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "ಅಂಟಿಸು(&P)"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "(&ಗ)ಗುಣಗಳು"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgid "Sort By"
+msgstr "ವಿಂಗಡಣೆ:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, fuzzy, kde-format
+#| msgctxt "Sort Icons"
+#| msgid "Unsorted"
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "ವಿಂಗಡಿಸದಿರುವ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "ಹೆಸರಿನಿಂದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "ಗಾತ್ರ:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "ಬಗೆಯಿಂದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "ದಿನಾಂಕದಿಂದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, kde-format
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "ಕಡತಕೋಶಗಳು ಮೊದಲು"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Size"
+msgid "Icon Size"
+msgstr "ಗಾತ್ರದಿಂದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "ಚಿಕ್ಕದಾದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "ಚಿಕ್ಕದಾದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, fuzzy, kde-format
+#| msgid "Large"
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "ದೊಡ್ಡದಾದ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, fuzzy, kde-format
+#| msgid "Arrangement:"
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr "ಏರ್ಪಾಟು:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Left to Right"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ, ಎಡದಿಂದ ಬಲಕ್ಕೆ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Right to Left"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "ಮೇಲಿನಿಂದ ಕೆಲಕ್ಕೆ, ಬಲದಿಂದ ಎಡಕ್ಕೆ"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgid "Show Previews"
+msgstr "ಮುನ್ನೋಟಗಳು:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inlistbox arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ, ಎಡದಿಂದ ಬಲಕ್ಕೆ"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Left to Right"
+#~ msgstr "ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ, ಎಡದಿಂದ ಬಲಕ್ಕೆ"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Right to Left"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Right to Left"
+#~ msgstr "ಮೇಲಿನಿಂದ ಕೆಲಕ್ಕೆ, ಬಲದಿಂದ ಎಡಕ್ಕೆ"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ, ಎಡದಿಂದ ಬಲಕ್ಕೆ"
+
+#, fuzzy
+#~| msgid "&Restore"
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "&ಮರುಸ್ಥಾಪಿಸು (ರಿಸ್ಟೋರ್)"
+
+#, fuzzy
+#~| msgctxt "On a camera"
+#~| msgid "Aperture:"
+#~ msgid "Features:"
+#~ msgstr "ಬೆಳಕಿಂಡಿ:"
+
+#, fuzzy
+#~| msgid "Search file type"
+#~ msgid "Search…"
+#~ msgstr "ಕಡತದ ಬಗೆಯನ್ನು ಹುಡುಕು"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "ಕ&ಡತಕೋಶವನ್ನು ಸೃಷ್ಟಿಸು..."
+
+#, fuzzy
+#~| msgid "Show the Desktop folder"
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶವನ್ನು ತೋರಿಸು"
+
+#~ msgid "Size:"
+#~ msgstr "ಗಾತ್ರ:"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "Arrangement:"
+#~ msgid "Arrange in"
+#~ msgstr "ಏರ್ಪಾಟು:"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Title of the page that lets the user choose which location should the "
+#~| "folderview show"
+#~| msgid "Location"
+#~ msgid "Location:"
+#~ msgstr "ಸ್ಥಳ"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶವನ್ನು ತೋರಿಸು"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "ಒಂದು ಕಡತಕೋಶವನ್ನು ಸೂಚಿಸಿ:"
+
+#~ msgid "&Reload"
+#~ msgstr "ಪುನರುತ್ಥಾಪಿಸು (&R)"
+
+#~ msgid "&Delete"
+#~ msgstr "ಅಳಿಸು(&D)"
+
+#, fuzzy
+#~| msgid "Sorting:"
+#~ msgid "Sorting"
+#~ msgstr "ವಿಂಗಡಣೆ:"
+
+#, fuzzy
+#~| msgctxt "Music"
+#~| msgid "Title:"
+#~ msgid "Title"
+#~ msgstr "ಶೀರ್ಷಿಕೆ:"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original Directory"
+#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳನ್ನು ತೋರಿಸು"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳನ್ನು ತೋರಿಸು"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "ಕಸಬುಟ್ಟಿಯನ್ನು ಖಾಲಿಮಾಡು (&E)"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "(&ಪ)ಈ ಪುಟವನ್ನು ಅಂಕನಿಸು (ಬುಕ್ ಮಾರ್ಕ್)"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "(&ಪ)ಈ ತಾಣವನ್ನು ಅಂಕನಿಸು (ಬುಕ್ ಮಾರ್ಕ್)"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "(&ಪ)ಈ ಕಡತಕೋಶವನ್ನು ಅಂಕನಿಸು (ಬುಕ್ ಮಾರ್ಕ್)"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "(&ಪ)ಈ ಸಂಪರ್ಕಕೊಂಡಿಯನ್ನು ಅಂಕನಿಸು (ಬುಕ್ ಮಾರ್ಕ್)"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "(&ಪ)ಈ ಕಡತವನ್ನು ಅಂಕನಿಸು (ಬುಕ್ ಮಾರ್ಕ್)"
+
+#, fuzzy
+#~| msgid "&Copy Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "ಇಲ್ಲಿಗೆ &ನಕಲಿಸು"
+
+#, fuzzy
+#~| msgid "Move to Trash"
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "ಕಸಬುಟ್ಟಿಗೆ ಕಳುಹಿಸು "
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "&Copy Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "ಇಲ್ಲಿಗೆ &ನಕಲಿಸು"
+
+#, fuzzy
+#~| msgid "&Move Here"
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "ಇಲ್ಲಿಗೆ (&ಸ) ಸ್ಥಾನಾಂತರಿಸು (ಮೂವ್)"
+
+#~ msgid "Share"
+#~ msgstr "ಹಂಚು"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Icon:"
+#~ msgstr "ಚಿಹ್ನೆಗಳು"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "ಒಂದು ಕಡತಕೋಶವನ್ನು ಅದರ ಮೇಲೆಯೇ ಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+#, fuzzy
+#~| msgid "File name pattern:"
+#~ msgid "File name for dropped contents:"
+#~ msgstr "ಕಡತ ಹೆಸರಿನ ರೂಪ:"
+
+#~ msgid "&Move Here"
+#~ msgstr "ಇಲ್ಲಿಗೆ (&ಸ) ಸ್ಥಾನಾಂತರಿಸು (ಮೂವ್)"
+
+#~ msgid "&Copy Here"
+#~ msgstr "ಇಲ್ಲಿಗೆ &ನಕಲಿಸು"
+
+#~ msgid "&Link Here"
+#~ msgstr "ಇಲ್ಲಿಗೆ (&ಕ) ಕೊಂಡಿಹಾಕು (ಲಿಂಕ್)"
+
+#~ msgid "C&ancel"
+#~ msgstr "&ರದ್ದು ಮಾಡು"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "ಹಿನ್ನಲೆತೆರೆಚಿತ್ರವಾಗಿ ಹೊಂದಿಸು (&W)"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "ಕ&ಡತಕೋಶವನ್ನು ಸೃಷ್ಟಿಸು..."
+
+#, fuzzy
+#~| msgid "Enter folder name:"
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "ಕಡತಕೋಶದ ಹೆಸರನ್ನು ನಮೂದಿಸು:"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "ಕ&ಡತಕೋಶವನ್ನು ಸೃಷ್ಟಿಸು..."
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "Enter folder name:"
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "ಕಡತಕೋಶದ ಹೆಸರನ್ನು ನಮೂದಿಸು:"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "ಗಣಕತೆರೆ ಕಡತಕೋಶ"
+
+#, fuzzy
+#~| msgid "&Paste"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "ಅಂಟಿಸು(&P)"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Icons"
+#~ msgstr "ಚಿಹ್ನೆಗಳು"
+
+#~ msgctxt "Icons on the desktop"
+#~ msgid "Lock in Place"
+#~ msgstr "ಸ್ಥಳದಲ್ಲಿಯೆ ಬಂಧಿಸು"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 folder"
+#~ msgid_plural "%1 folders"
+#~ msgstr[0] "೧ ಕಡತಕೋಶ"
+#~ msgstr[1] "%1 ಕಡತಕೋಶಗಳು"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 file"
+#~ msgid_plural "%1 files"
+#~ msgstr[0] "೧ ಕಡತ"
+#~ msgstr[1] "%1 ಕಡತಗಳು"
+
+#~ msgctxt "%1 and %2 are the messages translated above."
+#~ msgid "%1, %2."
+#~ msgstr "%1, %2."
+
+#~ msgid "1 file."
+#~ msgid_plural "%1 files."
+#~ msgstr[0] "೧ ಕಡತ"
+#~ msgstr[1] "%1 ಕಡತಗಳು"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this control to choose how many lines of text will be shown below "
+#~| "the icons."
+#~ msgid ""
+#~ "Use this control to choose the criteria by which the icons will be sorted "
+#~ "in the view."
+#~ msgstr ""
+#~ "ಈ ನಿಯಂತ್ರಕವನ್ನು ಬಳಸಿ ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದ ಕೆಳಗೆ ಎಷ್ಟು ಸಾಲು ಪಠ್ಯವನ್ನು "
+#~ "ತೋರಿಸಬೇಕೆಂಬುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this control to choose how many lines of text will be shown below "
+#~| "the icons."
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be arranged "
+#~ "horizontally (in rows) or vertically (in columns)."
+#~ msgstr ""
+#~ "ಈ ನಿಯಂತ್ರಕವನ್ನು ಬಳಸಿ ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದ ಕೆಳಗೆ ಎಷ್ಟು ಸಾಲು ಪಠ್ಯವನ್ನು "
+#~ "ತೋರಿಸಬೇಕೆಂಬುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this control to choose how many lines of text will be shown below "
+#~| "the icons."
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be aligned to the left "
+#~ "or to the right side of the screen."
+#~ msgstr ""
+#~ "ಈ ನಿಯಂತ್ರಕವನ್ನು ಬಳಸಿ ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದ ಕೆಳಗೆ ಎಷ್ಟು ಸಾಲು ಪಠ್ಯವನ್ನು "
+#~ "ತೋರಿಸಬೇಕೆಂಬುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#~ msgid ""
+#~ "Check this option if you want to see previews of the file contents in the "
+#~ "icons."
+#~ msgstr ""
+#~ "ಕಡತದ ಒಳ ಅಂಶದ ಮುನ್ನೋಟವನ್ನು ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದಲ್ಲಿ ತೋರಿಸಲು ಇಲ್ಲಿ ಗುರುತು ಹಾಕಿ."
+
+#~ msgid ""
+#~ "Click this button to choose for which types of files previews will be "
+#~ "shown."
+#~ msgstr ""
+#~ "ಯಾವ ಬಗೆಯ ಕಡತಗಳಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಲು ಈ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ."
+
+#~ msgid "Lines:"
+#~ msgstr "ಸಾಲುಗಳು:"
+
+#~ msgid ""
+#~ "Use this control to choose how many lines of text will be shown below the "
+#~ "icons."
+#~ msgstr ""
+#~ "ಈ ನಿಯಂತ್ರಕವನ್ನು ಬಳಸಿ ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದ ಕೆಳಗೆ ಎಷ್ಟು ಸಾಲು ಪಠ್ಯವನ್ನು "
+#~ "ತೋರಿಸಬೇಕೆಂಬುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#~ msgid "1 line"
+#~ msgstr "೧ ಸಾಲು"
+
+#~ msgid "Color:"
+#~ msgstr "ಬಣ್ಣ:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Click this button to choose for which types of files previews will be "
+#~| "shown."
+#~ msgid ""
+#~ "Click this button to choose the color which is used for the text labels "
+#~ "in the view."
+#~ msgstr ""
+#~ "ಯಾವ ಬಗೆಯ ಕಡತಗಳಿಗೆ ಮುನ್ನೋಟವನ್ನು ತೋರಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಲು ಈ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ."
+
+#~ msgid "Shadows:"
+#~ msgstr "ನೆರಳುಗಳು:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Check this option if you want to see previews of the file contents in "
+#~| "the icons."
+#~ msgid ""
+#~ "Check this option if you want the icons to be sorted in a descending "
+#~ "order."
+#~ msgstr ""
+#~ "ಕಡತದ ಒಳ ಅಂಶದ ಮುನ್ನೋಟವನ್ನು ಚಿತ್ರಾತ್ಮಕ ಸಂಕೇತದಲ್ಲಿ ತೋರಿಸಲು ಇಲ್ಲಿ ಗುರುತು ಹಾಕಿ."
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
+#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
+#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
+#~ "no files will be shown.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
+#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
+#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
+#~ "no files will be shown.</p></body></html>"
+
+#~ msgid "<a href=\"null\">Cannot See Any Files?</a>"
+#~ msgstr "<a href=\"null\">ಯಾವುದೇ ಕಡತಗಳು ಕಾಣುತ್ತಿಲ್ಲವೆ?</a>"
+
+#~ msgid "Pattern filter"
+#~ msgstr "ವಿನ್ಯಾಸ ಶೋಧಕ"
+
+#~ msgctxt "Music"
+#~ msgid "Artist:"
+#~ msgstr "ಕಲಾವಿದ:"
+
+#~ msgctxt "Music"
+#~ msgid "Album:"
+#~ msgstr "ಆಲ್ಬಮ್:"
+
+#, fuzzy
+#~| msgid "1 MPixel"
+#~| msgid_plural "%1 MPixels"
+#~ msgid "%1 MPixels"
+#~ msgstr "೧ ಮೆಗಾ ಪಿಕ್ಸೆಲ್ಲು"
+
+#~ msgid "Camera:"
+#~ msgstr "ಕ್ಯಾಮೆರಾ:"
+
+#~ msgctxt "Length in millimeters"
+#~ msgid "%1 mm"
+#~ msgstr "%1 ಮಿ.ಮಿ"
+
+#~ msgctxt "In photography"
+#~ msgid "35 mm equivalent: %1 mm"
+#~ msgstr "೩೫ ಮಿ.ಮಿ. ಸಮಾನ: %1 ಮಿ.ಮಿ"
+
+#~ msgctxt "On a camera"
+#~ msgid "Focal Length:"
+#~ msgstr "ಫೋಕಲ್ ಲೆಂತ್ :"
+
+#~ msgctxt "On a camera"
+#~ msgid "Exposure Time:"
+#~ msgstr "ಎಕ್ಸ್‍ಪೋಶರ್ ಸಮಯ:"
+
+#~ msgctxt "Fraction of a second, or number of seconds"
+#~ msgid "%1 s"
+#~ msgstr "%1 s"
+
+#~ msgctxt "On a camera"
+#~ msgid "ISO Speed:"
+#~ msgstr "ISO ವೇಗ:"
+
+#~ msgid "Time:"
+#~ msgstr "ಸಮಯ:"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 page"
+#~ msgid_plural "%1 pages"
+#~ msgstr[0] "೧ ಹಾಳೆ"
+#~ msgstr[1] "%1 ಹಾಳೆಗಳು"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 word"
+#~ msgid_plural "%1 words"
+#~ msgstr[0] "೧ ಪದ"
+#~ msgstr[1] "%1 ಪದಗಳು"
+
+#~ msgctxt "Items in a folder"
+#~ msgid "1 item"
+#~ msgid_plural "%1 items"
+#~ msgstr[0] "೧ ಅಂಶ"
+#~ msgstr[1] "%1 ಅಂಶಗಳು"
+
+#~ msgid "Left to Right, Top to Bottom"
+#~ msgstr "ಎಡದಿಂದ ಬಲಕ್ಕೆ, ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ"
+
+#~ msgid "Right to Left, Top to Bottom"
+#~ msgstr "ಬಲದಿಂದ ಎಡಕ್ಕೆ, ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Display"
+#~ msgstr "ಪ್ರದರ್ಶಿಸು"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Header</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Header</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Icons</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Icons</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Icon Text</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">ಚಿಹ್ನೆಯ ಪಠ್ಯ</span></p></body></html>"

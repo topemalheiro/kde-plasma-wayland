@@ -1,0 +1,659 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2018, 2021, 2022, 2023, 2024, 2025 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-20 00:46+0000\n"
+"PO-Revision-Date: 2025-03-24 14:54-0500\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.3\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "ਪਸੰਦੀਦਾ ਵਿੱਚੋਂ ਹਟਾਓ"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "ਪਸੰਦਾਂ ਵਿੱਚ ਜੋੜੋ"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "ਸਭ ਸਰਗਰਮੀਆਂ ਉੱਤੇ"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਉੱਤੇ"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "ਪਸੰਦੀਦਾ ਵਿੱਚ ਵੇਖਾਓ"
+
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "ਆਮ"
+
+#: ConfigGeneral.qml:47
+#, fuzzy, kde-format
+#| msgid "Icon:"
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "ਆਈਕਾਨ:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "ਐਪਲੀਕੇਸਨ ਲਾਂਚਰ ਦਾ ਆਈਕਾਨ ਬਦਲੋ"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "ਆਈਕਾਨ ਨਾਂ \"%1\" ਹੈ।"
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "…ਚੁਣੋ"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ ਲਈ ਆਈਕਾਨ ਚੁਣੋ"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "ਮੂਲ ਆਈਕਾਨ ਲਈ ਮੁੜ-ਸੈੱਟ ਕਰੋ"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "ਆਈਕਾਨ ਹਟਾਓ"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "ਲਿਖਤ ਲੇਬਲ:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "ਲਿਖਤ ਲੇਬਲ ਜੋੜਣ ਲਈ ਇੱਥੇ ਲਿਖੋ"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "ਮੇਨੂ ਲੇਬਲ ਮੁੜ-ਸੈ਼ਟ ਕਰੋ"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr ""
+
+#: ConfigGeneral.qml:157
+#, fuzzy, kde-format
+#| msgid "Show applications as:"
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਜੋਂ ਵੇਖਾਓ:"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name only"
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "ਨਾਂ ਹੀ"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description only"
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "ਵੇਰਵਾ ਹੀ"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Name (Description)"
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "ਨਾਂ (ਵੇਰਵਾ)"
+
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Description (Name)"
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "ਵੇਰਵਾ (ਨਾਂ)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "ਆਮ:"
+
+#: ConfigGeneral.qml:171
+#, fuzzy, kde-format
+#| msgid "Always sort applications alphabetically"
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "ਹਮੇਸ਼ਾਂ ਐਪਲੀਕੇਸ਼ਨ ਨਾਂ ਮੁਤਾਬਕ ਲੜੀਬੱਧ ਕਰੋ"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr ""
+
+#: ConfigGeneral.qml:187
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr ""
+
+#: ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Configure Enabled Search Plugins…"
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "ਸਮਰੱਥ ਖੋਜ ਪਲੱਗਇਨਾਂ ਦੀ ਸੰਰਚਨਾ ਕਰੋ…"
+
+#: ConfigGeneral.qml:208
+#, fuzzy, kde-format
+#| msgid "Sidebar position:"
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "ਬਾਹੀ ਦੀ ਸਥਿਤੀ:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Right"
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "ਸੱਜੇ"
+
+#: ConfigGeneral.qml:209
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "ਖੱਬੇ"
+
+#: ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "ਖੱਬੇ"
+
+#: ConfigGeneral.qml:225
+#, fuzzy, kde-format
+#| msgid "Show favorites:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "ਪਸੰਦੀਦਾ ਵੇਖਾਓ:"
+
+#: ConfigGeneral.qml:226
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "ਗਰਿੱਡ ਵਿੱਚ"
+
+#: ConfigGeneral.qml:234
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "ਸੂਚੀ ਵਿੱਚ"
+
+#: ConfigGeneral.qml:242
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵੇਖਾਓ:"
+
+#: ConfigGeneral.qml:243
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a grid'"
+#| msgid "In a grid"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "ਗਰਿੱਡ ਵਿੱਚ"
+
+#: ConfigGeneral.qml:251
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Show favorites in a list'"
+#| msgid "In a list"
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "ਸੂਚੀ ਵਿੱਚ"
+
+#: ConfigGeneral.qml:263
+#, fuzzy, kde-format
+#| msgid "Show buttons for:"
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "ਇਸ ਲਈ ਬਟਨ ਵੇਖਾਓ:"
+
+#: ConfigGeneral.qml:264
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "ਪਾਵਰ"
+
+#: ConfigGeneral.qml:273
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "ਸ਼ੈਸ਼ਨ"
+
+#: ConfigGeneral.qml:282
+#, fuzzy, kde-format
+#| msgid "Power and session"
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "ਪਾਵਰ ਅਤੇ ਸ਼ੈਸ਼ਨ"
+
+#: ConfigGeneral.qml:291
+#, fuzzy, kde-format
+#| msgid "Show action button captions"
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "ਕਾਰਵਾਈ ਬਟਨ ਸੁਰਖੀਆਂ ਵੇਖਾਓ"
+
+#: Footer.qml:101
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ"
+
+#: Footer.qml:117
+#, fuzzy, kde-format
+#| msgid "Places"
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "ਥਾਵਾਂ"
+
+#: FullRepresentation.qml:134
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "ਕੋਈ ਮੇਲ ਨਹੀਂ"
+
+#: Header.qml:86
+#, fuzzy, kde-format
+#| msgid "Open user settings"
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "ਵਰਤੋਂਕਾਰ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ"
+
+#: Header.qml:276
+#, fuzzy, kde-format
+#| msgid "Keep Open"
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "ਖੁੱਲਾ ਰੱਖੋ"
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffGridDelegate.qml:61
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#: KickoffGridView.qml:105
+#, fuzzy, kde-format
+#| msgid "Grid with %1 rows, %2 columns"
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "%1 ਕਤਾਰਾਂ, %2 ਕਾਲਮਾਂ ਨਾਲ ਗਰਿੱਡ"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffListDelegate.qml:125
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgid "There is a newly-installed application in this category"
+msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#: KickoffListDelegate.qml:126
+#, fuzzy, kde-format
+#| msgid "Recently Used Applications"
+msgid "Newly-installed application"
+msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session"
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "ਸ਼ੈਸ਼ਨ"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Power"
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "ਪਾਵਰ"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "More"
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "ਹੋਰ"
+
+#: LeaveButtons.qml:171
+#, fuzzy, kde-format
+#| msgid "Session actions"
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "ਸ਼ੈਸ਼ਨ ਕਾਰਵਾਈਆਂ"
+
+#: main.qml:358
+#, fuzzy, kde-format
+#| msgid "Edit Applications…"
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "…ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਸੋਧੋ"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "ਕੰਪਿਊਟਰ"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "ਅਤੀਤ"
+
+#: PlacesPage.qml:66
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "ਅਕਸਰ ਵਰਤੇ"
+
+#, fuzzy
+#~| msgid "Recently Used Applications"
+#~ msgctxt "@info:whatsthis Accessible description for badge"
+#~ msgid "Newly installed application"
+#~ msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#~ msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+#~ msgid "Automatically disabled when in Touch Mode"
+#~ msgstr "ਜਦੋਂ ਟੱਚ ਮੋਡ ਹੋਵੇ ਤਾਂ ਆਪਣੇ-ਆਪ ਅਸਮਰੱਥ ਕਰੋ"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a grid'"
+#~ msgid "In a grid"
+#~ msgstr "ਗਰਿੱਡ ਵਿੱਚ"
+
+#~ msgctxt "Part of a sentence: 'Show other applications in a list'"
+#~ msgid "In a list"
+#~ msgstr "ਸੂਚੀ ਵਿੱਚ"
+
+#~ msgid "Leave"
+#~ msgstr "ਛੱਡੋ"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "ਆਈਕਾਨ ਮਿਟਾਓ"
+
+#~ msgid "Search…"
+#~ msgstr "…ਖੋਜੋ"
+
+#~ msgid "Primary actions:"
+#~ msgstr "ਮੂਲ ਕਾਰਵਾਈਆਂ:"
+
+#~ msgid "Power actions"
+#~ msgstr "ਪਾਵਰ ਕਾਰਵਾਈਆਂ"
+
+#, fuzzy
+#~| msgid "Leave"
+#~ msgid "Leave…"
+#~ msgstr "ਛੱਡੋ"
+
+#, fuzzy
+#~| msgid "Power"
+#~ msgid "Power…"
+#~ msgstr "ਪਾਵਰ"
+
+#, fuzzy
+#~| msgid "More"
+#~ msgid "More…"
+#~ msgstr "ਹੋਰ"
+
+#, fuzzy
+#~| msgid "Edit Applications..."
+#~ msgid "Updating applications…"
+#~ msgstr "...ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸੋਧੋ"
+
+#, fuzzy
+#~| msgid "Allow label to have two lines"
+#~ msgid "Allow labels to have two lines"
+#~ msgstr "ਲੇਬਲ ਵਿੱਚ ਦੋ ਲਾਈਨਾਂ ਦੀ ਆਗਿਆ ਹੈ"
+
+#~ msgid "%2@%3 (%1)"
+#~ msgstr "%2@%3 (%1)"
+
+#~ msgid "%1@%2"
+#~ msgstr "%1@%2"
+
+#~ msgid "List with 1 item"
+#~ msgid_plural "List with %1 items"
+#~ msgstr[0] "1 ਚੀਜ਼ ਨਾਲ ਸੂਚੀ"
+#~ msgstr[1] "%1 ਚੀਜ਼ਾਂ ਨਾਲ ਸੂਚੀ"
+
+#~ msgid "%1 submenu"
+#~ msgstr "%1 ਅਧੀਨ-ਮੇਨੂ"
+
+#~ msgid "Leave..."
+#~ msgstr "...ਛੱਡੋ"
+
+#~ msgid "Power..."
+#~ msgstr "...ਪਾਵਰ"
+
+#~ msgid "More..."
+#~ msgstr "...ਹੋਰ"
+
+#~ msgid "Applications updated."
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ।"
+
+#~ msgid "Switch tabs on hover"
+#~ msgstr "ਹੋਵਰ ਮੁਤਾਬਕ ਟੈਬਾਂ ਬਦਲੋ"
+
+#~ msgid "All Applications"
+#~ msgstr "ਸਭ ਐਪਲੀਕੇਸ਼ਨ"
+
+#~ msgid "Favorites"
+#~ msgstr "ਪਸੰਦੀਦਾ"
+
+#~ msgid "Often Used"
+#~ msgstr "ਅਕਸਰ ਵਰਤੇ"
+
+#, fuzzy
+#~| msgid "Hidden Tabs"
+#~ msgid "Active Tabs"
+#~ msgstr "ਲੁਕਵੀਆਂ ਟੈਬਾਂ"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "ਬੁੱਕਮਾਰਕ, ਫਾਇਲਾਂ ਅਤੇ ਈਮੇਲਾਂ ਲਈ ਖੋਜ ਕਰੋ"
+
+#~ msgid "Appearance"
+#~ msgstr "ਦਿੱਖ"
+
+#~ msgid "Menu Buttons"
+#~ msgstr "ਮੇਨ ਬਟਨ"
+
+#~ msgid "Visible Tabs"
+#~ msgstr "ਦਿੱਖ ਟੈਬਾਂ"
+
+#~ msgctxt "@title:column"
+#~ msgid "Favorites"
+#~ msgstr "ਮਨਪਸੰਦ"
+
+#~ msgid "Log out"
+#~ msgstr "ਲਾਗਆਉਟ"
+
+#~ msgid "Lock"
+#~ msgstr "ਲਾਕ"
+
+#~ msgid "Lock screen"
+#~ msgstr "ਸਕਰੀਨ ਲਾਕ"
+
+#~ msgid "Switch user"
+#~ msgstr "ਯੂਜ਼ਰ ਬਦਲੋ"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "ਇੱਕ ਵੱਖਰੇ ਯੂਜ਼ਰ ਵਾਂਗ ਸਮਾਂਤਰ ਸ਼ੈਸ਼ਨ ਸ਼ੁਰੂ ਕਰੋ"
+
+#~ msgid "Shut down"
+#~ msgstr "ਬੰਦ ਕਰੋ"
+
+#~ msgid "Turn off computer"
+#~ msgstr "ਕੰਪਿਊਟਰ ਬੰਦ ਕਰੋ"
+
+#~ msgctxt "Restart computer"
+#~ msgid "Restart"
+#~ msgstr "ਮੁੜ-ਚਾਲੂ"
+
+#~ msgid "Restart computer"
+#~ msgstr "ਕੰਪਿਊਟਰ ਮੁੜ-ਚਾਲੂ ਕਰੋ"
+
+#~ msgid "Save current session for next login"
+#~ msgstr "ਅਗਲੀ ਲਾਗਇਨ ਲਈ ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ ਸੰਭਾਲੋ"
+
+#~ msgctxt "Puts the system on standby"
+#~ msgid "Standby"
+#~ msgstr "ਸਟੈਂਡਬਾਏ"
+
+#~ msgid "Pause without logging out"
+#~ msgstr "ਬਿਨਾਂ ਲਾਗ-ਆਉਟ ਕੀਤੇ ਵਿਰਾਮ"
+
+#~ msgid "Hibernate"
+#~ msgstr "ਹਾਈਬਰਨੇਟ"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "ਡਿਸਕ ਉੱਤੇ ਸਸਪੈਂਡ"
+
+#, fuzzy
+#~| msgid "Suspend to RAM"
+#~ msgid "Suspend"
+#~ msgstr "ਰੈਮ ਉੱਤੇ ਸਸਪੈਂਡ"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "ਰੈਮ ਉੱਤੇ ਸਸਪੈਂਡ"
+
+#~ msgid "System"
+#~ msgstr "ਸਿਸਟਮ"
+
+#~ msgid "Home Folder"
+#~ msgstr "ਘਰ ਫੋਲਡਰ"
+
+#~ msgid "Network Folders"
+#~ msgstr "ਨੈੱਟਵਰਕ ਫੋਲਡਰ"
+
+#~ msgid "Documents"
+#~ msgstr "ਡੌਕੂਮੈਂਟ"
+
+#~ msgid "Recently Used Documents"
+#~ msgstr "ਤਾਜ਼ਾ ਵਰਤੇ ਡੌਕੂਮੈਂਟ"
+
+#~ msgid "Run Command..."
+#~ msgstr "ਕਮਾਂਡ ਚਲਾਓ..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "ਕਮਾਂਡ ਚਲਾਓ ਜਾਂ ਖੋਜ ਕਰੋ"
+
+#~ msgid "Removable Storage"
+#~ msgstr "ਹਟਾਉਣਯੋਗ ਸਟੋਰੇਜ਼"
+
+#~ msgid "Show 'Recently Installed'"
+#~ msgstr "'ਤਾਜ਼ਾ ਇੰਸਟਾਲ ਕੀਤੇ' ਵੇਖਾਓ"
+
+#~ msgid "Uninstall"
+#~ msgstr "ਅਣ-ਇੰਸਟਾਲ"
+
+#~ msgid "Sort Alphabetically (Z to A)"
+#~ msgstr "ਵਰਣਮਾਲਾ ਮੁਤਾਬਕ ਲੜੀਬੱਧ (Z ਤੋਂ A)"
+
+#~ msgid "Clear Recent Applications"
+#~ msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫ਼ ਕਰੋ"
+
+#~ msgid "Clear Recent Documents"
+#~ msgstr "ਤਾਜ਼ੇ ਡੌਕੂਮੈਂਟ ਸਾਫ਼ ਕਰੋ"
+
+#~ msgid "Sleep"
+#~ msgstr "ਸਲੀਪ"
+
+#~ msgid "Plasma by KDE"
+#~ msgstr "ਕੇਡੀਈ ਵਲੋਂ ਪਲਾਜਮਾ"

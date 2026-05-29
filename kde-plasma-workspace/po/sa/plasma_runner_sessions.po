@@ -1,0 +1,169 @@
+# Sanskrit translations for plasma-workspace package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2025 Shreekant Kalwar <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2025-03-02 14:47+0530\n"
+"Last-Translator: Shreekant Kalwar <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#: sessionrunner.cpp:20
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to log out of the "
+"session"
+msgid "logout;log out"
+msgstr "निर्गच्छन्तु;निर्गच्छन्तु"
+
+#: sessionrunner.cpp:23
+#, kde-format
+msgid "Logs out, exiting the current desktop session"
+msgstr "वर्तमान डेस्कटॉप् सत्रात् निर्गत्य बहिः गच्छति"
+
+#: sessionrunner.cpp:27
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "KRunner keywords (split by semicolons without whitespace) to shut down "
+#| "the computer"
+#| msgid "shutdown;shut down;power;power off"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to shut down the "
+"computer"
+msgid "shutdown;shut down;power;poweroff;power off"
+msgstr "shutdown;shut down;शक्ति;विद्युत् अवरम्"
+
+#: sessionrunner.cpp:30
+#, kde-format
+msgid "Turns off the computer"
+msgstr "सङ्गणकं निष्क्रियं करोति"
+
+#: sessionrunner.cpp:33
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to restart the "
+"computer"
+msgid "restart;reboot"
+msgstr "पुनः आरम्भ;पुनः आरम्भ"
+
+#: sessionrunner.cpp:36
+#, kde-format
+msgid "Reboots the computer"
+msgstr "सङ्गणकं पुनः आरभ्यते"
+
+#: sessionrunner.cpp:40
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to lock the screen"
+msgid "lock;lock screen"
+msgstr "lock;लॉक स्क्रीन"
+
+#: sessionrunner.cpp:42
+#, kde-format
+msgid "Locks the current sessions and starts the screen saver"
+msgstr "वर्तमानसत्रं ताडयति, स्क्रीनसेवरं च आरभते"
+
+#: sessionrunner.cpp:45
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to save the "
+"desktop session"
+msgid "save;save session"
+msgstr "save;save सत्रम्"
+
+#: sessionrunner.cpp:48
+#, kde-format
+msgid "Saves the current session for session restoration"
+msgstr "सत्रपुनर्स्थापनार्थं वर्तमानसत्रं रक्षति"
+
+#: sessionrunner.cpp:51
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to switch user "
+"sessions"
+msgid "switch user;new session"
+msgstr "स्विच उपयोक्ता;नव सत्र"
+
+#: sessionrunner.cpp:54
+#, fuzzy, kde-format
+#| msgid "Starts a new session as a different user"
+msgid "Switch to a session as a different user"
+msgstr "भिन्नप्रयोक्तृरूपेण नूतनं सत्रं आरभते"
+
+#: sessionrunner.cpp:75
+#, kde-format
+msgctxt "log out command"
+msgid "Log Out"
+msgstr "निर्गच्छन्तु"
+
+#: sessionrunner.cpp:83
+#, kde-format
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr "शट डाउन"
+
+#: sessionrunner.cpp:90
+#, kde-format
+msgctxt "restart computer command"
+msgid "Restart"
+msgstr "पुनः आरभत"
+
+#: sessionrunner.cpp:97
+#, kde-format
+msgctxt "lock screen command"
+msgid "Lock"
+msgstr "ताल"
+
+#: sessionrunner.cpp:104
+#, kde-format
+msgid "Save Session"
+msgstr "सत्रं रक्षतु"
+
+#: sessionrunner.cpp:111
+#, kde-format
+msgid "Switch User"
+msgstr "उपयोक्तारं स्विच कुर्वन्तु"
+
+#~ msgctxt "KRunner keyword to list user sessions"
+#~ msgid "sessions"
+#~ msgstr "सत्रम्"
+
+#~ msgid "Lists all sessions"
+#~ msgstr "सर्वेषां सत्राणां सूचीं करोति"
+
+#~ msgctxt "KRunner keyword to switch user sessions"
+#~ msgid "switch"
+#~ msgstr "नुदति"
+
+#~ msgid ""
+#~ "Switches to the active session for the user :q:, or lists all active "
+#~ "sessions if :q: is not provided"
+#~ msgstr ""
+#~ "उपयोक्तुः :q: कृते सक्रियसत्रं प्रति स्विच करोति, अथवा यदि :q: न प्रदत्तं तर्हि सर्वाणि "
+#~ "सक्रियसत्राणि सूचीबद्धं करोति"
+
+#~ msgid ""
+#~ "<p>You are about to enter a new desktop session.</p><p>A login screen "
+#~ "will be displayed and the current session will be hidden.</p><p>You can "
+#~ "switch between desktop sessions using:</p><ul><li>Ctrl+Alt+F{number of "
+#~ "session}</li><li>Plasma search (type '%1')</li><li>Plasma widgets (such "
+#~ "as the application launcher)</li></ul>"
+#~ msgstr ""
+#~ "<p>भवान् नूतनं डेस्कटॉप् सत्रं प्रविष्टुं प्रवृत्तः अस्ति ।</p><p> एकं प्रवेशपट्टिका प्रदर्शितं "
+#~ "भविष्यति तथा च वर्तमानसत्रं गोपनीयं भविष्यति ।</p><p> भवान् डेस्कटॉप् सत्रेषु स्विच् कर्तुं "
+#~ "शक्नोति:</p><ul><li> Ctrl+Alt+F{सत्रस्य संख्या}</li><li> प्लाज्मा अन्वेषण (प्रकार "
+#~ "&#39;%1&#39;) २.</li><li> प्लाज्मा विजेट् (यथा अनुप्रयोगप्रक्षेपकः) २.</li></ul>"
+
+#~ msgid "New Desktop Session"
+#~ msgstr "नवीनं डेस्कटॉप सत्रम्"

@@ -1,0 +1,1185 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025, 2026 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2026-04-12 20:22+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "%1 என்ற தொடுபலகையின் அடிப்படை விவரங்களை கண்டறிவதில் சிக்கல்."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "X சேவையகத்தை தொடர்பு கொள்ள முடியவில்லை"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "தொடுபலகை கண்டுபிடிக்கப்படவில்லை"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "தொடுபலகையின் அமைப்பை செயல்படுத்த முடியவில்லை"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "தொடுபலகையின் அமைப்பை படிக்க முடியவில்லை"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "தொடுபலகையின் இயல்பிருப்பு அமைப்பை படிக்க முடியவில்லை"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "உரிய பின்நிலையை தேர்ந்தெடுக்க முடியவில்லை"
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"மதிப்புகளை ஏற்றுவதில் சிக்கல். மேலும் விவரங்களுக்கு கணினியின் பதிவுகளை பாருங்கள். "
+"இக்கட்டுப்பாட்டுக்கூறை மூடி மறுபடியும் திறவுங்கள்."
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr "சுட்டிக்கருவி ஏதும் கண்டுபிடிக்கப்படவில்லை. ஏதாவதொன்றை இணைக்கவும்."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"சில மாற்றங்களை சேமிக்க முடியவில்லை. மேலும் விவரங்களுக்கு கணினியின் பதிவுகளை பாருங்கள். "
+"இக்கட்டுப்பாட்டுக்கூறை மூடி மறுபடியும் திறவுங்கள்."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"இயல்பிருப்பு மதிப்புகளை ஏற்றுவதில் சிக்கல். சில விருப்பங்கள் அவற்றின் இயல்பிருப்பு "
+"மதிப்புகளுக்கு மாற்றப்படவில்லை."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"புதிதாக செருகிய சாதனத்தை சேர்ப்பதில் சிக்கல். அதை கழற்றி, மீண்டும் செருகிய பின் இக்கூறை "
+"மீள்துவக்குங்கள்."
+
+#: kcm.cpp:185
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "சுட்டிக்கருவி கழற்றப்பட்டதால் அதன் அமைப்புச்சாளரம் மூடப்பட்டுள்ளது."
+
+#: kcm.cpp:187
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr "சுட்டிக்கருவி கழற்றப்பட்டது. வேறெந்த சுட்டிக்கருவி கண்டுபிடிக்கப்படவில்லை."
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "தொடுபலகை கண்டுபிடிக்கப்படவில்லை"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "வெளி தொடுபலகையை இணைக்கவும்"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "சாதனம்:"
+
+#: ui/main.qml:110
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "பொதுவானவை:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "சாதனத்தை இயக்கு"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "சுட்டி செருகியுள்ளபோது முடக்கு"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "தட்டச்சிடும்போது முடக்கு"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "விளையாட்டுச் செயலிகளின் பயன்பாட்டை இது பாதிக்கலாம்."
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "இடது மற்றும் வலது பட்டன்கள்:"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "இடமாற்று (இடதுகை பயன்முறை)"
+
+#: ui/main.qml:185
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "சேர்த்து அழுத்துவதை நடு கிளிக்காக கருது"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"இந்த அமைப்பை இயக்குவது, கிளிக்குகளுக்கு கணினி பதிலளிக்கும் தாமத‍த்தை 50மி.நொ. "
+"அதிகரிக்கும். ஒரே நேரத்தில் நிகழும் இடது மற்றும் வலது கிளிக்குகளை சரியாக "
+"அடையாளங்காணஇந்த கூடுதல் தாமதம் தேவை."
+
+#: ui/main.qml:207
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "சுட்டிக்குறியின் வேகம்:"
+
+#: ui/main.qml:287
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "சுட்டிக்குறி வேகவளர்ச்சியை இயக்கு"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr "இது இயக்கப்பட்டிருந்தால், சுட்டியை நகர்த்தும் தூரம் கூட அதன் வேகமும் கூடும்."
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "உருளல் வேகம்:"
+
+#: ui/main.qml:360
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "மெதுவாக"
+
+#: ui/main.qml:367
+#, kde-format
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "வேகமாக"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "உருள்வது:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr "இரண்டு விரல்களைக் கொண்டு எங்கேயேனும்"
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr "ஒரு விரலைக் கொண்டு ஒரத்தில்"
+
+#: ui/main.qml:404
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "உருளல் திசையைப் புரட்டு (இயற்கையான உருளல்)"
+
+#: ui/main.qml:421
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "கிடைமட்ட உருளலை முடக்கு"
+
+#: ui/main.qml:439
+#, kde-format
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr ".வலது கிளிக்:"
+
+#: ui/main.qml:443
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "வலது-கீழ் மூலையை அழுத்துவது"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "கீழுள்ள இரண்டு மூலைகையும் அழுத்துவது நடு கிளிக்காக கருதப்படும்."
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "கீழ் ஓரத்தின் நடுப்பகுதியை அழுத்துவது நடு கிளிக்காக கருதப்படும்."
+
+#: ui/main.qml:471
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "எங்கேயாவது இரண்டு விரல்களை கொண்டு அழுத்தினால்"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "மூன்று விரல்களை கொண்டு அழுத்துவது நடு கிளிக்காக கருதப்படும்."
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "நடு கிளிக்:"
+
+#: ui/main.qml:487
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "நடு-கீழ் ஓரத்தை அழுத்துவது"
+
+#: ui/main.qml:507
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "வலது-கீழ் மற்றும் இடது-கீழ் மூலைகளை சேர்த்து அழுத்துவது"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "மூன்று விரல்களை கொண்டு அழுத்துவது"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "தட்டுவது:"
+
+#: ui/main.qml:533
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "கிளிக் செய்ய தட்டுவது"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr "தட்டிய பின் இழுக்கவிடு"
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+"தட்டி, வரலைத் தூக்கி, மீண்டும் விரலை தொடுபலகையின் மீது தேய்ப்பது, சுட்டிக்குறிக்கு "
+"கீழுள்ளதை இழுப்பதாகக் கருதப்படும். அதை விடுவிக்க விரலைத் தூக்கவும்."
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr "தட்டி இழுக்கும்போது விரலை தற்காலிகமாக தூக்க விடு"
+
+#: ui/main.qml:580
+#, kde-format
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "இருவிரல் தட்டுதல்:"
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "வலது கிளிக் (நடு க்ளிக்குக்கு மூன்று விரல்களைக் கொண்டு தட்டவும்)"
+
+#: ui/main.qml:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "வலது கிளிக்"
+
+#: ui/main.qml:608
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "நடு கிளிக் (வலது க்ளிக்குக்கு மூன்று விரல்களைக் கொண்டு தட்டவும்)"
+
+#: ui/main.qml:609
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "நடு கிளிக்"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "உள்ளீட்டு சாதனங்களை கண்டறிதல் தோல்வியடைந்த‍து. இந்த அமைப்புக்கூறை மூடி மறுபடியும் "
+#~ "திறவுங்கள்."
+
+#~ msgid "Device enabled"
+#~ msgstr "சாதனத்தை இயக்கு"
+
+#~ msgid "Two fingers"
+#~ msgstr "இரண்டு விரல்கள்"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "தொடுபலகையின் விளிம்புகள்"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "கிளிக் செய்ய தட்டு"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "தட்டி இழு"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "உள்ளமை வலது கிளிக்:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "உள்ளமை நடு கிளிக்:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "இந்த சாதனம் மூலம் உள்ளீட்டை ஏற்றுக்கொள்."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr "தவறுதலான உள்ளீட்டை தவிர்க்க தட்டச்சிடும்போது தொடுபலகையை முடக்கு."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr "இடது மற்றும் வலது பட்டன்களை சேர்த்து அழுத்துவது, நடு கிளிக்காக கருதப்படும்."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "இரண்டு விரல்களைக் கொண்டு தேய்த்தல், உருளலாகக் கருதப்படும்."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "தொடுபலகையின் விளிம்பைத் தேய்த்தல், உருளலாகக் கருதப்படும்."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "தொடுதிரையைப் போன்ற உருளல்."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "கிடைமட்ட உருளலை முடக்கு."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "ஒரு முறை தட்டுவது, இடது கிளிக்காக கருதப்படும்."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "தட்டிய உடனே விரலை தொடுபலகையில் தேய்த்தல், இழுத்ததாக கருதப்படும்."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "தட்டி இழுத்தலைப் பூட்டு"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr ""
+#~ "இழுக்கும்போது சிறிது நேரம் தொடுபலகையை விட்டு விரலை எடுத்தாலும், இழுத்தல் "
+#~ "தொடரப்படும்."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "வலது க்ளிக்குக்கு இரண்டு விரல்களைக் கொண்டும், நடு க்ளிக்குக்கு மூன்று விரல்களைக் கொண்டும் "
+#~ "தட்டலாம்."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "வலது க்ளிக்குக்கு இரண்டு விரல்களைக் கொண்டு தட்டலாம்."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "நடு க்ளிக்குக்கு இரண்டு விரல்களைக் கொண்டும், வலது க்ளிக்குக்கு மூன்று விரல்களைக் கொண்டும் "
+#~ "தட்டலாம்."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "நடு க்ளிக்குக்கு இரண்டு விரல்களைக் கொண்டு தட்டலாம்."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "தொடுபலகையின் வலது-கீழ் மூலையை அழுத்துவது வலது கிளிக்காக செயல்படும். நடு கிளிக் "
+#~ "செய்ய, இடது மற்றும் வலது மூலைகளை சேர்த்து அழுத்தவும்."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "தொடுபலகையின் வலது-கீழ் மூலையை அழுத்துவது வலது கிளிக்காக செயல்படும். நடு கிளிக் "
+#~ "செய்ய, அடியோரத்தின் நடுப்பகுதியை அழுத்தவும்."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr "வலது கிளிக்குக்கு இரண்டு விரல்களைக் கொண்டு தொடுபலகையை எங்கேயேனும் அழுத்தலாம்."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr "தொடுபலகையின் வலது-கீழ் மூலையை அழுத்துவது வலது கிளிக்காக செயல்படும்."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "வலது-கீழ் மற்றும் இடது-கீழ் மூலைகளை சேர்த்து அழுத்துவது நடு-கிளிக்காக செயல்படும்."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr "நடு கிளிக்குக்கு மூன்று விரல்களைக் கொண்டு தொடுபலகையை எங்கேயேனும் அழுத்தலாம்."
+
+#~ msgid "Touchpad"
+#~ msgstr "தொடுபலகை"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "தொடுபலகையை இயக்கு"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "தொடுபலகையை முடக்கு"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "தொடுபலகையின் நிலையை மாற்று"
+
+#~ msgid "None"
+#~ msgstr "ஏதுமில்லை"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "விரல் நகரும் அதே தூரத்திற்கு சுட்டிக்குறியும் நகரும்."
+
+#~ msgid "Standard"
+#~ msgstr "சாதாரணமானது"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr "சுட்டிக்குறி நகரும் தூரம், விரலின் வேகத்தைப் பொறுத்து அமையும்."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "எதுவும் செய்யாது"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "இடது பட்டன்"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "நடு பட்டன்"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "வலது பட்டன்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "அனைத்து ஓரங்கள்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "மேல் ஓரம்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "வலது-மேல் மூலை"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "வலது ஓரம்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "வலது-கீழ் மூலை"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "கீழ் ஓரம்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "இடது-கீழ் மூலை"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "இடது ஓரம்"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "இடது-மேல் மூலை"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "சுட்டி சொருகப்பட்டதால் தொடுபலகை முடக்கப்பட்டது"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "சுட்டி கழற்றப்பட்டதால் தொடுபலகை இயக்கப்பட்டது"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr "உங்கள் தொடுபலகையின் கீழ் பகுதியில் மென்பொருள் பட்டன்கள் சேர்க்கப்படும்."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "வலது க்ளிக் செய்ய எங்கேயேனும் இரண்டு விரல்களை கொண்டு தட்டுங்கள்."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr "உங்கள் தொடுபலகையின் கீழ் பகுதியில் இதற்கான மென்பொருள் பட்டன் சேர்க்கப்படும்."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "கோ. கிஷோர்"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Kde-l10n-ta@kde.org"
+
+#~ msgid "Drag me"
+#~ msgstr "என்னை இழுங்கள்"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "இடது பட்டன்"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "வலது பட்டன்"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "நடு பட்டன்"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "செயலிலுள்ள அமைப்புகளும் சேமிக்கப்பட்ட அமைப்புகளும் வேறுபடுகின்றன.\n"
+#~ "சேமிக்கப்பட்ட அமைப்புகள் தற்போது காட்டப்படுகின்றன."
+
+#~ msgid "Show active settings"
+#~ msgstr "செயலிலுள்ள அமைப்புகளை காட்டு"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "இவ்வமைப்புகள் சோதனைக்கான இடத்தில் செயல்படா"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "தொடுபலகையை முடக்கு/இயக்கு"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "தொடுபலகையை முடக்குதல்/இயக்குதல்"
+
+#~ msgid "Configure…"
+#~ msgstr "அமை..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "விசைப்பலகை சுருக்குவழிகள்:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "தட்டச்சிடும்போது தொடுபலகையை முடக்கு"
+
+#~ msgid "Timeout:"
+#~ msgstr "நீடிப்பது:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "இத்தனை மில்லிநொடிகளுக்கு மேல் விசைப்பலகையை பயன்படுத்தாமல் இருந்தால், தொடுபலகை "
+#~ "மறுபடியும் இயக்கப்படும்"
+
+#~ msgid " ms"
+#~ msgstr " மி.நொ."
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "தட்டி க்ளிக் செய்வதையும் உருள்வதையும் முடக்கும்.\n"
+#~ "தொடுபலகையை கொண்டு சுட்டிக்குறியை நகர்த்தலாம், மேலும் வன் பட்டன்களை கொண்டு க்ளிக் "
+#~ "செய்யலாம்."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "தட்டலையும் உருளலையும் மட்டும் முடக்கு"
+
+#~ msgid "Notifications:"
+#~ msgstr "அறிவிப்புகள்:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "பொருட்படுத்தப்படாத சாதனங்கள்:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "சில சாதனங்கள், தவறுதலாக சுட்டியாக கருதப்படலாம்.\n"
+#~ "அவற்றை இப்பட்டியலில் சேர்த்தால், அவை சொருகப்பட்டிருக்கும்போதும் இவ்வம்சத்தால் "
+#~ "பொருட்படுத்தப்படா."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "சுட்டிக்குறி நகர்வது"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "வேகம்"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "குறைந்தபட்சம்:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "சுட்டிக்குறியின் குறைந்தபட்ச வேகம்"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "அதிகபட்சம்: "
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "சுட்டிக்குறியின் அதிகபட்ச வேகம்"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "வேகவளர்ச்சி"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "சுட்டிக்குறியை நகர்த்துவதற்கான வேகவளர்ச்சி விகிதம்"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "அழுத்த-உணரி நகர்த்தல்"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "குறைந்தபட்ச அழுத்தம்:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "குறைந்தபட்ச விகிதம்:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "அதிகபட்ச அழுத்தம்:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "அதிகபட்ச விகிதம்:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr "குறைந்தபட்ச விகிதம் இவ்வழுத்திற்கு பொருந்தும்"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "அதிகபட்ச விகிதம் இவ்வழுத்திற்கு பொருந்தும்"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "அழுத்த-உணரி நகர்த்தலுக்கான குறைந்தபட்ச விகிதம்"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "அழுத்த-உணரி நகர்த்தலுக்கான அதிகபட்ச விகிதம்"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "நடுக்க நீக்கம்"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "நெடுக்காக:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "கிடைமட்டமாக:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr "விரல்கள் குறைந்தபட்சம் இவ்வளவு தூரம் நகர்ந்தால்தான் சுட்டிக்குறி நெடுக்காக நகரும்"
+
+#~ msgid " units"
+#~ msgstr " அலகுகள்"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "விரல்கள் குறைந்தபட்சம் இவ்வளவு தூரம் நகர்ந்தால்தான் சுட்டிக்குறி கிடைமட்டமாக நகரும்"
+
+#~ msgid "Scrolling"
+#~ msgstr "உருளல்"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "ஓர உருளல்:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "வலது ஓரத்தில் விரலை நகர்த்துவதன் மூலம் நெடுக்காக உருளுங்கள்"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "நெடுக்காக"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "கீழ் ஓரத்தில் விரலை நகர்த்துவதன் மூலம் கிடைமட்டமாக உருளுங்கள்"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "கிடைமட்டமாக"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr "இரண்டு விரல்களை தொடுபலகையில் தேய்ப்பதன் மூலம் நெடுக்காக உருளுங்கள்"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr "இரண்டு விரல்களை தொடுபலகையில் தேய்ப்பதன் மூலம் கிடைமட்டமாக உருளுங்கள்"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "நெடுக்கான உருளலை புரட்டு"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "கிடைமட்டமான உருளலை புரட்டு"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "இருவிரல் உருளல்:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "உருளலை புரட்டு:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "உருள்வதற்கான தூரம்"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "நெடுக்காக:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "ஒருமுறை உருள்வதற்காக விரலை எவ்வளவு தூரம் நகர்த்த வேண்டும்"
+
+#~ msgid " mm"
+#~ msgstr "மி.மீ."
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "கிடைமட்டமாக:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr "விரலை தொடுபலகையை விட்டு தூக்கிய பின்பும் சிறிது தூரம் உருள வேண்டுமா"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "தான்தொடர் உருளல்"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "குறைந்தபட்ச வேகம்:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "குறைந்தபட்சம் இவ்வளவு வேகமாக விரலை நகர்த்தினால்தான் விரலை தூக்கிய பின்னும் உருளல் "
+#~ "தொடரும்"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " உருளல்கள்/நொடி"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "வேகத்தேய்வு:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "உருளல் வேகம் இத்தனை உருளல்கள்/நொடி² என குறைக்கப்படும்"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " உருளல்கள்/நொடி²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "மூலையில் தான்தொடர் உருளல்"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr "உருளும்போது விரலை மூலையில் வைத்தால் உருள்வதை தொடரும்"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "குறிப்பிட்ட பகுதியில் தொடங்கி விரலை இழுத்தல் உருளலை துவக்கும்.\n"
+#~ "தொடுபலகையின் மையத்தை சுற்றி விரலை வலஞ்சுழி வட்டமாக நகர்த்தல் கீழே உருள செய்யும்;\n"
+#~ "மாற்றாக இடஞ்சுழி வட்டமாக நகர்த்தல் மேலே உருள செய்யும்."
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "வட்ட உருளல்"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "தூண்டும் பகுதி:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "வட்ட உருளலின் துவக்கத்தை தூண்டும் பகுதி"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "கோணம்:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "விரலை இத்தனை டிகிரி நகர்த்தல் ஒரு உருளலை செயல்படுத்தும்"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "நெடுக்கான உருளலும் இயக்கப்பட்டிருக்கும்போது, வலது-மேல் அல்லது வலது-கீழ் ஓரங்களில் விரல் "
+#~ "பட்டால், உருளல் முறை நெடுக்கானதிலிருந்து வட்டமானதாக மாறும்"
+
+#~ msgid "Sensitivity"
+#~ msgstr "உணர்வுத்திறம்"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "உணர்வுத்திறம்"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "தொடுவதற்கு தேவையான அழுத்தம்"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "விடுவதற்கு தேவையான அழுத்தம்:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr "விரலின் அழுத்தம் இதற்கு மேல் இருந்தால், தொடுபலகையை தொட்டதாக கருதப்படும்"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "விரலின் அழுத்தம் இதைவிட குறைவாக இருந்தால், தொடுபலகையை விட்டு விரலை எடுத்த‍தாக "
+#~ "கருதப்படும்"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "உள்ளங்கையை கண்டறிய வேண்டுமா? இது சரியாக செயல்பட, வன்பொருள்/சாதனநிரல் அளவிலான "
+#~ "ஆதரவு தேவை."
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "உள்ளங்கையை கண்டறிதல்"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "குறைந்தபட்ச அகலம்:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "குறைந்தபட்ச அழுத்தம்:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "தொடும் உறுப்பின் அகலம் இதைவிட குறைவாக இருந்தால் அது உள்ளங்கையாக கருதப்படும்"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "தொடும் உறுப்பின் அழுத்தம் இதைவிட குறைவாக இருந்தால் அது உள்ளங்கையாக கருதப்படும்"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "தட்டல்"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "ஒரு விரல்:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr ""
+#~ "மூலையில் இல்லாமல் வேறிடத்தில் ஒரு விரலைக்கொண்டு தட்டினால் அது எவ்வகையான க்ளிக்காக "
+#~ "கருதப்பட வேண்டும்?"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "இரண்டு விரல்கள்:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr ""
+#~ "மூலையில் இல்லாமல் வேறிடத்தில் இரு விரல்களைக்கொண்டு தட்டினால் அது எவ்வகையான க்ளிக்காக "
+#~ "கருதப்பட வேண்டும்?"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "மூன்று விரல்கள்:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr ""
+#~ "மூலையில் இல்லாமல் வேறிடத்தில் மூன்று விரல்களைக்கொண்டு தட்டினால் அது எவ்வகையான க்ளிக்காக "
+#~ "கருதப்பட வேண்டும்?"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "மூலைகள்"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "மேல்-இடது:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "மேல்-இடது ஓரத்தில் தட்டுவது எவ்வகையான க்ளிக்காக கருதப்பட வேண்டும்?"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "கீழ்-இடது:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "மேல்-வலது:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "கீழ்-இடது ஓரத்தில் தட்டுவது எவ்வகையான க்ளிக்காக கருதப்பட வேண்டும்?"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "மேல்-வலது ஓரத்தில் தட்டுவது எவ்வகையான க்ளிக்காக கருதப்பட வேண்டும்?"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "கீழ்-வலது ஓரத்தில் தட்டுவது எவ்வகையான க்ளிக்காக கருதப்பட வேண்டும்?"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "கீழ்-வலது:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "இச்சைகை, இழுப்பதற்கான வேறு வழியாகும். தட்டி விரலை எடுத்த உடனேயே மறுபடியும் "
+#~ "தொடுபலகையை தொட்டு விரலை நகர்த்தலாம். இது, சுட்டி பட்டனை அழுத்திக்கொண்டே சுட்டியை "
+#~ "நகர்த்துவதற்கு சம‍மாகும்."
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "தட்டி இழுக்கும் சைகை"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "இத்தேர்வு முடக்கப்பட்டால், விரலை தூக்கியவுடனேயே தட்டி இழுக்கும் சைகை முடிவடையும். "
+#~ "மாறாக இயக்கப்பட்டால், குறிப்பிட்ட நேரத்திற்குள் இன்னொரு முறை தட்டி சைகையை தொடரலாம்."
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "பூட்டிய இழுத்தல்"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "காலாவதி"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "விரலை தொடுபலகையிலிருந்து தூக்கிய பின், இழுக்கும் சைகையை முடிக்க எத்தனை மில்லிநொடி "
+#~ "காத்திருக்க வேண்டும்?"
+
+#~ msgid "Tap Detection"
+#~ msgstr "தட்டுவதை கண்டறிதல்"
+
+#~ msgid "Maximum time:"
+#~ msgstr "அதிகபட்ச நேரம்:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "அதிகபட்ச விரல் அசைவு:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "இரட்டை தட்டலுக்கான அதிகபட்ச நேரம்:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "ஒற்றை தட்டலுக்கான காலாவதி:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "தட்டுவதை கண்டறியும் அதிகபட்ச நேரம் (மில்லிநொடிகளில்)"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "தட்டும்போது விரல் நகரக்கூடிய அதிகபட்ச தூரம்"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "இரட்டை தட்டலை கண்டறிவதற்கான அதிகபட்ச நேரம் (மில்லிநொடிகளில்)"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "ஒற்றை தட்டலை எவ்வளவு நேரத்திற்கு பின் பொருட்படுத்த வேண்டும்?"
+
+#~ msgid "Testing area"
+#~ msgstr "சோதனைக்கான இடம்"
+
+#~ msgid "Click me"
+#~ msgstr "என்னை க்ளிக் செய்யுங்கள்"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "வேகவளர்ச்சி முறை:"
+
+#~ msgid "Flat"
+#~ msgstr "சமமானது"
+
+#~ msgid "Adaptive"
+#~ msgstr "மாறக்கூடியது"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "தொடுபலகை கட்டுப்பாட்டுக்கூறு"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "உங்கள் தொடுபலகையை நிர்வகிக்க உதவும் கணினி அமைப்புக்கூறு"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "பதிப்புரிமை © 2016 ரோமன் கில்கு"
+
+#~ msgid "Developer"
+#~ msgstr "நிரலாளர்"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "ரோமன் கில்கு"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "தொடுபலகையை நிர்வகிக்க உதவும் கணினி அமைப்புக்கூறு, பின்னணி சேவை, மற்றும் பிளாஸ்மாய்ட்"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "பதிப்புரிமை © 2013 அலெக்சாண்டர் மெஜின்"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "இப்பதிப்புரிமைக்கு உட்படும் சிலவற்றை இந்நிரல் பயன்படுத்துகிறது:\n"
+#~ "பதிப்புரிமை © 2002-2005,2007 பீட்டர் ஆஸ்டர்ளுண்ட்"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "அலெக்சாண்டர் மெஜின்"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "தாமஸ் ஃபைஃபர்"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "பயன்படுதன்மை, சோதனை"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "அலெக்ஸ் ஃபியெஸ்டாஸ்"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "சிறிதளவு உதவி செய்தார்"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "பீட்டர் ஆஸ்டர்ளுண்ட்"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "synclient-ஐ உருவாக்கியவர்"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "வாடிம் சேய்ட்ஸெவ்"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "சோதனை"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "வையொலெட்டா ராஸ்பிரியகயேவா"

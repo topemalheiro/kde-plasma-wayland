@@ -1,0 +1,228 @@
+# Uyghur translation for plasma_runner_sessions.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_sessions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-02-09 18:18-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: sessionrunner.cpp:20
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to log out of the "
+"session"
+msgid "logout;log out"
+msgstr "logout;log out;تىزىمدىن چىق"
+
+#: sessionrunner.cpp:23
+#, kde-format
+msgid "Logs out, exiting the current desktop session"
+msgstr "تىزىمدىن چىقىدۇ، ھازىرقى ئۈستەلئۈستى جەريانچاقنى ئاخىرلاشتۇرىدۇ"
+
+#: sessionrunner.cpp:27
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to shut down the "
+"computer"
+msgid "shutdown;shut down;power;poweroff;power off"
+msgstr ""
+"shutdown;shut down;power;poweroff;power off;تاقا;توك مەنبە;توك مەنبەنى ئۈز"
+
+#: sessionrunner.cpp:30
+#, kde-format
+msgid "Turns off the computer"
+msgstr "كومپيۇتېرنىڭ توكىنى ئۈزىدۇ"
+
+#: sessionrunner.cpp:33
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to restart the "
+"computer"
+msgid "restart;reboot"
+msgstr "restart;reboot;قايتا قوزغات;قايتا باشلا"
+
+#: sessionrunner.cpp:36
+#, kde-format
+msgid "Reboots the computer"
+msgstr "كومپيۇتېرنى قايتا قوزغىتىدۇ"
+
+#: sessionrunner.cpp:40
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to lock the screen"
+msgid "lock;lock screen"
+msgstr "lock;lock screen;قۇلۇپلا;ئېكراننى قۇلۇپلا"
+
+#: sessionrunner.cpp:42
+#, kde-format
+msgid "Locks the current sessions and starts the screen saver"
+msgstr "ھازىرقى جەريانچاقنى قۇلۇپلاپ، ئېكران قوغدىغۇچنى باشلايدۇ"
+
+#: sessionrunner.cpp:45
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to save the "
+"desktop session"
+msgid "save;save session"
+msgstr "save;save session;ساقلا;جەريانچاقنى ساقلا"
+
+#: sessionrunner.cpp:48
+#, kde-format
+msgid "Saves the current session for session restoration"
+msgstr "جەريانچانى ئەسلىگە كەلتۈرۈش ئۈچۈن نۆۋەتتىكى جەريانچاقنى ساقلايدۇ"
+
+#: sessionrunner.cpp:51
+#, kde-format
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to switch user "
+"sessions"
+msgid "switch user;new session"
+msgstr "switch user;new session;ئىشلەتكۈچى ئالماشتۇر;يېڭى جەريانچاق"
+
+#: sessionrunner.cpp:54
+#, kde-format
+msgid "Switch to a session as a different user"
+msgstr "باشقا ئىشلەتكۈچىدەك جەريانچاققا ئالماشتۇرىدۇ"
+
+#: sessionrunner.cpp:75
+#, kde-format
+msgctxt "log out command"
+msgid "Log Out"
+msgstr "تىزىمدىن چىق"
+
+#: sessionrunner.cpp:83
+#, kde-format
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr "تاقا"
+
+#: sessionrunner.cpp:90
+#, kde-format
+msgctxt "restart computer command"
+msgid "Restart"
+msgstr "قايتا قوزغات"
+
+#: sessionrunner.cpp:97
+#, kde-format
+msgctxt "lock screen command"
+msgid "Lock"
+msgstr "قۇلۇپلا"
+
+#: sessionrunner.cpp:104
+#, kde-format
+msgid "Save Session"
+msgstr "جەريانچاقنى ساقلا"
+
+#: sessionrunner.cpp:111
+#, kde-format
+msgid "Switch User"
+msgstr "ئىشلەتكۈچى ئالماشتۇر"
+
+#~| msgctxt "User sessions"
+#~| msgid "sessions"
+#~ msgctxt "KRunner keyword to list user sessions"
+#~ msgid "sessions"
+#~ msgstr "ئەڭگىمەلەر"
+
+#~ msgid "Lists all sessions"
+#~ msgstr "بارلىق ئەڭگىمەلەرنى تىزىپ كۆرسىتىدۇ"
+
+#~| msgctxt "switch user command"
+#~| msgid "switch"
+#~ msgctxt "KRunner keyword to switch user sessions"
+#~ msgid "switch"
+#~ msgstr "ئالماشتۇر"
+
+#~ msgid ""
+#~ "Switches to the active session for the user :q:, or lists all active "
+#~ "sessions if :q: is not provided"
+#~ msgstr ""
+#~ "ئىشلەتكۈچى :q: ئۈچۈن ئاكتىپ ئەڭگىمەگە ئالمىشىدۇ ياكى :q: تەمىنلەنمىگەن "
+#~ "بولسا ھەممە ئاكتىپ ئەڭگىمە تىزىمىنى كۆرسىتىدۇ"
+
+#~| msgid "New Session"
+#~ msgid "New Desktop Session"
+#~ msgstr "يېڭى ئەڭگىمە"
+
+#~ msgctxt "log out command"
+#~ msgid "logout"
+#~ msgstr "چىقىپ كەت"
+
+#~ msgctxt "lock screen command"
+#~ msgid "lock"
+#~ msgstr "قۇلۇپلا"
+
+#~ msgctxt "restart computer command"
+#~ msgid "reboot"
+#~ msgstr "قايتا قوزغات"
+
+#~ msgctxt "switch user command"
+#~ msgid "switch :q:"
+#~ msgstr ":q: غا ئالماشتۇر"
+
+#~ msgid "new session"
+#~ msgstr "يېڭى ئەڭگىمە"
+
+#~ msgctxt "log out command"
+#~ msgid "Logout"
+#~ msgstr "تىزىمدىن چىقىش"
+
+#~ msgid "Restart the computer"
+#~ msgstr "كومپيۇتېرنى قايتا باشلايدۇ"
+
+#~| msgctxt "shutdown computer command"
+#~| msgid "shutdown"
+#~ msgctxt "shut down computer command"
+#~ msgid "shutdown"
+#~ msgstr "تاقا"
+
+#~| msgid "Shutdown the computer"
+#~ msgid "Shut down the computer"
+#~ msgstr "كومپيۇتېرنى تاقايدۇ"
+
+#~| msgid "new session"
+#~ msgid "Save the session"
+#~ msgstr "يېڭى ئەڭگىمە"
+
+#~ msgid "Warning - New Session"
+#~ msgstr "ئاگاھلاندۇرۇش - يېڭى ئەڭگىمە"
+
+#~| msgid ""
+#~| "<p>You have chosen to open another desktop session.<br />The current "
+#~| "session will be hidden and a new login screen will be displayed.<br />An "
+#~| "F-key is assigned to each session; F%1 is usually assigned to the first "
+#~| "session, F%2 to the second session and so on. You can switch between "
+#~| "sessions by pressing Ctrl, Alt and the appropriate F-key at the same "
+#~| "time. Additionally, the KDE Panel and Desktop menus have actions for "
+#~| "switching between sessions.</p>"
+#~ msgid ""
+#~ "<p>You have chosen to open another desktop session.<br />The current "
+#~ "session will be hidden and a new login screen will be displayed.<br />An "
+#~ "F-key is assigned to each session; F%1 is usually assigned to the first "
+#~ "session, F%2 to the second session and so on. You can switch between "
+#~ "sessions by pressing Ctrl, Alt and the appropriate F-key at the same "
+#~ "time. Additionally, the Plasma Panel and Desktop menus have actions for "
+#~ "switching between sessions.</p>"
+#~ msgstr ""
+#~ "<p>سىز باشقا ئۈستەلئۈستى ئەڭگىمە ئېچىشنى تاللىدىڭىز.<br />نۆۋەتتىكى "
+#~ "ئەڭگىمەنى يوشۇرۇپ، يېڭى تىزىمغا كىرىش ئېكرانىنى كۆرسىتىدۇ.<br />ھەر بىر "
+#~ "ئەڭگىمەنىڭ ھەممىسى ماس ھالدىكى F ئىقتىدار كۇنۇپكىسى، F%1 ئادەتتە بىرىنچى "
+#~ "ئەڭگىمەگە ماس كېلىد. سىز ئۇ، F%2 ئىككىنچى ئەڭگىمەگە ماس كېلىدۇ، مۇشۇنداق "
+#~ "داۋاملىشىدۇ، سىز Ctrl+Alt+مۇناسىپF ئىقتىدار كۇنۇپكىسىنى بېسىپ ئەڭگىمە "
+#~ "ئارىسىدا ئالماشتۇرالايسىز. ئۇندىن باشقا، KDE تاختا ۋە ئۈستەلئۈستى "
+#~ "تىزىملىكىدە ئەڭگىمە ئالماشتۇرىدىغان ھەرىكەت توپچىسى بار.</p>"
+
+#~ msgid "&Start New Session"
+#~ msgstr "يېڭى ئەڭگىمە باشلا(&S)"

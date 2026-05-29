@@ -1,0 +1,75 @@
+# SPDX-FileCopyrightText: 2021, 2022, 2026 Xavier Besnard <xavier.besnard@kde.org>
+# Vincent Pinon <vpinon@kde.org>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.appmenu\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2026-03-15 17:37+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Accelerator-Marker: &\n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 25.12.3\n"
+"X-Text-Markup: kde4\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "Rechercher"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "Rechercher..."
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Apparence"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "Un bouton seul pour le menu de l'application"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "Afficher le menu complet de l'application"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr "Afficher les menus des applications sur différents écrans"
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "Ouvrir un menu"
+
+#~ msgid "Search..."
+#~ msgstr "Rechercher…"
+
+#~ msgid "application-menu"
+#~ msgstr "Menu de l'application"
+
+#~ msgid "Application Menu Widget is disabled"
+#~ msgstr "Le composant graphique de menu de l'application est désactivé"
+
+#~ msgctxt "it being the 'Application Menu Widget'"
+#~ msgid ""
+#~ "Go to System Settings > Application Style > Fine Tuning (tab) to enable "
+#~ "it."
+#~ msgstr ""
+#~ "Aller dans Configuration du système / Apparence des applications / "
+#~ "Réglage fin (onglet) pour l'activer."
+
+#~ msgid "emblem-warning"
+#~ msgstr "Emblème d'avertissement"

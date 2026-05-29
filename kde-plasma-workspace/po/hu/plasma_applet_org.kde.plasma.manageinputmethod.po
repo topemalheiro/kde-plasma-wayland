@@ -1,0 +1,59 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2021, 2023 Kristof Kiszel <kiszel.kristof@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:46+0000\n"
+"PO-Revision-Date: 2023-12-28 11:19+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#: qml/main.qml:70
+#, kde-format
+msgctxt "Opens the system settings module"
+msgid "Configure Virtual Keyboards..."
+msgstr "Virtuális billentyűzetek beállítása…"
+
+#: qml/main.qml:87
+#, kde-format
+msgid "Virtual Keyboard: unavailable"
+msgstr "Virtuális billentyűzet: nem érhető el"
+
+#: qml/main.qml:96
+#, kde-format
+msgid "Virtual Keyboard: disabled"
+msgstr "Virtuális billentyűzet: kikapcsolva"
+
+#: qml/main.qml:108
+#, kde-format
+msgid "Show Virtual Keyboard"
+msgstr "Virtuális billentyűzetek megjelenítése"
+
+#: qml/main.qml:119
+#, kde-format
+msgid "Virtual Keyboard: visible"
+msgstr "Virtuális billentyűzet: látható"
+
+#: qml/main.qml:128
+#, fuzzy, kde-format
+#| msgid "Virtual Keyboard: visible"
+msgid "Virtual Keyboard: Show on non-mouse input"
+msgstr "Virtuális billentyűzet: látható"
+
+#: qml/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Virtual Keyboard: disabled"
+msgid "Virtual Keyboard: Show with all input devices"
+msgstr "Virtuális billentyűzet: kikapcsolva"
+
+#~ msgid "Virtual Keyboard: enabled"
+#~ msgstr "Virtuális billentyűzet: bekapcsolva"

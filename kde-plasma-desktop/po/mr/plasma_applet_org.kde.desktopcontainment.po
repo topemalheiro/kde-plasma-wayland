@@ -1,0 +1,1368 @@
+# translation of plasma_applet_folderview.po to marathi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_folderview\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-29 00:45+0000\n"
+"PO-Revision-Date: 2013-03-28 16:09+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: package/contents/config/config.qml:17
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "ठिकाण"
+
+#: package/contents/config/config.qml:24
+#, fuzzy, kde-format
+#| msgid "Icons"
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "चिन्ह"
+
+#: package/contents/config/config.qml:31
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "गाळणी"
+
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "फाईल प्रकार:"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "स्थान दर्शवा :"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "जुळलेल्या फाईल्स दर्शवा"
+
+#: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Hide Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "जुळलेल्या फाईल्स लपवा"
+
+#: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name pattern:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "फाईल नाव रचना:"
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:textbox filter list by"
+msgid "File types:"
+msgstr "फाईल प्रकार:"
+
+#: package/contents/ui/ConfigFilter.qml:82
+#, fuzzy, kde-format
+#| msgid "Show All Files"
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "सर्व फाईल दर्शवा"
+
+#: package/contents/ui/ConfigFilter.qml:111
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@title:column"
+msgid "File Type"
+msgstr "फाईल प्रकार:"
+
+#: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "सर्व निवडा"
+
+#: package/contents/ui/ConfigFilter.qml:192
+#, fuzzy, kde-format
+#| msgid "Deselect All"
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "सर्व निवडू नका"
+
+#: package/contents/ui/ConfigFilter.qml:201
+#, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
+msgid "Switch Sort Order"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:61
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:67
+#, fuzzy, kde-format
+#| msgid "Custom title"
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "ऐच्छिक शिर्षक"
+
+#: package/contents/ui/ConfigIcons.qml:100
+#, fuzzy, kde-format
+#| msgctxt "@title:menu in Copy To or Move To submenu"
+#| msgid "Browse..."
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "संचार करा..."
+
+#: package/contents/ui/ConfigIcons.qml:106
+#, fuzzy, kde-format
+#| msgid "Sort Icons"
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "चिन्ह क्रमवारीत लावा"
+
+#: package/contents/ui/ConfigIcons.qml:126
+#, fuzzy, kde-format
+#| msgid "Arrangement:"
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "आयोजन :"
+
+#: package/contents/ui/ConfigIcons.qml:129
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:130
+#, kde-format
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:139
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox, LtR/RtL"
+msgid "Sort Alignment:"
+msgstr "अनुक्रमीत करत आहे :"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Left to Right"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Left-to-Right"
+msgstr "वरुन खाली, डावीकडून उजवीकडे"
+
+#: package/contents/ui/ConfigIcons.qml:143
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Right to Left"
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Right-to-Left"
+msgstr "वरुन खाली, उजवीकडुन डावीकडे"
+
+#: package/contents/ui/ConfigIcons.qml:165
+#, fuzzy, kde-format
+#| msgid "Lock in place:"
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "जागेत कुलूपबंद करा :"
+
+#: package/contents/ui/ConfigIcons.qml:179
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "अनुक्रमीत करत आहे :"
+
+#: package/contents/ui/ConfigIcons.qml:187
+#, kde-format
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:188
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "नावानुरूप"
+
+#: package/contents/ui/ConfigIcons.qml:189
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "आकार :"
+
+#: package/contents/ui/ConfigIcons.qml:190
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "प्रकारानुरूप"
+
+#: package/contents/ui/ConfigIcons.qml:191
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "दिनांक नुरूप"
+
+#: package/contents/ui/ConfigIcons.qml:202
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Descending"
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr "उतरता क्रम"
+
+#: package/contents/ui/ConfigIcons.qml:210
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "संचयीका सर्वप्रथम"
+
+#: package/contents/ui/ConfigIcons.qml:224
+#, kde-format
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:226
+#, kde-format
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:227
+#, kde-format
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:238
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "चिन्ह आकार:"
+
+#: package/contents/ui/ConfigIcons.qml:253
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "लहान"
+
+#: package/contents/ui/ConfigIcons.qml:262
+#, fuzzy, kde-format
+#| msgid "Large"
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "मोठे"
+
+#: package/contents/ui/ConfigIcons.qml:271
+#, fuzzy, kde-format
+#| msgid "Label:"
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "लेबल:"
+
+#: package/contents/ui/ConfigIcons.qml:274
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:275
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, kde-format
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:284
+#, fuzzy, kde-format
+#| msgid " lines"
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr " ओळी"
+
+#: package/contents/ui/ConfigIcons.qml:300
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:302
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:309
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "सर्व निवडा"
+
+#: package/contents/ui/ConfigIcons.qml:316
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "पूर्वावलोकन :"
+
+#: package/contents/ui/ConfigIcons.qml:328
+#, kde-format
+msgctxt "@title:group"
+msgid "Typing on the desktop:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:334
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:radio Typing on the desktop selects items"
+msgid "Selects items"
+msgstr "सर्व निवडा"
+
+#: package/contents/ui/ConfigIcons.qml:340
+#, kde-format
+msgctxt "@option:radio Typing on the desktop activates KRunner"
+msgid "Activates KRunner"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:356
+#, fuzzy, kde-format
+#| msgid "&Rename"
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "नाव बदला (&R)"
+
+#: package/contents/ui/ConfigIcons.qml:360
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:371
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "पूर्वावलोकन :"
+
+#: package/contents/ui/ConfigIcons.qml:373
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "पूर्वावलोकन :"
+
+#: package/contents/ui/ConfigIcons.qml:381
+#, fuzzy, kde-format
+#| msgid "More Preview Options..."
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "जादा पूर्वावलोकन पर्याय..."
+
+#: package/contents/ui/ConfigLocation.qml:81
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "स्थान दर्शवा :"
+
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+#| msgid "Show the Desktop folder"
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "डेस्कटॉप संचयीका दर्शवा"
+
+#: package/contents/ui/ConfigLocation.qml:91
+#, fuzzy, kde-format
+#| msgid "Show the files related to the current activity"
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr "वर्तमान कार्यपध्दतीशी संबंधित फाईल्स दर्शवा"
+
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:137
+#, fuzzy, kde-format
+#| msgid "Custom title"
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "ऐच्छिक शिर्षक"
+
+#: package/contents/ui/ConfigLocation.qml:145
+#, fuzzy, kde-format
+#| msgid "Type a path or a URL here"
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "मार्ग किंवा URL येथे दाखल करा"
+
+#: package/contents/ui/ConfigLocation.qml:188
+#, fuzzy, kde-format
+#| msgctxt "Music"
+#| msgid "Title:"
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "शिर्षक :"
+
+#: package/contents/ui/ConfigLocation.qml:197
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr "काही नाही"
+
+#: package/contents/ui/ConfigLocation.qml:198
+#, fuzzy, kde-format
+#| msgid "Default"
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr "मूलभूत"
+
+#: package/contents/ui/ConfigLocation.qml:199
+#, fuzzy, kde-format
+#| msgid "Full Path"
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr "पूर्ण मार्ग"
+
+#: package/contents/ui/ConfigLocation.qml:200
+#, fuzzy, kde-format
+#| msgid "Custom title"
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
+msgstr "ऐच्छिक शिर्षक"
+
+#: package/contents/ui/ConfigLocation.qml:209
+#, fuzzy, kde-format
+#| msgid "Enter custom title here"
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
+msgstr "ऐच्छिक शिर्षक येथे दाखल करा"
+
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
+msgid "Click and drag to rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:231
+#, kde-format
+msgctxt "@action:button tooltip remove widget"
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "पूर्वावलोकन :"
+
+#: package/contents/ui/FolderView.qml:1274
+#, kde-format
+msgctxt "@info"
+msgid ""
+"There are a lot of files and folders on the desktop. This can cause bugs and "
+"performance issues. Please consider moving some of them elsewhere."
+msgstr ""
+
+#: package/contents/ui/FolderViewDialog.qml:91
+#, fuzzy, kde-format
+#| msgid "This folder is empty."
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "ही संचयीका रिकामी आहे."
+
+#: package/contents/ui/FolderViewLayer.qml:357
+#, fuzzy, kde-format
+#| msgid "Icons"
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "चिन्ह"
+
+#: package/contents/ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "&Refresh Desktop"
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
+msgstr "डेस्कटॉप ताजा करा (&R)"
+
+#: plugins/folder/directorypicker.cpp:32
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "सर्व निवडा"
+
+#: plugins/folder/foldermodel.cpp:569
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "डेस्कटॉप ताजा करा (&R)"
+
+#: plugins/folder/foldermodel.cpp:569 plugins/folder/foldermodel.cpp:1803
+#, kde-format
+msgid "&Refresh View"
+msgstr "दृश्य ताजे करा (&R)"
+
+#: plugins/folder/foldermodel.cpp:932
+#, kde-format
+msgctxt ""
+"@title:notifications Here 'link' refers to a symbolic link to another file "
+"or folder"
+msgid "Link Target Not Found"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:934
+#, kde-kuit-format
+msgctxt "@info Body text of a system notification"
+msgid ""
+"<filename>%1</filename> points to <filename>%2</filename>, but that could "
+"not be found. It may have been moved or deleted."
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1812
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
+msgstr "कचरापेटी रिकामी करा (&E)"
+
+#: plugins/folder/foldermodel.cpp:1815
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore to Former Location"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1818
+#, kde-format
+msgid "&Open"
+msgstr "उघडा (&O)"
+
+#: plugins/folder/foldermodel.cpp:1822
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt ""
+"@action:inmenu open file manager showing the target file or folder that this "
+"link points to"
+msgid "Show Target"
+msgstr "स्थान दर्शवा :"
+
+#: plugins/folder/foldermodel.cpp:1923
+#, kde-format
+msgctxt "@action:inmenu Removes the trash icon on the desktop"
+msgid "Remove Trash Icon"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1926
+#, kde-format
+msgid "&Move to Trash"
+msgstr "कचरापेटीकडे हलवा (&M)"
+
+#: plugins/folder/foldermodel.cpp:1959
+#, kde-format
+msgid "&Paste"
+msgstr "चिकटवा (&P)"
+
+#: plugins/folder/foldermodel.cpp:2110
+#, kde-format
+msgid "&Properties"
+msgstr "गुणधर्म (&P)"
+
+#: plugins/folder/viewpropertiesmenu.cpp:21
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgid "Sort By"
+msgstr "अनुक्रमीत करत आहे :"
+
+#: plugins/folder/viewpropertiesmenu.cpp:24
+#, fuzzy, kde-format
+#| msgctxt "Sort Icons"
+#| msgid "Unsorted"
+msgctxt "@item:inmenu Sort icons manually"
+msgid "Unsorted"
+msgstr "विनाक्रम"
+
+#: plugins/folder/viewpropertiesmenu.cpp:28
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgctxt "@item:inmenu Sort icons by name"
+msgid "Name"
+msgstr "नावानुरूप"
+
+#: plugins/folder/viewpropertiesmenu.cpp:32
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgctxt "@item:inmenu Sort icons by size"
+msgid "Size"
+msgstr "आकार :"
+
+#: plugins/folder/viewpropertiesmenu.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgctxt "@item:inmenu Sort icons by file type"
+msgid "Type"
+msgstr "प्रकारानुरूप"
+
+#: plugins/folder/viewpropertiesmenu.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgctxt "@item:inmenu Sort icons by date"
+msgid "Date"
+msgstr "दिनांक नुरूप"
+
+#: plugins/folder/viewpropertiesmenu.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Descending"
+msgctxt "@item:inmenu Sort icons in descending order"
+msgid "Descending"
+msgstr "उतरता क्रम"
+
+#: plugins/folder/viewpropertiesmenu.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@item:inmenu Sort icons with folders first"
+msgid "Folders First"
+msgstr "संचयीका सर्वप्रथम"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgid "Icon Size"
+msgstr "चिन्ह आकार:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:53
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:54
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Very Small"
+msgstr "लहान"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inmenu size of the icons"
+msgid "Small"
+msgstr "लहान"
+
+#: plugins/folder/viewpropertiesmenu.cpp:56
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Small-Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, fuzzy, kde-format
+#| msgid "Large"
+msgctxt "@item:inmenu size of the icons"
+msgid "Large"
+msgstr "मोठे"
+
+#: plugins/folder/viewpropertiesmenu.cpp:59
+#, kde-format
+msgctxt "@item:inmenu size of the icons"
+msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:67
+#, fuzzy, kde-format
+#| msgid "Arrange icons:"
+msgctxt "@item:inmenu arrangement of icons"
+msgid "Arrange"
+msgstr "चिन्ह आयोजीत करा:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Columns"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgctxt "@item:inmenu arrangement of icons"
+msgid "In Rows"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Sort Alignment"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:83
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Left to Right"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Left-to-Right"
+msgstr "वरुन खाली, डावीकडून उजवीकडे"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "Top to Bottom, Right to Left"
+msgctxt "@item:inmenu alignment of icons"
+msgid "Right-to-Left"
+msgstr "वरुन खाली, उजवीकडुन डावीकडे"
+
+#: plugins/folder/viewpropertiesmenu.cpp:94
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgid "Show Previews"
+msgstr "पूर्वावलोकन :"
+
+#: plugins/folder/viewpropertiesmenu.cpp:98
+#, kde-format
+msgctxt "@item:inmenu lock icon positions in place"
+msgid "Locked"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inlistbox arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "वरुन खाली, डावीकडून उजवीकडे"
+
+#, fuzzy
+#~| msgid "Align to grid:"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align left"
+#~ msgstr "ग्रीडशी संलग्न करा :"
+
+#, fuzzy
+#~| msgid "Align to grid:"
+#~ msgctxt "@item:inlistbox alignment of icons"
+#~ msgid "Align right"
+#~ msgstr "ग्रीडशी संलग्न करा :"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Left to Right"
+#~ msgstr "वरुन खाली, डावीकडून उजवीकडे"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Right to Left"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Right to Left"
+#~ msgstr "वरुन खाली, उजवीकडुन डावीकडे"
+
+#, fuzzy
+#~| msgid "Top to Bottom, Left to Right"
+#~ msgctxt "@item:inmenu arrangement of icons"
+#~ msgid "Top to Bottom"
+#~ msgstr "वरुन खाली, डावीकडून उजवीकडे"
+
+#, fuzzy
+#~| msgid "Align to grid:"
+#~ msgid "Align"
+#~ msgstr "ग्रीडशी संलग्न करा :"
+
+#, fuzzy
+#~| msgid "&Restore"
+#~ msgctxt "Restore from trash"
+#~ msgid "Restore"
+#~ msgstr "पुन्हस्थापन (&R)"
+
+#, fuzzy
+#~| msgctxt "On a camera"
+#~| msgid "Aperture:"
+#~ msgid "Features:"
+#~ msgstr "एपेर्चर :"
+
+#, fuzzy
+#~| msgid "Search file type"
+#~ msgid "Search…"
+#~ msgstr "फाईल प्रकार शोधा"
+
+#, fuzzy
+#~| msgid "Create &Folder..."
+#~ msgid "&Create Folder"
+#~ msgstr "संचयीका तयार करा (&F)..."
+
+#, fuzzy
+#~| msgid "Show the Desktop folder"
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "डेस्कटॉप संचयीका दर्शवा"
+
+#~ msgid "Size:"
+#~ msgstr "आकार :"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#, fuzzy
+#~| msgid "Arrange icons:"
+#~ msgid "Arrange in"
+#~ msgstr "चिन्ह आयोजीत करा:"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Title of the page that lets the user choose which location should the "
+#~| "folderview show"
+#~| msgid "Location"
+#~ msgid "Location:"
+#~ msgstr "ठिकाण"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "डेस्कटॉप संचयीका दर्शवा"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "संचयीका निश्चित करा:"
+
+#~ msgid "&Reload"
+#~ msgstr "पुन्हा दाखल करा (&R)"
+
+#~ msgid "&Delete"
+#~ msgstr "काढून टाका (&D)"
+
+#, fuzzy
+#~| msgid "Align to grid:"
+#~ msgid "Align:"
+#~ msgstr "ग्रीडशी संलग्न करा :"
+
+#, fuzzy
+#~| msgid "Sorting:"
+#~ msgid "Sorting"
+#~ msgstr "अनुक्रमीत करत आहे :"
+
+#~ msgid "Title"
+#~ msgstr "शिर्षक"
+
+#~ msgid "Show Original Directory"
+#~ msgstr "मूळ संचयीका दर्शवा"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "सर्व फाईल दर्शवा"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "कचरापेटी रिकामी करा (&E)"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "या पानास ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "या स्थानास ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "या संचयीकेस ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "या लिंकला ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "या फाईलला ओळखचिन्ह करा (&B)"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "येथे प्रत करा"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "येथे हलवा"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "संचार करा..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "येथे प्रत करा"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "येथे हलवा"
+
+#~ msgid "Share"
+#~ msgstr "शेअर"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgid "Icon:"
+#~ msgstr "चिन्ह"
+
+#~ msgid "You cannot drop a folder on to itself"
+#~ msgstr "संचयीका स्वतः मध्येच टाकता येत नाही"
+
+#, fuzzy
+#~| msgid "File name pattern:"
+#~ msgid "File name for dropped contents:"
+#~ msgstr "फाईल नाव रचना:"
+
+#~ msgid "&Move Here"
+#~ msgstr "येथे हलवा (&M)"
+
+#~ msgid "&Copy Here"
+#~ msgstr "येथे प्रत करा (&C)"
+
+#~ msgid "&Link Here"
+#~ msgstr "येथे लिंक करा (&L)"
+
+#~ msgid "C&ancel"
+#~ msgstr "रद्द करा (&A)"
+
+#~ msgid "Set as &Wallpaper"
+#~ msgstr "वॉलपेपर म्हणून वापरा (&W)"
+
+#~ msgctxt "@action:button"
+#~ msgid "Create directory"
+#~ msgstr "संचयीका बनवा"
+
+#~ msgctxt "@action:button"
+#~ msgid "Enter a different name"
+#~ msgstr "वेगळे नाव दाखल करा"
+
+#~ msgid ""
+#~ "The name \"%1\" starts with a dot, so the directory will be hidden by "
+#~ "default."
+#~ msgstr "\"%1\" हे नाव टिंबाने सुरु होते. त्यामुळे ही संचयीका लपविली जाईल."
+
+#~ msgctxt "@title:window"
+#~ msgid "Create hidden directory?"
+#~ msgstr "लपविलेली संचयीका बनवायची का?"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@label Default name when creating a folder"
+#~ msgid "New Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:window"
+#~ msgid "New Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Enter folder name:"
+#~ msgstr "संचयीका नाव दाखल करा :"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "एक फाईल चिटकवा"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "क्लिपबोर्ड मजकूर चिटकवा..."
+
+#, fuzzy
+#~| msgid "&Paste"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "चिकटवा (&P)"
+
+#~ msgid ""
+#~ "Restores this file or directory, back to the location where it was "
+#~ "deleted from initially"
+#~ msgstr "ही फाईल किंवा संचयीका जेथून काढून टाकली होती तेथे पुन्हस्थापित करतो"
+
+#~ msgid ""
+#~ "Opens a new file manager window showing the target of this link, in its "
+#~ "parent directory."
+#~ msgstr "या लिंकचे लक्ष्य दर्शविण्याकरिता नवीन फाईल व्यवस्थापक उघडतो."
+
+#, fuzzy
+#~| msgid "Click to view folder:"
+#~ msgid "Click to view folder"
+#~ msgstr "संचयीका बघण्यासाठी क्लिक करा :"
+
+#, fuzzy
+#~| msgid "Icons"
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Icons"
+#~ msgstr "चिन्ह"
+
+#~ msgid "Network is not reachable"
+#~ msgstr "संजाळावर पोहोचू शकत नाही"
+
+#~ msgid "Align to Grid"
+#~ msgstr "जाळ्याशी जुळवून घ्या"
+
+#~ msgctxt "Icons on the desktop"
+#~ msgid "Lock in Place"
+#~ msgstr "कुलूपबंद करा"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 folder"
+#~ msgid_plural "%1 folders"
+#~ msgstr[0] "1 संचयीका"
+#~ msgstr[1] "%1 संचयीका"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 file"
+#~ msgid_plural "%1 files"
+#~ msgstr[0] "1 फाईल"
+#~ msgstr[1] "%1 फाईल"
+
+#~ msgctxt "%1 and %2 are the messages translated above."
+#~ msgid "%1, %2."
+#~ msgstr "%1, %2."
+
+#~ msgid "1 file."
+#~ msgid_plural "%1 files."
+#~ msgstr[0] "1 फाईल."
+#~ msgstr[1] "%1 फाईल."
+
+#~ msgid ""
+#~ "Use this control to choose the criteria by which the icons will be sorted "
+#~ "in the view."
+#~ msgstr ""
+#~ "प्रदर्शनवेळी चिन्ह जसे क्रमवारीत लावले जातील त्या आवश्यकता निवडण्याकरिता या "
+#~ "नियंत्रकाचा वापर करा."
+
+#, fuzzy
+#~| msgctxt "Sort icons"
+#~| msgid "Descending"
+#~ msgid "Descending:"
+#~ msgstr "उतरता क्रम"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this control to choose the criteria by which the icons will be "
+#~| "sorted in the view."
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be arranged "
+#~ "horizontally (in rows) or vertically (in columns)."
+#~ msgstr ""
+#~ "प्रदर्शनवेळी चिन्ह जसे क्रमवारीत लावले जातील त्या आवश्यकता निवडण्याकरिता या "
+#~ "नियंत्रकाचा वापर करा."
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this control to choose the criteria by which the icons will be "
+#~| "sorted in the view."
+#~ msgid ""
+#~ "Use this control to choose whether the icons will be aligned to the left "
+#~ "or to the right side of the screen."
+#~ msgstr ""
+#~ "प्रदर्शनवेळी चिन्ह जसे क्रमवारीत लावले जातील त्या आवश्यकता निवडण्याकरिता या "
+#~ "नियंत्रकाचा वापर करा."
+
+#~ msgid "Align to grid:"
+#~ msgstr "ग्रीडशी संलग्न करा :"
+
+#~ msgid ""
+#~ "Use this slider to increase or decrease the size of the icons in the view."
+#~ msgstr ""
+#~ "प्रदर्शनातील चिन्हाचे आकार जास्त किंवा कमी करण्याकरिता या स्लाइडरचा वापर करा."
+
+#~ msgid ""
+#~ "Check this option if you want to see previews of the file contents in the "
+#~ "icons."
+#~ msgstr "चिन्ह अंतर्गत फाईल अनुक्रमचे पूर्वावलोकन पहायचे असल्यास या पर्याय निवडा."
+
+#~ msgid ""
+#~ "Click this button to choose for which types of files previews will be "
+#~ "shown."
+#~ msgstr ""
+#~ "ठराविक प्रकारच्या फाईल करिता पूर्वावलोकन पहायचे असल्यास या बटनवर क्लिक करा."
+
+#~ msgid "Icon Text"
+#~ msgstr "चिन्ह मजकूर"
+
+#~ msgid "Lines:"
+#~ msgstr "ओळी :"
+
+#~ msgid ""
+#~ "Use this control to choose how many lines of text will be shown below the "
+#~ "icons."
+#~ msgstr ""
+#~ "चिन्हा खाली पाठ्यचे किती ओळ दर्शवायचे हे निवडण्याकरिता या नियंत्रणाचा वापर करा."
+
+#~ msgid "1 line"
+#~ msgstr "1 ओळ"
+
+#~ msgid "Color:"
+#~ msgstr "रंग :"
+
+#~ msgid ""
+#~ "Click this button to choose the color which is used for the text labels "
+#~ "in the view."
+#~ msgstr "प्रदर्शन अंतर्गत पाठ्य लेबल करिता रंग निवडायचे असल्यास या बटनावर क्लिक करा."
+
+#~ msgid "Shadows:"
+#~ msgstr "सावल्या :"
+
+#, fuzzy
+#~| msgid ""
+#~| "Check this option if you want to see previews of the file contents in "
+#~| "the icons."
+#~ msgid ""
+#~ "Check this option if you want the icons to be sorted in a descending "
+#~ "order."
+#~ msgstr "चिन्ह अंतर्गत फाइल अनुक्रमचे पूर्वदृश्य पहायचे असल्यास या पर्याय निवडा."
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+#~ "\"Show Files Matching\" or \"Hide Files Matching\", only the files "
+#~ "matching BOTH the conditions will be shown or hidden respectively.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you "
+#~ "have \"*\" as your pattern, but have nothing selected in the MIME types, "
+#~ "no files will be shown.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">जर तुम्ही  \"जुळणाऱ्या "
+#~ "फाईल्स दर्शवा\" किंवा \"जुळणाऱ्या फाईल्स लपवा\" हे निवडले तर, दोन्हीना जुळणाऱ्या "
+#~ "फाईल्स निवडल्या जातील.</p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">उदा. \"*\" नमूना वापरला "
+#~ "पण माइम प्रकार निवडला नाही तर कोणतीच फाईल निवडली जाणार नाही.</p></body></"
+#~ "html>"
+
+#~ msgid "<a href=\"null\">Cannot See Any Files?</a>"
+#~ msgstr "<a href=\"null\">कोणत्याच फाईल्स दिसत नाहीत का?</a>"
+
+#~ msgid "Space-separated list of extensions, e.g. *.txt *.od*"
+#~ msgstr "विस्तारणाची मोकळी जागा-विभाजित यादी, उ.दा. *.txt *.od*"
+
+#~ msgid ""
+#~ "Space-separated list of extensions, e.g. *.txt *.od* to display only "
+#~ "office- and text-files"
+#~ msgstr ""
+#~ "फक्त ऑफिस व पाठ्य-फाईल दर्शविण्याकरिता विस्तारणाची मोकळी जागा-विभाजित यादी, उ."
+#~ "दा. *.txt *.od*"
+
+#~ msgid "Pattern filter"
+#~ msgstr "रचना गाळणी"
+
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:400;\">Title:</span></"
+#~ "p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:400;\">शिर्षक :</span></"
+#~ "p></body></html>"
+
+#~ msgid "Check the file types you want icon previews for:"
+#~ msgstr "हवे असल्यास चिन्ह पूर्वावलोकन करिता फाईल प्रकार तपासा:"
+
+#~ msgctxt "Music"
+#~ msgid "Artist:"
+#~ msgstr "कलाकार :"
+
+#~ msgctxt "Music"
+#~ msgid "Album:"
+#~ msgstr "अल्बम :"
+
+#~ msgid "%1 MPixels"
+#~ msgstr "%1 MPixels"
+
+#~ msgid "Camera:"
+#~ msgstr "कॅमेरा :"
+
+#~ msgctxt "Length in millimeters"
+#~ msgid "%1 mm"
+#~ msgstr "%1 mm"
+
+#~ msgctxt "In photography"
+#~ msgid "35 mm equivalent: %1 mm"
+#~ msgstr "35 mm बरोबर : %1 mm"
+
+#~ msgctxt "On a camera"
+#~ msgid "Focal Length:"
+#~ msgstr "फोकल लांबी :"
+
+#~ msgctxt "On a camera"
+#~ msgid "Exposure Time:"
+#~ msgstr "एक्सपोजर वेळ :"
+
+#~ msgctxt "Fraction of a second, or number of seconds"
+#~ msgid "%1 s"
+#~ msgstr "%1 s"
+
+#~ msgctxt "On a camera"
+#~ msgid "ISO Speed:"
+#~ msgstr "ISO वेग :"
+
+#~ msgid "Time:"
+#~ msgstr "वेळ :"
+
+#~ msgctxt "Inserted as %1 in the message below."
+#~ msgid "1 page"
+#~ msgid_plural "%1 pages"
+#~ msgstr[0] "1 पान"
+#~ msgstr[1] "%1 पाने"
+
+#~ msgctxt "Inserted as %2 in the message below."
+#~ msgid "1 word"
+#~ msgid_plural "%1 words"
+#~ msgstr[0] "1 शब्द"
+#~ msgstr[1] "%1 शब्द"
+
+#~ msgctxt "Items in a folder"
+#~ msgid "1 item"
+#~ msgid_plural "%1 items"
+#~ msgstr[0] "1 घटक"
+#~ msgstr[1] "%1 घटक"
+
+#~ msgid "Left to Right, Top to Bottom"
+#~ msgstr "डावीकडून उजवीकडे, वरुन खाली"
+
+#~ msgid "Right to Left, Top to Bottom"
+#~ msgstr "उजवीकडुन डावीकडे, वरुन खाली"
+
+#~ msgctxt ""
+#~ "Title of the page that lets the user choose how the folderview should be "
+#~ "shown"
+#~ msgid "Display"
+#~ msgstr "प्रदर्शन"
+
+#~ msgctxt "Sort icons"
+#~ msgid "By Size"
+#~ msgstr "आकारानुरूप"
+
+#~ msgctxt "Sort icons"
+#~ msgid "Ascending"
+#~ msgstr "चढता क्रम"
+
+#~ msgid "Header"
+#~ msgstr "हेडर"
+
+#~ msgid "Advanced Options"
+#~ msgstr "प्रगत पर्याय"
+
+#~ msgid "Text Settings"
+#~ msgstr "पाठ्य संयोजना"
+
+#~ msgid "Text color:"
+#~ msgstr "पाठ्य रंग:"
+
+#~ msgid "Number of lines:"
+#~ msgstr "ओळींचे क्रमांक:"
+
+#~ msgid "Show text shadows"
+#~ msgstr "पाठ्यची छाया दर्शवा"
+
+#~ msgid "Align icons in a grid"
+#~ msgstr "ग्रीड अंतर्गत चिन्ह स्थायीत करा"
+
+#~ msgid "Lock icons in place"
+#~ msgstr "चिन्ह ठराविक जागेवर कुलूपबंद करा"

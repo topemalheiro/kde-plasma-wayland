@@ -1,0 +1,536 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Mindaugas <embar@super.lt>, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE Frameworks 5 Applications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-05-17 22:13+0300\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Šalinti iš žymelių"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Įtraukti į žymeles"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Visose veiklose"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Dabartinėje veikloje"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Rodyti žymelėse"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Bendra"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Piktograma:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Pasirinkti…"
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Atstatyti į numatytąją piktogramą"
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Programų rodymo būdas:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Tik pavadinimas"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "TIk aprašas"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Pavadinimas (aprašas)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Aprašas (pavadinimas)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Elgsena:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Rikiuoti programas pagal abėcėlę"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Išlyginti submeniu iki vieno lygio"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Rodyti piktogramas šakniniame meniu lygyje"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Paryškinti naujai įdiegtas programas"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Rodyti kategorijas:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Paskiausios programos"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Dažniausios programos"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Paskiausiai naudoti failai"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Dažnai naudojami failai"
+
+#: ConfigGeneral.qml:227
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Paskiausios vietos"
+
+#: ConfigGeneral.qml:228
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Dažnai naudojamos vietos"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Elementus kategorijose rikiuoti pagal:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Paskiausiai naudoti"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Dažniausiai naudoti"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Paieška:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Įtraukti į paiešką žymeles, failus ir el. laiškus"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Lygiuoti paieškos rezultatus į apačią"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Išvaizda:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Teikti pirmenybę tamsiai veiksenai, kai prieinama"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Ši ypatybė naudoja iš spalvų rinkinio papildomas spalvas, kurios, įprastai, "
+"vaizduoja tamsų foną."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Žymelės"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nauja!"
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr "Šioje kategorijoje yra naujai įdiegta programa"
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Nauja!"
+
+#: ItemGridDelegate.qml:83
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Naujai įdiegta programa"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Atverti kategoriją"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Paleisti"
+
+#: ItemListDelegate.qml:99
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Naujai įdiegta programa"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Taisyti programas…"
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Žymelės"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nėra atitikmenų"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Išvalyti piktogramą"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "Ieškoma „%1“"
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Rašykite norėdami ieškoti…"
+
+#~ msgid "Widgets"
+#~ msgstr "Valdikliai"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Programos ir dokumentai"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Paskiausi adresatai"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Dažniausi adresatai"
+
+#~ msgid "Search…"
+#~ msgstr "Ieškoti…"
+
+#~ msgid "Search..."
+#~ msgstr "Ieškoti..."
+
+#~ msgid "Often used documents"
+#~ msgstr "Dažniausi dokumentai"
+
+#~ msgid "Open with:"
+#~ msgstr "Atverti naudojant:"
+
+#~ msgid "Properties"
+#~ msgstr "Savybės"
+
+#~ msgid "Add to Desktop"
+#~ msgstr "Įtraukti į darbalaukį"
+
+#~ msgid "Add to Panel (Widget)"
+#~ msgstr "Įtraukti į skydelį (valdiklį)"
+
+#~ msgid "Pin to Task Manager"
+#~ msgstr "Prisegti prie užduočių tvarkytuvės"
+
+#~ msgid "Recent Documents"
+#~ msgstr "Paskiausi dokumentai"
+
+#~ msgid "Forget Recent Documents"
+#~ msgstr "Išvalyti paskiausius dokumentus"
+
+#~ msgid "Edit Application..."
+#~ msgstr "Taisyti programą..."
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Uninstall or Manage Add-Ons..."
+#~ msgstr "Šalinti ar tvarkyti plėtinius..."
+
+#~ msgid "Hide Application"
+#~ msgstr "Slėpti programą"
+
+#~ msgctxt "App name (Generic name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "Generic name (App name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Applications"
+#~ msgstr "Programos"
+
+#~ msgid "Unhide Applications in this Submenu"
+#~ msgstr "Rodyti visas submeniu programas"
+
+#~ msgid "Unhide Applications in '%1'"
+#~ msgstr "Rodyti visas „%1“ programas"
+
+#~ msgid "Show KRunner"
+#~ msgstr "Rodyti KRunner"
+
+#~ msgid "Search, calculate, or run a command"
+#~ msgstr "Ieškoti, skaičiuoti ar vykdyti komandą"
+
+#~ msgid "Computer"
+#~ msgstr "Kompiuteris"
+
+#~ msgid "Show Contact Information..."
+#~ msgstr "Rodyti kontaktinę informaciją..."
+
+#~ msgid "Contacts"
+#~ msgstr "Adresatai"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Pamiršti adresatą"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Pamiršti visus adresatus"
+
+#~ msgid "Recently Used"
+#~ msgstr "Paskiausiai naudoti"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumentai"
+
+#~ msgid "Forget Application"
+#~ msgstr "Pamiršti programą"
+
+#~ msgid "Forget Document"
+#~ msgstr "Pamiršti dokumentą"
+
+#~ msgid "Forget All"
+#~ msgstr "Viską pamiršti"
+
+#~ msgid "Forget All Applications"
+#~ msgstr "Pamiršti visas programas"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Pamiršti visus dokumentus"
+
+#~ msgid "Hide %1"
+#~ msgstr "Slėpti %1"
+
+#~ msgid "All Applications"
+#~ msgstr "Visos programos"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Paskiausi adresatai"
+
+#~ msgid "Often Used Documents"
+#~ msgstr "Dažniausi dokumentai"
+
+#~ msgid "Recent Applications"
+#~ msgstr "Paskiausios programos"
+
+#~ msgid "Often Used Applications"
+#~ msgstr "Dažniausios programos"
+
+#~ msgid "Power / Session"
+#~ msgstr "Energija / Seansas"
+
+#~ msgid "Search results"
+#~ msgstr "Paieškos rezultatai"
+
+#~ msgid "Lock"
+#~ msgstr "Užrakinti"
+
+#~ msgid "Log Out"
+#~ msgstr "Atsijungti"
+
+#~ msgid "Save Session"
+#~ msgstr "Įrašyti seansą"
+
+#~ msgid "Switch User"
+#~ msgstr "Perjungti naudotoją"
+
+#~ msgctxt "Suspend to RAM"
+#~ msgid "Sleep"
+#~ msgstr "Pristabdyti"
+
+#~ msgid "Hibernate"
+#~ msgstr "Užmigdyti"
+
+#~ msgid "Restart"
+#~ msgstr "Paleisti iš naujo"
+
+#~ msgid "Shut Down"
+#~ msgstr "Išjungti"
+
+#~ msgid "Session"
+#~ msgstr "Seansas"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Lock screen"
+#~ msgstr "Užrakinti ekraną"
+
+#~ msgid "End session"
+#~ msgstr "Užbaigti seansą"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Prisijungti kitu naudotoju lygiagrečiame seanse"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Pristabdyti į RAM"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Pristabdyti į diską"
+
+#~ msgid "Restart computer"
+#~ msgstr "Paleisti kompiuterį iš naujo"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Išjungti kompiuterį"
+
+#~ msgid "System actions"
+#~ msgstr "Sistemos veiksmai"
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Tvarkyti „%1“..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Vykdyti komandą..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Vykdyti komandą arba ieškoti užklausos"
+
+#~ msgid "Show:"
+#~ msgstr "Rodyti:"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Rodyti paskiausias programas"
+
+#~ msgid "Show often used applications"
+#~ msgstr "Rodyti dažniausiai atvertas programas"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Rodyti paskiausius dokumentus"
+
+#~ msgid "Show often used documents"
+#~ msgstr "Rodyti dažniausiai atvertus dokumentus"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Rodyti paskiausius kontaktus"
+
+#~ msgid "Logout"
+#~ msgstr "Atsijungti"
+
+#~ msgid "Reboot"
+#~ msgstr "Paleisti iš naujo"
+
+#~ msgid "Suspend"
+#~ msgstr "Sustabdyti į RAM"

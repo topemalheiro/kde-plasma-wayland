@@ -1,0 +1,1262 @@
+# SPDX-FileCopyrightText: 2013-2015, 2017-2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2016 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2020-2021 Frank Steinmetzger <dev@felsenfleischer.de>
+# SPDX-FileCopyrightText: 2024-2025 Alois.spitzbart <spitz234@hotmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_touchpad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2026-04-22 20:33+0200\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr ""
+"Kritischer Fehler beim Lesen der Basisinformation des Geräts für Touchpad %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Die Verbindung zum X-Server kann nicht hergestellt werden"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Kein Touchpad gefunden"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Die Touchpad-Einrichtung kann nicht angewendet werden"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Die Touchpad-Einrichtung kann nicht gelesen werden"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Die Standard-Touchpad-Einrichtung kann nicht gelesen werden"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "Es kann kein geeignetes Backend ausgewählt werden"
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Fehler beim Laden von Werten. Im Protokoll finden Sie weitere Informationen "
+"dazu. Bitte starten Sie dieses Einrichtungsmodul erneut."
+
+#: kcm.cpp:129
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr ""
+"Es wurde kein Zeigergerät gefunden. Schließen Sie ein Zeigergerät jetzt an."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Es können nicht alle Änderungen gespeichert werden. Im Protokoll finden Sie "
+"weitere Informationen dazu. Bitte starten Sie dieses Einrichtungsmodul neu "
+"und versuchen es nochmal."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Fehler beim Laden der Standardwerte. Es können nicht alle Einstellungen auf "
+"die Standardwerte zurückgesetzt werden."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Fehler beim Hinzufügen des neu angeschlossenen Geräts. Schließen Sie es "
+"bitte erneut an und starten dann dieses Einrichtungsmodul neu."
+
+#: kcm.cpp:185
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr ""
+"Das Zeigergerät wurde getrennt, der Einstellungsdialog dafür wurde "
+"geschlossen."
+
+#: kcm.cpp:187
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr ""
+"Das Zeigergerät wurde getrennt, es wurden keine anderen Geräte gefunden."
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Kein Touchpad gefunden"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr "Schließen Sie ein externes Touchpad an"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Gerät:"
+
+#: ui/main.qml:110
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Allgemein:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Gerät aktivieren"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Deaktivieren, während eine Maus angeschlossen ist"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Beim Tippen deaktivieren"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "Das kann Videospiele beeinträchtigen."
+
+#: ui/main.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Linke und rechte Taste:"
+
+#: ui/main.qml:170
+#, kde-format
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Tauschen (Linkshändiger Modus)"
+
+#: ui/main.qml:185
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Beide gleichzeitig für Mittelklick drücken"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Die Aktivierung dieser Einstellung erhöht die Klick-Latenzzeit um 50 ms. Die "
+"zusätzliche Verzögerung wird benötigt, um das gleichzeitige Drücken der "
+"linken und rechten Taste korrekt zu erkennen."
+
+#: ui/main.qml:207
+#, kde-format
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Zeigergeschwindigkeit:"
+
+#: ui/main.qml:287
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Zeigerbeschleunigung aktivieren"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+"Ist dies aktiviert, legt der Zeiger mehr Weg zurück, wenn er schneller "
+"bewegt wird."
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Bildlaufgeschwindigkeit:"
+
+#: ui/main.qml:360
+#, kde-format
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Langsamer"
+
+#: ui/main.qml:367
+#, kde-format
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Schneller"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Bildlauf:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr "Zwei Finger an beliebiger Stelle bewegen"
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr "Einen Finger am Rand bewegen"
+
+#: ui/main.qml:404
+#, kde-format
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Bildlaufrichtung umkehren (natürlicher Bildlauf)"
+
+#: ui/main.qml:421
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Waagerechten Bildlauf deaktivieren"
+
+#: ui/main.qml:439
+#, kde-format
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Rechtsklick:"
+
+#: ui/main.qml:443
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "In die untere rechte Ecke tippen"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Mittelklick durch das gleichzeitige Drücken auf beide untere Ecken."
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Mittelklick durch Drücken auf das untere Zentrum."
+
+#: ui/main.qml:471
+#, kde-format
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "An beliebiger Stelle mit zwei Fingern tippen"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Mittelklick durch Drücken mit drei Fingern an beliebiger Stelle."
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Mittelklick:"
+
+#: ui/main.qml:487
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Am unteren Rand in der Mitte tippen"
+
+#: ui/main.qml:507
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "In untere linke und rechte Ecken tippen"
+
+#: ui/main.qml:519
+#, kde-format
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "An beliebiger Stelle mit drei Fingern tippen"
+
+#: ui/main.qml:532
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Antippen:"
+
+#: ui/main.qml:533
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Antippen zum Klicken"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr "Ziehen nach Antippen erlauben"
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+"Antippen, dann erneut antippen und sofort den Finger über das Touchpad "
+"ziehen, um zu ziehen. Den Finger anheben, um abzulegen."
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr "Kurzes Anheben des Fingers beim Antippen-und-Ziehen zulassen"
+
+#: ui/main.qml:580
+#, kde-format
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Antippen mit zwei Fingern:"
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Rechtsklick (Mittelklick durch Antippen mit drei Fingern)"
+
+#: ui/main.qml:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Rechtsklick"
+
+#: ui/main.qml:608
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Mittelklick (Rechtsklick durch Antippen mit drei Fingern)"
+
+#: ui/main.qml:609
+#, kde-format
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Mittelklick"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Die Abfrage der Eingabegeräte ist fehlgeschlagen. Bitte öffnen Sie dieses "
+#~ "Einrichtungsmodul erneut."
+
+#~ msgid "Device enabled"
+#~ msgstr "Gerät aktiviert"
+
+#~ msgid "Two fingers"
+#~ msgstr "Zwei Finger"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Touchpad-Rand"
+
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Tippen zum Klicken"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Berühren-und-Ziehen"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Integrierter Rechtsklick:"
+
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Integrierter Mittelklick:"
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Eingaben über dieses Gerät annehmen."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr ""
+#~ "Touchpad beim Tippen abschalten, um unbeabsichtigte Eingaben zu "
+#~ "verhindern."
+
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr ""
+#~ "Gleichzeitiges Drücken der linken und rechten Maustaste emuliert das "
+#~ "Klicken mit der mittleren Maustaste."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Bildlauf durch Wischen mit zwei Fingern."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Bildlauf durch Wischen entlang der Touchpad-Ränder."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Bildlauf wie auf dem Touchscreen."
+
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Waagerechten Bildlauf deaktivieren."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Einfaches Tippen entspricht Klicken mit der linken Maustaste"
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Ziehen durch Bewegung auf dem Touchpad direkt nach dem Tippen."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Berühren-und-Ziehen einrasten"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Das Ziehen wird nach kurzem Anheben des Fingers fortgesetzt."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr ""
+#~ "Mit zwei Fingern für einen Rechtsklick tippen, mit drei Fingern für einen "
+#~ "Mittelklick tippen."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Mit zwei Fingern für einen Rechtsklick tippen."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr ""
+#~ "Mit zwei Fingern für einen Mittelklick tippen, mit drei Fingern für einen "
+#~ "Rechtsklick tippen."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Mit zwei Fingern für einen Mittelklick tippen."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by simultaneously pressing the bottom left and bottom right "
+#~ "corners."
+#~ msgstr ""
+#~ "Auf die untere rechte Ecke von Ihrem Touchpad zu drücken emuliert das "
+#~ "Klicken mit der rechten Maustaste. Das Klicken der mittleren Taste wird "
+#~ "durch das gleichzeitige Drücken auf die untere linke und rechte Ecke "
+#~ "erreicht."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click. "
+#~ "Middle-click by pressing the bottom central area."
+#~ msgstr ""
+#~ "Auf die untere rechte Ecke von Ihrem Touchpad drücken emuliert das "
+#~ "Klicken mit der rechten Maustaste. Das Klicken der mittleren Taste wird "
+#~ "durch das Drücken auf den unteren zentralen Bereich erreicht."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr ""
+#~ "Irgendwo mit zwei Fingern auf das Touchpad zu drücken emuliert das "
+#~ "Klicken mit der rechten Maustaste."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom right corner of your touchpad acts as right-click."
+#~ msgstr ""
+#~ "Auf die untere rechte Ecke von Ihrem Touchpad drücken emuliert das "
+#~ "Klicken mit der rechten Maustaste."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr ""
+#~ "Untere linke und rechte Ecke gleichzeitig drücken emuliert das Klicken "
+#~ "mit der mittleren Maustaste."
+
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr ""
+#~ "Irgendwo mit drei Fingern auf das Touchpad zu drücken emuliert das "
+#~ "Klicken mit der mittleren Maustaste."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Touchpad aktivieren"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Touchpad abschalten"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Touchpad umschalten"
+
+#~ msgid "None"
+#~ msgstr "Keine"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Die Bewegung des Zeigers entspricht der Bewegung des Fingers."
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr ""
+#~ "Die Bewegung des Zeigers hängt von der Geschwindigkeit der Bewegung des "
+#~ "Fingers ab."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Keine Aktion"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Linke Maustaste"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Mittlere Maustaste"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Rechte Maustaste"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Alle Ränder"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Oberer Rand"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Obere rechte Ecke"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Rechter Rand"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Untere rechte Ecke"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Unterer Rand"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Untere linke Ecke"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Linker Rand"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Obere linke Ecke"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Das Touchpad wurde deaktiviert, weil eine Maus angeschlossen wurde"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Das Touchpad wurde aktiviert, weil eine Maus abgezogen wurde"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr ""
+#~ "Im unteren Bereich Ihres Touchpads werden durch Software aktivierte "
+#~ "Tasten eingerichtet."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Mit zwei Fingern tippen, um Rechtsklick zu aktivieren."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Im unteren Bereich Ihres Touchpads wird eine durch Software aktivierte "
+#~ "Mitteltaste eingerichtet."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Burkhard Lück"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "lueck@hube-lueck.de"
+
+#~ msgid "Drag me"
+#~ msgstr "Bitte ziehen"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Linke Maustaste"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Rechte Maustaste"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Mittlere Maustaste"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Die aktiven Einstellungen passen nicht zu den gespeicherten "
+#~ "Einstellungen.\n"
+#~ "Es werden zur Zeit die gespeicherten Einstellungen angezeigt."
+
+#~ msgid "Show active settings"
+#~ msgstr "Aktive Einstellungen anzeigen"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Diese Einstellungen haben keine Auswirkungen auf den Testbereich"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Touchpad ein-/ausschalten"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Touchpad ein-/ausschalten"
+
+#~ msgid "Configure…"
+#~ msgstr "Einrichten ..."
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Kurzbefehle:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Touchpad beim Tippen abschalten"
+
+#~ msgid "Timeout:"
+#~ msgstr "Zeitüberschreitung:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Es gab keine Tastaturaktivität in der angegebenen Anzahl\n"
+#~ "von Millisekunden, das Touchpad wird wieder aktiviert"
+
+#~ msgid " ms"
+#~ msgstr " ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Deaktiviert die Klick-Emulation und das Blättern.\n"
+#~ "Sie können immer noch den Zeiger mit dem Touchpad bewegen und Klicks mit "
+#~ "den Hardware-Knöpfen ausführen."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Nur Berührung und Blättern abschalten"
+
+#~ msgid "Notifications:"
+#~ msgstr "Benachrichtigungen:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Ignorierte Geräte:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Einige Geräte werden irrtümlicherweise als Maus erkannt.\n"
+#~ "Sie können diese Geräte zu dieser Liste hinzufügen, so dass sie ignoriert "
+#~ "werden, wenn sie angeschlossen werden."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Zeigerbewegung:"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Geschwindigkeit"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Minimum:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Minimale Zeigergeschwindigkeit"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Maximum:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Maximale Zeigergeschwindigkeit"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Beschleunigung:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Beschleunigungsfaktor für normale Zeigerbewedungen"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Druckabhängige Bewegung"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimaler Druck:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Minimumfaktor:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Maximaler Druck:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Maximumfaktor:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr "Minimaler Fingerdruck. bei dem der Bewegungsfaktor angewendet wird"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "Maximaler Fingerdruck. bei dem der Bewegungsfaktor angewendet wird"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Kleinster Wert für den druckabhängigen Bewegungsfaktor"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Größter Wert für den druckabhängigen Bewegungsfaktor"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Entfernung von Rauschen"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Senkrecht:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Waagerecht:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Der minimale senkrechte Hardware-Abstand um Bewegungs-Ereignisse zu "
+#~ "generieren"
+
+#~ msgid " units"
+#~ msgstr " Einheiten"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Der minimale waagerechte Hardware-Abstand um Bewegungs-Ereignisse zu "
+#~ "generieren"
+
+#~ msgid "Scrolling"
+#~ msgstr "Bildlauf"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Rand-Bildlauf:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Aktiviert den senkrechten Bildlauf durch Ziehen am rechten Rand"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Senkrecht"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Aktiviert den waagerechten Bildlauf durch Ziehen am unteren Rand"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Waagerecht"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Aktiviert den senkrechten Bildlauf durch Ziehen mit zwei Fingern irgendwo "
+#~ "auf dem Touchpad"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Aktiviert den waagerechten Bildlauf durch Ziehen mit zwei Fingern "
+#~ "irgendwo auf dem Touchpad"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Umgekehrter senkrechter Bildlauf"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Umgekehrter waagerechter Bildlauf"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Bildlauf mit zwei Fingern:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Umgekehrter Bildlauf:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Bildlauf-Entfernung"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Senkrecht:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Entfernung der Fingerbewegung für ein Bildlauf-Ereignis"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Waagerecht:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Setzt das Blättern fort, wenn der Finger vom Rand des Touchpads gelöst "
+#~ "wird"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Fortsetzung des Bildlaufs an der Kante (Coasting)"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Minimale Geschwindigkeit:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Ihr Finger muss mindestens diese Zahl an Bildläufen je Sekunde "
+#~ "produzieren, um die Fortsetzung des Bildlaufs an der Kante (Coasting) zu "
+#~ "starten"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " Bildlauf/sec"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Verzögerung:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr ""
+#~ "Anzahl von Bildlauf/sec² um die Geschwindigkeit der Fortsetzung des "
+#~ "Bildlaufs an der Kante (Coasting) zu verringern"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " Bildlauf/sec²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Ecken-Coasting:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr ""
+#~ "Aktiviert die Fortsetzung des Rand-Bildlaufs, wenn der Finger in einer "
+#~ "Randecke bleibt"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Der Bildlauf wird durch den Start des Ziehens in dem angegebenen "
+#~ "Auslösebereich eingestellt. Die kreisförmige Bewegung des Fingers im "
+#~ "Uhrzeigersinn um die Mitte des Touchpads blättert nach unten, die "
+#~ "Bewegung gegen den Uhrzeigersinn nach oben"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Kreisender Bildlauf"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Auslösebereich:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr ""
+#~ "Bereich auf dem Touchpad für das Auslösen des kreisförmigen Bildlaufs"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Winkel:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr ""
+#~ "Winkel der Fingerbewegung in Grad, um ein Bildlauf-Ereignis zu generieren"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Wird dies zusammen mit dem senkrechten Bildlauf verwendet, wird beim "
+#~ "Berühren der oberen oder unteren rechten Ecke nahtlos vom senkrechten "
+#~ "Bildlauf zum kreisförmigen Bildlauf gewechselt"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Empfindlichkeit"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Empfindlichkeit"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Druck zum Erkennen einer Berührung:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Druck zum Erkennen eines Loslassens:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Überschreitet der Fingerdruck diesen Wert, erkennt der Treiber dies als "
+#~ "Berührung"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Unterschreitet der Fingerdruck diesen Wert, erkennt der Treiber dies als "
+#~ "Loslassen"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Schaltet die Handflächen-Erkennung ein. Diese Funktion benötigt "
+#~ "Unterstützung durch die Hardware/Firmware des Touchpads"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Handflächen-Erkennung"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Minimale Breite:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Minimaler Druck:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr ""
+#~ "Minimale Fingerbreite, bei der eine Berührung als Handfläche erkannt wird"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr ""
+#~ "Minimaler Fingerdruck, bei der eine Berührung als Handfläche erkannt wird"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Berührungen"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Ein Finger:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr "Die Maustaste beim Berühren mit einem Finger an beliebiger Stelle"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Zwei Finger:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr "Die Maustaste beim Berühren mit zwei Fingern an beliebiger Stelle"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Drei Finger:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr "Die Maustaste beim Berühren mit drei Fingern an beliebiger Stelle"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Ecken"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Oben links:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Die Maustaste beim Berühren der oberen linken Ecke"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Unten links:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Oben rechts:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Die Maustaste beim Berühren der unteren linken Ecke"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Die Maustaste beim Berühren der oberen rechten Ecke"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Die Maustaste beim Berühren der unteren rechten Ecke"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Unten rechts:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Diese Geste ist eine alternative Art des Ziehens. Sie wird durch Abtippen "
+#~ "(Berühren und loslassen des Fingers) und anschließend wieder Berühren und "
+#~ "Verschieben des Fingers auf dem Touchpad ausgeführt"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Berühren-und-Ziehen-Geste"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Ist dies abgeschaltet, endet die Berühren-und-Ziehen-Geste mit dem "
+#~ "Loslassen des Fingers. Ansonsten ist die Geste aktiviert, bis Sie das "
+#~ "Touchpad zum zweiten Mal berühren oder bis zum Zeitablauf"
+
+# Locked→eingerastet?
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Gesperrtes Ziehen"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Zeitüberschreitung:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Dauer in Millisekunden für den Modus„Gesperrtes Ziehen“, nach der der "
+#~ "Modus automatisch abgeschaltet wird, wenn der Finger vom Touchpad gehoben "
+#~ "wird."
+
+#~ msgid "Tap Detection"
+#~ msgstr "Berührungs-Erkennung"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maximale Zeit:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Maximale Fingerbewegung:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Maximale Zeit für doppelte Berührung:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Zeitüberschreitung für einfache Berührung:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Maximale Zeit in Millisekunden für die Erkennung einer Berührung"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Maximale Bewegung des Fingers für die Erkennung einer Berührung"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr ""
+#~ "Maximale Zeit in Millisekunden für die Erkennung einer doppelten Berührung"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr ""
+#~ "Zeitüberschreitung nach der eine Berührung als einzelne Berührung erkannt "
+#~ "wird"
+
+#~ msgid "Testing area"
+#~ msgstr "Testbereich"
+
+#~ msgid "Click me"
+#~ msgstr "Hier klicken"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Beschleunigungsprofil:"
+
+#~ msgid "Flat"
+#~ msgstr "Flach"
+
+#~ msgid "Adaptive"
+#~ msgstr "Adaptiv"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "Touchpad-Kontrollmodul"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Systemeinstellungenmodul für die Verwaltung von Touchpads"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Copyright © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Entwickler"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Systemeinstellungenmodul, Dienstprogramm und Plasma-Miniprogramm für die "
+#~ "Verwaltung von Touchpads"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Copyright © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Dieses Programm enthält Quelltext mit diesem Copyright:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Benutzerfreundlichkeit, Tests"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Mithilfe"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Entwickler von synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Testen"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"
+
+#~ msgid "Mouse Click Emulation"
+#~ msgstr "Mausklick-Emulation"
+
+#~ msgctxt "Synaptics touchpad driver"
+#~ msgid "Synaptics backend not found"
+#~ msgstr "Das Synaptics-Backend wurde nicht gefunden"
+
+#~ msgid "Cannot read any of touchpad's properties"
+#~ msgstr "Die Touchpad-Eigenschaften können nicht gelesen werden"
+
+#~ msgid "Cannot read touchpad's capabilities"
+#~ msgstr "Die Touchpad-Fähigkeiten können nicht gelesen werden"
+
+#~ msgctxt "Libinput touchpad driver"
+#~ msgid "Libinput backend not found"
+#~ msgstr "Das Libinput-Backend wurde nicht gefunden"
+
+#~ msgid "Synaptics driver is not installed (or is not used)"
+#~ msgstr "Der Synaptics-Treiber ist nicht installiert oder wird nicht benutzt"
+
+#~ msgid "Cannot read touchpad's resolution"
+#~ msgstr "Die Touchpad-Auflösung kann nicht gelesen werden"
+
+#~ msgid "Show notification when disabling touchpad"
+#~ msgstr "Zeigt eine Benachrichtigung beim Abschalten des Touchpads"

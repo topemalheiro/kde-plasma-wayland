@@ -1,0 +1,98 @@
+# SPDX-FileCopyrightText: 2026 Mint <5602mint@gmail.com>
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_search\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-19 00:48+0000\n"
+"PO-Revision-Date: 2026-02-21 08:57+0900\n"
+"Last-Translator: Mint <5602mint@gmail.com>\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Position on screen:"
+msgstr "画面上の位置:"
+
+#: ui/main.qml:35
+#, kde-format
+msgctxt "@option:check Position on top of screen"
+msgid "Top"
+msgstr "上部"
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check Position in center of screen"
+msgid "Center"
+msgstr "中央"
+
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "History:"
+msgstr "履歴:"
+
+#: ui/main.qml:58
+#, kde-format
+msgctxt "@option:radio History is disabled"
+msgid "Disabled"
+msgstr "無効"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable suggestions"
+msgstr "提案を有効にする"
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable auto-complete"
+msgstr "オートコンプリートを有効にする"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear History…"
+msgstr "履歴を消去…"
+
+#: ui/main.qml:99
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for all activities"
+msgid "For all activities"
+msgstr "すべてのアクティビティ"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@item:inmenu delete krunner history for this activity"
+msgid "For activity \"%1\""
+msgstr "アクティビティ \"%1\""
+
+#: ui/main.qml:128
+#, kde-format
+msgctxt "@label"
+msgid "Plugins:"
+msgstr "プラグイン:"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Enabled Search Plugins…"
+msgstr "有効な検索プラグインを設定…"
+
+#~ msgctxt "@label prefix for checkbutton"
+#~ msgid "Activation:"
+#~ msgstr "起動:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activate when pressing any key on the desktop"
+#~ msgstr "デスクトップ上で任意のキーを押すとアクティブになる"

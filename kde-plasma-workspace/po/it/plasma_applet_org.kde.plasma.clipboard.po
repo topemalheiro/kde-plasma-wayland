@@ -1,0 +1,116 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2014, 2015, 2018, 2019, 2020, 2021, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.clipboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2023-05-26 15:19+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.04.1\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Contenuto degli appunti"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Gli appunti sono vuoti"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Cancella la cronologia"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Configura gli appunti..."
+
+#~ msgid "QR Code"
+#~ msgstr "Codice QR"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Matrice di dati"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Codice 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Codice 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Codice 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Torna agli appunti"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Cambia il tipo di codice QR"
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr ""
+#~ "Spazio insufficiente per visualizzare il codice QR. Prova a "
+#~ "ridimensionare questa applet."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Creazione del codice QR non riuscita"
+
+#~ msgid "Invoke action"
+#~ msgstr "Invoca azione"
+
+#~ msgid "Show QR code"
+#~ msgstr "Mostra il codice QR"
+
+#~ msgid "Edit contents"
+#~ msgstr "Modifica i contenuti"
+
+#~ msgid "Remove from history"
+#~ msgstr "Rimuovi dalla cronologia"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "No matches"
+#~ msgstr "Nessuna corrispondenza"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "Il codice QR è troppo grande per essere visualizzato"
+
+#~ msgid "Clear history"
+#~ msgstr "Cancella la cronologia"
+
+#~ msgid "Search…"
+#~ msgstr "Cerca…"
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "La cronologia degli appunti è vuota."
+
+#~ msgid "Configure"
+#~ msgstr "Configura"

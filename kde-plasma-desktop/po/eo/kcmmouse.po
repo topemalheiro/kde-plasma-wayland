@@ -1,0 +1,283 @@
+# translation of kcmmouse.pot to esperanto
+# Esperantaj mesaĝoj por "plasma-desktop"
+# Copyright (C) 1998, 2007 Free Software Foundation, Inc.
+# Wolfram Diestel <wolfram@steloj.de>, 1998.
+# Steffen Pietsch <Steffen.Pietsch@BerlinOnline.de>, 2002.
+# Pierre-Marie Pédrot <pedrotpmx@wanadoo.fr>, 2007.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2010.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmmouse\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-08 00:48+0000\n"
+"PO-Revision-Date: 2025-02-12 22:59+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: backends/kwin_wl/kwin_wl_backend.cpp:44
+#, kde-format
+msgid "Critical error on reading fundamental device infos of %1."
+msgstr "Kritika eraro dum legado de fundamentaj aparataj informoj de %1."
+
+#: kcm.cpp:87
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr "Ne eblas elekti adekvatan backend"
+
+#: kcm.cpp:143
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Eraro dum ŝargo de valoroj. Vidu protokolojn por pliaj informoj. Bonvolu "
+"rekomenci ĉi tiun agordan modulon."
+
+#: kcm.cpp:146
+#, kde-format
+msgid "No pointer device found. Connect now."
+msgstr "Neniu montrila aparato trovita. Konektu nun."
+
+#: kcm.cpp:155
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Ne eblas konservi ĉiujn ŝanĝojn. Vidu protokolojn por pliaj informoj. "
+"Bonvolu rekomenci ĉi tiun agordan modulon kaj provi denove."
+
+#: kcm.cpp:173
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Eraro dum ŝargo de defaŭltaj valoroj. Malsukcesis agordi kelkajn opciojn al "
+"iliaj defaŭltaj valoroj."
+
+#: kcm.cpp:188
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Eraro dum aldono de lastatempe konektita aparato. Bonvolu rekonekti ĝin kaj "
+"rekomenci ĉi tiun agordan modulon."
+
+#: kcm.cpp:201
+#, kde-format
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Montrilo malkonektita. Fermis ĝian agordan dialogon."
+
+#: kcm.cpp:203
+#, kde-format
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Montrilo malkonektita. Neniuj aliaj aparatoj trovitaj."
+
+#: ui/bindings.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Extra Mouse Buttons"
+msgstr "Pluaj Musbutonoj"
+
+#: ui/bindings.qml:77
+#, kde-format
+msgctxt "@label for assigning an action to a numbered button"
+msgid "Extra Button %1:"
+msgstr "Plua Butono %1:"
+
+#: ui/bindings.qml:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Press the mouse button for which you want to add a key binding"
+msgstr "Premu la musbutonon por kiu vi volas aldoni klavbindadon"
+
+#: ui/bindings.qml:108
+#, kde-format
+msgctxt "@action:button, %1 is the translation of 'Extra Button %1' from above"
+msgid "Enter the new key combination for %1"
+msgstr "Enigu la novan klavkombinon por %1"
+
+#: ui/bindings.qml:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ui/bindings.qml:130
+#, kde-format
+msgctxt "@action:button"
+msgid "Press a mouse button"
+msgstr "Premu musbutonon"
+
+#: ui/bindings.qml:131
+#, kde-format
+msgctxt "@action:button, Bind a mousebutton to keyboard key(s)"
+msgid "Add Binding…"
+msgstr "Aldoni bindaĵon…"
+
+#: ui/main.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Extra Buttons…"
+msgstr "Agordi Ekstrajn Butonojn…"
+
+#: ui/main.qml:66
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@title:listbox select device"
+msgid "Device:"
+msgstr "Aparato:"
+
+#: ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group"
+msgid "General:"
+msgstr "Ĝenerale:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@option:check enable this mouse device"
+msgid "Enable device"
+msgstr ""
+
+#: ui/main.qml:107
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Interŝanĝi maldekstran kaj dekstran butonon."
+
+#: ui/main.qml:108
+#, fuzzy, kde-format
+#| msgid "Left-handed mode"
+msgctxt "@option:check Left and right buttons"
+msgid "Swap (left-handed mode)"
+msgstr "Maldekstromana reĝimo"
+
+#: ui/main.qml:123
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid ""
+#| "Pressing the left and right button simultaneously acts as middle-click."
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr ""
+"Premi maldekstran kaj dekstran butonon samtempe agas kiel meza butonklako."
+
+#: ui/main.qml:135
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Aktivigo de ĉi tiu agordo pliigas la klakrespondan tempon je 50 ms. La "
+"ekstra prokrasto estas necesa por ĝuste detekti samtempajn maldekstrajn kaj "
+"dekstrajn butonpremojn."
+
+#: ui/main.qml:147
+#, fuzzy, kde-format
+#| msgid "Pointer speed:"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Rapideco de la montrilo:"
+
+#: ui/main.qml:225
+#, fuzzy, kde-format
+#| msgid "Enable pointer acceleration"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Ebligi montrilan akcelon"
+
+#: ui/main.qml:239
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip from ContextualHelpButton"
+#| msgid ""
+#| "When enabled, pointer travel distance increases with faster movement "
+#| "speed."
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr "Ŝaltite, montrila vojaĝdistanco pliiĝas laŭ plia musmova rapideco."
+
+#: ui/main.qml:249
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Scrolling speed:"
+msgstr "Rapideco de rulumado:"
+
+#: ui/main.qml:300
+#, kde-format
+msgctxt "Slower Scroll"
+msgid "Slower"
+msgstr "Pli malrapida"
+
+#: ui/main.qml:309
+#, kde-format
+msgctxt "Faster Scroll Speed"
+msgid "Faster"
+msgstr "Pli rapida"
+
+#: ui/main.qml:319
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt "@title:group"
+msgid "Scrolling:"
+msgstr "Rulumado:"
+
+#: ui/main.qml:320
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction"
+msgctxt "@option:check"
+msgid "Invert scroll direction"
+msgstr "Inversigi la ruluman direkton"
+
+#: ui/main.qml:335
+#, fuzzy, kde-format
+#| msgid "Press middle button and move mouse to scroll"
+msgctxt "@option:check"
+msgid "Hold down middle button and move mouse to scroll"
+msgstr "Premu mezan butonon kaj movu muson por rulumi"
+
+#: ui/main.qml:347
+#, kde-format
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
+msgid ""
+"This will interfere with applications that use middle-button drag, such as "
+"some image editors, document viewers, or video games. It may be used on any "
+"device, but is intended primarily as a substitute for scroll wheels on "
+"devices that do not have any."
+msgstr ""
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Pridemando de enigaparatoj malsukcesis. Bonvolu remalfermi ĉi tiun "
+#~ "agordan modulon."
+
+#~ msgid "Device enabled"
+#~ msgstr "Aparato ebilgita"
+
+#~ msgctxt "@option:check"
+#~ msgid "Press left and right buttons for middle-click"
+#~ msgstr "Premi maldekstran kaj dekstran butonon for meza klako."
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Akcepti enigojn per tiu aparato."
+
+#~ msgid "Touchscreen-like scrolling."
+#~ msgstr "Tuŝekran-simila rulumado."
+
+#~ msgid "Scrolling with the mouse while the middle button is pressed."
+#~ msgstr "Rulumante per la muso dum kiam meza butono estas premata."

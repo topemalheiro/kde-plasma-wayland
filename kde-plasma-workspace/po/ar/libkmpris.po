@@ -1,0 +1,101 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# SPDX-FileCopyrightText: 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-29 00:44+0000\n"
+"PO-Revision-Date: 2025-11-29 21:44+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: kded/mprisservice.cpp:131
+#, kde-format
+msgctxt "@title Name for global shortcuts category"
+msgid "Media Controller"
+msgstr "محتكم الوسائط"
+
+#: kded/mprisservice.cpp:140
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Play/Pause media playback"
+msgstr "شغّل/أوقف الوسيط"
+
+#: kded/mprisservice.cpp:141
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback next"
+msgstr "الوسيط التالي"
+
+#: kded/mprisservice.cpp:142
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback previous"
+msgstr "الوسيط السابق"
+
+#: kded/mprisservice.cpp:144
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek forward 5s"
+msgstr "تقديم 5 ثوانٍ في تشغيل الوسائط"
+
+#: kded/mprisservice.cpp:148
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek backward 5s"
+msgstr "ترجيع تشغيل الوسائط 5 ثوانٍ"
+
+#: kded/mprisservice.cpp:152
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek forward 30s"
+msgstr "تقديم 30 ثانية في تشغيل الوسائط"
+
+#: kded/mprisservice.cpp:156
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media playback seek backward 30s"
+msgstr "ترجيع تشغيل الوسائط 30 ثانية"
+
+#: kded/mprisservice.cpp:159
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Stop media playback"
+msgstr "أوقف الوسيط"
+
+#: kded/mprisservice.cpp:160
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Pause media playback"
+msgstr "ألبِث التشغيل"
+
+#: kded/mprisservice.cpp:161
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Play media playback"
+msgstr "شغل الوسيط"
+
+#: kded/mprisservice.cpp:162
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media volume up"
+msgstr "رفع صوت الوسيط"
+
+#: kded/mprisservice.cpp:163
+#, kde-format
+msgctxt "@title shortcut"
+msgid "Media volume down"
+msgstr "خفض صوت الوسيط"
+
+#~ msgctxt "@action:button"
+#~ msgid "Choose player automatically"
+#~ msgstr "اختر المشّغل آليًّا"

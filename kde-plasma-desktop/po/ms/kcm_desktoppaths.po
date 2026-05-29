@@ -1,0 +1,277 @@
+# kcm_desktoppaths Bahasa Melayu (Malay) (ms)
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2004, 2008, 2009, 2010.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktoppaths\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2011-05-11 16:42+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgid "Desktop path:"
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "Laluan desktop:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr ""
+
+#: ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "Documents"
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "Dokumen"
+
+#: ui/main.qml:73
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"dokumen."
+
+#: ui/main.qml:81
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "Muatturun"
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "This folder will be used by default to save your downloaded items."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Folder ini akan digunakan secara default untuk menyimpan item yang anda "
+"muatturun."
+
+#: ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "Movies path:"
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "Laluan wayang:"
+
+#: ui/main.qml:101
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save movies from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"wayang."
+
+#: ui/main.qml:109
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "Laluan gambar:"
+
+#: ui/main.qml:115
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save movies from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"wayang."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr ""
+
+#: ui/main.qml:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save music from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"muzik."
+
+#: ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Music path:"
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "Laluan muzik:"
+
+#: ui/main.qml:143
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save pictures from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"gambar."
+
+#: ui/main.qml:151
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "Laluan gambar:"
+
+#: ui/main.qml:157
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save pictures from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"gambar."
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "Pictures path:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "Laluan gambar:"
+
+#: ui/main.qml:171
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+"Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+"dokumen."
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr ""
+
+#~ msgid ""
+#~ "This folder contains all the files which you see on your desktop. You can "
+#~ "change the location of this folder if you want to, and the contents will "
+#~ "move automatically to the new location as well."
+#~ msgstr ""
+#~ "Folder ini mengandungi semua fail yang anda lihat dalam desktop anda. "
+#~ "Anda boleh ubah lokasi folder ini jika anda ingin, dan kandungannya akan "
+#~ "beralih secara automatik ke lokasi baru."
+
+#~ msgid "Documents path:"
+#~ msgstr "Laluan dokumen:"
+
+#~ msgid "Downloads path:"
+#~ msgstr "Laluan muatturun:"
+
+#~ msgid ""
+#~ "This folder will be used by default to load or save pictures from or to."
+#~ msgstr ""
+#~ "Folder ini akan digunakan menurut piawai untuk memuatkan atau menyimpan "
+#~ "gambar."
+
+#~ msgid "Music path:"
+#~ msgstr "Laluan muzik:"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "Music"
+#~ msgstr "Muzik"
+
+#~ msgid "Pictures"
+#~ msgstr "Gambar"
+
+#, fuzzy
+#~| msgid "Movies path:"
+#~ msgid "Videos"
+#~ msgstr "Laluan wayang:"
+
+#~ msgid ""
+#~ "<h1>Paths</h1>\n"
+#~ "This module allows you to choose where in the filesystem the files on "
+#~ "your desktop should be stored.\n"
+#~ "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+#~ msgstr ""
+#~ "<h1>Laluan</h1>\n"
+#~ "Modul ini membolehkan anda memilih tempat dalam sistem fail untuk "
+#~ "menyimpan fail dalam desktop anda.\n"
+#~ "Guna \"Apa Ini?\" (Shift+F1) untuk mendapatkan bantuan dalam pilihan "
+#~ "khusus."
+
+#~ msgid "Autostart path:"
+#~ msgstr "Laluan automula:"
+
+#, fuzzy
+#~| msgid ""
+#~| "This folder contains applications or links to applications (shortcuts) "
+#~| "that you want to have started automatically whenever KDE starts. You can "
+#~| "change the location of this folder if you want to, and the contents will "
+#~| "move automatically to the new location as well."
+#~ msgid ""
+#~ "This folder contains applications or links to applications (shortcuts) "
+#~ "that you want to have started automatically whenever the session starts. "
+#~ "You can change the location of this folder if you want to, and the "
+#~ "contents will move automatically to the new location as well."
+#~ msgstr ""
+#~ "Folder ini mengandungi aplikasi atau pautan ke aplikasi (jalan pintas) "
+#~ "yang anda ingin bermula secara automatik apabila KDE bermula. Anda boleh "
+#~ "ubah lokasi folder ini jika anda mahu, dan kandungannya akan beralih "
+#~ "secara automatik ke lokasi baru."
+
+#~ msgid "Autostart"
+#~ msgstr "Automula"
+
+#~ msgid "Movies"
+#~ msgstr "Wayang"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want the files to be moved from '%2' to '%3'?"
+#~ msgstr ""
+#~ "Laluan bagi '%1' telah diubah;\n"
+#~ "Anda ingin fail dialih dari '%2' ke '%3'?"
+
+#~ msgctxt "Move files from old to new place"
+#~ msgid "Move"
+#~ msgstr "Pindah"
+
+#~ msgctxt "Use the new directory but do not move files"
+#~ msgid "Do not Move"
+#~ msgstr "Jangan Pindah"
+
+#~ msgid ""
+#~ "The path for '%1' has been changed.\n"
+#~ "Do you want to move the directory '%2' to '%3'?"
+#~ msgstr ""
+#~ "Laluan bagi '%1' telah diubah;\n"
+#~ "Anda ingin direktori dialih dari '%2' ke '%3'?"
+
+#~ msgctxt "Move the directory"
+#~ msgid "Move"
+#~ msgstr "Pindah"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "Pengesahan Diperlukan"

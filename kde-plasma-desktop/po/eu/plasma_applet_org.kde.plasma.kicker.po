@@ -1,0 +1,564 @@
+# Translation for plasma_applet_org.kde.plasma.kicker.po to Euskara/Basque (eu)
+# Copyright (C) 2016-2026 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-14 00:45+0000\n"
+"PO-Revision-Date: 2026-02-16 12:03+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Kendu gogokoetatik"
+
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Gehitu gogokoetara"
+
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Jarduera guztietan"
+
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Uneko jardueran"
+
+#: code/tools.js:147
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Erakutsi gogokoetan"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Orokorra"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Ikonoa:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Hautatu…"
+
+#: ConfigGeneral.qml:140
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr ""
+
+#: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Aplikazioak honela erakutsi:"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Izena bakarrik"
+
+#: ConfigGeneral.qml:163
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Deskribapena bakarrik"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Izena (Deskribapena)"
+
+#: ConfigGeneral.qml:164
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Deskribapena (Izena)"
+
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr "Jokabidea:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Aplikazioak alfabetikoki ordenatu"
+
+#: ConfigGeneral.qml:184
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr "Azpi-menuak maila bakarrera lautu"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr "Ikonoak erakutsi menuaren erroko mailan"
+
+#: ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "Maiz erabilitako aplikazioak"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr "Kategoriak erakutsi:"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr "Berriki erabilitako aplikazioak"
+
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr "Maiz erabilitako aplikazioak"
+
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr "Berriki erabilitako fitxategiak"
+
+#: ConfigGeneral.qml:220
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr "Maiz erabilitako fitxategiak"
+
+#: ConfigGeneral.qml:227
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Recent files"
+msgctxt "@option:check"
+msgid "Recent places"
+msgstr "Berriki erabilitako fitxategiak"
+
+#: ConfigGeneral.qml:228
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used files"
+msgctxt "@option:check"
+msgid "Often used places"
+msgstr "Maiz erabilitako fitxategiak"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr "Ordenatu kategorietako elementuak honen arabera:"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Berriki erabilitakoak"
+
+#: ConfigGeneral.qml:235
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr "Maiz erabilitakoak"
+
+#: ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr "Bilatu:"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Zabaldu bilaketa laster-marka, fitxategi eta posta-elektronikoetara"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr "Lerrokatu bilaketa emaitzak behealdera"
+
+#: ConfigGeneral.qml:260
+#, kde-format
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr "Itxura:"
+
+#: ConfigGeneral.qml:265
+#, kde-format
+msgctxt "@option:check"
+msgid "Prefer Dark Mode when available"
+msgstr "Hobetsi Modu Iluna, erabilgarri dagoenean"
+
+#: ConfigGeneral.qml:269
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This feature uses the complementary colors from your colorscheme, which "
+"usually feature a dark background."
+msgstr ""
+"Ezaugarri honek zure kolore-antolaerako kolore osagarriak erabiltzen ditu, "
+"atzeko plano iluna ezaugarritu ohi duena."
+
+#: DashboardRepresentation.qml:424
+#, kde-format
+msgctxt "@title:group for column with app and system action grids"
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: DashboardRepresentation.qml:950 ItemListDelegate.qml:97
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: DashboardRepresentation.qml:951 ItemListDelegate.qml:98
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "There is a newly-installed application in this category"
+msgstr ""
+
+#: ItemGridDelegate.qml:81
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: ItemGridDelegate.qml:83
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Maiz erabilitako aplikazioak"
+
+#: ItemListDelegate.qml:40
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr "Ireki kategoria"
+
+#: ItemListDelegate.qml:41
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr "Abiarazi"
+
+#: ItemListDelegate.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Often used applications"
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly-installed application"
+msgstr "Maiz erabilitako aplikazioak"
+
+#: main.qml:208
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Editatu aplikazioak…"
+
+#: MenuRepresentation.qml:191
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: MenuRepresentation.qml:370
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Ez dago emaitzarik"
+
+#~ msgctxt "@item:inmenu Reset icon to default"
+#~ msgid "Clear Icon"
+#~ msgstr "Berrezarri ikonoa"
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "'%1' bilatzen"
+
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Bilatu beharreko mota…"
+
+#~ msgid "Widgets"
+#~ msgstr "Trepetak"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Aplikazioak eta Dokumentuak"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Berriki erabilitako kontaktuak"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Maiz erabilitako kontaktuak"
+
+#~ msgid "Search…"
+#~ msgstr "Bilatu…"
+
+#~ msgid "Search..."
+#~ msgstr "Bilatu..."
+
+#~ msgid "Often used documents"
+#~ msgstr "Maiz erabilitako dokumentuak"
+
+#~ msgid "Open with:"
+#~ msgstr "Ireki honekin:"
+
+#~ msgid "Properties"
+#~ msgstr "Propietateak"
+
+#~ msgid "Add to Desktop"
+#~ msgstr "Gehitu mahaigainera"
+
+#~ msgid "Add to Panel (Widget)"
+#~ msgstr "Gehitu panelera (trepeta)"
+
+#~ msgid "Pin to Task Manager"
+#~ msgstr "Iltzatu Ataza Kudeatzailean"
+
+#~ msgid "Recent Documents"
+#~ msgstr "Berriki erabilitako dokumentuak"
+
+#~ msgid "Forget Recent Documents"
+#~ msgstr "Ahaztu berriki erabilitako dokumentuak"
+
+#~ msgid "Edit Application..."
+#~ msgstr "Editatu aplikazioa..."
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Uninstall or Manage Add-Ons..."
+#~ msgstr "Desinstalatu edo kudeatu gehigarriak..."
+
+#~ msgid "Hide Application"
+#~ msgstr "Ezkutatu aplikazioa"
+
+#~ msgctxt "App name (Generic name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "Generic name (App name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Applications"
+#~ msgstr "Aplikazioak"
+
+#~ msgid "Unhide Applications in this Submenu"
+#~ msgstr "Erakutsi azpimenu honetan ezkutatutako aplikazioak"
+
+#~ msgid "Unhide Applications in '%1'"
+#~ msgstr "Erakutsi '%1'(e)an ezkutatutako aplikazioak"
+
+#~ msgid "Show KRunner"
+#~ msgstr "Erakutsi KRunner"
+
+#~ msgid "Search, calculate, or run a command"
+#~ msgstr "Bilatu, kalkulatu, edo komando bat exekutatu"
+
+#~ msgid "Computer"
+#~ msgstr "Ordenagailua"
+
+#~ msgid "Show Contact Information..."
+#~ msgstr "Erakutsi kontaktuaren informazioa..."
+
+#~ msgid "Contacts"
+#~ msgstr "Kontaktuak"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Ahaztu kontaktua"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Ahaztu kontaktu guztiak"
+
+#~ msgid "Recently Used"
+#~ msgstr "Berriki erabilia"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumentuak"
+
+#~ msgid "Forget Application"
+#~ msgstr "Ahaztu aplikazioa"
+
+#~ msgid "Forget Document"
+#~ msgstr "Ahaztu dokumentua"
+
+#~ msgid "Forget All"
+#~ msgstr "Ahaztu guztiak"
+
+#~ msgid "Forget All Applications"
+#~ msgstr "Ahaztu aplikazio guztiak"
+
+#~ msgid "Forget All Documents"
+#~ msgstr "Ahaztu dokumentu guztiak"
+
+#~ msgid "Hide %1"
+#~ msgstr "Ezkutatu %1"
+
+#~ msgid "All Applications"
+#~ msgstr "Aplikazio guztiak"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Berriki erabilitako kontaktuak"
+
+#~ msgid "Often Used Documents"
+#~ msgstr "Maiz erabilitako dokumentuak"
+
+#~ msgid "Recent Applications"
+#~ msgstr "Berriki erabilitako aplikazioak"
+
+#~ msgid "Often Used Applications"
+#~ msgstr "Maiz erabilitako aplikazioak"
+
+#~ msgid "Power / Session"
+#~ msgstr "Energia / Saioa"
+
+#~ msgid "Search results"
+#~ msgstr "Bilaketaren emaitzak"
+
+#~ msgid "Lock"
+#~ msgstr "Giltzatu"
+
+#~ msgid "Log Out"
+#~ msgstr "Itxi saioa"
+
+#~ msgid "Save Session"
+#~ msgstr "Gorde saioa"
+
+#~ msgid "Switch User"
+#~ msgstr "Aldatu erabiltzailea"
+
+#~ msgctxt "Suspend to RAM"
+#~ msgid "Sleep"
+#~ msgstr "Egin lo"
+
+#~ msgid "Hibernate"
+#~ msgstr "Hibernatu"
+
+#~ msgid "Restart"
+#~ msgstr "Berrabiarazi"
+
+#~ msgid "Shut Down"
+#~ msgstr "Itzali"
+
+#~ msgid "Session"
+#~ msgstr "Saioa"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Lock screen"
+#~ msgstr "Giltzatu pantaila"
+
+#~ msgid "End session"
+#~ msgstr "Amaitu saioa"
+
+#~ msgid "Start a parallel session as a different user"
+#~ msgstr "Hasi saio paralelo bat erabiltzaile desberdin gisa"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "Eseki RAMera"
+
+#~ msgid "Suspend to disk"
+#~ msgstr "Eseki diskora"
+
+#~ msgid "Restart computer"
+#~ msgstr "Berrabiarazi ordenagailua"
+
+#~ msgid "Turn off computer"
+#~ msgstr "Itzali ordenagailua"
+
+#~ msgid "System actions"
+#~ msgstr "Sistemaren ekintzak"
+
+#~ msgctxt "@action opens a software center with the application"
+#~ msgid "Manage '%1'..."
+#~ msgstr "Kudeatu '%1'..."
+
+#~ msgid "Run Command..."
+#~ msgstr "Exekutatu komandoa..."
+
+#~ msgid "Run a command or a search query"
+#~ msgstr "Exekutatu komando bat edo bilaketa itaun bat"
+
+#~ msgid "Show:"
+#~ msgstr "Erakutsi:"
+
+#~ msgid "Show recent applications"
+#~ msgstr "Erakutsi berriki erabilitako aplikazioak"
+
+#~ msgid "Show often used applications"
+#~ msgstr "Erakutsi maiz erabilitako aplikazioak"
+
+#~ msgid "Show recent documents"
+#~ msgstr "Erakutsi berriki erabilitako dokumentuak"
+
+#~ msgid "Show often used documents"
+#~ msgstr "Erakutsi maiz erabilitako dokumentuak"
+
+#~ msgid "Show recent contacts"
+#~ msgstr "Erakutsi berriki erabilitako kontaktuak"
+
+#~ msgid "Logout"
+#~ msgstr "Itxi saioa"
+
+#~ msgid "Reboot"
+#~ msgstr "Berrabiarazi"
+
+#~ msgid "Suspend"
+#~ msgstr "Eseki"
+
+#~ msgid "Removable Storage"
+#~ msgstr "Biltegi eramangarria"
+
+#~ msgid "Places"
+#~ msgstr "Lekuak"
+
+#~ msgid "Use custom image:"
+#~ msgstr "Erabili irudi pertsonalizatua:"
+
+#~ msgid "Choose an image"
+#~ msgstr "Aukeratu irudi bat"
+
+#~ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+#~ msgstr "Irudi fitxategiak (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+
+#~ msgid "Add as Launcher"
+#~ msgstr "Erantsi jaurtitzaile gisa"

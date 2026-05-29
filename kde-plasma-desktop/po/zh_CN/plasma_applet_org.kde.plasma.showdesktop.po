@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:45+0000\n"
+"PO-Revision-Date: 2024-04-22 15:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf6-trunk/messages/plasma-desktop/plasma_applet_org.kde."
+"plasma.showdesktop.pot\n"
+"X-Crowdin-File-ID: 43457\n"
+
+#: main.qml:118
+#, kde-format
+msgctxt "@label Accessible name"
+msgid "Minimize All Applet Active Indicator"
+msgstr "最小化所有小程序活动指示器"
+
+#: MinimizeAllController.qml:17
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Restore Windows"
+msgstr "恢复窗口"
+
+#: MinimizeAllController.qml:18
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Minimize All Windows"
+msgstr "最小化所有窗口"
+
+#: MinimizeAllController.qml:20
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Restores the previously minimized windows"
+msgstr "还原之前最小化的窗口"
+
+#: MinimizeAllController.qml:21
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "最小化所有窗口以显示桌面"
+
+#: PeekController.qml:14
+#, kde-format
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr "暂时显示桌面"
+
+#: PeekController.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr "停止暂时显示桌面"
+
+#: PeekController.qml:17
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr "还原所有窗口的原始位置"
+
+#: PeekController.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr "暂时移开窗口以显示桌面"

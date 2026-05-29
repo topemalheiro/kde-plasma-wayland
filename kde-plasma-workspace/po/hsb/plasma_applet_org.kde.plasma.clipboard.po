@@ -1,0 +1,62 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Edward Wornar <edi.werner@gmx.de>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2021-11-18 21:06+0100\n"
+"Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
+"Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
+"Language: hsb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Wobsah zapisnika"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Zapisnik je prózdny"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Předchadne wobsahi zabyć"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Zapisnik připrawić"
+
+#~ msgid "QR Code"
+#~ msgstr "QR Code"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Wróćo do zapisnika"
+
+#~ msgid "Invoke action"
+#~ msgstr "Akciju zwołać"
+
+#~ msgid "Edit contents"
+#~ msgstr "Wobsah wobdźěłać"
+
+#~ msgid "Remove from history"
+#~ msgstr "Zabyć"
+
+#~ msgid "No matches"
+#~ msgstr "Ničo njenamakał"
+
+#~ msgid "Clear history"
+#~ msgstr "Předchadne wobsahi zabyć"
+
+#~ msgid "Search…"
+#~ msgstr "Pytać..."

@@ -1,0 +1,96 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021.
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2024-12-15 19:31+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "क्लिपबोर्ड के वस्तुएँ"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "क्लिपबोर्ड खाली है"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "इतिहास साफ करें"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "क्लिपबोर्ड विन्यस्त करें…"
+
+#~ msgid "QR Code"
+#~ msgstr "क्यूआर कोड"
+
+#~ msgid "Data Matrix"
+#~ msgstr "डाटा माट्रिक्स"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "एज़्टेक"
+
+#~ msgid "Code 39"
+#~ msgstr "कोड ३९"
+
+#~ msgid "Code 93"
+#~ msgstr "कोड ९३"
+
+#~ msgid "Code 128"
+#~ msgstr "कोड १२८"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "क्लिपबोर्ड पर लौटें"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "क्यूआर कोड प्रकार बदलें"
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "क्यूआर कोड बनाना विफल हुआ"
+
+#~ msgid "Invoke action"
+#~ msgstr "क्रिया शुरू करें"
+
+#~ msgid "Show QR code"
+#~ msgstr "क्यूआर कोड दिखाएँ"
+
+#~ msgid "Edit contents"
+#~ msgstr "विषय-वस्तु का संपादन करें"
+
+#~ msgid "Remove from history"
+#~ msgstr "इतिहास सूची से हटाएँ"
+
+#~ msgid "No matches"
+#~ msgstr "कोई मेल नहीं"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "क्यूआर कोड प्रदर्शित होने के लिए बहुत बड़ा है"
+
+#~ msgid "Clear history"
+#~ msgstr "इतिहास साफ करें"
+
+#~ msgid "Search…"
+#~ msgstr "खोजें…"

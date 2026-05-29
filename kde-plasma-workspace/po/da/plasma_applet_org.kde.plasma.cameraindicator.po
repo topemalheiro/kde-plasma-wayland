@@ -1,0 +1,86 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2025 rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-02 00:46+0000\n"
+"PO-Revision-Date: 2025-07-19 12:19+0200\n"
+"Last-Translator: rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.3\n"
+
+#: qml/FullRepresentation.qml:44
+#, kde-format
+msgctxt "@info:status %1 camera name"
+msgid "%1 is in use"
+msgstr "%1 er i brug"
+
+#: qml/FullRepresentation.qml:78
+#, kde-format
+msgctxt "@title"
+msgid "Camera"
+msgstr "Kamera"
+
+#: qml/FullRepresentation.qml:81
+#, kde-format
+msgctxt "@info:status"
+msgid "Active"
+msgstr "Aktiv"
+
+#: qml/FullRepresentation.qml:83
+#, kde-format
+msgctxt "@info:status"
+msgid "Idle"
+msgstr "Inaktiv"
+
+#: qml/FullRepresentation.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "Fejl"
+
+#: qml/FullRepresentation.qml:87
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating"
+msgstr "Opretter"
+
+#: qml/FullRepresentation.qml:89
+#, kde-format
+msgctxt "@info:status"
+msgid "Suspended"
+msgstr "Suspenderet"
+
+#: qml/FullRepresentation.qml:91
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: qml/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Camera indicator is unavailable"
+msgstr "Kameraindikator er ikke tilgængelig"
+
+#: qml/main.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A camera is in use"
+msgid_plural "%1 cameras are in use"
+msgstr[0] "Et kamera er i brug"
+msgstr[1] "%1 kameraer er i brug"
+
+#: qml/main.qml:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No camera is in use"
+msgstr "Intet kamera er i brug"

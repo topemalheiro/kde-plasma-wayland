@@ -1,0 +1,491 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Elkana Bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmashellprivateplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-24 00:46+0000\n"
+"PO-Revision-Date: 2026-04-24 19:47+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:45
+#, kde-format
+msgctxt "Placeholder is the battery number"
+msgid "Battery %1"
+msgstr "סוללה %1"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:47
+#, kde-format
+msgid "Battery"
+msgstr "סוללה"
+
+#: calendar/eventdatadecorator.cpp:50
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Holidays"
+msgstr "חגים"
+
+#: calendar/eventdatadecorator.cpp:52
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Events"
+msgstr "אירועים"
+
+#: calendar/eventdatadecorator.cpp:54
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Todo"
+msgstr "מטלות"
+
+#: calendar/eventdatadecorator.cpp:56
+#, kde-format
+msgctxt "Means 'Other calendar items'"
+msgid "Other"
+msgstr "אחר"
+
+#: calendar/qml/DayDelegate.qml:97
+#, kde-format
+msgid "%1 event"
+msgid_plural "%1 events"
+msgstr[0] "אירוע"
+msgstr[1] "שני אירועים"
+msgstr[2] "%1 אירועים"
+msgstr[3] "%1 אירועים"
+
+#: calendar/qml/DayDelegate.qml:98
+#, kde-format
+msgid "No events"
+msgstr "אין אירועים"
+
+#: calendar/qml/MonthViewHeader.qml:74
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: calendar/qml/MonthViewHeader.qml:131
+#, kde-format
+msgid "Days"
+msgstr "ימים"
+
+#: calendar/qml/MonthViewHeader.qml:139
+#, kde-format
+msgid "Months"
+msgstr "חודשים"
+
+#: calendar/qml/MonthViewHeader.qml:147
+#, kde-format
+msgid "Years"
+msgstr "שנים"
+
+#: calendar/qml/MonthViewHeader.qml:184
+#, kde-format
+msgid "Previous Month"
+msgstr "החודש הקודם"
+
+#: calendar/qml/MonthViewHeader.qml:186
+#, kde-format
+msgid "Previous Year"
+msgstr "השנה הקודמת"
+
+#: calendar/qml/MonthViewHeader.qml:188
+#, kde-format
+msgid "Previous Decade"
+msgstr "העשור הקודם"
+
+#: calendar/qml/MonthViewHeader.qml:206
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "היום"
+
+#: calendar/qml/MonthViewHeader.qml:207
+#, kde-format
+msgid "Reset calendar to today"
+msgstr "איפוס לוח השנה להיום"
+
+#: calendar/qml/MonthViewHeader.qml:220
+#, kde-format
+msgid "Next Month"
+msgstr "החודש הבא"
+
+#: calendar/qml/MonthViewHeader.qml:222
+#, kde-format
+msgid "Next Year"
+msgstr "השנה הבאה"
+
+#: calendar/qml/MonthViewHeader.qml:224
+#, kde-format
+msgid "Next Decade"
+msgstr "העשור הבא"
+
+#: calendar/qml/MonthViewHeader.qml:283
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep Open"
+msgstr "להשאיר פתוח"
+
+#: containmentlayoutmanager/qml/BasicAppletContainer.qml:287
+#, kde-format
+msgid "Configure…"
+msgstr "הגדרה…"
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "מסך נעילה פעיל"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "מגדיר אם המסך יינעל לאחר זמן מוקצב."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "זמן מוקצב לשומר מסך"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "מגדיר תוך כמה דקות המסך יינעל."
+
+#: sessionsprivate/sessionsmodel.cpp:255 sessionsprivate/sessionsmodel.cpp:259
+#, kde-format
+msgid "New Session"
+msgstr "הפעלה חדשה"
+
+#: shellprivate/kcategorizeditemsviewmodels.cpp:66
+#, kde-format
+msgid "Filters"
+msgstr "מסננים"
+
+#: shellprivate/plasmaappletitemmodel.cpp:199
+#, kde-format
+msgid ""
+"This widget was written for an unknown older version of Plasma and is not "
+"compatible with Plasma %1. Please contact the widget's author for an updated "
+"version."
+msgstr ""
+"הווידג׳ט הזה נכתב לגרסה ישנה יותר ולא ידועה של פלזמה ואין נתמך בפלזמה %1. נא "
+"ליצור קשר עם יוצרי הווידג׳ט לאספקת גרסה עדכנית."
+
+#: shellprivate/plasmaappletitemmodel.cpp:203
+#, kde-format
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please contact the widget's author for an updated version."
+msgstr ""
+"הווידג׳ט הזה נכתב לפלזמה %1 ואינו נתמך בפלזמה %2. נא ליצור קשר עם יוצרי "
+"הווידג׳ט לאספקת גרסה עדכנית"
+
+#: shellprivate/plasmaappletitemmodel.cpp:207
+#, kde-format
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please update Plasma in order to use the widget."
+msgstr ""
+"הווידג׳ט הזה נכתב לפלזמה %1 ואינו נתמך בפלזמה %2. נא לעדכן את פלזמה כדי "
+"להשתמש ביישומון."
+
+#: shellprivate/plasmaappletitemmodel.cpp:212
+#, kde-format
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with the older "
+"version of Plasma installed on this system. Please update Plasma in order to "
+"use the widget."
+msgstr ""
+"הווידג׳ט הזה נכתב לפלזמה %1 ואינו נתמך בגרסה הישנה יותר של פלזמה שמותקנת "
+"במערכת הזאת. נא לעדכן את פלזמה כדי להשתמש בווידג׳ט."
+
+#: shellprivate/widgetexplorer.cpp:110
+msgctxt "applet category"
+msgid "Accessibility"
+msgstr "נגישות"
+
+#: shellprivate/widgetexplorer.cpp:111
+msgctxt "applet category"
+msgid "Application Launchers"
+msgstr "משגרי יישומים"
+
+#: shellprivate/widgetexplorer.cpp:112
+msgctxt "applet category"
+msgid "Astronomy"
+msgstr "אסטרונומיה"
+
+#: shellprivate/widgetexplorer.cpp:113
+msgctxt "applet category"
+msgid "Date and Time"
+msgstr "תאריך ושעה"
+
+#: shellprivate/widgetexplorer.cpp:114
+msgctxt "applet category"
+msgid "Development Tools"
+msgstr "כלי פיתוח"
+
+#: shellprivate/widgetexplorer.cpp:115
+msgctxt "applet category"
+msgid "Education"
+msgstr "חינוך"
+
+#: shellprivate/widgetexplorer.cpp:116
+msgctxt "applet category"
+msgid "Environment and Weather"
+msgstr "סביבה ומזג אוויר"
+
+#: shellprivate/widgetexplorer.cpp:117
+msgctxt "applet category"
+msgid "Examples"
+msgstr "דוגמאות"
+
+#: shellprivate/widgetexplorer.cpp:118
+msgctxt "applet category"
+msgid "File System"
+msgstr "מערכת קבצים"
+
+#: shellprivate/widgetexplorer.cpp:119
+msgctxt "applet category"
+msgid "Fun and Games"
+msgstr "כיף ומשחקים"
+
+#: shellprivate/widgetexplorer.cpp:120
+msgctxt "applet category"
+msgid "Graphics"
+msgstr "גרפיקה"
+
+#: shellprivate/widgetexplorer.cpp:121
+msgctxt "applet category"
+msgid "Language"
+msgstr "שפה"
+
+#: shellprivate/widgetexplorer.cpp:122
+msgctxt "applet category"
+msgid "Mapping"
+msgstr "מיפוי"
+
+#: shellprivate/widgetexplorer.cpp:123
+msgctxt "applet category"
+msgid "Miscellaneous"
+msgstr "שונות"
+
+#: shellprivate/widgetexplorer.cpp:124
+msgctxt "applet category"
+msgid "Multimedia"
+msgstr "מולטימדיה"
+
+#: shellprivate/widgetexplorer.cpp:125
+msgctxt "applet category"
+msgid "Online Services"
+msgstr "שירותים מקוונים"
+
+#: shellprivate/widgetexplorer.cpp:126
+msgctxt "applet category"
+msgid "Personal Information"
+msgstr "פרטים אישיים"
+
+#: shellprivate/widgetexplorer.cpp:127
+msgctxt "applet category"
+msgid "Productivity"
+msgstr "הפקה"
+
+#: shellprivate/widgetexplorer.cpp:128
+msgctxt "applet category"
+msgid "System Information"
+msgstr "פרטי מערכת"
+
+#: shellprivate/widgetexplorer.cpp:129
+msgctxt "applet category"
+msgid "Utilities"
+msgstr "עזרים"
+
+#: shellprivate/widgetexplorer.cpp:130
+msgctxt "applet category"
+msgid "Windows and Tasks"
+msgstr "חלונות ומשימות"
+
+#: shellprivate/widgetexplorer.cpp:131
+msgctxt "applet category"
+msgid "Clipboard"
+msgstr "לוח גזירים"
+
+#: shellprivate/widgetexplorer.cpp:132
+msgctxt "applet category"
+msgid "Tasks"
+msgstr "משימות"
+
+#: shellprivate/widgetexplorer.cpp:148
+#, kde-format
+msgid "All Widgets"
+msgstr "כל היישומונים"
+
+#: shellprivate/widgetexplorer.cpp:152
+#, kde-format
+msgid "Running"
+msgstr "רץ"
+
+#: shellprivate/widgetexplorer.cpp:158
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can be un-"
+"installed from the system, which are usually installed by the user to a "
+"local place."
+msgid "User-installed"
+msgstr "בהתקנת המשתמש"
+
+#: shellprivate/widgetexplorer.cpp:162
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can were "
+"recently installed."
+msgid "Recently installed"
+msgstr "הותקנו לאחרונה"
+
+#: shellprivate/widgetexplorer.cpp:166
+#, kde-format
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: shellprivate/widgetexplorer.cpp:236
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "הורדת יישומונים חדשים לפלזמה"
+
+#: shellprivate/widgetexplorer.cpp:245
+#, kde-format
+msgid "Install Widget From Local File…"
+msgstr "התקנת יישומון מקובץ מקומי…"
+
+#: shellprivate/widgetexplorer.cpp:484
+#, kde-format
+msgctxt "@title:window"
+msgid "Get New Widgets"
+msgstr "הורדת יישומונים חדשים"
+
+#: shellprivate/widgetexplorer.cpp:503
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "בחירת קובץ Plasmoid"
+
+#: shellprivate/widgetexplorer.cpp:519
+#, kde-format
+msgctxt "%1 is the name of an applet, %2 is an error message"
+msgid "Installing the package %1 failed: %2."
+msgstr "התקנת החבילה %1 נכשלה: %2"
+
+#: shellprivate/widgetexplorer.cpp:520
+#, kde-format
+msgid "Installation Failure"
+msgstr "ההתקנה נכשלה"
+
+#: timezoneselector/TimezoneSelector.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The currently selected time zone is not available for visualization on this "
+"map"
+msgstr "אזור הזמן הנבחר לא זמין להמחשה במפה הזאת"
+
+#: timezoneselector/TimezoneSelector.qml:122
+#: timezoneselector/TimezoneSelector.qml:301
+#, kde-format
+msgctxt "Placeholder for empty time zone combobox selector"
+msgid "Choose…"
+msgstr "בחירה…"
+
+#: timezoneselector/TimezoneSelector.qml:124
+#: timezoneselector/TimezoneSelector.qml:293
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Region:"
+msgstr "אזור:"
+
+#: timezoneselector/TimezoneSelector.qml:146
+#: timezoneselector/TimezoneSelector.qml:326
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Time zone:"
+msgstr "אזור זמן:"
+
+#: timezoneselector/TimezoneSelector.qml:248
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom in"
+msgstr "התקרבות"
+
+#: timezoneselector/TimezoneSelector.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom out"
+msgstr "התרחקות"
+
+#: timezoneselector/TimezoneSelector.qml:305
+#, kde-format
+msgid "Timezone region selector"
+msgstr "בורר אזורי זמן"
+
+#: timezoneselector/TimezoneSelector.qml:337
+#, kde-format
+msgid "Timezone location selector"
+msgstr "בורר מקום אזור זמן"
+
+#~ msgctxt ""
+#~ "Full context is: '<region> region, <zone> time zone.' in the context of "
+#~ "time zone selection."
+#~ msgid "region, "
+#~ msgstr "אזור, "
+
+#~ msgid "&Execute"
+#~ msgstr "ביצוע"
+
+#~ msgid "Templates"
+#~ msgstr "תבניות"
+
+#~ msgid "Editor"
+#~ msgstr "עורך"
+
+#~ msgid "Load"
+#~ msgstr "טעינה"
+
+#~ msgid "Use"
+#~ msgstr "שימוש"
+
+#~ msgid "Output"
+#~ msgstr "פלט"
+
+#~ msgid "Open Script File"
+#~ msgstr "פתח קובץ סקריפט"
+
+#~ msgid "Save Script File"
+#~ msgstr "שמור קובץ סקריפט"
+
+#~ msgid "Executing script at %1"
+#~ msgstr "מבצע את הסקריפט ב­%1"
+
+#~ msgid "Runtime: %1ms"
+#~ msgstr "זמן ריצה %1 מילישניות"

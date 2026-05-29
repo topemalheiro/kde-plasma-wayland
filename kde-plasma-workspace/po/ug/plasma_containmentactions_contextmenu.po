@@ -1,0 +1,82 @@
+# Uyghur translation for plasma_containmentactions_contextmenu.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_containmentactions_contextmenu\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-02-09 18:16-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: menu.cpp:107
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Show KRunner"
+msgstr "KRunner نى كۆرسەت"
+
+#: menu.cpp:112
+#, kde-format
+msgid "Open Terminal"
+msgstr "تېرمىنال ئاچ"
+
+#: menu.cpp:116
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Lock Screen"
+msgstr "ئېكراننى قۇلۇپلا"
+
+#: menu.cpp:125
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Show Logout Screen"
+msgstr "تىزىمدىن چىقىش ئېكرانىنى كۆرسەت"
+
+#: menu.cpp:130
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Display Configuration"
+msgstr "سەپلىمە كۆرسەت"
+
+#: menu.cpp:278
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Configure Contextual Menu Plugin"
+msgstr "مەزمۇن تىزىملىك قىستۇرمىسىنى سەپلە"
+
+#: menu.cpp:288
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "[Other Actions]"
+msgstr "[باشقا مەشغۇلات]"
+
+#: menu.cpp:291
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "Wallpaper Actions"
+msgstr "تام قەغەز مەشغۇلاتى"
+
+#: menu.cpp:295
+#, kde-format
+msgctxt "plasma_containmentactions_contextmenu"
+msgid "[Separator]"
+msgstr "[ئايرىغۇچ]"
+
+#~| msgid "Leave..."
+#~ msgctxt "plasma_containmentactions_contextmenu"
+#~ msgid "Leave…"
+#~ msgstr "ئايرىل…"
+
+#~| msgid "Run Command..."
+#~ msgctxt "plasma_containmentactions_contextmenu"
+#~ msgid "Run Command..."
+#~ msgstr "بۇيرۇق ئىجرا قىل"

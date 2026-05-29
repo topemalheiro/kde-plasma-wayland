@@ -1,0 +1,512 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024, 2025 Kheyyam Godjayev <xxmn77@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-24 00:46+0000\n"
+"PO-Revision-Date: 2025-11-16 19:25+0400\n"
+"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xəyyam Qocayev"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xxmn77@gmail.com"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:45
+#, kde-format
+msgctxt "Placeholder is the battery number"
+msgid "Battery %1"
+msgstr "Batareya %1"
+
+#: batterycontrol/batteriesnamesmonitor_p.cpp:47
+#, kde-format
+msgid "Battery"
+msgstr "Batareya"
+
+#: calendar/eventdatadecorator.cpp:50
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Holidays"
+msgstr "Bayramlar"
+
+#: calendar/eventdatadecorator.cpp:52
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Events"
+msgstr "Tədbirlər"
+
+#: calendar/eventdatadecorator.cpp:54
+#, kde-format
+msgctxt "Agenda listview section title"
+msgid "Todo"
+msgstr "Tapşırıq"
+
+#: calendar/eventdatadecorator.cpp:56
+#, kde-format
+msgctxt "Means 'Other calendar items'"
+msgid "Other"
+msgstr "Digər"
+
+#: calendar/qml/DayDelegate.qml:97
+#, kde-format
+msgid "%1 event"
+msgid_plural "%1 events"
+msgstr[0] "%1 tətbir"
+msgstr[1] "%1 tədbir"
+
+#: calendar/qml/DayDelegate.qml:98
+#, kde-format
+msgid "No events"
+msgstr "Heç bir tətbiq yoxdur"
+
+#: calendar/qml/MonthViewHeader.qml:74
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: calendar/qml/MonthViewHeader.qml:131
+#, kde-format
+msgid "Days"
+msgstr "Günlər"
+
+#: calendar/qml/MonthViewHeader.qml:139
+#, kde-format
+msgid "Months"
+msgstr "Aylar"
+
+#: calendar/qml/MonthViewHeader.qml:147
+#, kde-format
+msgid "Years"
+msgstr "İllər"
+
+#: calendar/qml/MonthViewHeader.qml:184
+#, kde-format
+msgid "Previous Month"
+msgstr "Keçən ay"
+
+#: calendar/qml/MonthViewHeader.qml:186
+#, kde-format
+msgid "Previous Year"
+msgstr "Keçən il"
+
+#: calendar/qml/MonthViewHeader.qml:188
+#, kde-format
+msgid "Previous Decade"
+msgstr "Keçən onillik"
+
+#: calendar/qml/MonthViewHeader.qml:206
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "Bu gün"
+
+#: calendar/qml/MonthViewHeader.qml:207
+#, kde-format
+msgid "Reset calendar to today"
+msgstr "Bugünkü tarixə keç"
+
+#: calendar/qml/MonthViewHeader.qml:220
+#, kde-format
+msgid "Next Month"
+msgstr "Növbəti ay"
+
+#: calendar/qml/MonthViewHeader.qml:222
+#, kde-format
+msgid "Next Year"
+msgstr "Gələn il"
+
+#: calendar/qml/MonthViewHeader.qml:224
+#, kde-format
+msgid "Next Decade"
+msgstr "Növbəti onillik"
+
+#: calendar/qml/MonthViewHeader.qml:283
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep Open"
+msgstr "Açıq saxlamaq"
+
+#: containmentlayoutmanager/qml/BasicAppletContainer.qml:287
+#, kde-format
+msgid "Configure…"
+msgstr "Tənzimlə..."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "Ekran kilidləyici aktivdir"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "Əgər aktivdirsə ekran göstərilən müdətdən sonra kilidlənəcək."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "Ekran qoruyucusuna keçid gecikməsi"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "Göstərilən dəqiqədən sonra ekran kilidlənəcək"
+
+#: sessionsprivate/sessionsmodel.cpp:255 sessionsprivate/sessionsmodel.cpp:259
+#, kde-format
+msgid "New Session"
+msgstr "Yeni Sesiya"
+
+#: shellprivate/kcategorizeditemsviewmodels.cpp:66
+#, kde-format
+msgid "Filters"
+msgstr "Süzgəclər"
+
+#: shellprivate/plasmaappletitemmodel.cpp:199
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for an unknown older version of Plasma and is not "
+#| "compatible with Plasma %1. Please contact the widget's author for an "
+#| "updated version."
+msgid ""
+"This widget was written for an unknown older version of Plasma and is not "
+"compatible with Plasma %1. Please contact the widget's author for an updated "
+"version."
+msgstr ""
+"Bu vidjet məlum  olmayan köhnə Plasma versiyası üçün yazılıb və plasma %1 "
+"ilə uyğun deyil. Vidjetin yenilənmiş versiyası üçün onun müəllifinə müraciət "
+"edin."
+
+#: shellprivate/plasmaappletitemmodel.cpp:203
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with Plasma "
+#| "%2. Please contact the widget's author for an updated version."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please contact the widget's author for an updated version."
+msgstr ""
+"bu vidjet Plasma %1 üçün yazılb və Plasma %2 üçün uyğun deyil. Vidjetin yeni "
+"versiyası üçün onun müəllifinə müraciət edin."
+
+#: shellprivate/plasmaappletitemmodel.cpp:207
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with Plasma "
+#| "%2. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with Plasma %2. "
+"Please update Plasma in order to use the widget."
+msgstr ""
+"bu vidjet Plasma %1 üçün yazılıb və Plasma %2 ilə uyğun deyil. Vidjeti "
+"istifadə edə bilmək üçün Plasmanı yeniləyin."
+
+#: shellprivate/plasmaappletitemmodel.cpp:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Widget was written for Plasma %1 and is not compatible with the "
+#| "latest version of Plasma. Please update Plasma in order to use the widget."
+msgid ""
+"This widget was written for Plasma %1 and is not compatible with the older "
+"version of Plasma installed on this system. Please update Plasma in order to "
+"use the widget."
+msgstr ""
+"Bu vidjet Plasma %1 üçün yazılıb və sonuncu Plasma versiyası ilə uyğun "
+"deyil. Vidjeti istifadə edə bilmək üçün Plasmanı yeniləyin."
+
+#: shellprivate/widgetexplorer.cpp:110
+msgctxt "applet category"
+msgid "Accessibility"
+msgstr "Xüsusi imkanlar"
+
+#: shellprivate/widgetexplorer.cpp:111
+msgctxt "applet category"
+msgid "Application Launchers"
+msgstr "Tətbiq başladıcılar"
+
+#: shellprivate/widgetexplorer.cpp:112
+msgctxt "applet category"
+msgid "Astronomy"
+msgstr "Astronomiya"
+
+#: shellprivate/widgetexplorer.cpp:113
+msgctxt "applet category"
+msgid "Date and Time"
+msgstr "Tarix və vaxt"
+
+#: shellprivate/widgetexplorer.cpp:114
+msgctxt "applet category"
+msgid "Development Tools"
+msgstr "Tərtibatçı alətləri"
+
+#: shellprivate/widgetexplorer.cpp:115
+msgctxt "applet category"
+msgid "Education"
+msgstr "Təhsil"
+
+#: shellprivate/widgetexplorer.cpp:116
+msgctxt "applet category"
+msgid "Environment and Weather"
+msgstr "Ətraf mühit və hava"
+
+#: shellprivate/widgetexplorer.cpp:117
+msgctxt "applet category"
+msgid "Examples"
+msgstr "Nümunələr"
+
+#: shellprivate/widgetexplorer.cpp:118
+msgctxt "applet category"
+msgid "File System"
+msgstr "fayl sistemi"
+
+#: shellprivate/widgetexplorer.cpp:119
+msgctxt "applet category"
+msgid "Fun and Games"
+msgstr "Əyləncə və oyunlar"
+
+#: shellprivate/widgetexplorer.cpp:120
+msgctxt "applet category"
+msgid "Graphics"
+msgstr "Qrafika"
+
+#: shellprivate/widgetexplorer.cpp:121
+msgctxt "applet category"
+msgid "Language"
+msgstr "Dil"
+
+#: shellprivate/widgetexplorer.cpp:122
+msgctxt "applet category"
+msgid "Mapping"
+msgstr "Xəritəçəkmə"
+
+#: shellprivate/widgetexplorer.cpp:123
+msgctxt "applet category"
+msgid "Miscellaneous"
+msgstr "Müxtəlif"
+
+#: shellprivate/widgetexplorer.cpp:124
+msgctxt "applet category"
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: shellprivate/widgetexplorer.cpp:125
+msgctxt "applet category"
+msgid "Online Services"
+msgstr "Canlı xidmətlər"
+
+#: shellprivate/widgetexplorer.cpp:126
+msgctxt "applet category"
+msgid "Personal Information"
+msgstr "Fərdi məlumat"
+
+#: shellprivate/widgetexplorer.cpp:127
+msgctxt "applet category"
+msgid "Productivity"
+msgstr "Məhsuldarlıq"
+
+#: shellprivate/widgetexplorer.cpp:128
+msgctxt "applet category"
+msgid "System Information"
+msgstr "Sistem haqqında"
+
+#: shellprivate/widgetexplorer.cpp:129
+msgctxt "applet category"
+msgid "Utilities"
+msgstr "Xidməti tətbiqlər"
+
+#: shellprivate/widgetexplorer.cpp:130
+msgctxt "applet category"
+msgid "Windows and Tasks"
+msgstr "Pəncərə və tapşırıqlar"
+
+#: shellprivate/widgetexplorer.cpp:131
+msgctxt "applet category"
+msgid "Clipboard"
+msgstr "Mübadilə lövhəsi"
+
+#: shellprivate/widgetexplorer.cpp:132
+msgctxt "applet category"
+msgid "Tasks"
+msgstr "Tapşırıqlar"
+
+#: shellprivate/widgetexplorer.cpp:148
+#, kde-format
+msgid "All Widgets"
+msgstr "Bütün vidjetlər"
+
+#: shellprivate/widgetexplorer.cpp:152
+#, kde-format
+msgid "Running"
+msgstr "İşlək"
+
+#: shellprivate/widgetexplorer.cpp:158
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can be un-"
+"installed from the system, which are usually installed by the user to a "
+"local place."
+msgid "User-installed"
+msgstr "İstifadəçinin quraşdırdığı"
+
+#: shellprivate/widgetexplorer.cpp:162
+#, kde-format
+msgctxt ""
+"@item:inmenu used in the widget filter. Filter widgets that can were "
+"recently installed."
+msgid "Recently installed"
+msgstr "Son quraşdırılan"
+
+#: shellprivate/widgetexplorer.cpp:166
+#, kde-format
+msgid "Categories:"
+msgstr "Kateqoriyalar:"
+
+#: shellprivate/widgetexplorer.cpp:236
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "Yeni Plasma vidjetini yükləmək"
+
+#: shellprivate/widgetexplorer.cpp:245
+#, kde-format
+msgid "Install Widget From Local File…"
+msgstr "Vidjeti yerli fayldan quraşdırmaq..."
+
+#: shellprivate/widgetexplorer.cpp:484
+#, kde-format
+msgctxt "@title:window"
+msgid "Get New Widgets"
+msgstr "Yeni vidjet alın"
+
+#: shellprivate/widgetexplorer.cpp:503
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "Plasmoid faylını seçmək"
+
+#: shellprivate/widgetexplorer.cpp:519
+#, kde-format
+msgctxt "%1 is the name of an applet, %2 is an error message"
+msgid "Installing the package %1 failed: %2."
+msgstr "%1 paketini qurmaq mümkün olmadı: %2"
+
+#: shellprivate/widgetexplorer.cpp:520
+#, kde-format
+msgid "Installation Failure"
+msgstr "Quraşdırılma alınmadı"
+
+#: timezoneselector/TimezoneSelector.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The currently selected time zone is not available for visualization on this "
+"map"
+msgstr "Hal-hazırda seçilmiş saat qurşağını bu xəritədə görüntüləmək olmur "
+
+#: timezoneselector/TimezoneSelector.qml:122
+#: timezoneselector/TimezoneSelector.qml:301
+#, kde-format
+msgctxt "Placeholder for empty time zone combobox selector"
+msgid "Choose…"
+msgstr "Seçin..."
+
+#: timezoneselector/TimezoneSelector.qml:124
+#: timezoneselector/TimezoneSelector.qml:293
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Region:"
+msgstr "Bölgə:"
+
+#: timezoneselector/TimezoneSelector.qml:146
+#: timezoneselector/TimezoneSelector.qml:326
+#, kde-format
+msgctxt "@label:listbox In the context of time zone selection"
+msgid "Time zone:"
+msgstr "Saat qurşağı:"
+
+#: timezoneselector/TimezoneSelector.qml:248
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom in"
+msgstr "Yaxınlaşdırmaq"
+
+#: timezoneselector/TimezoneSelector.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Zoom out"
+msgstr "Uzaqlaşdırmaq"
+
+#: timezoneselector/TimezoneSelector.qml:305
+#, kde-format
+msgid "Timezone region selector"
+msgstr "Saat qurşağı bölgəsi seçicisi"
+
+#: timezoneselector/TimezoneSelector.qml:337
+#, kde-format
+msgid "Timezone location selector"
+msgstr "Saat qurşağı yeri seçicisi"
+
+#~ msgid "&Execute"
+#~ msgstr "&İcra etmək"
+
+#~ msgctxt "Toolbar Button to switch to Plasma Scripting Mode"
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgctxt "Toolbar Button to switch to KWin Scripting Mode"
+#~ msgid "KWin"
+#~ msgstr "KWin"
+
+#~ msgid "Templates"
+#~ msgstr "Şablonlar"
+
+#~ msgid "Desktop Shell Scripting Console"
+#~ msgstr "Plasma əmrlər toplusu Konsolu"
+
+#~ msgid "Editor"
+#~ msgstr "Redaktor"
+
+#~ msgid "Load"
+#~ msgstr "Yükləmək"
+
+#~ msgid "Use"
+#~ msgstr "İstifadə etmək"
+
+#~ msgid "Output"
+#~ msgstr "Çıxış"
+
+#~ msgid "Unable to load script file <b>%1</b>"
+#~ msgstr "<b>%1</b> əmr faylını başlatmaq olmur"
+
+#~ msgid "Open Script File"
+#~ msgstr "Əmr faylını açmaq"
+
+#~ msgid "Save Script File"
+#~ msgstr "Əmr faylını saxlamaq"
+
+#~ msgid "Executing script at %1"
+#~ msgstr "%1 də(a) əmr faylını icra etmək"
+
+#~ msgid "Runtime: %1ms"
+#~ msgstr "İcra müddəti: %1 msan"
+
+#~ msgid "Download Wallpaper Plugins"
+#~ msgstr "Divar Kağızı əlavəsini yükləmək"

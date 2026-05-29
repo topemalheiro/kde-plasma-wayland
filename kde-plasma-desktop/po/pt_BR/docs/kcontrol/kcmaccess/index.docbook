@@ -1,0 +1,989 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Brazilian-Portuguese "INCLUDE"
+> <!-- change language only here -->
+]>
+
+<article id="kcmaccess" lang="&language;">
+<title
+>Acessibilidade</title>
+<articleinfo>
+<authorgroup
+>	
+<author
+>&Mike.McBride; &Mike.McBride.mail;</author>
+<othercredit role="translator"
+><firstname
+>Lisiane</firstname
+> <surname
+>Sztoltz</surname
+><affiliation
+><address
+> <email
+>lisiane@conectiva.com.br</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> <othercredit role="translator"
+><firstname
+>Marcus</firstname
+> <surname
+>Gama</surname
+><affiliation
+><address
+> <email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Revisão</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>André Marcelo</firstname
+><surname
+>Alvarenga</surname
+><affiliation
+><address
+><email
+>alvarenga@kde.org</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>10/05/2026</date>
+<releaseinfo
+>Plasma 6.6</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Configurações do sistema</keyword>
+<keyword
+>acessibilidade</keyword>
+<keyword
+>teclas</keyword>
+<keyword
+>campainha</keyword>
+</keywordset>
+</articleinfo>
+
+<sect1 id="accessibility">
+<title
+>Acessibilidade</title>
+<sect2 id="accessibility-intro">
+
+<title
+>Introdução</title>
+
+<para
+>Este módulo foi projetado para auxiliar usuários que possuem deficiências auditivas, ou que possuem dificuldade em utilizar um teclado. </para>
+
+<para
+>O módulo está dividido em dez abas: <link linkend="access-zoom"
+><guilabel
+>Lente de aumento</guilabel
+></link
+>,<link linkend="access-bell"
+><guilabel
+>Campainha do sistema</guilabel
+></link
+>, <link linkend="access-modifier-keys"
+><guilabel
+>Teclas modificadoras</guilabel
+></link
+>, <link linkend="access-keyboard-filters"
+><guilabel
+>Filtros de teclado</guilabel
+></link
+>, <link linkend="mouse-navigation"
+><guilabel
+>Navegação do mouse</guilabel
+></link
+>, <link linkend="access-activation-shortcuts"
+><guilabel
+>Atalhos de ativação</guilabel
+></link
+>, <link linkend="access-screenreader"
+><guilabel
+>Leitor de tela</guilabel
+></link
+>, <link linkend="access-color-blindness"
+><guilabel
+>Correção de daltonismo</guilabel
+></link
+>, <link linkend="access-invert"
+><guilabel
+>Inverter</guilabel
+></link
+> e <link linkend="access-shake-pointer"
+><guilabel
+>Agitar ponteiro</guilabel
+></link
+>. </para>
+
+
+<sect3 id="access-zoom">
+<title
+><guilabel
+>Lente de aumento</guilabel
+></title>
+
+<para
+>As ferramentas de Lente de aumento do KDE Plasma foram projetadas para ampliar partes da tela, funcionando como uma lupa digital. Embora compartilhem o objetivo de tornar textos pequenos e detalhes minuciosos mais legíveis. Elas oferecem duas maneiras distintas de interagir com o ambiente de trabalho. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Zoom</guilabel
+></term>
+<listitem>
+<para
+>Aqui você pode alternar entre os modos <guilabel
+>Tela cheia</guilabel
+> e <guilabel
+>Ampliar região</guilabel
+>. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Tela cheia</guilabel
+></term>
+<listitem>
+<para
+>Ativa o modo de tela cheia. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Mostrar grade de pixels no nível de zoom</guilabel
+></term>
+<listitem>
+<para
+>Ao atingir um nível de ampliação suficientemente alto, o aplicativo exibe uma sobreposição visual dos pixels individuais que compõem a imagem na tela. Se ativado, o &plasma; desenha uma grade fina ao redor de cada pixel, permitindo visualizar exatamente onde um termina e o próximo começa. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Aparência do ponteiro</guilabel
+></term>
+<listitem>
+<para
+>Controla a aparência do ponteiro do mouse ao aplicar zoom. Existem várias opções: <guilabel
+>Escalonar</guilabel
+>, <guilabel
+>Manter</guilabel
+> e <guilabel
+>Ocultar</guilabel
+>. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Rastreamento do ponteiro</guilabel
+></term>
+<listitem>
+<para>
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Proporcional</guilabel
+></term>
+<listitem>
+<para
+>A área de zoom move-se em sincronia com o ponteiro. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Centralizado</guilabel
+></term>
+<listitem>
+<para
+>O ponteiro permanece centralizado na tela, exceto próximo às bordas da tela. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Centralizado (Estrito)</guilabel
+></term>
+<listitem>
+<para
+>O ponteiro permanece centralizado na tela, mesmo próximo às bordas. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Empurrar</guilabel
+></term>
+<listitem>
+<para
+>O ponteiro empurra a área de zoom nas bordas da tela. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Desabilitado</guilabel
+></term>
+<listitem>
+<para
+>A área de zoom não acompanha o ponteiro. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Melhore a nitidez do conteúdo da tela ao aplicar zoom</guilabel
+></term>
+<listitem>
+<para
+>Se ativada, a opção &kwin; usará reconhecimento de padrões para tentar redimensionar o formato do texto/ícones na área de trabalho em níveis de zoom extremos. Isso ajudaria a melhorar o contraste geral do texto, à custa da precisão da fonte, evitando borrões ou pixelização. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Habilitar o rastreio do foco</guilabel
+></term>
+<listitem>
+<para
+>Garante que a área de visualização ampliada siga automaticamente a parte <quote
+>ativa</quote
+> da interface, mesmo que o cursor do mouse não esteja se movendo. Enquanto o zoom padrão geralmente segue o cursor do mouse, o rastreamento de foco monitora o foco do sistema (o cursor de texto ou o elemento da interface do usuário selecionado no momento). </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Habilitar rastreio de cursor de texto</guilabel
+></term>
+<listitem>
+<para
+>Permite que as ferramentas de ampliação do sistema sigam o cursor de texto em vez de apenas o ponteiro do mouse. Em ambientes técnicos — seja escrevendo código, redigindo um manuscrito de pesquisa ou preenchendo formulários complexos — seu foco geralmente está onde você está digitando, que pode estar longe de onde o mouse está posicionado. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Ampliar região</guilabel
+></term>
+<listitem>
+<para
+>Ativa o modo de ampliação da região. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Largura</guilabel
+></term>
+<listitem>
+<para
+>Permite configurar a largura da área ampliada. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Altura</guilabel
+></term>
+<listitem>
+<para
+>Permite configurar a altura da área ampliada. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Desabilitado</guilabel
+></term>
+<listitem>
+<para
+>Desabilitar os modos de escalonamento. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Fator de zoom</guilabel
+></term>
+<listitem>
+<para
+>Ajusta o quanto a tela aumenta a cada passo (&eg;, 1,2x ou 2,0x). O &plasma; suporta níveis de ampliação extremos (até 100x), o que é significativamente maior do que a maioria dos outros sistemas operacionais. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Teclas modificadoras para gestos de rolagem</guilabel
+></term>
+<listitem>
+<para
+>Permite realizar ações de rolagem usando uma combinação de uma tecla do teclado e o movimento do mouse, em vez de usar uma roda de rolagem física. </para>
+<para
+>Isso é particularmente útil para usuários que usam trackballs, dispositivos apontadores especializados sem rodas, ou que têm deficiências motoras que dificultam o uso de uma roda de rolagem. </para>
+<note>
+<para
+>Os gestos de rolagem do zoom estão disponíveis somente no Wayland. </para>
+</note>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Role enquanto as teclas modificadoras são pressionadas para ampliar</guilabel
+></term>
+<listitem>
+<para
+>Com essa opção ativada, manter pressionada uma tecla específica (geralmente a tecla &Meta;) e girar a roda do mouse (ou usar a rolagem com dois dedos em um touchpad) aumentará ou diminuirá dinamicamente o zoom de toda a área de trabalho. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Configurar atalhos…</guilabel
+></term>
+<listitem>
+<para
+>Use teclas de atalho para controlar o zoom. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect3>
+
+<sect3 id="access-bell">
+<title
+><guilabel
+>Campainha do sistema</guilabel
+></title>
+
+<para
+>Este painel é dividido em uma seção <guilabel
+>Campainha audível</guilabel
+> e em um seção <guilabel
+>Campainha visível</guilabel
+>. </para>
+
+<para
+>A opção <guilabel
+>Usar campainha do sistema</guilabel
+> determina se o sistema normal de campainha irá tocar. Se esta opção estiver desabilitada, o sistema de campainha será silenciado. </para>
+
+<para
+>A próxima opção pode ser usada para tocar um som diferente se a campainha do sistema for disparada. Para ativar, selecione a opção <guilabel
+>Usar campainha personalizada</guilabel
+> e digite o nome completo do caminho para o arquivo de som na caixa <guilabel
+>Som a ser reproduzido</guilabel
+>. Se quiser, você pode selecionar o botão <guibutton
+>Navegar</guibutton
+> para navegar pelo seu sistema de arquivos para encontrar o arquivo exato. </para>
+
+<para
+>Para aqueles usuários que possuem dificuldade em ouvir a campainha do sistema, ou para aqueles que possuem um computador silencioso, o &kde; oferece a <emphasis
+>campainha visual</emphasis
+>. Ela fornece um sinal visual (invertendo a tela ou piscando uma cor nela), quando a campainha do sistema normalmente tocaria um som. </para>
+
+<para
+>Para usar a campainha visual, primeiro selecione a caixa de verificação chamada <guilabel
+>Usar campainha visual</guilabel
+>. </para>
+
+<para
+>Você pode, então, selecionar entre <guilabel
+>Inverter tela</guilabel
+>, ou<guilabel
+>Piscar tela</guilabel
+>. Se você selecionou <guilabel
+>Inverter tela</guilabel
+>, todas as cores na tela serão invertidas. Se você escolheu <guilabel
+>Piscar tela</guilabel
+>, você pode escolher a cor clicando no botão à direita da opção <guilabel
+>Piscar tela</guilabel
+>. </para>
+
+<para
+>O campo incremental pode ser usado para ajustar a duração da campainha visível. O valor padrão é de 500 ms ou metade de um segundo. </para>
+
+</sect3>
+
+<sect3 id="access-modifier-keys">
+<title
+><guilabel
+>Teclas modificadoras</guilabel
+></title>
+
+<para
+>Existem duas seções neste painel: <guilabel
+>Teclas de aderência</guilabel
+> e <guilabel
+>Teclas de bloqueio</guilabel
+>.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Usar teclas de aderência</guilabel
+></term>
+<listitem>
+<para
+>Se esta opção estive selecionada, o usuário pode pressionar e soltar as teclas &Shift;, &Alt; ou &Ctrl;, e depois clicar noutra tecla para obter uma combinação de teclas (exemplo: <keycombo action="simul"
+>&Ctrl; &Alt; &Del;</keycombo
+> poderia ser feito com &Ctrl; seguido de &Alt; seguido de &Del;). </para>
+
+<para
+>Nesta seção também existe uma opção <guilabel
+>Bloquear as teclas de aderência</guilabel
+>. Se ela estiver selecionada, as teclas &Alt;, &Ctrl;, e &Shift; ficam <quote
+>selecionadas</quote
+> até que sejam <quote
+>desativadas</quote
+> pelo usuário. </para>
+
+<para
+>Como exemplo: </para>
+<variablelist>
+<varlistentry>
+<term
+>Com a opção <guilabel
+>Bloquear as teclas de aderência</guilabel
+> desativada:</term>
+<listitem>
+<para
+>O usuário pressiona a tecla &Shift;, e pressiona em seguida a tecla <keycap
+>F</keycap
+>. O computador traduz esta ação em <keycombo action="simul"
+>&Shift;<keycap
+>F</keycap
+></keycombo
+>. Se o usuário em seguida pressionar a tecla <keycap
+>P</keycap
+>, o computador recebe a letra p (sem o Shift). </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+>Com a opção <guilabel
+>Bloquear as teclas de aderência</guilabel
+> ativada:</term>
+<listitem>
+<para
+>Se o usuário pressionar a tecla &Shift; <emphasis
+>duas vezes</emphasis
+> e pressionar em seguida na tecla <keycap
+>F</keycap
+>, o computador traduz esta ação em <keycombo action="simul"
+>&Shift;<keycap
+>F</keycap
+></keycombo
+>. Se o usuário em seguida pressionar a tecla <keycap
+>P</keycap
+>, o computador interpreta isto também como <keycombo action="simul"
+>&Shift;<keycap
+>P</keycap
+></keycombo
+>. Para desligar a tecla &Shift;, pressione-a de novo. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+<!--this is missing - explain it
+<para
+><guilabel
+>Turn sticky keys off when two keys are pressed simultaneously</guilabel
+></para>
+<para
+><guilabel
+>Use system bell whenever a modifier gets latched, locked or unlocked</guilabel
+></para>
+-->
+</listitem>
+</varlistentry>
+<!-- explain use case etc
+<guilabel
+>Locking Keys</guilabel
+> what is that?
+<varlistentry>
+<term
+><guilabel
+>Use system bell whenever a locking key gets activated or deactivated</guilabel
+></term>
+<listitem
+><para
+></para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Use Plasma's system notification mechanism whenever a modifier or locking key 
+changes its state</guilabel
+></term>
+<listitem
+><para
+>Click the <guibutton
+>Configure Notifications...</guibutton
+> button to open a dialog 
+which allows you to edit the notifications for status changes of all keys</para
+></listitem>
+</varlistentry>
+-->
+</variablelist>
+
+</sect3>
+
+<sect3 id="access-keyboard-filters">
+<title
+><guilabel
+>Filtros do teclado</guilabel
+></title>
+
+<para
+>Existem duas seções neste painel.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Usar teclas lentas</guilabel
+></term>
+<listitem>
+<para
+>Se esta opção estiver ativa, o usuário tem que manter a tecla pressionada durante um período de tempo específico (ajustável com o campo incremental), antes que a tecla seja aceita. Isto previne o pressionamento acidental de teclas. </para>
+</listitem>
+</varlistentry>
+<!-- Acceptance delay slider 500 ms default
+Use system bell whenever a key is pressed/accepted/rejected
+-->
+<varlistentry>
+<term
+><guilabel
+>Usar teclas de repercussão</guilabel
+></term>
+<listitem>
+<para
+>Se esta opção estiver selecionada, o usuário tem que esperar um intervalo de tempo específico (configurado com o campo incremental) antes que a próxima tecla seja aceita. Isto evita que pessoas com pouca precisão pressionem na mesma tecla mais de uma vez. </para>
+</listitem>
+</varlistentry>
+<!-- Debounce time slider 500 ms default
+Use system bell whenever a key is rejected
+-->
+
+</variablelist>
+
+</sect3>
+
+<sect3 id="mouse-navigation">
+<title
+>Navegação do mouse</title>
+
+<para
+>Esta aba permite configurar as teclas do teclado numérico como um dispositivo tipo mouse. Isso pode ser útil quando você estiver trabalhando em um dispositivo sem outro dispositivo apontador ou quando não tiver outra utilidade para o teclado numérico. </para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><guilabel
+>Mover o ponteiro do mouse com o teclado (usando o teclado numérico)</guilabel
+></term>
+<listitem>
+<para
+>Para ativar o modo teclado e mouse, você precisa selecionar a caixa de seleção com o rótulo <guilabel
+>Mover o ponteiro com o teclado (usando o teclado numérico)</guilabel
+>. Ao fazer isso, as outras configurações serão ativadas e você poderá personalizar o comportamento do ponteiro do teclado ainda mais, se necessário. </para>
+<para
+>As várias teclas do teclado numérico movem-se na direção esperada. Observe que você pode mover-se na diagonal, bem como para cima, para baixo, para a esquerda e para a direita. A tecla <keycap
+>5</keycap
+> simula um clique em um botão do ponteiro, normalmente &LMB; Você altera qual botão é simulado usando a tecla <keycap
+>/</keycap
+> (que a transforma em &LMB;), a tecla <keycap
+>*</keycap
+> (que a transforma em &MMB;) e <keycap
+>-</keycap
+> (que a transforma em &RMB;). Usar a tecla <keycap
+>+</keycap
+> simula um clique duplo no botão do ponteiro selecionado. Você pode usar a tecla <keycap
+>0</keycap
+> para simular o pressionamento do botão do ponteiro selecionado (para facilitar o arrastar) e, em seguida, usar a tecla <keycap
+>.</keycap
+> para simular a liberação do botão do ponteiro selecionado. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Atraso da aceleração</guilabel
+></term>
+<listitem>
+<para
+>Este é o tempo (em milissegundos) entre o pressionamento inicial da tecla e o primeiro evento de movimento repetido para aceleração da tecla do mouse. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Intervalo de repetição</guilabel
+></term>
+<listitem>
+<para
+>Este é o tempo em milissegundos entre eventos de movimento repetidos para aceleração do mouse. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Tempo de aceleração</guilabel
+></term>
+<listitem>
+<para
+>Este é o tempo em milissegundos antes que o ponteiro atinja a velocidade máxima de aceleração das teclas do mouse. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Velocidade máxima</guilabel
+></term>
+<listitem>
+<para
+>Esta é a velocidade máxima em pixels por segundo que o ponteiro pode alcançar para a aceleração da tecla do mouse. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Aceleração do ponteiro</guilabel
+></term>
+<listitem>
+<para
+>Essa é a quantidade de aceleração a ser aplicada à aceleração das teclas do mouse. </para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect3>
+
+<sect3 id="access-activation-shortcuts">
+<title
+><guilabel
+>Atalhos de ativação</guilabel
+></title>
+
+<para
+>Existem duas seções neste painel.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Gestos para ativação</guilabel
+> com estas opções:</term>
+<listitem>
+<para>
+<simplelist>
+<member
+><guilabel
+>Usar gestos para ativar as teclas de aderência e as teclas lentas</guilabel
+></member>
+<member
+>Aqui você poderá ativar os gestos do teclado que ativam as seguintes funcionalidades:</member>
+<member
+>Mouse por teclado: Pressione &Shift;+NumLock</member>
+<member
+>Teclas de aderência: Pressione &Shift; 5 vezes consecutivas</member>
+<member
+>Teclas lentas: Mantenha pressionado o &Shift; durante 8 segundos</member>
+<member
+><guilabel
+>Desabilitar as teclas de aderência e as teclas lentas após um certo tempo de inatividade</guilabel
+></member>
+</simplelist>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Notificação</guilabel
+> com estas opções:</term>
+<listitem>
+<para>
+<simplelist>
+<member
+><guilabel
+>Usar a campainha do sistema sempre que for usado um gesto para ativar ou desativar um recurso de acessibilidade</guilabel
+></member>
+
+<member
+><guilabel
+>Exibir um diálogo de confirmação se um recurso de acessibilidade do teclado for ativado ou desativado</guilabel
+></member>
+<member
+>Se esta opção estiver assinalada, o &kde; irá mostrar uma janela de confirmação, sempre que uma determinada funcionalidade de acessibilidade seja ativada ou desativada.</member>
+<member
+>Certifique-se de que sabe o que está fazendo quando a desligar, uma vez que a configuração da acessibilidade do teclado será sempre aplicada sem qualquer confirmação.</member>
+
+<member
+><guilabel
+>Use o mecanismo de notificação de sistema do &kde; se um recurso de acessibilidade do teclado for ativado ou desativado</guilabel
+></member>
+</simplelist>
+</para>
+</listitem>
+</varlistentry>
+</variablelist>
+<para
+>Clique no botão para <guibutton
+>Configurar notificações</guibutton
+>, de modo a abrir uma janela que lhe permite editar as notificações das mudanças de estado de todas as teclas.</para>
+
+</sect3>
+
+<sect3 id="access-screenreader">
+<title
+><guilabel
+>Leitor de tela</guilabel
+></title>
+
+<para
+>Instale um aplicativo leitor de tela como <ulink url="https://en.wikipedia.org/wiki/Orca_(assistive_technology)"
+>Orca</ulink
+> juntamente com <application
+>speech-dispatcher</application
+>. </para>
+
+<para
+>Teste se o som do disparador de voz funciona usando o comando <command
+>spd-say olá</command
+> em um terminal. </para>
+
+<para
+>Além disso, você precisa de um sintetizador de texto para fala como &eg; o <application
+>espeak</application
+>. </para>
+
+<para
+>Ative o leitor de tela na caixa de seleção, faça logout e reinicie sua sessão de desktop. </para>
+
+<para
+>Para o próprio &plasma;, certifique-se de usar o <guilabel
+>Menu de aplicativos</guilabel
+> tradicional e verifique se este menu possui um atalho de teclado associado (<keycombo action="simul"
+>&Alt;<keycap
+>F1</keycap
+></keycombo
+>). Ao pressionar este atalho, o menu deve abrir e ser lido ao navegar pelo menu com as teclas de seta. </para>
+</sect3>
+
+<sect3 id="access-color-blindness">
+<title
+><guilabel
+>Correção de daltonismo</guilabel
+></title>
+
+<para
+>É uma ferramenta de acessibilidade projetada para ajudar usuários com deficiências na visão de cores a distinguir melhor as cores na tela. </para>
+<para
+>Ao contrário dos filtros simples que alteram a <quote
+>aparência</quote
+> da área de trabalho, este recurso utiliza <ulink url="https://en.wikipedia.org/wiki/Color_blindness"
+>algoritmos de daltonização</ulink
+>. Esses algoritmos deslocam as frequências de cores problemáticas para partes do espectro que o usuário consegue enxergar com mais clareza, ajudando a restaurar o contraste que, de outra forma, seria perdido. </para>
+<para
+>Principais objetivos: </para>
+<itemizedlist>
+<listitem>
+<para
+>Muitas interfaces usam cores para transmitir significado (&eg;, verde para <quote
+>sucesso</quote
+> e vermelho para <quote
+>erro</quote
+>). Para alguém com protanopia ou deuteranopia, essas cores podem parecer idênticas. O painel de correção altera essas cores para que a distinção se torne visível. </para>
+</listitem>
+<listitem>
+<para
+>Isso garante que botões, gráficos e textos destacados sejam legíveis, independentemente da paleta de cores do design original. </para>
+</listitem>
+<listitem>
+<para
+>Como é tratado no nível do compositor (&kwin;), a correção aplica-se a tudo — navegadores da web, software de engenharia especializado, vídeos e a própria interface do desktop. </para>
+</listitem>
+</itemizedlist>
+<para
+>O painel geralmente oferece ajustes para os três principais tipos de daltonismo: </para>
+<itemizedlist>
+<listitem>
+<para
+>Protanopia: Cegueira ao vermelho (dificuldade em enxergar a luz vermelha). </para>
+</listitem>
+<listitem>
+<para
+>Deuteranopia: Cegueira para a cor verde (a forma mais comum). </para>
+</listitem>
+<listitem>
+<para
+>Tritanopia: Daltonismo (mais raro, dificuldade em distinguir azul e amarelo). </para>
+</listitem>
+</itemizedlist>
+<para
+>A seleção <guilabel
+>Cores problemáticas</guilabel
+>: Você seleciona o tipo específico de deficiência. </para>
+<para
+>O controle deslizante <guilabel
+>Intensidade</guilabel
+>: Esta é a parte mais importante do painel. Ele permite ajustar a intensidade da mudança. Como a visão de cores é um espectro, um filtro "tamanho único" raramente funciona. O controle deslizante permite ajustar a correção à sua visão específica. </para>
+<note>
+<para
+>Esses filtros são destinados à acessibilidade, não para trabalhos que exigem precisão de cores, como edição profissional de fotos ou pintura digital. Como eles alteram o espectro de cores para torná-lo "legível", as cores na tela não corresponderão mais aos códigos hexadecimais "verdadeiros" ou aos valores de impressão dos arquivos que você está visualizando. </para>
+</note>
+<para
+>Você pode controlar os resultados usando amostras das <guilabel
+>Cores ajustadas</guilabel
+>. </para>
+</sect3>
+
+<sect3 id="access-invert">
+<title
+><guilabel
+>Inverter</guilabel
+></title>
+
+<para
+>Este painel configura uma ferramenta para inverter os valores de cor da sua tela — transformando pixels brancos em preto, azuis em laranjas e assim por diante. Isso é gerenciado pelo gerenciador de janelas &kwin; como um efeito de pós-processamento. </para>
+<para
+>Embora possa parecer um filtro de foto de <quote
+>negativo</quote
+>, seus principais objetivos são funcionais, e não estéticos: </para>
+<para
+>Para usuários com deficiências visuais específicas, como fotofobia (sensibilidade à luz) ou certos tipos de baixa visão, uma tela brilhante padrão pode causar dor física ou fazer com que o texto pareça embaçado devido ao <quote
+>vazamento de luz</quote
+>. </para>
+<para
+>Inverter a tela escurece fundos claros e torna o texto escuro claro, reduzindo significativamente a quantidade de luz emitida pelo monitor, mantendo o contraste necessário para a leitura. </para>
+<para
+>Embora a maioria dos aplicativos modernos possua modos escuros nativos, alguns softwares mais antigos ou páginas da web específicas têm fundos brancos predefinidos. </para>
+<para
+>A ferramenta Inverter funciona como um <quote
+>modo escuro universal</quote
+>. Se um aplicativo não suporta um tema escuro, você pode forçar a inversão das cores para proteger seus olhos durante sessões de trabalho noturnas. </para>
+<para
+>Você pode ativar a inversão usando a caixa de seleção <guilabel
+>Inverter</guilabel
+> e o botão <guibutton
+>Configurar atalhos...</guibutton
+> para esta ação. </para>
+</sect3>
+
+<sect3 id="access-shake-pointer">
+<title
+><guilabel
+>Agitar ponteiro</guilabel
+></title>
+
+<para
+>No ambiente de desktop &plasma;, o <guilabel
+>Agitar ponteiro</guilabel
+> (frequentemente chamado coloquialmente de "Agitar para encontrar") é um recurso de acessibilidade e produtividade projetado para resolver o problema do "cursor perdido". </para>
+<para
+>Se você usa uma configuração com vários monitores, uma tela de altíssima resolução ou simplesmente tem um papel de parede escuro, é muito fácil perder de vista a posição do cursor do mouse. O objetivo deste recurso é fornecer uma indicação visual imediata para ajudá-lo a localizá-lo. </para>
+<para
+>Quando a funcionalidade está ativada, o sistema monitora a velocidade e a direção dos movimentos do mouse. Se detectar um movimento rápido de "tremor" para frente e para trás: </para>
+<itemizedlist>
+<listitem>
+<para
+>Ampliação temporária: O cursor aumenta de tamanho para a escala grande. </para>
+</listitem>
+<listitem>
+<para
+>Foco visual: Essa mudança repentina de escala chama a atenção da visão periférica do olho humano, revelando instantaneamente as coordenadas do cursor. </para>
+</listitem>
+<listitem>
+<para
+>Redefinição automática: Assim que você parar de agitar o mouse, o cursor retorna ao seu tamanho normal. </para>
+</listitem>
+</itemizedlist>
+<para
+>Existem várias opções neste painel.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Agite o ponteiro para encontrá-lo</guilabel
+></term>
+<listitem>
+<para
+>Se esta opção estiver ativada, o &plasma; habilita o efeito de agitar o ponteiro. </para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Ampliação</guilabel
+></term>
+<listitem>
+<para
+>Aqui você pode especificar o nível de ampliação do ponteiro para os tamanhos <guilabel
+>Normal</guilabel
+> e <guilabel
+>Grande</guilabel
+>. </para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect3>
+
+</sect2>
+
+</sect1>
+
+</article>

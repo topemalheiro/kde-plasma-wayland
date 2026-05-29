@@ -1,0 +1,1210 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-23 00:46+0000\n"
+"PO-Revision-Date: 2021-09-09 16:18+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.12.2\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:46
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "Lỗi nguy cấp khi đọc các thông tin thiết bị cơ bản cho bàn cảm ứng %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Không thể kết nối đến máy chủ X"
+
+#: backends/x11/xlibbackend.cpp:80
+#, kde-format
+msgid "No touchpad found"
+msgstr "Không tìm thấy bàn cảm ứng nào"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Không thể áp dụng cấu hình bàn cảm ứng"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Không thể đọc cấu hình bàn cảm ứng"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Không thể đọc cấu hình bàn cảm ứng mặc định"
+
+#: kcm.cpp:69
+#, kde-format
+msgid "Not able to select appropriate backend"
+msgstr ""
+
+#: kcm.cpp:126
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Lỗi khi tải các giá trị. Xem thêm thông tin trong nhật kí. Vui lòng khởi "
+"động lại khối cấu hình này."
+
+#: kcm.cpp:129
+#, fuzzy, kde-format
+#| msgid "No touchpad found. Connect touchpad now."
+msgid "No pointer device found. Connect now."
+msgstr "Không tìm thấy bàn cảm ứng nào. Hãy kết nối bàn cảm ứng."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Không thể lưu tất cả các thay đổi. Xem thêm thông tin trong nhật kí. Vui "
+"lòng khởi động lại khối cấu hình này và thử lại."
+
+#: kcm.cpp:157
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Lỗi khi tải các giá trị mặc định. Đặt một số lựa chọn về giá trị mặc định "
+"thất bại."
+
+#: kcm.cpp:172
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Lỗi khi thêm thiết bị mới được kết nối. Vui lòng kết nối lại và khởi động "
+"lại khối cấu hình này."
+
+#: kcm.cpp:185
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. Closed its setting dialog."
+msgid "Pointer device disconnected. Closed its setting dialog."
+msgstr "Bàn cảm ứng bị ngắt kết nối. Đã đóng hộp thoại thiết lập."
+
+#: kcm.cpp:187
+#, fuzzy, kde-format
+#| msgid "Touchpad disconnected. No other touchpads found."
+msgid "Pointer device disconnected. No other devices found."
+msgstr "Bàn cảm ứng bị ngắt kết nối. Không tìm thấy bàn cảm ứng nào khác."
+
+#: ui/main.qml:69
+#, fuzzy, kde-format
+#| msgid "No touchpad found"
+msgctxt "@info:status placeholdermessage text"
+msgid "No touchpad found"
+msgstr "Không tìm thấy bàn cảm ứng nào"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
+msgid "Connect an external touchpad"
+msgstr ""
+
+#: ui/main.qml:87
+#, fuzzy, kde-format
+#| msgid "Device:"
+msgctxt "@label:listbox device selection"
+msgid "Device:"
+msgstr "Thiết bị:"
+
+#: ui/main.qml:110
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Chung:"
+
+#: ui/main.qml:111
+#, fuzzy, kde-format
+#| msgctxt "Coasting"
+#| msgid "Enable"
+msgctxt "@option:check"
+msgid "Enable device"
+msgstr "Bật"
+
+#: ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Disable touchpad when mouse is plugged in"
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Tắt bàn cảm ứng khi chuột được cắm vào"
+
+#: ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Disable while typing"
+msgctxt "option:check"
+msgid "Disable while typing"
+msgstr "Tắt khi đang gõ"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr ""
+
+#: ui/main.qml:169
+#, fuzzy, kde-format
+#| msgid "Swap left and right buttons."
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr "Hoán đổi nút trái và phải."
+
+#: ui/main.qml:170
+#, fuzzy, kde-format
+#| msgid "Left handed mode"
+msgctxt "@option:check"
+msgid "Swap (left-handed mode)"
+msgstr "Chế độ thuận tay trái"
+
+#: ui/main.qml:185
+#, fuzzy, kde-format
+#| msgid "Press left and right buttons for middle click"
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr "Nhấn nút trái và phải để thành bấm giữa"
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+
+#: ui/main.qml:207
+#, fuzzy, kde-format
+#| msgid "Minimum pointer speed"
+msgctxt "@label:slider and @label:spinbox"
+msgid "Pointer speed:"
+msgstr "Tốc độ con trỏ tối thiểu"
+
+#: ui/main.qml:287
+#, fuzzy, kde-format
+#| msgid "Pointer acceleration:"
+msgctxt "@option:check"
+msgid "Enable pointer acceleration"
+msgstr "Gia tốc con trỏ:"
+
+#: ui/main.qml:299
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr ""
+
+#: ui/main.qml:309
+#, fuzzy, kde-format
+#| msgid "Scrolling speed:"
+msgctxt "@label:slider"
+msgid "Scrolling speed:"
+msgstr "Tốc độ cuộn:"
+
+#: ui/main.qml:360
+#, fuzzy, kde-format
+#| msgctxt "Slower Scroll"
+#| msgid "Slower"
+msgctxt "@item:inrange Slower Scroll"
+msgid "Slower"
+msgstr "Chậm"
+
+#: ui/main.qml:367
+#, fuzzy, kde-format
+#| msgctxt "Faster Scroll Speed"
+#| msgid "Faster"
+msgctxt "@item:inrange Faster Scroll Speed"
+msgid "Faster"
+msgstr "Nhanh"
+
+#: ui/main.qml:374
+#, fuzzy, kde-format
+#| msgid "Scrolling:"
+msgctxt ""
+"@title group begins the sentence 'Scroll by moving two fingers anywhere/"
+"moving one finger on edge'"
+msgid "Scroll by:"
+msgstr "Cuộn:"
+
+#: ui/main.qml:377
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving two fingers anywhere'"
+msgid "Moving two fingers anywhere"
+msgstr ""
+
+#: ui/main.qml:395
+#, kde-format
+msgctxt ""
+"@option:radio completes the sentence 'Scroll by moving one finger on edge'"
+msgid "Moving one finger on edge"
+msgstr ""
+
+#: ui/main.qml:404
+#, fuzzy, kde-format
+#| msgid "Invert scroll direction (Natural scrolling)"
+msgctxt "@option:check"
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Đảo hướng cuộn (cuộn tự nhiên)"
+
+#: ui/main.qml:421
+#, fuzzy, kde-format
+#| msgid "Disable horizontal scrolling"
+msgctxt "@option:check"
+msgid "Disable horizontal scrolling"
+msgstr "Tắt cuộn ngang"
+
+#: ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt ""
+"@title:group for radiobutton group, begins the sentence 'right-click by "
+"pressing bottom-right corner/pressing with two fingers'"
+msgid "Right-click by:"
+msgstr "Bấm phải"
+
+#: ui/main.qml:443
+#, fuzzy, kde-format
+#| msgid "Press bottom-right corner"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing bottom-right "
+"corner'"
+msgid "Pressing bottom-right corner"
+msgstr "Nhấn góc dưới phải"
+
+#: ui/main.qml:448
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Nhấn bất kì đâu bằng ba ngón."
+
+#: ui/main.qml:449
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info:usagetip shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Nhấn bất kì đâu bằng ba ngón."
+
+#: ui/main.qml:471
+#, fuzzy, kde-format
+#| msgid "Press anywhere with two fingers"
+msgctxt ""
+"@option:radio Completes the sentence 'right-click by pressing with two "
+"fingers'"
+msgid "Pressing anywhere with two fingers"
+msgstr "Nhấn bất kì đâu bằng hai ngón"
+
+#: ui/main.qml:472
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers."
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing anywhere with three fingers."
+msgstr "Nhấn bất kì đâu bằng ba ngón."
+
+#: ui/main.qml:484
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt ""
+"@label for radiobutton group, begins the sentence 'middle-click by pressing "
+"bottom-middle edge/by pressing anywhere with three fingers'"
+msgid "Middle-click by:"
+msgstr "Bấm giữa"
+
+#: ui/main.qml:487
+#, fuzzy, kde-format
+#| msgid "Press bottom-middle"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-middle "
+"edge'"
+msgid "Pressing bottom-middle edge"
+msgstr "Nhấn phần dưới giữa"
+
+#: ui/main.qml:507
+#, fuzzy, kde-format
+#| msgid "Press bottom left and bottom right corners simultaneously"
+msgctxt ""
+"@option:radio completes the sentence 'middle-click by pressing bottom-left "
+"and bottom-right corners'"
+msgid "Pressing bottom-left and bottom-right corners"
+msgstr "Nhấn đồng thời góc dưới trái và dưới phải"
+
+#: ui/main.qml:519
+#, fuzzy, kde-format
+#| msgid "Press anywhere with three fingers"
+msgctxt ""
+"@option:check completes the sentence 'middle-click by pressing anywhere with "
+"three fingers'"
+msgid "Pressing anywhere with three fingers"
+msgstr "Nhấn bất kì đâu bằng ba ngón"
+
+#: ui/main.qml:532
+#, fuzzy, kde-format
+#| msgid "Tapping:"
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Vỗ:"
+
+#: ui/main.qml:533
+#, fuzzy, kde-format
+#| msgid "Tap to Click"
+msgctxt "@option:check"
+msgid "Tap to click"
+msgstr "Vỗ để bấm"
+
+#: ui/main.qml:548
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow dragging after tapping"
+msgstr ""
+
+#: ui/main.qml:560
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:567
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:580
+#, fuzzy, kde-format
+#| msgid "Two-finger tap:"
+msgctxt "@title:group"
+msgid "Two-finger tap:"
+msgstr "Vỗ hai ngón:"
+
+#: ui/main.qml:586
+#, fuzzy, kde-format
+#| msgid "Right-click (three-finger tap to middle-click)"
+msgctxt "@option:radio"
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Bấm phải (vỗ ba ngón để bấm giữa)"
+
+#: ui/main.qml:587
+#, fuzzy, kde-format
+#| msgid "Right-click"
+msgctxt "@option:radio"
+msgid "Right-click"
+msgstr "Bấm phải"
+
+#: ui/main.qml:608
+#, fuzzy, kde-format
+#| msgid "Middle-click (three-finger tap right-click)"
+msgctxt "@option:radio"
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Bấm giữa (vỗ hai ngón để bấm phải)"
+
+#: ui/main.qml:609
+#, fuzzy, kde-format
+#| msgid "Middle-click"
+msgctxt "@option:radio"
+msgid "Middle-click"
+msgstr "Bấm giữa"
+
+#~ msgid "Querying input devices failed. Please reopen this settings module."
+#~ msgstr ""
+#~ "Truy vấn các thiết bị nhập thất bại. Vui lòng mở lại khối thiết lập này."
+
+#~ msgid "Device enabled"
+#~ msgstr "Thiết bị được bật"
+
+#~ msgid "Two fingers"
+#~ msgstr "Hai ngón"
+
+#~ msgid "Touchpad edges"
+#~ msgstr "Các cạnh bàn cảm ứng"
+
+#, fuzzy
+#~| msgid "Tap-to-click"
+#~ msgctxt "@option:check"
+#~ msgid "Tap-to-click"
+#~ msgstr "Vỗ để bấm"
+
+#~ msgid "Tap-and-drag"
+#~ msgstr "Vỗ và kéo"
+
+#, fuzzy
+#~| msgid "Right-click:"
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure right-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated right-click:"
+#~ msgstr "Bấm phải:"
+
+#, fuzzy
+#~| msgid "Middle-click: "
+#~ msgctxt ""
+#~ "@label for radiobutton group, configure middle-click with touch-pad "
+#~ "integrated button (pressing into the touchpad)"
+#~ msgid "Integrated middle-click:"
+#~ msgstr "Bấm giữa: "
+
+#~ msgid "Accept input through this device."
+#~ msgstr "Nhận đầu vào qua thiết bị này."
+
+#~ msgid "Disable touchpad while typing to prevent accidental inputs."
+#~ msgstr "Tắt bàn cảm ứng khi đang gõ để tránh nhập sai"
+
+#, fuzzy
+#~| msgid ""
+#~| "Clicking left and right button simultaneously sends middle button click."
+#~ msgctxt "@info:tooltip for checkbox"
+#~ msgid ""
+#~ "Pressing the left and right button simultaneously acts as middle-click."
+#~ msgstr "Bấm nút trái và phải đồng thời sẽ tạo ra cú bấm nút giữa."
+
+#~ msgid "Slide with two fingers scrolls."
+#~ msgstr "Lướt bằng hai ngón sẽ thực hiện việc cuộn."
+
+#~ msgid "Slide on the touchpad edges scrolls."
+#~ msgstr "Lướt trên các cạnh bàn cảm ứng sẽ thực hiện việc cuộn."
+
+#~ msgid "Touchscreen like scrolling."
+#~ msgstr "Cuộn như màn hình cảm ứng."
+
+#, fuzzy
+#~| msgid "Disable horizontal scrolling"
+#~ msgid "Disable horizontal scrolling."
+#~ msgstr "Tắt cuộn ngang"
+
+#, fuzzy
+#~| msgid "Single tap is left button click."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Single tap to left-click."
+#~ msgstr "Vỗ đơn là bấm nút trái."
+
+#~ msgid "Sliding over touchpad directly after tap drags."
+#~ msgstr "Lướt trên bàn cảm ứng ngay sau khi vỗ sẽ thực hiện việc kéo."
+
+#~ msgid "Tap-and-drag lock"
+#~ msgstr "Khoá vỗ và kéo"
+
+#~ msgid "Dragging continues after a short finger lift."
+#~ msgstr "Việc kéo tiếp tục sau khi nhấc ngón tay một khoảng thời gian ngắn."
+
+#~ msgid ""
+#~ "Tap with two fingers to right-click, tap with three fingers to middle-"
+#~ "click."
+#~ msgstr "Vỗ bằng hai ngón để bấm phải, vỗ bằng ba ngón để bấm giữa."
+
+#~ msgid "Tap with two fingers to right-click."
+#~ msgstr "Vỗ bằng hai ngón để bấm phải."
+
+#~ msgid ""
+#~ "Tap with two fingers to middle-click, tap with three fingers to right-"
+#~ "click."
+#~ msgstr "Vỗ bằng hai ngón để bấm giữa, vỗ bằng ba ngón để bấm phải."
+
+#~ msgid "Tap with two fingers to middle-click."
+#~ msgstr "Vỗ bằng hai ngón để bấm giữa."
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid "Pressing the touchpad anywhere with two fingers acts as right-click."
+#~ msgstr "Vỗ bằng hai ngón để bấm phải."
+
+#, fuzzy
+#~| msgid "Press bottom left and bottom right corners simultaneously"
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the bottom left and bottom right corners simultaneously acts as "
+#~ "middle-click."
+#~ msgstr "Nhấn đồng thời góc dưới trái và dưới phải"
+
+#, fuzzy
+#~| msgid "Tap with two fingers to right-click."
+#~ msgctxt "@info:tooltip for radiobutton"
+#~ msgid ""
+#~ "Pressing the touchpad anywhere with three fingers acts as middle-click."
+#~ msgstr "Vỗ bằng hai ngón để bấm phải."
+
+#~ msgid "Touchpad"
+#~ msgstr "Bàn cảm ứng"
+
+#~ msgid "Enable Touchpad"
+#~ msgstr "Bật bàn cảm ứng"
+
+#~ msgid "Disable Touchpad"
+#~ msgstr "Tắt bàn cảm ứng"
+
+#~ msgid "Toggle Touchpad"
+#~ msgstr "Bật/tắt bàn cảm ứng"
+
+#~ msgid "Cursor moves the same distance as finger."
+#~ msgstr "Con trỏ di chuyển cùng khoảng cách với ngón tay."
+
+#~ msgid "Cursor travel distance depends on movement speed of finger."
+#~ msgstr ""
+#~ "Khoảng cách di chuyển của con trỏ phụ thuộc vào tốc độ di chuyển của ngón "
+#~ "tay."
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "No action"
+#~ msgstr "Không hành động"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Left button"
+#~ msgstr "Nút trái"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Nút giữa"
+
+#~ msgctxt "Emulated mouse button"
+#~ msgid "Right button"
+#~ msgstr "Nút phải"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "All edges"
+#~ msgstr "Tất cả các cạnh"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top edge"
+#~ msgstr "Cạnh trên"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top right corner"
+#~ msgstr "Góc phải trên"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Right edge"
+#~ msgstr "Cạnh phải"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom right corner"
+#~ msgstr "Góc phải dưới"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom edge"
+#~ msgstr "Cạnh dưới"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Bottom left corner"
+#~ msgstr "Góc trái dưới"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Left edge"
+#~ msgstr "Cạnh trái"
+
+#~ msgctxt "Touchpad Edge"
+#~ msgid "Top left corner"
+#~ msgstr "Góc trái trên"
+
+#~ msgid "Touchpad was disabled because a mouse was plugged in"
+#~ msgstr "Bàn cảm ứng đã được tắt vì chuột đã được cắm vào"
+
+#~ msgid "Touchpad was enabled because the mouse was unplugged"
+#~ msgstr "Bàn cảm ứng đã được bật vì chuột đã được rút ra"
+
+#~ msgid ""
+#~ "Software enabled buttons will be added to bottom portion of your touchpad."
+#~ msgstr "Các nút do phần mềm bật sẽ được thêm vào phần dưới của bàn cảm ứng."
+
+#~ msgid "Tap with two finger to enable right click."
+#~ msgstr "Vỗ bằng hai ngón để bấm phải."
+
+#~ msgid ""
+#~ "Software enabled middle-button will be added to bottom portion of your "
+#~ "touchpad."
+#~ msgstr ""
+#~ "Nút giữa do phần mềm bật sẽ được thêm vào phần dưới của bàn cảm ứng."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Nguyễn Hùng Phú"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "phu.nguyen@kdemail.net"
+
+#~ msgid "Drag me"
+#~ msgstr "Kéo tôi đi"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Left button"
+#~ msgstr "Nút trái"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Right button"
+#~ msgstr "Nút phải"
+
+#~ msgctxt "Mouse button"
+#~ msgid "Middle button"
+#~ msgstr "Nút giữa"
+
+#~ msgid ""
+#~ "Active settings don't match saved settings.\n"
+#~ "You currently see saved settings."
+#~ msgstr ""
+#~ "Các thiết lập đang dùng không khớp với các thiết lập được lưu.\n"
+#~ "Bạn hiện đang thấy các thiết lập được lưu."
+
+#~ msgid "Show active settings"
+#~ msgstr "Hiện các thiết lập đang dùng"
+
+#~ msgid "These settings won't take effect in the testing area"
+#~ msgstr "Các thiết lập này sẽ không có tác dụng trong vùng kiểm thử"
+
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Bật/tắt bàn cảm ứng"
+
+#~ msgctxt "@title:window"
+#~ msgid "Enable/Disable Touchpad"
+#~ msgstr "Bật/tắt bàn cảm ứng"
+
+#~ msgid "Configure…"
+#~ msgstr "Cấu hình…"
+
+#~ msgid "Keyboard shortcuts:"
+#~ msgstr "Phím tắt:"
+
+#~ msgid "Disable touchpad when typing"
+#~ msgstr "Tắt bàn cảm ứng khi đang gõ"
+
+#~ msgid "Timeout:"
+#~ msgstr "Thời hạn:"
+
+#~ msgid ""
+#~ "If there was no keyboard activity for more than specified\n"
+#~ "number of milliseconds, touchpad will be enabled again"
+#~ msgstr ""
+#~ "Nếu không có hành động bàn phím nào trong số mi-li giây\n"
+#~ "được chỉ đinh, bàn cảm ứng sẽ được bật lại"
+
+#~ msgid " ms"
+#~ msgstr " ms"
+
+#~ msgid ""
+#~ "Disable click emulation and scrolling.\n"
+#~ "You will be still able to move pointer using touchpad and perform clicks "
+#~ "with hardware buttons."
+#~ msgstr ""
+#~ "Tắt cuộn và giả lập bấm.\n"
+#~ "Bạn vẫn có thể di chuyển con trỏ bằng bàn cảm ứng và bấm bằng các nút "
+#~ "phần cứng."
+
+#~ msgid "Disable taps and scrolling only"
+#~ msgstr "Chỉ tắt vỗ và cuộn"
+
+#~ msgid "Notifications:"
+#~ msgstr "Thông báo:"
+
+#~ msgid "Ignored devices:"
+#~ msgstr "Bỏ qua các thiết bị:"
+
+#~ msgid ""
+#~ "Some devices might be incorrectly treated as a mouse.\n"
+#~ "You can add them to this list so that they will be ignored when they're "
+#~ "plugged in."
+#~ msgstr ""
+#~ "Một số thiết bị có thể bị nhận diện sai thành chuột.\n"
+#~ "Bạn có thể thêm chúng vào danh sách này để bỏ qua khi chúng được cắm vào."
+
+#~ msgid "Pointer Motion"
+#~ msgstr "Chuyển động của con trỏ"
+
+#~ msgctxt "Mouse pointer motion parameters"
+#~ msgid "Speed"
+#~ msgstr "Tốc độ"
+
+#~ msgctxt "Minimum pointer movement speed"
+#~ msgid "Minimum:"
+#~ msgstr "Tối thiểu:"
+
+#~ msgid "Minimum pointer speed"
+#~ msgstr "Tốc độ con trỏ tối thiểu"
+
+#~ msgctxt "Maximum pointer movement speed"
+#~ msgid "Maximum:"
+#~ msgstr "Tối đa:"
+
+#~ msgid "Maximum pointer speed"
+#~ msgstr "Tốc độ con trỏ tối đa"
+
+#~ msgctxt "Pointer acceleration"
+#~ msgid "Acceleration:"
+#~ msgstr "Gia tốc:"
+
+#~ msgid "Acceleration factor for normal pointer movements"
+#~ msgstr "Hệ số gia tốc cho các chuyển động thông thường của con trỏ"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Pressure-Dependent Motion"
+#~ msgstr "Chuyển động dựa trên áp lực"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Áp lực tối thiểu:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Minimum factor:"
+#~ msgstr "Hệ số tối thiểu:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum pressure:"
+#~ msgstr "Áp lực tối đa:"
+
+#~ msgctxt "Pressure-dependent pointer motion"
+#~ msgid "Maximum factor:"
+#~ msgstr "Hệ số tối đa:"
+
+#~ msgid "Finger pressure at which minimum pressure motion factor is applied"
+#~ msgstr ""
+#~ "Áp lực của ngón tay mà tại đó hệ số chuyển động tối thiểu được áp dụng"
+
+#~ msgid "Finger pressure at which maximum pressure motion factor is applied"
+#~ msgstr "Áp lực của ngón tay mà tại đó hệ số chuyển động tối đa được áp dụng"
+
+#~ msgid "Lowest setting for pressure motion factor"
+#~ msgstr "Thiết lập nhỏ nhất cho hệ số chuyển động"
+
+#~ msgid "Greatest setting for pressure motion factor"
+#~ msgstr "Thiết lập lớn nhất cho hệ số chuyển động"
+
+#~ msgctxt "Pointer motion"
+#~ msgid "Noise Cancellation"
+#~ msgstr "Khử nhiễu"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Vertical:"
+#~ msgstr "Dọc:"
+
+#~ msgctxt "Noise cancellation"
+#~ msgid "Horizontal:"
+#~ msgstr "Ngang:"
+
+#~ msgid ""
+#~ "The minimum vertical hardware distance required to generate motion events"
+#~ msgstr ""
+#~ "Khoảng cách phần cứng theo chiều dọc tối thiểu cần thiết để sinh sự kiện "
+#~ "chuyển động"
+
+#~ msgid " units"
+#~ msgstr " đơn vị"
+
+#~ msgid ""
+#~ "The minimum horizontal hardware distance required to generate motion "
+#~ "events"
+#~ msgstr ""
+#~ "Khoảng cách phần cứng theo chiều ngang tối thiểu cần thiết để sinh sự "
+#~ "kiện chuyển động"
+
+#~ msgid "Scrolling"
+#~ msgstr "Cuộn"
+
+#~ msgid "Edge scrolling:"
+#~ msgstr "Cuộn ở cạnh:"
+
+#~ msgid "Enable vertical scrolling when dragging along the right edge"
+#~ msgstr "Cho phép cuộn dọc khi kéo dọc theo cạnh phải"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Vertical"
+#~ msgstr "Dọc"
+
+#~ msgid "Enable horizontal scrolling when dragging along the bottom edge"
+#~ msgstr "Cho phép cuộn ngang khi kéo dọc theo cạnh dưới"
+
+#~ msgctxt "Scrolling direction"
+#~ msgid "Horizontal"
+#~ msgstr "Ngang"
+
+#~ msgid ""
+#~ "Enable vertical scrolling when dragging with two fingers anywhere on the "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Cho phép cuộn dọc khi kéo bằng hai ngón ở bất kì đâu trên bàn cảm ứng"
+
+#~ msgid ""
+#~ "Enable horizontal scrolling when dragging with two fingers anywhere on "
+#~ "the touchpad"
+#~ msgstr ""
+#~ "Cho phép cuộn ngang khi kéo bằng hai ngón ở bất kì đâu trên bàn cảm ứng"
+
+#~ msgid "Reverse vertical scrolling"
+#~ msgstr "Đảo hướng cuộn dọc"
+
+#~ msgid "Reverse horizontal scrolling"
+#~ msgstr "Đảo hướng cuộn ngang"
+
+#~ msgid "Two-finger scrolling:"
+#~ msgstr "Cuộn hai ngón:"
+
+#~ msgid "Reverse scrolling:"
+#~ msgstr "Đảo hướng cuộn:"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Scrolling Distance"
+#~ msgstr "Khoảng cách cuộn"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Vertical:"
+#~ msgstr "Dọc:"
+
+#~ msgid "Move distance of the finger for a scroll event"
+#~ msgstr "Khoảng cách ngón tay di chuyển cho một sự kiện cuộn"
+
+#~ msgid " mm"
+#~ msgstr " mm"
+
+#~ msgctxt "Scrolling distance"
+#~ msgid "Horizontal:"
+#~ msgstr "Ngang:"
+
+#~ msgid ""
+#~ "Continue scrolling after the finger is released from the edge of the "
+#~ "touchpad"
+#~ msgstr "Tiếp tục cuộn sau khi ngón tay thả ra khỏi cạnh của bàn cảm ứng"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Coasting"
+#~ msgstr "Trôi"
+
+#~ msgctxt "Coasting"
+#~ msgid "Minimum speed:"
+#~ msgstr "Tốc độ tối thiểu:"
+
+#~ msgid ""
+#~ "Your finger needs to produce this many scrolls per second in order to "
+#~ "start coasting"
+#~ msgstr ""
+#~ "Ngón tay cần tạo ra từng này lần cuộn mỗi giây để có thể bắt đầu trôi"
+
+#~ msgid " scrolls/sec"
+#~ msgstr " cuộn/giây"
+
+#~ msgctxt "Coasting"
+#~ msgid "Deceleration:"
+#~ msgstr "Giảm tốc:"
+
+#~ msgid "Number of scrolls/second² to decrease the coasting speed"
+#~ msgstr "Số lần cuộn/giây² để giảm tốc độ trôi"
+
+#~ msgid " scrolls/sec²"
+#~ msgstr " cuộn/giây²"
+
+#~ msgid "Corner coasting:"
+#~ msgstr "Trôi ở góc:"
+
+#~ msgid ""
+#~ "Enable edge scrolling to continue while the finger stays in an edge corner"
+#~ msgstr "Cho phép cuộn ở cạnh tiếp tục trong khi ngón tay giữ ở một góc"
+
+#~ msgid ""
+#~ "Scrolling is engaged when a drag starts in the given trigger region.\n"
+#~ "Moving your finger in clockwise circles around the center of the "
+#~ "touchpad\n"
+#~ "will scroll down and counter clockwise motion will scroll up"
+#~ msgstr ""
+#~ "Việc cuộn được tiến hành khi một thao tác kéo bắt đầu trong vùng kích "
+#~ "hoạt\n"
+#~ "đã định. Di chuyển ngón tay theo vòng tròn xuôi chiều đồng hồ quanh tâm "
+#~ "của\n"
+#~ "bàn cảm ứng sẽ cuộn xuống và ngược chiều đồng hồ sẽ cuộn lên"
+
+#~ msgctxt "Touchpad - Scrolling"
+#~ msgid "Circular Scrolling"
+#~ msgstr "Cuộn tròn"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Trigger region:"
+#~ msgstr "Vùng kích hoạt:"
+
+#~ msgid "Trigger region on the touchpad to start circular scrolling"
+#~ msgstr "Vùng kích hoạt trên bàn cảm ứng để bắt đầu cuộn theo vòng tròn"
+
+#~ msgctxt "Circular scrolling"
+#~ msgid "Angle:"
+#~ msgstr "Góc:"
+
+#~ msgid "Move angle (degrees) of finger to generate a scroll event"
+#~ msgstr "Góc di chuyển (độ) của ngón tay để sinh một sự kiện cuộn"
+
+#~ msgctxt "suffix - degrees (angle)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#~ msgid ""
+#~ "When used together with vertical scrolling, hitting the upper or lower "
+#~ "right corner will seamlessly switch over from vertical to circular "
+#~ "scrolling"
+#~ msgstr ""
+#~ "Khi dùng cùng với cuộn dọc, chạm vào góc trên hoặc dưới bên phải sẽ nhanh "
+#~ "chóng chuyển từ cuộn dọc sang cuộn tròn"
+
+#~ msgid "Sensitivity"
+#~ msgstr "Độ nhạy"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Sensitivity"
+#~ msgstr "Độ nhạy"
+
+#~ msgid "Pressure for detecting a touch:"
+#~ msgstr "Áp lực để phát hiện một lần chạm:"
+
+#~ msgid "Pressure for detecting a release:"
+#~ msgstr "Áp lực để phát hiện một lần thả:"
+
+#~ msgid ""
+#~ "When finger pressure goes above this value, the driver counts it as a "
+#~ "touch"
+#~ msgstr ""
+#~ "Khi áp lực ngón tay vượt quá giá trị này, trình điều khiển ghi nhận một "
+#~ "lần chạm"
+
+#~ msgid ""
+#~ "When finger pressure drops below this value, the driver counts it as a "
+#~ "release"
+#~ msgstr ""
+#~ "Khi áp lực ngón tay giảm quá giá trị này, trình điều khiển ghi nhận một "
+#~ "lần thả"
+
+#~ msgid ""
+#~ "If palm detection should be enabled. Note that this also requires "
+#~ "hardware/firmware support from the touchpad"
+#~ msgstr ""
+#~ "Có bật phát hiện bàn tay hay không. Lưu ý rằng việc này còn cần có hỗ trợ "
+#~ "phần cứng/phần sụn của bàn cảm ứng"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Palm Detection"
+#~ msgstr "Phát hiện bàn tay"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum width:"
+#~ msgstr "Độ rộng tối thiểu:"
+
+#~ msgctxt "Palm detection"
+#~ msgid "Minimum pressure:"
+#~ msgstr "Áp lực tối thiểu:"
+
+#~ msgid "Minimum finger width at which touch is considered a palm"
+#~ msgstr "Độ rộng ngón tay tối thiểu mà việc chạm được coi là bàn tay"
+
+#~ msgid "Minimum finger pressure at which touch is considered a palm"
+#~ msgstr "Áp lực ngón tay tối thiểu mà việc chạm được coi là bàn tay"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Taps"
+#~ msgstr "Vỗ"
+
+#~ msgctxt "Tapping"
+#~ msgid "One finger:"
+#~ msgstr "Một ngón:"
+
+#~ msgid "Which mouse button is reported on a non-corner one-finger tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ một ngón không ở góc"
+
+#~ msgctxt "Tapping"
+#~ msgid "Two fingers:"
+#~ msgstr "Hai ngón:"
+
+#~ msgid "Which mouse button is reported on a non-corner two-finger tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ hai ngón không ở góc"
+
+#~ msgctxt "Tapping"
+#~ msgid "Three fingers:"
+#~ msgstr "Ba ngón:"
+
+#~ msgid "Which mouse button is reported on a non-corner three-finger tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ ba ngón không ở góc"
+
+#~ msgctxt "Touchpad"
+#~ msgid "Corners"
+#~ msgstr "Góc"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top left:"
+#~ msgstr "Trái trên:"
+
+#~ msgid "Which mouse button is reported on a left top corner tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ ở góc trên trái"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom left:"
+#~ msgstr "Trái dưới:"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Top right:"
+#~ msgstr "Phải trên:"
+
+#~ msgid "Which mouse button is reported on a left bottom corner tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ ở góc dưới trái"
+
+#~ msgid "Which mouse button is reported on a right top corner tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ ở góc trên phải"
+
+#~ msgid "Which mouse button is reported on a right bottom corner tap"
+#~ msgstr "Nút chuột nào được nhận với một lần vỗ ở góc dưới phải"
+
+#~ msgctxt "Touchpad corner"
+#~ msgid "Bottom right:"
+#~ msgstr "Phải dưới:"
+
+#~ msgid ""
+#~ "This gesture is an alternative way of dragging. It is performed by "
+#~ "tapping (touching and releasing the finger), then touching again and "
+#~ "moving the finger on the touchpad"
+#~ msgstr ""
+#~ "Động tác này là một cách khác để kéo. Nó được thực hiện bằng cách vỗ "
+#~ "(chạm và thả ngón tay), rồi lại chạm và di chuyển ngón tay trên bàn cảm "
+#~ "ứng"
+
+#~ msgid "Tap-and-Drag Gesture"
+#~ msgstr "Động tác vỗ và kéo"
+
+#~ msgid ""
+#~ "If off, a tap-and-drag gesture ends when you release the finger. If on, "
+#~ "the gesture is active until you tap a second time, or until timeout "
+#~ "expires"
+#~ msgstr ""
+#~ "Nếu tắt, một động tác vỗ và kéo sẽ kết thúc khi bạn thả ngón tay. Nếu "
+#~ "bật, động tác sẽ còn hoạt động cho đến khi bạn vỗ một lần nữa, hoặc khi "
+#~ "hết giờ"
+
+#~ msgctxt "Touchpad gesture"
+#~ msgid "Locked Drags"
+#~ msgstr "Kéo bị khoá"
+
+#~ msgctxt "Locked drags"
+#~ msgid "Timeout:"
+#~ msgstr "Thời hạn:"
+
+#~ msgid ""
+#~ "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
+#~ "automatically turned off after the finger is released from the touchpad"
+#~ msgstr ""
+#~ "Thời gian (bằng mi-li giây) để chế độ \"Kéo bị khoá\" được tự động tắt "
+#~ "sau khi ngón tay thả ra khỏi bàn cảm ứng"
+
+#~ msgid "Tap Detection"
+#~ msgstr "Phát hiện vỗ"
+
+#~ msgid "Maximum time:"
+#~ msgstr "Thời gian tối đa:"
+
+#~ msgid "Maximum finger movement:"
+#~ msgstr "Di chuyển ngón tay tối đa:"
+
+#~ msgid "Maximum time for double tap:"
+#~ msgstr "Thời gian tối đa cho vỗ đúp:"
+
+#~ msgid "Single tap timeout:"
+#~ msgstr "Thời hạn vỗ đơn:"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a tap"
+#~ msgstr "Thời gian tối đa (bằng mi-li giây) để phát hiện một lần vỗ"
+
+#~ msgid "Maximum movement of the finger for detecting a tap"
+#~ msgstr "Di chuyển tối đa của ngón tay để phát hiện một lần vỗ"
+
+#~ msgid "Maximum time (in milliseconds) for detecting a double tap"
+#~ msgstr "Thời gian tối đa (bằng mi-li giây) để phát hiện một lần vỗ đúp"
+
+#~ msgid "Timeout after a tap to recognize it as a single tap"
+#~ msgstr "Thời hạn sau một lần vỗ để ghi nhận nó là một lần vỗ đơn"
+
+#~ msgid "Testing area"
+#~ msgstr "Vùng kiểm thử"
+
+#~ msgid "Click me"
+#~ msgstr "Bấm vào đây"
+
+#~ msgid "Acceleration profile:"
+#~ msgstr "Hồ sơ gia tốc:"
+
+#~ msgid "Flat"
+#~ msgstr "Phẳng"
+
+#~ msgid "Adaptive"
+#~ msgstr "Thích ứng"
+
+#~ msgid "Touchpad KCM"
+#~ msgstr "KCM bàn cảm ứng"
+
+#~ msgid "System Settings module for managing your touchpad"
+#~ msgstr "Khối Thiết lập hệ thống để quản lí bàn cảm ứng"
+
+#~ msgid "Copyright © 2016 Roman Gilg"
+#~ msgstr "Bản quyền © 2016 Roman Gilg"
+
+#~ msgid "Developer"
+#~ msgstr "Nhà phát triển"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid ""
+#~ "System Settings module, daemon and Plasma applet for managing your "
+#~ "touchpad"
+#~ msgstr ""
+#~ "Khối Thiết lập hệ thống, trình nền và tiểu ứng dụng Plasma để quản lí bàn "
+#~ "cảm ứng"
+
+#~ msgid "Copyright © 2013 Alexander Mezin"
+#~ msgstr "Bản quyền © 2013 Alexander Mezin"
+
+#~ msgid ""
+#~ "This program incorporates work covered by this copyright notice:\n"
+#~ "Copyright © 2002-2005,2007 Peter Osterlund"
+#~ msgstr ""
+#~ "Chương trình này chứa phần việc được bao gồm trong thông báo bản quyền:\n"
+#~ "Bản quyền © 2002-2005,2007 Peter Osterlund"
+
+#~ msgid "Alexander Mezin"
+#~ msgstr "Alexander Mezin"
+
+#~ msgid "Thomas Pfeiffer"
+#~ msgstr "Thomas Pfeiffer"
+
+#~ msgctxt "Credits"
+#~ msgid "Usability, testing"
+#~ msgstr "Tính khả dụng, kiểm thử"
+
+#~ msgid "Alex Fiestas"
+#~ msgstr "Alex Fiestas"
+
+#~ msgctxt "Credits"
+#~ msgid "Helped a bit"
+#~ msgstr "Giúp đỡ một chút"
+
+#~ msgid "Peter Osterlund"
+#~ msgstr "Peter Osterlund"
+
+#~ msgctxt "Credits"
+#~ msgid "Developer of synclient"
+#~ msgstr "Nhà phát triển synclient"
+
+#~ msgid "Vadim Zaytsev"
+#~ msgstr "Vadim Zaytsev"
+
+#~ msgctxt "Credits"
+#~ msgid "Testing"
+#~ msgstr "Kiểm thử"
+
+#~ msgid "Violetta Raspryagayeva"
+#~ msgstr "Violetta Raspryagayeva"

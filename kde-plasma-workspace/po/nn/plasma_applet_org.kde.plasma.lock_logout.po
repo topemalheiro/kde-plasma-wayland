@@ -1,0 +1,112 @@
+# Translation of plasma_applet_org.kde.plasma.lock_logout to Norwegian Nynorsk
+#
+# Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_lockout\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-03 00:49+0000\n"
+"PO-Revision-Date: 2026-03-05 20:23+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.03.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: ConfigGeneral.qml:120
+#, kde-format
+msgid "Unavailable"
+msgstr "Ikkje tilgjengeleg"
+
+#: data.js:5
+#, kde-format
+msgid "Lock"
+msgstr "Lås"
+
+#: data.js:6
+#, kde-format
+msgid "Lock the screen"
+msgstr "Lås skjermen"
+
+#: data.js:12
+#, kde-format
+msgid "Switch user…"
+msgstr "Byt brukar …"
+
+#: data.js:13
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Start ei parallell økt som ein annan brukar"
+
+#: data.js:19
+#, kde-format
+msgid "Shut down"
+msgstr "Slå av"
+
+#: data.js:20
+#, kde-format
+msgid "Turn off the computer"
+msgstr "Slå av datamaskina"
+
+#: data.js:26
+#, kde-format
+msgid "Restart"
+msgstr "Start på nytt"
+
+#: data.js:27
+#, kde-format
+msgid "Reboot the computer"
+msgstr "Start datamaskina på nytt"
+
+#: data.js:33
+#, kde-format
+msgid "Log out"
+msgstr "Logg ut"
+
+#: data.js:34
+#, kde-format
+msgid "End the session"
+msgstr "Avslutt økta"
+
+#: data.js:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show logout screen"
+msgstr "Vis utloggingsval"
+
+#: data.js:41
+#, kde-format
+msgid "Log out, turn off, or restart the computer"
+msgstr "Logg av, avslutt eller start datamaskina på nytt"
+
+#: data.js:47
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Kvilemodus"
+
+#: data.js:48
+#, kde-format
+msgid "Sleep (suspend to RAM)"
+msgstr "Kvilemodus til minnet"
+
+#: data.js:54
+#, kde-format
+msgid "Hibernate"
+msgstr "Dvalemodus"
+
+#: data.js:55
+#, kde-format
+msgid "Hibernate (suspend to disk)"
+msgstr "Dvalemodus til disken"

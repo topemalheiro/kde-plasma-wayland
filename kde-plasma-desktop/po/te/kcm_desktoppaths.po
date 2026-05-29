@@ -1,0 +1,243 @@
+# translation of kcmkonq.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:45+0000\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ui/main.qml:53
+#, fuzzy, kde-format
+#| msgid "Des&ktop path:"
+msgctxt "@label:textbox"
+msgid "Desktop folder:"
+msgstr "(&k) రంగస్థలం దారి:"
+
+#: ui/main.qml:59
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder contains all the files you see on your desktop."
+msgstr ""
+
+#: ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Documents folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save documents."
+msgstr ""
+
+#: ui/main.qml:81
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Downloads folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+
+#: ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Videos folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save video files."
+msgstr ""
+
+#: ui/main.qml:109
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Pictures folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save image files."
+msgstr ""
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Music folder:"
+msgstr ""
+
+#: ui/main.qml:129
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save music files."
+msgstr ""
+
+#: ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Public folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:143
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid ""
+"This folder will be used by default for publicly-shared files when network "
+"sharing is enabled."
+msgstr ""
+
+#: ui/main.qml:151
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Templates folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:157
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save file templates."
+msgstr ""
+
+#: ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgctxt "@label:textbox"
+msgid "Projects folder:"
+msgstr "(&o) పత్రముల దారి:"
+
+#: ui/main.qml:171
+#, kde-format
+msgctxt "@info:tooltip and accessible description"
+msgid "This folder will be used by default to open or save projects."
+msgstr ""
+
+#: ui/UrlRequester.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose new location"
+msgstr ""
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Documents path:"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Downloads path:"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Music path:"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#~ msgid "Desktop"
+#~ msgstr "రంగస్ఠలం"
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Music"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Pictures"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#, fuzzy
+#~| msgid "D&ocuments path:"
+#~ msgid "Videos"
+#~ msgstr "(&o) పత్రముల దారి:"
+
+#, fuzzy
+#~| msgid "A&utostart path:"
+#~ msgid "Autostart path:"
+#~ msgstr "(&u) స్వయంచాలకప్రారంభం దారి:"
+
+#~ msgid "Autostart"
+#~ msgstr "స్వయంచాలకప్రారంభం"
+
+#, fuzzy
+#~| msgctxt "Move desktop files from old to new place"
+#~| msgid "Move"
+#~ msgid "Movies"
+#~ msgstr "కదుపు"
+
+#, fuzzy
+#~| msgctxt "Move desktop files from old to new place"
+#~| msgid "Move"
+#~ msgctxt "Move files from old to new place"
+#~ msgid "Move"
+#~ msgstr "కదుపు"
+
+#, fuzzy
+#~| msgctxt "Move desktop files from old to new place"
+#~| msgid "Move"
+#~ msgctxt "Move the directory"
+#~ msgid "Move"
+#~ msgstr "కదుపు"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "నిర్ధారణ అవసరమైంది"
+
+#~ msgid "Misc Options"
+#~ msgstr "Misc ఐచ్చికాలు"
+
+#~ msgid "Open folders in separate &windows"
+#~ msgstr "(&w) ఫోల్డర్లను ప్రత్యే విండోలనందు తెరువుము"
+
+#~ msgid "Menu Editor"
+#~ msgstr "పట్టి ఎడిటర్"
+
+#~ msgid "Menu"
+#~ msgstr "మెనూ"
+
+#~ msgid "New..."
+#~ msgstr "కొత్త..."
+
+#~ msgid "Remove"
+#~ msgstr "తొలగించు"
+
+#~ msgid "Move Up"
+#~ msgstr "పైకి కదుపు"
+
+#~ msgid "Move Down"
+#~ msgstr "క్రిందికి కదుపు"
+
+#~ msgctxt "@title:group what to do when a file is deleted"
+#~ msgid "Ask Confirmation For"
+#~ msgstr "దీనికొరకు నిర్ధారణను అడుగుము"
+
+#~ msgctxt "@option:check Ask for confirmation when moving to trash"
+#~ msgid "&Move to trash"
+#~ msgstr "(&M) ట్రాష్‌కు కదుపుము"
+
+#~ msgctxt "@option:check Ask for confirmation when deleting"
+#~ msgid "D&elete"
+#~ msgstr "(&e) తొలగించు"

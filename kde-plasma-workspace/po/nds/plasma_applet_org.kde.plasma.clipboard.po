@@ -1,0 +1,74 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sönke Dibbern <s_dibbern@web.de>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2014-09-18 16:09+0200\n"
+"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
+"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Twischenaflaag-Inholt"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Twischenaflaag is leddig"
+
+#: qml/main.qml:69
+#, fuzzy, kde-format
+#| msgid "Clear history"
+msgid "Clear History"
+msgstr "Vörgeschicht leddig maken"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr ""
+
+#~ msgid "Invoke action"
+#~ msgstr "Akschoon opropen "
+
+#, fuzzy
+#~| msgid "Show barcode"
+#~ msgid "Show QR code"
+#~ msgstr "Streekkode wiesen"
+
+#~ msgid "Edit contents"
+#~ msgstr "Inholden bewerken"
+
+#~ msgid "Remove from history"
+#~ msgstr "Ut Vörgeschicht wegmaken"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "Clear history"
+#~ msgstr "Vörgeschicht leddig maken"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search…"
+#~ msgstr "Söken"
+
+#, fuzzy
+#~| msgid "Clipboard is empty"
+#~ msgid "Clipboard history is empty."
+#~ msgstr "Twischenaflaag is leddig"
+
+#~ msgid "Configure"
+#~ msgstr "Instellen"

@@ -1,0 +1,353 @@
+# translation of plasma_applet_devicenotifier.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2007, 2008, 2009, 2010.
+# SPDX-FileCopyrightText: 2011, 2012, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2026-02-21 08:56+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Poszukaj błędów"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Podepnij"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Otwórz w przeglądarce plików"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Spróbuj naprawić"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Podepnij i otwórz"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Wysuń"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Wysuń bezpiecznie"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "To urządzenie zawiera błędy systemu plików."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "To urządzenie nie zawiera błędów"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Pomyślnie naprawiono!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Stan urządzenia"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Możesz teraz bezpiecznie wysunąć to urządzenie"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Możesz teraz bezpiecznie wysunąć to urządzenie."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Nie masz uprawnień do podpięcia tego urządzenia."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Nie masz uprawnień do wysunięcia tego dysku."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Nie masz uprawnień do wysunięcia tego urządzenia."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Nie masz uprawnień do naprawienia tego urządzenia."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Nieznany rodzaj błędu"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Nie można podpiąć tego urządzenia, bo jest zajęte."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr ""
+"Jeden lub więcej plików na tym urządzeniu jest otwartych w jakiejś aplikacji."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"Jeden lub więcej plików na tym urządzeniu jest otwartych w aplikacji \"%2\"."
+msgstr[1] ""
+"Jeden lub więcej plików na tym urządzeniu jest otwartych w następujących "
+"aplikacjach: \"%2\"."
+msgstr[2] ""
+"Jeden lub więcej plików na tym urządzeniu jest otwartych w następujących "
+"aplikacjach: \"%2\"."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Nie można podpiąć tego urządzenia."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Nie można wysunąć dysku."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Nie można wysunąć tego urządzenia."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Nie można naprawić tego urządzenia: %1"
+
+#: qml/DeviceItem.qml:98
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Sprawdzanie…"
+
+#: qml/DeviceItem.qml:100
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Naprawianie…"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 wolnych z %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Podpinanie…"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Odpinanie…"
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Zaczekaj z wysuwaniem! Pliki są jeszcze przesyłane…"
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Wysuń wszystkie"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Naciśnij, aby bezpiecznie wysunąć wszystkie urządzenia."
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Nie podpięto żadnych urządzeń wymiennych"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Brak dysku"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Najwcześniejsze urządzenie"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Brak urządzeń"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Ustawienia urządzeń wymiennych..."
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Urządzenia wymienne"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Urządzenia niewymienne"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Wszystkie urządzenia"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Wysuń okno, po podłączeniu nowego urządzenia"
+
+#~ msgctxt "@action:button Mount a disk without verifying for errors"
+#~ msgid "Mount without verifying"
+#~ msgstr "Podepnij bez sprawdzania"
+
+#~ msgid "Filesystem is not responding"
+#~ msgstr "System plików nie odpowiada"
+
+#~ msgid "Filesystem mounted at '%1' is not responding"
+#~ msgstr "System plików podpięty w '%1' nie odpowiada"
+
+#~ msgid "Show:"
+#~ msgstr "Pokaż:"
+
+#~ msgid "General"
+#~ msgstr "Ogólne"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Obecnie <b>nie można bezpiecznie</b> odpiąć tego urządzenia: pewne "
+#~ "programy mogą je wykorzystywać. Naciśnij na przycisk wysunięcia dla tego "
+#~ "urządzenia, aby można było je bezpiecznie odpiąć."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "To urządzenie jest obecnie dostępne."
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Obecnie <b>nie można bezpiecznie</b> odpiąć tego urządzenia: pewne "
+#~ "programy mogą wykorzystywać jego dyski. Dla wszystkich dysków tego "
+#~ "urządzenia naciśnij na przycisk wysunięcia i wtedy spróbuj bezpiecznie "
+#~ "odpiąć to urządzenie."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "To urządzenie nie jest obecnie dostępne."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 możliwość dla tego urządzenia"
+#~ msgstr[1] "%1 możliwości dla tego urządzenia"
+#~ msgstr[2] "%1 możliwości dla tego urządzenia"
+
+#~ msgid "Click to access this device from other applications."
+#~ msgstr "Naciśnij, aby uzyskać dostęp do urządzenia z innych programów."
+
+#~ msgid "Click to safely remove this device."
+#~ msgstr "Naciśnij, aby bezpiecznie odpiąć to urządzenie."
+
+#~ msgid "Available Devices"
+#~ msgstr "Dostępne urządzenia"
+
+#~ msgid "This device is currently not accessible."
+#~ msgstr "To urządzenie jest obecnie niedostępne."
+
+#~ msgid "Display"
+#~ msgstr "Pokaż"
+
+#~ msgid "Automounting"
+#~ msgstr "Automontowanie"
+
+#~ msgid "Show hidden devices"
+#~ msgstr "Pokaż ukryte urządzenia"
+
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "Ukryj %1"
+
+#, fuzzy
+#~| msgid "Device is plugged in and can be accessed by applications."
+#~ msgid ""
+#~ "Device is plugged in and the volume can be accessed by applications. It "
+#~ "is not safe to remove this device."
+#~ msgstr "Urządzenie jest podłaczone i można z niego korzystać w programach."
+
+#, fuzzy
+#~| msgid "Device is plugged in, but not mounted for access yet."
+#~ msgid ""
+#~ "Device is plugged in and the volume is not mounted for access yet. The "
+#~ "device can be safely removed."
+#~ msgstr "Urządzenie podłączone, ale jeszcze nie zamontowane."
+
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "Ostatnio podłączone urządzenia:"

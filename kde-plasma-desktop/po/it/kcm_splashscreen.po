@@ -1,0 +1,121 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2021, 2022, 2026 Vincenzo Reale <smart2128vr@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-03 00:48+0000\n"
+"PO-Revision-Date: 2026-02-03 15:21+0100\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: kcm.cpp:162
+#, kde-format
+msgid "None"
+msgstr "Nessuna"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Nessuna schermata iniziale sarà mostrata"
+
+#: kcm.cpp:183
+#, kde-format
+msgid "You cannot delete the currently selected splash screen"
+msgstr "Impossibile eliminare la schermata iniziale attualmente selezionata"
+
+#. i18n: ectx: label, entry (engine), group (KSplash)
+#: splashscreensettings.kcfg:12
+#, kde-format
+msgid "For future use"
+msgstr "Per usi futuri"
+
+#. i18n: ectx: label, entry (theme), group (KSplash)
+#: splashscreensettings.kcfg:16
+#, kde-format
+msgid "Name of the current splash theme"
+msgstr "Nome del tema della schermata iniziale attuale"
+
+#: ui/main.qml:30
+#, kde-format
+msgctxt "@action:button"
+msgid "&Get New…"
+msgstr "&Scarica nuovi…"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to show the splash screen preview."
+msgstr "Anteprima della schermata iniziale non riuscita."
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Preview splash screen"
+msgstr "Anteprima della schermata iniziale"
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove splash screen"
+msgstr "Rimuovi la schermata iniziale"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active splash screen"
+msgstr "Impossibile eliminare la schermata iniziale attiva"
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed splash screens"
+msgstr "Impossibile eliminare le schermate iniziali installate dal sistema"
+
+#~ msgctxt "@action:button"
+#~ msgid "Uninstall"
+#~ msgstr "Disinstalla"
+
+#~ msgid "This module lets you choose the splash screen theme."
+#~ msgstr ""
+#~ "Questo modulo ti consente di scegliere il tema della schermata iniziale."
+
+#~ msgid "&Get New Splash Screens…"
+#~ msgstr "Scarica nuo&ve schermate iniziali..."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Vincenzo Reale"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "smart2128vr@gmail.com"
+
+#~ msgid "Splash Screen"
+#~ msgstr "Schermata iniziale"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "Get New Icons..."
+#~ msgstr "Scarica nuove icone..."
+
+#~ msgid "Splash Screens"
+#~ msgstr "Schermate d'avvio"
+
+#~ msgid "Error"
+#~ msgstr "Errore"
+
+#~ msgid "Choose the splash screen theme"
+#~ msgstr "Scegli il tema della schermata di avvio"
+
+#~ msgid "Configure Splash screen details"
+#~ msgstr "Configura i dettagli della schermata d'avvio"

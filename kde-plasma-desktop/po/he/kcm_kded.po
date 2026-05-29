@@ -1,0 +1,276 @@
+# translation of kcmkded.po to hebrew
+# translation of kcmkded.po to Hebrew Israel
+# KDE Hebrew Localization Project
+# Translation of kcmkded.po into Hebrew
+#
+# In addition to the copyright owners of the program
+# which this translation accompanies, this translation is
+# Copyright (C) 2002 Meni Livne <livne@kde.org>
+#
+# This translation is subject to the same Open Source
+# license as the program which it accompanies.
+#
+# Dror Levin <spatz@012.net.il>, 2003.
+# Diego Iastrubni <elcuco@kdemail.net>, 2004.
+# Diego Iastrubni <elcuco@kde.org>, 2008, 2012.
+# elkana bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm5_kded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"PO-Revision-Date: 2026-01-08 18:03+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#: kcmkded.cpp:115
+#, kde-format
+msgid "Failed to stop service: %1"
+msgstr "עצירת השירות נכשלה: %1"
+
+#: kcmkded.cpp:117
+#, kde-format
+msgid "Failed to start service: %1"
+msgstr "הפעלת השירות נכשלה: %1"
+
+#: kcmkded.cpp:124
+#, kde-format
+msgid "Failed to stop service."
+msgstr "עצירת השירות נכשלה."
+
+#: kcmkded.cpp:126
+#, kde-format
+msgid "Failed to start service."
+msgstr "הפעלת השירות נכשלה."
+
+#: kcmkded.cpp:224
+#, kde-format
+msgid "Failed to notify KDE Service Manager (kded6) of saved changed: %1"
+msgstr "שליחת הודעה למנהל שירות KDE‏ (kded6) על השינויים שנשמרו נכשלה: %1"
+
+#: ui/main.qml:48
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"If you're disabling something here to work around an issue, please <link "
+"url='%1'>submit a bug report about it as well.</link>"
+msgstr ""
+"אם כיבית כאן משהו כדי להתגבר על בעיה, נא <link url='%1'>להגיש על כך גם דוח "
+"תקלה.</link>"
+
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid ""
+"The background services manager (kded6) is currently not running. Make sure "
+"it is installed correctly."
+msgstr "מנהל שירותי הרקע (kded6) לא פעיל כרגע. נא לוודא שהוא מותקן כראוי."
+
+#: ui/main.qml:65
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid ""
+"Some services disable themselves again when manually started if they are not "
+"useful in the current environment."
+msgstr ""
+"חלק מהשירותים משביתים את עצמם שוב כשמופעלים ידנית אם אינם מביאים תועלת "
+"בסביבה הנוכחית."
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid ""
+"Some services were automatically started/stopped when the background "
+"services manager (kded6) was restarted to apply your changes."
+msgstr ""
+"חלק מהשירותים הופעלו/נעצרו אוטומטית כאשר מנהל שירותי הרקע (kdad6) הופעל מחדש "
+"כדי להחיל את השינויים שלך."
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All Services"
+msgstr "כל השירותים"
+
+#: ui/main.qml:124
+#, kde-format
+msgctxt "@item:inlistbox List running services"
+msgid "Running"
+msgstr "פועל"
+
+#: ui/main.qml:125
+#, kde-format
+msgctxt "@item:inlistbox List not running services"
+msgid "Not Running"
+msgstr "לא פועל"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt "@title:group list section"
+msgid "Startup Services"
+msgstr "שירותי פתיחה"
+
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@title:group list section"
+msgid "Load-on-Demand Services"
+msgstr "שירותים הנטענים לפי דרישה"
+
+#: ui/main.qml:166
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Disable automatically loading %1 on startup"
+msgstr "השבתת טעינת %1 אוטומטית עם העלייה"
+
+#: ui/main.qml:166
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Enable automatically loading %1 on startup"
+msgstr "הפעלת טעינת %1 אוטומטית עם העלייה"
+
+#: ui/main.qml:167
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Toggle automatically loading this service on startup"
+msgstr "החלפת מצב טעינה אוטומטי של השירות הזה עם הפתיחה"
+
+#: ui/main.qml:211
+#, kde-format
+msgctxt "@info:status"
+msgid "Not running"
+msgstr "לא פועל"
+
+#: ui/main.qml:212
+#, kde-format
+msgctxt "@info:status"
+msgid "Running"
+msgstr "פועל"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Stop %1"
+msgstr "עצירת %1"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Start %1"
+msgstr "הפעלת %1"
+
+#: ui/main.qml:235
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Service"
+msgstr "עצירת שירות"
+
+#: ui/main.qml:235
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Service"
+msgstr "הפעלת שירות"
+
+#~ msgctxt "List running services"
+#~ msgid "Running"
+#~ msgstr "פועל"
+
+#, fuzzy
+#~| msgid ""
+#~| "<h1>Service Manager</h1><p>This module allows you to have an overview of "
+#~| "all plugins of the KDE Daemon, also referred to as KDE Services. "
+#~| "Generally, there are two types of service:</p><ul><li>Services invoked "
+#~| "at startup</li><li>Services called on demand</li></ul><p>The latter are "
+#~| "only listed for convenience. The startup services can be started and "
+#~| "stopped. In Administrator mode, you can also define whether services "
+#~| "should be loaded at startup.</p><p><b> Use this with care: some services "
+#~| "are vital for Plasma; do not deactivate services if you do not know what "
+#~| "you are doing.</b></p>"
+#~ msgid ""
+#~ "<p>This module allows you to have an overview of all plugins of the KDE "
+#~ "Daemon, also referred to as KDE Services. Generally, there are two types "
+#~ "of service:</p> <ul><li>Services invoked at startup</li><li>Services "
+#~ "called on demand</li></ul> <p>The latter are only listed for convenience. "
+#~ "The startup services can be started and stopped. You can also define "
+#~ "whether services should be loaded at startup.</p> <p><b>Use this with "
+#~ "care: some services are vital for Plasma; do not deactivate services if "
+#~ "you  do not know what you are doing.</b></p>"
+#~ msgstr ""
+#~ "<h1>מנהל השירותים</h1><p>מודול זה מאפשר לך לראות סקירה לגבי כל התוספים של "
+#~ "תהליך הרקע של KDE. בעיקרון, יש שני סוגים של שירותים:</p><ul><li>שירותים "
+#~ "המופעלים בעת האתחול</li><li>שירותים הנקראים לפי דרישה</li></"
+#~ "ul><p>האחרונים רשומים כאן לצרכי נוחיות בלבד. שירותי האתחול ניתנים להפעלה "
+#~ "ועצירה. במצב מנהל, באפשרותך גם להגדיר אם שירותים ייטענו בעת האתחול.</"
+#~ "p><p><b>השתמש בזהירות. חלק מהשירותים חיוניים עבור KDE. אל תכבה שירותים אם "
+#~ "אתה לא יודע מה אתה עושה.</b></p>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "דרור לוין"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "spatz@012.net.il"
+
+#, fuzzy
+#~| msgid "Startup Services"
+#~ msgid "Background Services"
+#~ msgstr "שירותי אתחול"
+
+#, fuzzy
+#~| msgid "(c) 2002 Daniel Molkentin"
+#~ msgid "(c) 2002 Daniel Molkentin, (c) 2020 Kai Uwe Broulik"
+#~ msgstr "(c) 2002 Daniel Molkentin"
+
+#~ msgid "Daniel Molkentin"
+#~ msgstr "Daniel Molkentin"
+
+#~ msgid "kcmkded"
+#~ msgstr "kcmkded"
+
+#~ msgid "KDE Service Manager"
+#~ msgstr "מנהל השירותים של KDE"
+
+#~ msgid ""
+#~ "This is a list of available KDE services which will be started on demand. "
+#~ "They are only listed for convenience, as you cannot manipulate these "
+#~ "services."
+#~ msgstr ""
+#~ "רשימת שירותי KDE זמינים שיופעלו לפי דרישה. הם רשומים כאן לצרכי נוחיות "
+#~ "בלבד, וזאת מאחר שאין באפשרותך לטפל בשירותים אלה."
+
+#~ msgid "Status"
+#~ msgstr "מצב"
+
+#~ msgid "Description"
+#~ msgstr "תיאור"
+
+#~ msgid ""
+#~ "This shows all KDE services that can be loaded on Plasma startup. Checked "
+#~ "services will be invoked on next startup. Be careful with deactivation of "
+#~ "unknown services."
+#~ msgstr ""
+#~ "הצגת כל שירותי KDE שייטענו בעת ההפעלה של Plasma. שירותים מסומנים יופעלו "
+#~ "באתחול הבא. היזהר כאשר אתה מכבה שירותים לא מוכרים."
+
+#~ msgid "Use"
+#~ msgstr "השתמש"
+
+#~ msgid "Unable to contact KDED."
+#~ msgstr "אין אפשרות ליצור קשר עם KDED."
+
+#~ msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+#~ msgstr ""
+#~ "אין אפשרות להפעיל את השירות <em>%1</em>. <br /><br /> <i>שגיאה: %2</i>"
+
+#~ msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+#~ msgstr ""
+#~ "אין אפשרות לעצור את השירות <em>%1</em>. <br /><br /> <i>שגיאה: %2</i>"

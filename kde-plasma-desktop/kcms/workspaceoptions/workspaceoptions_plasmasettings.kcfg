@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="plasmarc" />
+  <group name="PlasmaToolTips">
+    <entry name="delay" key="Delay" type="Double">
+      <label>Display large panel and widget tooltips</label>
+      <tooltip>Allow Plasma widgets to display large panel and widget tooltips on hover</tooltip>
+      <default>0.7</default>
+    </entry>
+  </group>
+  <group name="OSD">
+    <entry name="osdEnabled" key="Enabled" type="Bool">
+      <label>Display small popups for status changes</label>
+      <tooltip>Allow Plasma widgets to display small popups for status changes such as brightness or volume</tooltip>
+      <default>true</default>
+    </entry>
+    <entry name="osdKbdLayoutChangedEnabled" key="kbdLayoutChangedEnabled" type="Bool">
+      <label>OSD on layout change</label>
+      <tooltip>Show a popup on layout changes</tooltip>
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

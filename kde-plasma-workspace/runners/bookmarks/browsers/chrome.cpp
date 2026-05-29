@@ -1,0 +1,135 @@
+/*
+    SPDX-FileCopyrightText: 2007 Glenn Ergeerts <glenn.ergeerts@telenet.be>
+    SPDX-FileCopyrightText: 2012 Marco Gulino <marco.gulino@xpeppers.com>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
+
+#include "chrome.h"
+#include "bookmarks_debug.h"
+#include "browsers/findprofile.h"
+#include "faviconfromblob.h"
+
+#include <QFileInfo>
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QJsonValue>
+#include <memory>
+#include <qloggingcategory.h>
+
+class ProfileBookmarks
+{
+public:
+    ProfileBookmarks(const Profile &profile)
+        : m_profile(profile)
+    {
+    }
+    inline QJsonArray bookmarks() const
+    {
+        return m_bookmarks;
+    }
+    inline Profile profile() const
+    {
+        return m_profile;
+    }
+    void tearDown()
+    {
+        m_profile.favicon()->teardown();
+        clear();
+    }
+    void add(const QJsonObject &bookmarkEntry)
+    {
+        m_bookmarks << bookmarkEntry;
+    }
+    void add(const QJsonArray &entries)
+    {
+        for (const auto &e : entries)
+            m_bookmarks << e;
+    }
+    void clear()
+    {
+        m_bookmarks = QJsonArray();
+    }
+
+private:
+    Profile m_profile;
+    QJsonArray m_bookmarks;
+};
+
+Chrome::Chrome(std::unique_ptr<FindProfile> findProfile)
+    : QObject()
+    , m_findProfile(std::move(findProfile))
+    , m_watcher(new KDirWatch(this))
+    , m_dirty(false)
+{
+    if (!m_findProfile) {
+        qCWarning(RUNNER_BOOKMARKS, "Chrome runner: findProfile is null!");
+        return;
+    }
+
+    const auto profiles = m_findProfile->find();
+    for (const Profile &profile : profiles) {
+        updateCacheFile(profile.faviconSource(), profile.faviconCache());
+        m_profileBookmarks.push_back(ProfileBookmarks(profile));
+        m_watcher->addFile(profile.path());
+    }
+    connect(m_watcher, &KDirWatch::created, this, [this] {
+        m_dirty = true;
+    });
+}
+
+Chrome::~Chrome()
+{
+}
+
+QList<BookmarkMatch> Chrome::match(const QString &term, bool addEveryThing)
+{
+    if (m_dirty) {
+        prepare();
+    }
+    QList<BookmarkMatch> results;
+    for (const ProfileBookmarks &profileBookmarks : m_profileBookmarks) {
+        results << match(term, addEveryThing, profileBookmarks);
+    }
+    return results;
+}
+
+QList<BookmarkMatch> Chrome::match(const QString &term, bool addEveryThing, const ProfileBookmarks &profileBookmarks)
+{
+    QList<BookmarkMatch> results;
+
+    const auto bookmarks = profileBookmarks.bookmarks();
+    Favicon *favicon = profileBookmarks.profile().favicon();
+    for (const QJsonValue &bookmarkValue : bookmarks) {
+        const QJsonObject bookmark = bookmarkValue.toObject();
+        const QString url = bookmark.value(u"url").toString();
+        BookmarkMatch bookmarkMatch(favicon->iconFor(url), term, bookmark.value(u"name").toString(), url);
+        bookmarkMatch.addTo(results, addEveryThing);
+    }
+    return results;
+}
+
+void Chrome::prepare()
+{
+    m_dirty = false;
+    for (ProfileBookmarks &profileBookmarks : m_profileBookmarks) {
+        Profile profile = profileBookmarks.profile();
+        profileBookmarks.clear();
+        const QJsonArray bookmarks = readChromeFormatBookmarks(profile.path());
+        if (bookmarks.isEmpty()) {
+            continue;
+        }
+        profileBookmarks.add(bookmarks);
+        updateCacheFile(profile.faviconSource(), profile.faviconCache());
+        profile.favicon()->prepare();
+    }
+}
+
+void Chrome::teardown()
+{
+    for (ProfileBookmarks &profileBookmarks : m_profileBookmarks) {
+        profileBookmarks.tearDown();
+    }
+}
+
+#include "moc_chrome.cpp"

@@ -1,0 +1,342 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2022, 2024, 2025 Wantoyo <wantoyek@gmail.com>
+# Linerly <linerly@protonmail.com>, 2022.
+# Aziz Adam Adrian <4.adam.adrian@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:46+0000\n"
+"PO-Revision-Date: 2025-03-15 05:34+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#: ui/DayNightView.qml:154
+#, kde-format
+msgid ""
+"Color temperature begins changing to night time at %1 and is fully changed "
+"by %2"
+msgstr ""
+"Suhu warna berubah ke waktu malam pada pukul %1 dan berubah penuh "
+"berdasarkan %2"
+
+#: ui/DayNightView.qml:157
+#, kde-format
+msgid ""
+"Color temperature begins changing to day time at %1 and is fully changed by "
+"%2"
+msgstr ""
+"Suhu warna berubah ke waktu siang pada pukul %1 dan berubah penuh "
+"berdasarkan %2"
+
+#: ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid "The blue light filter makes the colors on the screen warmer."
+msgctxt "@info"
+msgid "The blue light filter makes the colors on the screen warmer."
+msgstr "Filter cahaya biru membuat warna pada layar menghangat."
+
+#: ui/main.qml:49
+#, fuzzy, kde-format
+#| msgid "Switching times:"
+msgctxt "@label:listbox Night Light modes"
+msgid "Switching times:"
+msgstr "Waktu peralihan:"
+
+#: ui/main.qml:58
+#, fuzzy, kde-format
+#| msgid "Always off"
+msgctxt "@item:inlistbox switching times"
+msgid "Always off"
+msgstr "Selalu mati"
+
+#: ui/main.qml:59
+#, fuzzy, kde-format
+#| msgid "Always off"
+msgctxt "@item:inlistbox switching times"
+msgid "Always on"
+msgstr "Selalu mati"
+
+#: ui/main.qml:60
+#, fuzzy, kde-format
+#| msgid "Sunrise begins:"
+msgctxt "@item:inlistbox switching times"
+msgid "Sunrise and sunset"
+msgstr "Awal matahari terbit:"
+
+#: ui/main.qml:72
+#, kde-format
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure…"
+msgstr ""
+
+#: ui/main.qml:115 ui/main.qml:166 ui/main.qml:230
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1 K"
+msgstr ""
+
+#: ui/main.qml:123
+#, fuzzy, kde-format
+#| msgid "Day light temperature:"
+msgctxt "@label:slider"
+msgid "Day light temperature:"
+msgstr "Suhu cahaya siang:"
+
+#: ui/main.qml:173 ui/main.qml:237
+#, kde-format
+msgctxt "Night colour blue-ish; no blue light filter activated"
+msgid "Cool (no filter)"
+msgstr "Dingin (tanpa filter)"
+
+#: ui/main.qml:180 ui/main.qml:244
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Hangat"
+
+#: ui/main.qml:187
+#, fuzzy, kde-format
+#| msgid "Night light temperature:"
+msgctxt "@label:slider"
+msgid "Night light temperature:"
+msgstr "Suhu cahaya malam:"
+
+#, fuzzy
+#~| msgid "Always on night light"
+#~ msgctxt "@item:inlistbox switching times"
+#~ msgid "Always on night light"
+#~ msgstr "Selalu pada cahaya malam"
+
+#~ msgctxt "Color temperature in Kelvin"
+#~ msgid "%1K"
+#~ msgstr "%1K"
+
+#~ msgctxt ""
+#~ "@label:chooser Tap should be translated to mean touching using a "
+#~ "touchscreen"
+#~ msgid "Tap to choose your location on the map."
+#~ msgstr "Ketuk untuk memilih lokasi Anda di peta."
+
+#~ msgctxt ""
+#~ "@label:chooser Click should be translated to mean clicking using a mouse"
+#~ msgid "Click to choose your location on the map."
+#~ msgstr "Kelik untuk memilih lokasi Anda di peta."
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoom perbesar"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoom perkecil"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Modified from <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>World location map</link> "
+#~ "by TUBS / Wikimedia Commons / <link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+#~ msgstr ""
+#~ "Dimodifikasi dari <link url='https://commons.wikimedia.org/wiki/File:"
+#~ "World_location_map_(equirectangular_180).svg'>World location map</link> "
+#~ "oleh TUBS / Wikimedia Commons / <link url='https://creativecommons.org/"
+#~ "licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Latitude:"
+#~ msgstr "Garis lintang:"
+
+#~ msgctxt "@label: textbox"
+#~ msgid "Longitude:"
+#~ msgstr "Garis bujur:"
+
+#~ msgid "Sunset and sunrise at current location"
+#~ msgstr "Matahari tenggelam dan matahari terbit di lokasi saat ini"
+
+#~ msgid "Sunset and sunrise at manual location"
+#~ msgstr "Matahari tenggelam dan matahari terbit di lokasi tertentu"
+
+#~ msgid "Custom times"
+#~ msgstr "Waktu kustom"
+
+#~ msgctxt "@label The coordinates for the current location"
+#~ msgid "Current location:"
+#~ msgstr "Lokasi saat ini:"
+
+#~ msgid "Latitude: %1°   Longitude: %2°"
+#~ msgstr "Garis lintang: %1°   Garis bujur: %2°"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>GeoClue2</application> service will be used to "
+#~ "periodically update the device's location using GPS or cell tower "
+#~ "triangulation if available, or else by sending its IP address to <link "
+#~ "url='https://geoip.com/privacy/'>GeoIP</link>."
+#~ msgstr ""
+#~ "Layanan <application>GeoClue2</application> akan digunakan untuk "
+#~ "pembaruan lokasi peranti secara berkala menggunakan GPS atau tower BTS "
+#~ "yang tersedia, atau bahkan dengan mengirimkan alamat IP-nya ke <link "
+#~ "url='https://geoip.com/privacy/'>GeoIP</link>."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The <application>%1</application> service will be used to periodically "
+#~ "update the device's location. Please open a bug report at <link "
+#~ "url='https://bugs.kde.org'>https://bugs.kde.org</link> asking KDE "
+#~ "developers to write a detailed description of what this service will do."
+#~ msgstr ""
+#~ "Layanan <application>%1</application> akan digunakan untuk pembaruan "
+#~ "lokasi peranti secara berkala. Silakan buka laporan bug di <link "
+#~ "url='https://bugs.kde.org'>https://bugs.kde.org</link> menanyakan "
+#~ "pengembang KDE untuk menulis deskripsi lebih jelas atas apa yang akan "
+#~ "dilakukan layanan ini."
+
+#~ msgid "Begin night light at:"
+#~ msgstr "Awal cahaya malam pukul:"
+
+#~ msgid "Begin day light at:"
+#~ msgstr "Awal cahaya siang pukul:"
+
+#~ msgid "Transition duration:"
+#~ msgstr "Durasi transisi:"
+
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 menit"
+#~ msgstr[1] "%1 menit"
+
+#~ msgid "Input minutes - min. 1, max. 600"
+#~ msgstr "Menit input - men. 1, maks. 600"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Locating…"
+#~ msgstr "Pelokasian..."
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "hour"
+#~ msgstr "jam"
+
+#~ msgctxt "Time separator between hours and minutes"
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgctxt "@info:tooltip Part of a control for setting a time"
+#~ msgid "minute"
+#~ msgstr "menit"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The device's location will be periodically updated using GPS (if "
+#~ "available), or by sending network information to <link url='https://"
+#~ "location.services.mozilla.com'>Mozilla Location Service</link>."
+#~ msgstr ""
+#~ "Lokasi peranti ini akan dideteksikan menggunakan GPS (jika tersedia), "
+#~ "atau dengan mengirimkan informasi jaringan ke <a href=\"https://location."
+#~ "services.mozilla.com\">Mozilla Location Service</a>."
+
+#~ msgid "Error: Transition time overlaps."
+#~ msgstr "Error: Waktu transisi tumpang tindih."
+
+#~ msgid "Input format: HH:MM"
+#~ msgstr "Format input: JJ:MM"
+
+#~ msgctxt "Night colour blue-ish"
+#~ msgid "Cool"
+#~ msgstr "Dingin"
+
+#, fuzzy
+#~| msgid "This is what Night Color will look like when active."
+#~ msgid "This is what day color temperature will look like when active."
+#~ msgstr "Seperti inilah tampilan Warna Malam saat aktif."
+
+#, fuzzy
+#~| msgid "This is what Night Color will look like when active."
+#~ msgid "This is what night color temperature will look like when active."
+#~ msgstr "Seperti inilah tampilan Warna Malam saat aktif."
+
+#, fuzzy
+#~| msgid "Activate Night Color"
+#~ msgid "Activate blue light filter"
+#~ msgstr "Aktifkan Warna Malam"
+
+#~ msgid "Turn on at:"
+#~ msgstr "Nyalakan pada:"
+
+#~ msgid "Turn off at:"
+#~ msgstr "Padamkan pada:"
+
+#~ msgid "Night Color begins changing back at %1 and ends at %2"
+#~ msgstr "Awal Warna Malam kembali berubah pada %1 dan selesai pada %2"
+
+# Perlu tinjauan
+#~ msgid "Error: Morning is before evening."
+#~ msgstr "Error: Pagi menjelang petang."
+
+#~ msgid ""
+#~ "The device's location will be detected using GPS (if available), or by "
+#~ "sending network information to <a href=\"https://location.services."
+#~ "mozilla.com\">Mozilla Location Service</a>."
+#~ msgstr ""
+#~ "Lokasi perangkat ini akan dideteksikan menggunakan GPS (jika tersedia), "
+#~ "atau dengan mengirimkan informasi jaringan ke <a href=\"https://location."
+#~ "services.mozilla.com\">Mozilla Location Service</a>."
+
+#~ msgid "Night Color begins at %1"
+#~ msgstr "Awal Warna Malam pada pukul %1"
+
+#~ msgid "Color fully changed at %1"
+#~ msgstr "Warna secara penuh berubah pada pukul %1"
+
+#~ msgid "Normal coloration restored by %1"
+#~ msgstr "Pewarnaan normal dipulihkan kembali pada pukul %1"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Wantoyo"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "wantoyek@gmail.com"
+
+#~ msgid "Night Color"
+#~ msgstr "Warna Malam"
+
+#~ msgid "Roman Gilg"
+#~ msgstr "Roman Gilg"
+
+#~ msgid " K"
+#~ msgstr " K"
+
+#~ msgid "Operation mode:"
+#~ msgstr "Mode operasi:"
+
+#~ msgid "Automatic"
+#~ msgstr "Otomatis"
+
+#~ msgid "Times"
+#~ msgstr "Waktu"
+
+#~ msgid "Constant"
+#~ msgstr "Konstan"
+
+#~ msgid "(Input format: HH:MM)"
+#~ msgstr "(Format input: JJ:MM)"
+
+#~ msgid "Sunset begins:"
+#~ msgstr "Awal matahari terbenam:"
+
+#~ msgid "...and ends:"
+#~ msgstr "...dan berakhir:"
+
+#~ msgid "Manual"
+#~ msgstr "Manual"
+
+#~ msgid "(HH:MM)"
+#~ msgstr "(JJ:MM)"

@@ -1,0 +1,186 @@
+/*
+    SPDX-FileCopyrightText: 2019 Kai Uwe Broulik <kde@privat.broulik.de>
+
+    SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+*/
+
+import QtQml
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as QtControls
+
+import org.kde.kirigami as Kirigami
+import org.kde.kcmutils as KCM
+
+import org.kde.private.kcms.notifications as Private
+
+KCM.AbstractKCM {
+    id: sourcesPage
+    // Use app title when only configuring events.
+    title: showOnlyEventsConfig ? rootIndex.model.data(rootIndex, Qt.DisplayRole) : i18nc("@title:window kcm page title, configure app-specific notification settings", "Application Notifications")
+
+    property alias rootIndex: appConfiguration.rootIndex
+    property bool showOnlyEventsConfig: false
+    property string eventId: ""
+
+    framedView: false
+
+    Component.onCompleted: {
+        Qt.callLater(function() {
+            // Select the requested item in the list
+            if (rootIndex.valid) {
+                const proxyIndex = kcm.filteredModel.mapFromSource(rootIndex);
+                sourcesList.currentIndex = proxyIndex.row;
+            }
+            // Select the specific event
+            if (eventId) {
+                appConfiguration.configureEvents(eventId);
+            }
+        });
+    }
+
+    Binding {
+        target: kcm.filteredModel
+        property: "query"
+        value: searchField.text
+        restoreMode: Binding.RestoreBinding
+    }
+
+    onRootIndexChanged: {
+        // If we are only showing events and the source is not valid anymore
+        // (because the model reset), just go back to the main page
+        if (!sourcesPage.rootIndex.valid && showOnlyEventsConfig) {
+            kcm.pop()
+        }
+    }
+
+    header: ColumnLayout {
+        visible: !sourcesPage.showOnlyEventsConfig
+
+        Kirigami.SearchField {
+            id: searchField
+
+            Layout.fillWidth: true
+        }
+    }
+
+    RowLayout {
+        id: rootRow
+
+        anchors.fill: parent
+
+        spacing: 0
+
+        QtControls.ScrollView {
+            id: sourcesScroll
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 12
+            Layout.preferredWidth: Math.round(rootRow.width / 3)
+            visible: !sourcesPage.showOnlyEventsConfig
+
+            background: null
+
+            Kirigami.Theme.colorSet: Kirigami.Theme.View
+            Kirigami.Theme.inherit: false
+
+            contentItem: ListView {
+                id: sourcesList
+                clip: true
+                focus: true
+                activeFocusOnTab: true
+
+                keyNavigationEnabled: true
+                keyNavigationWraps: true
+                highlightMoveDuration: 0
+
+                model: kcm.filteredModel
+                currentIndex: -1
+
+                section {
+                    criteria: ViewSection.FullString
+                    property: "sourceType"
+                    delegate: Kirigami.ListSectionHeader {
+                        id: sourceSection
+                        width: sourcesList.width
+                        label: {
+                            switch (Number(section)) {
+                                case Private.SourcesModel.ApplicationType: return i18n("Applications");
+                                case Private.SourcesModel.ServiceType: return i18n("System Services");
+                            }
+                        }
+                    }
+                }
+
+                onCurrentItemChanged: {
+                    var sourceIdx = kcm.filteredModel.mapToSource(kcm.filteredModel.index(sourcesList.currentIndex, 0));
+                    appConfiguration.rootIndex = kcm.sourcesModel.makePersistentModelIndex(sourceIdx);
+                }
+
+                delegate: QtControls.ItemDelegate {
+                    id: sourceDelegate
+
+                    width: sourcesList.width
+                    text: model.display
+                    icon.name: model.decoration
+                    highlighted: ListView.isCurrentItem
+
+                    onClicked: {
+                        sourcesList.forceActiveFocus();
+                        sourcesList.currentIndex = index;
+                    }
+
+                    leftPadding: Kirigami.Units.largeSpacing
+                    rightPadding: Kirigami.Units.largeSpacing
+
+                    indicator: Rectangle {
+                        anchors {
+                            right: parent.right
+                            rightMargin: Kirigami.Units.largeSpacing
+                            verticalCenter: parent.contentItem.verticalCenter
+                        }
+
+                        radius: width * 0.5
+                        implicitWidth: Kirigami.Units.largeSpacing
+                        implicitHeight: Kirigami.Units.largeSpacing
+                        visible: kcm.defaultsIndicatorsVisible && !model.isDefault
+                        color: Kirigami.Theme.neutralTextColor
+                    }
+                }
+
+                Kirigami.PlaceholderMessage {
+                    anchors.centerIn: parent
+                    width: parent.width - (Kirigami.Units.largeSpacing * 4)
+
+                    visible: sourcesList.count === 0 && searchField.length > 0
+
+                    text: i18n("No application or event matches your search term")
+                }
+            }
+        }
+
+        Kirigami.Separator {
+            Layout.fillHeight: true
+        }
+
+        Item {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            Layout.preferredWidth: Math.round(rootRow.width / 3 * 2)
+
+            ApplicationConfiguration {
+                id: appConfiguration
+                anchors.fill: parent
+                showOnlyEventsConfig: sourcesPage.showOnlyEventsConfig
+                visible: appConfiguration.rootIndex.valid
+            }
+
+            Kirigami.PlaceholderMessage {
+                anchors.centerIn: parent
+                width: parent.width - (Kirigami.Units.largeSpacing * 4)
+                text: i18n("Select an application from the list to configure its notification settings and behavior")
+                visible: !appConfiguration.rootIndex.valid
+            }
+        }
+    }
+}

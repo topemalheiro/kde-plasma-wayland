@@ -1,0 +1,107 @@
+# translation of plasma_applet_org.kde.plasma.clipboard.pot to Esperanto
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the plasma-workspace package.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+# Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2023-05-26 19:45+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Tonduja Enhavo"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Tondujo estas malplena"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Malplenigi Historion"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Agordi tondujon…"
+
+#~ msgid "QR Code"
+#~ msgstr "QR-kodo"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Data Matrix"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Kodo 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Kodo 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Kodo 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Reiri al Tondujo"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Ŝanĝi la tipon de QR-kodo"
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr ""
+#~ "Ne estas sufiĉa spaco por montri la QR-kodon. Provu aligrandigi ĉi "
+#~ "apleton."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Kreado de QR-kodo malsukcesis"
+
+#~ msgid "Invoke action"
+#~ msgstr "Alvoki agon"
+
+#~ msgid "Show QR code"
+#~ msgstr "Montri QR-kodon"
+
+#~ msgid "Edit contents"
+#~ msgstr "Redakti enhavojn"
+
+#~ msgid "Remove from history"
+#~ msgstr "Forigi el historio"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Konservi"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Nuligi"
+
+#~ msgid "No matches"
+#~ msgstr "Neniuj alumetoj"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "La QR-kodo estas tro granda por esti montrata"

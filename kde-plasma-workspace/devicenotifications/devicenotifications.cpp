@@ -1,0 +1,574 @@
+/*
+    SPDX-FileCopyrightText: 2022 Kai Uwe Broulik <kde@broulik.de>
+
+    SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+*/
+
+#include "devicenotifications.h"
+
+#include <QGuiApplication>
+
+#include <KLocalizedString>
+#include <KPluginFactory>
+
+#include <chrono>
+
+#include <knotification.h>
+#include <wayland-client.h>
+
+K_PLUGIN_CLASS_WITH_JSON(KdedDeviceNotifications, "devicenotifications.json")
+
+using namespace std::chrono_literals;
+
+// TODO Can we put this in KStringHandler?
+static QString decodePropertyValue(QByteArrayView encoded)
+{
+    const int len = encoded.length();
+    QByteArray decoded;
+    // The resulting string is definitely same length or shorter.
+    decoded.reserve(len);
+
+    for (int i = 0; i < len; ++i) {
+        const auto ch = encoded.at(i);
+
+        if (ch == '\\') {
+            if (i + 1 < len && encoded.at(i + 1) == '\\') {
+                decoded.append('\\');
+                ++i;
+            } else if (i + 3 < len && encoded.at(i + 1) == 'x') {
+                QByteArrayView hex = encoded.mid(i + 2, 2);
+                bool ok;
+                const int code = hex.toInt(&ok, 16);
+                if (ok) {
+                    decoded.append(char(code));
+                }
+                i += 3;
+            }
+        } else {
+            decoded.append(ch);
+        }
+    }
+    return QString::fromUtf8(decoded);
+}
+
+UdevDevice::UdevDevice(struct udev_device *device)
+    : UdevDevice(device, true /*ref*/)
+{
+}
+
+UdevDevice::UdevDevice(struct udev_device *device, bool ref)
+    : m_device(device)
+{
+    if (ref) {
+        udev_device_ref(m_device);
+    }
+}
+
+UdevDevice UdevDevice::fromDevice(struct udev_device *device)
+{
+    return {device, false /*ref*/};
+}
+
+UdevDevice::~UdevDevice()
+{
+    if (m_device) {
+        udev_device_unref(m_device);
+    }
+}
+
+UdevDevice &UdevDevice::operator=(const UdevDevice &other)
+{
+    udev_device_unref(m_device);
+    m_device = udev_device_ref(other.m_device);
+    return *this;
+}
+
+struct udev_device *UdevDevice::handle() const
+{
+    return m_device;
+}
+
+QString UdevDevice::action() const
+{
+    return getDeviceString(udev_device_get_action);
+}
+
+QString UdevDevice::name() const
+{
+    return getDeviceString(udev_device_get_sysname);
+}
+
+QString UdevDevice::sysfsPath() const
+{
+    return getDeviceString(udev_device_get_syspath);
+}
+
+QString UdevDevice::subsystem() const
+{
+    return getDeviceString(udev_device_get_subsystem);
+}
+
+QString UdevDevice::type() const
+{
+    return getDeviceString(udev_device_get_devtype);
+}
+
+QString UdevDevice::deviceProperty(const char *name) const
+{
+    if (m_device) {
+        const auto *value = udev_device_get_property_value(m_device, name);
+        if (value) {
+            return QString::fromUtf8(value);
+        }
+    }
+    return {};
+}
+
+QByteArray UdevDevice::devicePropertyRaw(const char *name) const
+{
+    if (m_device) {
+        const auto *value = udev_device_get_property_value(m_device, name);
+        if (value) {
+            return value;
+        }
+    }
+    return {};
+}
+
+QString UdevDevice::sysfsProperty(const char *name) const
+{
+    if (m_device) {
+        const auto *value = udev_device_get_sysattr_value(m_device, name);
+        if (value) {
+            return QString::fromUtf8(value);
+        }
+    }
+    return {};
+}
+
+QString UdevDevice::getDeviceString(const char *(*getter)(udev_device *)) const
+{
+    if (m_device) {
+        return QString::fromUtf8((*getter)(m_device));
+    }
+    return {};
+}
+
+QString UdevDevice::model() const
+{
+    QString name = sysfsProperty("product");
+    if (name.isEmpty()) {
+        name = deviceProperty("ID_MODEL_FROM_DATABASE");
+    }
+    if (name.isEmpty()) {
+        name = decodePropertyValue(devicePropertyRaw("ID_MODEL_ENC"));
+    }
+    if (name.isEmpty()) {
+        name = deviceProperty("ID_MODEL");
+    }
+    return name;
+}
+
+QString UdevDevice::vendor() const
+{
+    QString vendor = sysfsProperty("manufacturer");
+    if (vendor.isEmpty()) {
+        vendor = deviceProperty("ID_VENDOR_FROM_DATABASE");
+    }
+    if (vendor.isEmpty()) {
+        vendor = decodePropertyValue(devicePropertyRaw("ID_VENDOR_ENC"));
+    }
+    if (vendor.isEmpty()) {
+        vendor = deviceProperty("ID_VENDOR");
+    }
+    return vendor;
+}
+
+QString UdevDevice::displayName() const
+{
+    const QString generic = QStringLiteral("Generic");
+
+    QStringList displayNameSegments;
+
+    QString vendor = this->vendor();
+    if (vendor == generic) {
+        vendor.clear();
+    }
+    if (!vendor.isEmpty()) {
+        displayNameSegments.append(vendor);
+    }
+
+    QString model = this->model();
+    if (model == generic) {
+        model.clear();
+    }
+    if (!model.isEmpty()) {
+        displayNameSegments.append(model);
+    }
+
+    return displayNameSegments.join(QLatin1Char(' '));
+}
+
+bool UdevDevice::isRemovable() const
+{
+    // "removable" is a device that can be removed from the platform by the user.
+    // See https://www.kernel.org/doc/Documentation/ABI/testing/sysfs-devices-removable
+    return sysfsProperty("removable") == QLatin1String("removable");
+}
+
+Udev::Udev(QObject *parent)
+    : QObject(parent)
+    , m_udev(udev_new())
+{
+    if (!m_udev) {
+        return;
+    }
+
+    m_monitor = udev_monitor_new_from_netlink(m_udev, "udev");
+    if (!m_monitor) {
+        return;
+    }
+
+    // For now we're only interested in devices on the "usb" subsystem.
+    udev_monitor_filter_add_match_subsystem_devtype(m_monitor, "usb", nullptr);
+
+    m_notifier = new QSocketNotifier(udev_monitor_get_fd(m_monitor), QSocketNotifier::Read, this);
+    connect(m_notifier, &QSocketNotifier::activated, this, &Udev::onSocketActivated);
+
+    udev_monitor_enable_receiving(m_monitor);
+}
+
+Udev::~Udev()
+{
+    if (m_monitor) {
+        udev_monitor_unref(m_monitor);
+    }
+    if (m_udev) {
+        udev_unref(m_udev);
+    }
+}
+
+void Udev::onSocketActivated()
+{
+    m_notifier->setEnabled(false);
+    UdevDevice device = UdevDevice::fromDevice(udev_monitor_receive_device(m_monitor));
+    m_notifier->setEnabled(true);
+
+    const QString action = device.action();
+
+    if (action == QLatin1String("add")) {
+        Q_EMIT deviceAdded(device);
+    } else if (action == QLatin1String("remove")) {
+        Q_EMIT deviceRemoved(device);
+    }
+}
+
+OutputDeviceRegistry::OutputDeviceRegistry()
+    : QWaylandClientExtensionTemplate<OutputDeviceRegistry>(21)
+{
+    initialize();
+
+    connect(this, &OutputDeviceRegistry::activeChanged, this, [this]() {
+        if (!isActive()) {
+            m_outputDevices.clear();
+        }
+    });
+}
+
+OutputDeviceRegistry::~OutputDeviceRegistry()
+{
+    if (qGuiApp && isActive()) {
+        kde_output_device_registry_v2_destroy(object());
+    }
+}
+
+void OutputDeviceRegistry::kde_output_device_registry_v2_finished()
+{
+    delete this;
+}
+
+void OutputDeviceRegistry::kde_output_device_registry_v2_output(struct ::kde_output_device_v2 *output)
+{
+    auto outputDevice = m_outputDevices.emplace_back(std::make_unique<OutputDevice>(output)).get();
+
+    connect(outputDevice, &OutputDevice::done, this, [this, outputDevice]() {
+        Q_EMIT outputAdded(outputDevice);
+    }, Qt::SingleShotConnection);
+
+    connect(outputDevice, &OutputDevice::removed, this, [this, outputDevice]() {
+        if (outputDevice->isInitialized()) {
+            Q_EMIT outputRemoved(outputDevice);
+        }
+
+        const auto it = std::ranges::find_if(m_outputDevices, [outputDevice](const auto &item) {
+            return item.get() == outputDevice;
+        });
+        if (it != m_outputDevices.end()) {
+            m_outputDevices.erase(it);
+        }
+    });
+}
+
+OutputDevice::OutputDevice(::kde_output_device_v2 *outputDevice)
+    : kde_output_device_v2(outputDevice)
+{
+}
+
+OutputDevice::~OutputDevice()
+{
+    release();
+}
+
+void OutputDevice::kde_output_device_v2_uuid(const QString &uuid)
+{
+    m_uuid = uuid;
+}
+
+void OutputDevice::kde_output_device_v2_mode(struct ::kde_output_device_mode_v2 *mode)
+{
+    new OutputDeviceMode(mode);
+}
+
+void OutputDevice::kde_output_device_v2_done()
+{
+    m_isInitialized = true;
+    Q_EMIT done();
+}
+
+void OutputDevice::kde_output_device_v2_removed()
+{
+    Q_EMIT removed();
+}
+
+OutputDeviceMode::OutputDeviceMode(::kde_output_device_mode_v2 *mode)
+    : QtWayland::kde_output_device_mode_v2(mode)
+{
+}
+
+OutputDeviceMode::~OutputDeviceMode()
+{
+    kde_output_device_mode_v2_destroy(object());
+}
+
+void OutputDeviceMode::kde_output_device_mode_v2_removed()
+{
+    delete this;
+}
+
+KdedDeviceNotifications::KdedDeviceNotifications(QObject *parent, const QList<QVariant> &)
+    : KDEDModule(parent)
+{
+    // Suppress changes in quick succession in case of (un)plugging a docking station with several outputs and USB devices.
+    m_deviceAddedTimer.setInterval(500ms);
+    m_deviceAddedTimer.setSingleShot(true);
+
+    m_deviceRemovedTimer.setInterval(500ms);
+    m_deviceRemovedTimer.setSingleShot(true);
+
+    connect(&m_udev, &Udev::deviceAdded, this, &KdedDeviceNotifications::onDeviceAdded);
+    connect(&m_udev, &Udev::deviceRemoved, this, &KdedDeviceNotifications::onDeviceRemoved);
+
+    setupWaylandOutputListener();
+}
+
+KdedDeviceNotifications::~KdedDeviceNotifications()
+{
+    // The output device registry will be deleted when the finished event is received from the compositor.
+    if (m_outputRegistry) {
+        m_outputRegistry->stop();
+    }
+}
+
+void KdedDeviceNotifications::setupWaylandOutputListener()
+{
+    auto waylandApp = qGuiApp->nativeInterface<QNativeInterface::QWaylandApplication>();
+    if (!waylandApp) {
+        return;
+    }
+
+    m_outputRegistry = new OutputDeviceRegistry();
+
+    connect(m_outputRegistry, &OutputDeviceRegistry::outputAdded, this, [this](OutputDevice *outputDevice) {
+        if (m_initialOutputsReceived) {
+            const QString uuid = outputDevice->uuid();
+            // If we recently just removed this output, it wasn't actually physically disconnected
+            if (!m_recentlyRemovedOutputs.removeOne(uuid)) {
+                notifyOutputAdded();
+            }
+        }
+    });
+
+    connect(m_outputRegistry, &OutputDeviceRegistry::outputRemoved, this, [this](OutputDevice *outputDevice) {
+        const QString uuid = outputDevice->uuid();
+        m_recentlyRemovedOutputs.append(uuid);
+        // 2000ms matches the DPMS workaround time in KWin
+        QTimer::singleShot(2000ms, this, [this, uuid]() {
+            // Only notify if the output hasn't been added again in the mean time
+            if (m_recentlyRemovedOutputs.removeOne(uuid)) {
+                notifyOutputRemoved();
+            }
+        });
+    });
+
+    wl_display *display = waylandApp->display();
+
+    // Suppress notifications until the initial list of outputs has been received.
+    auto syncDone = [](void *data, struct wl_callback *wl_callback, uint32_t callback_data) {
+        Q_UNUSED(callback_data);
+        auto *self = static_cast<KdedDeviceNotifications *>(data);
+        self->m_initialOutputsReceived = true;
+        wl_callback_destroy(wl_callback);
+    };
+    auto syncCallback = wl_display_sync(display);
+    static const wl_callback_listener syncCallbackListener{syncDone};
+    wl_callback_add_listener(syncCallback, &syncCallbackListener, this);
+}
+
+void KdedDeviceNotifications::dismissUsbDeviceAdded()
+{
+    if (m_usbDeviceAddedNotification) {
+        m_usbDeviceAddedNotification->close();
+        m_usbDeviceAddedNotification = nullptr;
+    }
+}
+
+void KdedDeviceNotifications::notifyOutputAdded()
+{
+    if (m_deviceAddedTimer.isActive()) {
+        return;
+    }
+
+    if (m_displayRemovedNotification) {
+        m_displayRemovedNotification->close();
+        m_displayRemovedNotification = nullptr;
+    }
+
+    m_displayAddedNotification = new KNotification(QStringLiteral("deviceAdded"));
+    m_displayAddedNotification->setFlags(KNotification::DefaultEvent);
+    m_displayAddedNotification->setIconName(QStringLiteral("video-display-add"));
+    m_displayAddedNotification->setTitle(i18nc("@title:notifications", "Display Detected"));
+    m_displayAddedNotification->setText(i18n("A display has been connected."));
+    m_displayAddedNotification->sendEvent();
+
+    m_deviceAddedTimer.start();
+}
+
+void KdedDeviceNotifications::notifyOutputRemoved()
+{
+    if (m_deviceRemovedTimer.isActive()) {
+        return;
+    }
+
+    if (m_displayAddedNotification) {
+        m_displayAddedNotification->close();
+        m_displayAddedNotification = nullptr;
+    }
+
+    m_displayRemovedNotification = new KNotification(QStringLiteral("deviceRemoved"));
+    m_displayRemovedNotification->setFlags(KNotification::DefaultEvent);
+    m_displayRemovedNotification->setIconName(QStringLiteral("video-display-remove"));
+    m_displayRemovedNotification->setTitle(i18nc("@title:notifications", "Display Removed"));
+    m_displayRemovedNotification->setText(i18n("A display has been disconnected."));
+    m_displayRemovedNotification->sendEvent();
+
+    m_deviceRemovedTimer.start();
+}
+
+void KdedDeviceNotifications::onDeviceAdded(const UdevDevice &device)
+{
+    // We only care about actual USB devices, no interfaces, controllers, etc.
+    if (device.type() != QLatin1String("usb_device")) {
+        return;
+    }
+
+    if (!device.isRemovable()) {
+        return;
+    }
+
+    // By the time we receive the "removed" signal, the device's properties
+    // are already discarded, so we need to remember whether it is removable
+    // here, so we know that when the device is removed, likewise remember its name.
+    m_removableDevices.append(device.sysfsPath());
+
+    const QString displayName = device.displayName();
+    if (!displayName.isEmpty()) {
+        m_displayNames.insert(device.sysfsPath(), displayName);
+    }
+
+    if (m_deviceAddedTimer.isActive()) {
+        return;
+    }
+
+    // If the user unplugged something and then immediately plugged it in again,
+    // there's no need to keep the unplug notification around.
+    if (m_usbDeviceRemovedNotification) {
+        m_usbDeviceRemovedNotification->close();
+        m_usbDeviceRemovedNotification = nullptr;
+    }
+
+    // Only show one of these at a time. We already suppressed creating a bunch
+    // in quick succession for the dock/hub use case, so any that are created
+    // over that time limit anyway are not necessary to stack up.
+    if (m_usbDeviceAddedNotification) {
+        m_usbDeviceAddedNotification->close();
+        m_usbDeviceAddedNotification = nullptr;
+    }
+
+    const QString text = !displayName.isEmpty() ? i18n("%1 has been connected.", displayName.toHtmlEscaped()) : i18n("A USB device has been connected.");
+
+    m_usbDeviceAddedNotification = new KNotification(QStringLiteral("deviceAdded"));
+    m_usbDeviceAddedNotification->setFlags(KNotification::DefaultEvent);
+    m_usbDeviceAddedNotification->setIconName(QStringLiteral("drive-removable-media-usb"));
+    m_usbDeviceAddedNotification->setTitle(i18nc("@title:notifications", "USB Device Detected"));
+    m_usbDeviceAddedNotification->setText(text);
+    m_usbDeviceAddedNotification->sendEvent();
+
+    m_deviceAddedTimer.start();
+}
+
+void KdedDeviceNotifications::onDeviceRemoved(const UdevDevice &device)
+{
+    if (device.type() != QLatin1String("usb_device")) {
+        return;
+    }
+
+    const QString displayName = m_displayNames.take(device.sysfsPath());
+
+    if (!m_removableDevices.removeOne(device.sysfsPath()) && !device.isRemovable()) {
+        return;
+    }
+
+    if (m_deviceRemovedTimer.isActive()) {
+        return;
+    }
+
+    // If the user plugged something in and then immediately unplugged it again,
+    // there's no need to keep the plug notification around.
+    if (m_usbDeviceAddedNotification) {
+        m_usbDeviceAddedNotification->close();
+        m_usbDeviceAddedNotification = nullptr;
+    }
+
+    // Only show one of these at a time. We already suppressed removing a bunch
+    // in quick succession for the dock/hub use case, so any that are removed
+    // over that time limit anyway are not necessary to stack up.
+    if (m_usbDeviceRemovedNotification) {
+        m_usbDeviceRemovedNotification->close();
+        m_usbDeviceRemovedNotification = nullptr;
+    }
+
+    const QString text = !displayName.isEmpty() ? i18n("%1 has been disconnected.", displayName.toHtmlEscaped()) : i18n("A USB device has been disconnected.");
+
+    m_usbDeviceRemovedNotification = new KNotification(QStringLiteral("deviceRemoved"));
+    m_usbDeviceRemovedNotification->setFlags(KNotification::DefaultEvent);
+    m_usbDeviceRemovedNotification->setIconName(QStringLiteral("drive-removable-media-usb"));
+    m_usbDeviceRemovedNotification->setTitle(i18nc("@title:notifications", "USB Device Removed"));
+    m_usbDeviceRemovedNotification->setText(text);
+    m_usbDeviceRemovedNotification->sendEvent();
+
+    m_deviceRemovedTimer.start();
+}
+
+#include "devicenotifications.moc"
+
+#include "moc_devicenotifications.cpp"

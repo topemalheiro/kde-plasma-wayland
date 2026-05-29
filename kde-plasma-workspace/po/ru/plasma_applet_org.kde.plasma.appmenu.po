@@ -1,0 +1,84 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Victor Ryzhykh <victorr2007@yandex.ru>, 2017.
+# Alexander Potashev <aspotashev@gmail.com>, 2017.
+# SPDX-FileCopyrightText: 2021, 2022, 2026 Alexander Yavorsky <kekcuha@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_clock\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-14 00:46+0000\n"
+"PO-Revision-Date: 2026-04-03 22:04+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.3\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: appmenumodel.cpp:85
+#, kde-format
+msgid "Search"
+msgstr "Поиск"
+
+#: appmenumodel.cpp:92
+#, kde-format
+msgid "Search…"
+msgstr "Поиск..."
+
+#: qml/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: qml/configGeneral.qml:21
+#, kde-format
+msgid "Use single button for application menu"
+msgstr "Использовать одну кнопку для меню приложения"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgid "Show full application menu"
+msgstr "Показывать полную строку меню приложения"
+
+#: qml/configGeneral.qml:32
+#, kde-format
+msgid "Show menus for apps on different screens"
+msgstr "Показывать меню приложений на разных экранах"
+
+#: qml/MenuDelegate.qml:62
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open a menu"
+msgstr "Открыть меню"
+
+# placeholder
+#~ msgid "Search..."
+#~ msgstr "Введите текст для поиска..."
+
+# BUGME: should not be translatable --aspotashev
+#~ msgid "application-menu"
+#~ msgstr "application-menu"
+
+#~ msgid "Application Menu Widget is disabled"
+#~ msgstr "Виджет меню приложения отключён"
+
+#~ msgctxt "it being the 'Application Menu Widget'"
+#~ msgid ""
+#~ "Go to System Settings > Application Style > Fine Tuning (tab) to enable "
+#~ "it."
+#~ msgstr ""
+#~ "Чтобы использовать виджет меню приложения, включите его поддержку в "
+#~ "Параметры системы > Оформление приложений > Стиль интерфейса > Тонкая "
+#~ "настройка."
+
+# BUGME: should not be translatable --aspotashev
+#~ msgid "emblem-warning"
+#~ msgstr "emblem-warning"

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="kwinrc"/>
+    <group name="NightColor">
+        <entry name="ActiveEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="Active" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="ModeEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="Mode" type="Enum">
+            <choices name="ColorCorrect::NightLightMode">
+                <choice name="Constant"/>
+                <choice name="DarkLight"/>
+            </choices>
+            <default>DarkLight</default>
+        </entry>
+        <entry name="NightTemperatureEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="DayTemperature" type="Int">
+            <default>6500</default>
+            <min>1000</min>
+            <max>6500</max>
+        </entry>
+        <entry name="NightTemperature" type="Int">
+            <default>4500</default>
+            <min>1000</min>
+            <max>6500</max>
+        </entry>
+    </group>
+</kcfg>

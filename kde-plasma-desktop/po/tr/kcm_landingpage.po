@@ -1,0 +1,198 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2021, 2022.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:47+0000\n"
+"PO-Revision-Date: 2026-01-08 17:28+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "Renk şeması adı"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "Dosyaları açmak için tek tık"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr ""
+"Günün saatine bağlı olarak açık ve koyu global temalar arasında geçiş yap"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "Global görünüm ve his paketi"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "Global görünüm ve his paketi, alternatif"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "Canlandırma hızı"
+
+#: ui/LookAndFeelBox.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "Global Temayı Değiştir"
+
+#: ui/LookAndFeelBox.qml:178
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "Global tema"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "Kendiliğinden"
+
+#: ui/main.qml:116
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark "
+"global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "Gündüz “%1”, gece “%2” kullanılır"
+
+#: ui/main.qml:126
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "Ek görünüş ayarları:"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "Canlandırma hızı:"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "Yavaş"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "Anında"
+
+#: ui/main.qml:220
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "Dosyalara ve klasörlere tıklamak:"
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "Onları seçer"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "Ögeleri açmak için çift tıklayın"
+
+#: ui/main.qml:247
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "Onları açar"
+
+#: ui/main.qml:252
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "Seçmek için ögenin seçim imleyicisine tıklayın"
+
+#: ui/main.qml:264
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "Ek davranış ayarları:"
+
+#: ui/main.qml:275
+#, kde-format
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "En sık kullanılan sayfalar:"
+
+#~ msgctxt "@action:button as in, 'this will take you to the Wallpaper KCM'"
+#~ msgid "Wallpaper"
+#~ msgstr "Duvar Kağıdı"
+
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the first KCM in the Colors "
+#~ "& Themes group'"
+#~ msgid "Colors & Themes"
+#~ msgstr "Renkler ve Temalar"
+
+#~ msgctxt ""
+#~ "@action:button as in, 'this will take you to the General Behavior KCM'"
+#~ msgid "General Behavior"
+#~ msgstr "Genel Davranış"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid ""
+#~ "You can help KDE improve Plasma by contributing information on how you "
+#~ "use it, so we can focus on things that matter to you.<br/><br/"
+#~ ">Contributing this information is optional and entirely anonymous. We "
+#~ "never collect your personal data, files you use, websites you visit, or "
+#~ "information that could identify you."
+#~ msgstr ""
+#~ "KDE'nin Plasma'yı nasıl kullandığınıza dair bilgileri paylaşarak "
+#~ "Plasma'nın geliştirmesine yardımcı olabilirsiniz, böylece sizin için "
+#~ "önemli olan şeylere odaklanabiliriz. <nl/><nl/>Bu bilgilere katkıda "
+#~ "bulunmak isteğe bağlıdır ve tamamen anonimdir. Kişisel verilerinizi, "
+#~ "kullandığınız dosyaları, ziyaret ettiğiniz web sitelerini veya sizi "
+#~ "tanımlayabilecek bilgileri asla toplamayız."
+
+#~ msgid "No data will be sent."
+#~ msgstr "Herhangi bir veri gönderilmeyecek."
+
+#~ msgid "The following information will be sent:"
+#~ msgstr "Aşağıdaki bilgiler gönderilecektir:"
+
+#~ msgid "Send User Feedback:"
+#~ msgstr "Kullanıcı geri bildirimi gönder:"

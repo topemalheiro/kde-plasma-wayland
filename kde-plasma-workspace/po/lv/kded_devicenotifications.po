@@ -1,0 +1,86 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024, 2025 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
+"PO-Revision-Date: 2025-08-18 17:28+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 25.08.0\n"
+
+#: devicenotifications.cpp:449
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Detected"
+msgstr "Konstatēts displejs"
+
+#: devicenotifications.cpp:450
+#, kde-format
+msgid "A display has been connected."
+msgstr "Ir pievienots displejs."
+
+#: devicenotifications.cpp:470
+#, kde-format
+msgctxt "@title:notifications"
+msgid "Display Removed"
+msgstr "Displejs ir noņemts"
+
+#: devicenotifications.cpp:471
+#, kde-format
+msgid "A display has been disconnected."
+msgstr "Displejs ir atvienots."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "%1 has been connected."
+msgstr "„%1“ ir atvienots."
+
+#: devicenotifications.cpp:517
+#, kde-format
+msgid "A USB device has been connected."
+msgstr "USB ierīce ir pievienota."
+
+#: devicenotifications.cpp:522
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Detected"
+msgstr "Konstatēta USB ierīce"
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "%1 has been disconnected."
+msgstr "„%1“ ir atvienots."
+
+#: devicenotifications.cpp:560
+#, kde-format
+msgid "A USB device has been disconnected."
+msgstr "USB ierīce ir atvienota."
+
+#: devicenotifications.cpp:565
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Removed"
+msgstr "USB ierīce ir noņemta"
+
+#~ msgctxt "@title:notifications"
+#~ msgid "USB Device Went Away"
+#~ msgstr "USB ierīce pēkšņi atvienojās"
+
+#~ msgid "A display has been plugged in."
+#~ msgstr "Ierīcei ir pievienots displejs."
+
+#~ msgid "%1 has been plugged in."
+#~ msgstr "Ierīce „%1“ ir pievienota."
+
+#~ msgid "A USB device has been plugged in."
+#~ msgstr "Ir pievienota USB ierīce."

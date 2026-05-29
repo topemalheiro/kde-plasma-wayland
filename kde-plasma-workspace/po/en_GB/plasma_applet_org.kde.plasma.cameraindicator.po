@@ -1,0 +1,86 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 Steve Allewell <steve.allewell@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-02 00:46+0000\n"
+"PO-Revision-Date: 2024-05-17 19:19+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.02.2\n"
+
+#: qml/FullRepresentation.qml:44
+#, kde-format
+msgctxt "@info:status %1 camera name"
+msgid "%1 is in use"
+msgstr "%1 is in use"
+
+#: qml/FullRepresentation.qml:78
+#, kde-format
+msgctxt "@title"
+msgid "Camera"
+msgstr "Camera"
+
+#: qml/FullRepresentation.qml:81
+#, kde-format
+msgctxt "@info:status"
+msgid "Active"
+msgstr "Active"
+
+#: qml/FullRepresentation.qml:83
+#, kde-format
+msgctxt "@info:status"
+msgid "Idle"
+msgstr "Idle"
+
+#: qml/FullRepresentation.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "Error"
+
+#: qml/FullRepresentation.qml:87
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating"
+msgstr "Creating"
+
+#: qml/FullRepresentation.qml:89
+#, kde-format
+msgctxt "@info:status"
+msgid "Suspended"
+msgstr "Suspended"
+
+#: qml/FullRepresentation.qml:91
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown"
+msgstr "Unknown"
+
+#: qml/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Camera indicator is unavailable"
+msgstr "Camera indicator is unavailable"
+
+#: qml/main.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A camera is in use"
+msgid_plural "%1 cameras are in use"
+msgstr[0] "A camera is in use"
+msgstr[1] "%1 cameras are in use"
+
+#: qml/main.qml:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No camera is in use"
+msgstr "No camera is in use"

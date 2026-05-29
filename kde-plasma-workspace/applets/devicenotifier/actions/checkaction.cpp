@@ -1,0 +1,79 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Bohdan Onofriichuk <bogdan.onofriuchuk@gmail.com>
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+#include "checkaction.h"
+
+#include "devicenotifier_debug.h"
+
+#include <KLocalizedString>
+
+#include "stateinfo.h"
+
+CheckAction::CheckAction(const std::shared_ptr<StorageInfo> &storageInfo, const std::shared_ptr<StateInfo> &stateInfo, QObject *parent)
+    : ActionInterface(storageInfo, stateInfo, parent)
+{
+    const Solid::Device &device = m_storageInfo->device();
+
+    // It's possible for there to be no StorageAccess (e.g. MTP devices don't have one)
+    if (device.is<Solid::StorageAccess>()) {
+        auto *access = device.as<Solid::StorageAccess>();
+        if (access) {
+            qCDebug(APPLETS::DEVICENOTIFIER) << "Check action: have storage access";
+            connect(m_stateInfo.get(), &StateInfo::stateChanged, this, &CheckAction::updateIsValid);
+        }
+    }
+}
+
+CheckAction::~CheckAction() = default;
+
+void CheckAction::triggered()
+{
+    qCDebug(APPLETS::DEVICENOTIFIER) << "Check Action: Triggered! Begin checking";
+
+    Solid::Device device = m_storageInfo->device();
+
+    if (device.is<Solid::StorageAccess>()) {
+        auto *access = device.as<Solid::StorageAccess>();
+        if (access && access->canCheck()) {
+            access->check();
+        }
+    }
+}
+
+bool CheckAction::isValid() const
+{
+    const Solid::Device &device = m_storageInfo->device();
+
+    if (device.is<Solid::StorageAccess>()) {
+        auto access = device.as<Solid::StorageAccess>();
+        if (access && access->canCheck() && !access->isAccessible() && !m_stateInfo->isChecked()) {
+            return true;
+        }
+    }
+    return false;
+}
+
+QString CheckAction::name() const
+{
+    return QStringLiteral("Check");
+}
+
+QString CheckAction::icon() const
+{
+    return QStringLiteral("tools-wizard");
+}
+
+QString CheckAction::text() const
+{
+    return i18nc("@action:button check a storageAccess (i.e disk) for error", "Check for Errors");
+}
+
+void CheckAction::updateIsValid(const QString &udi)
+{
+    Q_UNUSED(udi);
+
+    Q_EMIT isValidChanged(name(), isValid());
+}

@@ -1,0 +1,216 @@
+# translation of krunner_sessions.po to Bengali INDIA
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner_sessions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2009-01-09 12:49+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sessionrunner.cpp:20
+#, fuzzy, kde-format
+#| msgid "log out"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to log out of the "
+"session"
+msgid "logout;log out"
+msgstr "লগ-আউট করুন"
+
+#: sessionrunner.cpp:23
+#, kde-format
+msgid "Logs out, exiting the current desktop session"
+msgstr ""
+
+#: sessionrunner.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "shutdown computer command"
+#| msgid "shutdown"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to shut down the "
+"computer"
+msgid "shutdown;shut down;power;poweroff;power off"
+msgstr "shutdown"
+
+#: sessionrunner.cpp:30
+#, fuzzy, kde-format
+#| msgid "Shutdown the computer"
+msgid "Turns off the computer"
+msgstr "কম্পিউটার বন্ধ করুন"
+
+#: sessionrunner.cpp:33
+#, fuzzy, kde-format
+#| msgctxt "restart computer command"
+#| msgid "restart"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to restart the "
+"computer"
+msgid "restart;reboot"
+msgstr "restart"
+
+#: sessionrunner.cpp:36
+#, fuzzy, kde-format
+#| msgid "Restart the computer"
+msgid "Reboots the computer"
+msgstr "কম্পিউটার পুনরারম্ভ করুন"
+
+#: sessionrunner.cpp:40
+#, fuzzy, kde-format
+#| msgid "Lock the screen"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to lock the screen"
+msgid "lock;lock screen"
+msgstr "পর্দা লক করুন"
+
+#: sessionrunner.cpp:42
+#, kde-format
+msgid "Locks the current sessions and starts the screen saver"
+msgstr ""
+
+#: sessionrunner.cpp:45
+#, fuzzy, kde-format
+#| msgid "new session"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to save the "
+"desktop session"
+msgid "save;save session"
+msgstr "নতুন সেশান"
+
+#: sessionrunner.cpp:48
+#, kde-format
+msgid "Saves the current session for session restoration"
+msgstr ""
+
+#: sessionrunner.cpp:51
+#, fuzzy, kde-format
+#| msgid "switch user"
+msgctxt ""
+"KRunner keywords (split by semicolons without whitespace) to switch user "
+"sessions"
+msgid "switch user;new session"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#: sessionrunner.cpp:54
+#, kde-format
+msgid "Switch to a session as a different user"
+msgstr ""
+
+#: sessionrunner.cpp:75
+#, kde-format
+msgctxt "log out command"
+msgid "Log Out"
+msgstr ""
+
+#: sessionrunner.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "shutdown computer command"
+#| msgid "shutdown"
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr "shutdown"
+
+#: sessionrunner.cpp:90
+#, fuzzy, kde-format
+#| msgctxt "restart computer command"
+#| msgid "restart"
+msgctxt "restart computer command"
+msgid "Restart"
+msgstr "restart"
+
+#: sessionrunner.cpp:97
+#, kde-format
+msgctxt "lock screen command"
+msgid "Lock"
+msgstr ""
+
+#: sessionrunner.cpp:104
+#, fuzzy, kde-format
+#| msgid "new session"
+msgid "Save Session"
+msgstr "নতুন সেশান"
+
+#: sessionrunner.cpp:111
+#, fuzzy, kde-format
+#| msgid "switch user"
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন করুন"
+
+#, fuzzy
+#~| msgid "new session"
+#~ msgctxt "KRunner keyword to list user sessions"
+#~ msgid "sessions"
+#~ msgstr "নতুন সেশান"
+
+#, fuzzy
+#~| msgctxt "switch user command"
+#~| msgid "switch"
+#~ msgctxt "KRunner keyword to switch user sessions"
+#~ msgid "switch"
+#~ msgstr "switch"
+
+#, fuzzy
+#~| msgid "New Session"
+#~ msgid "New Desktop Session"
+#~ msgstr "নতুন সেশান"
+
+#~ msgctxt "log out command"
+#~ msgid "logout"
+#~ msgstr "logout"
+
+#~ msgctxt "lock screen command"
+#~ msgid "lock"
+#~ msgstr "lock"
+
+#~ msgctxt "restart computer command"
+#~ msgid "reboot"
+#~ msgstr "reboot"
+
+#, fuzzy
+#~| msgctxt "switch user command"
+#~| msgid "switch"
+#~ msgctxt "switch user command"
+#~ msgid "switch :q:"
+#~ msgstr "switch"
+
+#~ msgid "new session"
+#~ msgstr "নতুন সেশান"
+
+#~ msgctxt "log out command"
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "Restart the computer"
+#~ msgstr "কম্পিউটার পুনরারম্ভ করুন"
+
+#, fuzzy
+#~| msgctxt "shutdown computer command"
+#~| msgid "shutdown"
+#~ msgctxt "shut down computer command"
+#~ msgid "shutdown"
+#~ msgstr "shutdown"
+
+#, fuzzy
+#~| msgid "Shutdown the computer"
+#~ msgid "Shut down the computer"
+#~ msgstr "কম্পিউটার বন্ধ করুন"
+
+#, fuzzy
+#~| msgid "new session"
+#~ msgid "Save the session"
+#~ msgstr "নতুন সেশান"
+
+#~ msgid "Warning - New Session"
+#~ msgstr "সতর্কবার্তা - নতুন সেশান"
+
+#~ msgid "&Start New Session"
+#~ msgstr "নতুন সেশান আরম্ভ করুন (&S)"

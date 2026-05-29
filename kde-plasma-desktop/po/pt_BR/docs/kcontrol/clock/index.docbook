@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % addindex "IGNORE">
+<!ENTITY % Brazilian-Portuguese "INCLUDE"
+> <!-- change language only here -->
+]>
+
+<article id="clock" lang="&language;">
+<articleinfo>
+<title
+>Data e hora</title>
+<authorgroup>
+<author
+>&Mike.McBride; &Mike.McBride.mail;</author>
+<othercredit role="translator"
+><firstname
+>Lisiane</firstname
+><surname
+>Sztoltz</surname
+><affiliation
+><address
+><email
+>lisiane@conectiva.com.br</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>André Marcelo</firstname
+><surname
+>Alvarenga</surname
+><affiliation
+><address
+><email
+>alvarenga@kde.org</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>25/03/2018</date>
+<releaseinfo
+>&plasma; 5.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Configurações do sistema</keyword>
+<keyword
+>relógio</keyword>
+<keyword
+>Data</keyword>
+<keyword
+>Hora</keyword>
+<keyword
+>configurar</keyword>
+<keyword
+>configurar</keyword>
+</keywordset>
+</articleinfo>
+
+<sect1 id="datetime">
+
+<title
+>Data e hora</title>
+
+<para
+>Você pode usar este módulo para alterar a data e hora do sistema, usando uma interface gráfica conveniente.</para>
+
+<note
+><para
+>Como estas configurações não afetam somente você como usuário, mas todo o sistema, você deve ter acesso de administrador do sistema (<systemitem class="username"
+>root</systemitem
+>) para modificar a data e hora do sistema. Se você não possuir este nível de acesso, este módulo mostrará somente as configurações atuais, mas suas alterações não poderão ser salvas.</para
+></note>
+
+<sect2 id="date-change">
+<title
+>Data e hora</title>
+
+<para
+>Se você marcar <guilabel
+>Configurar data e hora automaticamente</guilabel
+> este módulo usará <acronym
+>systemd</acronym
+> para obter a data e a hora.</para>
+
+<para
+>Em um computador sem o <acronym
+>systemd</acronym
+>, os utilitários <acronym
+>NTP</acronym
+> são usados: <command
+>rdate</command
+> ou <command
+>ntpdate</command
+>. Se esses utilitários estiverem faltando, instale-os. </para>
+
+<para
+>Quando você faz login na sessão do &plasma; enquanto está online ou quando se conecta à Internet posteriormente, ocorre o acesso a um ou mais servidores <acronym
+>NTP</acronym
+>.</para>
+<para
+>Isto não é suficiente, no entanto, para manter a hora precisa durante uma longa execução. Isto é útil para configurar ocasionalmente a hora em máquinas que não possuem acesso permanente à redes, como laptops. </para>
+
+<para
+>Se você não usa um servidor de hora, você poderá definir a data manualmente no calendário.</para>
+<para
+>Use os controles no fundo do calendário para selecionar a data atual, inserir a data no campo de texto ou selecionar a semana do ano a partir da lista.</para>
+
+<para
+>Você ajusta a hora usando as caixas de contagem na base do relógio analógico. Você pode também digitar diretamente o valor.</para>
+</sect2>
+
+<sect2 id="date-time-tone">
+<title
+>Fuso horário</title>
+<para
+>Para definir um novo fuso horário, basta selecionar a sua área na lista abaixo. Use o campo do filtro para procurar a <guilabel
+>Área</guilabel
+> ou <guilabel
+>Região</guilabel
+> desejada.</para>
+</sect2>
+
+</sect1>
+
+</article>

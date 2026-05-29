@@ -1,0 +1,311 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-08 00:46+0000\n"
+"PO-Revision-Date: 2026-01-19 17:02+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#: qml/BackgroundAppItem.qml:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit %1"
+msgstr ""
+
+#: qml/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Pamata"
+
+#: qml/ConfigGeneral.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item when relevant"
+msgid "Show when relevant"
+msgstr "Rādīt, kad aktuāli"
+
+#: qml/ConfigGeneral.qml:49
+#, kde-format
+msgctxt "@item:inlistbox Always show this System Tray item"
+msgid "Always show"
+msgstr "Rādīt vienmēr"
+
+#: qml/ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@item:inlistbox Show this System Tray item only in the expanded popup"
+msgid "Show only in popup"
+msgstr "Rādīt tikai uznirstošajā lodziņā"
+
+#: qml/ConfigGeneral.qml:57
+#, kde-format
+msgctxt "@item:inlistbox Never show this System Tray item; disable it"
+msgid "Never show (disabled)"
+msgstr "Nekad nerādīt (izslēgts)"
+
+#: qml/ConfigGeneral.qml:128
+#, kde-format
+msgid "Application Status"
+msgstr "Programmas statuss"
+
+#: qml/ConfigGeneral.qml:130
+#, kde-format
+msgid "Communications"
+msgstr "Komunikācijas"
+
+#: qml/ConfigGeneral.qml:132
+#, kde-format
+msgid "System Services"
+msgstr "Sistēmas servisi"
+
+#: qml/ConfigGeneral.qml:134
+#, kde-format
+msgid "Hardware Control"
+msgstr "Aparatūras kontrole"
+
+#: qml/ConfigGeneral.qml:137
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Dažādi"
+
+#: qml/ConfigGeneral.qml:174
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Look for a setting in <application>%1</application> to disable its tray icon "
+"before doing it here. Some apps’ tray icons were not designed to be "
+"disabled, and using this setting may cause them to behave unexpectedly.<nl/"
+"><nl/>Use this setting at your own risk, and do not report issues to KDE or "
+"the app’s author."
+msgstr ""
+"Pirms izslēdzat ikonu sistēmas ikonu joslā no šejienes apskatiet, vai "
+"<application>%1</application> programma nepiedāvā to izslēgt savos "
+"iestatījumos. Dažu programmu sistēmas ikonu joslas ikonas nav paredzētas, "
+"lai tās izslēgtu, tāpēc to izslēgšana var izraisīt nevēlamu programmas "
+"darbību<nl/><nl/>Izmantojiet šos iestatījumus uz sava riska un, ja tā dēļ "
+"rodas problēmas, neziņojiet par tām KDE vai programmas autoriem."
+
+#: qml/ConfigGeneral.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "Es saprotu riskus"
+
+#: qml/ConfigGeneral.qml:189
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the clipboard is not recommended, as it will cause copied data to "
+"be lost when the application it was copied from is closed.<nl/><nl/>Only do "
+"this if you’ve manually added a standalone Clipboard widget somewhere else, "
+"or are using a 3rd-party clipboard manager. Also, instead consider "
+"configuring the clipboard to not save history, or to only remember one item "
+"at a time."
+msgstr ""
+"Starpliktuves izslēgšana nav ieteicama, jo rezultātā, aizverot programmu, "
+"tajā nokopētie dati būs zuduši.<nl/><nl/>To dariet tikai tad, ja manuāli "
+"pievienojāt atsevišķu starpliktuves logdaļu vai kaut ko citu vai arī "
+"izmantojat trešās puses starpliktuves pārvaldnieku. Tā vietā arī apsveriet "
+"izslēgt starpliktuves vēstures funkciju vai likt tai atcerēties vienlaicīgi "
+"tikai vienu vienumu."
+
+#: qml/ConfigGeneral.qml:198
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Disabling the Notifications widget is not recommended, as notifications sent "
+"by apps will no longer be shown.<nl/><nl/>Only do this if you’ve manually "
+"added a standalone Notifications widget somewhere else, or are intentionally "
+"using a 3rd-party notification manager to handle notifications."
+msgstr ""
+"Paziņojumu logdaļas izslēgšana nav ieteicama, jo tādā adījumā vairs "
+"neredzēsiet programmu sūtītos paziņojumus.<nl/><nl/>To dariet tikai tad, ja "
+"kaut kur citur manuāli pievienojāt atsevišķu paziņojumu logdaļu vai arī "
+"paziņojumu pārvaldīšanai izmantojot trešās puses paziņojumu pārvaldnieku."
+
+#: qml/ConfigGeneral.qml:210
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel height"
+msgstr "Mērogot kopā ar paneļa augstumu"
+
+#: qml/ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@item:inlistbox Icon size"
+msgid "Scale with Panel width"
+msgstr "Mērogot kopā ar paneļa platumu"
+
+#: qml/ConfigGeneral.qml:213
+#, fuzzy, kde-format
+#| msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#| msgid "Panel icon size:"
+msgctxt ""
+"@label:listbox Whether the system tray icons in the Panel always stay small "
+"or scale with the Panel's size"
+msgid "Panel icon size:"
+msgstr "Paneļa ikonu izmērs:"
+
+#: qml/ConfigGeneral.qml:217
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inlistbox Icon size"
+msgid "Small"
+msgstr "Mazas"
+
+#: qml/ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Spacing:"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:241
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Mazas"
+
+#: qml/ConfigGeneral.qml:245
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normālas"
+
+#: qml/ConfigGeneral.qml:249
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Lielas"
+
+#: qml/ConfigGeneral.qml:269
+#, fuzzy, kde-format
+#| msgid "More actions"
+msgctxt ""
+"@label:listbox Which direction system tray icons in the Panel emerge from "
+"the expander arrow"
+msgid "Direction:"
+msgstr "Vairāk darbību"
+
+#: qml/ConfigGeneral.qml:283
+#, kde-format
+msgid "Bottom-to-top"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:284
+#, kde-format
+msgid "Top-to-bottom"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:289 qml/ConfigGeneral.qml:296
+#, kde-format
+msgid "Left-to-right"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:290 qml/ConfigGeneral.qml:295
+#, kde-format
+msgid "Right-to-left"
+msgstr ""
+
+#: qml/ConfigGeneral.qml:307
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "Automātiski iestatīt uz lielām, atrodoties skārienjutīgā režīmā"
+
+#: qml/ConfigGeneral.qml:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "Ieraksti"
+
+#: qml/ConfigGeneral.qml:336
+#, kde-format
+msgctxt "@option:check, This is referring to system tray entries"
+msgid "Always show all"
+msgstr "Rādīt vienmēr visas"
+
+#: qml/ExpandedRepresentation.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Atgriezties"
+
+#: qml/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Statuss un paziņojumi"
+
+#: qml/ExpandedRepresentation.qml:173
+#, kde-format
+msgid "More actions"
+msgstr "Vairāk darbību"
+
+#: qml/ExpandedRepresentation.qml:259
+#, kde-format
+msgid "Keep Open"
+msgstr "Neaizvērt"
+
+#: qml/ExpanderArrow.qml:25
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "Parādīt visas sistēmas ikonu joslas vienības uzlecošā lokā"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Close popup"
+msgstr "Aizvērt uzlecošo logu"
+
+#: qml/ExpanderArrow.qml:39
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Rādīt paslēptās ikonas"
+
+#: qml/HiddenItemsView.qml:37
+#, kde-format
+msgctxt "@info:whatsthis accessible description for popup grid"
+msgid "Grid with %1 items in %2 columns"
+msgstr "Režģis ar %1 vienumiem %2 kolonnās"
+
+#: qml/HiddenItemsView.qml:41
+#, kde-format
+msgctxt "Some letters with tall characters, ascenders, descenders, etc"
+msgid "AILlmyjgGJP"
+msgstr "AILlmyjgGJP"
+
+#~ msgid "Automatically enabled when in Touch Mode"
+#~ msgstr "Automātiski ieslēgts skārienjutīgā režīmā"
+
+#~ msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+#~ msgid "Panel icon spacing:"
+#~ msgstr "Paneļa ikonu atstarpes:"
+
+#~ msgid "Always hidden"
+#~ msgstr "Paslēpt vienmēr"
+
+#~ msgid "Disabled"
+#~ msgstr "Izslēgts"
+
+#~ msgctxt "Name of the system tray entry"
+#~ msgid "Entry"
+#~ msgstr "Ieraksts"
+
+#~ msgid "Visibility"
+#~ msgstr "Redzamība"
+
+#~ msgid "Keyboard Shortcut"
+#~ msgstr "Tastatūras saīsnes"
+
+#~ msgid "Always show all entries"
+#~ msgstr "Vienmēr rādīt visus ierakstus"
+
+#~ msgid "Expand System Tray"
+#~ msgstr "Paplašināt sistēmas ikonu joslu"

@@ -1,0 +1,186 @@
+# translation of ksmserver.po to Occitan (lengadocian)
+# Occitan translation of ksmserver.po
+# Copyright (C) 2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+# Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org> - 2006-2007
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2008-08-05 22:26+0200\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan (lengadocian) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Yannig Marchegay (Kokoyaya)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yannig@marchegay.org"
+
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "Desconnexion anullada per '%1'"
+
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr ""
+
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr ""
+
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr ""
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+
+#: main.cpp:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "The reliable KDE session manager that talks the standard X11R6 \n"
+#| "session management protocol (XSMP)."
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"Lo gestionari de session fisable de KDE gerent lo protocòl\n"
+"estandard de gestion de session X11R6 (XSMP)."
+
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "Restablís la session precedenta se disponibla"
+
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "Autorizar tanben las connexions distantas"
+
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr ""
+
+#: main.cpp:143
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr ""
+
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr ""
+
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+
+#, fuzzy
+#~| msgid "The KDE Session Manager"
+#~ msgid "Session Management"
+#~ msgstr "Lo gestionari de sesilhas de KDE"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Log Out"
+#~ msgstr "Desconnexion"
+
+#, fuzzy
+#~| msgid ""
+#~| "Starts 'wm' in case no other window manager is \n"
+#~| "participating in the session. Default is 'kwin'"
+#~ msgid ""
+#~ "Starts <wm> in case no other window manager is \n"
+#~ "participating in the session. Default is 'kwin'"
+#~ msgstr ""
+#~ "Amoda « wm » al cas que cap d'autre gestionari de fenèstras\n"
+#~ "es pas disponible per la session. Per defaut, « kwin »."
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout"
+#~ msgstr "Desconnexion"
+
+#, fuzzy
+#~| msgid "&Restart Computer"
+#~ msgid "Sleeping in 1 second"
+#~ msgid_plural "Sleeping in %1 seconds"
+#~ msgstr[0] "&Tornar aviar l'ordenador"
+#~ msgstr[1] "&Tornar aviar l'ordenador"
+
+#, fuzzy
+#~| msgid "&Restart Computer"
+#~ msgid "Restarting computer in 1 second."
+#~ msgid_plural "Restarting computer in %1 seconds."
+#~ msgstr[0] "&Tornar aviar l'ordenador"
+#~ msgstr[1] "&Tornar aviar l'ordenador"
+
+#, fuzzy
+#~| msgid "&Turn Off Computer"
+#~ msgid "Turn Off Computer"
+#~ msgstr "&Atudar l'ordenador"
+
+#, fuzzy
+#~| msgid "&Restart Computer"
+#~ msgid "Restart Computer"
+#~ msgstr "&Tornar aviar l'ordenador"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgid "Cancel"
+#~ msgstr "&Anullar"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "Matthias Ettrich"
+
+#~ msgid "Maintainer"
+#~ msgstr "Manteneire"

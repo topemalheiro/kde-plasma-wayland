@@ -1,0 +1,626 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2010, 2012, 2013, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Sergiu Bivol <sergiu@cip.md>
+# Cristian Oneț <onet.cristian@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-05 00:46+0000\n"
+"PO-Revision-Date: 2026-03-18 21:23+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "Răspunde"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "Copiază adresa legăturii"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Copiază"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Selectează toate"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "Chiar acum"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "acum %1 minut"
+msgstr[1] "acum %1 minute"
+msgstr[2] "acum %1 de minute"
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 s rămasă"
+msgstr[1] "%1 s rămase"
+msgstr[2] "%1 s rămase"
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 min rămas"
+msgstr[1] "%1 min rămase"
+msgstr[2] "%1 min rămase"
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 h rămasă"
+msgstr[1] "%1 h rămase"
+msgstr[2] "%1 h rămase"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "Configurează"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "Restabilește"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "Minimizează"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "Închide"
+
+#: components/JobDetails.qml:37
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:118
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 din %1"
+
+#: components/JobDetails.qml:122
+#, kde-format
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%3 din %2 fișier"
+msgstr[1] "%3 din %2 fișiere"
+msgstr[2] "%3 din %2 de fișiere"
+
+#: components/JobDetails.qml:125
+#, kde-format
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%3 din %2 dosar"
+msgstr[1] "%3 din %2 dosare"
+msgstr[2] "%3 din %2 de dosare"
+
+#: components/JobDetails.qml:128
+#, kde-format
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%3 din %2 element"
+msgstr[1] "%3 din %2 elemente"
+msgstr[2] "%3 din %2 de elemente"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 fișier"
+msgstr[1] "%1 fișiere"
+msgstr[2] "%1 de fișiere"
+
+#: components/JobDetails.qml:139
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 dosar"
+msgstr[1] "%1 dosare"
+msgstr[2] "%1 de dosare"
+
+#: components/JobDetails.qml:141
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 element"
+msgstr[1] "%1 elemente"
+msgstr[2] "%1 de elemente"
+
+#: components/JobDetails.qml:158 components/SpeedChart.qml:72
+#: components/SpeedChart.qml:99 components/SpeedChart.qml:196
+#: components/SpeedChart.qml:209
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "Detalii"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "Reia"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "Întrerupe"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "Anulează"
+
+#: components/JobItem.qml:125 components/ThumbnailStrip.qml:159
+#, kde-format
+msgid "More Options…"
+msgstr "Opțiuni suplimentare…"
+
+#: components/JobItem.qml:153
+#, kde-format
+msgid "Open"
+msgstr "Deschide"
+
+#: components/JobItem.qml:160 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Deschide dosarul conținător"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "Tastați un răspuns…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Trimite"
+
+#: components/SpeedChart.qml:147
+#, kde-format
+msgid "Speed"
+msgstr "Viteză"
+
+#: components/SpeedChart.qml:204
+#, kde-format
+msgid "Average Speed"
+msgstr "Viteza medie"
+
+#: components/SpeedChart.qml:264
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1%"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (întreruptă)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (eșuată)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "Lucrare eșuată"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (încheiată)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "Lucrare încheiată"
+
+#: fileinfo.cpp:170
+#, kde-format
+msgid "Open with %1"
+msgstr "Deschide cu %1"
+
+#: fileinfo.cpp:174
+#, kde-format
+msgid "Open with…"
+msgstr "Deschide cu…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "&Copiază"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Copiază amplasarea"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "Nu deranja"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "Timp de 1 oră"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "Timp de 4 ore"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "Până diseară"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "Până mâine dimineață"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "Până luni"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "Până la dezactivare manuală"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "Se oprește automat: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "Cât %1 e activă (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "Cât %1 e activă"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "Ecranele sunt oglindite"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "Aplicația pe tot ecranul e focalizată"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Vezi"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "Închide grupul"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "Arată mai puține"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "Arată încă %1"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "Nicio notificare necitită"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "Serviciul de notificare nu e disponibil"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "Notificările sunt furnizate acum de „%1 %2”"
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "Comutare „nu deranja”"
+
+#: globalshortcuts.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "Șterge istoricul notificărilor"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "Notificări oprite"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "Notificări pornite"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "Istoricul notificărilor a fost șters"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 sarcină rulând"
+msgstr[1] "%1 sarcini rulând"
+msgstr[2] "%1 de sarcini rulând"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 sarcină rulând (%2%)"
+msgstr[1] "%1 sarcini rulând (%2%)"
+msgstr[2] "%1 de sarcini rulând (%2%)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 notificare necitită"
+msgstr[1] "%1 notificări necitite"
+msgstr[2] "%1 de notificări necitite"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 notificare activă"
+msgstr[1] "%1 notificări active"
+msgstr[2] "%1 de notificări active"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "Nu deranja până la %1. Clic mijlociu pentru a ieși acum"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "Regimul fără deranj e activ. Clic mijlociu pentru a ieși"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr "Clic mijlociu pentru a intra în regimul fără deranj"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "Curăță toate notificările"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "&Configurează notificări și acțiuni pentru evenimente…"
+
+#~ msgctxt "A button tooltip; expands the item to show details"
+#~ msgid "Show Details"
+#~ msgstr "Arată detalii"
+
+#~ msgctxt "Do not disturb until date"
+#~ msgid "Until %1"
+#~ msgstr "Până pe %1"
+
+#~ msgid "Open with..."
+#~ msgstr "Deschide cu..."
+
+#~ msgid "Clear History"
+#~ msgstr "Șterge istoricul"
+
+#, fuzzy
+#~| msgid "Select All"
+#~ msgctxt "Clear all notifications"
+#~ msgid "Clear All"
+#~ msgstr "Selectează toate"
+
+#~ msgid "Until turned off"
+#~ msgstr "Până la dezactivare"
+
+#, fuzzy
+#~| msgid "%1 notification"
+#~| msgid_plural "%1 notifications"
+#~ msgid "No unread notifications."
+#~ msgstr "%1 notificare"
+
+#~ msgid "Information"
+#~ msgstr "Informații"
+
+#, fuzzy
+#~| msgid "&Application notifications:"
+#~ msgid "Show application and system notifications"
+#~ msgstr "Notificări &aplicații"
+
+#, fuzzy
+#~| msgid "No active jobs or notifications"
+#~ msgid "Show a history of notifications"
+#~ msgstr "Nicio notificare sau sarcină activă"
+
+#, fuzzy
+#~| msgid "&File transfers and jobs:"
+#~ msgid "Track file transfers and other jobs"
+#~ msgstr "Transferuri de &fișiere și sarcini:"
+
+#~ msgid "%1 of %2 %3"
+#~ msgstr "%1 din %2 %3"
+
+#~ msgid "No notifications or jobs"
+#~ msgstr "Nicio notificare sau sarcină"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the notification than previews shown"
+#~ msgid "+%1"
+#~ msgstr "%1:"
+
+#~ msgid "&Application notifications:"
+#~ msgstr "Notificări &aplicații"
+
+#~ msgid "&File transfers and jobs:"
+#~ msgstr "Transferuri de &fișiere și sarcini:"
+
+#~ msgid "Choose which information to show"
+#~ msgstr "Alegeți ce informații să fie afișate"
+
+#~ msgid "Transfers"
+#~ msgstr "Transferuri"
+
+#~ msgid "All"
+#~ msgstr "Toate"
+
+#~ msgid "KiB/s"
+#~ msgstr "KiO/s"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 fișier, la: %2"
+#~ msgstr[1] "%1 fișiere, la: %2"
+#~ msgstr[2] "%1 de fișiere, la: %2"
+
+#~ msgid "1 running job (%2 remaining)"
+#~ msgid_plural "%1 running jobs (%2 remaining)"
+#~ msgstr[0] "1 sarcină rulând (%2 rămase)"
+#~ msgstr[1] "%1 sarcini rulând (%2 rămase)"
+#~ msgstr[2] "%1 de sarcini rulând (%2 rămase)"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 sarcină suspendată"
+#~ msgstr[1] "%1 sarcini suspendate"
+#~ msgstr[2] "%1 de sarcini suspendate"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 sarcină încheiată"
+#~ msgstr[1] "%1 sarcini încheiate"
+#~ msgstr[2] "%1 de sarcini încheiate"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "Sarcini"
+
+#~ msgid "More"
+#~ msgstr "Mai mult"
+
+#~ msgid "Pause job"
+#~ msgstr "Întrerupe sarcina"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1 [încheiat]"
+
+#~ msgid "Less"
+#~ msgstr "Mai puțin"
+
+#~ msgid "Notification from %1"
+#~ msgstr "Notificare de la %1"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "Notificări popup"
+
+#~ msgid "Popup"
+#~ msgstr "Popup"
+
+#~ msgid "Open destination"
+#~ msgstr "Deschide destinația"

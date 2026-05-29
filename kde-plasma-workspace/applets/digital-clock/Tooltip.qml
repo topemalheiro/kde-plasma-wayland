@@ -1,0 +1,187 @@
+/*
+    SPDX-FileCopyrightText: 2015 Martin Klapetek <mklapetek@kde.org>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
+
+pragma ComponentBehavior: Bound
+
+import QtQuick
+import QtQuick.Layouts
+
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.plasma.plasmoid
+import org.kde.kirigami as Kirigami
+import org.kde.plasma.clock
+import org.kde.plasma.private.digitalclock
+
+Item {
+    id: toolTipContentItem
+
+    property int preferredTextWidth: Kirigami.Units.gridUnit * 20
+
+    implicitWidth: mainLayout.implicitWidth + Kirigami.Units.gridUnit
+    implicitHeight: mainLayout.implicitHeight + Kirigami.Units.gridUnit
+
+    LayoutMirroring.enabled: Application.layoutDirection === Qt.RightToLeft
+    LayoutMirroring.childrenInherit: true
+
+    Kirigami.Theme.colorSet: Kirigami.Theme.Window
+    Kirigami.Theme.inherit: false
+
+    /**
+     * These accessible properties are used in the compact representation,
+     * not here.
+     */
+    Accessible.name: i18nc("@info:tooltip %1 is a localized long date", "Today is %1", tooltipSubtext.text)
+    Accessible.description: {
+        const description = tooltipSubLabelText.visible ? [tooltipSubLabelText.text] : [];
+        for (let i = 0; i < timeZoneRepeater.count; i += 2) {
+            description.push(`${(timeZoneRepeater.itemAt(i) as PlasmaComponents.Label).text}: ${(timeZoneRepeater.itemAt(i + 1) as PlasmaComponents.Label).text}`);
+        }
+        return description.join('; ');
+    }
+
+    Clock {
+        id: clock
+        timeZone: Plasmoid.configuration.lastSelectedTimezone
+    }
+
+
+    ColumnLayout {
+        id: mainLayout
+
+        anchors {
+            left: parent.left
+            top: parent.top
+            margins: Kirigami.Units.largeSpacing
+        }
+
+        spacing: 0
+
+        Kirigami.Heading {
+            id: tooltipMaintext
+
+            Layout.minimumWidth: Math.min(implicitWidth, toolTipContentItem.preferredTextWidth)
+            Layout.maximumWidth: toolTipContentItem.preferredTextWidth
+
+            level: 3
+            elide: Text.ElideRight
+            // keep this consistent with toolTipMainText in analog-clock
+            property var mainText: {
+                const text = clocks.visible ? Qt.formatDate(clock.dateTime, Qt.locale(), Locale.LongFormat) : Qt.locale().toString(clock.dateTime, "dddd");
+                return text.charAt(0).toUpperCase() + text.slice(1);
+            }
+            property bool anyTimezoneSet: !!mainText
+            text: anyTimezoneSet ? mainText : i18nc("@label main text shown in digital clock's tooltip when timezone is missing", "Time zone is not set")
+            textFormat: Text.PlainText
+        }
+
+        PlasmaComponents.Label {
+            id: tooltipSubtext
+
+            Layout.minimumWidth: Math.min(implicitWidth, toolTipContentItem.preferredTextWidth)
+            Layout.maximumWidth: toolTipContentItem.preferredTextWidth
+            maximumLineCount: 2
+            wrapMode: Text.Wrap
+
+            property var subText: {
+                if (Plasmoid.configuration.showSeconds === 0) {
+                    return Qt.formatDate(clock.dateTime, Qt.locale(), root.dateFormatString);
+                } else {
+                    return "%1\n%2"
+                        .arg(Qt.formatTime(clock.dateTime, Qt.locale(), Locale.LongFormat))
+                        .arg(Qt.formatDate(clock.dateTime, Qt.locale(), root.dateFormatString))
+                }
+            }
+            text: tooltipMaintext.anyTimezoneSet ? subText : i18nc("@label sub text shown in digital clock's tooltip when timezone is missing", "Click the clock icon to open Date & Time settings and set a time zone.")
+            opacity: 0.75
+            visible: !clocks.visible
+            font.features: { "tnum": 1 }
+            textFormat: Text.PlainText
+        }
+
+        PlasmaComponents.Label {
+            id: tooltipSubLabelText
+            Layout.minimumWidth: Math.min(implicitWidth, toolTipContentItem.preferredTextWidth)
+            Layout.maximumWidth: toolTipContentItem.preferredTextWidth
+            text: (root.fullRepresentationItem as CalendarView)?.monthView.todayAuxilliaryText ?? ""
+            textFormat: Text.PlainText
+            opacity: 0.75
+            visible: !clocks.visible && text.length > 0
+        }
+
+        GridLayout {
+            id: clocks
+
+            Layout.minimumWidth: Math.min(implicitWidth, toolTipContentItem.preferredTextWidth)
+            Layout.maximumWidth: toolTipContentItem.preferredTextWidth
+            Layout.minimumHeight: childrenRect.height
+            visible: timeZoneRepeater.count > 0 && tooltipMaintext.anyTimezoneSet
+            columns: 2
+            rowSpacing: 0
+
+            Repeater {
+                id: timeZoneRepeater
+
+                model: root.selectedTimeZonesDeduplicatingExplicitLocalTimeZone()
+                    // Duplicate each entry, because that's how we do "tables" with 2 columns in QML. :-\
+                    // An alternative would be a nested Repeater with an ObjectModel.
+                    .reduce((array, item) => {
+                        array.push(item, item);
+                        return array;
+                    }, [])
+
+                PlasmaComponents.Label {
+                    id: label
+                    required property int index
+                    required property string modelData
+
+                    readonly property string tzLabel: {
+                        switch (Plasmoid.configuration.displayTimezoneFormat) {
+                        case 0: // Code
+                            return tzClock.timeZoneCode;
+                        case 1: // City
+                            return TimeZonesI18n.i18nCity(tzClock.timeZone);
+                        case 2: // Offset from UTC time
+                            return tzClock.timeZoneOffset;
+                        }
+                    }
+
+                    // Layout.fillWidth is buggy here
+                    Layout.alignment: index % 2 === 0 ? Qt.AlignRight : Qt.AlignLeft
+                    text: index % 2 === 0
+                        ? i18nc("@label %1 is a city or time zone name", "%1:", tzLabel)
+                        : formatTime(tzClock.dateTime, Plasmoid.configuration.showSeconds > 0) + formatOffset(tzClock.dateTime)
+                    Clock {
+                        id: tzClock
+                        timeZone: label.modelData
+                        trackSeconds: Plasmoid.configuration.showSeconds
+                    }
+
+                    textFormat: Text.PlainText
+
+                    font.weight: tzClock.timeZone == root.currentTimeZone ? Font.Bold : Font.Normal
+                    font.features: {
+                        if (index % 2 === 1) {
+                            return { "tnum": 1 }
+                        } else {
+                            return {}
+                        }
+                    }
+                    wrapMode: Text.NoWrap
+                    elide: Text.ElideNone
+                }
+            }
+        }
+
+        PlasmaComponents.Label {
+            Layout.minimumWidth: Math.min(implicitWidth, toolTipContentItem.preferredTextWidth)
+            Layout.maximumWidth: toolTipContentItem.preferredTextWidth
+            visible: ApplicationIntegration.calendarInstalled
+            text: i18nc("@info:tooltip %1 is the name of a calendar application", "Middle-click to open %1", ApplicationIntegration.calendarApplicationName)
+            textFormat: Text.PlainText
+            opacity: 0.75
+        }
+    }
+}

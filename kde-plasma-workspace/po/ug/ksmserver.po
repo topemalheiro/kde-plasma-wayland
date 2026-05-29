@@ -1,0 +1,187 @@
+# Uyghur translation for ksmserver.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-02-09 18:15-0500\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sahranbay@gmail.com, gheyret@gmail.com"
+
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "تىزىمدىن چىقىشتىن «%1» ۋاز كەچتى"
+
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr "جەريانچاق مەۋجۇت"
+
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "«%1» غا يېزىش ئىجازىتى يوق."
+
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "«%1» نى ئوقۇش ئىجازىتى يوق."
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+"Plasma نى قوزغىتىشنى سىناۋاتقاندا تۆۋەندىكى ئورنىتىش مەسىلىسىنى بايقىدى:"
+
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"Plasma قوزغالمايدۇ:\n"
+
+#: main.cpp:129
+#, kde-format
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"ئىشەنچلىك Plasma جەريانچاق باشقۇرغۇچ ئۆلچەملىك X11R6 جەريانچاق باشقۇرۇش "
+"كېلىشىمى(XSMP)نى ئىشلىتىدۇ."
+
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "ئەگەر مۇمكىن بولسا ساقلانغان ئىشلەتكۈچى جەريانچاقنى ئەسلىگە كەلتۈرىدۇ"
+
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "يىراقتىن باغلىنىشقا يول قويىدۇ"
+
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr ""
+
+#: main.cpp:143
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr ""
+"ئېكران قۇلۇپلاشنى قوللىمىغان ئاساستا قوزغىتىدۇ، پەقەت باشقا بۆلەك ئېكران "
+"قۇلۇپلاش بىلەن تەمىنلىگەندىلا ئاندىن لازىم بولىدۇ."
+
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr "(يوچۇن)"
+
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+"بەزى ئەپنى باشقۇرالمايدۇ چۈنكى سىستېمىنىڭ جەريانچاق باشقۇرۇش مەنبەسى خوراپ "
+"تۈگىدى. تۆۋەندىكىسى جەريانچاق مەنبەسىنى ئەڭ كۆپ ئىشلىتىۋاتقان ئۈچى:\n"
+"%1"
+
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+"<application>%1</application> نى ئەسلىگە كەلتۈرەلمەيدۇ چۈنكى ئۇ بۇزۇلغان ۋە "
+"سىستېمىنىڭ جەريانچاق مەنبەسىنى خورىتىپ تۈگەتتى. بۇنى ئەپ ئىجادكارىغا مەلۇم "
+"قىلىڭ."
+
+#~| msgid "The KDE Session Manager"
+#~ msgid "Session Management"
+#~ msgstr "KDE ئەڭگىمە باشقۇرغۇچ"
+
+#~ msgid "Log Out"
+#~ msgstr "تىزىمدىن چىق"
+
+#~| msgid "&Logout"
+#~ msgid "Logout"
+#~ msgstr "چىقىش(&L)"
+
+#~ msgid "Lock"
+#~ msgstr "قۇلۇپلا"
+
+#~ msgid "Sleep"
+#~ msgstr "ئۇخلات"
+
+#~ msgid "Turning off computer in 1 second."
+#~ msgid_plural "Turning off computer in %1 seconds."
+#~ msgstr[0] "%1 سېكۇنت ئىچىدە كومپيۇتېرنى تاقايدۇ."
+
+#~| msgid "&Turn Off Computer"
+#~ msgid "Turn Off Computer"
+#~ msgstr "كومپيۇتېرنى تاقا(&T)"
+
+#~| msgid "&Restart Computer"
+#~ msgid "Restart Computer"
+#~ msgstr "كومپيۇتېرنى قايتا قوزغات(&R)"
+
+#~ msgctxt "default option in boot loader"
+#~ msgid " (default)"
+#~ msgstr " (كۆڭۈلدىكى)"
+
+#~| msgid "&Cancel"
+#~ msgid "Cancel"
+#~ msgstr "ۋاز كەچ(&C)"
+
+#~ msgid "Suspend to &RAM"
+#~ msgstr "RAM غا توڭلات(&R)"
+
+#~ msgid "Suspend to &Disk"
+#~ msgstr "دىسكىغا توڭلات(&D)"
+
+#~ msgid "(C) 2000, The KDE Developers"
+#~ msgstr "(C) 2000، KDE ئىجادىيەتچىلىرى"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "Matthias Ettrich"
+
+#~ msgid "Luboš Luňák"
+#~ msgstr "Luboš Luňák"
+
+#~ msgid "Maintainer"
+#~ msgstr "مەسئۇل كىشى"

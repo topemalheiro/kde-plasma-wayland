@@ -1,0 +1,313 @@
+# translation of plasma_applet_devicenotifier.po to Lithuanian
+# This file is distributed under the same license as the plasma_applet_devicenotifier package.
+# Gintautas Miselis <gintautas@miselis.lt>, 2008.
+# Donatas G. <dgvirtual@akl.lt>, 2010.
+# Tomas Straupis <tomasstraupis@gmail.com>, 2011.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
+# liudas@aksioma.lt <liudas@aksioma.lt>, 2014.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-24 00:46+0000\n"
+"PO-Revision-Date: 2026-02-21 02:22+0200\n"
+"Last-Translator: Moo <<>>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Tikrinti, ar failų sistemoje nėra klaidų"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Prijungti"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Atverti failų tvarkytuvėje"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Pabandyti pataisyti"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Prijungti ir atverti"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Išstumti"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Saugiai pašalinti"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Šiame įrenginyje yra failų sistemos klaidų."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Šiame įrenginyje nėra klaidų"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Sėkmingai pataisyta!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Įrenginio būsena"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Dabar įrenginys gali būti saugiai pašalintas"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Dabar šis įrenginys gali būti saugiai pašalintas."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Jūs neturite įgaliojimų prijungti šį įrenginį."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Jūs neturite įgaliojimų išstumti šį diską."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Jūs neturite įgaliojimų pašalinti šį įrenginį."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Jūs neturite įgaliojimų pataisyti šį įrenginį."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Nežinomas klaidos tipas"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Nepavyko prijungti šio įrenginio, nes jis yra užimtas."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr ""
+"Vienas ar daugiau failų iš šio įrenginio yra atverta tam tikrose programose."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"Vienas ar daugiau failų iš šio įrenginio yra atverta „%2“ programoje."
+msgstr[1] ""
+"Vienas ar daugiau failų iš šio įrenginio yra atverta šiose programose: %2."
+msgstr[2] ""
+"Vienas ar daugiau failų iš šio įrenginio yra atverta šiose programose: %2."
+msgstr[3] ""
+"Vienas ar daugiau failų iš šio įrenginio yra atverta šiose programose: %2."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Nepavyko prijungti šio įrenginio."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Nepavyko išstumti šio disko."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Nepavyko pašalinti šio įrenginio."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Nepavyko pataisyti šio įrenginio: %1"
+
+#: qml/DeviceItem.qml:98
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Tikrinama…"
+
+#: qml/DeviceItem.qml:100
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Pataisoma…"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 laisva iš %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Prijungiama…"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Atjungiama…"
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Kol kas neatjunkite! Failai yra vis dar perkeliami…"
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Pašalinti visus"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Spustelėkite, norėdami saugiai pašalinti visus įrenginius"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Nėra prijungta jokių keičiamųjų įrenginių"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Nėra prieinamų diskų"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Paskiausiai prijungtas įrenginys"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Nėra prieinamų įrenginių"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Konfigūruoti keičiamuosius įrenginius…"
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Keičiamieji įrenginiai"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Nekeičiamieji įrenginiai"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Visi įrenginiai"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Įkišus naują įrenginį, rodyti iškylantįjį langą"
+
+#~ msgctxt "@action:button Mount a disk without verifying for errors"
+#~ msgid "Mount without verifying"
+#~ msgstr "Prijungti netikrinant"
+
+#~ msgid "Filesystem is not responding"
+#~ msgstr "Failų sistema nereaguoja"
+
+#~ msgid "Filesystem mounted at '%1' is not responding"
+#~ msgstr "Failų sistema, prijungta ties „%1“, nereaguoja"
+
+#~ msgid "Show:"
+#~ msgstr "Rodyti:"
+
+#~ msgid "General"
+#~ msgstr "Bendri"
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing it. Click the eject button to safely remove this device."
+#~ msgstr ""
+#~ "Šiuo metu <b>nėra saugu</b> pašalinti šį įrenginį: jis dar gali būti "
+#~ "naudojamas kokios nors programos. Spustelėkite išstūmimo mygtuką, "
+#~ "norėdami saugiai pašalinti šį įrenginį."
+
+#~ msgid "This device is currently accessible."
+#~ msgstr "Šiuo metu įrenginys yra prieinamas."
+
+#~ msgid ""
+#~ "It is currently <b>not safe</b> to remove this device: applications may "
+#~ "be accessing other volumes on this device. Click the eject button on "
+#~ "these other volumes to safely remove this device."
+#~ msgstr ""
+#~ "Šiuo metu <b>nėra saugu</b> pašalinti šį įrenginį: gali būti, kad "
+#~ "programos naudoja ktius šio įrenginio tomus. Spustelėkite išstūmimo "
+#~ "mygtuką šalia tų kitų tomų, norėdami saugiai pašalinti šį įrenginį."
+
+#~ msgid "This device is not currently accessible."
+#~ msgstr "Šiuo metu šis įrenginys nėra prieinamas."
+
+#~ msgid "1 action for this device"
+#~ msgid_plural "%1 actions for this device"
+#~ msgstr[0] "1 veiksmas šiam įrenginiui"
+#~ msgstr[1] "%1 veiksmai šiam įrenginiui"
+#~ msgstr[2] "%1 veiksmų šiam įrenginiui"
+#~ msgstr[3] "%1 veiksmas šiam įrenginiui"

@@ -1,0 +1,119 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2014, 2015.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-27 00:47+0000\n"
+"PO-Revision-Date: 2023-05-26 06:24+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: qml/main.qml:30
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Vsebina odložišča"
+
+#: qml/main.qml:31
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Odložišče je prazno"
+
+#: qml/main.qml:69
+#, kde-format
+msgid "Clear History"
+msgstr "Počisti zgodovino"
+
+#: qml/main.qml:89
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Nastavi odložišče…"
+
+#~ msgid "QR Code"
+#~ msgstr "Koda QR"
+
+#~ msgid "Data Matrix"
+#~ msgstr "Podatkovna matrika"
+
+#~ msgctxt "Aztec barcode"
+#~ msgid "Aztec"
+#~ msgstr "Aztec"
+
+#~ msgid "Code 39"
+#~ msgstr "Koda 39"
+
+#~ msgid "Code 93"
+#~ msgstr "Koda 93"
+
+#~ msgid "Code 128"
+#~ msgstr "Koda 128"
+
+#~ msgid "Return to Clipboard"
+#~ msgstr "Vrni na odložišče"
+
+#~ msgid "Change the QR code type"
+#~ msgstr "Spremeni vrsto kode QR"
+
+#~ msgid ""
+#~ "There is not enough space to display the QR code. Try resizing this "
+#~ "applet."
+#~ msgstr ""
+#~ "Ni dovolj prostora za prikaz kode QR. Poskusite spremeniti velikost "
+#~ "programčka."
+
+#~ msgid "Creating QR code failed"
+#~ msgstr "Ustvarjanje kode QR ni uspelo"
+
+#~ msgid "Invoke action"
+#~ msgstr "Vpoklic aktivnosti"
+
+#~ msgid "Show QR code"
+#~ msgstr "Prikaži kodo"
+
+#~ msgid "Edit contents"
+#~ msgstr "Uredi vsebino"
+
+#~ msgid "Remove from history"
+#~ msgstr "Odstrani iz zgodovine"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Shrani"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Prekliči"
+
+#~ msgid "No matches"
+#~ msgstr "Ni zadetkov"
+
+#~ msgctxt ""
+#~ "Indicator that there are more urls in the clipboard than previews shown"
+#~ msgid "+%1"
+#~ msgstr "+%1"
+
+#~ msgid "The QR code is too large to be displayed"
+#~ msgstr "QR koda je prevelika, da bi jo lahko prikazal"
+
+#~ msgid "Clear history"
+#~ msgstr "Počisti zgodovino"
+
+#~ msgid "Search…"
+#~ msgstr "Poišči…"
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "Zgodovina odložišča je prazna."
+
+#~ msgid "Configure"
+#~ msgstr "Nastavi"
