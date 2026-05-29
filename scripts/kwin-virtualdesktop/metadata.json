@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Custom"
+            }
+        ],
+        "Id": "virtualdesktop-shortcuts",
+        "License": "MIT",
+        "Name": "Virtual Desktop Shortcuts",
+        "Version": "1.0"
+    }
+}
