@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=inode/directory,inode/link,application/x-desktop
+MimeType=inode/directory;inode/link;application/x-desktop;
+Actions=openWithCode;
+X-KDE-Priority=TopLevel
+Icon=visual-studio-code
+
+[Desktop Action openWithCode]
+Name=Open with VS Code:
+Icon=visual-studio-code
+Exec=/home/tope/.local/bin/open-with-code %F
