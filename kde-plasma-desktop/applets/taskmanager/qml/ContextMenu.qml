@@ -90,6 +90,63 @@ PlasmaExtras.Menu {
             `, parent) as PlasmaExtras.MenuItem;
     }
 
+    function newSubMenu(parent: QtObject): PlasmaExtras.Menu {
+        return Qt.createQmlObject(`
+            import org.kde.plasma.extras as PlasmaExtras
+
+            PlasmaExtras.Menu {}
+        `, parent) as PlasmaExtras.Menu;
+    }
+
+    function groupJumpListActions(actions: var): var {
+        const result = [];
+        const skip = new Set();
+
+        for (let i = 0; i < actions.length; ++i) {
+            if (skip.has(i)) continue;
+
+            const action = actions[i];
+            const text = action.text;
+
+            let name = "";
+            let isOpen = false;
+
+            if (text.startsWith("📌 ")) {
+                name = text.substring(3);
+                isOpen = true;
+            } else if (text.startsWith("🕐 ")) {
+                name = text.substring(3);
+                isOpen = true;
+            }
+
+            if (name && isOpen) {
+                let pairIndex = -1;
+                for (let j = i + 1; j < actions.length; ++j) {
+                    const otherText = actions[j].text;
+                    if (otherText === "📍 Unpin " + name || otherText === "📌 Pin " + name) {
+                        pairIndex = j;
+                        break;
+                    }
+                }
+
+                if (pairIndex > -1) {
+                    result.push({
+                        isGroup: true,
+                        title: text,
+                        icon: action.icon,
+                        actions: [action, actions[pairIndex]]
+                    });
+                    skip.add(pairIndex);
+                    continue;
+                }
+            }
+
+            result.push({ isGroup: false, action: action });
+        }
+
+        return result;
+    }
+
     function loadDynamicLaunchActions(launcherUrl: url): void {
         let sections = [];
 
@@ -143,14 +200,45 @@ PlasmaExtras.Menu {
                 }
             }
 
-            for (var i = 0; i < section["actions"].length; ++i) {
-                var item = newMenuItem(menu);
-                item.action = section["actions"][i];
+            let actionsToRender = section["actions"];
 
-                textMetrics.text = item.action.text.replace("&", "&&");
-                item.action.text = textMetrics.elidedText;
+            // Group jump list actions by place name for submenu support
+            if (section.group === "actions") {
+                actionsToRender = groupJumpListActions(actionsToRender);
+            }
 
-                menu.addMenuItem(item, startNewInstanceItem);
+            for (var i = 0; i < actionsToRender.length; ++i) {
+                var entry = actionsToRender[i];
+
+                if (entry.isGroup) {
+                    // Create submenu item
+                    var submenuItem = newMenuItem(menu);
+                    submenuItem.text = entry.title;
+                    submenuItem.icon = entry.icon;
+
+                    var subMenu = newSubMenu(menu);
+                    subMenu.visualParent = submenuItem.action;
+
+                    for (var j = 0; j < entry.actions.length; ++j) {
+                        var subItem = newMenuItem(subMenu);
+                        subItem.action = entry.actions[j];
+
+                        textMetrics.text = subItem.action.text.replace("&", "&&");
+                        subItem.action.text = textMetrics.elidedText;
+
+                        subMenu.addMenuItem(subItem);
+                    }
+
+                    menu.addMenuItem(submenuItem, startNewInstanceItem);
+                } else {
+                    var item = newMenuItem(menu);
+                    item.action = entry.action || entry;
+
+                    textMetrics.text = item.action.text.replace("&", "&&");
+                    item.action.text = textMetrics.elidedText;
+
+                    menu.addMenuItem(item, startNewInstanceItem);
+                }
             }
         });
 
