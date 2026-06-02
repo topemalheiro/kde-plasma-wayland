@@ -155,7 +155,6 @@ def clear_recent():
     refresh_desktop()
 
 
-@with_lock
 def refresh_desktop():
     state = read_state()
     recent = state.get("recent", [])
