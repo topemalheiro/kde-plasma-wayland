@@ -2431,15 +2431,20 @@ void Window::checkQuickTilingMaximizationZones(int xroot, int yroot)
             } else if (xroot >= area.x() + area.width() - 20) {
                 tile |= QuickTileFlag::Right;
                 innerBorder = isInScreen(QPoint(area.right() + 1, yroot));
+            } else if (yroot >= area.y() + area.height() - 20) {
+                tile |= QuickTileFlag::Bottom;
+                innerBorder = isInScreen(QPoint(xroot, area.y() + area.height() + 1));
             }
         }
 
-        if (tile != QuickTileMode(QuickTileFlag::None)) {
+        if (tile & (QuickTileFlag::Left | QuickTileFlag::Right)) {
             if (yroot <= area.y() + area.height() * options->electricBorderCornerRatio()) {
                 tile |= QuickTileFlag::Top;
             } else if (yroot >= area.y() + area.height() - area.height() * options->electricBorderCornerRatio()) {
                 tile |= QuickTileFlag::Bottom;
             }
+            mode = tile;
+        } else if (tile != QuickTileMode(QuickTileFlag::None)) {
             mode = tile;
         } else if (options->electricBorderMaximize() && yroot <= area.y() + 5 && isMaximizable()) {
             mode = MaximizeFull;
