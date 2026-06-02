@@ -194,6 +194,37 @@ This ensures that right-clicking a desktop shortcut opens the *target* folder, n
 
 ---
 
+### 7. Hubstaff Crash-Restart Loop on Wayland ✅ FIXED
+
+**Problem:** Hubstaff opens, stays visible for ~3 seconds, crashes with exit code 255, and its built-in watchdog immediately restarts it — creating an infinite open/close loop.
+
+**Root Cause:** KDE Plasma's regional format settings (`~/.config/plasma-localerc`) set `LC_TIME=pt_PT.UTF-8`, but the `pt_PT.UTF-8` locale is **not generated** on the system. Hubstaff fails locale initialization and crashes. Its internal watchdog then auto-restarts the child process, causing the loop.
+
+**Method:**
+1. Changed `LC_TIME` in `~/.config/plasma-localerc` from `pt_PT.UTF-8` to `en_US.UTF-8` (the latter is generated and valid).
+2. Modified the Hubstaff `.desktop` launcher to explicitly set `LC_ALL=en_US.UTF-8` in the `Exec` line, ensuring Hubstaff always launches with a valid locale regardless of session environment.
+
+**Files modified:**
+- `~/.config/plasma-localerc` — `LC_TIME=en_US.UTF-8` (was `pt_PT.UTF-8`)
+- `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` — `Exec` now points to `hubstaff-launcher.sh`
+- `~/Hubstaff/hubstaff-launcher.sh` — new wrapper script that sets `LC_ALL=en_US.UTF-8` before execing the real binary
+
+**Deactivation:**
+```bash
+# Revert plasma locale setting
+kwriteconfig6 --file plasma-localerc --group Formats --key LC_TIME pt_PT.UTF-8
+
+# Revert Hubstaff desktop file
+sed -i 's|Exec="/home/tope/Hubstaff/hubstaff-launcher.sh"|Exec="/home/tope/Hubstaff/HubstaffClient.bin.x86_64"|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop
+
+# Remove wrapper script
+rm /home/tope/Hubstaff/hubstaff-launcher.sh
+```
+
+**Status:** Done. Hubstaff now launches and stays running.
+
+---
+
 ## File Inventory
 
 ### Source Files (in repo)
@@ -216,12 +247,15 @@ This ensures that right-clicking a desktop shortcut opens the *target* folder, n
 | `~/.local/bin/open-with-code` | Compiled helper binary | `rm ~/.local/bin/open-with-code` |
 | `~/.local/share/applications/vscode-launchers/*.desktop` | Taskbar-pinnable VS Code: project launchers | `rm -rf ~/.local/share/applications/vscode-launchers/` |
 | `~/Desktop/*.desktop` (Type=Link) | Folder shortcuts created from symlinks | Delete individually and recreate symlinks |
+| `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` | Hubstaff launcher with locale workaround | `sed -i 's|Exec=env LC_ALL=en_US.UTF-8 |Exec=|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` |
 
 ### Modified Config Files
 
 | File | Key Changed | Reversal Command |
 |------|-------------|------------------|
 | `~/.config/dolphinrc` | `OpenExternallyCalledFolderInNewTab=true` | `kwriteconfig6 --file dolphinrc --group General --key OpenExternallyCalledFolderInNewTab false` |
+| `~/.config/plasma-localerc` | `LC_TIME=en_US.UTF-8` (was `pt_PT.UTF-8`) | `kwriteconfig6 --file plasma-localerc --group Formats --key LC_TIME pt_PT.UTF-8` |
+| `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` | `Exec=env LC_ALL=en_US.UTF-8 ...` (was `Exec="/home/tope/Hubstaff/HubstaffClient.bin.x86_64" %u`) | `sed -i 's|Exec=env LC_ALL=en_US.UTF-8 |Exec=|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` |
 
 ---
 
