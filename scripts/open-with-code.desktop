@@ -1,12 +1,15 @@
 [Desktop Entry]
 Type=Service
-ServiceTypes=inode/directory,inode/link,application/x-desktop
-MimeType=inode/directory;inode/link;application/x-desktop;
+Name=Open with VS Code:
+Icon=visual-studio-code
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;application/x-desktop;
 Actions=openWithCode;
 X-KDE-Priority=TopLevel
-Icon=visual-studio-code
+X-KDE-MaxNumberOfUrls=20
 
 [Desktop Action openWithCode]
 Name=Open with VS Code:
 Icon=visual-studio-code
 Exec=/home/tope/.local/bin/open-with-code %F
+TryExec=code
