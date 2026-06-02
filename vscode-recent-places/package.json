@@ -1,0 +1,116 @@
+{
+  "name": "vscode-recent-places",
+  "displayName": "Recent Places",
+  "description": "Track and pin recently opened folders and workspaces",
+  "version": "1.0.0",
+  "publisher": "tope",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:recentPlaces"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "recentPlaces",
+          "name": "Recent Places",
+          "when": "true"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "recentPlaces.open",
+        "title": "Open",
+        "icon": "$(folder-opened)"
+      },
+      {
+        "command": "recentPlaces.pin",
+        "title": "Pin",
+        "icon": "$(pinned)"
+      },
+      {
+        "command": "recentPlaces.unpin",
+        "title": "Unpin",
+        "icon": "$(pin)"
+      },
+      {
+        "command": "recentPlaces.remove",
+        "title": "Remove",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "recentPlaces.clearRecent",
+        "title": "Clear Recent",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "recentPlaces.addCurrent",
+        "title": "Recent Places: Add Current Folder",
+        "icon": "$(add)"
+      },
+      {
+        "command": "recentPlaces.refresh",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "recentPlaces.addCurrent",
+          "when": "view == recentPlaces",
+          "group": "navigation"
+        },
+        {
+          "command": "recentPlaces.refresh",
+          "when": "view == recentPlaces",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "recentPlaces.open",
+          "when": "view == recentPlaces && viewItem == place",
+          "group": "inline@1"
+        },
+        {
+          "command": "recentPlaces.pin",
+          "when": "view == recentPlaces && viewItem == recentItem",
+          "group": "inline@2"
+        },
+        {
+          "command": "recentPlaces.unpin",
+          "when": "view == recentPlaces && viewItem == pinnedItem",
+          "group": "inline@2"
+        },
+        {
+          "command": "recentPlaces.remove",
+          "when": "view == recentPlaces && viewItem == place",
+          "group": "inline@3"
+        },
+        {
+          "command": "recentPlaces.clearRecent",
+          "when": "view == recentPlaces && viewItem == recentHeader",
+          "group": "inline"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
