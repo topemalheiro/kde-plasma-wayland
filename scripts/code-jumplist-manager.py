@@ -243,7 +243,7 @@ Icon=visual-studio-code
 """
     DESKTOP_FILE.write_text(desktop_content)
     os.chmod(DESKTOP_FILE, 0o755)
-    os.system("kbuildsycoca6 --noincremental >/dev/null 2>&1")
+    os.system("kbuildsycoca6 --noincremental >/dev/null 2>&1 &")
     print("✅ Jump list updated. Right-click the VS Code: taskbar icon to see changes.")
 
 
