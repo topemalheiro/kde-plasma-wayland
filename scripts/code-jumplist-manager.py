@@ -7,16 +7,21 @@ Usage:
   python3 code-jumplist-manager.py unpin <folder-path>    # Unpin a place
   python3 code-jumplist-manager.py clear-recent           # Clear recent (keep pinned)
   python3 code-jumplist-manager.py refresh                # Regenerate code.desktop from state
+  python3 code-jumplist-manager.py restore                # Restore state from backup
 """
 
+import fcntl
 import json
 import os
+import shutil
 import sys
 import time
 from pathlib import Path
 
 STATE_DIR = Path.home() / ".config" / "vscode-jumplist"
 STATE_FILE = STATE_DIR / "state.json"
+BACKUP_FILE = STATE_DIR / "state.json.backup"
+LOCK_FILE = STATE_DIR / ".lock"
 DESKTOP_FILE = Path.home() / ".local" / "share" / "applications" / "code.desktop"
 MAX_RECENT = 10
 
@@ -29,19 +34,46 @@ def init_state():
 
 def read_state():
     init_state()
-    return json.loads(STATE_FILE.read_text())
+    with open(STATE_FILE, 'r') as f:
+        return json.loads(f.read())
 
 
 def write_state(state):
-    STATE_FILE.write_text(json.dumps(state, indent=2))
+    temp_file = STATE_FILE.with_suffix('.tmp')
+    with open(temp_file, 'w') as f:
+        f.write(json.dumps(state, indent=2))
+    os.replace(temp_file, STATE_FILE)
+
+
+def backup_state():
+    if STATE_FILE.exists():
+        shutil.copy2(STATE_FILE, BACKUP_FILE)
+
+
+def restore_state():
+    if BACKUP_FILE.exists():
+        shutil.copy2(BACKUP_FILE, STATE_FILE)
+        refresh_desktop()
+        print("✅ State restored from backup.")
+    else:
+        print("❌ No backup file found.")
+
+
+def with_lock(func):
+    def wrapper(*args, **kwargs):
+        with open(LOCK_FILE, 'w') as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            try:
+                return func(*args, **kwargs)
+            finally:
+                fcntl.flock(lock, fcntl.LOCK_UN)
+    return wrapper
 
 
 def resolve_path(path):
-    """If path is a .desktop Type=Link file, return the target folder path."""
     path = str(path)
     if not path.endswith('.desktop'):
         return str(Path(path).resolve())
-
     try:
         desktop_type = None
         url = None
@@ -52,114 +84,90 @@ def resolve_path(path):
                     desktop_type = line[5:]
                 elif line.startswith('URL'):
                     url = line.split('=', 1)[1]
-
         if desktop_type == 'Link' and url:
-            # Strip file:// and file: prefixes
             if url.startswith('file://'):
                 url = url[7:]
             elif url.startswith('file:'):
                 url = url[5:].lstrip('/')
-            # Expand $HOME
             url = url.replace('$HOME', str(Path.home()))
             resolved = Path(url).resolve()
             if resolved.is_dir():
                 return str(resolved)
     except Exception:
         pass
-
     return str(Path(path).resolve())
 
 
+@with_lock
 def add_recent(path):
     path = resolve_path(path)
+    backup_state()
     state = read_state()
-
-    # Remove from pinned if present
     state["pinned"] = [p for p in state["pinned"] if p["uri"] != path]
-
-    # Remove existing from recent (dedupe)
     state["recent"] = [p for p in state["recent"] if p["uri"] != path]
-
-    # Add to front of recent
     state["recent"].insert(0, {
         "uri": path,
         "name": Path(path).name,
         "timestamp": int(time.time())
     })
-
-    # Trim to max
     state["recent"] = state["recent"][:MAX_RECENT]
-
     write_state(state)
     refresh_desktop()
 
 
+@with_lock
 def pin_place(path):
     path = resolve_path(path)
+    backup_state()
     state = read_state()
-
-    # Find in recent
     item = next((p for p in state["recent"] if p["uri"] == path), None)
     if item is None:
-        item = {
-            "uri": path,
-            "name": Path(path).name,
-            "timestamp": int(time.time())
-        }
-
-    # Remove from recent
+        item = {"uri": path, "name": Path(path).name, "timestamp": int(time.time())}
     state["recent"] = [p for p in state["recent"] if p["uri"] != path]
-
-    # Add to pinned if not there
     if not any(p["uri"] == path for p in state["pinned"]):
         state["pinned"].append(item)
-
     write_state(state)
     refresh_desktop()
 
 
+@with_lock
 def unpin_place(path):
     path = resolve_path(path)
+    backup_state()
     state = read_state()
-
-    # Find in pinned
     item = next((p for p in state["pinned"] if p["uri"] == path), None)
-
-    # Remove from pinned
     state["pinned"] = [p for p in state["pinned"] if p["uri"] != path]
-
-    # Add back to recent if found
     if item is not None:
         state["recent"] = [p for p in state["recent"] if p["uri"] != path]
         state["recent"].insert(0, item)
-
     write_state(state)
     refresh_desktop()
 
 
+@with_lock
 def clear_recent():
+    backup_state()
     state = read_state()
+    pinned_backup = state.get("pinned", [])
     state["recent"] = []
+    state["pinned"] = pinned_backup
     write_state(state)
     refresh_desktop()
 
 
+@with_lock
 def refresh_desktop():
     state = read_state()
     recent = state.get("recent", [])
     pinned = state.get("pinned", [])
-
     actions = ["new-empty-window"]
     action_entries = []
     idx = 0
 
-    # Pinned actions: open + unpin
     for item in pinned:
         idx += 1
         name = item["name"].replace("\\", "\\\\").replace('"', '\\"')
         uri = item["uri"].replace("\\", "\\\\").replace('"', '\\"')
-
-        # Open action
         action_id = f"open-pinned-{idx}"
         actions.append(action_id)
         action_entries.append(
@@ -168,8 +176,6 @@ def refresh_desktop():
             f"Exec=/usr/bin/code \"{uri}\"\n"
             f"Icon=visual-studio-code\n"
         )
-
-        # Unpin action
         action_id = f"unpin-pinned-{idx}"
         actions.append(action_id)
         action_entries.append(
@@ -179,13 +185,10 @@ def refresh_desktop():
             f"Icon=pin\n"
         )
 
-    # Recent actions: open + pin
     for item in recent:
         idx += 1
         name = item["name"].replace("\\", "\\\\").replace('"', '\\"')
         uri = item["uri"].replace("\\", "\\\\").replace('"', '\\"')
-
-        # Open action
         action_id = f"open-recent-{idx}"
         actions.append(action_id)
         action_entries.append(
@@ -194,8 +197,6 @@ def refresh_desktop():
             f"Exec=/usr/bin/code \"{uri}\"\n"
             f"Icon=visual-studio-code\n"
         )
-
-        # Pin action
         action_id = f"pin-recent-{idx}"
         actions.append(action_id)
         action_entries.append(
@@ -205,7 +206,6 @@ def refresh_desktop():
             f"Icon=pinned\n"
         )
 
-    # Management actions
     actions.extend(["clear-recent", "manage-places"])
     manager_path = str(Path.home() / ".local" / "bin" / "code-jumplist-manager")
     action_entries.append(f"""
@@ -221,7 +221,6 @@ Icon=preferences-system
 """)
 
     actions_str = ";".join(actions)
-
     desktop_content = f"""[Desktop Entry]
 Name=Visual Studio Code:
 Comment=Code Editing. Redefined.
@@ -242,31 +241,25 @@ Exec=/usr/bin/code --new-window %F
 Icon=visual-studio-code
 {''.join(action_entries)}
 """
-
     DESKTOP_FILE.write_text(desktop_content)
     os.chmod(DESKTOP_FILE, 0o755)
-
-    # Refresh KDE caches
     os.system("kbuildsycoca6 --noincremental >/dev/null 2>&1")
-
     print("✅ Jump list updated. Right-click the VS Code: taskbar icon to see changes.")
 
 
 def main():
     if len(sys.argv) < 2:
         print("""Usage: code-jumplist-manager <command> [path]
-
 Commands:
   add <path>        Add folder to Recent
   pin <path>        Pin a place
   unpin <path>      Unpin a place
   clear-recent      Clear Recent (Pinned untouched)
   refresh           Regenerate code.desktop from state
+  restore           Restore state from backup
 """)
         sys.exit(1)
-
     cmd = sys.argv[1]
-
     if cmd == "add":
         add_recent(sys.argv[2])
     elif cmd == "pin":
@@ -277,6 +270,8 @@ Commands:
         clear_recent()
     elif cmd == "refresh":
         refresh_desktop()
+    elif cmd == "restore":
+        restore_state()
     else:
         print(f"Unknown command: {cmd}")
         sys.exit(1)
