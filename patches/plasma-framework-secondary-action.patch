@@ -1,0 +1,115 @@
+diff --git a/src/declarativeimports/plasmaextracomponents/qmenu.cpp b/src/declarativeimports/plasmaextracomponents/qmenu.cpp
+index fe8f8e5..ab5c2b1 100644
+--- a/src/declarativeimports/plasmaextracomponents/qmenu.cpp
++++ b/src/declarativeimports/plasmaextracomponents/qmenu.cpp
+@@ -8,11 +8,14 @@
+ 
+ #include <QApplication>
+ #include <QDebug>
++#include <QHBoxLayout>
+ #include <QQmlProperty>
+ #include <QQuickItem>
+ #include <QQuickRenderControl>
+ #include <QQuickWindow>
+ #include <QScreen>
++#include <QToolButton>
++#include <QWidgetAction>
+ 
+ #include <KAcceleratorManager>
+ #include <optional>
+@@ -302,6 +305,34 @@ void QMenuProxy::rebuildMenu()
+             }
+ 
+             m_menu->addSection(item->text());
++        } else if (item->secondaryAction()) {
++            // Compound row: main button + toggle button
++            QWidget *widget = new QWidget(nullptr);
++            QHBoxLayout *layout = new QHBoxLayout(widget);
++            layout->setContentsMargins(4, 0, 4, 0);
++            layout->setSpacing(2);
++
++            QToolButton *mainBtn = new QToolButton(widget);
++            mainBtn->setText(item->action()->text());
++            mainBtn->setIcon(item->action()->icon());
++            mainBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
++            mainBtn->setAutoRaise(true);
++            mainBtn->setStyleSheet(QStringLiteral("QToolButton { text-align: left; padding: 4px 2px; }"));
++            QObject::connect(mainBtn, &QToolButton::clicked, item->action(), &QAction::trigger);
++
++            QToolButton *toggleBtn = new QToolButton(widget);
++            toggleBtn->setIcon(item->secondaryAction()->icon());
++            toggleBtn->setAutoRaise(true);
++            toggleBtn->setStyleSheet(QStringLiteral("QToolButton { padding: 4px 2px; }"));
++            QObject::connect(toggleBtn, &QToolButton::clicked, item->secondaryAction(), &QAction::trigger);
++
++            layout->addWidget(mainBtn);
++            layout->addStretch();
++            layout->addWidget(toggleBtn);
++
++            QWidgetAction *wa = new QWidgetAction(m_menu);
++            wa->setDefaultWidget(widget);
++            m_menu->addAction(wa);
+         } else {
+             m_menu->addAction(item->action());
+             if (item->action()->menu()) {
+diff --git a/src/declarativeimports/plasmaextracomponents/qmenuitem.cpp b/src/declarativeimports/plasmaextracomponents/qmenuitem.cpp
+index 068f171..7cacabf 100644
+--- a/src/declarativeimports/plasmaextracomponents/qmenuitem.cpp
++++ b/src/declarativeimports/plasmaextracomponents/qmenuitem.cpp
+@@ -67,6 +67,19 @@ void QMenuItem::setAction(QAction *a)
+     }
+ }
+ 
++QAction *QMenuItem::secondaryAction() const
++{
++    return m_secondaryAction;
++}
++
++void QMenuItem::setSecondaryAction(QAction *a)
++{
++    if (m_secondaryAction != a) {
++        m_secondaryAction = a;
++        Q_EMIT secondaryActionChanged();
++    }
++}
++
+ QVariant QMenuItem::icon() const
+ {
+     return m_icon;
+diff --git a/src/declarativeimports/plasmaextracomponents/qmenuitem.h b/src/declarativeimports/plasmaextracomponents/qmenuitem.h
+index 9357b00..6c2ec2d 100644
+--- a/src/declarativeimports/plasmaextracomponents/qmenuitem.h
++++ b/src/declarativeimports/plasmaextracomponents/qmenuitem.h
+@@ -35,6 +35,7 @@ class QMenuItem : public QObject
+     Q_PROPERTY(QString text READ text WRITE setText NOTIFY textChanged)
+     Q_PROPERTY(QVariant icon READ icon WRITE setIcon NOTIFY iconChanged)
+     Q_PROPERTY(QAction *action READ action WRITE setAction NOTIFY actionChanged)
++    Q_PROPERTY(QAction *secondaryAction READ secondaryAction WRITE setSecondaryAction NOTIFY secondaryActionChanged)
+     Q_PROPERTY(bool checkable READ checkable WRITE setCheckable NOTIFY checkableChanged)
+     Q_PROPERTY(bool checked READ checked WRITE setChecked NOTIFY toggled)
+     Q_PROPERTY(bool enabled READ isEnabled WRITE setEnabled NOTIFY enabledChanged)
+@@ -45,6 +46,8 @@ public:
+ 
+     QAction *action() const;
+     void setAction(QAction *a);
++    QAction *secondaryAction() const;
++    void setSecondaryAction(QAction *a);
+     QVariant icon() const;
+     void setIcon(const QVariant &i);
+     bool separator() const;
+@@ -70,6 +73,7 @@ Q_SIGNALS:
+     void clicked();
+ 
+     void actionChanged();
++    void secondaryActionChanged();
+     void iconChanged();
+     void separatorChanged();
+     void sectionChanged();
+@@ -81,6 +85,7 @@ Q_SIGNALS:
+ 
+ private:
+     QAction *m_action;
++    QAction *m_secondaryAction = nullptr;
+     QVariant m_icon;
+     bool m_section;
+ };

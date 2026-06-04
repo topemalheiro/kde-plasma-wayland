@@ -201,7 +201,7 @@ def add_recent(path):
     })
     state["recent"] = state["recent"][:MAX_RECENT]
     write_state(state)
-    refresh_desktop()
+    _regenerate_desktop(state)
 
 
 @with_lock
@@ -215,7 +215,7 @@ def pin_place(path):
     state = read_state()
     state["recent"] = [p for p in state["recent"] if p["uri"] != path]
     write_state(state)
-    refresh_desktop()
+    _regenerate_desktop(state)
 
 
 @with_lock
@@ -235,7 +235,7 @@ def unpin_place(path):
     })
     state["recent"] = state["recent"][:MAX_RECENT]
     write_state(state)
-    refresh_desktop()
+    _regenerate_desktop(state)
 
 
 @with_lock
