@@ -244,12 +244,17 @@ def clear_recent():
     state = read_state()
     state["recent"] = []
     write_state(state)
-    refresh_desktop()
+    _regenerate_desktop(state)
 
 
 def refresh_desktop():
     sync_recent_from_vscode()
     state = read_state()
+    _regenerate_desktop(state)
+
+
+def _regenerate_desktop(state):
+    """Generate code.desktop from the given state dict (no VS Code: sync)."""
     pinned = get_pinned()
     pinned_set = set(pinned)
     recent = [r for r in state.get("recent", []) if r["uri"] not in pinned_set]
@@ -264,14 +269,13 @@ def refresh_desktop():
         safe_name = name.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
         safe_path = path.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
 
-        # Open action (pinned — shows pin icon)
+        # Open action (pinned — text only, icon is on the right toggle button)
         action_id = f"open-pinned-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📌 {safe_name}\n"
+            f"Name={safe_name}\n"
             f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_path}\"\n"
-            f"Icon=pin\n"
         )
 
         # Unpin action
@@ -279,7 +283,7 @@ def refresh_desktop():
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📍 Unpin {safe_name}\n"
+            f"Name=Unpin {safe_name}\n"
             f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} unpin \"{safe_path}\"\n"
             f"Icon=edit-delete\n"
         )
@@ -291,14 +295,13 @@ def refresh_desktop():
         safe_name = name.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
         safe_uri = uri.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
 
-        # Open action (recent)
+        # Open action (recent — text only, icon is on the right toggle button)
         action_id = f"open-recent-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=🕐 {safe_name}\n"
+            f"Name={safe_name}\n"
             f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_uri}\"\n"
-            f"Icon=visual-studio-code\n"
         )
 
         # Pin action
@@ -306,24 +309,18 @@ def refresh_desktop():
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📌 Pin {safe_name}\n"
+            f"Name=Pin {safe_name}\n"
             f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} pin \"{safe_uri}\"\n"
             f"Icon=pin\n"
         )
 
-    actions.extend(["clear-recent", "manage-places"])
+    actions.extend(["clear-recent"])
     manager_path = str(Path.home() / ".local" / "bin" / "code-jumplist-manager")
-    settings_path = str(SETTINGS_FILE)
     action_entries.append(f"""
 [Desktop Action clear-recent]
-Name=🗑️ Clear Recent Places
+Name=Clear Recent Places
 Exec={manager_path} clear-recent
 Icon=edit-clear-history
-
-[Desktop Action manage-places]
-Name=⚙️ Manage Places...
-Exec=code {settings_path}
-Icon=preferences-system
 """)
 
     actions_str = ";".join(actions)

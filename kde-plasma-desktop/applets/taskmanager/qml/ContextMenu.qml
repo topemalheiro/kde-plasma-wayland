@@ -91,53 +91,26 @@ PlasmaExtras.Menu {
             `, parent) as PlasmaExtras.MenuItem;
     }
 
-    function newSubMenu(parent: QtObject): PlasmaExtras.Menu {
-        return Qt.createQmlObject(`
-            import org.kde.plasma.extras as PlasmaExtras
-
-            PlasmaExtras.Menu {}
-        `, parent) as PlasmaExtras.Menu;
-    }
-
     function groupJumpListActions(actions: var): var {
         const result = [];
-        const skip = new Set();
 
         for (let i = 0; i < actions.length; ++i) {
-            if (skip.has(i)) continue;
-
             const action = actions[i];
             const text = action.text;
 
-            let name = "";
-            let isOpen = false;
+            // Check if next action is the toggle (Unpin X or Pin X) for this entry
+            if (i + 1 < actions.length) {
+                const nextText = actions[i + 1].text;
+                const unpinMatch = nextText.startsWith("Unpin ") ? nextText.substring(6) : null;
+                const pinMatch = nextText.startsWith("Pin ") ? nextText.substring(4) : null;
+                const pairedName = unpinMatch || pinMatch;
 
-            if (text.startsWith("📌 ")) {
-                name = text.substring(3);
-                isOpen = true;
-            } else if (text.startsWith("🕐 ")) {
-                name = text.substring(3);
-                isOpen = true;
-            }
-
-            if (name && isOpen) {
-                let pairIndex = -1;
-                for (let j = i + 1; j < actions.length; ++j) {
-                    const otherText = actions[j].text;
-                    if (otherText === "📍 Unpin " + name || otherText === "📌 Pin " + name) {
-                        pairIndex = j;
-                        break;
-                    }
-                }
-
-                if (pairIndex > -1) {
+                if (pairedName && pairedName === text) {
                     result.push({
                         isGroup: true,
-                        title: text,
-                        icon: action.icon,
-                        actions: [action, actions[pairIndex]]
+                        actions: [action, actions[i + 1]]
                     });
-                    skip.add(pairIndex);
+                    ++i; // skip the toggle action
                     continue;
                 }
             }
