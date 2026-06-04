@@ -343,3 +343,185 @@ grep -oP '^[^=]+' ~/.config/kglobalshortcutsrc | grep -i "window\|above\|below\|
 - Batch-configure multiple shortcuts via script
 - Replicate settings across machines
 - Version-control your KDE shortcuts
+
+---
+
+## New Tasks
+
+### 8. VS Code: Window Layout & Desktop Placement Persistence
+
+**Problem:** VS Code: windows do not consistently open on their assigned virtual desktop with the correct size/position/layout. After logout/login, all VS Code: instances may pile onto the current desktop or lose their previous layout state.
+
+**Desired Behavior:**
+- Each VS Code: project window remembers which virtual desktop it belongs to
+- Window size, position, and panel layout persist across sessions
+- Works automatically when spawning from the taskbar jump list, Reprompty, or command line
+- Survives logout/login without manual re-arrangement
+
+**Research & Implementation Plan:**
+
+1. **KWin Window Rules (First Line of Defense)**
+   - Create window rules matching `wmclass = Code:` and `title contains <project-name>`
+   - Force each rule to open on a specific virtual desktop
+   - Match criteria: `Window class (application) = Code:` + `Window title = *project-folder-name*`
+   - Actions: `Position = Apply initially`, `Size = Apply initially`, `Virtual Desktop = Apply initially`
+   - File: `~/.config/kwinrulesrc`
+   - Helper command to inspect window properties for rule creation:
+     ```bash
+     xprop | grep -E "WM_CLASS|WM_NAME"
+     # or for Wayland:
+     qdbus org.kde.KWin /KWin queryWindowInfo
+     ```
+
+2. **Reprompty Integration (Scripted Layout Engine)**
+   - Reprompty already manages VS Code: layouts internally
+   - Extend Reprompty's daemon to emit a `desktop-file` or D-Bus signal on window spawn
+   - Signal payload: `{ projectUri, preferredDesktop, layoutProfile }`
+   - A small KWin script or `kstart` wrapper listens for this signal and:
+     - Moves the newly spawned VS Code: window to the requested desktop
+     - Applies the saved geometry (x, y, width, height)
+     - Optionally restores panel/auxiliary bar visibility state
+   - Reprompty side: add `kde.desktop` field to `reprompty.json` layout profiles
+
+3. **KWin Script (Fallback / Global Behavior)**
+   - Write a KWin script (`~/.local/share/kwin/scripts/vscode-layout-manager/`) that:
+     - Hooks `workspace.windowAdded`
+     - Detects VS Code: windows by `window.resourceClass === "Code:"`
+     - Reads a JSON map from `~/.config/vscode-layouts.json`:
+       ```json
+       {
+         "/home/tope/Projects/Aperant-MCP": { "desktop": 2, "x": 0, "y": 0, "w": 1920, "h": 1080 },
+         "/home/tope/Projects/KDE-Plasma-on-Wayland": { "desktop": 3, "x": 1920, "y": 0, "w": 1920, "h": 1080 }
+       }
+       ```
+     - Parses the window title or uses `xprop`/`qdbus` to find the opened folder
+     - Moves the window to the saved desktop and geometry
+   - Register the script:
+     ```bash
+     mkdir -p ~/.local/share/kwin/scripts/vscode-layout-manager/contents/code
+     # write main.js and metadata.json
+     kpackagetool6 --type Kwin/Script --install ~/.local/share/kwin/scripts/vscode-layout-manager
+     # or upgrade:
+     kpackagetool6 --type Kwin/Script --upgrade ~/.local/share/kwin/scripts/vscode-layout-manager
+     ```
+
+4. **Session Restore Coordination**
+   - KDE's session restore (`~/.config/ksmserverrc`) can restore VS Code: windows, but it doesn't know about virtual desktop assignments for individual folders
+   - Ensure the KWin script runs *after* session restore completes (hook `workspace.windowAdded` covers this)
+   - OR disable VS Code: from ksmserver restore and let the jump list / Reprompty re-spawn windows with correct placement
+
+**Files to Create:**
+- `~/.config/kwinrulesrc` (or `~/.config/kwinrules` — verify Plasma 6 path)
+- `~/.config/vscode-layouts.json`
+- `~/.local/share/kwin/scripts/vscode-layout-manager/contents/code/main.js`
+- `~/.local/share/kwin/scripts/vscode-layout-manager/metadata.json`
+- Reprompty extension: `VSCodeSidePanelLayout/daemon/src/kde_window_manager.hpp` (D-Bus emitter)
+
+**Deactivation:**
+```bash
+# Disable KWin script
+kpackagetool6 --type Kwin/Script --remove vscode-layout-manager
+# Remove rules
+rm ~/.config/kwinrulesrc
+# Remove layout map
+rm ~/.config/vscode-layouts.json
+kwin_wayland --replace &
+```
+
+**Status:** TODO — Research KWin window rule format on Plasma 6 Wayland, prototype KWin script.
+
+---
+
+### 9. System Tray "Show" Should Bring App to Current Desktop
+
+**Problem:** Clicking **Show** on a system tray icon (e.g., Reprompty, Spotify, Discord, Hubstaff) switches the user's view to the virtual desktop where that application is currently running. This is disruptive — the user wants the application window to teleport to the **current desktop** instead.
+
+**Current Behavior:**
+- System tray context menu → `Show <App>` → KWin calls `activateWindow()` → KWin switches to the window's current desktop
+
+**Desired Behavior:**
+- System tray context menu → `Show <App>` → KWin moves the window to the **current desktop** → then activates it
+- Applies to ALL applications accessed via system tray, not just Reprompty
+- Does NOT affect taskbar clicking (taskbar behavior can stay as-is or be toggled separately)
+
+**Research & Implementation Plan:**
+
+1. **Verify Current KWin Setting**
+   - Check if Plasma already has a setting for this:
+     - System Settings → Window Management → Window Behavior → Advanced
+     - Look for "When activating a task, switch to its desktop" or similar
+   - Check `~/.config/kwinrc` keys:
+     ```ini
+     [Windows]
+     FocusStealingPreventionLevel=...
+     ```
+   - If a GUI toggle exists, document it and decide if it meets the requirement
+
+2. **KWin Script Approach (Most Likely Needed)**
+   - Write a KWin script that intercepts window activation requests originating from the system tray
+   - Hook: `workspace.windowActivated` or `window.activeChanged`
+   - Detect if activation came from system tray (heuristic: check if the window was on a different desktop and the mouse/keyboard focus was on the panel/system tray area)
+   - Better hook: intercept the D-Bus method that Plasma's system tray uses to raise windows
+   - Plasma's system tray uses `org.kde.plasma.WindowManagement` or direct `KWindowSystem::forceActiveWindow()`
+   - **Alternative:** Override the `raiseWindow` behavior globally:
+     ```javascript
+     // In KWin script
+     workspace.windowActivated.connect((window) => {
+       if (window && window.desktop !== workspace.currentDesktop) {
+         // Move window to current desktop before activating
+         window.desktop = workspace.currentDesktop;
+       }
+     });
+     ```
+     - **Caveat:** This would affect ALL window activations (Alt-Tab, taskbar, etc.), not just system tray. Need a toggle or a more precise trigger.
+
+3. **Per-App Whitelist / Blacklist**
+   - The KWin script should read `~/.config/tray-teleport.json`:
+     ```json
+     {
+       "enabled": true,
+       "affectTaskbar": false,
+       "apps": ["reprompty", "spotify", "discord", "hubstaff"],
+       "excludeApps": ["firefox", "code"]
+     }
+     ```
+   - Match by `window.resourceClass.toLowerCase()` or `window.caption`
+
+4. **Reprompty-Specific Shortcut (Immediate Fix)**
+   - If a global KWin script is too invasive, Reprompty can implement its own shortcut:
+     - Register a global D-Bus service `com.reprompty.WindowControl`
+     - Method `BringToCurrentDesktop()` moves the Reprompty window to the current desktop
+     - The system tray menu's `Show Reprompty` action calls this D-Bus method instead of the default `activateWindow()`
+   - This only fixes Reprompty, not other apps
+
+5. **Investigate Plasma's "Activate Raises" Setting**
+   - In `~/.config/kwinrc`:
+     ```ini
+     [Windows]
+     ActivateRaises=false
+     ```
+   - Or check if `FocusPolicy` settings affect this behavior
+   - Document findings in this TODO
+
+**Files to Create:**
+- `~/.local/share/kwin/scripts/tray-teleport/contents/code/main.js`
+- `~/.local/share/kwin/scripts/tray-teleport/metadata.json`
+- `~/.config/tray-teleport.json`
+
+**Deactivation:**
+```bash
+kpackagetool6 --type Kwin/Script --remove tray-teleport
+rm ~/.config/tray-teleport.json
+kwin_wayland --replace &
+```
+
+**Status:** TODO — Research exact KWin activation flow for system tray icons on Plasma 6 Wayland. Test if existing KWin setting covers this.
+
+---
+
+## Updated Remaining Tasks
+
+- [x] Test all right-click menus after fix. — **PASSED**
+- [ ] Pin desired VS Code: launchers to taskbar manually.
+- [ ] Implement VS Code: window layout persistence (KWin rules + script).
+- [ ] Implement system tray "Show" teleport-to-current-desktop behavior.

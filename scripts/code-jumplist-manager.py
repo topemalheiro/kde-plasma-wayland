@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """
-code-jumplist-manager.py — Manages VS Code: taskbar jump list (Recent + Pinned places)
+code-jumplist-manager.py — Manages VS Code: taskbar jump list
+
+Pin state is stored in VS Code:'s settings.json (kdeJumplist.pinnedFolders)
+Recent state is stored in our own state.json (auto-synced from VS Code: storage.json)
+
 Usage:
   python3 code-jumplist-manager.py add <folder-path>      # Add to recent
   python3 code-jumplist-manager.py pin <folder-path>      # Pin a place
   python3 code-jumplist-manager.py unpin <folder-path>    # Unpin a place
   python3 code-jumplist-manager.py clear-recent           # Clear recent (keep pinned)
-  python3 code-jumplist-manager.py refresh                # Regenerate code.desktop from state
+  python3 code-jumplist-manager.py refresh                # Regenerate code.desktop
   python3 code-jumplist-manager.py restore                # Restore state from backup
 """
 
@@ -17,11 +21,18 @@ import shutil
 import sys
 import time
 from pathlib import Path
+from urllib.parse import unquote
 
+# Paths
 STATE_DIR = Path.home() / ".config" / "vscode-jumplist"
 STATE_FILE = STATE_DIR / "state.json"
 BACKUP_FILE = STATE_DIR / "state.json.backup"
 LOCK_FILE = STATE_DIR / ".lock"
+
+VS_CODE_CONFIG = Path.home() / ".config" / "Code"
+SETTINGS_FILE = VS_CODE_CONFIG / "User" / "settings.json"
+STORAGE_FILE = VS_CODE_CONFIG / "User" / "globalStorage" / "storage.json"
+
 DESKTOP_FILE = Path.home() / ".local" / "share" / "applications" / "code.desktop"
 MAX_RECENT = 10
 
@@ -57,6 +68,85 @@ def restore_state():
         print("✅ State restored from backup.")
     else:
         print("❌ No backup file found.")
+
+
+def read_settings():
+    if SETTINGS_FILE.exists():
+        with open(SETTINGS_FILE, 'r') as f:
+            return json.load(f)
+    return {}
+
+
+def write_settings(settings):
+    temp = SETTINGS_FILE.with_suffix('.tmp')
+    with open(temp, 'w') as f:
+        json.dump(settings, f, indent=4)
+    os.replace(temp, SETTINGS_FILE)
+
+
+def get_pinned():
+    settings = read_settings()
+    return settings.get('kdeJumplist.pinnedFolders', [])
+
+
+def set_pinned(pinned):
+    settings = read_settings()
+    settings['kdeJumplist.pinnedFolders'] = pinned
+    write_settings(settings)
+
+
+def sync_recent_from_vscode():
+    """Read VS Code:'s storage.json and merge open folders into our recent list."""
+    if not STORAGE_FILE.exists():
+        return
+
+    state = read_state()
+    recent_uris = {p["uri"] for p in state.get("recent", [])}
+    pinned_uris = set(get_pinned())
+
+    with open(STORAGE_FILE, 'r') as f:
+        storage = json.load(f)
+
+    new_folders = []
+    seen = set()
+
+    # Priority 1: lastActiveWindow
+    lw = storage.get('windowsState', {}).get('lastActiveWindow', {})
+    folder = lw.get('folder', '')
+    if folder.startswith('file://'):
+        path = unquote(folder[7:])
+        if path not in seen and path not in recent_uris and path not in pinned_uris:
+            new_folders.append(path)
+            seen.add(path)
+
+    # Priority 2: openedWindows
+    for ow in storage.get('windowsState', {}).get('openedWindows', []):
+        folder = ow.get('folder', '')
+        if folder.startswith('file://'):
+            path = unquote(folder[7:])
+            if path not in seen and path not in recent_uris and path not in pinned_uris:
+                new_folders.append(path)
+                seen.add(path)
+
+    # Priority 3: backupWorkspaces
+    for item in storage.get('backupWorkspaces', {}).get('folders', []):
+        folder = item.get('folderUri', '')
+        if folder.startswith('file://'):
+            path = unquote(folder[7:])
+            if path not in seen and path not in recent_uris and path not in pinned_uris:
+                new_folders.append(path)
+                seen.add(path)
+
+    # Add new folders to front of recent list
+    for path in reversed(new_folders):
+        state["recent"].insert(0, {
+            "uri": path,
+            "name": Path(path).name,
+            "timestamp": int(time.time())
+        })
+
+    state["recent"] = state["recent"][:MAX_RECENT]
+    write_state(state)
 
 
 def with_lock(func):
@@ -103,7 +193,6 @@ def add_recent(path):
     path = resolve_path(path)
     backup_state()
     state = read_state()
-    state["pinned"] = [p for p in state["pinned"] if p["uri"] != path]
     state["recent"] = [p for p in state["recent"] if p["uri"] != path]
     state["recent"].insert(0, {
         "uri": path,
@@ -118,14 +207,13 @@ def add_recent(path):
 @with_lock
 def pin_place(path):
     path = resolve_path(path)
-    backup_state()
+    pinned = get_pinned()
+    if path not in pinned:
+        pinned.append(path)
+        set_pinned(pinned)
+    # Also remove from our recent list if present
     state = read_state()
-    item = next((p for p in state["recent"] if p["uri"] == path), None)
-    if item is None:
-        item = {"uri": path, "name": Path(path).name, "timestamp": int(time.time())}
     state["recent"] = [p for p in state["recent"] if p["uri"] != path]
-    if not any(p["uri"] == path for p in state["pinned"]):
-        state["pinned"].append(item)
     write_state(state)
     refresh_desktop()
 
@@ -133,13 +221,19 @@ def pin_place(path):
 @with_lock
 def unpin_place(path):
     path = resolve_path(path)
-    backup_state()
+    pinned = get_pinned()
+    if path in pinned:
+        pinned.remove(path)
+        set_pinned(pinned)
+    # Add back to recent
     state = read_state()
-    item = next((p for p in state["pinned"] if p["uri"] == path), None)
-    state["pinned"] = [p for p in state["pinned"] if p["uri"] != path]
-    if item is not None:
-        state["recent"] = [p for p in state["recent"] if p["uri"] != path]
-        state["recent"].insert(0, item)
+    state["recent"] = [p for p in state["recent"] if p["uri"] != path]
+    state["recent"].insert(0, {
+        "uri": path,
+        "name": Path(path).name,
+        "timestamp": int(time.time())
+    })
+    state["recent"] = state["recent"][:MAX_RECENT]
     write_state(state)
     refresh_desktop()
 
@@ -148,74 +242,87 @@ def unpin_place(path):
 def clear_recent():
     backup_state()
     state = read_state()
-    pinned_backup = state.get("pinned", [])
     state["recent"] = []
-    state["pinned"] = pinned_backup
     write_state(state)
     refresh_desktop()
 
 
 def refresh_desktop():
+    sync_recent_from_vscode()
     state = read_state()
-    recent = state.get("recent", [])
-    pinned = state.get("pinned", [])
+    pinned = get_pinned()
+    pinned_set = set(pinned)
+    recent = [r for r in state.get("recent", []) if r["uri"] not in pinned_set]
+
     actions = ["new-empty-window"]
     action_entries = []
     idx = 0
 
-    for item in pinned:
+    for path in pinned:
         idx += 1
-        name = item["name"].replace("\\", "\\\\").replace('"', '\\"')
-        uri = item["uri"].replace("\\", "\\\\").replace('"', '\\"')
+        name = Path(path).name
+        safe_name = name.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
+        safe_path = path.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
+
+        # Open action (pinned — shows pin icon)
         action_id = f"open-pinned-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📌 {name}\n"
-            f"Exec=/usr/bin/code \"{uri}\"\n"
-            f"Icon=visual-studio-code\n"
+            f"Name=📌 {safe_name}\n"
+            f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_path}\"\n"
+            f"Icon=pin\n"
         )
+
+        # Unpin action
         action_id = f"unpin-pinned-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📍 Unpin {name}\n"
-            f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} unpin \"{uri}\"\n"
-            f"Icon=pin\n"
+            f"Name=📍 Unpin {safe_name}\n"
+            f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} unpin \"{safe_path}\"\n"
+            f"Icon=edit-delete\n"
         )
 
     for item in recent:
         idx += 1
-        name = item["name"].replace("\\", "\\\\").replace('"', '\\"')
-        uri = item["uri"].replace("\\", "\\\\").replace('"', '\\"')
+        name = item["name"]
+        uri = item["uri"]
+        safe_name = name.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
+        safe_uri = uri.replace("\\", "\\\\").replace('"', '\\"').replace("&", "&&")
+
+        # Open action (recent)
         action_id = f"open-recent-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=🕐 {name}\n"
-            f"Exec=/usr/bin/code \"{uri}\"\n"
+            f"Name=🕐 {safe_name}\n"
+            f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_uri}\"\n"
             f"Icon=visual-studio-code\n"
         )
+
+        # Pin action
         action_id = f"pin-recent-{idx}"
         actions.append(action_id)
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
-            f"Name=📌 Pin {name}\n"
-            f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} pin \"{uri}\"\n"
-            f"Icon=pinned\n"
+            f"Name=📌 Pin {safe_name}\n"
+            f"Exec=python3 {Path.home() / '.local' / 'bin' / 'code-jumplist-manager'} pin \"{safe_uri}\"\n"
+            f"Icon=pin\n"
         )
 
     actions.extend(["clear-recent", "manage-places"])
     manager_path = str(Path.home() / ".local" / "bin" / "code-jumplist-manager")
+    settings_path = str(SETTINGS_FILE)
     action_entries.append(f"""
 [Desktop Action clear-recent]
 Name=🗑️ Clear Recent Places
-Exec=bash -c '{manager_path} clear-recent'
+Exec={manager_path} clear-recent
 Icon=edit-clear-history
 
 [Desktop Action manage-places]
 Name=⚙️ Manage Places...
-Exec=bash -c 'code {STATE_FILE}'
+Exec=code {settings_path}
 Icon=preferences-system
 """)
 
@@ -246,6 +353,26 @@ Icon=visual-studio-code
     print("✅ Jump list updated. Right-click the VS Code: taskbar icon to see changes.")
 
 
+def migrate_pins_from_state():
+    """One-time migration: copy pinned items from old state.json to VS Code: settings.json."""
+    state = read_state()
+    old_pins = state.get("pinned", [])
+    if not old_pins:
+        return
+
+    current_pins = get_pinned()
+    migrated = False
+    for item in old_pins:
+        uri = item.get("uri", "")
+        if uri and uri not in current_pins:
+            current_pins.append(uri)
+            migrated = True
+
+    if migrated:
+        set_pinned(current_pins)
+        print(f"✅ Migrated {len(old_pins)} pinned item(s) to VS Code: settings.json")
+
+
 def main():
     if len(sys.argv) < 2:
         print("""Usage: code-jumplist-manager <command> [path]
@@ -256,8 +383,10 @@ Commands:
   clear-recent      Clear Recent (Pinned untouched)
   refresh           Regenerate code.desktop from state
   restore           Restore state from backup
+  migrate           Migrate old state.json pins to VS Code: settings
 """)
         sys.exit(1)
+
     cmd = sys.argv[1]
     if cmd == "add":
         add_recent(sys.argv[2])
@@ -271,6 +400,8 @@ Commands:
         refresh_desktop()
     elif cmd == "restore":
         restore_state()
+    elif cmd == "migrate":
+        migrate_pins_from_state()
     else:
         print(f"Unknown command: {cmd}")
         sys.exit(1)
