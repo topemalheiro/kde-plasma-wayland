@@ -27,6 +27,7 @@ PlasmaExtras.Menu {
 
     property bool showAllPlaces: false
 
+
     placement: {
         if (Plasmoid.location === PlasmaCore.Types.LeftEdge) {
             return PlasmaExtras.Menu.RightPosedTopAlignedPopup;
@@ -211,25 +212,16 @@ PlasmaExtras.Menu {
                 var entry = actionsToRender[i];
 
                 if (entry.isGroup) {
-                    // Create submenu item
-                    var submenuItem = newMenuItem(menu);
-                    submenuItem.text = entry.title;
-                    submenuItem.icon = entry.icon;
+                    // Compound row: click text to open, click right-side button to pin/unpin
+                    var item = newMenuItem(menu);
+                    item.action = entry.actions[0]; // Open action
 
-                    var subMenu = newSubMenu(menu);
-                    subMenu.visualParent = submenuItem.action;
+                    textMetrics.text = item.action.text.replace("&", "&&");
+                    item.action.text = textMetrics.elidedText;
 
-                    for (var j = 0; j < entry.actions.length; ++j) {
-                        var subItem = newMenuItem(subMenu);
-                        subItem.action = entry.actions[j];
+                    item.secondaryAction = entry.actions[1]; // Pin/Unpin action
 
-                        textMetrics.text = subItem.action.text.replace("&", "&&");
-                        subItem.action.text = textMetrics.elidedText;
-
-                        subMenu.addMenuItem(subItem);
-                    }
-
-                    menu.addMenuItem(submenuItem, startNewInstanceItem);
+                    menu.addMenuItem(item, startNewInstanceItem);
                 } else {
                     var item = newMenuItem(menu);
                     item.action = entry.action || entry;
