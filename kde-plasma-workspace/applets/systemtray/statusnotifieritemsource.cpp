@@ -390,7 +390,7 @@ void StatusNotifierItemSource::refreshCallback(QDBusPendingCallWatcher *call)
                     iconName += QStringLiteral("-symbolic");
                 }
                 QIcon icon = QIcon(new KIconEngine(iconName, KIconColors(Plasma::Theme::globalPalette()), iconLoader(), {m_overlayIconName}));
-                if (!icon.isNull()) {
+                if (!icon.isNull() && !icon.availableSizes().isEmpty()) {
                     if (!overlay.isNull() && m_overlayIconName.isEmpty()) {
                         overlayIcon(&icon, &overlay);
                     }
@@ -464,11 +464,17 @@ void StatusNotifierItemSource::refreshCallback(QDBusPendingCallWatcher *call)
 void StatusNotifierItemSource::reloadIcon()
 {
     if (!m_iconName.isEmpty()) {
-        m_icon = QIcon(new KIconEngine(m_iconName, KIconColors(Plasma::Theme::globalPalette()), iconLoader(), {m_overlayIconName}));
+        QIcon newIcon = QIcon(new KIconEngine(m_iconName, KIconColors(Plasma::Theme::globalPalette()), iconLoader(), {m_overlayIconName}));
+        if (!newIcon.availableSizes().isEmpty()) {
+            m_icon = newIcon;
+        }
     }
 
     if (!m_attentionIconName.isEmpty()) {
-        m_attentionIcon = QIcon(new KIconEngine(m_attentionIconName, KIconColors(Plasma::Theme::globalPalette()), iconLoader(), {m_overlayIconName}));
+        QIcon newIcon = QIcon(new KIconEngine(m_attentionIconName, KIconColors(Plasma::Theme::globalPalette()), iconLoader(), {m_overlayIconName}));
+        if (!newIcon.availableSizes().isEmpty()) {
+            m_attentionIcon = newIcon;
+        }
     }
 
     Q_EMIT dataUpdated();
