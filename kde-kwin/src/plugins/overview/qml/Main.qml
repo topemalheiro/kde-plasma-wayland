@@ -751,6 +751,43 @@ FocusScope {
                     onActivated: effect.deactivate()
                 }
 
+                Item {
+                    id: desktopNameContainer
+                    anchors.top: backgroundArea.bottom
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.topMargin: Kirigami.Units.smallSpacing
+                    width: Math.min(desktopNameLabel.implicitWidth + Kirigami.Units.largeSpacing, backgroundArea.width)
+                    height: desktopNameLabel.implicitHeight + Kirigami.Units.smallSpacing
+                    opacity: gridVal
+                    visible: opacity > 0
+
+                    Rectangle {
+                        anchors.fill: parent
+                        radius: Kirigami.Units.cornerRadius
+                        color: Kirigami.Theme.backgroundColor
+                        opacity: 0.8
+                    }
+
+                    PC3.Label {
+                        id: desktopNameLabel
+                        anchors.centerIn: parent
+                        text: desktop.name
+                        color: Kirigami.Theme.textColor
+                        horizontalAlignment: Text.AlignHCenter
+                        verticalAlignment: Text.AlignVCenter
+                        elide: Text.ElideRight
+                        width: parent.width - Kirigami.Units.largeSpacing
+                    }
+
+                    TapHandler {
+                        acceptedButtons: Qt.LeftButton
+                        onTapped: {
+                            container.KWinComponents.SceneView.currentDesktop = mainBackground.desktop;
+                            container.effect.deactivate();
+                        }
+                    }
+                }
+
                 onCurrentChanged: {
                     if (current) {
                         allDesktopHeaps.currentHeap = heap;

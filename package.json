@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vscode/vsce": "^3.9.1",
+    "typescript": "^5.9.3"
+  }
+}

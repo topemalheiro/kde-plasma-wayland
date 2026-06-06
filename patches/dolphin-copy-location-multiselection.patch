@@ -1,0 +1,56 @@
+diff --git a/src/dolphincontextmenu.cpp b/src/dolphincontextmenu.cpp
+index 796c723..8982145 100644
+--- a/src/dolphincontextmenu.cpp
++++ b/src/dolphincontextmenu.cpp
+@@ -391,7 +391,7 @@ void DolphinContextMenu::insertDefaultItemActions(const KFileItemListProperties
+     addAction(collection->action(KStandardAction::name(KStandardAction::Copy)));
+     if (ContextMenuSettings::showCopyLocation()) {
+         QAction *copyPathAction = collection->action(QStringLiteral("copy_location"));
+-        copyPathAction->setEnabled(m_selectedItems.size() == 1);
++        copyPathAction->setEnabled(m_selectedItems.size() >= 1);
+         addAction(copyPathAction);
+     }
+     QAction *pasteAction = createPasteAction();
+diff --git a/src/dolphinmainwindow.cpp b/src/dolphinmainwindow.cpp
+index c1bbcc5..b386eec 100644
+--- a/src/dolphinmainwindow.cpp
++++ b/src/dolphinmainwindow.cpp
+@@ -2655,7 +2655,7 @@ void DolphinMainWindow::updateFileAndEditActions()
+                                                     i18nc("@info", "Cannot delete: You do not have permission to remove items from this folder."));
+         cutAction->setEnabled(capabilitiesSource.supportsMoving());
+         m_disabledActionNotifier->setDisabledReason(cutAction, i18nc("@info", "Cannot cut: You do not have permission to move items from this folder."));
+-        copyLocation->setEnabled(list.length() == 1);
++        copyLocation->setEnabled(list.length() >= 1);
+         showTarget->setEnabled(list.length() == 1 && list.at(0).isLink());
+         duplicateAction->setEnabled(capabilitiesSource.supportsWriting());
+         m_disabledActionNotifier->setDisabledReason(duplicateAction,
+diff --git a/src/views/dolphinview.cpp b/src/views/dolphinview.cpp
+index 6882df5..58aa69e 100644
+--- a/src/views/dolphinview.cpp
++++ b/src/views/dolphinview.cpp
+@@ -2694,16 +2694,20 @@ void DolphinView::copyPathToClipboard()
+     if (list.isEmpty()) {
+         return;
+     }
+-    const KFileItem &item = list.at(0);
+-    QString path = item.localPath();
+-    if (path.isEmpty()) {
+-        path = item.url().toDisplayString();
++    QStringList paths;
++    paths.reserve(list.size());
++    for (const KFileItem &item : list) {
++        QString path = item.localPath();
++        if (path.isEmpty()) {
++            path = item.url().toDisplayString();
++        }
++        paths.append(QDir::toNativeSeparators(path));
+     }
+     QClipboard *clipboard = QApplication::clipboard();
+     if (clipboard == nullptr) {
+         return;
+     }
+-    clipboard->setText(QDir::toNativeSeparators(path));
++    clipboard->setText(paths.join(QLatin1Char('\n')));
+ }
+ 
+ void DolphinView::slotIncreaseZoom()

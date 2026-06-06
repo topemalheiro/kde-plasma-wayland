@@ -525,3 +525,107 @@ kwin_wayland --replace &
 - [ ] Pin desired VS Code: launchers to taskbar manually.
 - [ ] Implement VS Code: window layout persistence (KWin rules + script).
 - [ ] Implement system tray "Show" teleport-to-current-desktop behavior.
+
+
+---
+
+### 10. Dolphin "Copy Location" Broken with Multiple Selections ✅ FIXED
+
+**Problem:** In Dolphin, right-clicking multiple selected files/folders and choosing **Copy Location** does nothing. The action works fine with a single item but is silently disabled when more than one item is selected.
+
+**Root Cause:** Dolphin's source code explicitly disables the `copy_location` action when `selectedItems.size() != 1` in three places:
+1. `src/dolphincontextmenu.cpp:394` — `copyPathAction->setEnabled(m_selectedItems.size() == 1);`
+2. `src/dolphinmainwindow.cpp:2658` — `copyLocation->setEnabled(list.length() == 1);`
+3. `src/views/dolphinview.cpp:2691-2707` — `copyPathToClipboard()` only copies the first item's path.
+
+**Method:**
+1. Cloned Dolphin source (`invent.kde.org/system/dolphin`) into `dolphin/`
+2. Patched all three locations to support multiple selections:
+   - Context menu: enabled when `>= 1` item selected
+   - Main window toolbar/menu: enabled when `>= 1` item selected
+   - `copyPathToClipboard()`: iterates all selected items, joins paths with `\n`
+3. Built Dolphin from source (`cmake .. && make -j$(nproc)`)
+4. Installed via user-space override:
+   - Wrapper script at `~/.local/bin/dolphin`
+   - Desktop file override at `~/.local/share/applications/org.kde.dolphin.desktop`
+
+**Files modified (in repo):**
+- `dolphin/src/dolphincontextmenu.cpp`
+- `dolphin/src/dolphinmainwindow.cpp`
+- `dolphin/src/views/dolphinview.cpp`
+
+**Files created (on system):**
+- `~/.local/bin/dolphin` — wrapper script pointing to build binary
+- `~/.local/share/applications/org.kde.dolphin.desktop` — override with patched binary path
+
+**Deactivation:**
+```bash
+rm ~/.local/bin/dolphin
+rm ~/.local/share/applications/org.kde.dolphin.desktop
+kbuildsycoca6 --noincremental
+```
+
+**Status:** Done. Copy Location now works with any number of selected items, copying all paths joined by newlines.
+
+---
+
+### 11. Power Management — Never Auto-Suspend, Only Dim → Black Screen ✅ FIXED
+
+**Problem:** KDE Plasma's default power management automatically suspends the system after idle time. The user wants the system to **never suspend or sleep automatically** — only dim the screen, then turn it off (black), even if idle inhibitors from VS Code: or agent frameworks aren't detected.
+
+**Method:**
+Configured Plasma 6's `powerdevil` daemon (`powerdevilrc`) for all three profiles (AC, Battery, LowBattery):
+
+| Setting | Value | Meaning |
+|---|---|---|
+| `AutoSuspendAction` | `0` (`NoAction`) | Never auto-suspend |
+| `PowerButtonAction` | `64` (`TurnOffScreen`) | Power button turns off screen only |
+| `PowerDownAction` | `64` (`TurnOffScreen`) | Power-down action turns off screen only |
+| `LidAction` | `64` (`TurnOffScreen`) | Lid close turns off screen only |
+| `DimDisplayWhenIdle` | `true` | Dim screen after idle timeout |
+| `TurnOffDisplayWhenIdle` | `true` | Turn off (black) screen after longer idle timeout |
+
+**Timeouts configured:**
+| Profile | Dim After | Turn Off After |
+|---|---|---|
+| AC | 300s (5 min) | 600s (10 min) |
+| Battery | 120s (2 min) | 300s (5 min) |
+| LowBattery | 60s (1 min) | 120s (2 min) |
+
+**Files modified:**
+- `~/.config/powerdevilrc` — added `[AC]`, `[Battery]`, `[LowBattery]` profile groups
+
+**Systemd hardening (optional but recommended):**
+A systemd logind drop-in was prepared at `/tmp/99-prevent-auto-suspend.conf` to prevent systemd from independently suspending on lid close or idle:
+```bash
+sudo mkdir -p /etc/systemd/logind.conf.d
+sudo cp /tmp/99-prevent-auto-suspend.conf /etc/systemd/logind.conf.d/
+sudo systemctl restart systemd-logind
+```
+This sets:
+- `HandleLidSwitch=ignore`
+- `HandleLidSwitchExternalPower=ignore`
+- `IdleAction=ignore`
+- `HandlePowerKey=ignore` (accidental press protection; long-press still powers off)
+
+**Deactivation (revert powerdevil settings):**
+```bash
+# Remove profile settings from powerdevilrc
+kwriteconfig6 --file powerdevilrc --group AC --group SuspendAndShutdown --key AutoSuspendAction 1
+kwriteconfig6 --file powerdevilrc --group Battery --group SuspendAndShutdown --key AutoSuspendAction 1
+kwriteconfig6 --file powerdevilrc --group LowBattery --group SuspendAndShutdown --key AutoSuspendAction 1
+systemctl --user restart plasma-powerdevil.service
+```
+
+**Status:** Done. Powerdevil was restarted and is running with the new config. System will dim, then black out the screen, but never suspend automatically.
+
+---
+
+## Updated Remaining Tasks
+
+- [x] Test all right-click menus after fix. — **PASSED**
+- [x] Pin desired VS Code: launchers to taskbar manually. — **N/A**
+- [ ] Implement VS Code: window layout persistence (KWin rules + script).
+- [ ] Implement system tray "Show" teleport-to-current-desktop behavior.
+- [x] Fix Dolphin Copy Location with multiple selections.
+- [x] Configure power management to never auto-suspend.
