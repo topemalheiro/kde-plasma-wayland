@@ -1508,6 +1508,12 @@ QVariant FolderModel::data(const QModelIndex &index, int role) const
         return isDir(mapToSource(index), m_dirModel);
     } else if (role == IsLinkRole) {
         const KFileItem item = itemForIndex(index);
+        if (m_parseDesktopFiles && item.isDesktopFile()) {
+            const KDesktopFile file(item.targetUrl().path());
+            if (file.hasLinkType()) {
+                return true;
+            }
+        }
         return item.isLink();
     } else if (role == IsHiddenRole) {
         const KFileItem item = itemForIndex(index);
@@ -1538,6 +1544,20 @@ QVariant FolderModel::data(const QModelIndex &index, int role) const
         return itemForIndex(index).url().fileName();
     } else if (role == FileNameWrappedRole) {
         return KStringHandler::preProcessWrap(itemForIndex(index).text());
+    }
+
+    if (role == Qt::DecorationRole) {
+        const KFileItem item = itemForIndex(index);
+        if (m_parseDesktopFiles && item.isDesktopFile()) {
+            const KDesktopFile file(item.targetUrl().path());
+            if (file.hasLinkType()) {
+                const QUrl url(file.readUrl());
+                if (url.isValid()) {
+                    KFileItem targetItem(url);
+                    return targetItem.iconName();
+                }
+            }
+        }
     }
 
     return QSortFilterProxyModel::data(index, role);

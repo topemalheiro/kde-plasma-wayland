@@ -313,6 +313,20 @@ Item {
                     source: main.decoration
                 }
 
+                Kirigami.Icon {
+                    id: linkEmblem
+                    source: "emblem-symbolic-link"
+                    width: icon.width / 3.5
+                    height: icon.height / 3.5
+                    anchors.right: icon.right
+                    anchors.bottom: icon.bottom
+                    anchors.rightMargin: -Kirigami.Units.smallSpacing
+                    anchors.bottomMargin: -Kirigami.Units.smallSpacing
+                    visible: main.isLink
+                    z: icon.z + 1
+                    animated: false
+                }
+
                 PlasmaExtras.ShadowedLabel {
                     id: label
 

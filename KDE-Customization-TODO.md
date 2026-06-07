@@ -629,3 +629,302 @@ systemctl --user restart plasma-powerdevil.service
 - [ ] Implement system tray "Show" teleport-to-current-desktop behavior.
 - [x] Fix Dolphin Copy Location with multiple selections.
 - [x] Configure power management to never auto-suspend.
+
+
+---
+
+### 12. Desktop Folder Shortcuts — Restore Link Badge Icons & Folder Color Support
+
+**Problem:** The `Type=Link` `.desktop` files we created on the Desktop (to replace symlinks) no longer show the **small chain/link badge overlay** in the bottom-right corner. They also lost the ability to **change folder color** via the "Assign Tags" / color-picker feature that vanilla KDE folder icons support.
+
+**Vanilla behavior (symlinks):**
+- Symlinks to folders show the target folder's icon with a chain-link badge overlay
+- Right-click → "Assign Tags" allows changing the folder color
+
+**Current behavior (`.desktop` Type=Link):**
+- Shows a generic folder icon with no link badge
+- Color/tag changes don't apply because the icon is rendered as a generic `.desktop` launcher, not as a folder thumbnail
+
+**Research & Implementation Plan:**
+
+1. **Understand how KDE renders desktop icons**
+   - Plasma's folder view applet (`kde-plasma-desktop/applets/folder/`) renders desktop items
+   - For symlinks, it uses `KFileItem::isLink()` and overlays the link emblem via `KIconLoader::Emblem`
+   - For `.desktop` files with `Type=Link`, it treats them as "URL/desktop entry" rather than "folder icon with emblem"
+
+2. **Option A: Patch Plasma's folder view to overlay link emblem on `.desktop` Type=Link**
+   - Locate the icon rendering path in the folder view applet
+   - Check if the `.desktop` file has `Type=Link` and `URL` pointing to a directory
+   - If so, render the target folder's icon + link emblem instead of the generic `.desktop` icon
+   - Files to investigate:
+     - `kde-plasma-desktop/applets/folder/` (or `plasma-workspace/containments/desktop/`)
+     - `kde-plasma-workspace/kioworkers/desktop/kio_desktop.cpp`
+
+3. **Option B: Patch Dolphin/KIO to recognize `.desktop` Type=Link as a folder link**
+   - Modify `KFileItem` or icon resolution so that `.desktop` files with `Type=Link` and `inode/directory`-like targets get the folder icon + emblem treatment
+   - This might be cleaner because it fixes the behavior system-wide, not just on the desktop
+
+4. **Folder color support**
+   - KDE stores folder colors via extended attributes or `.directory` files
+   - The color is applied during icon rendering based on the resolved target path
+   - If we patch the icon renderer to resolve `.desktop` links before choosing the icon, color support should come for free
+
+**Files to investigate/create:**
+- `kde-plasma-desktop/applets/folder/package/contents/ui/ItemDelegate.qml` (or similar)
+- `kde-plasma-workspace/kioworkers/desktop/kio_desktop.cpp`
+- `kio/src/core/kfileitem.cpp` (icon resolution)
+
+**Deactivation:**
+Revert to symlink approach (loses correct path display in Dolphin) or remove the patch and rebuild affected components.
+
+**Implementation:**
+
+Patched `kde-plasma-desktop` folder containment plugin (`libfolderplugin.so`) and its QML delegate:
+
+1. **`foldermodel.cpp`** (C++ model layer):
+   - `IsLinkRole`: Returns `true` for `.desktop` files with `Type=Link` (in addition to symlinks)
+   - `Qt::DecorationRole`: Returns the **target folder's icon name** for `.desktop` links, enabling folder color/tags to apply
+
+2. **`FolderItemDelegate.qml`** (QML view layer):
+   - Added `linkEmblem: Kirigami.Icon` overlay (`emblem-symbolic-link`) positioned bottom-right of the main icon
+   - Visible when `main.isLink` is true
+
+3. **Build & install** (user-space):
+   ```bash
+   cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/.local
+   cmake --build build --target folderplugin -j$(nproc)
+   cmake --install build --component folderplugin
+   cp build/bin/libfolderplugin.so ~/.local/lib/qt6/qml/org/kde/private/desktopcontainment/folder/
+   cp containments/desktop/package/contents/ui/FolderItemDelegate.qml \
+      ~/.local/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/
+   killall plasmashell && kstart6 plasmashell
+   ```
+
+**Deactivation:**
+Revert to symlink approach (loses correct path display in Dolphin) or remove the patch and rebuild affected components.
+
+**Status:** DONE — Both link badge and folder color support restored. Restart plasmashell to apply.
+
+---
+
+### 13. Copy Target Path from Desktop Shortcuts via Ctrl+Shift+C
+
+**Problem:** Pressing **Ctrl+Shift+C** (or right-click → Copy Location) on desktop `.desktop` shortcuts copies the shortcut's own path (`~/Desktop/Stuffs.desktop`) instead of the **target folder's path** (`~/Projects/Stuffs/`). This should work for both single and multiple selected shortcuts.
+
+**Context:** We already fixed this inside Dolphin (item #10), but the Plasma desktop folder view uses a **different code path** for its context menu and keyboard shortcuts.
+
+**Research & Implementation Plan:**
+
+1. **Identify the desktop copy-location code path**
+   - Plasma desktop folder view context menu: likely in `kde-plasma-workspace/containments/desktop/` or `applets/folder/`
+   - Keyboard shortcut handler: `KStandardAction::Copy` might be overridden by the folder view
+   - The `filemenu.cpp` in `kde-plasma-workspace/applets/notifications/` has a "Copy Location" action, but that's for notifications, not the desktop
+
+2. **Find the desktop's Copy Location / Ctrl+Shift+C implementation**
+   - Search for `Copy Location`, `copyPath`, `Ctrl+Shift+C`, or `KStandardAction::Copy` in:
+     - `kde-plasma-desktop/applets/folder/`
+     - `kde-plasma-workspace/containments/desktop/`
+     - `kde-plasma-workspace/kioworkers/desktop/`
+   - The desktop likely uses `KFileItemActions` or a custom QML context menu
+
+3. **Implement target-path resolution**
+   - When the selected item is a `.desktop` file with `Type=Link`:
+     1. Parse the `URL` field (handle `URL[$e]=`, `file://`, `$HOME`)
+     2. Resolve via `realpath()`
+     3. Place the resolved directory path on the clipboard
+   - For multiple selections: join all resolved paths with newlines (match Dolphin behavior)
+
+4. **Hook into keyboard shortcut**
+   - Ensure `Ctrl+Shift+C` triggers the same logic as the context menu "Copy Location"
+   - The shortcut might be handled by `KDirOperator`, `DolphinView`, or a Plasma-specific component
+
+**Files to investigate:**
+- `kde-plasma-desktop/applets/folder/package/contents/ui/FolderView.qml`
+- `kde-plasma-workspace/containments/desktop/plugins/folder/` (if exists)
+- `kio/src/widgets/kfileitemactions.cpp` (if desktop uses KIO menus)
+
+**Deactivation:**
+Remove patch and rebuild the affected Plasma component, or revert to original files.
+
+**Status:** TODO — Locate the exact desktop folder view file that handles Copy Location / Ctrl+Shift+C.
+
+---
+
+### 14. Taskbar Jump List — Open Projects with Reprompty Layout & Virtual Desktop
+
+**Problem:** Clicking a project in the VS Code: taskbar jump list (e.g., "Reprompty", "Aperant-MCP") opens VS Code: with that folder, but it doesn't:
+- Apply the associated **Reprompty layout preset**
+- Move the window to the **correct virtual desktop**
+- Restore the saved **window geometry**
+
+The jump list currently acts as a simple "open folder" launcher. It needs to be the entry point for the full workspace restoration pipeline.
+
+**Research & Implementation Plan:**
+
+1. **Extend `code-jumplist-manager.py`**
+   - Add a `launch` command (or modify the `Exec` line in `code.desktop`) that:
+     1. Opens the folder in VS Code:
+     2. Notifies Reprompty (or reads `reprompty.json`) to apply the matching layout profile
+     3. Emits a D-Bus signal or writes to a known file: `{ projectUri, preferredDesktop, layoutProfile }`
+   - Store the mapping in a new config file: `~/.config/vscode-jumplist/layout-map.json`
+     ```json
+     {
+       "/home/tope/Projects/Reprompty": { "desktop": 2, "layout": "side-panel" },
+       "/home/tope/Projects/Aperant-MCP": { "desktop": 3, "layout": "zen" }
+     }
+     ```
+
+2. **Create a KWin script (`vscode-jumplist-spawner`)**
+   - Hook `workspace.windowAdded`
+   - Detect VS Code: windows spawned by a jump list action (heuristic: `window.resourceClass === "Code:"` + recent spawn time)
+   - Read `~/.config/vscode-jumplist/layout-map.json`
+   - Match by parsing the window title (e.g., "Reprompty — VS Code:")
+   - Apply:
+     - `window.desktop = mappedDesktop`
+     - `window.frameGeometry = QRect(x, y, w, h)`
+   - Register with `kpackagetool6 --type Kwin/Script --install`
+
+3. **Alternative: Replace jump list `Exec` with a launcher script**
+   - Instead of `code /path/to/project`, use a wrapper:
+     ```bash
+     Exec=/home/tope/.local/bin/vscode-jumplist-launcher "%k"
+     ```
+   - The launcher:
+     1. Calls `code /path/to/project`
+     2. Calls Reprompty CLI to apply layout: `reprompty --layout-profile side-panel`
+     3. Calls a small D-Bus helper or KWin script to move the window
+
+4. **Reprompty integration**
+   - Add a `kde.desktop` field to `reprompty.json` layout profiles
+   - Reprompty daemon emits `com.reprompty.WindowControl` D-Bus signal on spawn
+   - Signal payload: `{ projectUri, preferredDesktop, layoutProfile, geometry }`
+   - KWin script listens for this signal and applies placement
+
+**Files to Create:**
+- `~/.config/vscode-jumplist/layout-map.json`
+- `~/.local/share/kwin/scripts/vscode-jumplist-spawner/contents/code/main.js`
+- `~/.local/share/kwin/scripts/vscode-jumplist-spawner/metadata.json`
+- `scripts/vscode-jumplist-launcher.py` (optional wrapper approach)
+
+**Deactivation:**
+```bash
+kpackagetool6 --type Kwin/Script --remove vscode-jumplist-spawner
+rm ~/.config/vscode-jumplist/layout-map.json
+# Revert code.desktop Exec lines to plain `code` calls
+```
+
+**Status:** TODO — Decide between KWin-script-only vs launcher-script approach. Prototype D-Bus signal from Reprompty.
+
+---
+
+### 15. Bootloader & i2c Module Loading
+
+**Problem:** Two hardware/boot-level issues need fixing:
+1. **i2c modules not loading at boot** — Needed for hardware monitoring, display brightness (ddcutil), or fan controllers. Currently must be loaded manually or fails to initialize.
+2. **Bootloader menu not appearing** — The system boots straight into the default kernel without showing a menu to choose between different installed kernels or Windows (dual-boot).
+
+**Research & Implementation Plan:**
+
+#### 15a. i2c Module Loading
+
+1. **Identify which i2c modules are needed**
+   ```bash
+   lsmod | grep i2c
+   ls /sys/bus/i2c/devices/
+   dmesg | grep -i i2c
+   ```
+   Common modules: `i2c_dev`, `i2c_i801`, `i2c_smbus`, `i2c_algo_bit`, `ddci`
+
+2. **Enable at boot**
+   - Create a systemd-modules-load drop-in:
+     ```bash
+     sudo mkdir -p /etc/modules-load.d
+     sudo tee /etc/modules-load.d/i2c.conf << 'EOF'
+     i2c_dev
+     i2c_i801
+     i2c_smbus
+     EOF
+     ```
+   - Or add to `mkinitcpio` if modules are needed in initramfs:
+     ```bash
+     # In /etc/mkinitcpio.conf, add to MODULES=(... i2c_dev i2c_i801 ...)
+     sudo mkinitcpio -P
+     ```
+
+3. **Fix permissions (if ddcutil/i2c access is denied)**
+   - Add user to `i2c` group: `sudo usermod -aG i2c tope`
+   - Or create a udev rule:
+     ```bash
+     sudo tee /etc/udev/rules.d/50-i2c.rules << 'EOF'
+     KERNEL=="i2c-[0-9]*", MODE="0666"
+     EOF
+     ```
+
+#### 15b. Bootloader Menu
+
+1. **Identify the bootloader**
+   ```bash
+   ls /boot/loader/entries/ 2>/dev/null && echo "systemd-boot" || echo "not systemd-boot"
+   ls /boot/grub/grub.cfg 2>/dev/null && echo "GRUB" || echo "not GRUB"
+   efibootmgr -v 2>/dev/null | head -10
+   ```
+
+2. **If GRUB:**
+   - Edit `/etc/default/grub`:
+     ```bash
+     GRUB_TIMEOUT=10
+     GRUB_TIMEOUT_STYLE=menu
+     GRUB_DISABLE_OS_PROBER=false
+     ```
+   - Regenerate config:
+     ```bash
+     sudo grub-mkconfig -o /boot/grub/grub.cfg
+     ```
+   - Ensure `os-prober` is installed for Windows detection:
+     ```bash
+     sudo pacman -S os-prober
+     ```
+
+3. **If systemd-boot:**
+   - Edit `/boot/loader/loader.conf`:
+     ```ini
+     timeout 10
+     console-mode max
+     ```
+   - Ensure Windows entry exists:
+     ```bash
+     sudo bootctl update
+     # Or manually create entry in /boot/loader/entries/
+     ```
+
+4. **If rEFInd:**
+   - Edit `/boot/refind_linux.conf` or `/efi/EFI/refind/refind.conf`
+   - Ensure `timeout` is set and OS detection is enabled
+
+**Files Modified/Created (system):**
+- `/etc/modules-load.d/i2c.conf`
+- `/etc/udev/rules.d/50-i2c.rules` (optional)
+- `/etc/default/grub` or `/boot/loader/loader.conf`
+- `/boot/grub/grub.cfg` (regenerated)
+
+**Deactivation:**
+```bash
+# i2c
+sudo rm /etc/modules-load.d/i2c.conf
+# GRUB
+sudo sed -i 's/GRUB_TIMEOUT=10/GRUB_TIMEOUT=0/' /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+# systemd-boot
+sudo sed -i 's/timeout 10/timeout 0/' /boot/loader/loader.conf
+```
+
+**Status:** TODO — Identify exact bootloader type and i2c modules needed on this hardware.
+
+---
+
+## Updated Remaining Tasks
+
+- [x] Fix desktop folder shortcuts: restore link badge icon + folder color support.
+- [ ] Fix Ctrl+Shift+C on desktop shortcuts to copy target path(s).
+- [ ] Integrate taskbar jump list with Reprompty layout + virtual desktop placement.
+- [ ] Fix i2c module loading at boot and restore bootloader menu.
