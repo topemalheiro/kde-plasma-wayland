@@ -1849,6 +1849,11 @@ void FolderModel::createActions()
     m_actionCollection.addAction(QStringLiteral("cut"), cut);
     m_actionCollection.addAction(QStringLiteral("undo"), undo);
     m_actionCollection.addAction(QStringLiteral("copy"), copy);
+
+    QAction *copyLocation = new QAction(QIcon::fromTheme(QStringLiteral("edit-copy-path")), i18nc("@action:incontextmenu", "Copy Location"), this);
+    connect(copyLocation, &QAction::triggered, this, &FolderModel::copyLocation);
+    m_actionCollection.addAction(QStringLiteral("copyLocation"), copyLocation);
+
     m_actionCollection.addAction(QStringLiteral("paste"), paste);
     m_actionCollection.addAction(QStringLiteral("pasteto"), pasteTo);
     m_actionCollection.addAction(QStringLiteral("refresh"), refresh);
@@ -2072,6 +2077,7 @@ void FolderModel::openContextMenu(QQuickItem *visualParent, Qt::KeyboardModifier
         if (!isTrashLink) {
             menu->addAction(m_actionCollection.action(QStringLiteral("cut")));
             menu->addAction(m_actionCollection.action(QStringLiteral("copy")));
+            menu->addAction(m_actionCollection.action(QStringLiteral("copyLocation")));
         }
 
         if (urls.length() == 1) {
@@ -2210,6 +2216,47 @@ void FolderModel::copy()
     QMimeData *mimeData = QSortFilterProxyModel::mimeData(m_selectionModel->selectedIndexes());
     KUrlMimeData::exportUrlsToPortal(mimeData);
     QApplication::clipboard()->setMimeData(mimeData);
+}
+
+void FolderModel::copyLocation()
+{
+    if (!m_selectionModel->hasSelection()) {
+        return;
+    }
+
+    if (QAction *action = m_actionCollection.action(QStringLiteral("copyLocation"))) {
+        if (!action->isEnabled()) {
+            return;
+        }
+    }
+
+    QStringList paths;
+    const QModelIndexList indexes = m_selectionModel->selectedIndexes();
+    for (const QModelIndex &index : indexes) {
+        KFileItem item = itemForIndex(index);
+        if (item.isNull()) {
+            continue;
+        }
+        QString path;
+        if (m_parseDesktopFiles && item.isDesktopFile()) {
+            const KDesktopFile file(item.targetUrl().path());
+            if (file.hasLinkType()) {
+                const QUrl url(file.readUrl());
+                if (url.isValid()) {
+                    path = url.toLocalFile();
+                }
+            }
+        }
+        if (path.isEmpty()) {
+            path = item.localPath();
+            if (path.isEmpty()) {
+                path = item.url().toDisplayString();
+            }
+        }
+        paths.append(path);
+    }
+
+    QApplication::clipboard()->setText(paths.join(QStringLiteral("\n")));
 }
 
 void FolderModel::cut()

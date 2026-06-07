@@ -746,7 +746,33 @@ Revert to symlink approach (loses correct path display in Dolphin) or remove the
 **Deactivation:**
 Remove patch and rebuild the affected Plasma component, or revert to original files.
 
-**Status:** TODO — Locate the exact desktop folder view file that handles Copy Location / Ctrl+Shift+C.
+**Implementation:**
+
+Patched `kde-plasma-desktop` folder containment plugin (`libfolderplugin.so`) and its QML delegate:
+
+1. **`foldermodel.cpp`**:
+   - Added `copyLocation` action to `actionCollection` with icon `edit-copy-path`
+   - Implemented `copyLocation()` slot: iterates selected items, resolves `.desktop` `Type=Link` targets via `KDesktopFile::readUrl()`, joins paths with newlines, copies to clipboard
+   - Added action to context menu (after "Copy")
+
+2. **`foldermodel.h`**: Declared `Q_INVOKABLE void copyLocation();`
+
+3. **`FolderView.qml`**: Added `Ctrl+Shift+C` keyboard handler calling `dir.copyLocation()`
+
+**Build & install** (same as item #12):
+```bash
+cmake --build build --target folderplugin -j$(nproc)
+cp build/bin/org/kde/private/desktopcontainment/folder/libfolderplugin.so \
+   ~/.local/lib/qt6/qml/org/kde/private/desktopcontainment/folder/
+cp containments/desktop/package/contents/ui/FolderView.qml \
+   ~/.local/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/
+killall plasmashell && kstart6 plasmashell
+```
+
+**Deactivation:**
+Remove patch and rebuild the affected Plasma component, or revert to original files.
+
+**Status:** DONE — Both context menu "Copy Location" and `Ctrl+Shift+C` shortcut now resolve target paths for `.desktop` Type=Link files.
 
 ---
 
@@ -925,6 +951,6 @@ sudo sed -i 's/timeout 10/timeout 0/' /boot/loader/loader.conf
 ## Updated Remaining Tasks
 
 - [x] Fix desktop folder shortcuts: restore link badge icon + folder color support.
-- [ ] Fix Ctrl+Shift+C on desktop shortcuts to copy target path(s).
+- [x] Fix Ctrl+Shift+C on desktop shortcuts to copy target path(s).
 - [ ] Integrate taskbar jump list with Reprompty layout + virtual desktop placement.
 - [ ] Fix i2c module loading at boot and restore bootloader menu.

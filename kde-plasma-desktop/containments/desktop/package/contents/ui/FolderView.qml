@@ -1085,6 +1085,8 @@ FocusScope {
                         updateSelection(event.modifiers);
                     } else if (event.matches(StandardKey.Copy)) {
                         dir.copy();
+                    } else if (event.key === Qt.Key_C && event.modifiers === (Qt.ControlModifier | Qt.ShiftModifier)) {
+                        dir.copyLocation();
                     } else if (event.matches(StandardKey.Paste)) {
                         dir.paste();
                     } else if (event.matches(StandardKey.Cut)) {

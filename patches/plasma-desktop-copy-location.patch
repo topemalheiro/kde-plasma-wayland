@@ -1,0 +1,97 @@
+diff --git a/kde-plasma-desktop/containments/desktop/package/contents/ui/FolderView.qml b/kde-plasma-desktop/containments/desktop/package/contents/ui/FolderView.qml
+index 47d2ad9a20..6b92cfd7b5 100644
+--- a/kde-plasma-desktop/containments/desktop/package/contents/ui/FolderView.qml
++++ b/kde-plasma-desktop/containments/desktop/package/contents/ui/FolderView.qml
+@@ -1085,6 +1085,8 @@ FocusScope {
+                         updateSelection(event.modifiers);
+                     } else if (event.matches(StandardKey.Copy)) {
+                         dir.copy();
++                    } else if (event.key === Qt.Key_C && event.modifiers === (Qt.ControlModifier | Qt.ShiftModifier)) {
++                        dir.copyLocation();
+                     } else if (event.matches(StandardKey.Paste)) {
+                         dir.paste();
+                     } else if (event.matches(StandardKey.Cut)) {
+diff --git a/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.cpp b/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.cpp
+index 26ed8a2b3a..3f10962bd0 100644
+--- a/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.cpp
++++ b/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.cpp
+@@ -1849,6 +1849,11 @@ void FolderModel::createActions()
+     m_actionCollection.addAction(QStringLiteral("cut"), cut);
+     m_actionCollection.addAction(QStringLiteral("undo"), undo);
+     m_actionCollection.addAction(QStringLiteral("copy"), copy);
++
++    QAction *copyLocation = new QAction(QIcon::fromTheme(QStringLiteral("edit-copy-path")), i18nc("@action:incontextmenu", "Copy Location"), this);
++    connect(copyLocation, &QAction::triggered, this, &FolderModel::copyLocation);
++    m_actionCollection.addAction(QStringLiteral("copyLocation"), copyLocation);
++
+     m_actionCollection.addAction(QStringLiteral("paste"), paste);
+     m_actionCollection.addAction(QStringLiteral("pasteto"), pasteTo);
+     m_actionCollection.addAction(QStringLiteral("refresh"), refresh);
+@@ -2072,6 +2077,7 @@ void FolderModel::openContextMenu(QQuickItem *visualParent, Qt::KeyboardModifier
+         if (!isTrashLink) {
+             menu->addAction(m_actionCollection.action(QStringLiteral("cut")));
+             menu->addAction(m_actionCollection.action(QStringLiteral("copy")));
++            menu->addAction(m_actionCollection.action(QStringLiteral("copyLocation")));
+         }
+ 
+         if (urls.length() == 1) {
+@@ -2212,6 +2218,47 @@ void FolderModel::copy()
+     QApplication::clipboard()->setMimeData(mimeData);
+ }
+ 
++void FolderModel::copyLocation()
++{
++    if (!m_selectionModel->hasSelection()) {
++        return;
++    }
++
++    if (QAction *action = m_actionCollection.action(QStringLiteral("copyLocation"))) {
++        if (!action->isEnabled()) {
++            return;
++        }
++    }
++
++    QStringList paths;
++    const QModelIndexList indexes = m_selectionModel->selectedIndexes();
++    for (const QModelIndex &index : indexes) {
++        KFileItem item = itemForIndex(index);
++        if (item.isNull()) {
++            continue;
++        }
++        QString path;
++        if (m_parseDesktopFiles && item.isDesktopFile()) {
++            const KDesktopFile file(item.targetUrl().path());
++            if (file.hasLinkType()) {
++                const QUrl url(file.readUrl());
++                if (url.isValid()) {
++                    path = url.toLocalFile();
++                }
++            }
++        }
++        if (path.isEmpty()) {
++            path = item.localPath();
++            if (path.isEmpty()) {
++                path = item.url().toDisplayString();
++            }
++        }
++        paths.append(path);
++    }
++
++    QApplication::clipboard()->setText(paths.join(QStringLiteral("\n")));
++}
++
+ void FolderModel::cut()
+ {
+     if (!m_selectionModel->hasSelection()) {
+diff --git a/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.h b/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.h
+index c38e1ddc0a..3dcc3fcc27 100644
+--- a/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.h
++++ b/kde-plasma-desktop/containments/desktop/plugins/folder/foldermodel.h
+@@ -248,6 +248,7 @@ public:
+ 
+     Q_INVOKABLE void paste();
+     Q_INVOKABLE void copy();
++    Q_INVOKABLE void copyLocation();
+     Q_INVOKABLE void cut();
+     Q_INVOKABLE void deleteSelected();
+     Q_INVOKABLE void undo();
