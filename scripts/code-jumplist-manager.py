@@ -12,6 +12,9 @@ Usage:
   python3 code-jumplist-manager.py clear-recent           # Clear recent (keep pinned)
   python3 code-jumplist-manager.py refresh                # Regenerate code.desktop
   python3 code-jumplist-manager.py restore                # Restore state from backup
+  python3 code-jumplist-manager.py set-desktop <path> <desktop>   # Map project to desktop
+  python3 code-jumplist-manager.py unset-desktop <path>            # Remove desktop mapping
+  python3 code-jumplist-manager.py list-mappings                   # Show all desktop mappings
 """
 
 import fcntl
@@ -28,6 +31,7 @@ STATE_DIR = Path.home() / ".config" / "vscode-jumplist"
 STATE_FILE = STATE_DIR / "state.json"
 BACKUP_FILE = STATE_DIR / "state.json.backup"
 LOCK_FILE = STATE_DIR / ".lock"
+LAYOUT_MAP_FILE = STATE_DIR / "layout-map.json"
 
 VS_CODE_CONFIG = Path.home() / ".config" / "Code"
 SETTINGS_FILE = VS_CODE_CONFIG / "User" / "settings.json"
@@ -370,6 +374,58 @@ def migrate_pins_from_state():
         print(f"✅ Migrated {len(old_pins)} pinned item(s) to VS Code: settings.json")
 
 
+def read_layout_map():
+    if not LAYOUT_MAP_FILE.exists():
+        return {}
+    try:
+        with open(LAYOUT_MAP_FILE, 'r') as f:
+            data = json.load(f)
+            # Filter out comment keys
+            return {k: v for k, v in data.items() if not k.startswith('_')}
+    except (json.JSONDecodeError, IOError):
+        return {}
+
+
+def write_layout_map(mapping):
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    temp = LAYOUT_MAP_FILE.with_suffix('.tmp')
+    with open(temp, 'w') as f:
+        json.dump(mapping, f, indent=2)
+    os.replace(temp, LAYOUT_MAP_FILE)
+
+
+@with_lock
+def set_desktop(path, desktop):
+    path = resolve_path(path)
+    mapping = read_layout_map()
+    mapping[path] = {"desktop": int(desktop)}
+    write_layout_map(mapping)
+    print(f"✅ Mapped '{path}' to desktop {desktop}")
+
+
+@with_lock
+def unset_desktop(path):
+    path = resolve_path(path)
+    mapping = read_layout_map()
+    if path in mapping:
+        del mapping[path]
+        write_layout_map(mapping)
+        print(f"✅ Removed desktop mapping for '{path}'")
+    else:
+        print(f"⚠️ No desktop mapping found for '{path}'")
+
+
+def list_mappings():
+    mapping = read_layout_map()
+    if not mapping:
+        print("No desktop mappings configured.")
+        return
+    print("Desktop mappings:")
+    for path, cfg in sorted(mapping.items()):
+        desktop = cfg.get("desktop", "?")
+        print(f"  Desktop {desktop}: {path}")
+
+
 def main():
     if len(sys.argv) < 2:
         print("""Usage: code-jumplist-manager <command> [path]
@@ -399,6 +455,18 @@ Commands:
         restore_state()
     elif cmd == "migrate":
         migrate_pins_from_state()
+    elif cmd == "set-desktop":
+        if len(sys.argv) < 4:
+            print("Usage: set-desktop <path> <desktop-number>")
+            sys.exit(1)
+        set_desktop(sys.argv[2], sys.argv[3])
+    elif cmd == "unset-desktop":
+        if len(sys.argv) < 3:
+            print("Usage: unset-desktop <path>")
+            sys.exit(1)
+        unset_desktop(sys.argv[2])
+    elif cmd == "list-mappings":
+        list_mappings()
     else:
         print(f"Unknown command: {cmd}")
         sys.exit(1)

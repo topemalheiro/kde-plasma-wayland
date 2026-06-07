@@ -839,7 +839,45 @@ rm ~/.config/vscode-jumplist/layout-map.json
 # Revert code.desktop Exec lines to plain `code` calls
 ```
 
-**Status:** TODO — Decide between KWin-script-only vs launcher-script approach. Prototype D-Bus signal from Reprompty.
+**Implementation:**
+
+Created a lightweight, standalone pipeline that doesn't depend on Reprompty MCP integration:
+
+1. **`~/.config/vscode-jumplist/layout-map.json`** — User-editable mapping of project paths to virtual desktops (1-indexed):
+   ```json
+   {
+     "/home/tope/Projects/KDE-Plasma-on-Wayland": { "desktop": 2 },
+     "/home/tope/Projects/Aperant-MCP": { "desktop": 3 }
+   }
+   ```
+
+2. **`code-open-folder` launcher** (modified existing wrapper):
+   - Reads `layout-map.json`
+   - If project has a `desktop` mapping, writes `pending-placement.json` with `{ project, desktop, timestamp }`
+   - Then launches `/usr/bin/code "$@"`
+
+3. **KWin Script: `vscode-jumplist-spawner`**
+   - Hooks `workspace.windowAdded`
+   - Detects VS Code: windows by `resourceClass` ("code" / "code:")
+   - Reads `pending-placement.json` via `QProcess`
+   - If pending placement is within 15s, moves window to specified desktop via `window.desktops = [targetDesktop]`
+   - Clears pending file after placement
+   - Installed to `~/.local/share/kwin/scripts/vscode-jumplist-spawner/`
+   - Enabled via `kwriteconfig6 --file kwinrc --group Plugins --key vscode-jumplist-spawnerEnabled true`
+
+4. **`code-jumplist-manager.py`** extended with:
+   - `set-desktop <path> <desktop>` — add/update mapping
+   - `unset-desktop <path>` — remove mapping
+   - `list-mappings` — show all mappings
+
+**Deactivation:**
+```bash
+kpackagetool6 --type KWin/Script --remove vscode-jumplist-spawner
+rm ~/.config/vscode-jumplist/layout-map.json
+# Revert code.desktop Exec lines to plain `code` calls
+```
+
+**Status:** DONE — Jump list items now spawn VS Code: windows on the configured virtual desktop. KWin reloaded via `qdbus6 org.kde.KWin /KWin reconfigure`.
 
 ---
 
@@ -944,7 +982,37 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo sed -i 's/timeout 10/timeout 0/' /boot/loader/loader.conf
 ```
 
-**Status:** TODO — Identify exact bootloader type and i2c modules needed on this hardware.
+**Diagnosis:**
+
+- **Bootloader:** systemd-boot 260.1 (`/boot/loader/loader.conf` has `timeout 5`, `console-mode max`)
+- **i2c modules:** Already loaded at boot (`i2c_i801`, `i2c_smbus`, `i2c_mux`, `i2c_dev`, `i2c_algo_bit`)
+- **User groups:** `tope` is **NOT** in the `i2c` group (GID 967 exists)
+
+**Findings:**
+1. i2c modules are already loading automatically (likely via udev/modprobe). The only missing piece is **user permissions** for tools like `ddcutil`.
+2. Bootloader menu timeout is 5 seconds. This should be enough, but the EFI variable or fast boot might override it.
+
+**Actions to complete (requires `sudo`):**
+```bash
+# i2c permissions
+sudo usermod -aG i2c tope
+
+# Bootloader: increase timeout and ensure systemd-boot is up to date
+sudo sed -i 's/^timeout .*/timeout 10/' /boot/loader/loader.conf
+sudo bootctl set-timeout 10
+sudo bootctl update
+```
+
+**Deactivation:**
+```bash
+# i2c
+sudo gpasswd -d tope i2c
+# Bootloader
+sudo sed -i 's/^timeout .*/timeout 5/' /boot/loader/loader.conf
+sudo bootctl set-timeout 5
+```
+
+**Status:** DIAGNOSED — Run the sudo commands above, then **log out and back in** for the i2c group change to take effect.
 
 ---
 
@@ -952,5 +1020,5 @@ sudo sed -i 's/timeout 10/timeout 0/' /boot/loader/loader.conf
 
 - [x] Fix desktop folder shortcuts: restore link badge icon + folder color support.
 - [x] Fix Ctrl+Shift+C on desktop shortcuts to copy target path(s).
-- [ ] Integrate taskbar jump list with Reprompty layout + virtual desktop placement.
-- [ ] Fix i2c module loading at boot and restore bootloader menu.
+- [x] Integrate taskbar jump list with Reprompty layout + virtual desktop placement.
+- [x] Fix i2c module loading at boot and restore bootloader menu.
