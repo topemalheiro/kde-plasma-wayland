@@ -225,6 +225,8 @@ rm /home/tope/Hubstaff/hubstaff-launcher.sh
 
 **Update (2026-06-09):** Fixed intermittent crash (`gtk_widget_destroy` assertion) caused by kdocker `-t` flag conflicting with the `hubstaff-tray-only` KWin script. Replaced the KWin script with a **KWin window rule** (`~/.config/kwinrulesrc`) that permanently hides ALL Hubstaff windows from taskbar/pager regardless of how they're launched. Added a **systemd user service** (`~/.config/systemd/user/hubstaff.service`) for auto-restart on crash. Disabled the old desktop autostart.
 
+**Update (2026-06-10):** Discovered Hubstaff has **native tray-only settings** in `~/.local/share/Hubstaff/settings.json`. Reverse-engineered the binary to find `taskbar_behavior` and `main_window_close_action` preferences. Created `hubstaff-settings-manager.py` to manage these settings. Updated `hubstaff-launcher.sh` to auto-detect native tray mode and skip kdocker when configured, eliminating the duplicate tray icon.
+
 ---
 
 ## File Inventory
@@ -1024,3 +1026,44 @@ sudo bootctl set-timeout 5
 - [x] Fix Ctrl+Shift+C on desktop shortcuts to copy target path(s).
 - [x] Integrate taskbar jump list with Reprompty layout + virtual desktop placement.
 - [x] Fix i2c module loading at boot and restore bootloader menu.
+- [x] Hubstaff native tray-only mode via settings.json.
+
+---
+
+### 16. Hubstaff Native Tray-Only Mode ✅ FIXED
+
+**Problem:** Even with kdocker + KWin rules, Hubstaff still appears on the taskbar when closed/minimized. The user wants true tray-only behavior (like Reprompty or Discord) where closing the window leaves only the system tray icon.
+
+**Root Cause:** Hubstaff has built-in tray/background preferences that were never configured. The binary contains UI strings for:
+- `taskbar_behavior` — "Taskbar and system tray" vs "Only in system tray"
+- `main_window_close_action` — "Quit", "Minimize to taskbar", "Minimize to system tray"
+- `use_helper` — "Use background helper (requires restart)"
+
+These preferences are stored in `~/.local/share/Hubstaff/settings.json` under `client.preferences`.
+
+**Method:**
+
+1. **Reverse-engineered the binary** to discover the setting keys and their semantic meaning
+2. **Modified `settings.json`** to set:
+   - `taskbar_behavior: "1"` → Show only in system tray
+   - `main_window_close_action: "2"` → Close/minimize goes to tray
+3. **Created `hubstaff-settings-manager.py`** — a CLI tool to easily toggle between tray-only and default behavior:
+   ```bash
+   ~/Hubstaff/hubstaff-settings-manager.py tray-only   # Enable tray-only
+   ~/Hubstaff/hubstaff-settings-manager.py default     # Revert to default
+   ~/Hubstaff/hubstaff-settings-manager.py show        # Show current settings
+   ```
+4. **Updated `hubstaff-launcher.sh`** — auto-detects native tray mode and skips kdocker when configured, avoiding the duplicate tray icon
+
+**Files created/modified:**
+- `~/Hubstaff/hubstaff-settings-manager.py` — new settings manager CLI
+- `~/Hubstaff/hubstaff-launcher.sh` — updated to detect native tray mode
+- `~/.local/share/Hubstaff/settings.json` — added `taskbar_behavior` and `main_window_close_action`
+
+**Deactivation:**
+```bash
+~/Hubstaff/hubstaff-settings-manager.py default
+# Or manually edit ~/.local/share/Hubstaff/settings.json
+```
+
+**Status:** DONE — Hubstaff now uses its native tray-only settings. KWin rule remains as a safety net. Only one tray icon (native) appears when in tray-only mode.
