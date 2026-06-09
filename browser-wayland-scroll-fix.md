@@ -8,7 +8,7 @@ On KDE Plasma 6 (Wayland), Chromium-based browsers suffer from:
 This is a known Chromium-on-Wayland coordinate desync bug.
 
 ## Fix
-Disable smooth scrolling, overscroll history navigation, and QUIC protocol via launch flags.
+Force Chromium-based browsers to use **XWayland** instead of native Wayland. This completely bypasses the coordinate desync bug.
 
 ### Files Modified
 - `~/.local/share/applications/google-chrome.desktop`
@@ -17,23 +17,23 @@ Disable smooth scrolling, overscroll history navigation, and QUIC protocol via l
 ### Flags Applied
 ```
 --disable-smooth-scrolling
---disable-features=OverscrollHistoryNavigation,Quic
+--ozone-platform=x11
 ```
 
 ### Resulting Exec Lines
 
 **Chrome:**
 ```ini
-Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic %U
-Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic
-Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic --incognito
+Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --ozone-platform=x11 %U
+Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --ozone-platform=x11
+Exec=/usr/bin/google-chrome-stable --disable-smooth-scrolling --ozone-platform=x11 --incognito
 ```
 
 **Edge:**
 ```ini
-Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic %U
-Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic
-Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --disable-features=OverscrollHistoryNavigation,Quic --inprivate
+Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --ozone-platform=x11 %U
+Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --ozone-platform=x11
+Exec=/usr/bin/microsoft-edge-stable --disable-smooth-scrolling --ozone-platform=x11 --inprivate
 ```
 
 ## Revert
@@ -44,8 +44,7 @@ rm ~/.local/share/applications/microsoft-edge.desktop
 kbuildsycoca6 --noincremental
 ```
 
-## Alternative (More Aggressive)
-Force XWayland to eliminate all Wayland-specific Chromium bugs:
-```bash
---ozone-platform=x11
-```
+## Notes
+- Native Wayland flags (`--disable-features=OverscrollHistoryNavigation,Quic`) were insufficient; the bug is in Chromium's Wayland surface coordinate handling itself.
+- XWayland on Plasma 6 handles HiDPI scaling well via `xwayland.scale` settings.
+- To verify a browser is running under XWayland: `xeyes` will track the cursor inside the window.
