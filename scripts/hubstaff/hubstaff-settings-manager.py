@@ -4,18 +4,14 @@ Hubstaff Settings Manager
 =========================
 Manages Hubstaff's native tray/background settings in settings.json.
 
-Settings:
+Verified values from Hubstaff GUI (Preferences → General):
   taskbar_behavior:
-    0 = Taskbar and system tray (default)
+    0 = Taskbar and system tray
     1 = Only in system tray
 
   main_window_close_action:
-    0 = Quit / Prompt each time
-    1 = Minimize to taskbar
-    2 = Minimize to system tray (best for tray-only mode)
-
-  use_helper:
-    true / false  — Use background helper (requires restart)
+    0 = Quit
+    1 = Minimize
 """
 
 import json
@@ -48,19 +44,19 @@ def show_current():
 
 
 def set_tray_only():
-    """Configure Hubstaff for tray-only operation (best guess values)."""
+    """Configure Hubstaff for tray-only operation."""
     data = load_settings()
     prefs = data.setdefault("client", {}).setdefault("preferences", {})
     prefs["taskbar_behavior"] = "1"
-    prefs["main_window_close_action"] = "2"
+    prefs["main_window_close_action"] = "1"
     save_settings(data)
     print("Configured for tray-only mode:")
     print("  taskbar_behavior = 1 (Only in system tray)")
-    print("  main_window_close_action = 2 (Minimize to tray)")
+    print("  main_window_close_action = 1 (Minimize)")
     print("\nRestart Hubstaff for changes to take effect.")
 
 
-def set_taskbar_and_tray():
+def set_default():
     """Restore default taskbar + tray behavior."""
     data = load_settings()
     prefs = data.setdefault("client", {}).setdefault("preferences", {})
@@ -69,7 +65,7 @@ def set_taskbar_and_tray():
     save_settings(data)
     print("Restored default behavior:")
     print("  taskbar_behavior = 0 (Taskbar and system tray)")
-    print("  main_window_close_action = 1 (Minimize to taskbar)")
+    print("  main_window_close_action = 1 (Minimize)")
     print("\nRestart Hubstaff for changes to take effect.")
 
 
@@ -99,7 +95,7 @@ def main():
     elif cmd == "tray-only":
         set_tray_only()
     elif cmd == "default":
-        set_taskbar_and_tray()
+        set_default()
     elif cmd == "set" and len(sys.argv) >= 4:
         set_value(sys.argv[2], sys.argv[3])
     else:

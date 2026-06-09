@@ -24,7 +24,7 @@ These settings are stored in `~/.local/share/Hubstaff/settings.json` under `clie
 
 **Layer 1 — Native Hubstaff Settings** (`~/.local/share/Hubstaff/settings.json`)
 - `taskbar_behavior: "1"` → Show only in system tray (hide from taskbar)
-- `main_window_close_action: "2"` → Close/minimize goes to tray, not taskbar
+- `main_window_close_action: "1" (Minimize)` → Close/minimize goes to tray, not taskbar
 - Managed via `~/Hubstaff/hubstaff-settings-manager.py` for easy toggling
 
 **Layer 2 — KWin Window Rule** (`~/.config/kwinrulesrc`)
