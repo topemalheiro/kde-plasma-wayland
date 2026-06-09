@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Custom"
+            }
+        ],
+        "Id": "hubstaff-tray-only",
+        "License": "MIT",
+        "Name": "Hubstaff Tray Only",
+        "Version": "1.0"
+    }
+}

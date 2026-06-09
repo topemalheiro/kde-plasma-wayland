@@ -223,6 +223,8 @@ rm /home/tope/Hubstaff/hubstaff-launcher.sh
 
 **Status:** Done. Hubstaff now launches and stays running.
 
+**Update (2026-06-09):** Fixed intermittent crash (`gtk_widget_destroy` assertion) caused by kdocker `-t` flag conflicting with the `hubstaff-tray-only` KWin script. Removed `-t` from kdocker; KWin script now permanently sets `skipTaskbar=true` instead of toggling on `minimizedChanged`. Also fixed launcher double-start detection (`pgrep -x` instead of `-f` to avoid self-match).
+
 ---
 
 ## File Inventory
