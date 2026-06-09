@@ -223,7 +223,7 @@ rm /home/tope/Hubstaff/hubstaff-launcher.sh
 
 **Status:** Done. Hubstaff now launches and stays running.
 
-**Update (2026-06-09):** Fixed intermittent crash (`gtk_widget_destroy` assertion) caused by kdocker `-t` flag conflicting with the `hubstaff-tray-only` KWin script. Removed `-t` from kdocker; KWin script now permanently sets `skipTaskbar=true` instead of toggling on `minimizedChanged`. Also fixed launcher double-start detection (`pgrep -x` instead of `-f` to avoid self-match).
+**Update (2026-06-09):** Fixed intermittent crash (`gtk_widget_destroy` assertion) caused by kdocker `-t` flag conflicting with the `hubstaff-tray-only` KWin script. Replaced the KWin script with a **KWin window rule** (`~/.config/kwinrulesrc`) that permanently hides ALL Hubstaff windows from taskbar/pager regardless of how they're launched. Added a **systemd user service** (`~/.config/systemd/user/hubstaff.service`) for auto-restart on crash. Disabled the old desktop autostart.
 
 ---
 

@@ -1,0 +1,26 @@
+[1]
+description=Hubstaff Tray Only
+fsplevel=2
+fsplevelrule=2
+fspos=3
+fsposrule=2
+ignoregeometry=true
+ignoregeometryrule=3
+screen=0
+screenrule=3
+skippager=true
+skippagerrule=3
+skipswitcher=true
+skipswitcherrule=3
+skiptaskbar=true
+skiptaskbarrule=3
+title=Hubstaff
+titlematch=1
+types=1
+wmclass=hubstaff
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+count=1
+rules=1

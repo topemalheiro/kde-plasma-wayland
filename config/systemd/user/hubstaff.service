@@ -1,0 +1,13 @@
+[Unit]
+Description=Hubstaff Time Tracker
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/home/tope/Hubstaff/hubstaff-launcher.sh
+Restart=on-failure
+RestartSec=10
+Environment=LC_ALL=en_US.UTF-8
+
+[Install]
+WantedBy=default.target

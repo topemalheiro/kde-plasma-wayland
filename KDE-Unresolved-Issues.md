@@ -6,63 +6,67 @@
 
 ## Issue 1: Hubstaff Minimizes to Taskbar Instead of System Tray
 
-### Status: ✅ FIXED (two-layer solution)
+### Status: ✅ FIXED (three-layer solution)
 
 ### Problem
-Closing/minimizing the Hubstaff window leaves it visible in the KDE panel/taskbar. The user wants it to disappear from the taskbar entirely and live only as a system tray icon.
+Closing/minimizing the Hubstaff window leaves it visible in the KDE panel/taskbar. The user wants it to disappear from the taskbar entirely and live only as a system tray icon. Additionally, if Hubstaff crashes, it should auto-restart and remain tray-only.
 
 ### Why kdocker Alone Wasn't Enough
-Hubstaff runs as a **native Wayland** window (not XWayland). kdocker is an X11-based tool — its `-t` (skip-taskbar) flag sets X11 window properties that have no effect on native Wayland windows. So while kdocker created the tray icon, the window remained in the taskbar.
+Hubstaff runs as an **XWayland** window. kdocker is an X11-based tool that docks windows to the system tray. However:
+1. kdocker's `-t` (skip-taskbar) flag conflicted with a KWin script, causing `gtk_widget_destroy` assertion failures and crashes
+2. If Hubstaff crashed and restarted itself, the new window appeared on the desktop (not docked to tray)
+3. Hubstaff also registers its **own** native tray icon via Ayatana/AppIndicator, creating a second tray icon
 
-### Solution: kdocker + KWin Script
+### Solution: kdocker + KWin Window Rule + Systemd Service
 
 **Layer 1 — kdocker** (`~/Hubstaff/hubstaff-launcher.sh`)
 - Creates the system tray icon
-- Handles show/hide when clicking the tray icon
-- Flags used: `-t -o -q -b -r`
+- Intercepts close/minimize and hides the window to tray
+- Flags used: `-o -q -b -r` (removed `-t` to avoid conflict with KWin rule)
 
-**Layer 2 — KWin Script** (`hubstaff-tray-only`)
-- A native Wayland KWin script that hooks `window.minimizedChanged`
-- When Hubstaff is minimized → sets `skipTaskbar = true` (hides from taskbar)
-- When Hubstaff is restored → sets `skipTaskbar = false` (shows in taskbar)
-- Also sets `skipPager` to match
+**Layer 2 — KWin Window Rule** (`~/.config/kwinrulesrc`)
+- Permanently applies `skipTaskbar=true` and `skipPager=true` to ALL Hubstaff windows
+- Works regardless of how Hubstaff is launched (kdocker, watchdog restart, manual launch)
+- More reliable than the previous KWin script which toggled on `minimizedChanged`
+
+**Layer 3 — Systemd User Service** (`~/.config/systemd/user/hubstaff.service`)
+- Auto-starts Hubstaff at login
+- Restarts on crash (`Restart=on-failure`)
+- Always launches through the kdocker wrapper
+- Disabled the old desktop autostart to avoid double-launch
 
 ### Files Created/Modified
 
 | File | Purpose |
 |------|---------|
-| `~/Hubstaff/hubstaff-launcher.sh` | Wraps Hubstaff in kdocker with tray flags |
-| `~/.local/share/kwin/scripts/hubstaff-tray-only/` | KWin script for native Wayland taskbar hiding |
-| `~/.config/kwinrc` | Enables the KWin script (`hubstaff-tray-onlyEnabled=true`) |
+| `~/Hubstaff/hubstaff-launcher.sh` | Wraps Hubstaff in kdocker with LC_ALL fix |
+| `~/.config/kwinrulesrc` | KWin window rule for permanent taskbar hiding |
+| `~/.config/systemd/user/hubstaff.service` | Auto-start and auto-restart on crash |
+| `~/.config/autostart/netsoft-com.netsoft.hubstaff.desktop.disabled` | Old autostart disabled |
 
 ### How to Apply / Verify
 
-The changes are already applied. If Hubstaff is running, **minimize it now** — it should disappear from the taskbar and only the kdocker tray icon should remain. Click the tray icon to restore it.
-
-If it's not working, try reloading KWin:
 ```bash
+# Reload everything
+systemctl --user daemon-reload
+systemctl --user enable hubstaff.service
+systemctl --user restart hubstaff.service
 qdbus org.kde.KWin /KWin reconfigure
 ```
 
-Or for a full restart:
-```bash
-killall HubstaffClient.bin.x86_64 HubstaffCLI.bin.x86_64
-~/Hubstaff/hubstaff-launcher.sh &
-```
+**Note:** There will be **two** tray icons:
+1. **kdocker icon** (generic window icon) — click to show/hide the Hubstaff window
+2. **Hubstaff native icon** (Ayatana/AppIndicator) — provides Hubstaff-specific menu options
+
+You can close the kdocker icon if you only need Hubstaff's native menu, but you will lose the "close/minimize to tray" behavior.
 
 ### Deactivation
 
-**Remove kdocker wrapper:**
-Edit `~/Hubstaff/hubstaff-launcher.sh` back to:
 ```bash
-#!/bin/bash
-export LC_ALL=en_US.UTF-8
-exec /home/tope/Hubstaff/HubstaffClient.bin.x86_64 "$@"
-```
-
-**Remove KWin script:**
-```bash
-kpackagetool6 --type KWin/Script --remove hubstaff-tray-only
+systemctl --user disable hubstaff.service
+systemctl --user stop hubstaff.service
+mv ~/.config/autostart/netsoft-com.netsoft.hubstaff.desktop.disabled ~/.config/autostart/netsoft-com.netsoft.hubstaff.desktop
+# Remove KWin rule via System Settings → Window Rules
 ```
 
 ---
