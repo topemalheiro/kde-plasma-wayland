@@ -144,17 +144,16 @@ There is **no single KDE system setting** for overscroll. Each app stack impleme
 
 ### Solution: App-Level Flags
 
-**VS Code: (`~/.config/code-flags.conf`)**
-```
---disable-overscroll-edge-effect
-```
-VS Code: reads this file on Linux and appends the flags on launch.
+**Google Chrome / Microsoft Edge**
+> ⚠️ **Flag to remember:** `--disable-features=ElasticOverscroll`
 
-**Google Chrome (`~/.local/share/applications/google-chrome.desktop`)**
-Added `--disable-overscroll-edge-effect` to all `Exec=` lines.
+Applied via multiple methods for redundancy:
+1. **`.desktop` launcher files** (`~/.local/share/applications/`)
+2. **`~/.config/chrome-flags.conf`**
+3. **`~/.config/microsoft-edge-stable-flags.conf`**
+4. **Terminal:** `google-chrome --disable-features=ElasticOverscroll`
 
-**Microsoft Edge (`~/.local/share/applications/microsoft-edge.desktop`)**
-Added `--disable-overscroll-edge-effect` to all `Exec=` lines.
+The old flag `--disable-overscroll-edge-effect` was removed in Chromium 114+. The new feature name is `ElasticOverscroll`.
 
 **Librewolf (`~/.config/librewolf/librewolf/<profile>/user.js`)**
 ```js
@@ -181,7 +180,10 @@ killall code; code &
 
 **VS Code:** Delete `~/.config/code-flags.conf`
 
-**Chrome/Edge:** Edit the `.desktop` files in `~/.local/share/applications/` and remove `--disable-overscroll-edge-effect`
+**Chrome/Edge:**
+- Edit `.desktop` files in `~/.local/share/applications/`
+- Remove `~/.config/chrome-flags.conf`
+- Remove `~/.config/microsoft-edge-stable-flags.conf`
 
 **Librewolf:** Edit `~/.config/librewolf/librewolf/<profile>/user.js` and remove the `apz.overscroll.enabled` line
 
