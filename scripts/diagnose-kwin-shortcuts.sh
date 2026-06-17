@@ -12,15 +12,8 @@ echo "--- Current virtual desktop ---" >> "$OUT"
 qdbus6 org.kde.KWin /KWin org.kde.KWin.currentDesktop 2>/dev/null >> "$OUT" || echo "(failed)" >> "$OUT"
 
 echo "" >> "$OUT"
-echo "--- Active window ---" >> "$OUT"
-qdbus6 org.kde.KWin /KWin org.kde.KWin.activeWindow 2>/dev/null >> "$OUT" || echo "(failed)" >> "$OUT"
-
-echo "" >> "$OUT"
-echo "--- KWin shortcut registrations for Grid/Overview/Cube ---" >> "$OUT"
-for action in "Grid View" "Overview" "Cube"; do
-    echo "Shortcut: $action" >> "$OUT"
-    qdbus6 --literal org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutKeys "[$action]" 2>/dev/null >> "$OUT" || echo "  (not registered)" >> "$OUT"
-done
+echo "--- KWin shortcut registrations (Grid/Overview/Cube) ---" >> "$OUT"
+qdbus6 --literal org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.allShortcutInfos 2>/dev/null | tr ',' '\n' | grep -iE '"(Grid View|Overview|Cube|Cycle Overview)"' -A 8 >> "$OUT" || echo "(failed)" >> "$OUT"
 
 echo "" >> "$OUT"
 echo "--- Try invoking via D-Bus ---" >> "$OUT"
