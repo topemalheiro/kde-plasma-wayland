@@ -4,7 +4,7 @@ After=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/home/tope/Hubstaff/hubstaff-launcher.sh
+ExecStart=%h/Hubstaff/hubstaff-launcher.sh
 Restart=on-failure
 RestartSec=10
 Environment=LC_ALL=en_US.UTF-8

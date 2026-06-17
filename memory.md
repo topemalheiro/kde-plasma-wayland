@@ -21,10 +21,10 @@ Locale not supported by C library.
 KDE Plasma 6 launches apps through systemd user services. When parsing `.desktop` files, the systemd launcher **strips `env` prefixes** from `Exec` lines. So modifying the desktop file to:
 
 ```ini
-Exec=env LC_ALL=en_US.UTF-8 "/home/tope/Hubstaff/HubstaffClient.bin.x86_64" %u
+Exec=env LC_ALL=en_US.UTF-8 "/home/user/Hubstaff/HubstaffClient.bin.x86_64" %u
 ```
 
-does NOT work — systemd extracts only `"/home/tope/Hubstaff/HubstaffClient.bin.x86_64"` and drops the `env` wrapper, so Hubstaff still crashes with the invalid locale.
+does NOT work — systemd extracts only `"/home/user/Hubstaff/HubstaffClient.bin.x86_64"` and drops the `env` wrapper, so Hubstaff still crashes with the invalid locale.
 
 ## Solution
 
@@ -45,13 +45,13 @@ Create `~/Hubstaff/hubstaff-launcher.sh`:
 ```bash
 #!/bin/bash
 export LC_ALL=en_US.UTF-8
-exec /home/tope/Hubstaff/HubstaffClient.bin.x86_64 "$@"
+exec /home/user/Hubstaff/HubstaffClient.bin.x86_64 "$@"
 ```
 
 Make it executable:
 
 ```bash
-chmod +x /home/tope/Hubstaff/hubstaff-launcher.sh
+chmod +x /home/user/Hubstaff/hubstaff-launcher.sh
 ```
 
 ### Step 3: Point the Desktop File to the Wrapper
@@ -59,7 +59,7 @@ chmod +x /home/tope/Hubstaff/hubstaff-launcher.sh
 Edit `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop`:
 
 ```ini
-Exec="/home/tope/Hubstaff/hubstaff-launcher.sh" %u
+Exec="/home/user/Hubstaff/hubstaff-launcher.sh" %u
 ```
 
 Refresh the KDE application cache:
@@ -85,10 +85,10 @@ The wrapper script survives systemd's `Exec` parsing because it's a real executa
 kwriteconfig6 --file plasma-localerc --group Formats --key LC_TIME pt_PT.UTF-8
 
 # Revert Hubstaff desktop file
-sed -i 's|Exec="/home/tope/Hubstaff/hubstaff-launcher.sh"|Exec="/home/tope/Hubstaff/HubstaffClient.bin.x86_64"|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop
+sed -i 's|Exec="/home/user/Hubstaff/hubstaff-launcher.sh"|Exec="/home/user/Hubstaff/HubstaffClient.bin.x86_64"|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop
 
 # Remove wrapper script
-rm /home/tope/Hubstaff/hubstaff-launcher.sh
+rm /home/user/Hubstaff/hubstaff-launcher.sh
 ```
 
 ## Related: Restoring Portuguese Time Format
@@ -109,3 +109,16 @@ Then you can safely revert `LC_TIME` back to `pt_PT.UTF-8` in Plasma settings.
 
 - [Hubstaff Linux Download](https://app.hubstaff.com/download)
 - Latest stable Linux version at time of fix: **1.9.2**
+
+---
+
+# Repository Sanitization (Public Release)
+
+Before making this repository public, all hardcoded personal paths (`/home/tope/...`) were replaced with portable equivalents:
+
+- **Shell scripts / `.desktop` files**: `/home/tope/...` → `$HOME/...`
+- **Python scripts**: `/home/tope/...` → `Path.home() / '...'`
+- **systemd user units**: `/home/tope/...` → `%h/...`
+- **Documentation**: `/home/tope/...` → `/home/user/...` (generic placeholder)
+
+This keeps the scripts functional on any Linux system while removing the original username from the public source tree. The Git author email remains in commit history because it is already tied to the GitHub account used to publish the repo.

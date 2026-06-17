@@ -11,5 +11,5 @@ X-KDE-MaxNumberOfUrls=20
 [Desktop Action openWithCode]
 Name=Open with VS Code:
 Icon=visual-studio-code
-Exec=bash -c 'for f; do /home/tope/.local/bin/open-with-code "$f"; python3 /home/tope/.local/bin/code-jumplist-manager add "$f"; done' bash %F
+Exec=open-with-code-wrapper %F
 TryExec=code

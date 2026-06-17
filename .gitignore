@@ -31,3 +31,44 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Nested git repositories
+dolphin/
+kde-build-src/
+
+# Build artifacts inside subprojects
+*/build/
+*/build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake.check_cache
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local screenshots / images not meant for the repo
+image/

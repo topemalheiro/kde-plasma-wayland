@@ -57,7 +57,7 @@ Or drag it directly from the app menu onto the taskbar.
 2. **Create New** → **Link to Application**
 3. Fill in:
    - **General** tab: Name, description
-   - **Application** tab: Command (e.g., `/home/tope/Projects/OS Toolkit/VoxType/voxtype-live/voxtype-live-toggle.sh`)
+   - **Application** tab: Command (e.g., `/home/user/Projects/OS Toolkit/VoxType/voxtype-live/voxtype-live-toggle.sh`)
    - Click an icon to set it
 4. Click **OK**
 5. Right-click the new icon → **Cut**
@@ -96,7 +96,7 @@ kbuildsycoca6 --noincremental
 |---|---|---|
 | `Name` | Display name in app menu | `VoxType Live` |
 | `Comment` | Tooltip text | `Toggle voice dictation` |
-| `Exec` | Command to run | `/home/tope/voxtype-live/voxtype-live-toggle.sh` |
+| `Exec` | Command to run | `/home/user/voxtype-live/voxtype-live-toggle.sh` |
 | `Icon` | Icon name or path | `audio-input-microphone` or `/path/to/icon.png` |
 | `Type` | Must be `Application` | `Application` |
 | `Terminal` | Show terminal? | `false` (usually) |
@@ -123,7 +123,7 @@ Here's exactly what we created:
 [Desktop Entry]
 Name=VoxType
 Comment=Toggle VoxType Live dictation (wake/sleep/launch)
-Exec=/home/tope/Projects/OS Toolkit/VoxType/voxtype-live/voxtype-live-toggle.sh
+Exec=/home/user/Projects/OS Toolkit/VoxType/voxtype-live/voxtype-live-toggle.sh
 Icon=audio-input-microphone
 Type=Application
 Terminal=false
@@ -145,10 +145,10 @@ If your path has spaces (like `OS Toolkit`), **don't** escape them with backslas
 
 ```ini
 # WRONG:
-Exec=/home/tope/Projects/OS\ Toolkit/VoxType/...
+Exec=/home/user/Projects/OS\ Toolkit/VoxType/...
 
 # CORRECT:
-Exec=/home/tope/Projects/OS Toolkit/VoxType/...
+Exec=/home/user/Projects/OS Toolkit/VoxType/...
 ```
 
 ### Shortcut doesn't appear in app menu
@@ -167,7 +167,7 @@ The `.desktop` file **must** be executable. Right-click → Properties → Permi
 ### Taskbar icon shows generic gear instead of chosen icon
 
 - Make sure the `Icon=` value is correct
-- Try using a full path to a PNG/SVG: `Icon=/home/tope/myicon.png`
+- Try using a full path to a PNG/SVG: `Icon=/home/user/myicon.png`
 - Run `kbuildsycoca6 --noincremental`
 
 ---
@@ -219,9 +219,9 @@ chmod +x ~/Desktop/MyFolder.desktop
 | Right-click → "Link to Location (URL)" | Symlink pointing to `file:///home/...` | ❌ Broken — symlinks don't understand URLs |
 | `.desktop` with `Type=Link` + `URL[$e]` | Desktop entry parsed by KDE | ✅ Opens in Dolphin natively |
 
-The `[$e]` after `URL` enables shell variable expansion (`$HOME` becomes `/home/tope`). You can also write the full path:
+The `[$e]` after `URL` enables shell variable expansion (`$HOME` becomes `/home/user`). You can also write the full path:
 ```ini
-URL=file:///home/tope/Projects/MyFolder
+URL=file:///home/user/Projects/MyFolder
 ```
 
 ### Important rules
@@ -243,7 +243,7 @@ Want a desktop icon that opens a **folder** in VS Code: instead of Dolphin? This
 2. **General** tab: Name it `VoxType Live Code` (or whatever)
 3. **Application** tab:
    - **Program:** `code`
-   - **Arguments:** `/home/tope/Projects/OS Toolkit/VoxType/voxtype-live`
+   - **Arguments:** `/home/user/Projects/OS Toolkit/VoxType/voxtype-live`
    - (or just click **Browse...**, select the folder, then change `Exec` to use `code`)
 4. Click the icon to pick a folder or VS Code: icon
 5. **OK**
@@ -255,7 +255,7 @@ The `.desktop` file looks like this:
 [Desktop Entry]
 Name=VoxType Live Code
 Comment=Open VoxType Live folder in VS Code:
-Exec=code "/home/tope/Projects/OS Toolkit/VoxType/voxtype-live"
+Exec=code "/home/user/Projects/OS Toolkit/VoxType/voxtype-live"
 Icon=vscode
 Type=Application
 Terminal=false

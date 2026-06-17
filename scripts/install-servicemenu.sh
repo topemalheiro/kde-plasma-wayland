@@ -7,9 +7,13 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DESKTOP_FILE="$SCRIPT_DIR/open-with-code.desktop"
 C_SOURCE="$SCRIPT_DIR/open-with-code.c"
+WRAPPER_SOURCE="$SCRIPT_DIR/open-with-code-wrapper.sh"
+JUMPLIST_SOURCE="$SCRIPT_DIR/code-jumplist-manager.py"
 INSTALL_DIR="$HOME/.local/share/kio/servicemenus"
 BIN_DIR="$HOME/.local/bin"
 BINARY="$BIN_DIR/open-with-code"
+WRAPPER="$BIN_DIR/open-with-code-wrapper"
+JUMPLIST="$BIN_DIR/code-jumplist-manager"
 
 echo "=== Installing Open with VS Code: servicemenu ==="
 
@@ -22,6 +26,18 @@ echo "Compiling open-with-code binary..."
 gcc -O2 -o "$BINARY" "$C_SOURCE"
 chmod +x "$BINARY"
 echo "  → $BINARY"
+
+# Install wrapper script
+echo "Installing wrapper script..."
+cp "$WRAPPER_SOURCE" "$WRAPPER"
+chmod +x "$WRAPPER"
+echo "  → $WRAPPER"
+
+# Install jumplist manager
+echo "Installing jumplist manager..."
+cp "$JUMPLIST_SOURCE" "$JUMPLIST"
+chmod +x "$JUMPLIST"
+echo "  → $JUMPLIST"
 
 # Install the desktop file with executable bit (required by KDE security policy)
 echo "Installing servicemenu desktop file..."

@@ -279,7 +279,7 @@ def _regenerate_desktop(state):
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
             f"Name={safe_name}\n"
-            f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_path}\"\n"
+            f"Exec={Path.home() / '.local' / 'bin' / 'code-open-folder'} \"{safe_path}\"\n"
         )
 
         # Unpin action
@@ -305,7 +305,7 @@ def _regenerate_desktop(state):
         action_entries.append(
             f"\n[Desktop Action {action_id}]\n"
             f"Name={safe_name}\n"
-            f"Exec=/home/tope/.local/bin/code-open-folder \"{safe_uri}\"\n"
+            f"Exec={Path.home() / '.local' / 'bin' / 'code-open-folder'} \"{safe_uri}\"\n"
         )
 
         # Pin action

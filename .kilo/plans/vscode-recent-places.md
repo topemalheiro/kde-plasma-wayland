@@ -23,7 +23,7 @@ vscode-recent-places/
 
 ```typescript
 interface Place {
-    uri: string;           // Absolute file URI (file:///home/tope/Projects/...)
+    uri: string;           // Absolute file URI (file:///home/user/Projects/...)
     label: string;         // Display name (basename of path)
     timestamp: number;     // Last accessed (ms since epoch)
 }

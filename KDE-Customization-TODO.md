@@ -40,7 +40,7 @@ kwriteconfig6 --file dolphinrc --group General --key OpenExternallyCalledFolderI
 
 ### 2. Symlink Path Display in Dolphin ✅ FIXED
 
-**Problem:** When clicking a Desktop symlink (e.g., `Agentic Coding Evals`), Dolphin displays the symlink path (`/home/tope/Desktop/Agentic Coding Evals/`) in the location bar instead of the real target path (`/home/tope/Projects/Agentic Coding Evals/`).
+**Problem:** When clicking a Desktop symlink (e.g., `Agentic Coding Evals`), Dolphin displays the symlink path (`/home/user/Desktop/Agentic Coding Evals/`) in the location bar instead of the real target path (`/home/user/Projects/Agentic Coding Evals/`).
 
 **Method:**
 KDE `.desktop` files with `Type=Link` are interpreted by Dolphin as "open this URL" rather than "navigate to this file's location." Each Desktop symlink to a directory was replaced with a `.desktop` file containing a `URL` field pointing to the target.
@@ -83,7 +83,7 @@ The launchers were created in `~/.local/share/applications/vscode-launchers/` wi
 [Desktop Entry]
 Type=Application
 Name=KDE Plasma on Wayland (VS Code:)
-Exec=/usr/bin/code /home/tope/Projects/KDE-Plasma-on-Wayland
+Exec=/usr/bin/code /home/user/Projects/KDE-Plasma-on-Wayland
 Icon=visual-studio-code
 ```
 
@@ -117,7 +117,7 @@ The servicemenu (`open-with-code.desktop`) defines an action that invokes the `o
 
 **Critical security requirement:** KDE enforces that user-owned `.desktop` files in `servicemenus/` must have the **executable bit** set. Without `chmod +x`, Dolphin logs:
 ```
-Access to "/home/tope/.local/share/kio/servicemenus/open-with-code.desktop" denied,
+Access to "/home/user/.local/share/kio/servicemenus/open-with-code.desktop" denied,
 not owned by root and executable flag not set.
 ```
 
@@ -215,10 +215,10 @@ This ensures that right-clicking a desktop shortcut opens the *target* folder, n
 kwriteconfig6 --file plasma-localerc --group Formats --key LC_TIME pt_PT.UTF-8
 
 # Revert Hubstaff desktop file
-sed -i 's|Exec="/home/tope/Hubstaff/hubstaff-launcher.sh"|Exec="/home/tope/Hubstaff/HubstaffClient.bin.x86_64"|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop
+sed -i 's|Exec="/home/user/Hubstaff/hubstaff-launcher.sh"|Exec="/home/user/Hubstaff/HubstaffClient.bin.x86_64"|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop
 
 # Remove wrapper script
-rm /home/tope/Hubstaff/hubstaff-launcher.sh
+rm /home/user/Hubstaff/hubstaff-launcher.sh
 ```
 
 **Status:** Done. Hubstaff now launches and stays running.
@@ -259,7 +259,7 @@ rm /home/tope/Hubstaff/hubstaff-launcher.sh
 |------|-------------|------------------|
 | `~/.config/dolphinrc` | `OpenExternallyCalledFolderInNewTab=true` | `kwriteconfig6 --file dolphinrc --group General --key OpenExternallyCalledFolderInNewTab false` |
 | `~/.config/plasma-localerc` | `LC_TIME=en_US.UTF-8` (was `pt_PT.UTF-8`) | `kwriteconfig6 --file plasma-localerc --group Formats --key LC_TIME pt_PT.UTF-8` |
-| `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` | `Exec=env LC_ALL=en_US.UTF-8 ...` (was `Exec="/home/tope/Hubstaff/HubstaffClient.bin.x86_64" %u`) | `sed -i 's|Exec=env LC_ALL=en_US.UTF-8 |Exec=|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` |
+| `~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` | `Exec=env LC_ALL=en_US.UTF-8 ...` (was `Exec="/home/user/Hubstaff/HubstaffClient.bin.x86_64" %u`) | `sed -i 's|Exec=env LC_ALL=en_US.UTF-8 |Exec=|' ~/.local/share/applications/netsoft-com.netsoft.hubstaff.desktop` |
 
 ---
 
@@ -394,8 +394,8 @@ grep -oP '^[^=]+' ~/.config/kglobalshortcutsrc | grep -i "window\|above\|below\|
      - Reads a JSON map from `~/.config/vscode-layouts.json`:
        ```json
        {
-         "/home/tope/Projects/Aperant-MCP": { "desktop": 2, "x": 0, "y": 0, "w": 1920, "h": 1080 },
-         "/home/tope/Projects/KDE-Plasma-on-Wayland": { "desktop": 3, "x": 1920, "y": 0, "w": 1920, "h": 1080 }
+         "/home/user/Projects/Aperant-MCP": { "desktop": 2, "x": 0, "y": 0, "w": 1920, "h": 1080 },
+         "/home/user/Projects/KDE-Plasma-on-Wayland": { "desktop": 3, "x": 1920, "y": 0, "w": 1920, "h": 1080 }
        }
        ```
      - Parses the window title or uses `xprop`/`qdbus` to find the opened folder
@@ -799,8 +799,8 @@ The jump list currently acts as a simple "open folder" launcher. It needs to be 
    - Store the mapping in a new config file: `~/.config/vscode-jumplist/layout-map.json`
      ```json
      {
-       "/home/tope/Projects/Reprompty": { "desktop": 2, "layout": "side-panel" },
-       "/home/tope/Projects/Aperant-MCP": { "desktop": 3, "layout": "zen" }
+       "/home/user/Projects/Reprompty": { "desktop": 2, "layout": "side-panel" },
+       "/home/user/Projects/Aperant-MCP": { "desktop": 3, "layout": "zen" }
      }
      ```
 
@@ -817,7 +817,7 @@ The jump list currently acts as a simple "open folder" launcher. It needs to be 
 3. **Alternative: Replace jump list `Exec` with a launcher script**
    - Instead of `code /path/to/project`, use a wrapper:
      ```bash
-     Exec=/home/tope/.local/bin/vscode-jumplist-launcher "%k"
+     Exec=/home/user/.local/bin/vscode-jumplist-launcher "%k"
      ```
    - The launcher:
      1. Calls `code /path/to/project`
@@ -850,8 +850,8 @@ Created a lightweight, standalone pipeline that doesn't depend on Reprompty MCP 
 1. **`~/.config/vscode-jumplist/layout-map.json`** — User-editable mapping of project paths to virtual desktops (1-indexed):
    ```json
    {
-     "/home/tope/Projects/KDE-Plasma-on-Wayland": { "desktop": 2 },
-     "/home/tope/Projects/Aperant-MCP": { "desktop": 3 }
+     "/home/user/Projects/KDE-Plasma-on-Wayland": { "desktop": 2 },
+     "/home/user/Projects/Aperant-MCP": { "desktop": 3 }
    }
    ```
 
