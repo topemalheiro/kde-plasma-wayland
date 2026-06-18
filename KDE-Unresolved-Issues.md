@@ -218,6 +218,36 @@ killall code; code &
 
 ---
 
+## Issue 4: Super+Number Task-Manager Shortcuts Target Primary Display Only
+
+### Status: ⚠️ Transient / upstream KDE bug
+
+### Problem
+On a multi-monitor Plasma 6 Wayland setup, pressing `Meta+1`..`Meta+9` (task-manager entry shortcuts) only activates items on the **primary display's** task manager, regardless of which screen has the mouse pointer or focus.
+
+### Root Cause
+A regression in Plasma's task manager QML:
+```
+plasmashell: ContextMenu.qml:378: TypeError:
+Property 'currentDesktopByScreenGeometry' of object TaskManager::VirtualDesktopInfo(...) is not a function
+```
+`currentDesktopByScreenGeometry` was removed/renamed in Plasma 6.6.x, and the task manager code still calls it. When the call fails, shortcut routing falls back to the primary screen.
+
+### Workaround
+Restarting `plasmashell` temporarily restores correct behavior:
+```bash
+killall plasmashell && kstart6 plasmashell
+```
+
+### Files/Settings
+- Task manager config: `~/.config/plasma-org.kde.plasma.desktop-appletsrc`
+- Task manager shortcuts: `~/.config/kglobalshortcutsrc` (`activate task manager entry N`)
+
+### Upstream
+This needs a fix in `plasma-desktop` / `org.kde.plasma.taskmanager`. The broken function reference must be updated to the current virtual-desktop API.
+
+---
+
 ## Summary
 
 | Issue | Status | What Was Done |
@@ -225,7 +255,8 @@ killall code; code &
 | Hubstaff tray minimize | ✅ Fixed | Native tray settings (`taskbar_behavior=1`, `main_window_close_action=2`) + KWin rule fallback |
 | Image paste failures | ✅ Fixed | Dual clipboard bridge (X11 + Wayland) |
 | Elastic overscroll | ✅ Fixed | App-level flags for VS Code:, Chrome, Edge, Librewolf |
+| Super+Number task manager routing | ⚠️ Watch / upstream | Documented; workaround: restart `plasmashell` |
 
 ---
 
-*Last updated: 2026-06-09*
+*Last updated: 2026-06-18*
