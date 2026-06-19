@@ -14,8 +14,10 @@
 #include <config-workspace.h>
 
 #include <QApplication>
+#include <QCursor>
 #include <QDBusConnection>
 #include <QDebug>
+#include <QGuiApplication>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QMenu>
@@ -3082,11 +3084,15 @@ void ShellCorona::activateTaskManagerEntry(int index)
         return false;
     };
 
-    // To avoid overly complex configuration, we'll try to get the 90% usecase to work
-    // which is activating a task on the task manager on a panel on the primary screen.
+    // Use the screen under the cursor so Meta+Number activates tasks on the
+    // display the user is currently pointing at, instead of always the primary.
+    int activeScreenId = m_screenPool->primaryScreen();
+    if (QScreen *cursorScreen = QGuiApplication::screenAt(QCursor::pos())) {
+        activeScreenId = m_screenPool->idForScreen(cursorScreen);
+    }
 
     for (auto it = m_panelViews.constBegin(), end = m_panelViews.constEnd(); it != end; ++it) {
-        if (it.value()->screen() != m_screenPool->primaryScreen()) {
+        if (it.value()->screen() != activeScreenId) {
             continue;
         }
         if (activateTaskManagerEntryOnContainment(it.key(), index)) {
@@ -3094,7 +3100,7 @@ void ShellCorona::activateTaskManagerEntry(int index)
         }
     }
 
-    // we didn't find anything on primary, try all the panels
+    // we didn't find anything on the active screen, try all the panels
     for (auto it = m_panelViews.constBegin(), end = m_panelViews.constEnd(); it != end; ++it) {
         if (activateTaskManagerEntryOnContainment(it.key(), index)) {
             return;
