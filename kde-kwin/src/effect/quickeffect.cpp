@@ -522,7 +522,9 @@ void QuickSceneEffect::removeScreen(LogicalOutput *screen)
 
 void QuickSceneEffect::startInternal()
 {
+    qCDebug(LIBKWINEFFECTS) << "QuickSceneEffect::startInternal" << this << "activeFullScreenEffect=" << effects->activeFullScreenEffect() << "running=" << d->running;
     if (effects->activeFullScreenEffect()) {
+        qCDebug(LIBKWINEFFECTS) << "QuickSceneEffect::startInternal blocked by active fullscreen effect" << effects->activeFullScreenEffect();
         return;
     }
 
@@ -565,6 +567,7 @@ void QuickSceneEffect::startInternal()
 
     effects->setActiveFullScreenEffect(this);
     d->running = true;
+    qCDebug(LIBKWINEFFECTS) << "QuickSceneEffect::startInternal started" << this << "running=" << d->running;
 
     // Install an event filter to monitor cursor shape changes.
     qApp->installEventFilter(this);
@@ -612,6 +615,7 @@ void QuickSceneEffect::startInternal()
 
 void QuickSceneEffect::stopInternal()
 {
+    qCDebug(LIBKWINEFFECTS) << "QuickSceneEffect::stopInternal" << this << "running=" << d->running;
     Q_EMIT deactivated();
 
     disconnect(effects, &EffectsHandler::screenAdded, this, &QuickSceneEffect::handleScreenAdded);

@@ -200,7 +200,9 @@ bool GlobalShortcutsManager::processKey(Qt::KeyboardModifiers mods, int keyQt, K
                                       Q_ARG(KeyboardKeyState, keyState));
             return retVal;
         };
+        qCDebug(KWIN_CORE) << "GlobalShortcutsManager::processKey mods=" << mods << "key=" << keyQt << "state=" << int(state);
         if (check(mods, keyQt, state)) {
+            qCDebug(KWIN_CORE) << "GlobalShortcutsManager::processKey matched key=" << keyQt;
             return true;
         } else if (keyQt == Qt::Key_Backtab) {
             // KGlobalAccel on X11 has some workaround for Backtab
@@ -217,6 +219,9 @@ bool GlobalShortcutsManager::processKey(Qt::KeyboardModifiers mods, int keyQt, K
                 return true;
             }
         }
+        qCDebug(KWIN_CORE) << "GlobalShortcutsManager::processKey no match for key=" << keyQt;
+    } else {
+        qCDebug(KWIN_CORE) << "GlobalShortcutsManager::processKey no kglobalaccel interface";
     }
 #endif
     return false;

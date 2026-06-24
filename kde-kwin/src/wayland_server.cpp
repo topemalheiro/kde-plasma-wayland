@@ -21,6 +21,7 @@
 #include "layershellv1window.h"
 #include "main.h"
 #include "options.h"
+#include "utils/common.h"
 #include "utils/envvar.h"
 #include "utils/kernel.h"
 #include "utils/serviceutils.h"
@@ -674,13 +675,13 @@ void WaylandServer::initScreenLocker()
 
     connect(screenLockerApp, &ScreenLocker::KSldApp::lockStateChanged, this, &WaylandServer::lockStateChanged);
 
-    connect(ScreenLocker::KSldApp::self(), &ScreenLocker::KSldApp::inhibitSuspend, this, [this]() {
+    connect(ScreenLocker::KSldApp::self(), &ScreenLocker::KSldApp::inhibit, this, [this]() {
         if (m_sleepInhibitor) {
             return;
         }
         m_sleepInhibitor = kwinApp()->session()->delaySleep(QStringLiteral("Ensuring that the screen gets locked before going to sleep"));
     });
-    connect(ScreenLocker::KSldApp::self(), &ScreenLocker::KSldApp::uninhibitSuspend, this, [this]() {
+    connect(ScreenLocker::KSldApp::self(), &ScreenLocker::KSldApp::uninhibit, this, [this]() {
         m_sleepInhibitor.reset();
     });
 
@@ -819,10 +820,12 @@ bool WaylandServer::isKeyboardShortcutsInhibited() const
     if (surface) {
         auto inhibitor = keyboardShortcutsInhibitManager()->findInhibitor(surface, seat());
         if (inhibitor && inhibitor->isActive()) {
+            qCDebug(KWIN_CORE) << "isKeyboardShortcutsInhibited: inhibited by surface" << surface << "inhibitor active";
             return true;
         }
 #if KWIN_BUILD_X11
         if (m_xWaylandKeyboardGrabManager->hasGrab(surface, seat())) {
+            qCDebug(KWIN_CORE) << "isKeyboardShortcutsInhibited: inhibited by xwayland grab on surface" << surface;
             return true;
         }
 #endif

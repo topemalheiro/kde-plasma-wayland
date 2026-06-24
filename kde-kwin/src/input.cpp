@@ -73,6 +73,7 @@
 #include <xkbcommon/xkbcommon.h>
 
 #include "osd.h"
+#include "utils/common.h"
 #include "wayland/xdgshell.h"
 #include <cmath>
 #include <linux/input.h>
@@ -1072,6 +1073,7 @@ public:
                 }
             }
         } else if (event->state == KeyboardKeyState::Repeated || event->state == KeyboardKeyState::Pressed) {
+            qCDebug(KWIN_CORE) << "keyboardKey Pressed/Repeated key=" << event->key << "mods=" << event->modifiersRelevantForGlobalShortcuts << "inhibited=" << waylandServer()->isKeyboardShortcutsInhibited();
             if (!waylandServer()->isKeyboardShortcutsInhibited()) {
                 if (input()->shortcuts()->processKey(event->modifiersRelevantForGlobalShortcuts, event->key, event->state)) {
                     input()->keyboard()->addFilteredKey(event->nativeScanCode);
@@ -1079,6 +1081,7 @@ public:
                 }
             }
         } else if (event->state == KeyboardKeyState::Released) {
+            qCDebug(KWIN_CORE) << "keyboardKey Released key=" << event->key << "mods=" << event->modifiersRelevantForGlobalShortcuts << "inhibited=" << waylandServer()->isKeyboardShortcutsInhibited();
             if (!waylandServer()->isKeyboardShortcutsInhibited()) {
                 return input()->shortcuts()->processKey(event->modifiersRelevantForGlobalShortcuts, event->key, event->state);
             }
