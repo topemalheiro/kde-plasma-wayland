@@ -19,7 +19,7 @@ Item {
 
     readonly property real desktopHeight: Kirigami.Units.gridUnit * 5
     readonly property real desktopWidth: desktopHeight * targetScreen.geometry.width / targetScreen.geometry.height
-    readonly property real columnHeight: desktopHeight + Kirigami.Units.gridUnit * 1.5
+    readonly property real columnHeight: desktopHeight + Kirigami.Units.gridUnit
     readonly property real columnWidth: desktopWidth + Kirigami.Units.gridUnit
     readonly property int desktopCount: desktopRepeater.count
 
@@ -190,7 +190,7 @@ Item {
                     Item {
                         id: label
                         width: bar.desktopWidth
-                        height: Kirigami.Units.gridUnit * 1.5
+                        height: Kirigami.Units.gridUnit
                         state: "normal"
 
                         PC3.Label {
@@ -201,7 +201,6 @@ Item {
                             horizontalAlignment: Text.AlignHCenter
                             verticalAlignment: Text.AlignVCenter
                             visible: label.state === "normal"
-                            font.pointSize: Math.max(Kirigami.Theme.defaultFont.pointSize * 1.75, 16)
                         }
 
                         MouseArea {
@@ -220,7 +219,6 @@ Item {
                                 bottomPadding: 0
                                 horizontalAlignment: Text.AlignHCenter
                                 verticalAlignment: Text.AlignVCenter
-                                font.pointSize: Math.max(Kirigami.Theme.defaultFont.pointSize * 1.75, 16)
                                 text: delegate.desktop.name
                                 onEditingFinished: {
                                     delegate.desktop.name = text;
