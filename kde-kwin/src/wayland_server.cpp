@@ -820,12 +820,10 @@ bool WaylandServer::isKeyboardShortcutsInhibited() const
     if (surface) {
         auto inhibitor = keyboardShortcutsInhibitManager()->findInhibitor(surface, seat());
         if (inhibitor && inhibitor->isActive()) {
-            qCDebug(KWIN_CORE) << "isKeyboardShortcutsInhibited: inhibited by surface" << surface << "inhibitor active";
             return true;
         }
 #if KWIN_BUILD_X11
         if (m_xWaylandKeyboardGrabManager->hasGrab(surface, seat())) {
-            qCDebug(KWIN_CORE) << "isKeyboardShortcutsInhibited: inhibited by xwayland grab on surface" << surface;
             return true;
         }
 #endif

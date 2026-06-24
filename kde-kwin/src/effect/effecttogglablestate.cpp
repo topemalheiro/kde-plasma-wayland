@@ -111,7 +111,6 @@ void EffectTogglableState::partialDeactivate(qreal factor)
 
 void EffectTogglableState::toggle()
 {
-    qDebug() << "EffectTogglableState::toggle current status=" << m_status;
     if (m_status != Status::Active) {
         activate();
         Q_EMIT activated();

@@ -49,7 +49,6 @@ OverviewEffect::OverviewEffect()
     connect(m_overviewState, &EffectTogglableState::partialActivationFactorChanged, this, &OverviewEffect::overviewPartialActivationFactorChanged);
 
     connect(m_overviewState, &EffectTogglableState::statusChanged, this, [this](EffectTogglableState::Status status) {
-        qDebug() << "Overview state changed to" << status;
         if (status == EffectTogglableState::Status::Activating || status == EffectTogglableState::Status::Active) {
             setSearchText(QString());
             setRunning(true);
@@ -68,7 +67,6 @@ OverviewEffect::OverviewEffect()
     });
 
     connect(m_transitionState, &EffectTogglableState::statusChanged, this, [this](EffectTogglableState::Status status) {
-        qDebug() << "Transition state changed to" << status;
         if (status == EffectTogglableState::Status::Activating || status == EffectTogglableState::Status::Active) {
             m_overviewState->stop();
         }
@@ -84,7 +82,6 @@ OverviewEffect::OverviewEffect()
     });
 
     connect(m_gridState, &EffectTogglableState::statusChanged, this, [this](EffectTogglableState::Status status) {
-        qDebug() << "Grid state changed to" << status;
         if (status == EffectTogglableState::Status::Activating || status == EffectTogglableState::Status::Active) {
             setSearchText(QString());
             setRunning(true);
@@ -152,14 +149,12 @@ OverviewEffect::OverviewEffect()
     overviewAction->setObjectName(QStringLiteral("Overview"));
     overviewAction->setText(i18nc("@action Overview is the name of a Kwin effect", "Toggle Overview"));
     overviewAction->setAutoRepeat(false);
-    connect(overviewAction, &QAction::triggered, this, [] { qDebug() << "Overview action triggered"; });
     KGlobalAccel::self()->setGlobalShortcut(overviewAction, QKeySequence(Qt::META | Qt::Key_W));
 
     auto gridAction = m_gridState->toggleAction();
     gridAction->setObjectName(QStringLiteral("Grid View"));
     gridAction->setText(i18nc("@action Grid view is the name of a Kwin effect", "Toggle Grid View"));
     gridAction->setAutoRepeat(false);
-    connect(gridAction, &QAction::triggered, this, [] { qDebug() << "Grid View action triggered"; });
     KGlobalAccel::self()->setGlobalShortcut(gridAction, QKeySequence(Qt::META | Qt::Key_G));
 
     connect(effects, &EffectsHandler::screenAboutToLock, this, &OverviewEffect::deactivateNow);
