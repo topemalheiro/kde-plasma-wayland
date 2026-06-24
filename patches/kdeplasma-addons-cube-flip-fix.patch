@@ -1,22 +1,14 @@
 --- a/cube/contents/ui/CubeCameraController.qml
 +++ b/cube/contents/ui/CubeCameraController.qml
-@@ -78,10 +78,14 @@
-     function updateCamera() {
-         const eulerRotation = root.rotation.toEulerAngles();
-         const theta = (eulerRotation.x + 90) * Math.PI / 180;
-         const phi = eulerRotation.y * Math.PI / 180;
- 
--        camera.position = Qt.vector3d(radius * Math.sin(phi) * Math.sin(theta),
--                                      radius * Math.cos(theta),
--                                      radius * Math.cos(phi) * Math.sin(theta));
+@@ -83,7 +83,9 @@
+         camera.position = Qt.vector3d(radius * Math.sin(phi) * Math.sin(theta),
+                                       radius * Math.cos(theta),
+                                       radius * Math.cos(phi) * Math.sin(theta));
 -        camera.rotation = root.rotation;
-+        // Position the camera on the opposite side of the cube so it looks at
-+        // the front faces instead of the back faces. This fixes the upside-down
-+        // and left/right mirrored view on Plasma 6.7+.
-+        camera.position = Qt.vector3d(-radius * Math.sin(phi) * Math.sin(theta),
-+                                      -radius * Math.cos(theta),
-+                                      -radius * Math.cos(phi) * Math.sin(theta));
-+        camera.rotation = root.rotation.times(Quaternion.fromEulerAngles(0, 180, 0));
++        // The camera sees the back of the outward-facing cube faces, which
++        // renders upside-down and mirrored left/right. Rotate the camera
++        // 180° around its forward axis to flip the image back to normal.
++        camera.rotation = root.rotation.times(Quaternion.fromEulerAngles(0, 0, 180));
      }
  
      FrameAnimation {
