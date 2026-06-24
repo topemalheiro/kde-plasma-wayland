@@ -1,0 +1,11 @@
+--- a/cube/contents/ui/CubeCameraController.qml
++++ b/cube/contents/ui/CubeCameraController.qml
+@@ -83,7 +83,7 @@
+         camera.position = Qt.vector3d(radius * Math.sin(phi) * Math.sin(theta),
+                                       radius * Math.cos(theta),
+                                       radius * Math.cos(phi) * Math.sin(theta));
+-        camera.rotation = root.rotation;
++        camera.rotation = root.rotation.times(Quaternion.fromEulerAngles(0, 0, 180));
+     }
+ 
+     FrameAnimation {
