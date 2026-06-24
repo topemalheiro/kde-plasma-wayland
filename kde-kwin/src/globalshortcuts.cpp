@@ -130,6 +130,7 @@ void GlobalShortcutsManager::reRegisterKWinShortcuts()
         QStringLiteral("KWin"),
         QString(),
     };
+    m_kglobalAccel->activateGlobalShortcutContext(QStringLiteral("kwin"), QStringLiteral("default"));
     const QList<QStringList> actions = m_kglobalAccel->allActionsForComponent(kwinComponentId);
     for (const QStringList &actionId : actions) {
         if (actionId.size() != 4) {

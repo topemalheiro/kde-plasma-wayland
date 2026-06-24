@@ -2993,6 +2993,11 @@ void InputRedirection::setupWorkspace()
             m_shortcuts->reRegisterKWinShortcuts();
         }
     });
+    connect(workspace(), &Workspace::currentDesktopChanged, this, [this]() {
+        if (m_shortcuts) {
+            m_shortcuts->reRegisterKWinShortcuts();
+        }
+    });
 
     m_keyboard->init();
     m_pointer->init();
