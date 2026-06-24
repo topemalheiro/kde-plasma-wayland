@@ -777,6 +777,7 @@ FocusScope {
                         verticalAlignment: Text.AlignVCenter
                         elide: Text.ElideRight
                         width: parent.width - Kirigami.Units.largeSpacing
+                        font.pointSize: Math.max(Kirigami.Theme.defaultFont.pointSize * 2.25, 20)
                     }
 
                     TapHandler {
