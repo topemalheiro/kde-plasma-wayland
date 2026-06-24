@@ -115,6 +115,15 @@ public:
 
     void cancelModiferOnlySequence();
 
+    /**
+     * @brief Re-registers all KWin component global shortcuts with kglobalacceld.
+     *
+     * This is used to recover from situations where KWin's global shortcuts become
+     * inactive, e.g. after system resume or output changes. It marks the kwin
+     * component's shortcuts as present again and ensures they are activated.
+     */
+    void reRegisterKWinShortcuts();
+
 private:
     void objectDeleted(QObject *object);
     bool add(GlobalShortcut sc, DeviceType device = DeviceType::Touchpad);

@@ -11,6 +11,7 @@
 // config
 #include "config-kwin.h"
 // kwin
+#include "core/session.h"
 #include "effect/globals.h"
 #include "gestures.h"
 #include "main.h"
@@ -103,7 +104,41 @@ void GlobalShortcutsManager::init()
     } else {
         m_kglobalAccelInterface = m_kglobalAccel->interface();
         qCDebug(KWIN_CORE) << "KGlobalAcceld inited";
+
+        if (Session *session = kwinApp()->session()) {
+            connect(session, &Session::awoke, this, &GlobalShortcutsManager::reRegisterKWinShortcuts);
+            connect(session, &Session::activeChanged, this, [this](bool active) {
+                if (active) {
+                    reRegisterKWinShortcuts();
+                }
+            });
+        }
     }
+#endif
+}
+
+void GlobalShortcutsManager::reRegisterKWinShortcuts()
+{
+#if KWIN_BUILD_GLOBALSHORTCUTS
+    if (!m_kglobalAccel) {
+        return;
+    }
+    qCDebug(KWIN_CORE) << "Re-registering KWin global shortcuts after session event";
+    const QStringList kwinComponentId = {
+        QStringLiteral("kwin"),
+        QString(),
+        QStringLiteral("KWin"),
+        QString(),
+    };
+    const QList<QStringList> actions = m_kglobalAccel->allActionsForComponent(kwinComponentId);
+    for (const QStringList &actionId : actions) {
+        if (actionId.size() != 4) {
+            continue;
+        }
+        const QList<QKeySequence> keys = m_kglobalAccel->shortcutKeys(actionId);
+        m_kglobalAccel->setShortcutKeys(actionId, keys, KGlobalAccelD::SetPresent);
+    }
+    m_kglobalAccel->blockGlobalShortcuts(false);
 #endif
 }
 

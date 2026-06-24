@@ -2988,6 +2988,11 @@ void InputRedirection::init()
 void InputRedirection::setupWorkspace()
 {
     connect(workspace(), &Workspace::outputsChanged, this, &InputRedirection::updateScreens);
+    connect(workspace(), &Workspace::outputsChanged, this, [this]() {
+        if (m_shortcuts) {
+            m_shortcuts->reRegisterKWinShortcuts();
+        }
+    });
 
     m_keyboard->init();
     m_pointer->init();
