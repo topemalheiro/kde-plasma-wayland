@@ -57,6 +57,7 @@ USER_PKGS=(
     firefox chromium
     code docker docker-compose
     flatpak pacman-contrib
+    github-cli
     p7zip unzip unrar
     pipewire pipewire-pulse pipewire-alsa pipewire-jack
     wireplumber
