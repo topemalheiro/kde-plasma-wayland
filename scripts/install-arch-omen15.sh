@@ -337,6 +337,12 @@ install_bootloader() {
     # ESP is already mounted at /boot from format_partitions
     arch-chroot /mnt/archroot bootctl install
 
+    # Some UEFI firmware doesn't create the boot entry from bootctl install,
+    # so explicitly add it with efibootmgr.
+    arch-chroot /mnt/archroot efibootmgr --create --disk "${DISK}" --part "${ARCH_ESP_PART##*p}" \
+        --loader '\\EFI\\systemd\\systemd-bootx64.efi' \
+        --label 'Arch Linux' || true
+
     local root_uuid
     root_uuid=$(lsblk -no UUID "${ARCH_ROOT_PART}")
 
