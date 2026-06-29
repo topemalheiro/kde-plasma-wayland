@@ -72,3 +72,10 @@ __pycache__/
 
 # Local screenshots / images not meant for the repo
 image/
+
+# Secrets / tokens / local env files
+.env
+.env.*
+*.token
+*.key
+secrets/

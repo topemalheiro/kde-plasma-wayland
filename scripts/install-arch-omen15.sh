@@ -24,6 +24,9 @@ set -euo pipefail
 DISK="${DISK:-/dev/nvme0n1}"        # Whole system disk
 WIPE_DISK="${WIPE_DISK:-false}"     # Set to true to wipe the entire disk
 
+# GH_TOKEN: pass at runtime only (GH_TOKEN=xxx ./script.sh).
+# NEVER hardcode a GitHub token in this file.
+
 # Used when WIPE_DISK=true
 ESP_SIZE="+1G"                      # EFI partition size
 SWAP_SIZE=""                        # Leave empty for no swap, e.g. "+8G"
