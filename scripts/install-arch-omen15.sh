@@ -177,7 +177,9 @@ wipe_and_partition_disk() {
     # Unmount any partitions on the target disk before wiping
     for part in "${DISK}"*; do
         [ -b "$part" ] || continue
-        findmnt -n -o TARGET "$part" 2>/dev/null | while read -r mp; do
+        local mps
+        mps=$(findmnt -n -o TARGET "$part" 2>/dev/null) || true
+        for mp in $mps; do
             umount -R "$mp" 2>/dev/null || true
         done
     done
