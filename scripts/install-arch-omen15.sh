@@ -114,8 +114,12 @@ check_live_env() {
         fi
     fi
 
-    if [[ -d /mnt/archroot ]]; then
-        log_warn "/mnt/archroot already exists"
+    # Unmount any leftover archroot from a previous run
+    if findmnt /mnt/archroot >/dev/null 2>&1; then
+        log_warn "/mnt/archroot is already mounted; unmounting ..."
+        if [ "$DRY_RUN" = false ]; then
+            umount -R /mnt/archroot
+        fi
     fi
 
     # Refuse to run if the target root partition is mounted as /
@@ -170,9 +174,19 @@ wipe_and_partition_disk() {
         return
     fi
 
+    # Unmount any partitions on the target disk before wiping
+    for part in "${DISK}"*; do
+        [ -b "$part" ] || continue
+        findmnt -n -o TARGET "$part" 2>/dev/null | while read -r mp; do
+            umount -R "$mp" 2>/dev/null || true
+        done
+    done
+
     # Wipe disk
     wipefs -af "${DISK}"
     sgdisk -Zo "${DISK}"
+    partprobe -s "${DISK}" 2>/dev/null || true
+    sleep 3
 
     # Create EFI partition
     sgdisk -n 0:0:"${ESP_SIZE}" -t 0:ef00 -c 0:"EFI System" "${DISK}"
