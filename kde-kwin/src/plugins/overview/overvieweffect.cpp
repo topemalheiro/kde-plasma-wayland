@@ -49,8 +49,10 @@ OverviewEffect::OverviewEffect()
     connect(m_overviewState, &EffectTogglableState::partialActivationFactorChanged, this, &OverviewEffect::overviewPartialActivationFactorChanged);
 
     connect(m_overviewState, &EffectTogglableState::statusChanged, this, [this](EffectTogglableState::Status status) {
+        qWarning() << "KWIN_OVERVIEW m_overviewState statusChanged" << int(status);
         if (status == EffectTogglableState::Status::Activating || status == EffectTogglableState::Status::Active) {
             setSearchText(QString());
+            qWarning() << "KWIN_OVERVIEW setRunning(true) from overviewState";
             setRunning(true);
             m_gridState->stop();
         }
@@ -82,8 +84,10 @@ OverviewEffect::OverviewEffect()
     });
 
     connect(m_gridState, &EffectTogglableState::statusChanged, this, [this](EffectTogglableState::Status status) {
+        qWarning() << "KWIN_OVERVIEW m_gridState statusChanged" << int(status);
         if (status == EffectTogglableState::Status::Activating || status == EffectTogglableState::Status::Active) {
             setSearchText(QString());
+            qWarning() << "KWIN_OVERVIEW setRunning(true) from gridState";
             setRunning(true);
             m_overviewState->stop();
         }
@@ -298,6 +302,7 @@ bool OverviewEffect::borderActivated(ElectricBorder border)
 
 void OverviewEffect::activate()
 {
+    qWarning() << "KWIN_OVERVIEW activate() screenLocked=" << effects->isScreenLocked();
     if (effects->isScreenLocked()) {
         return;
     }
@@ -322,6 +327,7 @@ void OverviewEffect::deactivateNow()
 
 void OverviewEffect::cycle()
 {
+    qWarning() << "KWIN_OVERVIEW cycle() overview=" << int(m_overviewState->status()) << "transition=" << int(m_transitionState->status()) << "grid=" << int(m_gridState->status());
     if (m_overviewState->status() == EffectTogglableState::Status::Inactive) {
         m_overviewState->activate();
     } else if (m_transitionState->status() == EffectTogglableState::Status::Inactive) {

@@ -1,0 +1,36 @@
+From 1cc52c840dd716143ca8fb97a64fec67f86c333a Mon Sep 17 00:00:00 2001
+From: topemalheiro <topemalheiro@hotmail.com>
+Date: Wed, 24 Jun 2026 05:17:51 +0100
+Subject: [PATCH] Fix all-day event date corruption for EAS 16.1 (Oct-Dec)
+
+The local pad() helper in getIsoUtcString() returned a raw Number for
+values >= 10. When building the fake-UTC date-only string used for
+EAS 16.1 all-day events, the first concatenation was:
+
+  UTC.year (Number) + pad(UTC.month + 1) (Number for Oct-Dec)
+
+which performed arithmetic instead of string concatenation, yielding
+malformed dates like 203607T000000Z for 2026-10-07.
+
+Always returning a String from pad() forces concatenation for all
+month/day/hour/minute/second values.
+---
+ content/includes/tools.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/content/includes/tools.js b/content/includes/tools.js
+index 122606f..8da8e8f 100644
+--- a/content/includes/tools.js
++++ b/content/includes/tools.js
+@@ -285,7 +285,7 @@ var tools = {
+             if (number < 10) {
+                 return '0' + number;
+             }
+-            return number;
++            return number.toString();
+         }
+         
+         if (onlyDate && fakeUTC) {
+-- 
+2.54.0
+

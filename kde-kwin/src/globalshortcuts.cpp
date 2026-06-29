@@ -123,15 +123,15 @@ void GlobalShortcutsManager::reRegisterKWinShortcuts()
     if (!m_kglobalAccel) {
         return;
     }
-    qCDebug(KWIN_CORE) << "Re-registering KWin global shortcuts after session event";
+    qWarning() << "KWIN_SHORTCUT Re-registering KWin global shortcuts after session event";
     const QStringList kwinComponentId = {
         QStringLiteral("kwin"),
         QString(),
         QStringLiteral("KWin"),
         QString(),
     };
-    m_kglobalAccel->activateGlobalShortcutContext(QStringLiteral("kwin"), QStringLiteral("default"));
     const QList<QStringList> actions = m_kglobalAccel->allActionsForComponent(kwinComponentId);
+    qWarning() << "KWIN_SHORTCUT reRegisterKWinShortcuts: found" << actions.size() << "actions";
     for (const QStringList &actionId : actions) {
         if (actionId.size() != 4) {
             continue;
@@ -225,6 +225,7 @@ void GlobalShortcutsManager::forceRegisterTouchscreenSwipe(SwipeDirection direct
 bool GlobalShortcutsManager::processKey(Qt::KeyboardModifiers mods, int keyQt, KeyboardKeyState state)
 {
 #if KWIN_BUILD_GLOBALSHORTCUTS
+    qWarning() << "KWIN_SHORTCUT processKey: mods=" << mods << "keyQt=" << keyQt << "state=" << int(state) << "interface=" << (m_kglobalAccelInterface ? "valid" : "null");
     if (m_kglobalAccelInterface) {
         auto check = [this](Qt::KeyboardModifiers mods, int keyQt, KeyboardKeyState keyState) {
             bool retVal = false;
@@ -237,6 +238,7 @@ bool GlobalShortcutsManager::processKey(Qt::KeyboardModifiers mods, int keyQt, K
             return retVal;
         };
         if (check(mods, keyQt, state)) {
+            qWarning() << "KWIN_SHORTCUT processKey: shortcut triggered for mods=" << mods << "keyQt=" << keyQt;
             return true;
         } else if (keyQt == Qt::Key_Backtab) {
             // KGlobalAccel on X11 has some workaround for Backtab
@@ -255,6 +257,7 @@ bool GlobalShortcutsManager::processKey(Qt::KeyboardModifiers mods, int keyQt, K
         }
     }
 #endif
+    qWarning() << "KWIN_SHORTCUT processKey: no shortcut for mods=" << mods << "keyQt=" << keyQt;
     return false;
 }
 
