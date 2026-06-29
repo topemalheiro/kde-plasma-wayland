@@ -73,6 +73,12 @@ for dir in */; do
 
     cd "$DESKTOP_DIR/$dir"
 
+    if [ -d .git ] && git remote get-url origin >/dev/null 2>&1; then
+        echo "  Already a git repo with remote; skipping"
+        cd "$DESKTOP_DIR"
+        continue
+    fi
+
     if [ ! -d .git ]; then
         git init
         git checkout -b main 2>/dev/null || git checkout -b master
