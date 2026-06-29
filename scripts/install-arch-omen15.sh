@@ -128,6 +128,18 @@ check_live_env() {
     fi
 }
 
+ensure_live_deps() {
+    # The live ISO does not always include git, which we need for cloning repos.
+    if ! command -v git >/dev/null 2>&1; then
+        log_info "Installing git in live environment ..."
+        if [ "$DRY_RUN" = true ]; then
+            echo "  DRY RUN: would run: pacman -Sy git --needed --noconfirm"
+        else
+            pacman -Sy git --needed --noconfirm
+        fi
+    fi
+}
+
 verify_partitions() {
     log_info "Current partition layout:"
     lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINT,PARTLABEL "${DISK}"
@@ -416,6 +428,7 @@ main() {
     fi
 
     check_live_env
+    ensure_live_deps
     verify_partitions
 
     echo
