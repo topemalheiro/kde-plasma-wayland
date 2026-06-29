@@ -23,6 +23,7 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 DISK="${DISK:-/dev/nvme0n1}"        # Whole system disk
 WIPE_DISK="${WIPE_DISK:-false}"     # Set to true to wipe the entire disk
+MINIMAL_INSTALL="${MINIMAL_INSTALL:-false}"  # Skip repo clone + KWin build; do those post-boot
 
 # GH_TOKEN: pass at runtime only (GH_TOKEN=xxx ./script.sh).
 # NEVER hardcode a GitHub token in this file.
@@ -456,8 +457,12 @@ main() {
         echo "  4. Install systemd-boot on ${ARCH_ESP_PART}"
     fi
     echo "  5. Create user ${USERNAME}"
-    echo "  6. Clone repos and recreate Desktop shortcuts"
-    echo "  7. Build and install the custom KWin fork"
+    if [ "$MINIMAL_INSTALL" = true ]; then
+        echo "  6. Finish (run post-install-setup.sh after first boot)"
+    else
+        echo "  6. Clone repos and recreate Desktop shortcuts"
+        echo "  7. Build and install the custom KWin fork"
+    fi
     echo
 
     if [ "$WIPE_DISK" = true ]; then
@@ -472,8 +477,14 @@ main() {
     configure_system
     install_bootloader
     create_user
-    clone_toolkit_and_run_setup
-    install_custom_kwin
+
+    if [ "$MINIMAL_INSTALL" = true ]; then
+        log_info "Minimal install: skipping repo setup and custom KWin build."
+        log_info "Run post-install-setup.sh after first boot to finish setup."
+    else
+        clone_toolkit_and_run_setup
+        install_custom_kwin
+    fi
 
     echo
     log_info "Done. Reboot into the new system:"
