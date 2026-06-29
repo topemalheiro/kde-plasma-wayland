@@ -253,6 +253,10 @@ format_partitions() {
         mount -o subvol=@ "${ARCH_ROOT_PART}" /mnt/archroot
         mkdir -p /mnt/archroot/home
         mount -o subvol=@home "${ARCH_ROOT_PART}" /mnt/archroot/home
+
+        # Mount ESP at /boot so kernels live on the ESP and genfstab picks it up
+        mkdir -p /mnt/archroot/boot
+        mount "${ARCH_ESP_PART}" /mnt/archroot/boot
     fi
 }
 
@@ -274,7 +278,6 @@ pacstrap_base() {
 generate_fstab() {
     log_info "Generating fstab ..."
     if [ "$DRY_RUN" = false ]; then
-        mkdir -p /mnt/archroot/efi
         genfstab -U /mnt/archroot >> /mnt/archroot/etc/fstab
     fi
 }
@@ -327,31 +330,28 @@ configure_system() {
 install_bootloader() {
     log_info "Installing systemd-boot on ${ARCH_ESP_PART} ..."
     if [ "$DRY_RUN" = true ]; then
-        echo "  DRY RUN: would run: bootctl install --esp-path=/efi"
+        echo "  DRY RUN: would run: bootctl install"
         return
     fi
 
-    mkdir -p /mnt/archroot/efi
-    mount "${ARCH_ESP_PART}" /mnt/archroot/efi
-    arch-chroot /mnt/archroot bootctl install --esp-path=/efi
+    # ESP is already mounted at /boot from format_partitions
+    arch-chroot /mnt/archroot bootctl install
 
     local root_uuid
     root_uuid=$(lsblk -no UUID "${ARCH_ROOT_PART}")
 
-    cat > "/mnt/archroot/efi/loader/entries/arch-linux.conf" <<EOF
+    cat > "/mnt/archroot/boot/loader/entries/arch-linux.conf" <<EOF
 title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /initramfs-linux.img
 options root=UUID=${root_uuid} rw rootflags=subvol=@ quiet
 EOF
 
-    cat > "/mnt/archroot/efi/loader/loader.conf" <<'EOF'
+    cat > "/mnt/archroot/boot/loader/loader.conf" <<'EOF'
 default arch-linux.conf
 timeout 5
 console-mode max
 EOF
-
-    umount /mnt/archroot/efi
 }
 
 create_user() {
