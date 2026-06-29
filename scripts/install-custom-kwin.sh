@@ -16,6 +16,15 @@ if [ "${1:-}" = "--dry-run" ]; then
     DRY_RUN=true
 fi
 
+# Auto-detect the KDE-Plasma-on-Wayland checkout.
+if [ -z "${KDE_ROOT:-}" ]; then
+    for candidate in "$HOME/Projects/KDE-Plasma-on-Wayland" "/home/tope/Projects/KDE-Plasma-on-Wayland"; do
+        if [ -f "$candidate/kde-kwin/CMakeLists.txt" ]; then
+            KDE_ROOT="$candidate"
+            break
+        fi
+    done
+fi
 KDE_ROOT="${KDE_ROOT:-$HOME/Projects/KDE-Plasma-on-Wayland}"
 KWIN_SRC="${KWIN_SRC:-$KDE_ROOT/kde-kwin}"
 KWIN_BUILD="${KWIN_BUILD:-$KWIN_SRC/build}"
@@ -42,7 +51,11 @@ die() { log_err "$1"; exit 1; }
 
 check_root() {
     if [[ $EUID -ne 0 ]]; then
-        die "This script must be run as root (e.g., sudo $0)"
+        if [ "$DRY_RUN" = true ]; then
+            log_warn "Not running as root, but dry-run mode allows testing."
+        else
+            die "This script must be run as root (e.g., sudo $0)"
+        fi
     fi
 }
 
