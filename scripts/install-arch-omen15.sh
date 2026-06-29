@@ -343,6 +343,15 @@ install_bootloader() {
         --loader '\\EFI\\systemd\\systemd-bootx64.efi' \
         --label 'Arch Linux' || true
 
+    # In full-wipe mode, remove leftover Windows Boot Manager entries from UEFI NVRAM.
+    if [ "$WIPE_DISK" = true ]; then
+        local win_entries
+        win_entries=$(arch-chroot /mnt/archroot efibootmgr -v 2>/dev/null | awk '/Windows Boot Manager/ {print $1}' | tr -d '*')
+        for entry in $win_entries; do
+            arch-chroot /mnt/archroot efibootmgr -b "$entry" -B
+        done
+    fi
+
     local root_uuid
     root_uuid=$(lsblk -no UUID "${ARCH_ROOT_PART}")
 
