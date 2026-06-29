@@ -51,7 +51,7 @@ GRAPHICS_PKGS=(
 )
 
 KDE_PKGS=(
-    plasma plasma-wayland-session kde-applications
+    plasma kde-applications
     sddm sddm-kcm
     konsole dolphin kate ark okular
     plasma-pa plasma-nm kwalletmanager
