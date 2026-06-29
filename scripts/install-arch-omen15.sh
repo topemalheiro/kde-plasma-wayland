@@ -275,7 +275,7 @@ clone_toolkit_and_run_setup() {
     git clone "https://github.com/topemalheiro/OS-Toolkit.git" "${user_projects}/OS-Toolkit"
 
     # Clone KDE-Plasma-on-Wayland for the setup script itself
-    git clone "https://github.com/topemalheiro/kde-plasma-wayland.git" "${user_projects}/KDE-Plasma-on-Wayland"
+    git clone --recurse-submodules "https://github.com/topemalheiro/kde-plasma-wayland.git" "${user_projects}/KDE-Plasma-on-Wayland"
 
     # Run setup as the new user inside the new root
     # (Network is available because resolv.conf was copied.)
@@ -284,6 +284,27 @@ clone_toolkit_and_run_setup() {
 
     # Fix ownership of everything in /home
     arch-chroot /mnt/archroot chown -R "${USERNAME}:${USERNAME}" "/home/${USERNAME}"
+}
+
+install_custom_kwin() {
+    log_info "Building and installing custom KWin ..."
+    if [ "$DRY_RUN" = true ]; then
+        echo "  DRY RUN: would run install-custom-kwin.sh in chroot"
+        return
+    fi
+
+    # KWin source was cloned as a submodule by clone_toolkit_and_run_setup
+    local kwin_script="/home/${USERNAME}/Projects/KDE-Plasma-on-Wayland/scripts/install-custom-kwin.sh"
+    local chroot_kwin_src="/home/${USERNAME}/Projects/KDE-Plasma-on-Wayland/kde-kwin"
+
+    if [ ! -d "/mnt/archroot${chroot_kwin_src}" ]; then
+        log_warn "Custom KWin source not found at /mnt/archroot${chroot_kwin_src}"
+        log_warn "Skipping custom KWin install. Run install-custom-kwin.sh manually after first boot."
+        return
+    fi
+
+    arch-chroot /mnt/archroot /bin/bash -c \
+        "KWIN_SRC=${chroot_kwin_src} ${kwin_script}"
 }
 
 main() {
@@ -308,6 +329,7 @@ main() {
     echo "  3. Install systemd-boot on ${ARCH_ESP_PART}"
     echo "  4. Create user ${USERNAME}"
     echo "  5. Clone repos and recreate Desktop shortcuts"
+    echo "  6. Build and install the custom KWin fork"
     echo
 
     confirm "Have you backed up all important data and booted from an Arch live USB?"
@@ -319,6 +341,7 @@ main() {
     install_bootloader
     create_user
     clone_toolkit_and_run_setup
+    install_custom_kwin
 
     echo
     log_info "Done. Reboot into the new system:"
