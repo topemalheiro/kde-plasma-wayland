@@ -366,6 +366,14 @@ create_user() {
     arch-chroot /mnt/archroot passwd "${USERNAME}"
 }
 
+auth_url() {
+    local url="$1"
+    if [ -n "${GH_TOKEN:-}" ]; then
+        url="${url/https:\/\/github.com\//https:\/\/${GH_TOKEN}@github.com\/}"
+    fi
+    echo "$url"
+}
+
 clone_toolkit_and_run_setup() {
     log_info "Cloning OS-Toolkit and KDE-Plasma-on-Wayland for post-install setup ..."
     if [ "$DRY_RUN" = true ]; then
@@ -380,15 +388,16 @@ clone_toolkit_and_run_setup() {
     cp /etc/resolv.conf /mnt/archroot/etc/resolv.conf
 
     # Clone OS-Toolkit first so manifests are available
-    git clone "https://github.com/topemalheiro/OS-Toolkit.git" "${user_projects}/OS-Toolkit"
+    git clone "$(auth_url 'https://github.com/topemalheiro/OS-Toolkit.git')" "${user_projects}/OS-Toolkit"
 
     # Clone KDE-Plasma-on-Wayland for the setup script itself
-    git clone --recurse-submodules "https://github.com/topemalheiro/kde-plasma-wayland.git" "${user_projects}/KDE-Plasma-on-Wayland"
+    git clone --recurse-submodules "$(auth_url 'https://github.com/topemalheiro/kde-plasma-wayland.git')" "${user_projects}/KDE-Plasma-on-Wayland"
 
     # Run setup as the new user inside the new root
     # (Network is available because resolv.conf was copied.)
+    # Pass GH_TOKEN through so private repo clones work unattended.
     arch-chroot /mnt/archroot /bin/bash -c \
-        "su - ${USERNAME} -c 'cd /home/${USERNAME}/Projects/KDE-Plasma-on-Wayland && ./scripts/setup-user-env.sh'"
+        "export GH_TOKEN='${GH_TOKEN:-}'; su - ${USERNAME} -c 'cd /home/${USERNAME}/Projects/KDE-Plasma-on-Wayland && ./scripts/setup-user-env.sh'"
 
     # Fix ownership of everything in /home
     arch-chroot /mnt/archroot chown -R "${USERNAME}:${USERNAME}" "/home/${USERNAME}"

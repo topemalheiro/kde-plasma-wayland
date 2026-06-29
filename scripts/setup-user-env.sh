@@ -37,6 +37,11 @@ clone_or_update() {
     local name
     name=$(basename "$dest")
 
+    # Inject GH_TOKEN into HTTPS URLs for private repos
+    if [ -n "${GH_TOKEN:-}" ]; then
+        url="${url/https:\/\/github.com\/ /https:\/\/${GH_TOKEN}@github.com\/}"
+    fi
+
     if [ -d "$dest/.git" ]; then
         log_info "Pulling $name ..."
         if [ "$DRY_RUN" = false ]; then
