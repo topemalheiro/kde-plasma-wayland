@@ -2,14 +2,16 @@
 # install-arch-omen15.sh — Reinstall Arch Linux + KDE Plasma on HP Omen 15 2018.
 #
 # Run this from an Arch Linux live USB as root.
-# It wipes and repartitions only the target Arch root partition; it tries not to
-# touch the Windows ESP or Windows partitions.
+#
+# Two modes:
+#   1. WIPE_DISK=true  — wipes the whole disk and creates a fresh GPT layout.
+#   2. WIPE_DISK=false — uses existing Arch partitions (for dual-boot reinstalls).
 #
 # Before running:
 #   1. Boot Arch ISO on the Omen 15.
 #   2. Connect to the internet (iwctl / dhcpcd).
-#   3. Review/edit the variables below (especially DISK and *_PART).
-#   4. If you want to keep Windows, ensure WIN_ESP_PART and WIN_PARTS are correct.
+#   3. Review/edit the variables below.
+#   4. Set WIPE_DISK=true if you want a clean install.
 #
 # Usage:
 #   ./install-arch-omen15.sh [--dry-run]
@@ -19,10 +21,17 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 # Configurable variables
 # ---------------------------------------------------------------------------
-DISK="/dev/nvme0n1"                 # Whole system disk
+DISK="${DISK:-/dev/nvme0n1}"        # Whole system disk
+WIPE_DISK="${WIPE_DISK:-false}"     # Set to true to wipe the entire disk
+
+# Used when WIPE_DISK=true
+ESP_SIZE="+1G"                      # EFI partition size
+SWAP_SIZE=""                        # Leave empty for no swap, e.g. "+8G"
+
+# Used when WIPE_DISK=false (existing Arch install)
 ARCH_ROOT_PART="${DISK}p5"          # Arch root partition to format
-ARCH_ESP_PART="${DISK}p7"           # Dedicated Arch ESP (created by separate-arch-esp.sh)
-WIN_ESP_PART="${DISK}p1"            # Shared/Windows ESP (do not touch)
+ARCH_ESP_PART="${DISK}p7"           # Dedicated Arch ESP
+
 HOSTNAME="omen15-arch"
 USERNAME="tope"
 TIMEZONE="Europe/Lisbon"
@@ -110,7 +119,7 @@ check_live_env() {
     fi
 
     # Refuse to run if the target root partition is mounted as /
-    if findmnt -n -o SOURCE / 2>/dev/null | grep -q "${ARCH_ROOT_PART}$"; then
+    if [ "$WIPE_DISK" = false ] && findmnt -n -o SOURCE / 2>/dev/null | grep -q "${ARCH_ROOT_PART}$"; then
         die "You appear to be running from the installed Arch system. Boot from a live USB first."
     fi
 }
@@ -120,12 +129,17 @@ verify_partitions() {
     lsblk -o NAME,SIZE,FSTYPE,MOUNTPOINT,PARTLABEL "${DISK}"
     echo
 
+    if [ "$WIPE_DISK" = true ]; then
+        log_warn "WIPE_DISK=true: the entire disk ${DISK} will be erased and repartitioned."
+        return
+    fi
+
     if [[ ! -b "${ARCH_ROOT_PART}" ]]; then
-        die "Arch root partition ${ARCH_ROOT_PART} not found. Aborting."
+        die "Arch root partition ${ARCH_ROOT_PART} not found. Set WIPE_DISK=true for a clean install, or adjust ARCH_ROOT_PART."
     fi
 
     if [[ ! -b "${ARCH_ESP_PART}" ]]; then
-        die "Arch ESP ${ARCH_ESP_PART} not found. Run separate-arch-esp.sh first, or adjust ARCH_ESP_PART."
+        die "Arch ESP ${ARCH_ESP_PART} not found. Set WIPE_DISK=true for a clean install, or adjust ARCH_ESP_PART."
     fi
 
     local esp_fs
@@ -135,7 +149,64 @@ verify_partitions() {
     fi
 }
 
+wipe_and_partition_disk() {
+    log_info "Wiping ${DISK} and creating fresh GPT layout ..."
+
+    # Compute new partition numbers even in dry-run so logs are accurate
+    ARCH_ESP_PART="${DISK}p1"
+    if [ -n "${SWAP_SIZE}" ]; then
+        ARCH_SWAP_PART="${DISK}p2"
+        ARCH_ROOT_PART="${DISK}p3"
+    else
+        ARCH_ROOT_PART="${DISK}p2"
+    fi
+
+    if [ "$DRY_RUN" = true ]; then
+        echo "  DRY RUN: would wipe ${DISK} and create partitions"
+        echo "  DRY RUN: new ESP=${ARCH_ESP_PART}, root=${ARCH_ROOT_PART}"
+        if [ -n "${ARCH_SWAP_PART:-}" ]; then
+            echo "  DRY RUN: new swap=${ARCH_SWAP_PART}"
+        fi
+        return
+    fi
+
+    # Wipe disk
+    wipefs -af "${DISK}"
+    sgdisk -Zo "${DISK}"
+
+    # Create EFI partition
+    sgdisk -n 0:0:"${ESP_SIZE}" -t 0:ef00 -c 0:"EFI System" "${DISK}"
+
+    # Optional swap partition
+    local next_part=2
+    if [ -n "${SWAP_SIZE}" ]; then
+        sgdisk -n 0:0:"${SWAP_SIZE}" -t 0:8200 -c 0:"Linux swap" "${DISK}"
+        next_part=3
+    fi
+
+    # Root partition (rest of disk)
+    sgdisk -n 0:0:0 -t 0:8300 -c 0:"Linux root" "${DISK}"
+
+    partprobe "${DISK}"
+    sleep 2
+
+    # Format ESP
+    mkfs.fat -F32 -n "EFI" "${ARCH_ESP_PART}"
+
+    # Format swap if present
+    if [ -n "${SWAP_SIZE:-}" ] && [ -n "${ARCH_SWAP_PART:-}" ]; then
+        mkswap -L "Swap" "${ARCH_SWAP_PART}"
+    fi
+
+    log_info "New layout:"
+    lsblk -o NAME,SIZE,FSTYPE,PARTLABEL "${DISK}"
+}
+
 format_partitions() {
+    if [ "$WIPE_DISK" = true ]; then
+        wipe_and_partition_disk
+    fi
+
     log_info "Formatting ${ARCH_ROOT_PART} as btrfs with @ and @home subvolumes ..."
     if [ "$DRY_RUN" = false ]; then
         mkfs.btrfs -f -L "ArchRoot" "${ARCH_ROOT_PART}"
@@ -211,6 +282,14 @@ configure_system() {
     arch-chroot /mnt/archroot systemctl enable bluetooth.service
     arch-chroot /mnt/archroot systemctl enable fstrim.timer
     arch-chroot /mnt/archroot systemctl enable docker.service
+
+    # Enable swap if created
+    if [ -n "${SWAP_SIZE:-}" ] && [ -n "${ARCH_SWAP_PART:-}" ]; then
+        arch-chroot /mnt/archroot swapon "${ARCH_SWAP_PART}" 2>/dev/null || true
+        local swap_uuid
+        swap_uuid=$(lsblk -no UUID "${ARCH_SWAP_PART}")
+        echo "UUID=${swap_uuid} none swap defaults 0 0" >> /mnt/archroot/etc/fstab
+    fi
 }
 
 install_bootloader() {
@@ -325,15 +404,26 @@ main() {
 
     echo
     log_warn "This will:"
-    echo "  1. Wipe and format ${ARCH_ROOT_PART} as btrfs"
-    echo "  2. Install Arch base system + KDE Plasma + Omen 15 drivers"
-    echo "  3. Install systemd-boot on ${ARCH_ESP_PART}"
-    echo "  4. Create user ${USERNAME}"
-    echo "  5. Clone repos and recreate Desktop shortcuts"
-    echo "  6. Build and install the custom KWin fork"
+    if [ "$WIPE_DISK" = true ]; then
+        echo "  1. WIPE THE ENTIRE DISK ${DISK}"
+        echo "  2. Create new EFI + btrfs root partitions"
+        echo "  3. Install Arch base system + KDE Plasma + Omen 15 drivers"
+        echo "  4. Install systemd-boot on the new EFI partition"
+    else
+        echo "  1. Wipe and format ${ARCH_ROOT_PART} as btrfs"
+        echo "  2. Install Arch base system + KDE Plasma + Omen 15 drivers"
+        echo "  4. Install systemd-boot on ${ARCH_ESP_PART}"
+    fi
+    echo "  5. Create user ${USERNAME}"
+    echo "  6. Clone repos and recreate Desktop shortcuts"
+    echo "  7. Build and install the custom KWin fork"
     echo
 
-    confirm "Have you backed up all important data and booted from an Arch live USB?"
+    if [ "$WIPE_DISK" = true ]; then
+        confirm "Have you backed up all important data? The entire disk will be erased."
+    else
+        confirm "Have you backed up any important data and booted from an Arch live USB?"
+    fi
 
     format_partitions
     pacstrap_base
