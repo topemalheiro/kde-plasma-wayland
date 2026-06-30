@@ -25,6 +25,26 @@ PROJECTS_MANIFEST="$OS_TOOLKIT_DIR/projects-repos-manifest.txt"
 DESKTOP_MANIFEST="$OS_TOOLKIT_DIR/desktop-repos-manifest.txt"
 FILE_MANIFEST="$OS_TOOLKIT_DIR/file-shortcuts-manifest.txt"
 
+# Exclusions (can be overridden by env)
+EXCLUDE_CV_FOLDER="${EXCLUDE_CV_FOLDER:-false}
+EXCLUDE_CV_PROJECT="${EXCLUDE_CV_PROJECT:-true}
+
+is_excluded_project() {
+    local folder="$1"
+    if [ "$EXCLUDE_CV_PROJECT" = "true" ] && [[ "$folder" == "CV Project" ]]; then
+        return 0
+    fi
+    return 1
+}
+
+is_excluded_desktop_folder() {
+    local folder="$1"
+    if [ "$EXCLUDE_CV_FOLDER" = "true" ] && [[ "$folder" == "CV" ]]; then
+        return 0
+    fi
+    return 1
+}
+
 log_info() { echo "[INFO] $1"; }
 log_warn() { echo "[WARN] $1"; }
 log_err() { echo "[ERROR] $1"; }
@@ -121,6 +141,11 @@ setup_projects() {
         [[ "$folder" =~ ^# ]] && continue
         [ -z "$folder" ] && continue
 
+        if is_excluded_project "$folder"; then
+            log_info "Skipping excluded project: $folder"
+            continue
+        fi
+
         dest="$PROJECTS_DIR/$folder"
         clone_or_update "$url" "$dest"
 
@@ -146,6 +171,11 @@ setup_desktop_folders() {
     while IFS=$'\t' read -r folder repo_name url; do
         [[ "$folder" =~ ^# ]] && continue
         [ -z "$folder" ] && continue
+
+        if is_excluded_desktop_folder "$folder"; then
+            log_info "Skipping excluded Desktop folder: $folder"
+            continue
+        fi
 
         local dest="$DESKTOP_DIR/$folder"
         clone_or_update "$url" "$dest"
